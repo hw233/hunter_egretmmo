@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterTransformDetailsItemItemSkin" width="305" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imageLine" source="ui_storyinstance_transform_Label1_png" x="0" y="0"/>
+		<e:Label id="lebelPlayerInfo" text="攻击力：+1000" x="73" y="10" anchorOffsetX="0" width="177" anchorOffsetY="0" height="40" size="20" textColor="0x000000" textAlign="left" verticalAlign="middle"/>
+		<e:Image id="imageGM" source="ui_hunter_collection_atk_png" x="19" y="10"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Chat_ListTextItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="80">
+	<e:Group x="0" y="0" width="79">
+		<e:Image id="imageBg" source="ui_groupfight_BoardShadow_png" x="0" y="0" width="79" height="30"/>
+		<e:Label id="labelNum" text="1" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" height="30" size="20" width="79" textAlign="center" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

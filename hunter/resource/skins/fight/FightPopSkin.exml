@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_battle_BoardPause_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="ButtonReturn" label="" verticalCenter="0" horizontalCenter="-145">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_battle_ButtonReturnNor_png" source.down="ui_battle_ButtonReturnSel_png" source.disabled="ui_arena_ButtonBattleReturnLookNor_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="ButtonQuit" label="" verticalCenter="0" horizontalCenter="145">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_battle_ButtonExitNor_png" source.down="ui_battle_ButtonExitSel_png" source.disabled="ui_battle_ButtonExitNor_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

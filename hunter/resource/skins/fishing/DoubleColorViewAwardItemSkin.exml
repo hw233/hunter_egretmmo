@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DoubleColorViewAwardItemSkin" width="662" height="92" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupCache" left="0" right="0" top="0" bottom="0" >
+			<e:Image source="ui_doublecolor_BoardListAward_png" width="662" height="92" scale9Grid="12,9,79,54" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_doublecolor_OrnLine_png" left="125" verticalCenter="0" x="125" y="6" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_doublecolor_OrnLine_png" horizontalCenter="53.5" verticalCenter="0.5" x="383" y="9" scaleX="1" scaleY="1"/>
+			<e:Image id="imgRank" source="ui_doublecolor_WordsAwardRank1_png" left="23" verticalCenter="0" x="23" y="31" scaleX="1" scaleY="1"/>
+			<e:Image id="imgOr" source="ui_doublecolor_WordsSeparate_png" x="132" y="33" scaleX="1" scaleY="1"/>
+		</e:Group>
+
+
+
+		<e:Scroller width="240" height="40" horizontalCenter="-82" verticalCenter="0">
+			<e:List id="lstFirst">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" columnWidth="38" verticalGap="2" horizontalGap="0"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group id="groupDouble" x="129" y="5">
+			<e:Scroller width="250" height="40" scaleX="0.9" scaleY="0.9" x="0" y="0" scrollPolicyH="off" scrollPolicyV="off">
+				<e:List id="lstA">
+					<e:layout>
+						<e:TileLayout requestedRowCount="1" horizontalGap="1" paddingTop="2"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Scroller width="250" height="40" scaleX="0.9" scaleY="0.9" x="0" y="45" scrollPolicyH="off" scrollPolicyV="off">
+				<e:List id="lstB" y="-1.11">
+					<e:layout>
+						<e:TileLayout requestedRowCount="1" horizontalGap="1" paddingTop="1"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+
+		</e:Group>
+
+		<e:Scroller width="260" height="80" verticalCenter="0" right="5" scrollPolicyH="off" scrollPolicyV="off">
+			<e:List id="lstAward">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" requestedColumnCount="3" verticalGap="6" paddingTop="4"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

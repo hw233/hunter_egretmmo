@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterCollectionItemSkin" width="440" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group height="60" width="440" x="0" y="0">
+		<e:Group id="groupIcon" left="21" verticalCenter="-2.5">
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="2"/>
+		<e:Image id="imgSkill" source="skill_icon_break_icon_huifutisheng_png" scaleX="0.5" scaleY="0.5" width="76" height="76" horizontalCenter="0" verticalCenter="0"/>
+		<e:BitmapLabel id="labelSkillLevel" width="40" height="23" text="9" font="ItemNumWords_fnt" scaleX="0.7" scaleY="0.7" right="-15" bottom="5"/>
+		</e:Group>
+		<e:Image id="imgProperty" source="ui_hunter_collection_atk_png" left="24" verticalCenter="-2"/>
+		<e:Label id="labelSkillName" text="攻击力+99999" size="18" left="85" top="2" width="300" textAlign="left" textColor="0x876014"/>
+		<e:Label id="labelPlayerInfo" text="攻击力+9999" verticalAlign="middle" left="85" verticalCenter="-2" size="20" textColor="0x000000" width="300" textAlign="left"/>
+
+		<e:Image id="imgDashed" source="ui_darkland_relic_Line1_png" width="387" height="2" scaleX="1.1" horizontalCenter="0" x="-13" scaleY="1" bottom="0"/>
+		<e:Scroller width="340" height="38" bottom="2" left="85" anchorOffsetY="0">
+			<e:Group width="340" height="38">
+				<e:Label id="labelInfo" text="+99999" size="16" textColor="0x000000" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="top" textAlign="left" scaleX="1" scaleY="1" width="340" left="0" top="0" height="38"/>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

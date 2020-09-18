@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_BattlePassMissionItemSkin" width="760" height="101" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_battlePass_SpriteMissionItem_png" x="0" y="0" scale9Grid="12,9,736,82"/>
+	<e:Label id="labelMission" text="任务一" left="26" verticalCenter="0.5" size="22" anchorOffsetX="0" width="316.66" fontFamily="Helvetica"/>
+	<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.7" scaleY="0.7" horizontalCenter="121" verticalCenter="0"/>
+	<e:Image id="imgIcon" source="hero_icon_head_wj_feitan_png" scaleX="0.7" scaleY="0.7" horizontalCenter="121" verticalCenter="0"/>
+	<e:BitmapLabel id="labelNum" width="75.04" height="22.14" x="476" y="58.5" font="ItemNumWords_fnt" text="123" anchorOffsetX="0" verticalAlign="middle" textAlign="right" scaleX="0.7" scaleY="0.7" anchorOffsetY="0"/>
+	<e:Button id="btnToDo" label="" horizontalCenter="270" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_battlePass_ButtonToDoNor_png" source.down="ui_battlePass_ButtonToDoSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="labelMissionNum" text="150/150" textColor="0x000000" size="22" horizontalCenter="4" verticalCenter="0"/>
+	<e:Image id="imgGet" source="ui_battlePass_WordsTipsGet_png" verticalCenter="0" horizontalCenter="270"/>
+</e:Skin>

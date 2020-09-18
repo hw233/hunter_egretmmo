@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityExchangeActivitySkin" width="660" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group right="1" verticalCenter="0.5" width="630" height="487" anchorOffsetX="0">
+		<e:Image id="imgTip" source="ui_acitivity_WordsTipChange_png" top="12" right="235" width="395"/>
+		<e:Scroller width="620" height="260" right="11" bottom="15">
+			<e:List id="lstView"/>
+		</e:Scroller>
+		<e:Image source="ui_acitivity_LayerSecondeSmall_png" height="88" scale9Grid="74,5,445,30" right="17" top="109"/>
+		<e:Image id="imgHunter" source="hero_half_wj_jin_png" scaleX="0.4" scaleY="0.4" anchorOffsetX="200" anchorOffsetY="140" right="1" top="1"/>
+		<e:Label text="活动时间：" size="16" fontFamily="Helvetica" textColor="0xfefb32" left="41" top="117"/>
+		<e:Label text="活动内容：" size="16" fontFamily="Helvetica" textColor="0xFEFB32" scaleX="1" scaleY="1" left="41" top="142"/>
+		<e:Label id="lbTime" text="2015-12-31 至 2015-12-31" size="16" fontFamily="Helvetica" left="121" top="117" width="320"/>
+		<e:Label id="lbInfo" text="累计充值到指定单位，即可领取奖励！还有什么要说的没有" anchorOffsetX="0" width="320" anchorOffsetY="0" height="70" size="16" fontFamily="Helvetica" lineSpacing="4" horizontalCenter="-31" top="142"/>
+	</e:Group>
+</e:Skin>

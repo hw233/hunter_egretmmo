@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaWholeAwardSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="675" height="544" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="675" height="500" scale9Grid="55,30,238,186" horizontalCenter="0" top="44"/>
+		<e:Image source="ui_mail_LayerMailFirst_png" width="645" height="415" scale9Grid="12,13,79,80" horizontalCenter="0" bottom="12"/>
+		<e:Button id="btnDayRank" label="" left="25" top="0" height="61" width="157">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_arena_ButtonNumTeamSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnYeserday" label="" left="152" top="0" height="61" width="157">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_arena_ButtonNumTeamNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnOne" label="" left="279" top="2" height="57" width="153">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_arena_ButtonWorldAwardNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnOneSelf" label="" left="407" top="3" height="57" width="153">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_arena_ButtonServerAwardNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnClose" label="" right="-12" top="12">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_arena_WordsAwardDaily_png" touchEnabled="false" left="55" top="14"/>
+		<e:Image source="ui_arena_WordsAwardSeason_png" touchEnabled="false" left="177" top="13"/>
+		<e:Group y="70" right="0" left="0">
+			<e:Image source="ui_arena_BoardInterPrompt_png" y="0" left="0" right="0"/>
+			<e:Label id="labelAwardRushTime" text="(每日    结算奖励)" textColor="0xff0000" size="18" verticalCenter="0.5" right="62" fontFamily="SimHei"/>
+			<e:Group id="Group1" verticalCenter="0" left="34" visible="false">
+				<e:Image source="ui_arena_WordsGradeDay_png" verticalCenter="0" left="0"/>
+				<e:Image id="imgGrade" source="ui_arena_grade_WordsDailyGrade9_png" verticalCenter="0" left="96"/>
+				<e:Image source="ui_arena_WordsJifen_png" verticalCenter="0" left="164"/>
+				<e:Label id="labelJifen" text="1999" size="22" textColor="0xfff500" left="266" verticalCenter="0"/>
+			</e:Group>
+			<e:Group id="Group2" verticalCenter="0" left="44">
+				<e:Image id="imgMyRankServer" source="ui_arena_WordsMyRankServer_png" verticalCenter="0" left="0"/>
+				<e:Image id="imgMyRankWorld" source="ui_arena_WordsMyRankWorld_png" verticalCenter="0" left="0"/>
+				<e:Label id="labelRank" text="第999名" size="20" textColor="0xffe000" verticalCenter="0" left="150"/>
+			</e:Group>
+		</e:Group>
+		<e:Scroller id="scroller" width="637" height="400" horizontalCenter="0" top="125">
+			<e:List id="listAward" y="1">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="1" verticalGap="15" paddingTop="15"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

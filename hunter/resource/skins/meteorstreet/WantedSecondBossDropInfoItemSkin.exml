@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WantedSecondBossDropInfoItemSkin" width="682" height="71" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group x="0" verticalCenter="0">
+			<e:Image width="140" height="69" source="ui_common_BoardCommonDropItem_png" scale9Grid="11,8,73,53" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image id="imgInstanceName" source="ui_instance_name_WordsInstanceNameNor1_png" scaleX="0.8" scaleY="0.8" verticalCenter="0" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group x="145" verticalCenter="0">
+			<e:Image width="530" height="69" source="ui_common_BoardCommonDropItem_png" scale9Grid="11,8,73,53" verticalCenter="0" horizontalCenter="0"/>
+			<e:Group x="26" verticalCenter="0">
+				<e:Label id="lbName1" text="第一关" size="20" fontFamily="Helvetica" textColor="0x000000" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" verticalCenter="0" left="0"/>
+				<e:Group id="groupItem1" verticalCenter="3" right="-84">
+					<e:Image id="imgFrame1" scaleX="0.7" scaleY="0.7" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imgIcon1" scaleX="0.7" scaleY="0.7" verticalCenter="0" horizontalCenter="0" source=""/>
+					<e:BitmapLabel id="lbItemNum1" scaleX="1" scaleY="1" font="ItemNumWords_fnt" text="1" right="7" bottom="13" touchEnabled="false"/>
+					<e:Group id="groupAnimation1" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0" touchEnabled="false" touchThrough="true"/>
+				</e:Group>
+			</e:Group>
+			<e:Group x="195" verticalCenter="0">
+				<e:Label id="lbName2" text="第二关" size="20" fontFamily="Helvetica" textColor="0x000000" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" verticalCenter="0" left="0"/>
+				<e:Group id="groupItem2" verticalCenter="3" right="-84">
+				<e:Image id="imgFrame2" scaleX="0.7" scaleY="0.7" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgIcon2" scaleX="0.7" scaleY="0.7" verticalCenter="0" horizontalCenter="0" source=""/>
+				<e:BitmapLabel id="lbItemNum2" scaleX="1" scaleY="1" font="ItemNumWords_fnt" text="1" right="7" bottom="13" touchEnabled="false"/>
+				<e:Group id="groupAnimation2" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0" touchEnabled="false" touchThrough="true"/>
+				</e:Group>
+			</e:Group>
+			<e:Group x="367" verticalCenter="0">
+				<e:Label id="lbName3" text="第三关" size="20" fontFamily="Helvetica" textColor="0x000000" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" verticalCenter="0" left="0"/>
+				<e:Group id="groupItem3" verticalCenter="3" right="-84">
+				<e:Image id="imgFrame3" scaleX="0.7" scaleY="0.7" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgIcon3" scaleX="0.7" scaleY="0.7" verticalCenter="0" horizontalCenter="0" source=""/>
+				<e:BitmapLabel id="lbItemNum3" scaleX="1" scaleY="1" font="ItemNumWords_fnt" text="1" right="7" bottom="13" touchEnabled="false"/>
+				<e:Group id="groupAnimation3" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0" touchEnabled="false" touchThrough="true"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

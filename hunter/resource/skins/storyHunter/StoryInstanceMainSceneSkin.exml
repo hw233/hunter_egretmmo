@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StoryInstanceMainSceneSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" verticalCenter="0" x="0" width="100%" height="100%">
+		<e:Image id="imageBG" source="ui_storyinstance_LayerBGMain_png" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+		<e:Image id="imageRole" source="ui_storyinstance_RoleKulapika_png" verticalCenter="0" horizontalCenter="-18"/>
+	</e:Group>
+	<e:Group id="groupRight" width="350" height="585" right="12" verticalCenter="14.5">
+		<e:Image source="ui_storyinstance_BoardMainInfo_png" x="0" y="0"/>
+		<e:Group id="groupRightItem1" y="38.5" horizontalCenter="0">
+			<e:Image source="ui_storyinstance_WordsTitleStarProgress_png" y="0" x="68"/>
+			<e:Image source="ui_storyinstance_BoardProgress_png" y="27" height="80" x="0"/>
+			<e:Group id="groupBurNormal" y="49.5" horizontalCenter="0">
+				<e:Image source="ui_storyinstance_IconProgress_png" x="0" y="0"/>
+				<e:Image source="ui_storyinstance_BoardBurProgress_png" x="63" y="15.5"/>
+				<e:Image id="imageBurNormal" source="ui_storyinstance_BurProgress_png" x="63" y="15.5"/>
+				<e:Image id="imageBurNormal2" source="ui_storyinstance_BurProgress_png" x="63" y="16"/>
+				<e:Label id="labelProgressNormal" text="22/30" x="131" y="17.5" anchorOffsetX="0" width="95" anchorOffsetY="0" height="17" size="18" textAlign="center" verticalAlign="middle" textColor="0x000000"/>
+			</e:Group>
+			<e:Group id="groupButHard" y="71" width="315" horizontalCenter="0.5" visible="false">
+				<e:Image source="ui_storyinstance_IconHard_png" x="0" y="0"/>
+				<e:Image source="ui_storyinstance_BoardBurProgress_png" x="72" y="10"/>
+				<e:Image id="imageBurHard" source="ui_storyinstance_BurProgress_png" x="72" y="10"/>
+				<e:Label id="labelProgressHard" text="22/23" x="136.5" y="12" size="16" anchorOffsetX="0" width="112" anchorOffsetY="0" height="18" textAlign="center" verticalAlign="middle"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupRghtItem2" x="11" y="166">
+			<e:Image source="ui_storyinstance_WordsTitleStrengthenHunter_png" y="0" x="66"/>
+			<e:Image source="ui_storyinstance_BoardStrengthenHunter_png" y="32" x="0"/>
+			<e:Image source="ui_storyinstance_BoardStrengthenHunterIcon_png" y="116" x="12"/>
+			<e:Image source="ui_storyinstance_BoardStrengthenHunterIcon_png" y="213" x="12"/>
+			<e:Label id="labelStoryInfo" text="强化猎人上阵时  副本掉落从道具产量提生（效果可以叠加）" y="45" anchorOffsetX="0" width="298" anchorOffsetY="0" height="65" size="16" textColor="0x819185" x="15"/>
+			<e:Group width="295.45" height="34.85" x="19" y="81.97" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Scroller width="100%" height="100%" x="0" y="0">
+					<e:List id="listBuffA">
+						<e:layout>
+							<e:TileLayout orientation="rows" requestedRowCount="1"/>
+						</e:layout>
+					</e:List>
+				</e:Scroller>
+			</e:Group>
+			<e:Group width="295.45" height="34.85" x="19.88" y="175.3" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Scroller width="100%" height="100%" x="0" y="0">
+				<e:List id="listBuffB">
+					<e:layout>
+						<e:TileLayout orientation="rows" requestedRowCount="1"/>
+					</e:layout>
+				</e:List>
+				</e:Scroller>
+			</e:Group>
+			<e:Group width="300" height="66" x="16.25" y="118.44" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Scroller width="100%" height="100%" x="0" y="0">
+				<e:List id="listHunterIconA">
+					<e:layout>
+						<e:HorizontalLayout/>
+					</e:layout>
+				</e:List>
+				</e:Scroller>
+			</e:Group>
+			<e:Group width="300" height="66" x="17.13" y="213.29" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Scroller width="100%" height="100%" x="0" y="0">
+				<e:List id="listHunterIconB">
+					<e:layout>
+						<e:HorizontalLayout/>
+					</e:layout>
+				</e:List>
+				</e:Scroller>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupRightItem3" horizontalCenter="0" bottom="17">
+			<e:Label id="labelStoryDuration" text="12/12 12:00 12/13 12:00" y="0" anchorOffsetX="0" width="327.85" anchorOffsetY="0" height="26.48" size="18" textColor="0x849987" textAlign="center" verticalAlign="middle" horizontalCenter="0"/>
+			<e:Label id="labelTimeLeft" text="剩余0天" y="28" anchorOffsetX="0" width="261.97" anchorOffsetY="0" height="19.52" textColor="0x000000" size="18" textAlign="center" verticalAlign="middle" horizontalCenter="0"/>
+			<e:Button id="buttonStart" label="" y="53" horizontalCenter="-1.5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_storyinstance_ButtonStartNor_png" source.down="ui_storyinstance_ButtonStartSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupLeft" width="290" height="640" left="0" top="0">
+		<e:Image source="ui_storyinstance_BoardInstanceList_png" x="0" y="0" width="290"/>
+		<e:Group width="290" height="577" anchorOffsetY="0" left="0" verticalCenter="31.5">
+			<e:Scroller width="100%" height="100%" x="0" y="0">
+				<e:List id="listSelectInstance"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Button id="buttonMall" label="" x="308.56" y="456" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_storyinstance_ButtonStoryMallNor_png" source.down="ui_storyinstance_ButtonStoryMallSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Image source="ui_hunter_OrnTop_png" horizontalCenter="0" top="0" width="100%"/>
+	<e:Group x="-24" y="-10">
+		<e:Image source="ui_storyinstance_WordsStory_png" x="132" y="6"/>
+		<e:Button id="buttonClose" label="" x="0" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

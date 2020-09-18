@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueMatchSelectDefenceFormationItemBSkin" width="49" height="47" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="0" x="0">
+		<e:Image id="imgHeroFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgAdd" source="ui_hunter_ButtonTeamAddNor_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0"/>
+
+
+		<e:Group id="groupAll" x="0" y="0" scaleX="0.5" scaleY="0.5">
+			<e:Image id="imgHeroHead" source="hero_icon_head_wj_libeiduo_png" x="0" y="0"/>
+			<e:Group id="groupStar" width="60" height="16" anchorOffsetY="0" x="19" y="4"/>
+			<e:BitmapLabel id="lbLevel" width="60" height="20" x="14" y="66" text="12" font="ItemNum_fnt"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

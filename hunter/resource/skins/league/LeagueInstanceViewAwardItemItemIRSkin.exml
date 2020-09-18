@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueInstanceViewAwardItemItemIRSkin" width="70" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetX="0" width="70" height="70" verticalCenter="0" horizontalCenter="0">
+		<e:Image id="imgBoard" width="95" height="93" source="ui_frame_FrameHunterAsh_png" verticalCenter="0" horizontalCenter="0" scaleX="0.7" scaleY="0.7"/>
+		<e:Image id="imgIcon" width="88" height="87" source="ui_huntericon_IconKuluoluo_png" verticalCenter="0" horizontalCenter="0" scaleX="0.7" scaleY="0.7"/>
+		<e:Label id="lbLevel" text="800000" width="65" height="20" size="18" verticalAlign="middle" textAlign="right" x="-3" y="44" bold="true" fontFamily="Helvetica"/>
+	</e:Group>
+</e:Skin>

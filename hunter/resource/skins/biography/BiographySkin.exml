@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BiographySkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16dfc9ea4ee" />
+
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Image verticalCenter="0" horizontalCenter="0"  source="ui_acitivity_biography_bg_jpg" width="100%" height="100%"/>
+		<e:Image source="ui_acitivity_biography_board_left_png" left="0" verticalCenter="-116"/>
+		<e:Image source="ui_acitivity_biography_title_qiangzhezhilu_png" left="0" top="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:Button id="btnClose" label="" left="0" top="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_biography_button_fanhuiNor_png" source.down="ui_acitivity_biography_button_fanhuiSel_png" source.disabled="ui_acitivity_biography_button_fanhuiDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+		</e:Button>
+
+		<e:Button id="btnLeft1" label="" left="0" verticalCenter="-170">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_biography_button_xinshoushanglu_2_png" source.disabled="ui_acitivity_biography_button_xinshoushanglu_1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+		</e:Button>
+		<e:Button id="btnLeft2" label="" left="0" verticalCenter="-90">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_biography_button_saodangliuxingjie_2_png" source.disabled="ui_acitivity_biography_button_saodangliuxingjie_1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="btnLeft3" label="" left="0" verticalCenter="-10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_biography_button_tiankongbazhu_2_png" source.disabled="ui_acitivity_biography_button_tiankongbazhu_1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="btnLeft4" label="" left="0" verticalCenter="70">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_biography_button_zuiqiangwangzhe_2_png" source.disabled="ui_acitivity_biography_button_zuiqiangwangzhe_1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+		</e:Button>
+
+
+		<e:Image id="imgRedTip1" source="ui_currencyicon_IconRed_png" left="153" verticalCenter="-193"/>
+		<e:Image id="imgRedTip2" source="ui_currencyicon_IconRed_png" left="153" verticalCenter="-113"/>
+		<e:Image id="imgRedTip3" source="ui_currencyicon_IconRed_png" left="153" verticalCenter="-35"/>
+		<e:Image id="imgRedTip4" source="ui_currencyicon_IconRed_png" left="153" verticalCenter="50"/>
+		<e:Group horizontalCenter="91" verticalCenter="0">
+			<e:Image source="ui_acitivity_biography_board_png" horizontalCenter="0" verticalCenter="32"/>
+			<e:Image id="imgBanner" anchorOffsetX="0" source="ui_acitivity_biography_banner1_png" horizontalCenter="0" verticalCenter="-197.5"/>
+			<e:Image id="imgHeroType" source="ui_acitivity_biography_WordType1_png" horizontalCenter="-170" verticalCenter="94"/>
+			<e:Image id="imgGetAllAward" source="ui_mall_gift_WordsGiftCommonGet_png" horizontalCenter="268" verticalCenter="245"/>
+			<e:Label id="labelMissionInfo" text="收集其中3种猎人" size="18" anchorOffsetX="0" width="149" anchorOffsetY="0" height="21.34" fontFamily="FangSong" strokeColor="0x38312c" horizontalCenter="-232" verticalCenter="249"/>
+			<e:Label id="labelMissionState" text="(2/3)" size="18" anchorOffsetX="0" width="72.34" anchorOffsetY="0" height="21.34" fontFamily="FangSong" strokeColor="0x38312c" textColor="0xffffff" horizontalCenter="-127" verticalCenter="249"/>
+			<e:Label id="labelHeroName" text="信长" size="18" anchorOffsetX="0" width="94" anchorOffsetY="0" height="22" fontFamily="FangSong" bold="true" textColor="0xeac72b" horizontalCenter="-264" verticalCenter="94"/>
+			<e:Label text="使用心得：" size="18" anchorOffsetX="0" width="94" anchorOffsetY="0" height="22" fontFamily="FangSong" bold="true" textColor="0xeac72b" horizontalCenter="-264" verticalCenter="121"/>
+			<e:Label text="角色定位：" size="18" anchorOffsetX="0" width="107.67" anchorOffsetY="0" height="23.33" fontFamily="FangSong" bold="true" verticalAlign="middle" textColor="0xeac72b" horizontalCenter="-257" verticalCenter="163"/>
+			<e:Label id="labelUserExperience" text="幻影旅团团长，号码1，特质系能力者，可偷取他人念能力为自己所用。" size="18" anchorOffsetX="0" width="390.81" anchorOffsetY="0" height="44.66" fontFamily="FangSong" lineSpacing="3" textColor="0xffffff" strokeColor="0x38312c" horizontalCenter="-23" verticalCenter="132"/>
+			<e:Label id="labelRoleDefinition" text="超强攻击 群体伤害" size="18" anchorOffsetX="0" width="349.67" anchorOffsetY="0" height="23.33" fontFamily="FangSong" verticalAlign="middle" textColor="0xffffff" strokeColor="0x38312c" horizontalCenter="-44" verticalCenter="163"/>
+			<e:Label id="labelTeamRecommended" text="" height="25.6" verticalAlign="middle" anchorOffsetX="0" width="555" size="18" fontFamily="FangSong" bold="true" anchorOffsetY="0" verticalCenter="-59.5" horizontalCenter="77.5"/>
+			<e:Label id="labelMissionNum" text="3/3" size="22" textColor="0x512100" anchorOffsetX="0" width="40" left="77" verticalCenter="208" fontFamily="Helvetica" anchorOffsetY="0" height="28" verticalAlign="middle" textAlign="center"/>
+			<e:Button id="btnDetails" label="" horizontalCenter="278" verticalCenter="103">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_biography_button_chakanxiangqingNor_png" source.down="ui_acitivity_biography_button_chakanxiangqingSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="btnGetWay" label="" horizontalCenter="278" verticalCenter="156">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_biography_button_huoqufangshiNor_png" source.down="ui_acitivity_biography_button_huoqufangshiSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="btnGetAward" label="领取" horizontalCenter="266" verticalCenter="245">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_biography_button_1_png" source.down="ui_acitivity_biography_button_3_png" source.disabled="ui_acitivity_biography_button_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000" size="24" verticalAlign="middle"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Scroller id="scrollerHero" width="690" height="105" anchorOffsetX="0" horizontalCenter="0" verticalCenter="15">
+				<e:List id="listHero" anchorOffsetX="0" width="100%" height="100%" x="-130" y="22">
+				<e:layout>
+					<e:HorizontalLayout gap="2"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Scroller id="scrollerAward" height="82" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="242" width="0" right="202">
+				<e:List id="listAward" x="57.33" y="0" scaleX="1" scaleY="1" height="100%" anchorOffsetX="0" width="0">
+				<e:layout>
+					<e:HorizontalLayout gap="6"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+
+		<e:Group width="458" height="44" anchorOffsetY="0" anchorOffsetX="0" top="5" right="111">
+			<e:Group id="groupbtnAddGold" x="0" y="0" width="144" height="43">
+			<e:Image width="100" height="24" x="16" verticalCenter="0" source="ui_common_mask_black_jpg" alpha="0.5"/>
+			<e:Label id="labelGold" text="19.9万" x="21" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="90.5" textAlign="center" verticalAlign="middle" verticalCenter="0.5" height="18"/>
+			<e:Image source="ui_currencyicon_IconGold_png" x="-3" verticalCenter="0"/>
+			<e:Button id="btnAddGold" label="" x="104.5" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*" xmlns:zj="zj.*">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+			<e:Group id="groupbtnAddGemstone" x="161" y="0" width="130" height="42">
+			<e:Image width="100" height="24" x="8" source="ui_common_mask_black_jpg" alpha="0.5" verticalCenter="0"/>
+			<e:Label id="labelGemstone" text="30" x="22.52" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="81.33" textAlign="center" verticalAlign="middle" verticalCenter="0" height="18"/>
+			<e:Image id="jewel" source="ui_currencyicon_IconGemstone_png" x="-9" verticalCenter="0"/>
+			<e:Button id="btnAddGemstone" label="" x="97" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*" xmlns:zj="zj.*">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+			<e:Group id="groupbtnAddStrength" x="308" y="0" width="135" height="43">
+			<e:Image width="100" height="24" x="8.5" source="ui_common_mask_black_jpg" alpha="0.5" verticalCenter="0"/>
+			<e:Label id="labelStrength" text="110/102" x="13.5" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="91" verticalAlign="middle" textAlign="center" verticalCenter="0" height="19" anchorOffsetY="0"/>
+			<e:Image id="energy" source="ui_currencyicon_IconStrength_png" x="0" verticalCenter="0"/>
+			<e:Button id="btnAddStrength" label="" x="97.5" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*" xmlns:zj="zj.*">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

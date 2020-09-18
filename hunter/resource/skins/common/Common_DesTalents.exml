@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_DesTalents" width="250" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_common_BoardChangeAchievementsA_png" x="0" y="0" width="250" height="200" scale9Grid="53,51,43,27"/>
+
+	<e:Group left="35" top="15" width="55" height="55">
+
+		<e:Image id="imgFrame" source="ui_frame_FrameSkill_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon" source="skill_icon_fulankelin01_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="-1"/>
+	</e:Group>
+	<e:Image source="ui_common_BoardChangeAchievementsB_png" y="82" height="105" anchorOffsetX="0" width="222" scale9Grid="14,18,39,32" horizontalCenter="0"/>
+	<e:Label id="labelName" text="寒冰乱舞" x="117" y="28" size="18" fontFamily="Microsoft JhengHei" textColor="0xeaead2"/>
+	<e:Label id="labelDes" text="啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦了啦啦啦啦啦啦啦啦啦啦" x="25" y="82" anchorOffsetX="0" width="198" anchorOffsetY="0" height="103" verticalAlign="middle" size="14" fontFamily="Helvetica" textColor="0xf3e1af" lineSpacing="5"/>
+</e:Skin>

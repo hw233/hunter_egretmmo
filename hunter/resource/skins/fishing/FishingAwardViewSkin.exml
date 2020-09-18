@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishingAwardViewSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="7.5" verticalCenter="-10">
+		<e:Image source="ui_hunter_BoardCardPopSeconde_png" width="650" height="390" scale9Grid="186,173,159,195" x="0" y="20"/>
+		<e:Image source="ui_card_BoardCardPopTop_png" y="5.68" scaleX="1.86" scaleY="0.99" x="9"/>
+		<e:Image source="ui_fishing_WordsFishingViewAward_png" y="14.64" x="276"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" y="208.33" width="620" height="180" scale9Grid="15,10,92,65" x="19"/>
+		<e:Group id="groupAll" width="630" height="350" x="13.33" y="47"/>
+		<e:Scroller width="850" height="250" x="31.67" y="211.03" scaleX="0.7" scaleY="0.7" scrollPolicyH="off" scrollPolicyV="on">
+			<e:List id="lstItem">
+				<e:layout>
+					<e:TileLayout requestedRowCount="2" requestedColumnCount="7" columnWidth="117" rowHeight="125"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller width="630" height="160" x="14.01" y="47.33" scrollPolicyH="off" scrollPolicyV="off">
+			<e:List id="lstTypeItem">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" requestedColumnCount="4" horizontalGap="0" columnWidth="157.5" rowHeight="160"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnClose" label="" x="574.34" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterPsychicChangeItemSkin" width="170" height="22" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_hunter_psychic_BoardRefreshCostNumFloor_png" left="0" top="0" right="0" bottom="0" scale9Grid="100,5,34,9"/>
+	<e:Label id="labelInfo" text="生命 + 100%" left="0" top="0" right="0" bottom="0" size="15" textAlign="left" verticalAlign="middle" fontFamily="Helvetica"/>
+</e:Skin>

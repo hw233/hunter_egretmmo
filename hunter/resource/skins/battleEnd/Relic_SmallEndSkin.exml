@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Relic_SmallEndSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="NodeAni" horizontalCenter="0" verticalCenter="0" x="480" y="320" scaleX="1" scaleY="1"/>
+		<e:Group id="NodeStar" width="200" height="50" x="282" y="243" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_wonderland_BoardUseFruitAward_png" horizontalCenter="0" verticalCenter="0" x="114" y="181" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="SpriteStage" source="ui_darkland_relic_WordsEnd1_png" x="288.5" y="283" scaleX="1" scaleY="1" visible="false"/>
+		<e:Group id="NodeBoxAni" x="584" y="366" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

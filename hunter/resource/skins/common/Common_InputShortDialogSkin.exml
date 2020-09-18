@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_InputShortDialogSkin" width="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="640">
+	<w:Config id="16abb04cf77"/>
+	<e:Group verticalCenter="0" horizontalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="615" height="315" anchorOffsetY="0" fillMode="scale" scale9Grid="120,45,176,82" y="31.67" horizontalCenter="-2"/>
+
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" x="29.34" y="17.65" scale9Grid="17,3,104,23"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" width="575" height="170" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="15,10,92,65" horizontalCenter="0" y="60"/>
+		<e:Group x="75" y="96">
+
+			<e:Image source="ui_common_WordsInputNewName_png" y="0" left="0"/>
+
+			<e:Group x="0" y="38">
+				<e:Image source="ui_union_BordInputLeagueName_png" width="410" height="50" verticalCenter="0" horizontalCenter="0"/>
+				<e:Label id="lbContent" text="长度不可超过六个字" size="20" fontFamily="Helvetica" textColor="0x411a03" verticalCenter="0" left="10" visible="false"/>
+				<e:TextInput id="textContent" width="239" height="40" verticalCenter="0" left="10"/>
+				<e:Button id="btnRand" label="" right="0" x="363" scaleX="1" scaleY="1" verticalCenter="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_common_ButtonRandomNor_png" source.down="ui_common_ButtonRandomSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+
+		</e:Group>
+		<e:Group width="386" horizontalCenter="0.5" verticalCenter="93">
+			<e:Button id="btnCancel" label="" y="0" left="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_wonderland_ButtonCancelResurrectionNor_png" source.down="ui_wonderland_ButtonCancelResurrectionSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnConfirm" label="" verticalCenter="0" right="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonOkNor_png" source.down="ui_union_ButtonOkSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group x="358.01" y="299.01">
+			<e:Image source="ui_fishing_BoardFishingNum_png" x="0" y="0"/>
+			<e:Image id="imgProp" source="ui_currencyicon_IconGemstone_png" x="37.98" y="0.67"/>
+			<e:Label id="lbProp" text="x 20" x="73.99" y="5.64" size="18"/>
+		</e:Group>
+		<e:Button id="btnClose" label="" y="0" anchorOffsetX="45" right="-11">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+					-->
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

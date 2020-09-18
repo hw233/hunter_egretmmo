@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TavernPopASkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" x="0" y="0">
+		<e:Rect width="100%" height="100%" x="0" y="-1" fillAlpha="0.7"/>
+		<e:Group width="100%" height="297" y="0" horizontalCenter="0" x="0" scaleX="1" scaleY="1">
+			<e:Group id="group1" width="205" height="297" horizontalCenter="-80%" verticalCenter="0">
+				<e:Group id="groupImage1" width="205" height="297" x="0" y="0">
+					<e:Image id="imagebackground1" source="ui_tavern_BoardPopHero2_png" width="205" height="297" bottom="0" x="0" y="0" scaleX="1" scaleY="1"/>
+					<e:Image id="imageHuntername1" source="ui_huntername_HunterName28_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" anchorOffsetX="0" width="108" anchorOffsetY="0" height="53" rotation="14.86" y="-8"/>
+				</e:Group>
+			<e:Image id="imageHunter1" source="hero_half_gw_guanjia_png" width="502" height="487" scaleX="0.5" scaleY="0.5" x="-23" bottom="0"/>
+				<e:Rect id="rectMask1" width="143" height="226" anchorOffsetX="0" anchorOffsetY="0" bottom="13" horizontalCenter="0"/>
+			<e:Label id="labelHuntername1" text="梧桐" x="0" y="16" size="12" verticalAlign="justify" textAlign="center" width="205" height="13" visible="false"/>
+			<e:Image source="ui_tavern_BoardPopHeroType_png" x="0" width="54" height="54" y="243"/>
+			<e:Image id="imageRank1" source="ui_tavern_IconGrade1_png" x="5.63" width="57" height="74" scaleX="0.75" scaleY="0.75" bottom="0"/>
+			<e:Group id="groupStar1" width="205" height="20" x="0" y="34">
+				<e:Image id="imageStar1_1" source="ui_hunter_UpStar1_2_png" scaleX="0.33" scaleY="0.33" x="83" y="0"/>
+				<e:Image id="imageStar1_2" source="ui_hunter_UpStar1_2_png" x="99.5" scaleX="0.33" scaleY="0.33" y="0"/>
+			</e:Group>
+			</e:Group>
+			<e:Group id="group2" width="205" height="297" verticalCenter="0" horizontalCenter="-40%">
+				<e:Group id="groupImage2" width="205" height="297" x="0" y="0">
+					<e:Image id="imagebackground2" source="ui_tavern_BoardPopHero2_png" width="205" height="297" x="0" bottom="0" y="0" scaleX="1" scaleY="1"/>
+					<e:Image id="imageHuntername2" source="ui_huntername_HunterName20008_png" horizontalCenter="0" rotation="14.86" y="-8" scaleX="0.8" scaleY="0.8" anchorOffsetX="0" width="108" anchorOffsetY="0" height="53"/>
+				</e:Group>
+			<e:Image id="imageHunter2" source="hero_half_gw_jianxiguanjia_png" x="-23" width="502" height="487" scaleX="0.5" scaleY="0.5" bottom="0"/>
+				<e:Rect id="rectMask2" width="143" height="226" bottom="13" horizontalCenter="0"/>
+			<e:Label id="labelHuntername2" text="魔法师" x="45" y="16" size="12" verticalAlign="justify" textAlign="center" width="80" height="13" visible="false"/>
+			<e:Image source="ui_tavern_BoardPopHeroType_png" x="0" width="54" height="54" y="243"/>
+			<e:Image id="imageRank2" source="ui_tavern_IconGrade1_png" x="5.63" width="57" height="74" scaleX="0.75" scaleY="0.75" bottom="0"/>
+			<e:Group id="groupStar2" width="205" height="20" x="0" y="34">
+				<e:Image id="imageStar2_1" source="ui_hunter_UpStar1_2_png" scaleX="0.33" scaleY="0.33" y="0" x="83"/>
+				<e:Image id="imageStar2_2" source="ui_hunter_UpStar1_2_png" scaleX="0.33" scaleY="0.33" x="100"/>
+			</e:Group>
+			</e:Group>
+			<e:Group id="group3" width="205" height="297" horizontalCenter="0" verticalCenter="0">
+				<e:Group id="groupImage3" width="205" height="297" x="0" y="0">
+					<e:Image id="imagebackground3" source="ui_tavern_BoardPopHero2_png" x="0" width="205" height="297" y="0" scaleX="1" scaleY="1"/>
+					<e:Image id="imageHuntername3" source="ui_huntername_HunterName28_png" y="-8" scaleX="0.8" scaleY="0.8" horizontalCenter="0" rotation="14.86"/>
+				</e:Group>
+			<e:Image id="imageHunter3" source="hero_half_gw_zonghuofan_png" x="-23" width="502" height="487" scaleX="0.5" scaleY="0.5" bottom="0"/>
+				<e:Rect id="rectMask3" width="143" height="226" horizontalCenter="0" bottom="13"/>
+			<e:Label id="labelHuntername3" text="魔术师" x="45" y="16" size="12" verticalAlign="justify" textAlign="center" width="80" height="13" visible="false"/>
+			<e:Image source="ui_tavern_BoardPopHeroType_png" x="0" y="243" width="54" height="54"/>
+			<e:Image id="imageRank3" source="ui_tavern_IconGrade1_png" x="5.63" width="57" height="74" scaleX="0.75" scaleY="0.75" bottom="0"/>
+			<e:Group id="groupStar3" width="205" height="20" anchorOffsetY="0" horizontalCenter="0" y="34">
+				<e:Image id="imageStar3_1" source="ui_hunter_UpStar1_2_png" scaleX="0.33" scaleY="0.33" y="0" x="83"/>
+				<e:Image id="imageStar3_2" source="ui_hunter_UpStar1_2_png" x="99.5" y="0" scaleX="0.33" scaleY="0.33"/>
+			</e:Group>
+			</e:Group>
+			<e:Group id="group4" width="205" height="297" horizontalCenter="40%" verticalCenter="0">
+				<e:Group id="groupImage4" width="205" height="297" x="0" y="0">
+					<e:Image id="imagebackground4" source="ui_tavern_BoardPopHero2_png" x="0" width="205" height="297" y="0" scaleX="1" scaleY="1"/>
+					<e:Image id="imageHuntername4" source="ui_huntername_HunterName28_png" y="-8" scaleX="0.8" scaleY="0.8" rotation="14.86" horizontalCenter="0"/>
+				</e:Group>
+			<e:Image id="imageHunter4" source="hero_half_gw_haozhu_png" x="-23" width="502" height="487" scaleX="0.5" scaleY="0.5" bottom="0"/>
+				<e:Rect id="rectMask4" width="143" height="226" horizontalCenter="0" bottom="13"/>
+			<e:Label id="labelHuntername4" text="尖刺豪猪" x="45" y="16" size="12" width="80" height="13" verticalAlign="justify" textAlign="center" visible="false"/>
+			<e:Image source="ui_tavern_BoardPopHeroType_png" x="0" y="243" width="54" height="54"/>
+			<e:Image id="imageRank4" source="ui_tavern_IconGrade1_png" x="5.63" width="57" height="74" scaleX="0.75" scaleY="0.75" bottom="0"/>
+			<e:Group id="groupStar4" width="205" height="20" y="34" horizontalCenter="0">
+				<e:Image id="imageStar4_1" source="ui_hunter_UpStar1_2_png" x="83" y="0" scaleX="0.33" scaleY="0.33"/>
+				<e:Image id="imageStar4_2" source="ui_hunter_UpStar1_2_png" x="99.5" y="0" scaleX="0.33" scaleY="0.33"/>
+			</e:Group>
+			</e:Group>
+			<e:Group id="group5" width="205" height="297" horizontalCenter="80%" verticalCenter="0">
+				<e:Group id="groupImage5" width="205" height="297" x="0" y="0">
+					<e:Image id="imagebackground5" source="ui_tavern_BoardPopHero2_png" x="0" y="0" width="205" height="297" scaleX="1" scaleY="1"/>
+					<e:Image id="imageHuntername5" source="ui_huntername_HunterName28_png" y="-8" scaleX="0.8" scaleY="0.8" horizontalCenter="0" rotation="14.86" anchorOffsetX="0" width="108" anchorOffsetY="0" height="53"/>
+				</e:Group>
+			<e:Image id="imageHunter5" source="hero_half_gw_egun_png" x="-23" width="502" height="487" scaleX="0.5" scaleY="0.5" bottom="0"/>
+				<e:Rect id="rectMask5" width="143" height="226" horizontalCenter="0" bottom="13"/>
+			<e:Label id="labelHuntername5" text="幸运毒箭手" x="45" y="16" size="12" verticalAlign="justify" textAlign="center" width="80" height="13" visible="false"/>
+			<e:Image source="ui_tavern_BoardPopHeroType_png" x="0" y="243" width="54" height="54"/>
+			<e:Image id="imageRank5" source="ui_tavern_IconGrade1_png" x="5.63" width="57" height="74" bottom="0" scaleX="0.75" scaleY="0.75"/>
+			<e:Group id="groupStar5" width="205" height="20" y="34" horizontalCenter="0">
+				<e:Image id="imageStar5_1" source="ui_hunter_UpStar1_2_png" x="83" y="0" scaleX="0.33" scaleY="0.33"/>
+				<e:Image id="imageStar5_2" source="ui_hunter_UpStar1_2_png" x="99.5" y="0" scaleX="0.33" scaleY="0.33"/>
+			</e:Group>
+			</e:Group>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group width="100%" height="297" y="247" horizontalCenter="0" x="0" scaleX="1" scaleY="1">
+			<e:Group id="group6" width="205" height="297" verticalCenter="0" horizontalCenter="-80%">
+				<e:Group id="groupImage6" width="205" height="297" x="0" y="0">
+					<e:Image id="imagebackground6" source="ui_tavern_BoardPopHero2_png" x="0" y="0" width="205" height="297" scaleX="1" scaleY="1"/>
+					<e:Image id="imageHuntername6" source="ui_huntername_HunterName28_png" y="-8" scaleX="0.8" scaleY="0.8" horizontalCenter="0" rotation="14.86"/>
+				</e:Group>
+			<e:Image id="imageHunter6" source="hero_half_gw_zhapianfan_png" x="-23" width="502" height="487" scaleX="0.5" scaleY="0.5" bottom="0"/>
+				<e:Rect id="rectMask6" width="143" height="226" bottom="13" horizontalCenter="0"/>
+			<e:Label id="labelHuntername6" text="xxxx" x="45" y="16" size="12" verticalAlign="justify" textAlign="center" width="80" height="13" visible="false"/>
+				<e:Image source="ui_tavern_BoardPopHeroType_png" x="0" y="243" width="54" height="54"/>
+				<e:Image id="imageRank6" source="ui_tavern_IconGrade1_png" x="5.63" width="57" height="74" scaleX="0.75" scaleY="0.75" bottom="0"/>
+				<e:Group id="groupStar6" width="205" height="20" y="34" horizontalCenter="0">
+					<e:Image id="imageStar6_1" source="ui_hunter_UpStar1_2_png" x="83" y="0" scaleX="0.33" scaleY="0.33"/>
+					<e:Image id="imageStar6_2" source="ui_hunter_UpStar1_2_png" x="99.5" y="0" scaleX="0.33" scaleY="0.33"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="group7" width="205" height="297" horizontalCenter="-40%" verticalCenter="0">
+				<e:Group id="groupImage7" width="205" height="297" x="0" y="0">
+					<e:Image id="imagebackground7" source="ui_tavern_BoardPopHero2_png" x="0" y="0" width="205" height="297" scaleX="1" scaleY="1"/>
+					<e:Image id="imageHuntername7" source="ui_huntername_HunterName28_png" y="-8" scaleX="0.8" scaleY="0.8" horizontalCenter="0" rotation="14.86"/>
+				</e:Group>
+			<e:Image id="imageHunter7" source="hero_half_gw_wuya_png" x="-23" width="502" height="487" scaleX="0.5" scaleY="0.5" bottom="0"/>
+				<e:Rect id="rectMask7" width="143" height="226" bottom="13" horizontalCenter="0"/>
+			<e:Label id="labelHuntername7" text="xxxx" x="45" y="16" size="12" verticalAlign="justify" textAlign="center" width="80" height="13" visible="false"/>
+				<e:Image source="ui_tavern_BoardPopHeroType_png" x="0" width="54" height="54" bottom="0"/>
+				<e:Image id="imageRank7" source="ui_tavern_IconGrade1_png" x="5.63" width="57" height="74" bottom="0" scaleX="0.75" scaleY="0.75"/>
+				<e:Group id="groupStar7" width="205" height="20" x="0" y="34">
+					<e:Image id="imageStar7_1" source="ui_hunter_UpStar1_2_png" x="83" y="0" scaleX="0.33" scaleY="0.33"/>
+					<e:Image id="imageStar7_2" source="ui_hunter_UpStar1_2_png" x="99.5" y="0" scaleX="0.33" scaleY="0.33"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="group8" width="205" height="297" horizontalCenter="0" verticalCenter="0">
+				<e:Group id="groupImage8" width="205" height="297" x="0" y="0">
+					<e:Image id="imagebackground8" source="ui_tavern_BoardPopHero2_png" x="0" y="0" width="205" height="297" scaleX="1" scaleY="1"/>
+					<e:Image id="imageHuntername8" source="ui_huntername_HunterName28_png" y="-8" scaleX="0.8" scaleY="0.8" horizontalCenter="0" rotation="14.86"/>
+				</e:Group>
+			<e:Image id="imageHunter8" source="hero_half_gw_shuishou_png" x="-23" width="502" height="487" scaleX="0.5" scaleY="0.5" bottom="0"/>
+				<e:Rect id="rectMask8" width="143" height="226" horizontalCenter="0" bottom="13"/>
+			<e:Label id="labelHuntername8" text="xxxx" x="45" verticalAlign="justify" textAlign="center" y="16" width="80" height="13" size="12" visible="false"/>
+				<e:Image source="ui_tavern_BoardPopHeroType_png" x="0" width="54" height="54" bottom="0"/>
+				<e:Image id="imageRank8" source="ui_tavern_IconGrade1_png" x="5.63" width="57" height="74" bottom="0" scaleX="0.75" scaleY="0.75"/>
+				<e:Group id="groupStar8" width="205" height="20" y="34" horizontalCenter="0">
+					<e:Image id="imageStar8_1" source="ui_hunter_UpStar1_2_png" x="83" y="0" scaleX="0.33" scaleY="0.33"/>
+					<e:Image id="imageStar8_2" source="ui_hunter_UpStar1_2_png" x="99.5" y="0" scaleX="0.33" scaleY="0.33"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="group9" width="205" height="297" horizontalCenter="40%" verticalCenter="0">
+				<e:Group id="groupImage9" width="205" height="297" x="0" y="0">
+					<e:Image id="imagebackground9" source="ui_tavern_BoardPopHero2_png" x="0" y="0" width="205" height="297" scaleX="1" scaleY="1"/>
+					<e:Image id="imageHuntername9" source="ui_huntername_HunterName28_png" y="-8" horizontalCenter="0" rotation="14.86" scaleX="0.8" scaleY="0.8"/>
+				</e:Group>
+			<e:Image id="imageHunter9" source="hero_half_gw_shirenhua_png" x="-23" width="502" height="487" scaleX="0.5" scaleY="0.5" bottom="0"/>
+				<e:Rect id="rectMask9" width="143" height="226" horizontalCenter="0" bottom="13"/>
+			<e:Label id="labelHuntername9" text="xxxx" x="45" y="16" verticalAlign="justify" textAlign="center" width="80" height="13" size="12" visible="false"/>
+				<e:Image source="ui_tavern_BoardPopHeroType_png" x="0" width="54" height="54" bottom="0"/>
+				<e:Image id="imageRank9" source="ui_tavern_IconGrade1_png" width="57" height="74" x="5.63" bottom="0" scaleX="0.75" scaleY="0.75"/>
+				<e:Group id="groupStar9" width="205" height="20" x="0" y="34">
+					<e:Image id="imageStar9_1" source="ui_hunter_UpStar1_2_png" x="83" scaleX="0.33" scaleY="0.33"/>
+					<e:Image id="imageStar9_2" source="ui_hunter_UpStar1_2_png" x="99.5" y="0" scaleX="0.33" scaleY="0.33"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="group10" width="205" height="297" horizontalCenter="80%" verticalCenter="0">
+				<e:Group id="groupImage10" width="205" height="297" x="0" y="0">
+					<e:Image id="imagebackground10" source="ui_tavern_BoardPopHero2_png" x="0" y="0" width="205" height="297" scaleX="1" scaleY="1"/>
+					<e:Image id="imageHuntername10" source="ui_huntername_HunterName28_png" y="-8" scaleX="0.8" scaleY="0.8" rotation="14.86" horizontalCenter="0"/>
+				</e:Group>
+			<e:Image id="imageHunter10" source="hero_half_gw_pangshuishou_png" x="-23" width="502" height="487" scaleX="0.5" scaleY="0.5" bottom="0"/>
+				<e:Rect id="rectMask10" width="143" height="226" horizontalCenter="0" bottom="13"/>
+			<e:Label id="labelHuntername10" text="xxxx" x="45" y="16" size="12" verticalAlign="justify" textAlign="center" width="80" height="13" visible="false"/>
+				<e:Image source="ui_tavern_BoardPopHeroType_png" x="0" width="54" height="54" bottom="0"/>
+				<e:Image id="imageRank10" source="ui_tavern_IconGrade1_png" x="5.63" width="57" height="74" scaleX="0.75" scaleY="0.75" bottom="0"/>
+				<e:Group id="groupStar10" width="205" height="20" y="34" horizontalCenter="0">
+					<e:Image id="imageStar10_1" source="ui_hunter_UpStar1_2_png" x="83" scaleX="0.33" scaleY="0.33"/>
+					<e:Image id="imageStar10_2" source="ui_hunter_UpStar1_2_png" x="99.5" y="0" scaleX="0.33" scaleY="0.33"/>
+				</e:Group>
+			</e:Group>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="groupBtn" width="360" height="55" y="524" horizontalCenter="0">
+			<e:Button id="btnOne" label="" x="0" y="0" width="152">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_tavern_ButtonPopReturnNor_png" source.down="ui_tavern_ButtonPopReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnMore" label="" x="208" y="0" width="152">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_tavern_ButtonPopMoreNor_png" source.down="ui_tavern_ButtonPopMoreSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Label id="labelBeel10" text="10" x="278" y="18" textColor="0xc96a16" size="22" verticalAlign="bottom" textAlign="center" width="31" bold="true" touchEnabled="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

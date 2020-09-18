@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StoryInstanceAdventureItemItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" width="94" height="92" horizontalCenter="0" verticalCenter="0" scaleX="0.5" scaleY="0.5">
+		<e:Group id="groupLight" width="94" height="92" x="49" y="50.36" anchorOffsetX="49" anchorOffsetY="50.5"/>
+		<e:Group id="groupIcon" width="94" height="92" x="0" y="0">
+		<e:Image id="imgFrame" source="ui_other_FramePropA_png" x="48.67" y="50.86" width="94" height="92" anchorOffsetX="49" anchorOffsetY="50.5" scaleX="1" scaleY="1"/>
+		<e:Image id="imgIcon" width="94.33" height="90.01" x="46.02" y="47.86" anchorOffsetX="47.17" anchorOffsetY="44.99" source="hero_icon_head_wj_bisiji_png" scaleX="1" scaleY="1"/>
+		<e:Image id="imgPiece" source="ui_icon_PieceRelation_png" x="15" y="13.86" width="25.46" height="23.87" anchorOffsetX="12.73" anchorOffsetY="11.94" scaleX="1" scaleY="1"/>
+		<e:Image id="imgMask" width="81" height="80" x="46.01" y="45.2" anchorOffsetX="40.5" anchorOffsetY="40" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="labelTextNum" width="102.3" height="26.35" x="2.34" y="59.87" font="BattleSkillCDNum_fnt" text="22" anchorOffsetX="0" textAlign="right" scaleX="0.8000000000000002" scaleY="0.8000000000000002" anchorOffsetY="0" touchEnabled="false"/>
+		<e:Group id="groupAnimate" width="94" height="92" x="0" y="0">
+			<e:Rect id="rect" width="70.67" height="69.66" x="11.33" y="10.67" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="1" strokeAlpha="1"/>
+		</e:Group>
+		</e:Group>
+		<e:Group id="groupLP" width="81" height="80" x="46" y="45.36" anchorOffsetX="40.5" anchorOffsetY="40"/>
+	</e:Group>
+</e:Skin>

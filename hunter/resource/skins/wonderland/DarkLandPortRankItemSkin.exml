@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DarkLandPortRankItemSkin" width="620" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="620" height="50" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_wonderland_kuafu_BoardRankFloor_png" width="620" height="50" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<e:Label id="labelLevel" text="9999999999" size="20" textColor="0x424242" verticalCenter="0" width="130" left="0" textAlign="center" fontFamily="SimHei"/>
+		<e:Label id="labelName" text="9999999999" size="20" textColor="0x424242" verticalCenter="0" width="130" left="130" textAlign="center" fontFamily="SimHei"/>
+		<e:Label id="labelServer" text="9999999999" size="20" textColor="0x424242" verticalCenter="0" right="155" width="190" textAlign="center" fontFamily="SimHei"/>
+		<e:Label id="labelValue" text="9999999999" size="20" textColor="0x424242" verticalCenter="0" right="0" width="155" textAlign="center" fontFamily="SimHei"/>
+		<e:Image id="imgRankIcon" source="ui_wonderland_kuafu_IconRank1_png" x="122" verticalCenter="0" visible="false"/>
+		<e:Image source="ui_union_rankLine_png" y="45" scaleX="1.65" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

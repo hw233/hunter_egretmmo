@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_InstancePassDropInfoSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_instance_LayerInstance_png" width="705" height="465" verticalCenter="-6.5" horizontalCenter="1.5" scale9Grid="11,11,73,73"/>
+		<e:Image source="ui_instance_BoardTopTip_png" anchorOffsetY="14" scaleX="2.15" anchorOffsetX="163.97" width="327.93" top="79" horizontalCenter="1.5"/>
+		<e:Image source="ui_instance_BoardSearchTeam_png" width="690" height="415" verticalCenter="4.5" scale9Grid="8,7,50,47" x="136.33"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" top="48" anchorOffsetX="152" anchorOffsetY="29" x="480"/>
+		<e:Image source="ui_instance_WordsTipPassAwardList_png" horizontalCenter="2.5" top="58"/>
+		<e:Button id="btnClose" label="" x="759" y="59">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupViewDrop" width="690" height="400" x="136" y="125">
+			<e:Scroller id="scrollerViewDrop" width="690" height="400" x="0" y="0">
+				<e:List id="listViewDrop">
+					<e:layout>
+						<e:VerticalLayout gap="10"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="groupDesProp" width="395" height="255" x="242" y="160" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

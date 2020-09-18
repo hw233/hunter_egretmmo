@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Daily_LiveItemSkin" width="750" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" width="750" height="110" x="0" y="0" anchorOffsetX="0">
+		<e:Image source="ui_daily_BoardInfo_png" x="0" y="0" width="750" height="110" scale9Grid="11,13,68,79"/>
+		<e:Image source="ui_daily_OrnInfo_png" right="2" verticalCenter="0"/>
+		<e:Label id="labelName" text="登陆即享VIP6每日福利" size="20" textColor="0x000000" left="112" verticalCenter="-20"/>
+		<e:Scroller id="scrollerAward" width="375.33" height="60" left="157" bottom="4" anchorOffsetX="0">
+		<e:List id="listAward">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Group width="76" height="74" verticalCenter="0" left="18">
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" left="0" verticalCenter="0" width="76" height="74" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="imgIcon" source="hero_icon_wj_kuluoluo_png" x="-0.5" anchorOffsetX="0" width="77.5" y="0" anchorOffsetY="0" height="74.5"/>
+		</e:Group>
+		<e:Label id="labelAward" text="奖励：" size="20" textColor="0x000000" left="112" verticalCenter="21"/>
+		<e:Button id="btnGo" label="" right="16" verticalCenter="0.5" width="166" anchorOffsetX="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_daily_ButtonGoNor_png" source.down="ui_daily_ButtonGoSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btnDone" label="" right="16" verticalCenter="1" width="170.55" anchorOffsetX="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_daily_ButtonCompeletNor_png" source.down="ui_daily_ButtonCompeletSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnCharge" label="" width="172" height="55" verticalCenter="0.5" right="9" anchorOffsetX="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_daily_ButtonChargeNor_png" source.down="ui_daily_ButtonChargeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnReward" label="" width="172" height="55" verticalCenter="0.5" right="16">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_daily_ButtonGetAwardNor_png" source.down="ui_daily_ButtonGetAwardSel_png" source.disabled="ui_daily_ButtonGetAwardDis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image id="imgDone" source="ui_daily_WordsLingquEnd_png" x="581" y="17" visible="false"/>
+		<e:Image id="imgMask" source="ui_daily_Mask_png" x="0" y="0" width="750" height="110" touchEnabled="false"/>
+		<e:Image id="imgLock" source="ui_currencyicon_IconLock_png" verticalCenter="0.5" left="268"/>
+		<e:Label id="labelLevel" text="队伍达到多少级开启" size="22" textColor="0xff0000" verticalCenter="0" left="310" height="20"/>
+	</e:Group>
+</e:Skin>

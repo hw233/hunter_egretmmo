@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_PlayerCardPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="imageRect" width="100%" height="100%" alpha="0" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="groupTouch" width="100%" height="100%" x="0" y="0">
+	</e:Group>
+	<e:Group width="505" height="320" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_common_BoardChangeAchievementsA_png" x="14.5" y="8" width="477" height="307" scale9Grid="17,16,108,98" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="imageFrame" source="ui_frame_FrameCard4_png" x="26" verticalCenter="0.5"/>
+		<e:Label id="labelCardNum" text="12345" x="37" y="41" size="18" textColor="0x070505" textAlign="center" width="52"/>
+		<e:Label id="labelCardName" text="卡片名称" x="95" y="41" textColor="0x0a0909" size="18" textAlign="center" width="120"/>
+		<e:Image id="imageCard" source="card_046jinfenshaonvA_13_png" x="40" y="75"/>
+		<e:Image id="imageCardType" source="ui_hunter_evaluate_IconCardType1_png" x="41" y="76"/>
+		<e:Image source="ui_card_BoardCardStar_png" x="51" y="155"/>
+		<e:Group id="groupStar" width="90" height="16" x="55" y="154">
+		</e:Group>
+		<e:Label id="labelCardDetails" text="开发人员忠告：这个里面的内容是读表，不需要翻译了。" x="43" y="182" size="12" textColor="0x0a0505" width="170" lineSpacing="4"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" x="251" y="25" anchorOffsetX="0" width="239.11" anchorOffsetY="0" height="279" scaleY="0.98" scaleX="0.95" scale9Grid="15,10,92,65"/>
+		<e:BitmapLabel id="labelLevel" width="40" height="20" x="180" y="153" text="1" textAlign="right" font="ItemNum_fnt"/>
+		<e:Image source="ui_exchange_BoardFruitName_png" x="110" y="72" anchorOffsetX="0" width="118"/>
+		<e:Label id="labelRaityConst" text="稀有度：" x="115" y="78" size="18"/>
+		<e:Image id="imageCardGrad" source="ui_hunter_evaluate_IconWrodsCard5_png" x="182" y="77" anchorOffsetX="0" width="18" anchorOffsetY="0" height="20"/>
+		<e:Label id="labelMainAttriConst" text="主属性：" x="260" y="38" size="18" textColor="0x0a0909"/>
+		<e:Label id="labelAttriMain" text="攻击+20%" x="328" y="38" size="18" textColor="0x020202"/>
+		<e:Label id="labelAttriMainFull" text="（攻击+20%）" x="261" y="60" size="16" textColor="0x45a814" width="210"/>
+		<e:Group id="groupAddAttri" width="210" height="189" x="258" y="98" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Label id="labelDeputyAttriConst" text="副属性：" x="2" y="4" size="18" textColor="0x0a0909"/>
+			<e:Image source="ui_chat_OrnLine_png" x="-4" y="-16" anchorOffsetX="0" width="225" anchorOffsetY="0" height="2"/>
+			<e:Scroller id="scroAttri" width="208" height="161" x="2" y="26" anchorOffsetY="0" anchorOffsetX="0">
+				<e:List id="listAttri" width="100%" anchorOffsetY="0" height="100%">
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

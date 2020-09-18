@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueInstanceMainItemSkin" width="192" height="252" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupGift" scaleX="0.5" scaleY="0.5" horizontalCenter="0" touchThrough="false" y="0">
+		<e:Group id="groupGift1" touchChildren="false" touchEnabled="false" touchThrough="true" x="-8" y="0"/>
+		<e:Group id="groupGift2" touchChildren="false" touchEnabled="false" touchThrough="true" y="0" x="122"/>
+		<e:Group id="groupGift3" touchChildren="false" touchEnabled="false" touchThrough="true" x="244" y="0"/>
+		<e:Group id="groupBox1" x="-8" verticalCenter="0" touchThrough="true">
+		<e:Image id="imgIcon1" scaleX="1" scaleY="1" source="ui_instance_OrnCharpterAwardBox_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Button id="btnBox1" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_instance_IconBox1_png" source.down="ui_union_instance_IconBox1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupAni1" scaleX="1.3" scaleY="1.3" touchChildren="false" touchEnabled="false" touchThrough="true" verticalCenter="0" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="groupBox2" verticalCenter="0" x="122" touchThrough="true">
+		<e:Image id="imgIcon2" scaleX="1" scaleY="1" source="ui_instance_OrnCharpterAwardBox_png" verticalCenter="0" horizontalCenter="0"/>
+		<e:Button id="btnBox2" label="" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_instance_IconBox2_png" source.down="ui_union_instance_IconBox2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupAni2" scaleX="1.3" scaleY="1.3" touchChildren="false" touchEnabled="false" touchThrough="true" verticalCenter="0" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="groupBox3" x="244" verticalCenter="0" touchThrough="true">
+		<e:Image id="imgIcon3" scaleX="1" scaleY="1" source="ui_instance_OrnCharpterAwardBox_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Button id="btnBox3" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_instance_IconBox3_png" source.down="ui_union_instance_IconBox3_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupAni3" scaleX="1.3" scaleY="1.3" touchChildren="false" touchEnabled="false" touchThrough="true" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupBoard" horizontalCenter="0" y="48">
+		<e:Image source="ui_union_instance_BoardBossInfo_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgBack" source="ui_union_instance_bossimage_IconBossImage0_png" horizontalCenter="0" y="42"/>
+		<e:Image id="imgName" y="13" source="ui_union_instance_bossname_WordsBoss1_png" horizontalCenter="0"/>
+		<e:Image id="imgBurBlood" width="127" height="18" source="ui_union_instance_BurBossBlood1_png" y="114" x="18"/>
+		<e:BitmapLabel id="lbBloodNum" text="100.0%" font="ItemNumWords_fnt" horizontalCenter="0" y="113" x="36"/>
+
+
+
+		<e:Image id="imgInBattle" y="46" source="ui_union_instance_WordsNowChange_png" horizontalCenter="0" x="10" scaleX="1" scaleY="1"/>
+		<e:Image id="imgKilled" y="104" scaleX="1" scaleY="1" source="ui_union_instance_WordsPerfectLevel_png" horizontalCenter="0"/>
+
+
+	</e:Group>
+	<e:Image id="imgCircle" width="75" height="46" source="ui_union_instance_OrnInstancePointBoard_png" horizontalCenter="0" anchorOffsetX="37.5" anchorOffsetY="23" bottom="0"/>
+	<e:Image id="imgCenter" width="23" height="27" source="ui_union_instance_OrnInstancePoint_png" horizontalCenter="0" y="195"/>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityWeekMissionItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgFloor" source="ui_acitivity_novicenew_BoardItem_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="labelTitle" text="收集3名猎人（0/3）" textColor="0x000000" size="18" left="12" fontFamily="SimHei" verticalCenter="0"/>
+	<e:Scroller width="265" height="85" anchorOffsetY="0" scaleX="0.6" scaleY="0.6" verticalCenter="0" right="114">
+		<e:List id="listViewAward" anchorOffsetX="0" x="-31.67" y="0">
+		<e:layout>
+			<e:TileLayout requestedRowCount="1" verticalAlign="contentJustify"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image id="imgGet" source="ui_acitivity_novicenew_WordsTipKelingqu2_png" verticalCenter="0.5" right="10"/>
+	<e:Button id="btnGet" label="" right="8" verticalCenter="0.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_acitivity_novicenew_ButtonGetNor_png" source.down="ui_acitivity_novicenew_ButtonGetSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="imgShaDow" source="ui_acitivity_novicecontinue_BoardItemShadow_png" verticalCenter="0" horizontalCenter="0" touchEnabled="false" x="10" y="10"/>
+</e:Skin>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DoubleColorPopItemSkin" width="95" height="93" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" verticalCenter="0" horizontalCenter="0">
+		<e:Image source="ui_frame_FrameHunterAsh_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgicon" source="ui_exchange_IconFuritType1_png" scaleX="1.1" scaleY="1.1" horizontalCenter="0" verticalCenter="0"/>
+		<e:BitmapLabel id="lbNumID" width="40" height="34" text="12" font="BattleSkillCDNum_fnt" textAlign="center" verticalAlign="center" x="33" y="36"/>
+		<e:BitmapLabel id="lbNum" width="40" height="34" x="52" y="52" font="ItemNum_fnt" text="12" scaleX="0.8" scaleY="0.8" textAlign="right" verticalAlign="bottom"/>
+		<e:Image id="imgShadow" source="ui_frame_SpriteMake_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<e:Button id="btnDown" label="" width="100%" height="100%" horizontalCenter="0" verticalCenter="0" alpha="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_exchange_IconFuritType1_png" source.down="ui_exchange_IconFuritType1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

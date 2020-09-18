@@ -1,0 +1,52 @@
+{"mc":{
+	"main_ani_fountain":{
+		"frameRate":10,
+		"labels":[
+			{"name":"1","frame":1,"end":6}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"penquan_00000_png",
+			"x":0,
+			"y":1
+			},
+			{
+			"res":"penquan_00005_png",
+			"x":1,
+			"y":1
+			},
+			{
+			"res":"penquan_00010_png",
+			"x":1,
+			"y":0
+			},
+			{
+			"res":"penquan_00015_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"penquan_00020_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"penquan_00025_png",
+			"x":0,
+			"y":1
+			}
+			]
+}},
+	"res":{
+		"penquan_00000_png":{"x":118,"y":48,"w":56,"h":45},
+		"penquan_00015_png":{"x":1,"y":1,"w":57,"h":46},
+		"penquan_00005_png":{"x":119,"y":1,"w":55,"h":44},
+		"penquan_00020_png":{"x":1,"y":49,"w":57,"h":46},
+		"penquan_00010_png":{"x":60,"y":48,"w":56,"h":45},
+		"penquan_00025_png":{"x":60,"y":1,"w":57,"h":45}
+	}}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityNoviceItemItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" width="95" height="93" scaleX="0.9" scaleY="0.9">
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:Label id="lableLevel" text="20" size="20" right="10" bottom="10" stroke="1"/>
+		<e:Group id="groupStrar" height="9.66" anchorOffsetX="0" anchorOffsetY="0" top="4" left="13" width="39.89" scaleX="1.5" scaleY="1.5"/>
+		<e:Image id="imgIconGrade" source="ui_hunter_evaluate_IconWrodsCard4_png" scaleX="0.45" scaleY="0.45" right="5" top="4"/>
+	</e:Group>
+</e:Skin>

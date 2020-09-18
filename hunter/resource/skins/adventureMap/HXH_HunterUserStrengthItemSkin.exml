@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_HunterUserStrengthItemSkin" width="170" height="295" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="170" height="290" y="3" x="3">
+		<e:Group id="groupBuy" width="170" height="290" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:Image source="ui_strength_BoardBuy_png" width="170" height="290" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelBuyStrengthNum" text="今日剩余次数" size="16" textColor="0xfefb00" horizontalCenter="0" fontFamily="SimHei" top="7"/>
+			<e:Button id="btnBuyStrengthNum" label="" width="162" height="74" anchorOffsetX="81" anchorOffsetY="37" horizontalCenter="-7" bottom="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_strength_ButtonBuyStrengthNor_png" source.down="ui_strength_ButtonBuyStrengthSel_png" source.disabled="ui_strength_ButtonBuyStrengthDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group id="groupBuyStrength" touchEnabled="false" x="14" y="232">
+			<e:Image id="jewel" source="ui_iconresources_zuanshi3_png" verticalCenter="0" touchEnabled="false" x="11"/>
+			<e:BitmapLabel id="labelBuyNum" width="97.49" height="20" font="BattleSkillCDNum_fnt" text="8888" anchorOffsetX="0" scaleX="0.8" scaleY="0.8" verticalCenter="-3.5" touchEnabled="false" x="64"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupUse" width="170" height="290" horizontalCenter="0" verticalCenter="0" visible="false">
+			<e:Image source="ui_strength_BoardItem_png" horizontalCenter="0" verticalCenter="0" width="170" height="290"/>
+			<e:Button id="btnAdd" label="" horizontalCenter="-6" bottom="11">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_wonderland_ButtonFruitUseNor_png" source.down="ui_wonderland_ButtonFruitUseSel_png" source.disabled="ui_wonderland_ButtonFruitUseDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+
+		<e:Group id="groupItem" width="170" height="206" anchorOffsetX="85" anchorOffsetY="103" horizontalCenter="0" top="7">
+			<e:Image source="ui_strength_BoardITip_png" anchorOffsetX="78.5" anchorOffsetY="14" horizontalCenter="0" bottom="44"/>
+			<e:Image source="ui_strength_BoardITip_png" anchorOffsetX="78.5" anchorOffsetY="14" horizontalCenter="0" bottom="10"/>
+			<e:Label id="labelPropName" text="一品经验丹" size="16" textColor="0xFEFFFF" horizontalCenter="0" bottom="49" fontFamily="SimSun"/>
+			<e:Label id="labelPropExp" text="EXP+1000" size="16" textColor="0xFEFFFF" horizontalCenter="0.5" bottom="15"/>
+
+
+
+			<e:Group id="groupHead" horizontalCenter="0.5" top="36">
+				<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" width="95" height="93" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgIcon" source="hero_icon_head_wj_dongba_png" width="95" height="93" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgMask" source="ui_frame_SpriteMake_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" width="95" height="93"/>
+				<e:BitmapLabel id="labelTextNum" width="60.8" height="19" font="ItemNum_fnt" text="6300" anchorOffsetX="0" right="6" bottom="9" anchorOffsetY="0" textAlign="right"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_BossMainAwardItemSkin" width="96" height="98" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" x="1" y="5"/>
+		<e:Image id="imgIcon" source="hero_icon_head_wj_kete_png" x="1" y="5"/>
+		<e:Image id="imgLogo" source="ui_currencyicon_IconHunterFragment_png" x="0" y="0" scaleX="0.65" scaleY="0.65"/>
+		<e:BitmapLabel id="lbNum" width="50" height="20" x="44" y="72" font="ItemNum_fnt" text="55" textAlign="right" scaleX="0.8" scaleY="0.8"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RelicMall_MainItemSkin" width="373" height="132" xmlns:e="http://ns.egret.com/eui">
+<e:Group width="373" height="132" horizontalCenter="0" verticalCenter="0">
+		<e:Button id="buttonItem" label="" x="0" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mall_BoardMallItem_png" source.down="ui_mall_BoardMallItemSel_png" source.disabled="ui_mall_BoardMallItem_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupAnimate" width="95" height="93" x="20" y="23" touchEnabled="false">
+			<e:Image id="imgSpriteFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+			<e:Image id="imgSpriteIcon" source="hero_icon_head_wj_kubi_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+
+
+			<e:Image id="imgSpriteLogo" source="ui_icon_PieceRelation_png" x="0" y="0" touchEnabled="false"/>
+			<e:Label id="labelNum111" text="2" x="60" y="60" size="20" touchEnabled="false" width="23" textAlign="right" borderColor="0x000000" stroke="2" strokeColor="0x000000" visible="false"/>
+			<e:Group id="groupItem" width="95" height="93" horizontalCenter="0" verticalCenter="0">
+				<e:BitmapLabel id="labelNum" height="18" y="62" text="22" font="ItemNum_fnt" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" textAlign="right" right="8"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupNodeA" x="141" y="38" visible="false">
+			<e:Image id="imgCCSprite" source="ui_mall_BoardMallItemInfo_png" x="0" y="0"/>
+			<e:Label id="labelName" text="司马懿信物x5" x="58" y="6" size="18" textColor="0x582800" fontFamily="SimHei"/>
+			<e:Image id="imgCCSprite1" source="ui_mall_BoardMallItemInfo_png" x="0" y="39"/>
+			<e:Image id="imgSpriteCost" source="ui_currencyicon_IconGold_png" x="66" y="42" scaleX="0.8" scaleY="0.8"/>
+			<e:Label id="labelCost" text="1200" x="92" y="45" size="18" textColor="0x582800"/>
+		</e:Group>
+		<e:Group id="groupNodeB" x="141" y="25" touchEnabled="false">
+			<e:Image id="imgCCSprite2" source="ui_mall_BoardMallItemInfo_png" x="0" y="0" touchEnabled="false"/>
+			<e:Image id="imgCCSprite3" source="ui_mall_BoardMallItemInfo_png" x="0" y="30" touchEnabled="false"/>
+			<e:Image id="imgCCSprite4" source="ui_mall_BoardMallItemInfo_png" x="0" y="60" touchEnabled="false"/>
+			<e:Label id="labelNameB" text="高级人偶碎片" x="0" y="5" size="18" textColor="0x582800" fontFamily="SimHei" touchEnabled="false" textAlign="center" width="220"/>
+			<e:Image id="imgSpriteCostB" x="53" y="22" scaleX="0.8" scaleY="0.8" source="ui_iconresources_jiuguanbi3_png" touchEnabled="false"/>
+			<e:Label id="labelCostB" text="12000" x="90" y="36" size="18" textColor="0x582800" touchEnabled="false" textAlign="left"/>
+			<e:Label id="labelBuyNum" text="司马懿信物x5" x="0" y="66" size="18" textColor="0x582800" fontFamily="SimHei" touchEnabled="false" textAlign="center" width="220"/>
+		</e:Group>
+		<e:Image id="imgSpriteDiscount" source="ui_mall_BoardDiscound_png" x="7" y="7" scaleX="0.8" scaleY="0.8"/>
+		<e:Label id="labelDis" text="八折" x="8" y="30" size="14" fontFamily="SimHei" rotation="312.49"/>
+		<e:Image id="imgSpriteShadow" source="ui_mall_Make_png" x="0" y="3" width="369" height="127" visible="false"/>
+		<e:Image id="imgSpriteSoldOut" source="ui_mall_IconSoldOut_png" x="165" y="19" visible="false"/>
+	</e:Group>
+</e:Skin>

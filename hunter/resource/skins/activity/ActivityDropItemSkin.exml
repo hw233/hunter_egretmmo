@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityDropItemSkin" width="95" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0">
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" top="0"/>
+		<e:Image id="imgIcon" horizontalCenter="0" top="0" source=""/>
+		<e:Image source="ui_hunter_psychic_BoardPsychicNameFloor_png" horizontalCenter="0.5" bottom="-27"/>
+		<e:Label id="lbItemName" text="20/20" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" horizontalCenter="-0.5" bottom="-23"/>
+		<e:Group id="groupDown" width="95" height="90" x="1" y="-2" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>

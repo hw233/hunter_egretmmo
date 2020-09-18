@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Fight_MainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="ButtonTowerBack" label="Button" x="740" y="22" height="100" anchorOffsetX="0" width="190"/>
+</e:Skin>

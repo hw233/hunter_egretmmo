@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RenetDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rectBack" left="0" right="0" top="0" bottom="0" fillColor="0x000000" strokeColor="0x000000" touchEnabled="true" fillAlpha="0"/>
+	<e:Group width="440" height="200" horizontalCenter="0" verticalCenter="0">
+		<e:Rect fillColor="0xFFFFFF" ellipseWidth="10" ellipseHeight="10" strokeColor="0xFFFFFF" strokeAlpha="0" left="0" right="0" top="0" bottom="0"/>
+		<e:Rect height="2" y="120" fillColor="0x565859" fillAlpha="0.3" left="0" right="0" strokeAlpha="0"/>
+		<e:Label id="lbMsg" text="网络加载失败，请检查网络后重试" fontFamily="SimHei" size="24" height="120" verticalAlign="middle" textAlign="center" textColor="0x8a8e8e" left="0" right="0"/>
+		<e:Label id="lbBtn" text="重试" fontFamily="SimHei" size="28" scaleY="1" height="80" verticalAlign="middle" textAlign="center" bottom="0" textColor="0x004aff" touchEnabled="false" left="0" right="0"/>
+		<e:Group id="rect_ok" height="80" left="0" right="0" bottom="0"/>
+	</e:Group>
+	<e:Label id="lbLog" text="" fontFamily="SimHei" size="20" verticalAlign="middle" textAlign="center" bottom="4" touchEnabled="false" textColor="0xffffff" left="4"/>
+</e:Skin>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityPotatoSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group verticalCenter="0" horizontalCenter="0">
+		<e:Image source="ui_card_select_BoardMainFloor_png" scale9Grid="109,200,457,62" horizontalCenter="-7" verticalCenter="14.5"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="-7" top="0"/>
+		<e:Image source="ui_card_select_WordsTitle_png" horizontalCenter="-6.5" top="10"/>
+		<e:Scroller width="840" height="435" horizontalCenter="-2" verticalCenter="15" scrollPolicyH="off" scrollPolicyV="off">
+			<e:List id="lstView">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" requestedColumnCount="4" horizontalGap="2"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image source="ui_card_select_BoardTipsFloor_png" horizontalCenter="-7" bottom="14"/>
+		<e:Label text="此礼包为碎片礼包，收集一定数量可合成整卡" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" horizontalCenter="-7" bottom="19"/>
+		<e:Button id="btnClose" label="" right="1" top="4">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="获取后请到背包使用" size="18" textColor="0x000000" right="26" bottom="17"/>
+	</e:Group>
+</e:Skin>

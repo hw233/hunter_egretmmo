@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardBreakSelectItemSkin" width="100" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" x="0" y="0">
+		<e:Image source="ui_hunter_BoardHunterSoulIcon_png" y="7" x="0"/>
+		<e:Image id="imageFrame" source="ui_frame_FrameHunterAsh_png" x="-4" y="9"/>
+		<e:Image id="imageCardType" source="ui_hunter_evaluate_IconCardTypeOrn6_png" x="27" y="12"/>
+		<e:Image id="imageIcon" source="card_081lansexingxingSS_5s_png" x="6" y="14" width="74" height="87"/>
+		<e:Group id="groupStar" width="70" height="16" x="1" y="77"/>
+		<e:BitmapLabel id="labelLevel" width="40" height="20" x="69" y="63" text="1" font="ItemNum_fnt"/>
+		<e:Image id="imageLock" source="ui_currencyicon_IconLock_png" x="2" y="8"/>
+		<e:Group id="groupBingo" width="100%" height="100%" x="0" y="0">
+			<e:Image id="imageShadow" source="ui_frame_SpriteMake_png" x="0" y="8" width="88" height="84"/>
+			<e:Image id="imageBingo" source="ui_hunter_IconBingoHunterSoulRed_png" x="16" y="30"/>
+		</e:Group>
+		<e:Group id="groupClick" width="89" height="86" x="2" y="9" anchorOffsetX="0" anchorOffsetY="0">
+		</e:Group>
+		<e:Group id="groupClickLong" width="89" height="86" x="2" y="9"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_WonderlandFruitBagItemSkin" width="97" height="99" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="98" height="100" x="0" y="0">
+		<e:Image source="ui_wonderland_IconFruitNode_png" x="0" y="0" scaleX="1" scaleY="1" width="97" height="99"/>
+		<e:Group id="groupClose" width="97" height="99" x="0" y="0">
+			<e:Image id="imgBoard" source="ui_frame_FrameHunterAsh_png" verticalCenter="3" y="15" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Image id="imgIcon" verticalCenter="3" y="15" scaleX="1" scaleY="1" horizontalCenter="0" source=""/>
+			<e:BitmapLabel id="labelNum" width="75" height="23" font="ItemNumWords_fnt" text="1" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" verticalAlign="top" touchEnabled="false" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="-28"/>
+			<e:Label id="labelNumID" text="18" size="18" textColor="0x000000" touchEnabled="false" verticalCenter="-7.5" textAlign="center" y="42" scaleX="1" scaleY="1" horizontalCenter="-18.5" anchorOffsetX="0" width="40" anchorOffsetY="0" height="40" verticalAlign="middle"/>
+			<e:Image id="imgPoint" source="ui_currencyicon_IconRed_png" horizontalCenter="39.5" top="-2"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

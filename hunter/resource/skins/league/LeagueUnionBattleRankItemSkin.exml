@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueUnionBattleRankItemSkin" width="690" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_union_battle_rankLine_png" x="0" width="690" y="45"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Label id="lbMyRank" text="暂未上榜" size="18" fontFamily="Helvetica" textColor="0x000000" verticalAlign="middle" textAlign="center" horizontalCenter="-269" height="20" width="100" verticalCenter="0"/>
+		<e:Label id="lbSegment" text="青铜" textColor="0x000000" size="18" horizontalCenter="-133" width="70" height="20" verticalCenter="0" verticalAlign="middle" fontFamily="Helvetica" textAlign="center"/>
+		<e:Image id="imgMySegment" source="ui_union_battle_star11_png" horizontalCenter="-133" verticalCenter="0"/>
+		<e:Label id="lbMyUnionName" text="公会名称" size="18" fontFamily="Helvetica" textColor="0x000000" horizontalCenter="45" height="20" width="100" verticalCenter="0" verticalAlign="middle" textAlign="center"/>
+		<e:Label id="lbMyRankScore" text="6000" size="18" fontFamily="Helvetica" textColor="0x000000" verticalAlign="middle" horizontalCenter="247" height="20" width="80" verticalCenter="0"/>
+		<e:Image source="ui_union_battle_rankLine_png" width="690" scaleX="1" scaleY="1" horizontalCenter="0" bottom="-16" visible="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Zork_BossSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" x="0" y="0" touchThrough="true">
+		<e:Image x="826" y="-7" source="ui_wonderland_ButtonReturnSel_png" visible="false"/>
+		<e:Group id="groupResource" width="200" height="200" x="272" y="-1" visible="false"/>
+		<e:Group id="groupAB2" width="178" height="53" right="107" bottom="8">
+			<e:Group id="groupButton" width="178" height="53" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+				<e:Button id="btnAttack" label="" x="4" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_instance_ButtonChangeNor_png" source.down="ui_instance_ButtonChangeSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Image source="ui_instance_IconDao_png" x="27.66" y="-0.01" scaleX="1" scaleY="1" touchEnabled="false"/>
+				<e:Image source="ui_instance_IconDao_png" x="80.66" y="-0.01" scaleX="-1" scaleY="1" touchEnabled="false"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupAB" width="600" height="120" right="-2" top="55">
+			<e:Group id="groupBlood" width="600" height="120" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+				<e:Image source="ui_wonderland_boss_BoardBurSkillBossBlood_png" right="3" top="0"/>
+				<e:Image id="imgBossIcon" source="hero_icon_head_wj_dongba_png" right="-1" top="-2"/>
+				<e:Image id="imgBossBlood" source="ui_wonderland_boss_BurSkillBossBlood_png" scale9Grid="15,2,320,18" width="339" x="172" height="22" y="9.5"/>
+				<e:Label id="labelBlood" text="22.22%" x="183.67" y="11" size="18" anchorOffsetX="0" width="326" anchorOffsetY="0" height="20" verticalAlign="middle" textAlign="center"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupScaleB" left="0" top="0">
+			<e:Group id="groupList" width="310" height="220" y="60" x="0">
+				<e:Image source="ui_instance_BoardBossSkill_png" width="310" height="220" scale9Grid="4,4,85,94" horizontalCenter="0" top="0"/>
+				<e:Image source="ui_wonderland_boss_BoardSKillBossHitEnemy_png" scale9Grid="2,1,52,30" width="295" horizontalCenter="0" top="0"/>
+				<e:Label text="排名" size="16" top="9" horizontalCenter="-119" textColor="0xffe593"/>
+				<e:Label text="玩家名称" size="16" top="9" horizontalCenter="-39" textColor="0xffe593"/>
+				<e:Label text="伤害量" size="16" top="9" horizontalCenter="95" textColor="0xFFE593"/>
+				<e:Scroller id="scrollerTableViewRank" width="310" height="155" horizontalCenter="0" top="32" anchorOffsetY="0">
+				<e:List id="listTableViewRank"/>
+				</e:Scroller>
+				<e:Image source="ui_wonderland_boss_BoardSKillBossHitMy_png" width="295" horizontalCenter="0" bottom="0" height="32"/>
+				<e:Label id="labelMyRank" text="999" size="16" textColor="0xffe593" horizontalCenter="-119" bottom="7"/>
+				<e:Label id="labelMyName" text="你想我叫什么" size="16" textColor="0xFFE593" horizontalCenter="-48" bottom="7"/>
+				<e:Label id="labelMyValue" text="9999万（22.44%）" size="16" textColor="0xFFE593" horizontalCenter="78" bottom="7"/>
+			</e:Group>
+			<e:Image source="ui_wonderland_boss_BoardButtonTopSelected_png" y="3" x="0"/>
+			<e:Group id="groupRank" x="2" y="0">
+				<e:Image source="ui_wonderland_boss_BoardButtonTopSelectedB_png" y="0" x="0"/>
+				<e:Button id="btnRank" label="" x="20" y="6">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_wonderland_boss_ButtonTopHitRankNor_png" source.down="ui_wonderland_boss_ButtonTopHitRankSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="groupPlayer" x="145" y="0">
+				<e:Image source="ui_wonderland_boss_BoardButtonTopSelectedB_png" x="0" y="0"/>
+				<e:Button id="btnPlayer" label="" x="17" y="6">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_wonderland_boss_ButtonTopClosePlayerNor_png" source.down="ui_wonderland_boss_ButtonTopClosePlayerSel_png" source.disabled="ui_wonderland_boss_ButtonTopClosePlayerSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+
+				</e:Button>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupMiniChat" width="370" height="138" left="0" verticalCenter="50" touchEnabled="false" visible="false">
+			<e:Image id="imgChatBack" source="ui_wonderland_BoardChatTip_png" x="0" y="0" width="370" height="138" scale9Grid="4,4,125,91" touchEnabled="false"/>
+			<e:Scroller width="370" height="138" anchorOffsetX="0">
+				<e:Group>
+					<e:List id="labelInfoList" width="370" height="138" x="0" y="0" scaleX="1" scaleY="1" touchEnabled="false">
+						<e:layout>
+						<e:VerticalLayout gap="5" paddingTop="2"/>
+						</e:layout>
+					</e:List>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="groupChat" left="-36" bottom="2" height="170" touchEnabled="false">
+
+			<e:Button id="btnChat" label="" left="37" bottom="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_battle_ButtonChatNor_png" source.down="ui_battle_ButtonChatSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Group id="messageHistoryChat" width="370" height="170" left="37" bottom="0" visible="false">
+				<e:Rect width="370" height="170" fillAlpha="0.5" strokeColor="0x98A5AA" ellipseWidth="10" ellipseHeight="10" strokeWeight="2"/>
+				<e:List id="simpleChat" width="370" height="170" x="0" y="0" scaleX="1" scaleY="1">
+				<e:layout>
+					<e:VerticalLayout gap="5" paddingTop="2"/>
+				</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupDie" width="455" height="280" horizontalCenter="0" verticalCenter="0" visible="false">
+			<e:Image source="ui_hunter_BoardCardPopSeconde_png" width="455" height="280" horizontalCenter="0" verticalCenter="0" scale9Grid="21,33,332,475"/>
+			<e:Image source="ui_hunter_BoardSkillClick_png" width="420" height="130" horizontalCenter="3.5" verticalCenter="-41" scale9Grid="5,5,100,103"/>
+			<e:Image source="ui_hunter_OrnFlower_png" x="25" y="-4"/>
+			<e:Label id="labelDieTips" text="你已经阵亡！倒计时结束后将在场景入口复活" size="18" textColor="0x000000" horizontalCenter="3" top="48" width="378" height="22" verticalAlign="middle" textAlign="center"/>
+			<e:Group id="groupDieCost" x="198" y="235">
+			<e:Image source="ui_currencyicon_IconGemstone_png" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Label id="labelConsume" text="100" x="35" y="5" textColor="0x000000" size="18" fontFamily="SimHei" bold="true"/>
+			</e:Group>
+			<e:Image source="ui_wonderland_IconTime_png" x="169" y="120"/>
+			<e:Label id="labelLeftTime" text="6秒" x="216" y="128" size="20" textColor="0x003F00"/>
+			<e:Group id="groupAddDie" width="200" height="200" x="99" y="26"/>
+			<e:Button id="btnRevive" label="" bottom="48" horizontalCenter="3" x="157.00000000000003" y="362" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_wonderland_ButtonImmediatelyResurrectionNor_png" source.down="ui_wonderland_ButtonImmediatelyResurrectionSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnCancel" label="" scaleX="1" scaleY="1" bottom="48" horizontalCenter="-97" visible="false">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_wonderland_ButtonCancelResurrectionNor_png" source.down="ui_wonderland_ButtonCancelResurrectionSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgDieTipsBack" source="ui_common_BoardUpStarSmall_png" y="231.99999999999997" horizontalCenter="0" x="-139" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+		<e:Group id="groupLeftTime" horizontalCenter="0.5" top="0">
+			<e:Image source="ui_wonderland_boss_BoardSkillBossTime_png" x="0" y="0"/>
+			<e:BitmapLabel id="labelStartTime" width="467" height="47" horizontalCenter="0" top="0" text="" anchorOffsetX="0" anchorOffsetY="0" font="WonderlandSkillBossTime_fnt" textAlign="center" verticalAlign="middle"/>
+		</e:Group>
+		<e:Group id="groupMid" width="960" height="640" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+		</e:Group>
+		<e:Group id="groupGo" width="199" height="200" x="174" y="358" visible="false"/>
+		<e:Group anchorOffsetY="0" anchorOffsetX="0" right="180" top="0" height="44" width="130">
+			<e:Image source="ui_mainui_BoardCurrency_png" verticalCenter="0" width="100%" horizontalCenter="0"/>
+			<e:Group x="-20" y="0" anchorOffsetX="0" width="150">
+				<e:Rect width="100" height="24" x="8.02" fillAlpha="0.5" y="10"/>
+				<e:Label id="lbGemstone" text="30" x="25.02" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="77.83" textAlign="center" verticalAlign="middle" y="13.02" anchorOffsetY="0" height="22.5"/>
+				<e:Image source="ui_currencyicon_IconGemstone_png" x="0" y="7"/>
+				<e:Button id="btnAddGemstone" label="" x="95.02" y="3.35">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgFlagGemstone" source="ui_currencyicon_IconRed_png" x="117.17" touchEnabled="false" y="-4.67" visible="false"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Button id="btnClose" label="" scaleX="1" scaleY="1" bottom="1" right="-16">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_instance_ButtonInstanceReturnNor_png" source.down="ui_instance_ButtonInstanceReturnSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

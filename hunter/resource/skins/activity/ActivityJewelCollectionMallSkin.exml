@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityJewelCollectionMallSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="8" verticalCenter="-4">
+		<e:Image source="ui_instance_LayerInstance_png" y="66.31" width="730" height="565" scale9Grid="11,11,73,73" x="1.52"/>
+		<e:Image source="ui_instance_BoardTopTip_png" x="0" y="58.71" scaleX="2.25"/>
+		<e:Image source="ui_instance_IconPoint_png" x="9.08" y="66.49"/>
+		<e:Image source="ui_acitivity_jewel_WordsJewelMall_png" y="0" x="153.52"/>
+		<e:Image source="ui_acitivity_random_BoardPlayerCore_png" x="9.37" y="77.58"/>
+		<e:Image source="ui_acitivity_jewel_WordsJewelCanUse_png" x="54.44" y="81.93"/>
+		<e:BitmapLabel id="labelCore" width="82.12" height="27.58" x="211" y="85.97" text="123" font="WordsGiftRmbGes_fnt" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image source="ui_instance_BoardSearchTeam_png" x="9.12" y="117.63" width="715" height="504.55" scale9Grid="8,7,50,47" anchorOffsetY="0"/>
+		<e:Group id="groupMain" width="712.12" height="495.45" x="10.52" y="121.37" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Scroller width="100%" height="100%" x="0" y="0">
+			<e:List id="listViewTask">
+				<e:layout>
+				<e:TileLayout requestedRowCount="2" orientation="rows" paddingLeft="10" horizontalGap="10"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Button id="buttonRed" label="" x="659.45" y="39.15">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_acitivity_jewel_WordsTipExchange_png" x="336.04" y="90.97"/>
+	</e:Group>
+</e:Skin>

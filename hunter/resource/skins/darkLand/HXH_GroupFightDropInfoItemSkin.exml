@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_GroupFightDropInfoItemSkin" width="680" height="78" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupCache" left="0" right="0" top="0" bottom="0">
+			<e:Image source="ui_common_BoardCommonDropItem_png" x="0" y="0" width="140" scale9Grid="11,8,73,53" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="labelCurrentLayerNum" width="121.33" height="27.28" anchorOffsetX="0" anchorOffsetY="0" text="第10层" font="SkyArenaLayerNum_fnt" scaleY="1.1" textAlign="center" left="9" verticalCenter="0" x="9" y="21" scaleX="1"/>
+			<e:Image source="ui_common_BoardCommonDropItem_png" x="147.35" y="1.9900000000000002" width="530" scale9Grid="11,8,73,53" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_skyarean_WordsSkyTipDropPop_png" x="184.34" y="24.32" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_skyarean_WordsSkyTipDropFirstPop_png" verticalCenter="0" right="102" x="528" y="23" scaleX="1" scaleY="1"/>
+			<e:Group id="groupFrist" verticalCenter="2.5" right="20" x="591" y="5" scaleX="1" scaleY="1">
+				<e:Image id="imageFrame" source="ui_frame_FrameHunterAsh_png" x="0.01" y="0" scaleX="0.7" scaleY="0.7"/>
+				<e:Image id="imageIcon" source="hero_icon_head_wj_bisiji_png" x="0" y="1.34" scaleX="0.7" scaleY="0.7"/>
+				<e:BitmapLabel id="labelItemNum" width="54.67" height="18.67" y="37" anchorOffsetX="0" anchorOffsetY="0" text="123" font="ItemNumWords_fnt" textAlign="right" scaleX="0.9" scaleY="0.9" right="7"/>
+			</e:Group>
+		</e:Group>
+
+
+
+
+		<e:Group id="groupAward" width="295" height="70" x="233.34" y="1.37" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Scroller id="scrollerRewards" width="100%" height="100%" x="0" y="0">
+			<e:List id="listDorpItem" width="100%">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" orientation="rows" paddingTop="2" paddingLeft="5"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+
+
+	</e:Group>
+</e:Skin>

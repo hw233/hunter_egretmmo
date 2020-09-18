@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Daily_AwardPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="530" height="275" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_BoardCardPopSeconde_png" scale9Grid="65,65,397,396" height="275" horizontalCenter="-6" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_card_BoardCardPopTop_png" scale9Grid="43,5,259,30" anchorOffsetX="0" width="513" top="0" horizontalCenter="-0.5"/>
+		<e:Image source="ui_daily_ButtonViewAward_png" horizontalCenter="0" top="6"/>
+		<e:Label text="包含奖励如下" textColor="0x000000" size="18" textAlign="center" horizontalCenter="0" top="46"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" width="495" height="140" horizontalCenter="0.5" verticalCenter="1.5" scale9Grid="15,10,92,65"/>
+		<e:Button id="btnClose" label="" horizontalCenter="0" bottom="15">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_daily_ButtonKnowNor_png" source.down="ui_daily_ButtonKnowSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="scrollerAward" width="400" height="135" horizontalCenter="4" verticalCenter="2" anchorOffsetY="0" scrollPolicyH="on">
+			<e:List id="listAward" anchorOffsetY="0" height="135" x="0" y="8" width="400">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+
+</e:Skin>

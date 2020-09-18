@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonDesPsychicGroupItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="labelPropertyChange" text="生命+100%（+100%）" horizontalCenter="0" verticalCenter="0" size="16" width="450" alpha="1"/>
+</e:Skin>

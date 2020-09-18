@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueUnionStatusItem2Skin" width="525" height="65" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lbTeamStatus" text="某某队伍（状态）" textColor="0x000000" size="18" fontFamily="Helvetica" width="278" height="23" verticalCenter="0" left="0" verticalAlign="middle" textAlign="center" anchorOffsetX="0"/>
+	<e:Group x="300" y="9">
+		<e:Image id="imgHeroFrame0" source="ui_frame_FrameHunterAsh_png" scaleX="0.5" scaleY="0.5" scale9Grid="11,11,73,71" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon0" width="64" height="64" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="-1.5"/>
+	</e:Group>
+	<e:Group x="357" verticalCenter="0">
+		<e:Image source="ui_frame_FrameHunterAsh_png" scaleX="0.5" scaleY="0.5" scale9Grid="11,11,73,71" id="imgHeroFrame1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon1" width="64" height="64" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="-1.5"/>
+	</e:Group>
+	<e:Group verticalCenter="0" x="414">
+		<e:Image source="ui_frame_FrameHunterAsh_png" scaleX="0.5" scaleY="0.5" scale9Grid="11,11,73,71" id="imgHeroFrame2" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon2" width="64" height="64" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="-1.5"/>
+	</e:Group>
+	<e:Group verticalCenter="0" x="471">
+		<e:Image source="ui_frame_FrameHunterAsh_png" scaleX="0.5" scaleY="0.5" scale9Grid="11,11,73,71" id="imgHeroFrame3" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon3" width="64" height="64" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="-1.5"/>
+	</e:Group>
+</e:Skin>

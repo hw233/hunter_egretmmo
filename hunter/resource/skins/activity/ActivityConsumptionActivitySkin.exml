@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityConsumptionActivitySkin" width="660" height="480" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group verticalCenter="4" right="0">
+		<e:Image source="ui_acitivity_LayerdTopUp_png" y="0" x="0"/>
+		<e:Image id="imgTitle" source="ui_acitivity_WordsTipTopUp_png" x="69" y="0"/>
+		<e:Image source="ui_acitivity_LayerSecondeSmall_png" y="76.35" height="100" scale9Grid="74,5,445,30" x="16"/>
+		<e:Scroller id="scrollerInfo" width="625" height="280" x="0" y="185">
+			<e:List id="lstView"/>
+		</e:Scroller>
+		<e:Image source="ui_acitivity_WordsTipActivityTime_png" x="20" y="77.01"/>
+		<e:Image source="ui_acitivity_WordsTipActivityInfomation_png" x="20" y="101.08"/>
+		<e:Label id="lbTime" text=" " x="110" y="81" size="16" fontFamily="Helvetica"/>
+		<e:Label id="lbInfo" text=" " x="110" y="105.01" width="495" height="120" size="18" fontFamily="Helvetica" lineSpacing="5" anchorOffsetX="0"/>
+		<e:Label id="lbMoney" text="已消耗：1500万" x="26" y="153.32" textColor="0x23d700" size="18" fontFamily="Helvetica"/>
+		<e:Image id="imgType" source="ui_iconresources_zuanshi3_png" x="154" y="133.33"/>
+	</e:Group>
+</e:Skin>

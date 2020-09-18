@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardMainSceneSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" x="0" y="0">
+		<e:Image source="ui_card_LayerCardBg_png" x="0" y="0" width="100%" height="100%" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_hunter_OrnTop_png" x="0" width="100%" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_card_WordsCardInfo_png" scaleX="1" scaleY="1" left="110" top="0"/>
+		<e:Group id="groupCenter" width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0" left="0" y="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Group width="90" height="458" y="89" right="0" anchorOffsetX="0" x="860" scaleX="1" scaleY="1" >
+			<e:Image source="ui_card_BoardEntranceButton_png" y="2" right="0"/>
+			<e:Group width="77" height="64" x="54.33" y="92.32" touchEnabled="false" anchorOffsetX="37.88" anchorOffsetY="31.82">
+				<e:Button id="btnCard" label="" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_card_ButtonCardNor_png" scaleX.down="1.1" scaleY.down="1.1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+
+			</e:Group>
+			<e:Group width="77" height="64" x="55.84" y="179.61" touchEnabled="false" anchorOffsetX="39.39" anchorOffsetY="33.33">
+				<e:Button id="btnCardBag" label="" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-0.5" horizontalCenter="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_card_ButtonCardBagNor_png" scaleX.down="1.1" scaleY.down="1.1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imageCardBagTips" source="ui_currencyicon_IconRed_png" x="-8" y="3" touchEnabled="false"/>
+
+			</e:Group>
+
+			<e:Group width="77" height="64" x="57.36" y="263.84" touchEnabled="false" anchorOffsetX="40.91" anchorOffsetY="31.82">
+				<e:Button id="btnCardCompose" label="" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_card_compose_ButtonPageComposeNor_png" scaleX.down="1.1" scaleY.down="1.1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imageCardComposeTips" source="ui_currencyicon_IconRed_png" x="-8" y="3"/>
+			</e:Group>
+			<e:Group width="77" height="64" x="55.84" y="351.12" touchEnabled="false" anchorOffsetX="39.39" anchorOffsetY="33.33">
+				<e:Button id="btnCardPokedex" label="" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0.5">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_card_ButtonCardPokedexNor_png" scaleX.down="1.1" scaleY.down="1.1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group width="82" height="89" x="51.38" y="86.97" touchEnabled="false" anchorOffsetX="43.94" anchorOffsetY="46.97">
+				<e:Button id="btnCardSp" label="" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" visible="false">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_card_WordsCard_png" scaleX.down="1.1" scaleY.down="1.1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group width="82" height="89" x="49.86" y="174.85" touchEnabled="false" anchorOffsetX="42.42" anchorOffsetY="45.45">
+				<e:Button id="btnCardBagSp" label="" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" visible="false">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_card_WordsCardBag_png" scaleX.down="1.1" scaleY.down="1.1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group width="82" height="89" x="48.35" y="265.16" touchEnabled="false" anchorOffsetX="40.91" anchorOffsetY="45.45">
+				<e:Button id="btnCardComposeSp" label="" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="82" verticalCenter="0" horizontalCenter="0" visible="false">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_card_compose_ButtonPageComposeSel_png" scaleX.down="1.1" scaleY.down="1.1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group width="82" height="89" x="49.86" y="355.46" touchEnabled="false" anchorOffsetX="42.42" anchorOffsetY="45.46">
+				<e:Button id="btnCardPokedexSp" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" visible="false">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_card_WordsPokedex_png" scaleX.down="1.1" scaleY.down="1.1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+
+
+
+
+
+
+		</e:Group>
+		<e:Group right="179" top="0" x="541" y="-144" scaleX="1" scaleY="1" anchorOffsetX="0" width="182.5" >
+			<e:Image source="ui_hunter_BoardRecources_png" x="13.32" y="9.66" anchorOffsetX="0" width="129.67"/>
+			<e:Image source="ui_currencyicon_IconGold_png" x="9.38" y="7.34"/>
+			<e:Label id="labelGold" text="8287.2万" x="36.09" y="13" size="18" anchorOffsetX="0" width="97.2" textAlign="center" fontFamily="Microsoft YaHei"/>
+			<e:Button id="btnAddGold" label="" x="127.42" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png" source.disabled="ui_hunter_ButtonAddResourcesNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Button id="btnClose" label="" left="-23" top="-9" scaleY="0.8" anchorOffsetY="0" height="86.5" x="-23" y="-9" scaleX="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+
+
+
+
+
+
+</e:Skin>

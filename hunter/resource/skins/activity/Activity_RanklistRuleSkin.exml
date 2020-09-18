@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_RanklistRuleSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" x="96" y="68" scaleX="1" scaleY="1" source="ui_acitivity_rankinglist_bgRule_png"/>
+		<e:Label id="labelDes" text="" anchorOffsetX="0" width="650" anchorOffsetY="0" height="371" textColor="0x000000" size="18" horizontalCenter="16" verticalCenter="19" lineSpacing="10"/>
+		<e:Button id="btnClose" label="" horizontalCenter="377" top="80">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ui_acitivity_rankinglist_buttonCloseNor_png" source.down="ui_acitivity_rankinglist_buttonCloseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

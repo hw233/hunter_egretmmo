@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueUnionRewarPreviewItemSkin1" width="637" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupCache" width="637" height="105" x="0" y="0">
+		<e:Image source="ui_mail_LayerMailSeconde_png" width="637" height="105" scale9Grid="6,10,38,62" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_mail_LayerMailSecondeSel_png" width="375" height="85" scale9Grid="6,10,38,62" verticalCenter="0" right="13" x="249" y="10" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="lbRank" width="200" height="22" font="ArenaRanking_fnt" text="第4-20名" anchorOffsetX="0" anchorOffsetY="0" left="24" textAlign="center" verticalCenter="0" x="24" y="42" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Scroller width="338" height="70" anchorOffsetY="0" scaleX="1" scaleY="1" scrollPolicyH="off" scrollPolicyV="off" verticalCenter="0" right="46">
+		<e:List id="lstItem0" width="337.5" anchorOffsetY="0" y="0" x="0" horizontalCenter="0.25" height="63.76" anchorOffsetX="0" scaleX="1" scaleY="1" top="6">
+		<e:layout>
+			<e:TileLayout requestedRowCount="1" requestedColumnCount="4" verticalAlign="bottom" verticalGap="6" horizontalGap="1"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+
+</e:Skin>

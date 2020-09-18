@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_DesSkillSkin" width="350" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="350" height="250" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_common_BoardChangeAchievementsA_png" left="0" top="0" right="0" bottom="0" scale9Grid="55,53,39,17"/>
+		<e:Group width="88" height="88" x="15" y="15">
+			<e:Image id="spriteFrame" source="ui_frame_FrameSkill_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="spriteIcon" source="hero_icon_head_wj_jienuo_png" width="71" height="72" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group height="80" right="10" left="120" top="20">
+			<e:Label id="labelTextName" text="寒冰乱舞" textColor="0xeaead2" size="15" left="0" right="0" top="0" height="20" textAlign="left" verticalAlign="bottom"/>
+			<e:Label text="等级:" textColor="0xEAEAD2" size="15" left="0" top="30" height="20" textAlign="left" verticalAlign="middle" width="40"/>
+			<e:Label id="labelTextLevel" text="1" textColor="0xEAEAD2" size="15" left="40" top="30" height="20" textAlign="left" verticalAlign="middle" right="10"/>
+			<e:Label text="类型:" textColor="0xEAEAD2" size="15" left="0" top="60" height="20" textAlign="left" verticalAlign="top" width="40"/>
+			<e:Label id="labelTextType" text="自动技" textColor="0xEAEAD2" size="15" left="40" top="60" height="20" textAlign="left" verticalAlign="top" width="54"/>
+		</e:Group>
+		<e:Image source="ui_common_BoardChangeAchievementsB_png" height="110" width="325" horizontalCenter="0" bottom="20"/>
+		<e:Label id="labelTextInfo" text="技能描述啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦" width="300" height="100" horizontalCenter="0" bottom="25" size="18" lineSpacing="5" textColor="0xf7cc8c"/>
+	</e:Group>
+</e:Skin>

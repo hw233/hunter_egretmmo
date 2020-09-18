@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivitySpecialWonderlandItemSkin" width="450" height="116" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" source="ui_acitivity_special_list_png"/>
+		<e:Image left="0" top="0" source="ui_acitivity_biaoqian_png"/>
+		<e:Group id="labelLevel" x="10" y="3">
+		<e:Label text="等级达到" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" size="22" textColor="0x0A110E" x="0" y="2" bold="true"/>
+		<e:Label text="级" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" size="22" textColor="0x0A110E" x="141" y="2" bold="true"/>
+		<e:BitmapLabel id="lbPlayerLevel" width="60" x="86" y="0" anchorOffsetX="0" anchorOffsetY="0" text="40" textAlign="center" verticalAlign="middle" font="acitivity_typeface_fnt"/>
+		</e:Group>
+		<e:Label id="lbGetTip" text="可领取" fontFamily="Microsoft YaHei" verticalAlign="middle" textAlign="center" size="24" verticalCenter="-44" horizontalCenter="-133" textColor="0x0EA030" visible="false"/>
+	</e:Group>
+	<e:Scroller height="70" anchorOffsetX="0" scrollPolicyV="off" scrollPolicyH="on" left="4" top="39" width="267">
+		<e:List id="lstAward" anchorOffsetX="0" width="169">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="累计返利" x="308" y="24" size="20" textColor="0x3f3b3b"/>
+	<e:Label text="40%" x="392" y="24" size="20" textColor="0xff0000"/>
+	<e:Button id="btnMonthCard" verticalCenter="15" label="领取" width="130" right="20" enabled="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_acitivity_special_btn2-2_png" source.down="ui_acitivity_special_btn2-1_png" source.disabled="ui_acitivity_special_btn2-3_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000" size="24"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="imgMask" source="ui_acitivity_MaskSignAward_png" scale9Grid="8,12,55,75" touchEnabled="false" width="100%" height="100%" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image id="imgGet" source="ui_acitivity_WordsTipDayCharge_png" horizontalCenter="144.5" x="70" touchEnabled="false" verticalCenter="17"/>
+</e:Skin>

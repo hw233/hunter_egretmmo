@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainCitySceneNewSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:zj="zj.*">
+
+
+
+	<e:Group id="groupTR" width="458" height="44" anchorOffsetY="0" anchorOffsetX="0" top="4"  right="0">
+		<e:Image source="ui_mainui_BoardCurrency_png" x="0" verticalCenter="0" width="100%" visible="false"/>
+		<e:Group id="groupbtnAddGold" x="-17" y="0" width="144" height="43">
+			<e:Image width="100" height="24" x="16" verticalCenter="0" source="ui_common_mask_black_jpg" alpha="0.5"/>
+			<e:Label id="lbGold" text="19.9万" x="17" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="90.5" textAlign="center" verticalAlign="middle" verticalCenter="-0.5" height="18"/>
+			<e:Image id="gold" source="ui_currencyicon_IconGold_png" x="-3" verticalCenter="0"/>
+			<e:Button id="btnAddGold" label="" x="104.5" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgFlagGold" source="ui_currencyicon_IconRed_png" x="130.5" touchEnabled="false" y="0"/>
+		</e:Group>
+		<e:Group id="groupbtnAddGemstone" x="144" y="0" width="130" height="42">
+			<e:Image width="100" height="24" x="8" source="ui_common_mask_black_jpg" alpha="0.5" verticalCenter="0"/>
+			<e:Label id="lbGemstone" text="30" x="18.02" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="81.33" textAlign="center" verticalAlign="middle" verticalCenter="0" height="18"/>
+			<e:Image id="jewel" source="ui_currencyicon_IconGemstone_png" x="-9" verticalCenter="0"/>
+			<e:Button id="btnAddGemstone" label="" x="97" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgFlagGemstone" source="ui_currencyicon_IconRed_png" x="125" touchEnabled="false" y="0"/>
+		</e:Group>
+		<e:Group id="groupbtnAddStrength" x="294" y="0" width="157" height="43" anchorOffsetX="0">
+			<e:Image width="100" height="24" x="14" source="ui_common_mask_black_jpg" alpha="0.5" verticalCenter="0.5"/>
+			<e:Label id="lbStrength" text="110/102" x="13.5" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="100" verticalAlign="middle" textAlign="center" verticalCenter="1" height="19" anchorOffsetY="0"/>
+			<e:Image id="energy" source="ui_currencyicon_IconStrength_png" x="0" verticalCenter="0"/>
+			<e:Button id="btnAddStrength" label="" x="113.5" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgFlagStrength" source="ui_currencyicon_IconRed_png" x="136.5" touchEnabled="false" y="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupSearchEnd" right="49" bottom="88" touchEnabled="false" visible="false">
+		<e:Image id="imgSearchEnd" source="ui_mainui_WordsInstanceSearchEndPop_png" x="0" y="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+	<e:Group id="groupAdventure" right="0" bottom="0" touchEnabled="false" touchChildren="false" visible="false"/>
+
+
+
+	<e:Group id="groupBR" right="0" bottom="0" touchEnabled="false" width="488" scaleX="1">
+		<e:Image right="0" bottom="0" source="ui_mainui_BoarFunctionIcon_png" touchEnabled="false"/>
+		<e:Group scaleX="1" scaleY="1" right="0" bottom="0" touchEnabled="false">
+
+			<e:Group id="btnPet" width="88" height="88" x="44" y="25">
+				<e:Button label="" horizontalCenter="0" verticalCenter="0" x="-106.00000000000003" y="-20" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainPetNor_png" source.down="ui_mainui_ButtonMainPetSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="btnCard" width="88" height="88" x="44" y="25">
+				<e:Button label="" horizontalCenter="0" verticalCenter="0" width="106" height="108" x="264" y="-20" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainCardNor_png" source.down="ui_mainui_ButtonMainCardSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="btnHunter" width="88" height="88" x="44" y="25">
+				<e:Button label="" horizontalCenter="0" verticalCenter="0" x="176" y="-20" scaleX="1" scaleY="1" width="106" height="108">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_mainui_ButtonMianHunterNor_png" source.down="ui_mainui_ButtonMianHunterSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="btnBag" width="88" height="88" x="44" y="25">
+				<e:Button label="" horizontalCenter="0" verticalCenter="0" x="88.00000000000011" y="-20" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainBagNor_png" source.down="ui_mainui_ButtonMainBagSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+
+
+
+			<e:Group width="135" height="126" x="421" y="69">
+				<e:Button id="btnAdventrue" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" width="95" height="126">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainAdventrueNor_png" source.down="ui_mainui_ButtonMainAdventrueSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgTipRand" source="ui_currencyicon_IconRed_png" x="95" y="14"/>
+			</e:Group>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="bottom" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="groupRedBR" touchChildren="false" touchEnabled="false" scaleX="1" scaleY="1" right="145" bottom="59">
+			<e:Image id="imgTip28" source="ui_currencyicon_IconRed_png" x="70" y="7"/>
+			<e:Image id="imgTip47" source="ui_currencyicon_IconRed_png" x="70" y="7"/>
+			<e:Image id="imgTip27" source="ui_currencyicon_IconRed_png" x="70" y="7"/>
+			<e:Image id="imgTip31" source="ui_currencyicon_IconRed_png" x="221" y="126" scaleX="1" scaleY="1"/>
+			<e:layout>
+			<e:HorizontalLayout gap="65"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupHead" height="130" anchorOffsetX="0" width="280" left="0" top="0" anchorOffsetY="0">
+		<e:Image source="ui_mainui_BoarPlayerIcon_png" x="96" y="14"/>
+
+
+		<e:ProgressBar id="imgExp" skinName="ProgressBar1" value="100" width="142" x="121" y="41"/>
+		<e:Group width="110" height="110" x="0" y="0">
+			<e:Image source="ui_frame_FrameImageB_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgRoleHead" source="hero_icon_head_wj_xiaojie_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgHeadFrame" touchEnabled="false" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_frame_FrameImage_png"/>
+		</e:Group>
+
+
+
+		<e:BitmapLabel id="lbRoleLevel" text="99" verticalAlign="middle" horizontalCenter="-31" font="exp_number_fnt" letterSpacing="-3" y="39"/>
+		<e:Label id="lbRoleName" text="裴欧尔佳尔佳" y="18" anchorOffsetX="0" width="150" fontFamily="Microsoft YaHei" size="20" verticalAlign="middle" textAlign="center" x="102"/>
+
+		<e:Group x="5" y="100" scaleX="0.75" scaleY="0.75">
+			<e:Image id="imgLicenseBackround" source="ui_mainui_BoardHunterLicenseLevelA_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgLicense" source="ui_license_examination_WordsTitle0_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="groupLineChange" width="165" height="28" y="56" anchorOffsetX="0" scaleX="1" scaleY="1" x="97">
+			<e:Image source="ui_main_linechange_bg_png" visible="false"/>
+			<e:Image source="ui_main_linechange_btn_png" right="0"/>
+			<e:Label text="当前线路" x="4" size="14" verticalCenter="1" stroke="1"/>
+			<e:Label id="labelLine" text="220线" x="64" size="14" verticalCenter="1" stroke="1" textColor="0x3fff75"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="btnHelp" label="" x="394" y="6" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_help_ButtonHelpMainNor_png" source.down="ui_help_ButtonHelpMainSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnFriend" label="" x="336" y="6" width="52" height="55">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainFriendNor_png" source.down="ui_mainui_ButtonMainFriendSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="imgTip2_9" source="ui_currencyicon_IconRed_png" x="364" y="12" scaleX="0.7" scaleY="0.7" touchEnabled="false"/>
+	<e:Button id="btnMail" label="" x="280" y="6">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_mainui_ButtonMailNor_png" source.down="ui_mainui_ButtonMailSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="imgTip33" source="ui_currencyicon_IconRed_png" touchEnabled="false" y="12" x="309" scaleX="0.7" scaleY="0.7"/>
+	<e:Button id="btnForum" label="" x="448" y="6" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_mainui_ButtonForumNor_png" source.down="ui_mainui_ButtonForumSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Group id="groupLeftBtn" y="230" x="4" touchEnabled="false">
+		<e:Group scaleX="1" scaleY="1">
+			<e:Button id="btnTask" label="" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainTaskNor_png" source.down="ui_mainui_ButtonMainTaskSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnLisence" label="" horizontalCenter="0" verticalCenter="0" width="71" height="72">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainLisenceNor_png" source.down="ui_mainui_ButtonMainLisenceSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+
+			<e:Group id="groupBiography" anchorOffsetY="0" anchorOffsetX="0" width="71" height="72" right="100" x="777" y="-206" scaleX="1" scaleY="1">
+				<e:Button id="btnBiography" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainBiographyNor_png" source.down="ui_mainui_ButtonMainBiographySel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+
+				</e:Button>
+				<e:Group id="groupTimeBiography" y="54" scaleX="1" scaleY="1" horizontalCenter="0" width="90" height="18" visible="false">
+				<e:Image scaleX="0.5" source="ui_card_enchant_BoardInfoFloor_png" left="0" right="0" top="0" bottom="0" scale9Grid="23,6,144,38"/>
+				<e:Label id="labelTimeBiography" text="12小时22分" size="14" textAlign="center" verticalAlign="middle" textColor="0x000000" bold="true" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupFunOpenTip" y="4" height="72" left="200" x="200" width="71">
+				<e:Button id="btnFuncOpen" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_mainui_ButtonFuncOpenNor_png" source.down="ui_mainui_ButtonFuncOpenSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Group height="40" horizontalCenter="0" touchChildren="false" touchEnabled="false" width="56" bottom="0">
+
+					<e:BitmapLabel id="labelOpenLevel" text="23级" touchEnabled="false" font="levelOpenFun_fnt" letterSpacing="-4" verticalAlign="bottom" scaleY="0.9" scaleX="0.9" top="0" left="0"/>
+					<e:BitmapLabel id="labelOpenLevel1" text="开启" touchEnabled="false" font="levelOpenFun_fnt" letterSpacing="-8" verticalAlign="bottom" scaleX="0.9" right="0" bottom="0" scaleY="0.9"/>
+
+				</e:Group>
+			</e:Group>
+			<e:layout>
+			<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group y="6" scaleX="1" scaleY="1" x="40" touchChildren="false" touchEnabled="false">
+			<e:Image id="imgTip22" source="ui_currencyicon_IconRed_png" x="70" y="7"/>
+			<e:Image id="imgTip49" source="ui_currencyicon_IconRed_png" x="66" y="2"/>
+
+			<e:Image id="imgTip58" source="ui_currencyicon_IconRed_png" top="8" right="8" x="775" y="-208" scaleX="1" scaleY="1"/>
+			<e:Image id="imgFunOpenRedTip" source="ui_currencyicon_IconRed_png" top="9" right="12" x="10.200000000000003" y="213.2"/>
+			<e:layout>
+			<e:VerticalLayout gap="47"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupActLeft" width="280" height="344" x="0" y="136" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+		<zj:Bubble id="bubble" x="4" y="0" skinName="BubbleSkin" scaleX="1" scaleY="1"/>
+		<e:Group id="groupLeft2" width="70" x="97" y="94" touchEnabled="false">
+			<e:Group id="groupOnlineGetAward" y="0" height="68" width="70" x="0" scaleX="1" scaleY="1">
+				<e:Image horizontalCenter="0" source="ui_main_online_frame_png" top="0" visible="false"/>
+				<e:Image horizontalCenter="0" top="0" source="ui_main_online_frame1_png"/>
+				<e:Image horizontalCenter="0" source="ui_main_online_font_reward_png" top="0"/>
+				<e:Image id="imgOnlineIcon" source="item_ExpPillD_png" horizontalCenter="0" verticalCenter="4" width="40" height="40"/>
+				<e:BitmapLabel id="labelOnlineNum" height="20" font="ItemNum_fnt" text="123" textAlign="left" verticalAlign="middle" top="20" left="15" scaleX="0.5" scaleY="0.5" touchEnabled="false"/>
+				<e:Image id="imgOnlineRedTip" source="ui_currencyicon_IconRed_png" top="10" right="5"/>
+				<e:Group height="16" horizontalCenter="-1" bottom="0">
+				<e:Image touchEnabled="false" source="ui_mainui_time_frame_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+				<e:Image touchEnabled="false" source="ui_main_online_font_bg_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelOnlineCountTime" text="2:59" size="12" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xffffff" horizontalCenter="0" verticalCenter="0.5"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupZorkBoss" y="70" width="70" height="84" x="0" scaleX="1" scaleY="1">
+				<e:Button id="btnZorkBoss" label="" horizontalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMianBossMiniNor_png" source.down="ui_mainui_ButtonMianBossMiniSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Group height="28" horizontalCenter="0" bottom="0">
+				<e:Image touchEnabled="false" source="ui_mainui_time_frame_bg_png" scale9Grid="10,8,60,12" verticalCenter="0" horizontalCenter="0"/>
+				<e:Image touchEnabled="false" source="ui_mainui_time_frame_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelZorkBossTime" text="1:59:59" size="14" textAlign="center" verticalAlign="middle" horizontalCenter="0" touchEnabled="false" textColor="0xffffff" x="1" scaleX="1" scaleY="1" verticalCenter="1"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupMatch" y="156" width="70" height="84" x="0" scaleX="1" scaleY="1">
+				<e:Button id="btnMatch" label="" horizontalCenter="0" top="0" scaleX="0.9" scaleY="0.9">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainMatchNor_png" source.down="ui_mainui_ButtonMainMatchSel_png" source.disabled="ui_mainui_ButtonMainMatchSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Group id="groupTimeMatch" horizontalCenter="0" height="28" bottom="0">
+				<e:Image verticalCenter="0" horizontalCenter="0" source="ui_mainui_time_frame_bg_png"/>
+				<e:Image touchEnabled="false" source="ui_mainui_time_frame_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="lbTimeMatch" text="12小时22分" size="14" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" verticalCenter="0" horizontalCenter="0" textColor="0xffffff"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupRedpackage" y="166" width="70" height="84" x="10" scaleX="1" scaleY="1">
+				<e:Button id="btnRedpackage" label="" horizontalCenter="0" top="0" scaleX="0.9" scaleY="0.9">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_acitivity_redWars_button_png" source.down="ui_acitivity_redWars_button_png" source.disabled="ui_acitivity_redWars_button_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="2"/>
+			</e:layout>
+		</e:Group>
+
+
+
+
+		<e:Group id="groupLayerActivityBoss" width="100" height="100" y="94" x="179" scaleX="1" scaleY="1" touchEnabled="true" touchChildren="false">
+
+
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupActRight" width="100" anchorOffsetX="0" anchorOffsetY="0" right="0" height="440" y="60" touchEnabled="false">
+		<e:Group id="groupClear" width="338" height="58" y="153" x="-445" anchorOffsetY="0" anchorOffsetX="0" visible="false">
+			<e:Group id="groupAttention" width="100" height="100" scaleX="0.5" scaleY="0.5" left="0" top="0">
+				<e:Button id="btnAttention" label="" x="0" y="0" width="100" height="92">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonAttentionNor_png" source.down="ui_mainui_ButtonAttentionSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="groupVIPLogin" width="100" height="100" right="1200" x="-298" y="-97" scaleX="0.5" scaleY="0.5">
+				<e:Button id="btnVIPLogin" label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainVIPLoginNor_png" source.down="ui_mainui_ButtonMainVIPLoginSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="groupStoryInstance" width="70" height="70" y="-97" right="1300" x="-368" scaleX="0.8" scaleY="0.8">
+				<e:Button id="btnStoryInstance" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMianStoryNor_png" source.down="ui_mainui_ButtonMianStorySel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Image id="imgTip67" source="ui_currencyicon_IconRed_png" x="67" y="6"/>
+			</e:Group>
+			<e:Group id="groupCollection" width="70" height="70" x="218.19999970000003" y="-73" scaleX="0.7" scaleY="0.7">
+				<e:Button id="btnCollection" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_collection_icon1_png" source.down="ui_acitivity_collection_icon2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="groupTop" width="900" height="70" anchorOffsetY="0" anchorOffsetX="0" right="0" touchEnabled="false">
+			<e:Group id="groupMall" width="70" height="70" scaleY="1" right="0" y="0">
+			<e:Button id="btnGift" label="" x="0" y="0" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainGiftNor_png" source.down="ui_mainui_ButtonMainGiftSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgTip50" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="activityGroup1" width="70" height="70" right="70" y="0">
+			<e:Button id="btnMoon" label="" horizontalCenter="0" verticalCenter="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMianBoonNor_png" source.down="ui_mainui_ButtonMianBoonSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="groupMoon" width="70" height="70" x="0" y="0" touchChildren="false" touchEnabled="false" touchThrough="true"/>
+			<e:Image id="imgTip52" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="groupNovice" anchorOffsetY="0" anchorOffsetX="0" width="70" height="70" x="692.9">
+				<e:Button id="btnNovice" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainVIPGiftNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Image id="imgTip60" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="groupVip" width="70" height="70" y="0" scaleX="1" scaleY="1" x="629">
+				<e:Button id="btnVip" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainVipNor_png" source.down="ui_mainui_ButtonMainVipSel_png" source.disabled="ui_mainui_ButtonMainVipSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="16" bold="true"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Image id="imgTip55" source="ui_currencyicon_IconRed_png" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="groupSeven" anchorOffsetY="0" anchorOffsetX="0" width="70" height="70" y="-1" x="558.6">
+			<e:Button id="btnSeven" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainPreterentailNor_png" source.down="ui_mainui_ButtonMainPreterentailSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgTipSeven" source="ui_currencyicon_IconRed_png" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="groupNovice1" anchorOffsetY="0" anchorOffsetX="0" width="70" height="70" y="-1" x="487.6">
+			<e:Button id="btnNovice1" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonNoviceNor_png" source.down="ui_mainui_ButtonNoviceSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="NodeNovice1" width="70" height="70" x="0" y="0" touchChildren="false" touchEnabled="false" touchThrough="true"/>
+			<e:Image id="imgTip61" source="ui_currencyicon_IconRed_png" right="0" top="0"/>
+			<e:Image id="imgTip37" source="ui_currencyicon_IconRed_png" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="groupXuyuan" width="70" height="70" scaleX="1" scaleY="1" y="0" x="422.6">
+			<e:Group id="nodeXuyuan" width="70" height="70" x="0" y="0" touchThrough="true" touchEnabled="false" touchChildren="false" scaleX="1" scaleY="1"/>
+			<e:Group id="nodeXuyuan0" width="70" height="70" touchThrough="true" scaleX="1" scaleY="1" x="0" y="0"/>
+			<e:Button id="btnXuyuan" label="" horizontalCenter="0" verticalCenter="0" x="8" y="8" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainWishNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="16" bold="true" text="许愿屋"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgTip59" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" touchEnabled="false" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="groupWawaji" width="70" height="70" y="0" x="353.6">
+			<e:Button id="btnRandom" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonRandomNor_png" source.down="ui_mainui_ButtonRandomSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="groupRandom" width="70" height="70" x="0" y="0" touchThrough="true" touchEnabled="false" touchChildren="false"/>
+			<e:Image id="imgTip51" source="ui_currencyicon_IconRed_png" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="groupMoney" anchorOffsetY="0" anchorOffsetX="0" width="70" height="70" y="-1" x="290.6">
+			<e:Button id="btnMoney" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonWeekMission3Nor_png" source.down="ui_mainui_ButtonWeekMission3Sel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgTip66" source="ui_currencyicon_IconRed_png" right="0" top="0" x="176" y="2" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="groupJewel" width="70" height="70" right="606.4000000000001">
+			<e:Button id="btnJewel" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainJewelNor_png" source.down="ui_mainui_ButtonMainJewelSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="16" bold="true"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="nodeJewel" width="70" height="70" x="0" y="0" touchThrough="true" touchEnabled="false" touchChildren="false"/>
+			<e:Image id="imgTip56" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="groupRace" width="70" height="70" y="0" right="680">
+			<e:Button id="buttonRace" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainTimeRaceNor_png" source.down="ui_mainui_ButtonMainTimeRaceSel_png"/>
+					<e:Label id="labelDisplay" size="16" horizontalCenter="0" verticalCenter="0" bold="true"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgTip54" source="ui_currencyicon_IconRed_png" right="0" top="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupTop1" width="800" height="70" y="70" anchorOffsetX="0" right="0" touchEnabled="false">
+			<e:Group id="groupBattlePass" y="0" width="70" height="70" right="0">
+				<e:Button id="btnBattlePass" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_battlePass_ButtonPassNor_png" source.down="ui_battlePass_ButtonPassSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="16" bold="true"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Image id="imgTip68" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="activityGroup" width="70" height="70" right="70" y="1.4285714285714448" x="690.471428571429">
+
+			<e:Button id="btnActivity" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainActivityNor_png" source.down="ui_mainui_ButtonMainActivitySel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="16" bold="true"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgTip25" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="groupXinChang" width="70" height="70" right="140">
+				<e:Button id="btnXinChang" label="" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainXinChangNor_png" source.down="ui_mainui_ButtonMainXinChangSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Group id="groupTimeXinChang" y="62" horizontalCenter="0">
+					<e:Image left="0" right="0" top="0" bottom="0" source="ui_mainui_time_frame_bg_png"/>
+					<e:Image source="ui_mainui_time_frame_png" left="0" right="0" scale9Grid="42,8,2,9" verticalCenter="0"/>
+					<e:Label id="labelTimeXinChang" text="22小时" size="14" textColor="0xFF2600" textAlign="center" verticalAlign="middle" verticalCenter="2" left="10" right="10"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupFirst" anchorOffsetY="0" anchorOffsetX="0" width="70" height="70" y="0" scaleX="1" scaleY="1" right="210">
+				<e:Button id="btnRecharge" label="" horizontalCenter="0" bottom="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainFirstchargeNor_png" source.down="ui_mainui_ButtonMainFirstchargeSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Group id="groupTimeFirst" y="62" horizontalCenter="0">
+				<e:Image left="0" right="0" top="0" bottom="0" source="ui_mainui_time_frame_bg_png"/>
+					<e:Image source="ui_mainui_time_frame_png" left="0" right="0" scale9Grid="42,8,2,9" verticalCenter="0"/>
+				<e:Label id="labelTimeFirst" text="22小时" size="14" textColor="0xff2600" textAlign="center" verticalAlign="middle" verticalCenter="2" left="10" right="10"/>
+				</e:Group>
+				<e:Group id="groupjueban" width="70" height="70" x="0" y="0" touchThrough="true" touchEnabled="false" touchChildren="false"/>
+				<e:Group id="groupRecharge" width="70" height="70" x="0" y="0" touchThrough="true" touchEnabled="false" touchChildren="false">
+				<e:Image id="imgTip35" source="ui_currencyicon_IconRed_png" right="8" top="0"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupRank" y="0" width="70" height="70" right="280">
+
+				<e:Button id="btnRank" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainRankNor_png" source.down="ui_mainui_ButtonMainRankSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+
+			</e:Group>
+
+
+
+			<e:Group id="groupDailyCharge" y="0" width="70" height="70" right="350">
+				<e:Button id="btnDailyCharge" label="" horizontalCenter="0" verticalCenter="0.5">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainshouchongNor_png" source.down="ui_mainui_ButtonMainshouchongSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="16" bold="true"/>
+						</e:Skin>
+					</e:skinName>
+
+				</e:Button>
+				<e:Image id="imgTipDailyCharge" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="groupMysteryShop" y="0" width="70" height="70" right="420">
+				<e:Button id="btnMysteryShop" label="" horizontalCenter="0" verticalCenter="-1.5">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainMysteryShopNor_png" source.down="ui_mainui_ButtonMainMysteryShopSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="16" bold="true"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgTipMysteryShop" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" right="0" top="0"/>
+				<e:Group id="groupTimeMysteryShop" y="62" horizontalCenter="0">
+					<e:Image left="0" right="0" top="0" bottom="0" source="ui_mainui_time_frame_bg_png"/>
+					<e:Image source="ui_mainui_time_frame_png" left="0" right="0" scale9Grid="42,8,2,9" verticalCenter="0"/>
+					<e:Label id="labelTimeMysteryShop" text="22小时" size="14" textColor="0xFF2600" textAlign="center" verticalAlign="middle" verticalCenter="2" left="10" right="10"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+
+
+
+
+
+
+		<e:Group id="groupWorkSend" y="154" width="100" height="100" scaleX="0.8" scaleY="0.8" x="-85" visible="false">
+			<e:Image source="ui_mainui_BoardMainButtonEnter_png" y="0" right="0"/>
+			<e:Label text="工作派遣" size="24" horizontalCenter="0" verticalCenter="2" bold="true" textColor="0xffffff"/>
+		</e:Group>
+		<e:Group id="offsideGrop" right="3" width="90" height="290" y="150" x="7" scaleX="1" scaleY="1">
+			<e:Image id="imgBoardGift" source="ui_mall_gift_BoardGiftMainCity_png" scale9Grid="23,29,33,180" left="4" right="4" top="0" bottom="0"/>
+			<e:Scroller width="90" top="10" bottom="10" horizontalCenter="0" scaleX="0.9" scaleY="0.9">
+			<e:List id="lstGift">
+				<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="4"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Button id="btnChat" label="" left="0" bottom="0" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_battle_ButtonChatNor_png" source.down="ui_battle_ButtonChatSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="messageHistoryChat" width="340" height="88" bottom="10" left="12">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ui_mainui_LayerChatSmall_png"/>
+		<e:Scroller id="scrollBar" scaleX="1" scaleY="1" left="8" right="8" top="8" bottom="8">
+			<e:List id="simpleChat">
+			<e:layout>
+				<e:VerticalLayout paddingLeft="0" paddingRight="0" paddingTop="0" paddingBottom="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+
+	<e:Button id="btnDebug" label="清缓存" x="393" y="2" width="100" height="50" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_login_ButtonQuInfoSel_png" source.down="ui_login_ButtonQuInfoNor_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+	<zj:MainCityWalk id="walkControl" skinName="MainCityWalkSkin" left="0" bottom="0" right="0" top="0" visible="false"/>
+
+
+	<e:Group id="groupCollectionOfTips" width="100%" height="100%" horizontalCenter="0" verticalCenter="0" visible="false">
+		<e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" source="ui_common_mask_black_jpg" alpha="0.5"/>
+		<e:Group id="groupCollectionOfTips1" width="200" height="200" left="82" top="43">
+			<e:Image source="ui_acitivity_collection_arrows1_png" x="63" y="29" scaleX="-1"/>
+			<e:Image source="ui_acitivity_collection_hint_png" x="82" y="470" rotation="270"/>
+		</e:Group>
+		<e:Group id="groupCollectionOfTips2" width="200" height="200" right="338" top="53">
+			<e:Image source="ui_acitivity_collection_arrows1_png" x="236" y="0" scaleX="1" rotation="360"/>
+			<e:Image source="ui_acitivity_collection_hint_png" x="-52" y="118"/>
+		</e:Group>
+		<e:Group id="groupCollectionOfTips3" width="200" height="200" right="238" top="36">
+			<e:Image source="ui_acitivity_collection_arrows1_png" x="353" y="74" scaleX="-1" rotation="58" anchorOffsetX="0" width="114" anchorOffsetY="0" height="146"/>
+			<e:Image source="ui_acitivity_collection_hint_png" x="-97" y="132"/>
+		</e:Group>
+		<e:Group id="groupCollectionOfTips4" width="200" height="200" right="238" top="36">
+			<e:Image source="ui_acitivity_collection_arrows1_png" x="441" y="90" scaleX="-1" rotation="80" anchorOffsetX="0" width="114" anchorOffsetY="0" height="146"/>
+			<e:Image source="ui_acitivity_collection_hint_png" x="-97" y="132"/>
+		</e:Group>
+		<e:Group id="groupCollectionOfTips5" width="200" height="200" right="238" verticalCenter="0">
+			<e:Image source="ui_acitivity_collection_arrows1_png" x="353" rotation="56" anchorOffsetX="0" width="114" anchorOffsetY="0" height="147" verticalCenter="0"/>
+			<e:Image source="ui_acitivity_collection_hint_png" x="-97" rotation="270" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="topShadow" left="0" right="0" top="0" bottom="0" touchEnabled="true" visible="false"/>
+</e:Skin>

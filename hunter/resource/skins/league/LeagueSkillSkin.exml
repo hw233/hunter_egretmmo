@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueSkillSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_union_skill_bg_jpg" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+	<e:Image source="title_gonghuijineng_png" left="0" top="0"/>
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_union_skill_bg_2_png" x="91" y="177" alpha="1" scaleX="1" scaleY="1"/>
+		<e:Group x="170" y="102" scaleX="1" scaleY="1">
+		<e:Image id="imgSkillFrame1" source="ui_union_skill_frame_2_png" y="0" horizontalCenter="0"/>
+		<e:Image source="ui_union_skill_frame_1_png" y="26" horizontalCenter="0"/>
+		<e:Image id="imgSkillIcon1" y="34" horizontalCenter="0" source="icon_shengming_2_png" width="90" height="90"/>
+			<e:Image id="imgSkillIconbg1" y="34" horizontalCenter="0" source="icon_shengming_2_png"/>
+		<e:Label id="labelSkillName1" text="生命" y="107" bold="true" size="24" horizontalCenter="0"/>
+		<e:Image id="imgSkillbg1" source="ui_union_skill_base_3_png" y="141" horizontalCenter="0"/>
+		<e:Image source="ui_union_skill_base_2_png" y="141" horizontalCenter="0"/>
+		<e:Label id="labelSkillElevate1" text="+0.1%" y="144" size="20" anchorOffsetX="0" width="89" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="28" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group x="320" y="180" scaleX="1" scaleY="1">
+		<e:Image id="imgSkillFrame2" source="ui_union_skill_frame_2_png" y="0" horizontalCenter="0"/>
+		<e:Image source="ui_union_skill_frame_1_png" y="26" horizontalCenter="0"/>
+		<e:Image id="imgSkillIcon2" y="34" horizontalCenter="0" source="icon_gongji_2_png" width="90" height="90"/>
+			<e:Image id="imgSkillIconbg2" y="34" horizontalCenter="0" source="icon_gongji_2_png"/>
+		<e:Label id="labelSkillName2" text="攻击" y="107" bold="true" size="24" horizontalCenter="0"/>
+		<e:Image id="imgSkillbg2" source="ui_union_skill_base_3_png" y="141" horizontalCenter="0"/>
+		<e:Image source="ui_union_skill_base_2_png" y="141" horizontalCenter="0"/>
+		<e:Label id="labelSkillElevate2" text="+0.1%" y="144" size="20" anchorOffsetX="0" width="89" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="28" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group x="320" y="360" scaleX="1" scaleY="1">
+		<e:Image id="imgSkillFrame3" source="ui_union_skill_frame_2_png" y="0" horizontalCenter="0"/>
+		<e:Image source="ui_union_skill_frame_1_png" y="26" horizontalCenter="0"/>
+		<e:Image id="imgSkillIcon3" source="ui_union_skill_icon_baoji_2_png" y="34" horizontalCenter="0" width="90" height="90"/>
+			<e:Image id="imgSkillIconbg3" source="ui_union_skill_icon_baoji_2_png" y="34" horizontalCenter="0"/>
+		<e:Label id="labelSkillName3" text="生命" y="107" bold="true" size="24" horizontalCenter="0"/>
+		<e:Image id="imgSkillbg3" source="ui_union_skill_base_3_png" y="141" horizontalCenter="0"/>
+		<e:Image source="ui_union_skill_base_2_png" y="141" horizontalCenter="0"/>
+		<e:Label id="labelSkillElevate3" text="+0.1%" y="144" size="20" anchorOffsetX="0" width="89" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="28" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group x="170" y="437" scaleX="1" scaleY="1">
+		<e:Image id="imgSkillFrame4" source="ui_union_skill_frame_2_png" y="0" horizontalCenter="0"/>
+		<e:Image source="ui_union_skill_frame_1_png" y="26" horizontalCenter="0"/>
+		<e:Image id="imgSkillIcon4" y="34" horizontalCenter="0" source="ui_union_skill_icon_baoshang_2_png" width="90" height="90"/>
+			<e:Image id="imgSkillIconbg4" y="34" horizontalCenter="0" source="ui_union_skill_icon_baoshang_2_png"/>
+		<e:Label id="labelSkillName4" text="生命" y="107" bold="true" size="24" horizontalCenter="0"/>
+		<e:Image id="imgSkillbg4" source="ui_union_skill_base_3_png" y="141" horizontalCenter="0"/>
+		<e:Image source="ui_union_skill_base_2_png" y="141" horizontalCenter="0"/>
+		<e:Label id="labelSkillElevate4" text="+0.1%" y="144" size="20" anchorOffsetX="0" width="89" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="28" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group x="23" y="360" scaleX="1" scaleY="1">
+		<e:Image id="imgSkillFrame5" source="ui_union_skill_frame_2_png" y="0" horizontalCenter="0"/>
+		<e:Image source="ui_union_skill_frame_1_png" y="26" horizontalCenter="0"/>
+		<e:Image id="imgSkillIcon5" source="ui_union_skill_icon_baoji_2_png" y="34" horizontalCenter="0" width="90" height="90"/>
+			<e:Image id="imgSkillIconbg5" source="ui_union_skill_icon_baoji_2_png" y="34" horizontalCenter="0"/>
+		<e:Label id="labelSkillName5" text="生命" y="107" bold="true" size="24" horizontalCenter="0"/>
+		<e:Image id="imgSkillbg5" source="ui_union_skill_base_3_png" y="141" horizontalCenter="0"/>
+		<e:Image source="ui_union_skill_base_2_png" y="141" horizontalCenter="0"/>
+		<e:Label id="labelSkillElevate5" text="+0.1%" y="144" size="20" anchorOffsetX="0" width="89" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="28" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group x="23" y="180" scaleX="1" scaleY="1">
+		<e:Image id="imgSkillFrame6" source="ui_union_skill_frame_2_png" y="0" horizontalCenter="0"/>
+		<e:Image source="ui_union_skill_frame_1_png" y="26" horizontalCenter="0"/>
+		<e:Image id="imgSkillIcon6" source="ui_union_skill_icon_baoji_2_png" y="34" horizontalCenter="0" width="90" height="90"/>
+			<e:Image id="imgSkillIconbg6" source="ui_union_skill_icon_baoji_2_png" y="34" horizontalCenter="0"/>
+		<e:Label id="labelSkillName6" text="生命" y="107" bold="true" size="24" horizontalCenter="0"/>
+		<e:Image id="imgSkillbg6" source="ui_union_skill_base_3_png" y="141" horizontalCenter="0"/>
+		<e:Image source="ui_union_skill_base_2_png" y="141" horizontalCenter="0"/>
+		<e:Label id="labelSkillElevate6" text="+0.1%" y="144" size="20" anchorOffsetX="0" width="89" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="28" horizontalCenter="0"/>
+		</e:Group>
+		<e:Image source="ui_union_skill_frame_lv_png" x="137" y="348" scaleX="1.2" scaleY="1"/>
+		<e:Image source="Lv_head_png" x="155" y="318" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="labelSkillLevel" width="133" height="59" x="239" y="316" anchorOffsetX="0" anchorOffsetY="0" font="SkillLv_fnt" text="40" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_union_skill_board_1_png" x="593" y="128" scaleX="1" scaleY="1"/>
+		<e:Image source="shuxingjiacheng_png" x="567" y="108" scaleX="1" scaleY="1"/>
+		<e:Scroller width="264" height="280" x="606" y="160" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" scrollPolicyV="on">
+		<e:List id="listBonuses" anchorOffsetY="0" height="295">
+			<e:layout>
+				<e:VerticalLayout paddingLeft="8" gap="10" paddingTop="10"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Image source="ui_union_skill_xiaohaocailiao_png" x="610" y="462" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_union_skill_zhanbi_png" x="698" y="472" scaleX="1" scaleY="1"/>
+		<e:Image source="jinbi_png" x="700" y="505" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_union_skill_base_1_png" x="732" y="477" scale9Grid="13,3,85,18" anchorOffsetX="0" width="150" scaleX="1" scaleY="1"/>
+		<e:Label id="labelConsortiaGold" text="500000/500000" x="733" y="477" size="20" anchorOffsetX="0" width="145" anchorOffsetY="0" height="24" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_union_skill_base_1_png" x="732" y="508" scale9Grid="13,3,85,18" anchorOffsetX="0" width="150" scaleX="1" scaleY="1"/>
+		<e:Label id="labelGold" text="500000/500000" x="731" y="509" size="20" anchorOffsetX="0" width="145" anchorOffsetY="0" height="24" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>
+		<e:Button id="btnUpgrade" label="" x="643" y="560" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_union_skill_button_shengji_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btnType1" label="" bottom="550" right="570" x="260" y="48" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_union_skill_gongji_2_png" source.down="ui_union_skill_gongji_1_png" source.disabled="ui_union_skill_gongji_1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btnType2" label="" bottom="550" horizontalCenter="0" x="415" y="48" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_union_skill_fangyu_2_png" source.down="ui_union_skill_fangyu_1_png" source.disabled="ui_union_skill_fangyu_1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btnType3" label="" bottom="550" left="570" x="570" y="48" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_union_skill_fuzhu_2_png" source.down="ui_union_skill_fuzhu_1_png" source.disabled="ui_union_skill_fuzhu_1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Button id="btnClose" label="" left="0" top="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_union_skill_fanhui_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

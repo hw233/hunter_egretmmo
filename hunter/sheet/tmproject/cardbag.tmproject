@@ -1,0 +1,32 @@
+{
+    "projectName": "cardbag",
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "0"
+    },
+    "files": [
+        "./../image/ui/cardbag/ui_cardbag_WordsTipNodeOpen.png",
+        "./../image/ui/cardbag/ui_cardbag_WordsTipClickOpen.png",
+        "./../image/ui/cardbag/ui_cardbag_OrnLayerB.png",
+        "./../image/ui/cardbag/ui_cardbag_OrnLayerA.png",
+        "./../image/ui/cardbag/ui_cardbag_OrnIconCard.png",
+        "./../image/ui/cardbag/ui_cardbag_OrnFrameCaard.png",
+        "./../image/ui/cardbag/ui_cardbag_FrameChatTip.png",
+        "./../image/ui/cardbag/ui_cardbag_ButtonOpenCardSel.png",
+        "./../image/ui/cardbag/ui_cardbag_ButtonOpenCardNor.png",
+        "./../image/ui/cardbag/ui_cardbag_ButtonGetCardSel.png",
+        "./../image/ui/cardbag/ui_cardbag_ButtonGetCardNor.png",
+        "./../image/ui/cardbag/ui_cardbag_ButtonGetCardBagSel.png",
+        "./../image/ui/cardbag/ui_cardbag_ButtonGetCardBagNor.png",
+        "./../image/ui/cardbag/ui_cardbag_BoardStarLevel.png",
+        "./../image/ui/cardbag/ui_cardbag_BoardfCardTip.png",
+        "./../image/ui/cardbag/ui_cardbag_BoardCardName.png",
+        "./../image/ui/cardbag/ui_cardbag_BoardCardBagNum.png",
+        "./../image/ui/cardbag/ui_cardbag_BoardCardBag.png",
+        "./../image/ui/cardbag/ui_cardbag_WordsTipViewInfo.png"
+    ],
+    "version": 5
+}

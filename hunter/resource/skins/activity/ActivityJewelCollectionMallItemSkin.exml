@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityJewelCollectionMallItemSkin" width="165" height="243" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="-0.5" verticalCenter="-1.5">
+		<e:Image id="imageBg" source="ui_acitivity_random_BoardExchangeAward_png" x="0" y="0"/>
+		<e:Label id="labelItemName" text="不吃辣" y="12" size="18" horizontalCenter="0.5" anchorOffsetX="0" width="143" anchorOffsetY="0" height="22" textAlign="center" verticalAlign="middle"/>
+		<e:Group id="groupMain" y="42" horizontalCenter="0.5">
+			<e:Image id="imageFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageClip" horizontalCenter="0" verticalCenter="0" source=""/>
+			<e:BitmapLabel id="labelNum" width="81" height="21" x="10" y="59" anchorOffsetX="0" anchorOffsetY="0" text="1" font="ItemNumWords_fnt" textAlign="right"/>
+			<e:Image id="imageGet" source="ui_acitivity_WordsTipGet_png" horizontalCenter="0" verticalCenter="0" touchEnabled="false" visible="false"/>
+		</e:Group>
+		<e:Label id="labelChangeNum" text="剩余次数：1/3" y="134" anchorOffsetX="0" width="145" anchorOffsetY="0" height="23" size="18" verticalAlign="middle" textAlign="center" horizontalCenter="0.5"/>
+		<e:Label id="labelChangeCore" text="200积分" y="164" anchorOffsetX="0" width="114" anchorOffsetY="0" height="23" size="18" verticalAlign="middle" textAlign="center" horizontalCenter="1"/>
+		<e:Button id="buttonChange" label="" x="11" y="194">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_random_ButtonExchangeNor_png" source.down="ui_acitivity_random_ButtonExchangeSel_png" source.disabled="ui_acitivity_ButtonChangeDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

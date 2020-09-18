@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_RandomPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" width="106" height="104.67" horizontalCenter="0" verticalCenter="-108.5" anchorOffsetX="0" anchorOffsetY="0">
+	</e:Group>
+	<e:Group id="groupMain2" width="925.76" height="341.15" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="-64.5">
+	</e:Group>
+	<e:Group id="groupMain3" y="514.28" horizontalCenter="8.5">
+		<e:Button id="buttonReturn" label="" y="0" anchorOffsetX="1.52" anchorOffsetY="0" x="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_tavern_ButtonPopReturnNor_png" source.down="ui_tavern_ButtonPopReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonMore" label="" y="0" x="200">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_random_ButtonRandomTenPopNor_png" source.down="ui_acitivity_random_ButtonRandomTenPopSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonOne" label="" y="0.96" x="200">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_random_ButtonRandomOncyPopNor_png" source.down="ui_acitivity_random_ButtonRandomOncyPopSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_tavern_BoardTipNeed_png" x="188.19" y="65.84" scaleY="0.6"/>
+		<e:Image source="ui_iconresources_wawabi3_png" x="236.84" y="55.72"/>
+		<e:BitmapLabel id="labelMore" width="79.09" height="23.03" x="288.8799999999999" y="70.27999999999997" anchorOffsetX="0" anchorOffsetY="0" text="123" font="ItemNumWords_fnt" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="groupMain4" y="447.08" horizontalCenter="0">
+		<e:Image source="ui_acitivity_random_BoardPopCore_png" y="0" horizontalCenter="0"/>
+		<e:Image source="ui_acitivity_random_WordsTipPopCoreAdd_png" y="10.52" horizontalCenter="-36.5"/>
+		<e:BitmapLabel id="labelCore" width="141.21" height="24.55" y="15" anchorOffsetX="0" anchorOffsetY="0" font="WordsGiftRmbGes_fnt" text="123" horizontalCenter="97.5"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_ActivityBossSkin" width="680" height="486" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0.5">
+		<e:Image source="ui_acitivity_boss_BoardActivity_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_acitivity_weekmission_IconFreeAward2_png" horizontalCenter="78" verticalCenter="96.5"/>
+		<e:Image source="ui_acitivity_boss_BoardActivityBoss1_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_acitivity_WordsTipActivityTime_png" horizontalCenter="-75.5" verticalCenter="-63"/>
+		<e:Image source="ui_acitivity_WordsTipActivityInfomation_png" horizontalCenter="-76.5" verticalCenter="-30"/>
+		<e:Label text="至" size="17" fontFamily="Helvetica" horizontalCenter="132.5" verticalCenter="-60"/>
+		<e:Label id="lbTime" text="2515-12-31 20:59" size="17" fontFamily="Helvetica" horizontalCenter="49.5" verticalCenter="-61"/>
+		<e:Label id="lbTimeStop" text="2515-12-31 20:59" size="17" fontFamily="Helvetica" horizontalCenter="216.5" verticalCenter="-61"/>
+		<e:Label id="lbTextInfo" text="1、50级以上的玩家" size="15" fontFamily="Helvetica" width="300" height="200" horizontalCenter="128" verticalCenter="63.5"/>
+		<e:Image source="ui_activity_boss_BoardActivityName1_png" horizontalCenter="-24" verticalCenter="-156.5"/>
+		<e:Button id="btnGo" label="" scaleX="0.8" scaleY="0.8" horizontalCenter="136" verticalCenter="182.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_activity_boss_ButtonHongbaoNor_png" source.down="ui_activity_boss_ButtonHongbaoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

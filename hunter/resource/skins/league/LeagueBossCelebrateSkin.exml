@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueBossCelebrateSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="100%" height="100%">
+		<e:Image source="ui_union_boss_BoardGoodFoodTip_png" horizontalCenter="0" top="0"/>
+		<e:Image source="ui_union_boss_WordsTipGoodFood_png" horizontalCenter="0" top="0"/>
+		<e:Button id="btnClose" label="" top="-10" left="-23">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Group top="83" horizontalCenter="0" width="300" height="30">
+			<e:Image source="ui_union_boss_BoardSkillSuccess_png" width="300" scale9Grid="62,3,373,23" x="0" verticalCenter="0"/>
+			<e:Label id="lbTime" text="00：05：00" x="11" size="18" fontFamily="Helvetica" verticalCenter="1" textColor="0x28ff00" height="24" width="146" verticalAlign="middle" textAlign="right"/>
+			<e:Label text="后宴会关闭" x="159.67" size="18" fontFamily="Helvetica" verticalCenter="0.5" textAlign="left" verticalAlign="middle" width="138" height="24"/>
+		</e:Group>
+		<e:Scroller width="800" height="450" scrollPolicyH="off" scrollPolicyV="off" verticalCenter="70" horizontalCenter="0">
+			<e:List id="lstFood" height="450">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" requestedColumnCount="2"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonInputCodeSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" width="615" height="305" scale9Grid="216,30,49,30"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" x="192.5" y="191.5" width="575" height="215" scale9Grid="15,10,92,65"/>
+		<e:Image source="ui_common_WordsInputAcitivityID_png" x="293" y="255"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" x="205" y="155"/>
+		<e:Image source="ui_union_BordInputLeagueName_png" y="287" horizontalCenter="0"/>
+		<e:TextInput id="editBoxContent" width="359" height="37" x="301" y="290" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Button id="btnCancel" label="" horizontalCenter="-100" bottom="180">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_ButtonCancelResurrectionNor_png" source.down="ui_wonderland_ButtonCancelResurrectionSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnOk" label="" horizontalCenter="100" bottom="180">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonOkNor_png" source.down="ui_union_ButtonOkSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

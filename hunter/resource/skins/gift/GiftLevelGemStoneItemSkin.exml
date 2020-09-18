@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GiftLevelGemstoneItemSkin" width="205" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_mall_gift_BoardGiftTimeAward_png" scale9Grid="26,7,158,46" width="205" height="60" horizontalCenter="0" verticalCenter="0"/>
+	<e:Scroller height="90" verticalCenter="0" x="19" width="90" scaleX="0.7" scaleY="0.7">
+		<e:List id="lstGemstoneAward">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbLevelGet" text="5级可领取" size="20" verticalAlign="middle" textAlign="center" fontFamily="Helvetica" verticalCenter="0" textColor="0x4D2E03" horizontalCenter="28.5"/>
+</e:Skin>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Formate_ItemHero" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgbg" source="ui_instance_battle_touxiang_png" horizontalCenter="0" verticalCenter="-3" width="95" height="93" scaleX="0.8" scaleY="0.8"/>
+	<e:Group id="groupMain" x="0" y="0" scaleX="0.9" scaleY="0.9" >
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterBule1_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon" scaleX="1" scaleY="1" source="" width="95" height="93" horizontalCenter="0" verticalCenter="0"/>
+		<e:BitmapLabel id="labelNum" width="40" height="20" x="14" y="65" font="ItemNum_fnt" text="1"/>
+		<e:Image id="imgTopRight" right="5" top="1" source=""/>
+		<e:Image id="imgTick" source="ui_instance_battle_biaoqian1_png" top="0" right="0"/>
+		<e:Image id="imgYuan" source="ui_instance_battle_biaoqian2_png" right="0" top="0"/>
+		<e:Image id="imgLetter" scaleX="0.5" scaleY="0.5" right="4" bottom="5" source=""/>
+		<e:Group id="groupStar" width="50" height="20" x="14" y="0.5"/>
+		<e:Image id="imgShade" source="ui_frame_SpriteMake_png" x="0" y="0" visible="false"/>
+		<e:Image id="SpriteDead" source="ui_union_battle_WordsDontUse_png" scale9Grid="7,2,49,19" verticalCenter="0" horizontalCenter="0" visible="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueUnionBattleRankSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+
+
+
+
+
+
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="730" height="490" scale9Grid="150,30,143,84" y="44" horizontalCenter="0"/>
+		<e:Image source="ui_mail_LayerMailFirst_png" width="702" height="455" scale9Grid="12,13,79,80" y="67" horizontalCenter="0"/>
+		<e:Button id="btnStrongWorld" label="" x="178.7" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_BtnStrongWorld1_png" source.down="ui_union_battle_BtnStrongWorld2_png" source.disabled="ui_union_battle_BtnStrongWorld2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnThisSerRank" label="" x="45.03" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_thisServiceRank1_png" source.down="ui_union_battle_thisServiceRank2_png" source.disabled="ui_union_battle_thisServiceRank2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnClose" label="" x="666.01" y="12.68">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group y="71" horizontalCenter="0">
+			<e:Image source="ui_union_battle_recordBoard_png" horizontalCenter="0" y="-4" x="-53" scaleX="1" scaleY="1"/>
+			<e:Group id="groupHead1" horizontalCenter="0" verticalCenter="0">
+			<e:Image source="ui_union_battle_rank_png" y="0" horizontalCenter="-269"/>
+			<e:Image source="ui_union_battle_Segment_png" y="0" horizontalCenter="-133"/>
+			<e:Image source="ui_union_battle_unionName_png" y="0" horizontalCenter="45"/>
+			<e:Image source="ui_union_battle_rankScore2_png" y="0" horizontalCenter="247"/>
+			</e:Group>
+			<e:Group id="groupHead2" verticalCenter="0" horizontalCenter="0" visible="false">
+			<e:Image source="ui_union_battle_rank_png" x="0" y="0"/>
+			<e:Image source="ui_union_battle_serverRank_png" x="231" y="0"/>
+			<e:Image source="ui_union_battle_unionName_png" x="501.66" y="0"/>
+			</e:Group>
+			<e:Group id="groupHead3" horizontalCenter="0" verticalCenter="0" visible="false">
+			<e:Image source="ui_union_battle_serverRank_png" verticalCenter="0" horizontalCenter="-243"/>
+			<e:Image source="ui_union_battle_Union1_png" verticalCenter="0" horizontalCenter="-100"/>
+			<e:Image source="ui_union_battle_Union2_png" verticalCenter="0" horizontalCenter="72"/>
+			<e:Image source="ui_union_battle_Union3_png" verticalCenter="0" horizontalCenter="240"/>
+			</e:Group>
+		</e:Group>
+		<e:Scroller width="702" height="410" y="109.32" horizontalCenter="0" scrollPolicyH="off" scrollPolicyV="on">
+			<e:List id="lstViewRankThis"/>
+		</e:Scroller>
+		<e:Scroller width="702" height="350" y="105" horizontalCenter="0" scrollPolicyH="off" scrollPolicyV="on">
+			<e:List id="lstViewRank"/>
+		</e:Scroller>
+		<e:Group id="groupMyInfo" y="454.65" horizontalCenter="0">
+			<e:Image source="ui_arena_BoardDayRanking_png" y="0" width="702" height="70" scale9Grid="10,4,63,26" x="0"/>
+			<e:Label id="lbMyRank" text="暂未上榜" size="18" verticalCenter="0" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" horizontalCenter="-269" height="20" width="139"/>
+			<e:Image id="imgMySegment" source="ui_union_battle_star11_png" verticalCenter="0" horizontalCenter="-133"/>
+			<e:Label id="lbMyUnionName" text="公会名称" size="18" verticalCenter="0" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" horizontalCenter="45" height="20" width="188"/>
+			<e:Label id="lbMyRankScore" text="6000" size="18" verticalCenter="0" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" horizontalCenter="247" height="20" width="125"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

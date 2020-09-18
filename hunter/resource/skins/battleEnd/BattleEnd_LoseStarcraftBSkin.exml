@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleEnd_LoseStarcraftBSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_icon_ArenaCoinSmall_png" x="230" y="548.25" visible="false"/>
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_instance_LayerInstance_png" width="890" height="430" horizontalCenter="0" verticalCenter="0" scale9Grid="11,11,73,73" x="35" y="105" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" width="870" height="385" scale9Grid="15,10,92,65" horizontalCenter="0" verticalCenter="2.5" x="45" y="130" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_battleend_OrnArenaInter_png" horizontalCenter="0" verticalCenter="25" x="233" y="178" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_instance_BoardTopTip_png" y="104" scale9Grid="40,3,61,22" anchorOffsetX="0" width="890" horizontalCenter="0" x="35" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_battleend_WordsMyTeam_png" top="135" horizontalCenter="-250" x="108" y="135" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_battleend_WordsEnemyTeam_png" top="135" horizontalCenter="250" x="608" y="135" scaleX="1" scaleY="1"/>
+		<e:Group id="NodeTitle" x="406" y="62" scaleX="1" scaleY="1">
+			<e:Group id="NodeBgAni" y="22" x="74"/>
+			<e:Group id="NodeAni" y="22" x="74"/>
+			<e:Group id="NodeName" y="22" x="74"/>
+			<e:Image source="ui_battleend_WordsLose_png" y="0" x="0"/>
+		</e:Group>
+		<e:Group id="NodeCountent2" x="175" y="261" scaleX="1" scaleY="1">
+			<e:Group id="HeroNodeBule1_4" x="1" y="0"/>
+			<e:Group id="HeroNodeBule1_3" x="11" y="10"/>
+			<e:Group id="HeroNodeBule1_2" x="21" y="20"/>
+			<e:Group id="HeroNodeBule1_1" x="31" y="30"/>
+			<e:Image id="BlueWord1" source="ui_mail_IconWinSmall_png" x="0" y="56" anchorOffsetX="33" anchorOffsetY="34"/>
+			<e:Group id="HeroNodeRed1_1" x="41" y="40"/>
+			<e:Group id="HeroNodeRed1_2" x="51" y="50"/>
+			<e:Group id="HeroNodeRed1_3" x="61" y="60"/>
+			<e:Group id="HeroNodeRed1_4" x="71" y="70"/>
+			<e:Image id="RedWord1" source="ui_mail_IconLoseSmall_png" x="0" y="56" anchorOffsetX="33" anchorOffsetY="34"/>
+			<e:Image id="SpriteTeamNum1" source="ui_battleend_WordsArenaInterTeam1_png" x="15" y="77" anchorOffsetX="20" anchorOffsetY="13"/>
+		</e:Group>
+		<e:Group id="NodeCountent3" x="92" y="308" scaleX="1" scaleY="1">
+			<e:Group id="HeroNodeBule2_4" x="11" y="10"/>
+			<e:Group id="HeroNodeBule2_3" x="21" y="20"/>
+			<e:Group id="HeroNodeBule2_2" x="31" y="30"/>
+			<e:Group id="HeroNodeBule2_1" x="1" y="0"/>
+			<e:Image id="BlueWord2" source="ui_mail_IconWinSmall_png" x="0" y="56" anchorOffsetX="33" anchorOffsetY="34"/>
+			<e:Group id="HeroNodeRed2_1" x="41" y="40"/>
+			<e:Group id="HeroNodeRed2_2" x="51" y="50"/>
+			<e:Group id="HeroNodeRed2_3" x="61" y="60"/>
+			<e:Group id="HeroNodeRed2_4" x="71" y="70"/>
+			<e:Image id="RedWord2" source="ui_mail_IconLoseSmall_png" x="0" y="56" anchorOffsetX="33" anchorOffsetY="34"/>
+			<e:Image id="SpriteTeamNum2" x="15" y="77" anchorOffsetX="20" anchorOffsetY="13" source="ui_battleend_WordsArenaInterTeam2_png"/>
+		</e:Group>
+		<e:Group id="NodeCountent4" x="82" y="298" scaleX="1" scaleY="1">
+			<e:Group id="HeroNodeBule3_4" x="1" y="0"/>
+			<e:Group id="HeroNodeBule3_3" x="11" y="10"/>
+			<e:Group id="HeroNodeBule3_2" x="21" y="20"/>
+			<e:Group id="HeroNodeBule3_1" x="31" y="30"/>
+			<e:Image id="BlueWord3" source="ui_mail_IconWinSmall_png" x="0" y="56" anchorOffsetX="33" anchorOffsetY="34"/>
+			<e:Group id="HeroNodeRed3_1" x="41" y="40"/>
+			<e:Group id="HeroNodeRed3_2" x="51" y="50"/>
+			<e:Group id="HeroNodeRed3_3" x="61" y="60"/>
+			<e:Group id="HeroNodeRed3_4" x="71" y="70"/>
+			<e:Image id="RedWord3" source="ui_mail_IconLoseSmall_png" x="0" y="56" anchorOffsetX="33" anchorOffsetY="34"/>
+			<e:Image id="SpriteTeamNum3" x="15" y="77" anchorOffsetX="20" anchorOffsetY="13" source="ui_battleend_WordsArenaInterTeam3_png"/>
+		</e:Group>
+		<e:Group x="39" y="556" height="38" scaleX="1" scaleY="1">
+			<e:Image source="ui_common_BoardUpStarSmall_png" scaleX="0.8" scaleY="0.5" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="LabelPoints" text="积分:1185" textColor="0xfefb32" size="22" left="100" verticalCenter="0"/>
+			<e:Label id="LabelPointsB" text="+85" textColor="0xFEFB32" size="22" verticalCenter="0" left="219"/>
+			<e:Image id="SpriteRewardIcon" source="ui_iconresources_rongyubi3_png" x="323" scaleX="1" scaleY="1" verticalCenter="0.5"/>
+			<e:Label id="LabelReward" text="积分:1185" textColor="0xFEFB32" size="22" verticalCenter="0" left="376"/>
+		</e:Group>
+		<e:Button id="ButtonGoOn" label="" x="773" y="560" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_wish_ButtonReturnNor_png" source.down="ui_acitivity_wish_ButtonReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="NodeTeamAni1" y="220" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" x="480" scaleX="1" scaleY="1"/>
+		<e:Group y="335" anchorOffsetX="0" anchorOffsetY="0" id="NodeTeamAni2" horizontalCenter="0" x="480" scaleX="1" scaleY="1"/>
+		<e:Group id="NodeTeamAni3" y="450" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" x="480" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

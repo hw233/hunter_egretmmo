@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueRecruitSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="535" height="300" scale9Grid="165,30,140,87" scaleX="1" x="0" y="0"/>
+		<e:Image source="ui_union_OrnInputAnnouncement_png" x="321.3" y="15.66"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" y="-42" horizontalCenter="0" x="115" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_union_WordsRecruit_png" y="-30" horizontalCenter="0" x="212" scaleX="1" scaleY="1"/>
+		<e:Label text="请输入宣传语(1~40个字)" x="24.71" y="28.02" textColor="0x000000" size="20" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" bold="true" scaleX="1" scaleY="1" height="24" width="300"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" y="55.69999999999999" width="505" height="130" horizontalCenter="0.5" scale9Grid="15,10,92,65" x="15" scaleX="1" scaleY="1"/>
+		<e:TextInput id="textContent" width="480" height="120" y="61.03999999999999" horizontalCenter="0" x="27" scaleX="1" scaleY="1"/>
+		<e:Button id="btnCancel" label="" x="457.34000000000003" y="-31.30000000000001" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnOK" label="" y="212.31" scaleX="0.85" scaleY="0.85" horizontalCenter="0" x="194">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonSentNor_png" source.down="ui_union_ButtonSentSel_png" source.disabled="ui_union_ButtonSentDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group y="261.65" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Image source="ui_fishing_BoardFishingNum_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_union_IconLeagueActivity_png" x="31.35" verticalCenter="0"/>
+			<e:Label id="lbCost" text="x100" x="77.38" size="18" fontFamily="Helvetica" width="75" textAlign="left" verticalCenter="0.5" verticalAlign="middle" textColor="0xfeffff" height="24"/>
+		</e:Group>
+		<e:Label id="lbChangeTime" text="300秒后可发布" y="188.64999999999998" textColor="0x361e11" size="18" fontFamily="Helvetica" horizontalCenter="0" verticalAlign="middle" textAlign="center" x="207" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

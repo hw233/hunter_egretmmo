@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankDetailSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="400" height="308" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_instance_LayerInstance_png" width="400" height="280" horizontalCenter="0" scale9Grid="11,11,73,73" x="0" scaleX="1" scaleY="1" bottom="0"/>
+		<e:Image source="ui_instance_BoardTopTip_png" top="7" left="0" right="0" scale9Grid="40,5,138,18"/>
+		<e:Button id="btnClose" label="" right="-15" top="-12">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="95" height="93" left="50" top="50">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="3" source=""/>
+		</e:Group>
+		<e:Group height="92" anchorOffsetX="0" anchorOffsetY="0" right="0" width="240" top="50">
+			<e:Label id="labelLevel" text="Lv60" fontFamily="Helvetica" size="18" textColor="0xeaead2" height="23" width="45" left="0" top="0" x="-146" y="-39" scaleX="1" scaleY="1" verticalAlign="middle"/>
+			<e:Label id="labelName" text="玩家名字六个字" fontFamily="Helvetica" size="18" textColor="0xEAEAD2" height="23" scaleX="1" scaleY="1" left="50" top="0" right="0" verticalAlign="middle"/>
+			<e:Label id="labelAlly" text="帮会：公会BOOS" fontFamily="Helvetica" size="18" textColor="0xEAEAD2" height="23" left="0" top="23" y="-39" scaleX="1" scaleY="1" verticalAlign="middle" right="91" anchorOffsetX="0"/>
+			<e:Label id="labelTitle" text="称号: 名字六个字" fontFamily="Helvetica" size="18" textColor="0xEAEAD2" height="23" left="0" top="46" y="-39" scaleX="1" scaleY="1" verticalAlign="middle" right="0"/>
+			<e:Label id="labelValue" text="帮会：名字六个字名字" fontFamily="Helvetica" size="18" textColor="0xEAEAD2" height="23" left="0" top="69" y="-39" scaleX="1" scaleY="1" verticalAlign="middle" right="0"/>
+			<e:Image id="imgAlly" source="ui_union_battle_star22_png" x="148" y="22" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group width="300" height="120" horizontalCenter="0" bottom="15">
+			<e:Button id="btnViewDetail" label="" scaleX="1" scaleY="1" left="0" top="0" width="137" height="49">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerViewInfoNor_png" source.down="ui_union_ButtonPlayerViewInfoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnAddFriend" label="" right="0" top="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerAddFriendNor_png" source.down="ui_union_ButtonPlayerAddFriendSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnAddUnion" label="" left="0" bottom="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendInfoAddUnionNor_png" source.down="ui_friend_ButtonFriendInfoAddUnionSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnChat" label="" right="0" bottom="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerPrivateChatNor_png" source.down="ui_union_ButtonPlayerPrivateChatSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityJewelCollectionMissionSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="7.5" verticalCenter="-37.5">
+		<e:Image source="ui_acitivity_jewel_BoardMissionFloor_png" x="0" y="29"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" y="0" horizontalCenter="0"/>
+		<e:Image source="ui_acitivity_jewel_WordsMissionTitle_png" y="11.56" horizontalCenter="0.5"/>
+		<e:Button id="buttonClose" label="" x="620.59" y="11.32">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_acitivity_jewel_BoardMissionDesFloor_png" x="19.84" y="66.06"/>
+		<e:Image id="imageName1" source="ui_acitivity_jewel_WordsDailyMission_png" x="127.24" y="73.52"/>
+		<e:Image source="ui_acitivity_jewel_BoardDailyMissionFloor_png" x="24.24" y="110.5"/>
+		<e:Label id="labelMission1" text="任务内容" x="50.06" y="115.04" anchorOffsetX="0" width="260.36" anchorOffsetY="0" height="30" verticalAlign="middle" textAlign="center" size="20" textColor="0xff9200"/>
+		<e:Group x="110.74" y="156.71" anchorOffsetY="0" height="141.03">
+			<e:Image source="ui_acitivity_jewel_BoardDailyAwardFrame_png" x="0" y="0"/>
+			<e:Group x="16.26" y="23.16">
+				<e:Image id="imageFrame1" source="ui_frame_FrameHunterAsh_png" x="0" y="8"/>
+				<e:Image id="imageAward1" source="ui_daily_IconActvityAwardA_png" horizontalCenter="0" verticalCenter="1"/>
+				<e:BitmapLabel id="labelTexrNum1" width="82.12" height="26.06" anchorOffsetX="0" anchorOffsetY="0" text="123" font="ItemNumWords_fnt" textAlign="right" right="13" bottom="9"/>
+			</e:Group>
+		</e:Group>
+		<e:Image id="imageExpNull1" source="ui_acitivity_jewel_BoardExpNull_png" x="43.22" y="308.96"/>
+		<e:Image id="imageExp1" source="ui_acitivity_jewel_BoardExpFull_png" x="43.64" y="308.52"/>
+		<e:Image id="imageRect1" x="43.88" y="308.04" width="271" height="34" source="ui_common_mask_black_jpg"/>
+		<e:Label id="labelDone1" text="2000/50000" x="44" y="310.52" anchorOffsetX="0" width="271.42" textColor="0xfffb00" size="20" verticalAlign="middle" textAlign="center" anchorOffsetY="0" height="29.09"/>
+		<e:Label text="次日凌晨4点重置每日任务" x="62.73" y="361.05" anchorOffsetX="0" width="228.55" anchorOffsetY="0" height="25.45" textColor="0xcab692" size="18" verticalAlign="middle" textAlign="center"/>
+		<e:Button id="buttonGetLeft1" label="" x="101.39" y="418.95">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_ButtonConmonGetNor_png" source.down="ui_acitivity_ButtonConmonGetSel_png" source.disabled="ui_acitivity_ButtonConmonGetDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imageComplete1" source="ui_acitivity_jewel_WordsComplete_png" x="230.32" y="72.36"/>
+		<e:Image id="imageGet1" source="ui_acitivity_WordsTipGet_png" x="127.34" y="411.6"/>
+		<e:Image source="ui_acitivity_jewel_BoardMissionDesFloor_png" x="361.06" y="65.18"/>
+		<e:Image id="imageName2" source="ui_acitivity_jewel_WordsFinalMission_png" x="469.8" y="74"/>
+		<e:Image source="ui_acitivity_jewel_BoardFinalMissionFloor_png" x="366.44" y="109.88"/>
+		<e:Label id="labelMission2" text="任务内容" x="382" y="113.44" anchorOffsetX="0" width="270.97" anchorOffsetY="0" height="33.03" verticalAlign="middle" textAlign="center" textColor="0xff9200" size="20"/>
+		<e:Image source="ui_acitivity_jewel_BoardFinalMissionFrame_png" x="452.68" y="158.36"/>
+		<e:Group x="464.48" y="182.38">
+			<e:Image id="imageFrame2" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0.5" verticalCenter="3.5"/>
+			<e:Image id="imageAward2" source="ui_daily_IconActvityAwardA_png" horizontalCenter="0" verticalCenter="-1"/>
+			<e:BitmapLabel id="labelTextNum2" width="80.61" height="24.55" anchorOffsetX="0" anchorOffsetY="0" text="123" font="ItemNumWords_fnt" textAlign="right" right="13" bottom="12"/>
+		</e:Group>
+		<e:Image id="imageExpNull2" source="ui_acitivity_jewel_BoardExpNull_png" x="383.56" y="308.96"/>
+		<e:Image id="imageExp2" source="ui_acitivity_jewel_BoardExpFull_png" x="385.3" y="308.07"/>
+		<e:Image id="imageRect2" x="385" y="308.04" width="271" height="34" source="ui_common_mask_black_jpg"/>
+		<e:Label id="labelDone2" text="1000000/1000000" x="352.27" y="312.63" anchorOffsetX="0" width="337.42" textColor="0xFFFB00" size="20" verticalAlign="middle" textAlign="center" anchorOffsetY="0" height="29.09"/>
+		<e:Label text="每期活动只能完成一次终极任务" x="412" y="363.21" anchorOffsetX="0" width="228.55" anchorOffsetY="0" height="25.45" textColor="0xCAB692" size="18" verticalAlign="middle" textAlign="center"/>
+		<e:Button id="buttonGetLeft2" label="" x="441.46" y="419.2">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_ButtonConmonGetNor_png" source.down="ui_acitivity_ButtonConmonGetSel_png" source.disabled="ui_acitivity_ButtonConmonGetDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imageGet2" source="ui_acitivity_WordsTipGet_png" x="462.96" y="412.51"/>
+		<e:Image id="imageComplete2" source="ui_acitivity_jewel_WordsComplete_png" x="567.59" y="74"/>
+	</e:Group>
+</e:Skin>

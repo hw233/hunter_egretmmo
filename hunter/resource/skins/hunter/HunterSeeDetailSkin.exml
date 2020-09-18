@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterSeeDetailSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="father" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="650" height="470" x="0" y="15.45" scale9Grid="55,50,250,146"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" top="2" left="13"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="0" top="-20"/>
+		<e:Image source="ui_hunter_WordsRecruitedHunterTip_png" scaleX="1" scaleY="1" horizontalCenter="0" top="-10"/>
+		<e:Button id="btnClose" label="" width="90" height="55" right="-15" top="-15">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_hunter_WordsDontGetHunterPartner_png" y="39" horizontalCenter="0.5"/>
+		<e:Group id="groupInfo" anchorOffsetX="0" name="groupInfo" left="10" right="10" height="245" y="67" width="630">
+			<e:Image source="ui_hunter_LayerSeconde_png" left="0" right="0" top="0" bottom="0" width="630" height="245" scale9Grid="15,10,92,65"/>
+			<e:Label text="生命" y="26" textColor="0x000000" size="18" left="71"/>
+			<e:Label id="labelAttri1" text="9999999" y="26" textColor="0x000000" anchorOffsetX="0" width="139" size="18" left="137" name="labelAttri1"/>
+			<e:Image source="ui_hunter_IconArrow_png" y="26" left="108"/>
+			<e:Label text="暴击概率" y="26" textColor="0x000000" size="18" left="406"/>
+			<e:Label id="labelAttri5" text="100%" y="26" textColor="0x000000" anchorOffsetX="0" width="110" size="18" left="510" name="labelAttri5"/>
+			<e:Image source="ui_hunter_IconArrow_png" y="24" left="483"/>
+			<e:Image source="ui_hunter_OrnLine_png" scaleX="1" scaleY="1" left="10" right="10" x="27" y="50"/>
+			<e:Label text="攻击" y="66" textColor="0x000000" size="18" left="71"/>
+			<e:Label id="labelAttri2" text="9999999" y="66" textColor="0x000000" anchorOffsetX="0" width="139" size="18" left="137" name="labelAttri2"/>
+			<e:Image source="ui_hunter_IconArrow_png" y="66" left="108"/>
+			<e:Label text="暴击伤害" y="66" textColor="0x000000" size="18" left="406"/>
+			<e:Label id="labelAttri6" text="100%" y="66" textColor="0x000000" anchorOffsetX="0" width="110" size="18" left="510" name="labelAttri6"/>
+			<e:Image source="ui_hunter_IconArrow_png" y="64" left="483"/>
+			<e:Image source="ui_hunter_OrnLine_png" scaleX="1" scaleY="1" left="10" right="10" x="27" y="90"/>
+			<e:Label text="防御" y="106" textColor="0x000000" size="18" left="71"/>
+			<e:Label id="labelAttri3" text="9999999" y="106" textColor="0x000000" anchorOffsetX="0" width="139" size="18" left="137" name="labelAttri3"/>
+			<e:Image source="ui_hunter_IconArrow_png" y="106" left="108"/>
+			<e:Label text="浮空格挡" y="106" textColor="0x000000" size="18" left="406"/>
+			<e:Label id="labelAttri7" text="100%" y="106" textColor="0x000000" anchorOffsetX="0" width="110" size="18" left="510" name="labelAttri7"/>
+			<e:Image source="ui_hunter_IconArrow_png" y="104" left="483"/>
+			<e:Image source="ui_hunter_OrnLine_png" scaleX="1" scaleY="1" left="10" right="10" x="27" y="130"/>
+			<e:Label text="速度" y="146" textColor="0x000000" size="18" left="71"/>
+			<e:Label id="labelAttri4" text="9999999" y="146" textColor="0x000000" anchorOffsetX="0" width="139" size="18" name="labelAttri4" left="137"/>
+			<e:Image source="ui_hunter_IconArrow_png" y="146" left="108"/>
+			<e:Label text="效果命中" y="146" textColor="0x000000" size="18" left="406"/>
+			<e:Label id="labelAttri9" text="100%" y="146" textColor="0x000000" anchorOffsetX="0" width="110" size="18" left="510" name="labelAttri9"/>
+			<e:Image source="ui_hunter_IconArrow_png" y="144" left="483"/>
+			<e:Image source="ui_hunter_OrnLine_png" scaleX="1" scaleY="1" left="10" right="10" x="27" y="170"/>
+			<e:Label text="暴击抵抗" y="186" textColor="0x000000" size="18" left="71"/>
+			<e:Label id="labelAttri10" text="9999999" y="186" textColor="0x000000" anchorOffsetX="0" width="139" size="18" left="173" name="labelAttri10"/>
+			<e:Image source="ui_hunter_IconArrow_png" y="186" left="144"/>
+			<e:Label text="效果抵抗" y="186" textColor="0x000000" size="18" left="406"/>
+			<e:Label id="labelAttri8" text="100%" y="186" textColor="0x000000" anchorOffsetX="0" width="110" size="18" left="510" name="labelAttri8"/>
+			<e:Image source="ui_hunter_IconArrow_png" y="184" left="482"/>
+			<e:Image source="ui_hunter_OrnLine_png" scaleX="1" scaleY="1" left="10" right="10" x="27" y="210"/>
+		</e:Group>
+		<e:Image source="ui_hunter_WordsDontGetHunterSkill_png" y="324" horizontalCenter="0"/>
+		<e:Group id="groupList" y="357" height="117" left="10" right="20">
+			<e:Image source="ui_hunter_BoardDontGetHunter_png" left="0" right="0" top="0" bottom="0" scale9Grid="60,14,367,89"/>
+			<e:List id="listHunterSkill" width="480" anchorOffsetY="0" anchorOffsetX="0" top="0" bottom="0" horizontalCenter="0">
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="top" horizontalAlign="left" paddingLeft="30" paddingTop="7"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Group>
+</e:Skin>

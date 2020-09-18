@@ -1,0 +1,41 @@
+{
+    "options": {
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "0",
+        "sizeMode": "2n"
+    },
+    "files": [
+        "./../image/ui/card/compose/ui_card_compose_WordsTitle.png",
+        "./../image/ui/card/compose/ui_card_compose_WordsProperty.png",
+        "./../image/ui/card/compose/ui_card_compose_WordsHave.png",
+        "./../image/ui/card/compose/ui_card_compose_WordsCan.png",
+        "./../image/ui/card/compose/ui_card_compose_LineProperty.png",
+        "./../image/ui/card/compose/ui_card_compose_ButtonTakeSel.png",
+        "./../image/ui/card/compose/ui_card_compose_ButtonTakeNor.png",
+        "./../image/ui/card/compose/ui_card_compose_ButtonQualitySel.png",
+        "./../image/ui/card/compose/ui_card_compose_ButtonQualityNor.png",
+        "./../image/ui/card/compose/ui_card_compose_ButtonPageSeriesSel.png",
+        "./../image/ui/card/compose/ui_card_compose_ButtonPageSeriesNor.png",
+        "./../image/ui/card/compose/ui_card_compose_ButtonPageQualitySel.png",
+        "./../image/ui/card/compose/ui_card_compose_ButtonPageQualityNor.png",
+        "./../image/ui/card/compose/ui_card_compose_ButtonPageComposeSel.png",
+        "./../image/ui/card/compose/ui_card_compose_ButtonPageComposeNor.png",
+        "./../image/ui/card/compose/ui_card_compose_ButtonComposeSel.png",
+        "./../image/ui/card/compose/ui_card_compose_ButtonComposeNor.png",
+        "./../image/ui/card/compose/ui_card_compose_BoardVicePropertyFloor.png",
+        "./../image/ui/card/compose/ui_card_compose_BoardPropertyFloor.png",
+        "./../image/ui/card/compose/ui_card_compose_BoardExpNullFloor.png",
+        "./../image/ui/card/compose/ui_card_compose_BoardExpNullBig.png",
+        "./../image/ui/card/compose/ui_card_compose_BoardExpFullFloor.png",
+        "./../image/ui/card/compose/ui_card_compose_BoardExpFullBig.png",
+        "./../image/ui/card/compose/ui_card_compose_BoardExpFloor.png",
+        "./../image/ui/card/compose/ui_card_compose_BoardCardSelFloor.png",
+        "./../image/ui/card/compose/ui_card_compose_BoardCardQualityFloor.png",
+        "./../image/ui/card/compose/ui_card_compose_BoardCardFloor.png",
+        "./../image/ui/card/compose/ui_card_compose_WordsType1.png"
+    ],
+    "version": 5,
+    "projectName": "cardCompose"
+}

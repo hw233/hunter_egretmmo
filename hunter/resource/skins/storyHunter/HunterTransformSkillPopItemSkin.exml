@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterTransformSkillPopItemSkin" width="376" height="94" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupNo" x="4" y="1">
+			<e:Image source="ui_hunter_break_BoardBreakHunterItemNoFloor_png" x="0" y="0"/>
+			<e:Label id="labelNoMet" text="当前无满足要求的猎人" x="84" y="11" anchorOffsetX="0" width="270" verticalAlign="middle" textAlign="left" size="18" anchorOffsetY="0" height="28"/>
+			<e:Label id="labelMeterialsTip" text="需满足： 60级；4行； 二次觉醒" x="84" y="49" size="18" anchorOffsetX="0" width="272" anchorOffsetY="0" height="27" verticalAlign="middle" textAlign="left"/>
+		</e:Group>
+		<e:Group id="groupHave" x="4" y="1">
+			<e:Image source="ui_hunter_break_BoardBreakHunterItemFloor_png" x="0" y="0"/>
+			<e:Label id="lebelMeterialsPower" text="需满足：60级；4行" x="71" y="11" anchorOffsetX="0" width="242" anchorOffsetY="0" height="29" size="18" textAlign="left" verticalAlign="middle"/>
+			<e:Label id="labelMeterialsNum" text="满足5行，二次觉醒" x="71" y="49" anchorOffsetX="0" width="241" anchorOffsetY="0" height="24" size="18" textAlign="left" verticalAlign="middle"/>
+			<e:Image source="ui_hunter_break_ButtonBingoNor_png" x="312" y="26"/>
+			<e:Image id="imageBigon" source="ui_hunter_break_ButtonBingoSel_png" x="312" y="26"/>
+		</e:Group>
+		<e:Group x="7" y="12.9" touchThrough="true" touchEnabled="false" touchChildren="false">
+			<e:Image id="imageFrame" source="ui_frame_FrameHunterAsh_png" x="0" y="0" scaleX="0.7" scaleY="0.7"/>
+			<e:Image id="imageIcon" source="hero_icon_head_wj_bisiji_png" x="0" y="0.1" scaleX="0.7" scaleY="0.7"/>
+			<e:BitmapLabel id="labelItemNum" width="68.71" height="19.14" x="10" y="41.1" anchorOffsetX="0" anchorOffsetY="0" text="99" font="ItemNumWords_fnt" scaleX="0.7" scaleY="0.7"/>
+			<e:Image id="imageHeroGrade" source="ui_hunter_evaluate_IconWrodsCard3_png" x="39" y="36.1" scaleX="0.35" scaleY="0.35"/>
+			<e:Group id="groupStar" width="49" height="17" anchorOffsetX="0" anchorOffsetY="0" top="1" horizontalCenter="3"/>
+		</e:Group>
+		<e:Image id="imageShadow" source="ui_frame_SpriteMake_png" x="0" y="0" width="374" height="90" scale9Grid="11,11,73,71"/>
+		<e:Image id="imageLock" source="ui_currencyicon_IconLock_png" x="167" y="26"/>
+	</e:Group>
+</e:Skin>

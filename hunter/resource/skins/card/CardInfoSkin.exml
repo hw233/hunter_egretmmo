@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardInfoSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="912" height="589" horizontalCenter="-0.5%" verticalCenter="6%">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" width="920" height="540" horizontalCenter="0" verticalCenter="-2.5" scale9Grid="117,30,182,84"/>
+		<e:Image id="imageNodeCard" source="ui_card_WordsNodeCard_png" x="538" y="181"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" x="481" y="343" width="380" height="204" scale9Grid="15,10,92,65"/>
+		<e:Image source="ui_chat_OrnLine_png" x="492" y="376"/>
+		<e:Group id="groupRight" width="397" height="469" y="59" right="29" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="imageFrame" source="ui_frame_FrameCard4_png" x="0" y="0"/>
+			<e:Label id="labelCardNum" text="15" x="26" y="22" size="18" textColor="0x070707"/>
+
+			<e:Label id="labelCardName" text="卡片名称" x="83" y="22" size="18" textColor="0x0a0a0a"/>
+			<e:Image id="imageCard" source="card_085tishenkaijiaS_8_png" x="15" y="56"/>
+			<e:Image id="imageCardType" source="ui_hunter_evaluate_IconCardType5_png" x="15" y="56"/>
+			<e:Label id="labelCardDetails" text="开发人员忠告：这个里面的内容是读表，不需要翻译了。" x="20" y="165" anchorOffsetX="0" width="179" anchorOffsetY="0" height="103" size="13" textColor="0x0a0a0a" lineSpacing="4" fontFamily="Microsoft YaHei"/>
+			<e:Image source="ui_card_BoardCardInfo_png" y="6" right="-8" anchorOffsetX="0" width="175"/>
+			<e:Image source="ui_card_BoardCardInfo_png" y="34" right="-8" anchorOffsetX="0" width="175"/>
+			<e:Image source="ui_card_BoardCardInfo_png" y="62" right="-8" anchorOffsetX="0" width="175"/>
+			<e:Label id="labelRealConst" text="稀有度：" x="240" y="12.01" size="18"/>
+			<e:Image id="imageGradeLevel" source="ui_hunter_evaluate_IconWrodsCard3_png" x="312" y="7" scaleX="0.4" scaleY="0.4"/>
+			<e:Label id="labelStarConst" text="星级：" x="240" y="39.67" size="18"/>
+			<e:Label id="labelLevelConst" text="等级：" x="240" y="67.67" size="18"/>
+			<e:Label id="labelLevel" text="11/12" x="311" y="67" size="20"/>
+			<e:Button id="btnCardLock" label="" x="153" y="221">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_card_ButtonCardUnlockBNor_png" source.down="ui_card_ButtonCardUnlockBSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnCardUnlock" label="" x="153" y="221">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_card_ButtonCardUnlockNor_png" source.down="ui_card_ButtonCardUnlockSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group id="groupUnuseType" width="137" height="165.12" x="239" y="116.88" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Button id="btnCardStrengthen" label="" x="-10" y="-5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardStrengthenNor_png" source.down="ui_card_ButtonCardStrengthenSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnCardBreak" label="" x="-10" y="54.56">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonBreakNor_png" source.down="ui_card_ButtonBreakSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnCardUpStar" label="" x="-10" y="54.56">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardUpStarNor_png" source.down="ui_card_ButtonCardUpStarSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnCardSell" label="" x="-10" y="115.64">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardSellNor_png" source.down="ui_card_ButtonCardSellSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+			<e:Group id="groupUseType" width="165" height="190" x="222" y="91" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image source="ui_card_BoardCardInfo_png" y="-1" right="-21" anchorOffsetX="0" width="175.33"/>
+			<e:Label id="labelUserConst" text="使用者：" x="17" y="4.01" size="18" scaleX="1" scaleY="1" rotation="359.93"/>
+			<e:Label id="labelUseName" text="这是啥啥啥" x="81.39" y="4.01" size="18" scaleX="1" scaleY="1" textColor="0xffffff"/>
+			<e:Button id="btnCardUseBreak" label="" x="6" y="111">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonBreakNor_png" source.down="ui_card_ButtonBreakSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="btnCardUseStrengthen" label="" x="6" y="47">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardStrengthenNor_png" source.down="ui_card_ButtonCardStrengthenSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnCardUseUpStar" label="" x="6" y="111">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardUpStarNor_png" source.down="ui_card_ButtonCardUpStarSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+
+			<e:Label id="labelAttriMainConst" text="主属性：" x="14" y="294" size="20" textColor="0x070707" fontFamily="Microsoft YaHei"/>
+			<e:Label id="labelAttriMain" text="攻击+20%" x="87" y="294" size="18" textColor="0x020202" fontFamily="Microsoft YaHei"/>
+			<e:Scroller id="scroAttri" width="342" height="140" x="15" y="325.08" anchorOffsetX="0">
+			<e:List id="listAttri" width="100%" height="100%" anchorOffsetX="0">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="1" paddingTop="2"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+
+			<e:Group id="groupStar" width="80" height="20" x="290" y="39">
+
+
+
+
+
+
+			</e:Group>
+			<e:Button id="btnHelp" label="" x="334" y="283" rotation="0.51" touchEnabled="true" anchorOffsetX="0" width="34.93" anchorOffsetY="0" height="35.06">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_help_ButtonHelpNor_png" source.down="ui_help_ButtonHelpSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="groupLeft" width="465" height="537" left="6" top="10" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Image source="ui_hunter_LayerSeconde_png" x="0" width="100%" height="494" bottom="2" anchorOffsetY="0" scale9Grid="15,10,92,65"/>
+			<e:Image source="ui_card_BoardButtonUse_png" horizontalCenter="1" left="70" top="12"/>
+			<e:Scroller id="scroCardBagUse" width="450" anchorOffsetY="0" bottom="22" height="460" x="8">
+			<e:List id="listCardBagUse" width="100%" height="100%">
+				<e:layout>
+					<e:TileLayout horizontalGap="0" verticalGap="0" requestedColumnCount="4"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+			<e:Scroller id="scroCardBagUnuse" width="450" height="460" anchorOffsetY="0" x="8" y="55">
+			<e:List id="listCardBagUnuse" anchorOffsetY="0" height="100%" x="0" y="-6" width="100%">
+				<e:layout>
+					<e:TileLayout horizontalGap="0" verticalGap="0" requestedColumnCount="4"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+			<e:Button id="btnUse" label="" x="234" y="-13.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_card_ButtonCardUseNor_png" source.down="ui_card_ButtonCardUseSel_png" source.disabled="ui_card_ButtonCardUseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnUnuse" label="" x="91" y="-13.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_card_ButtonCardUnuseNor_png" source.down="ui_card_ButtonCardUnuseSel_png" source.disabled="ui_card_ButtonCardUnuseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image source="ui_card_BoardCardNum_png" x="306" bottom="-30"/>
+			<e:Label id="labelCardInfoNum" text="卡片数量：999/999" x="327" size="20" bottom="-22"/>
+			<e:Button id="btnCardBulkSell" label="" x="0" y="523">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_card_ButtonCardBulkNor_png" source.down="ui_card_ButtonCardBulkSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnSelectedName" label="" x="0" y="523">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardViewNameNor_png" source.down="ui_card_ButtonCardViewNameSel_png" source.disabled="ui_card_ButtonCardViewNameSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="btnShowUser" label="" x="0" y="523">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardViewUserNor_png" source.down="ui_card_ButtonCardViewUserSel_png" source.disabled="ui_card_ButtonCardViewUserSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="groupSort" width="130" height="146" x="220" y="529" anchorOffsetX="65" anchorOffsetY="146">
+			<e:Image id="imageYincangBoard" source="ui_card_BordCardSort_png" y="178" scaleY="1.5" anchorOffsetY="141" height="141" x="1" anchorOffsetX="0"/>
+			<e:Button id="btnCardLevelSort" label="" y="100" horizontalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardLevelSortNor_png" source.down="ui_card_ButtonCardLevelSortSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnCardStarSort" label="" y="58" horizontalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardStarSortNor_png" source.down="ui_card_ButtonCardStarSortSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnCardTypeSort" label="" y="15" horizontalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardTypeSortNor_png" source.down="ui_card_ButtonCardTypeSortSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnCardHunterSort" label="" y="-28" horizontalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardUseSortNor_png" source.down="ui_card_ButtonCardUseSortSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+			<e:Button id="btnCardSort" label="" x="145" y="523">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_card_ButtonCardSortNor_png" source.down="ui_card_ButtonCardSortSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+
+	</e:Group>
+
+
+
+
+</e:Skin>

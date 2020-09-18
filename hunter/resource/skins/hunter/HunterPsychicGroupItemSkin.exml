@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterPsychicGroupItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="150">
+	<e:Group x="0" y="0">
+		<e:Group id="groupAniEffect" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_hunter_psychic_new_BoardGroupFrame_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgVoid" source="ui_hunter_psychic_WordsKong_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgGroupName" source="ui_hunter_psychic_WordsKong_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<e:Image id="imgGroupPicBack" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:Group id="groupAdd" horizontalCenter="0" verticalCenter="0">
+			<e:Image id="imgGroupPic" source="ui_hunter_psychic_WordsKong_png" horizontalCenter="0" verticalCenter="0" x="-22" y="-22" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Image id="imgLevelFloor" source="ui_hunter_psychic_new_BoardLevelFloor1_png" y="112" horizontalCenter="0"/>
+		<e:BitmapLabel id="labelLevelNum" y="116" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" font="ItemNumWords_fnt" text="10"/>
+		<e:Group id="groupAni" horizontalCenter="0" verticalCenter="0"/>
+
+
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityRechargeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="720" height="550">
+		<e:Image x="-227.62" bottom="-30" source="ui_acitivity_recharge_lihui_png"/>
+		<e:Image source="ui_acitivity_diban_png" anchorOffsetX="0" width="483" anchorOffsetY="0" height="550" right="0" bottom="0" scale9Grid="61,69,369,419"/>
+		<e:Image y="5.34" x="251" source="ui_acitivity_recharge_banner4_png"/>
+		<e:Scroller width="450" height="366.33" y="166.01" anchorOffsetX="0" anchorOffsetY="0" right="15" scrollPolicyH="off" scrollPolicyV="on">
+		<e:List id="lstAward" x="-10" y="-20" anchorOffsetX="0" width="450" anchorOffsetY="0" height="352.33">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Label text="进行任意充值均计入累计天数" x="257" size="18" top="137"/>
+		<e:Image source="ui_acitivity_fangkuai_png" x="536.5" verticalCenter="-128"/>
+		<e:Label text="累计天数：" x="551" size="18" top="138" textColor="0xFFFFFF" anchorOffsetX="0" width="94" anchorOffsetY="0" height="16"/>
+		<e:Label id="labelday" text="10000" x="633" size="18" top="137" textColor="0xEFCE3E" anchorOffsetX="0" width="69" textAlign="center"/>
+	</e:Group>
+</e:Skin>

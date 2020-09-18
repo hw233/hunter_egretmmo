@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonArenaEnemyTeamItemSkin" width="72" height="72" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="90" height="90" scaleX="0.8" scaleY="0.8">
+		<e:Image id="imgHunterFrame" source="ui_frame_FrameHunterAsh_png" x="0" y="0"/>
+		<e:Image id="imgNo" source="ui_instance_WordsIconNode_png" x="16.5" y="10.7"/>
+		<e:Image id="imgHeroHead" source="hero_icon_head_wj_libeiduo_png" x="0.2" y="-0.2"/>
+		<e:Image id="imgStatus" source="ui_instance_WordsTipZhen_png" right="-6" bottom="-6"/>
+		<e:Group id="groupStar" width="45.65" height="18.35" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="4">
+		</e:Group>
+		<e:BitmapLabel id="labelLevel" width="41.6" height="20" x="16.8" y="65.8" font="ItemNum_fnt" text="123" anchorOffsetX="0"/>
+		<e:Image id="imgIconAwaken" source="ui_hunter_evaluate_IconHunterAwakenLevel5_png" x="52.8" y="48.4"/>
+	</e:Group>
+</e:Skin>

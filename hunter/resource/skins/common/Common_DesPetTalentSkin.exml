@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_DesPetTalentSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="230" y="70">
+		<e:Image source="ui_common_BoardChangeAchievementsA_png" width="500" height="500" scale9Grid="35,57,69,16" x="0" y="0"/>
+		<e:Group left="25" top="32">
+			<e:Image id="imgSpriteFrame" source="ui_frame_FrameSkill_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgSpriteIcon" source="hero_icon_head_wj_jienuo_png" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group left="142" top="50">
+			<e:Label id="labelTextName" text="寒冰乱舞" x="0" y="0" size="18"/>
+			<e:Label id="labelTextType" text="所有天赋效果可叠加" x="0" y="32.88" size="18" textColor="0x00ff00"/>
+		</e:Group>
+		<e:Group horizontalCenter="0" bottom="13">
+			<e:Image source="ui_common_BoardChangeAchievementsB_png" width="474" height="360" scale9Grid="24,21,29,29" x="0" y="0"/>
+			<e:Group width="460" height="350" horizontalCenter="0" bottom="5">
+				<e:List id="listDes" width="460" height="350" scaleX="1" scaleY="1" horizontalCenter="0" bottom="0"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

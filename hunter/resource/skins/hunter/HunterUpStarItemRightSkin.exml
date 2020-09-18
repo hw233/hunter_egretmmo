@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterUpStarItemRightSkin" width="70" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="95" height="93" horizontalCenter="0" verticalCenter="0" scaleX="0.8" scaleY="0.8">
+		<e:Image source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_card_BoardCardUpStarMeterials_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgStar" source="ui_card_IconCardStar5_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgEmpty" source="ui_hunter_IconHunterUpStrarNode_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="groupIcon" width="95" height="93" horizontalCenter="0" verticalCenter="0">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgIcon" source="hero_icon_head_wj_anshazhe_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="groupStar" width="50" height="16" horizontalCenter="-6" top="0"/>
+			<e:Label text="1" size="18" verticalAlign="bottom" textAlign="left" width="40" height="23" left="12" bottom="12" visible="false"/>
+			<e:BitmapLabel id="labelLevel" width="75" height="22.5" x="16.25" y="60" font="ItemNum_fnt" text="1" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Image id="imgBreak" source="ui_hunter_break_IconBreakCorner1_png" right="5" bottom="10"/>
+			<e:Image id="imgGrade" source="ui_tavern_IconGrade4_png" scaleX="0.4" scaleY="0.4" right="10" bottom="12"/>
+		</e:Group>
+		<e:Image id="imgLock" source="ui_currencyicon_IconLock_png" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

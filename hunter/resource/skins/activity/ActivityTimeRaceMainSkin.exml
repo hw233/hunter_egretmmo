@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityTimeRaceMainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_arena_LayerBg_png" x="0" y="0" scaleX="1" scaleY="1" width="100%" height="100%"/>
+	<e:Group id="groupAdapt1" horizontalCenter="0" verticalCenter="13.5">
+		<e:Group horizontalCenter="0" verticalCenter="-1.5">
+			<e:Image source="ui_acitivity_LayerBg_png" height="553" y="73" x="0" scale9Grid="113,237,158,225"/>
+			<e:Image source="ui_acitivity_OrnLineMain_png" height="547" x="890" y="74"/>
+			<e:Image source="ui_acitivity_OrnLineMain_png" scaleX="-1" anchorOffsetY="0" height="547" x="29" y="74"/>
+
+
+
+			<e:Image source="ui_acitivity_OrnTipMain_png" y="3.33" horizontalCenter="-9.5"/>
+			<e:Image source="ui_acitivity_OrnLineTop_png" width="900" x="9" y="62.99"/>
+			<e:Scroller width="860" height="70" x="26" y="303.64">
+				<e:List id="lstViewDays" y="-1">
+				<e:layout>
+					<e:TileLayout orientation="rows" requestedRowCount="1" horizontalGap="0" paddingLeft="3"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Group id="groupBgAni" width="100" height="100" y="24.68" horizontalCenter="0"/>
+
+			<e:Image id="imgName" source="ui_acitivity_timerace_WordsTitle_png" y="47.67" horizontalCenter="-24.5"/>
+			<e:Button id="btnClose" label="" top="50" left="-3" width="90" scaleX="-1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="groupAdapt" horizontalCenter="-3" top="95">
+			<e:Image source="ui_acitivity_timerace_LayerBg_png" y="11.97" horizontalCenter="0"/>
+			<e:Image source="ui_acitivity_timerace_BoardCutLine_png" y="269.65" x="0"/>
+			<e:Image source="ui_acitivity_timerace_BoardInfoFloorLeft_png" left="8" top="12"/>
+			<e:Image source="ui_acitivity_timerace_BoardInfoFloorRight_png" right="9" top="11"/>
+			<e:Image id="img1" source="ui_acitivity_timerace_PointMid1_png" x="45" y="41"/>
+			<e:Image id="img5" source="ui_acitivity_timerace_PointMid1_png" x="189" y="84"/>
+			<e:Image id="img9" source="ui_acitivity_timerace_PointMid1_png" x="332" y="45"/>
+			<e:Image id="img13" source="ui_acitivity_timerace_PointMid1_png" x="479" y="75"/>
+			<e:Image id="img17" source="ui_acitivity_timerace_PointMid1_png" x="624" y="36"/>
+			<e:Image id="img21" x="757" y="67" source="ui_acitivity_timerace_PointBig1_png"/>
+			<e:Label text="目前完成距离：" x="15.05" y="15.31" size="18" textColor="0xffe3ac" fontFamily="Helvetica" verticalAlign="middle" textAlign="center"/>
+			<e:Label id="lbTotalNum" text="15公里" x="134.01" y="12.97" size="18" textColor="0x00e812" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="95" anchorOffsetY="0" height="23"/>
+			<e:Label text="剩余时间：" x="586.32" y="14.63" size="18" textColor="0xffe3ac" fontFamily="Helvetica"/>
+			<e:Label id="lbTime" text="XX天XX小时XX分" x="669.32" y="10.63" size="18" textColor="0x00e714" fontFamily="Helvetica" verticalAlign="middle" anchorOffsetY="0" height="29" anchorOffsetX="0" width="183" textAlign="left"/>
+			<e:Button id="btnTry" label="" width="100" height="50" left="0" top="0" visible="false"/>
+			<e:Group id="groupManImage" width="80" height="80" x="34.5" y="118.97">
+				<e:Group id="groupMan" x="-22.5" y="26.03" scaleX="1" scaleY="1">
+				<e:Image source="ui_acitivity_timerace_BoardRaceNum_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="lbDoneNum" text="100公里" size="16" fontFamily="Helvetica" horizontalCenter="-2.5" verticalCenter="2" verticalAlign="middle" textAlign="center"/>
+				</e:Group>
+			</e:Group>
+
+			<e:Group id="groupAward1" x="178.32" y="137">
+				<e:Image id="imgItemFrame1" source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0" visible="false"/>
+				<e:Image id="imgItemIcon1" source="ui_acitivity_timerace_BoxSmallClose_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgItemGet1" source="ui_acitivity_timerace_WordsGetCan_png" horizontalCenter="0" verticalCenter="4.5"/>
+				<e:Group id="groupButton1" width="50" height="50" verticalCenter="0" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group id="groupAward2" x="329" y="137">
+				<e:Image id="imgItemFrame2" source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0" visible="false"/>
+				<e:Image id="imgItemIcon2" source="ui_acitivity_timerace_BoxSmallClose_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgItemGet2" source="ui_acitivity_timerace_WordsGetCan_png" horizontalCenter="0" verticalCenter="8.5"/>
+				<e:Group id="groupButton2" width="50" height="50" verticalCenter="0" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group id="groupAward3" x="478.33" y="137">
+				<e:Image id="imgItemFrame3" source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0" visible="false"/>
+				<e:Image id="imgItemIcon3" source="ui_acitivity_timerace_BoxSmallClose_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgItemGet3" source="ui_acitivity_timerace_WordsGetCan_png" horizontalCenter="0" verticalCenter="8.5"/>
+				<e:Group id="groupButton3" width="50" height="50" verticalCenter="0" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group id="groupAward4" x="620.71" y="137">
+				<e:Image id="imgItemFrame4" source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0" visible="false"/>
+				<e:Image id="imgItemIcon4" source="ui_acitivity_timerace_BoxSmallClose_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgItemGet4" source="ui_acitivity_timerace_WordsGetCan_png" horizontalCenter="0" verticalCenter="8.5"/>
+				<e:Group id="groupButton4" width="50" height="50" verticalCenter="0.5" horizontalCenter="1"/>
+			</e:Group>
+
+			<e:Group id="groupAward5" x="758" y="131">
+				<e:Image id="imgItemFrame5" source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0" visible="false"/>
+				<e:Image id="imgItemIcon5" horizontalCenter="0" verticalCenter="0" source="ui_acitivity_timerace_BoxBigClose_png"/>
+				<e:Image id="imgItemGet5" source="ui_acitivity_timerace_WordsGetCan_png" horizontalCenter="0" verticalCenter="8.5"/>
+				<e:Group id="groupButton5" width="50" height="50" verticalCenter="0" horizontalCenter="0"/>
+				<e:Image source="ui_acitivity_timerace_WordsAllAward_png" y="0.32" horizontalCenter="0"/>
+			</e:Group>
+			<e:Image id="img2" source="ui_acitivity_timerace_PointSmall1_png" x="96" y="69"/>
+			<e:Image id="img3" source="ui_acitivity_timerace_PointSmall1_png" x="129.01" y="80"/>
+			<e:Image id="img4" source="ui_acitivity_timerace_PointSmall1_png" x="164.51" y="89.97"/>
+			<e:Image id="img6" source="ui_acitivity_timerace_PointSmall1_png" x="238.32" y="90"/>
+			<e:Image id="img7" source="ui_acitivity_timerace_PointSmall1_png" x="274.32" y="76.97"/>
+			<e:Image id="img8" source="ui_acitivity_timerace_PointSmall1_png" x="307" y="64"/>
+			<e:Image id="img10" source="ui_acitivity_timerace_PointSmall1_png" x="383" y="62"/>
+			<e:Image id="img11" source="ui_acitivity_timerace_PointSmall1_png" x="418.5" y="74"/>
+			<e:Image id="img12" source="ui_acitivity_timerace_PointSmall1_png" x="454.33" y="86"/>
+			<e:Image id="img14" source="ui_acitivity_timerace_PointSmall1_png" x="530.83" y="84"/>
+			<e:Image id="img15" source="ui_acitivity_timerace_PointSmall1_png" x="566" y="69"/>
+			<e:Image id="img16" source="ui_acitivity_timerace_PointSmall1_png" x="600" y="53.64"/>
+			<e:Image id="img18" source="ui_acitivity_timerace_PointSmall1_png" x="675.69" y="52"/>
+			<e:Image id="img19" source="ui_acitivity_timerace_PointSmall1_png" x="709.69" y="62"/>
+			<e:Image id="img20" source="ui_acitivity_timerace_PointSmall1_png" x="743.69" y="75"/>
+			<e:Group id="groupImg" x="45" y="36">
+				<e:Image id="image1" source="ui_acitivity_timerace_PointSmall2_png" x="51" y="33"/>
+				<e:Image id="image2" source="ui_acitivity_timerace_PointSmall2_png" x="84.01" y="44"/>
+				<e:Image id="image3" source="ui_acitivity_timerace_PointSmall2_png" x="119.5" y="53.9"/>
+				<e:Image id="image4" source="ui_acitivity_timerace_PointSmall2_png" x="193.3" y="54"/>
+				<e:Image id="image5" source="ui_acitivity_timerace_PointSmall2_png" x="230" y="40.97"/>
+				<e:Image id="image6" source="ui_acitivity_timerace_PointSmall2_png" x="262" y="28"/>
+				<e:Image id="image7" source="ui_acitivity_timerace_PointSmall2_png" x="338" y="26"/>
+				<e:Image id="image8" source="ui_acitivity_timerace_PointSmall2_png" x="373.5" y="38"/>
+				<e:Image id="image9" source="ui_acitivity_timerace_PointSmall2_png" x="409.33" y="50"/>
+				<e:Image id="image10" source="ui_acitivity_timerace_PointSmall2_png" x="486" y="48"/>
+				<e:Image id="image11" source="ui_acitivity_timerace_PointSmall2_png" x="521" y="33"/>
+				<e:Image id="image12" source="ui_acitivity_timerace_PointSmall2_png" x="554.8" y="17.5"/>
+				<e:Image id="image13" source="ui_acitivity_timerace_PointSmall2_png" x="630.69" y="16"/>
+				<e:Image id="image14" source="ui_acitivity_timerace_PointSmall2_png" x="665" y="26"/>
+				<e:Image id="image15" source="ui_acitivity_timerace_PointSmall2_png" x="698.82" y="39"/>
+				<e:Image id="image16" source="ui_acitivity_timerace_PointMid2_png" x="0" y="5"/>
+				<e:Image id="image17" source="ui_acitivity_timerace_PointMid2_png" x="144" y="48"/>
+				<e:Image id="image18" source="ui_acitivity_timerace_PointMid2_png" x="287" y="9"/>
+				<e:Image id="image19" source="ui_acitivity_timerace_PointMid2_png" x="434" y="39"/>
+				<e:Image id="image20" source="ui_acitivity_timerace_PointMid2_png" x="579" y="0"/>
+				<e:Image id="image21" source="ui_acitivity_timerace_PointBig2_png" x="712" y="31"/>
+			</e:Group>
+			<e:Label id="lbNum1" text="0" x="67.32" y="58.64" size="18" fontFamily="Helvetica"/>
+			<e:Label text="20" x="205.33" y="102.3" size="18" fontFamily="Helvetica" id="lbNum2" textAlign="center" verticalAlign="middle"/>
+			<e:Label text="40" x="349.33" y="63.37" size="18" fontFamily="Helvetica" id="lbNum3" verticalAlign="middle" textAlign="center"/>
+			<e:Label text="60" size="18" fontFamily="Helvetica" id="lbNum4" verticalAlign="middle" textAlign="center" x="496" y="94"/>
+			<e:Label id="lbNum5" text="80" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" x="641" y="54"/>
+			<e:Label id="lbNum6" text="100" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" x="776" y="93"/>
+
+
+
+
+
+			<e:Image id="imageReck" y="37" anchorOffsetX="0" width="780" anchorOffsetY="0" height="101" alpha="0.1" left="45" source="ui_common_mask_black_jpg"/>
+		</e:Group>
+		<e:Group id="groupMain" width="860" height="240" horizontalCenter="-2" bottom="14">
+			<e:Scroller width="100%" height="100%" x="0" y="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:List id="lstMission" width="100%" height="100%"/>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

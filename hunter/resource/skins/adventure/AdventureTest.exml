@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AdventureTest" width="960" height="640" xmlns:e="http://ns.egret.com/eui">
+	<e:Button label="Button" x="344.18" y="375.45" skinName="AdventureSkin4" anchorOffsetY="0" anchorOffsetX="0"/>
+</e:Skin>

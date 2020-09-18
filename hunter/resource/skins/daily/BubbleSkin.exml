@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BubbleSkin" width="250" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" width="220" height="90" x="0" y="0">
+		<e:Group id="groupOpen" left="0" right="0" top="0" bottom="0" touchChildren="false" touchEnabled="false">
+			<e:Image scaleX="1" scaleY="1" source="ui_mainTask_bg_png" alpha=".8"/>
+			<e:Group height="32" y="0" left="0" right="0">
+				<e:Label text="主线任务" x="6" size="18" fontFamily="SimHei" textColor="0xffffff" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Label id="labelState" text="(已完成)" size="18" scaleX="1" scaleY="1" anchorOffsetX="0" textAlign="center" verticalAlign="top" anchorOffsetY="0" x="82" fontFamily="SimHei" textColor="0x3fff75" verticalCenter="0"/>
+			</e:Group>
+
+
+
+
+
+			<e:Image id="imgGet" source="ui_daily_WordsComplete_png" x="191" y="22.3" scaleX="1" width="50" height="36" visible="false"/>
+			<e:Group id="groupAni" right="52" bottom="33"/>
+			<e:Group x="6" y="37">
+				<e:Label id="labelMission" text="完成一次“窝金の试炼”，并对敌方施加一次中毒效果" width="213" verticalAlign="top" size="16" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="2" textColor="0xffffff" y="-1" x="0"/>
+				<e:Label id="labelAward1" text="奖励：二星蘑菇x2，苏打水x1000" verticalAlign="middle" size="14" textColor="0xfad862" y="35" x="0" scaleX="1" scaleY="1"/>
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Button id="btnTurnClose" icon="ui_daily_frame_turn_png" skinName="ButtonSkin" horizontalCenter="76" verticalCenter="-29">
+	</e:Button>
+	<e:Group id="groupTurn" width="30" height="30" horizontalCenter="110" verticalCenter="-29">
+		<e:Image source="ui_mainui_LayerChatSmall_png" left="0" right="0" top="0" bottom="0"/>
+		<e:Button id="btnTurnOpen" icon="ui_daily_frame_turn_png" scaleX="-1" skinName="ButtonSkin" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+
+</e:Skin>

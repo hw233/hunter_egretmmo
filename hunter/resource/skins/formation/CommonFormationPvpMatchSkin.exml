@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonFormationPvpMatchSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="1140" height="40" source="ui_hunter_OrnTop_png" horizontalCenter="0" top="0"/>
+		<e:Group y="62" horizontalCenter="0">
+			<e:Group x="0" y="3">
+				<e:Group y="0" x="0">
+				<e:Group id="groupTeam1" verticalCenter="0" x="0">
+					<e:Button id="btnTeam1" label="" width="259" height="90" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_arena_ButtonNumTeamBigNor_png" source.down="ui_arena_ButtonNumTeamBigSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Image id="imgLock1" x="212" y="-9" source="ui_currencyicon_IconLock_png" visible="false"/>
+					<e:Image x="54" y="5" source="ui_arena_WordsTeamFirst_png" touchEnabled="false"/>
+					<e:Label id="lbHunterNum1" text="0/4" x="102" y="11" size="22" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" touchEnabled="false"/>
+					<e:Scroller width="200" height="41" x="32" y="38" anchorOffsetY="0" touchEnabled="false" touchChildren="false">
+					<e:List id="lstTeam1">
+						<e:layout>
+						<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+						</e:layout>
+					</e:List>
+					</e:Scroller>
+				</e:Group>
+				<e:Group id="groupTeam11" verticalCenter="0" x="1">
+					<e:Button id="btnTeam11" label="" verticalCenter="0" horizontalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_union_battle_ButtonAddTeamNor_png" source.down="ui_union_battle_ButtonAddTeamSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Label text="点击添加1队" size="22" verticalAlign="middle" textAlign="center" verticalCenter="0" x="85" touchEnabled="false"/>
+					<e:Image x="212" y="-9" source="ui_currencyicon_IconRed_png"/>
+				</e:Group>
+				</e:Group>
+				<e:Group y="110" x="0">
+				<e:Group id="groupTeam2" verticalCenter="0" x="0">
+					<e:Button id="btnTeam2" label="" width="259" height="90" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_arena_ButtonNumTeamBigNor_png" source.down="ui_arena_ButtonNumTeamBigSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Image id="imgLock2" x="212" y="-9" source="ui_currencyicon_IconLock_png" visible="false"/>
+					<e:Image x="54" y="5" touchEnabled="false" source="ui_arena_WordsTeamSecond_png"/>
+					<e:Label id="lbHunterNum2" text="0/4" x="102" y="11" size="22" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" touchEnabled="false"/>
+					<e:Scroller width="200" height="41" x="32" y="38" anchorOffsetY="0" touchEnabled="false" touchChildren="false">
+					<e:List id="lstTeam2">
+						<e:layout>
+						<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+						</e:layout>
+					</e:List>
+					</e:Scroller>
+				</e:Group>
+				<e:Group id="groupTeam21" verticalCenter="0" x="1">
+					<e:Button id="btnTeam21" label="" verticalCenter="0" horizontalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_union_battle_ButtonAddTeamNor_png" source.down="ui_union_battle_ButtonAddTeamSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Label text="点击添加2队" size="22" verticalAlign="middle" textAlign="center" verticalCenter="0" x="85" touchEnabled="false"/>
+					<e:Image x="212" y="-9" source="ui_currencyicon_IconRed_png"/>
+				</e:Group>
+				</e:Group>
+				<e:Group y="220" x="0">
+				<e:Group id="groupTeam3" verticalCenter="0" x="0">
+					<e:Button id="btnTeam3" label="" width="259" height="90" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_arena_ButtonNumTeamBigNor_png" source.down="ui_arena_ButtonNumTeamBigSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Image id="imgLock3" x="212" y="-9" source="ui_currencyicon_IconLock_png" visible="false"/>
+					<e:Image x="54" y="5" touchEnabled="false" source="ui_arena_WordsTeamThree_png"/>
+					<e:Label id="lbHunterNum3" text="0/4" x="102" y="11" size="22" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" touchEnabled="false"/>
+					<e:Scroller width="200" height="41" x="32" y="38" anchorOffsetY="0" touchEnabled="false" touchChildren="false">
+					<e:List id="lstTeam3">
+						<e:layout>
+						<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+						</e:layout>
+					</e:List>
+					</e:Scroller>
+				</e:Group>
+				<e:Group id="groupTeam31" verticalCenter="0" x="1">
+					<e:Button id="btnTeam31" label="" verticalCenter="0" horizontalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_union_battle_ButtonAddTeamNor_png" source.down="ui_union_battle_ButtonAddTeamSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Label text="点击添加3队" size="22" verticalAlign="middle" textAlign="center" verticalCenter="0" x="85" touchEnabled="false"/>
+					<e:Image x="212" y="-9" source="ui_currencyicon_IconRed_png"/>
+				</e:Group>
+				</e:Group>
+				<e:Group y="330" x="0">
+				<e:Group id="groupTeam4" verticalCenter="0" x="0">
+					<e:Button id="btnTeam4" label="" width="259" height="90" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_arena_ButtonNumTeamBigNor_png" source.down="ui_arena_ButtonNumTeamBigSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Image id="imgLock4" x="212" y="-9" source="ui_currencyicon_IconLock_png" visible="false"/>
+					<e:Image x="54" y="5" touchEnabled="false" source="ui_union_battle_team4_png"/>
+					<e:Label id="lbHunterNum4" text="0/4" x="102" y="11" size="22" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" touchEnabled="false"/>
+					<e:Scroller width="200" height="41" x="32" y="38" anchorOffsetY="0" touchEnabled="false" touchChildren="false">
+					<e:List id="lstTeam4">
+						<e:layout>
+						<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+						</e:layout>
+					</e:List>
+					</e:Scroller>
+				</e:Group>
+				<e:Group id="groupTeam41" verticalCenter="0" x="1">
+					<e:Button id="btnTeam41" label="" verticalCenter="0" horizontalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_union_battle_ButtonAddTeamNor_png" source.down="ui_union_battle_ButtonAddTeamSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Label text="点击添加4队" size="22" verticalAlign="middle" textAlign="center" verticalCenter="0" x="85" touchEnabled="false"/>
+					<e:Image x="212" y="-9" source="ui_currencyicon_IconRed_png"/>
+				</e:Group>
+				</e:Group>
+				<e:Group y="440" x="0">
+				<e:Group id="groupTeam5" verticalCenter="0" x="0">
+					<e:Button id="btnTeam5" label="" width="259" height="90" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_arena_ButtonNumTeamBigNor_png" source.down="ui_arena_ButtonNumTeamBigSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Image id="imgLock5" x="212" y="-9" source="ui_currencyicon_IconLock_png" visible="false"/>
+					<e:Image x="54" y="5" touchEnabled="false" source="ui_union_battle_team5_png"/>
+					<e:Label id="lbHunterNum5" text="0/4" x="102" y="11" size="22" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" touchEnabled="false"/>
+					<e:Scroller width="200" height="41" x="32" y="38" anchorOffsetY="0" touchEnabled="false" touchChildren="false">
+					<e:List id="lstTeam5">
+						<e:layout>
+						<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+						</e:layout>
+					</e:List>
+					</e:Scroller>
+				</e:Group>
+				<e:Group id="groupTeam51" verticalCenter="0" x="1">
+					<e:Button id="btnTeam51" label="" verticalCenter="0" horizontalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_union_battle_ButtonAddTeamNor_png" source.down="ui_union_battle_ButtonAddTeamSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Label text="点击添加5队" size="22" verticalAlign="middle" textAlign="center" verticalCenter="0" x="85" touchEnabled="false"/>
+					<e:Image x="212" y="-9" source="ui_currencyicon_IconRed_png"/>
+				</e:Group>
+				</e:Group>
+			</e:Group>
+			<e:Group y="0" x="262.45">
+				<e:Group id="groupUp" y="-30" x="33" width="200" height="200"/>
+				<e:Image source="ui_instance_BoardInstanceName_png" x="0" y="0" visible="false"/>
+				<e:Image source="ui_arena_WordsDefenceTeam_png" x="95" y="10" visible="false"/>
+				<e:Label id="lbError" text="公会战战斗期间，不可更改已被设防阵容" x="304" y="-15" verticalAlign="middle" textAlign="left" size="18" fontFamily="Helvetica" textColor="0xfefb00"/>
+				<e:Group id="groupDown" y="440.15" x="32.16" width="200" height="104" anchorOffsetY="0"/>
+				<e:Button id="btnConfirmTeam" label="" x="612.43" y="420.45" width="168" height="55" scaleX="0.8" scaleY="0.8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_ButtonConfirmTeamNor_png" source.down="ui_arena_ButtonConfirmTeamSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+		</e:Group>
+		<e:Button id="btnReturn" label="" left="-23" top="-9">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png" source.disabled="ui_hunter_ButtonReturnNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_union_battle_title_png" left="134" top="0"/>
+	</e:Group>
+</e:Skin>

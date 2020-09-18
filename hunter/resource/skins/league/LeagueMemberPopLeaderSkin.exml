@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueMemberPopLeaderSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" x="200" y="150" scaleX="1" scaleY="1" anchorOffsetX="200" anchorOffsetY="150">
+		<e:Image source="ui_union_BoardPlayerInfo_png" x="0" y="0" width="400" height="300" scaleX="1" scaleY="1" scale9Grid="61,60,62,48"/>
+		<e:Group x="200" y="150" anchorOffsetX="146" anchorOffsetY="134.5">
+			<e:Button id="btnCheck" label="" x="0" y="0" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerViewInfoNor_png" source.down="ui_union_ButtonPlayerViewInfoSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnFriend" label="" x="0" y="55" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerAddFriendNor_png" source.down="ui_union_ButtonPlayerAddFriendSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnMail" label="" x="0" y="110" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerSendEmailNor_png" source.down="ui_union_ButtonPlayerSendEmailSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnPrivate" label="" x="0" y="165" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerPrivateChatNor_png" source.down="ui_union_ButtonPlayerPrivateChatSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnThreePk" label="" x="0" y="220" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendThreePkNor_png" source.down="ui_friend_ButtonFriendThreePkSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnElevate" label="" x="155" y="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerUpSecondNor_png" source.down="ui_union_ButtonPlayerUpSecondSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnElevate1" label="" x="155" y="0" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerDonwSecondNor_png" source.down="ui_union_ButtonPlayerDownSecondSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnAbdicate" label="" x="155" y="55">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerUpFristNor_png" source.down="ui_union_ButtonPlayerUpFristSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnKick" label="" x="155" y="110" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerKickedUnionNor_png" source.down="ui_union_ButtonPlayerKickedUnionSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnOnePk" label="" x="155" y="165" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendOnePkNor_png" source.down="ui_friend_ButtonFriendOnePkSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

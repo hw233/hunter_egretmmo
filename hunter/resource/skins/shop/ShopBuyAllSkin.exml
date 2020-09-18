@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopBuyAllSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupWhole" width="100%" height="100%" x="0" y="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgCCScaleSprite" source="ui_hunter_LayerCurrencyFirst_png" width="305" height="405" scale9Grid="121,30,176,67" x="0" y="0"/>
+		<e:Image id="imgCCSprite" source="ui_card_OrnCardPopDown_png" x="8" y="266"/>
+		<e:Image id="imgCC9Sprite" source="ui_mall_BoardSellMax_png" x="15" y="143" width="278" height="105"/>
+		<e:Group y="34" horizontalCenter="2.5">
+
+
+
+			<e:Group x="-1" y="0">
+				<e:Image id="imgSpriteFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgSpriteIcon" source="hero_icon_head_wj_huizhang_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgSpriteLogo" source="ui_icon_PieceTalent_png" x="6.7" y="2" scaleX="0.8" scaleY="0.8"/>
+				<e:BitmapLabel id="LableTextNum" width="20" height="20" font="ItemNumWords_fnt" text="1" x="78" y="60"/>
+				<e:Group id="groupAnimate" width="95" height="93" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+
+
+			<e:Image id="imgCC9Sprite1" source="ui_mall_BoardSellMax_png" x="-0.5" y="-11" width="280" height="115" scaleX="1" scaleY="1"/>
+			<e:Label id="tableOwn" text="拥有" x="100" y="50" size="18" fontFamily="SimHei" textColor="0x582800" bold="true" scaleX="1" scaleY="1"/>
+			<e:Label id="tableName" text="老头头龙头阿萨德" x="100" y="24" size="18" textColor="0x582800" fontFamily="SimHei" bold="true" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Label id="lableTextInfo" text="123123" x="22" y="148" anchorOffsetX="0" width="264" anchorOffsetY="0" height="163" size="16" textColor="0x582800" fontFamily="SimHei"/>
+		<e:Group x="23" bottom="20" height="130">
+			<e:Button id="btnBuy" label="" x="55" y="81">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mall_ButtonMallBuyNor_png" source.down="ui_mall_ButtonMallBuySel_png" source.disabled="ui_mall_ButtonMallBuyNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgSprite2" source="ui_card_BoardCurrency_png" y="0" width="257" height="36" x="1"/>
+			<e:Button id="btnMax" label="" x="177" y="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedMaxNor_png" source.down="ui_bag_ButtonBagSelectedMaxSel_png" source.disabled="ui_bag_ButtonBagSelectedMaxNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group x="0" y="0">
+				<e:Button id="btnSub" label="" x="0" y="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedReduceNor_png" source.down="ui_bag_ButtonBagSelectedReduceSel_png" source.disabled="ui_bag_ButtonBagSelectedReduceNor_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btnAdd" label="" x="120" y="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedAddNor_png" source.down="ui_bag_ButtonBagSelectedAddSel_png" source.disabled="ui_bag_ButtonBagSelectedAddNor_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Label id="labelTextCount" text="999" y="8" size="22" textColor="0x582800" bold="true" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group x="35" y="46">
+				<e:Label text="共计花费：" x="0" y="3" size="20" textColor="0x582800" fontFamily="SimHei"/>
+				<e:Image id="imgSpriteCost2" source="ui_currencyicon_IconGold_png" x="90" y="0" scaleX="0.9" scaleY="0.9" anchorOffsetX="12" anchorOffsetY="12"/>
+				<e:Label id="labelTextCost2" text="123456" x="124" y="4" textColor="0x582800" size="20"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

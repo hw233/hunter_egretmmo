@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityXuyuanLiveItemSkin" width="162" height="138" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_acitivity_wish_BoardGiftFloor_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="groupFrame" x="23" y="8">
+			<e:Group id="groupDown" scaleX="1" scaleY="1" x="15" y="0">
+				<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0" scaleX="0.9" scaleY="0.9"/>
+				<e:Image id="imgClip" horizontalCenter="0" verticalCenter="0" scaleX="0.9" scaleY="0.9" source=""/>
+				<e:Group id="groupClip" width="0" height="0" horizontalCenter="0" verticalCenter="0"/>
+				<e:BitmapLabel id="lbNum" width="40" height="23" x="36.7" y="51.37" font="ItemNumWords_fnt" text="1" textAlign="right"/>
+			</e:Group>
+			<e:Label text="剩余次数：" size="14" fontFamily="Helvetica" x="0" y="110"/>
+			<e:Label id="lbChangeNum" text="1/1" size="14" fontFamily="Helvetica" x="65" y="111"/>
+			<e:Label id="lbChangeCore" text="1" size="18" fontFamily="Helvetica" x="26" y="89" textColor="0xffffff"/>
+			<e:Image source="ui_acitivity_wish_IconStar_png" x="66" y="82"/>
+			<e:Image id="imgGet" source="ui_acitivity_WordsTipGet_png" x="5" y="12"/>
+		</e:Group>
+		<e:Button id="btnChange" label="" width="162" height="138" horizontalCenter="0" verticalCenter="0"/>
+		<e:Button id="btnDown" label="" width="100%" height="100%" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AdventureMapRunSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupLT" left="0" top="0" touchEnabled="false">
+		<e:Image source="ui_instance_WordsTipInstance_png" left="0" top="0"/>
+		<e:Button id="btnClose" icon="ui_instance_ButtonInstanceReturn_png" label="" skinName="ButtonSkin" horizontalCenter="-110" verticalCenter="-5.5">
+		</e:Button>
+	</e:Group>
+	<e:Group id="groupBR" right="0" bottom="0" touchEnabled="false" height="110">
+		<e:Image anchorOffsetX="0" scale9Grid="54,5,201,36" right="0" bottom="0" x="-378" y="98" scaleY="0.8" source="ui_mainui_BoarFunctionIcon_png" scaleX="0.8"/>
+		<e:Button id="btnHunter" label="" right="20" bottom="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mainui_ButtonMianHunterNor_png" source.down="ui_mainui_ButtonMianHunterSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnDaily" label="" right="116" bottom="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mainui_ButtonDailyNor_png" source.down="ui_mainui_ButtonDailySel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

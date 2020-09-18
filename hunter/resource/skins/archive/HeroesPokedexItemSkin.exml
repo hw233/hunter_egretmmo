@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeroesPokedexItemSkin" width="295" height="109" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupPokedex" x="148.2" y="66.68" anchorOffsetX="147.2" anchorOffsetY="51.92" width="267.6" height="100%">
+		<e:Image id="imgSel" source="ui_hunterpokedex_ButtonHunterListNor_png" x="-13.2" y="-6.4" anchorOffsetX="0" width="295" anchorOffsetY="0" height="109"/>
+		<e:Button id="ButtonItem" label="" x="-13.2" y="-6.4">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunterpokedex_ButtonHunterListNor_png" source.down="ui_hunterpokedex_ButtonHunterListSel_png" source.disabled="ui_hunterpokedex_ButtonHunterListSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgSpriteHunterBoard" source="ui_hunterpokedex_ButtonHunterListSel_png" x="-13.2" y="-6.4" anchorOffsetX="0" width="295" anchorOffsetY="0" height="109"/>
+		<e:Image id="imgSpriteHeroIcon" source="hero_role_maonv_png" x="60.68" y="6.88" anchorOffsetX="0" width="595" anchorOffsetY="0" height="167" scaleX="0.31" scaleY="0.31" touchEnabled="false"/>
+		<e:Image id="imgSpriteHunterName" source="ui_huntername_HunterName1_png" x="14.6" y="30.6" rotation="13.88" anchorOffsetX="0" width="108" anchorOffsetY="0" height="53" touchEnabled="false"/>
+		<e:Label id="labelHeroAttri" text="攻击+99999" y="60.6" size="18" textColor="0x00f900" right="50" touchEnabled="false"/>
+		<e:Image id="imgSpriteHeroGrade" source="ui_tavern_IconGrade2_png" x="22.8" y="11.5" anchorOffsetX="0" width="57" anchorOffsetY="0" height="74" scaleX="0.5" scaleY="0.5" touchEnabled="false"/>
+		<e:Image id="imgSpriteHunterAttType" source="ui_hunterpokedex_WordsHunterTip1_png" x="226.2" y="44.8" anchorOffsetX="0" width="40" anchorOffsetY="0" height="39" touchEnabled="false"/>
+		<e:Image id="imgSpriteIconRed" source="ui_currencyicon_IconRed_png" x="237" y="-0.6" anchorOffsetX="0" width="24" anchorOffsetY="0" height="24"/>
+	</e:Group>
+</e:Skin>

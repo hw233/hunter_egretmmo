@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightBuffDialogSkin" width="423" height="289" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_battle_BoardBuffB_png" scale9Grid="33,13,201,78" width="420" height="290" y="0" x="0"/>
+	<e:Label text="加速" x="50" y="25" textColor="0x00ff00" size="16" fontFamily="Helvetica"/>
+	<e:Image source="buff_img_jiasu_png" x="18" y="20" width="25" height="25"/>
+	<e:Label text="霸体" x="50" y="65" textColor="0x00FF00" size="16" fontFamily="Helvetica"/>
+	<e:Image source="buff_img_bati_png" x="18" y="60" width="25" height="25"/>
+	<e:Label text="护盾" x="50" y="105" textColor="0x00FF00" size="16" fontFamily="Helvetica"/>
+	<e:Image source="buff_img_hudun_png" x="18" y="100" width="25" height="25"/>
+	<e:Label text="眩晕" x="50" y="171" size="16" fontFamily="Helvetica" textColor="0xff0000"/>
+	<e:Image source="buff_img_xuanyun_png" x="18" y="166" width="25" height="25"/>
+	<e:Label text="沉默" x="50" y="211" textColor="0xFF0000" size="16" fontFamily="Helvetica"/>
+	<e:Image source="buff_img_chenmo_png" x="17.5" y="206" width="25" height="25"/>
+	<e:Label text="灼烧" x="49.5" y="251" textColor="0xFF0000" size="16" fontFamily="Helvetica"/>
+	<e:Image source="buff_img_zhuoshao_png" x="17.5" y="246" width="25" height="25"/>
+	<e:Label text="无敌" x="184.5" y="25" textColor="0x00FF00" size="16" fontFamily="Helvetica"/>
+	<e:Image x="152.5" y="20" width="25" height="25" source="buff_img_wudi_png"/>
+	<e:Label text="攻击提升" x="184.5" y="65" textColor="0x00FF00" size="16" fontFamily="Helvetica"/>
+	<e:Image x="152.5" y="60" width="25" height="25" source="buff_img_gongji_tisheng_png"/>
+	<e:Label text="恢复" x="185.5" y="105" textColor="0x00FF00" size="16" fontFamily="Helvetica"/>
+	<e:Image x="153.5" y="100" width="25" height="25" source="buff_img_zhiliao_png"/>
+	<e:Label text="睡眠" x="185.5" y="171" textColor="0xFF0000" size="16" fontFamily="Helvetica"/>
+	<e:Image x="153.5" y="166" width="25" height="25" source="buff_img_shuimian_png"/>
+	<e:Label text="虚弱" x="185.5" y="211" textColor="0xFF0000" size="16" fontFamily="Helvetica"/>
+	<e:Image x="153.5" y="206" width="25" height="25" source="buff_img_gongji_xiajiang_png"/>
+	<e:Label text="破甲" x="185.5" y="251" textColor="0xFF0000" size="16" fontFamily="Helvetica"/>
+	<e:Image x="153.5" y="246" width="25" height="25" source="buff_img_fangyu_xiajiang_png"/>
+	<e:Label text="伤害反弹" x="320.5" y="25" textColor="0x00FF00" size="16" fontFamily="Helvetica"/>
+	<e:Image x="288.5" y="20" width="25" height="25" source="buff_img_fantan_png"/>
+	<e:Label text="免疫" x="320.5" y="65" textColor="0x00FF00" size="16" fontFamily="Helvetica"/>
+	<e:Image x="288.5" y="60" width="25" height="25" source="buff_img_mianyi_png"/>
+	<e:Label text="防御提升" x="320.5" y="105" textColor="0x00FF00" size="16" fontFamily="Helvetica"/>
+	<e:Image x="288.5" y="100" width="25" height="25" source="buff_img_fangyu_tisheng_png"/>
+	<e:Label text="减速" x="320.5" y="171" textColor="0xFF0000" size="16" fontFamily="Helvetica"/>
+	<e:Image x="288.5" y="166" width="25" height="25" source="buff_img_jiansu_png"/>
+	<e:Label text="中毒" x="320.5" y="209" textColor="0xFF0000" size="16" fontFamily="Helvetica"/>
+	<e:Image x="288.5" y="206" width="25" height="25" source="buff_img_zhongdu_png"/>
+	<e:Label text="恢复衰减" x="320.5" y="251" textColor="0xFF0000" size="16" fontFamily="Helvetica"/>
+	<e:Image x="288.5" y="246" width="25" height="25" source="buff_img_jinliao_png"/>
+</e:Skin>

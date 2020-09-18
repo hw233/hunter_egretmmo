@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaWholeAwardItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="637" height="105" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_mail_LayerMailSeconde_png" width="637" height="105" scale9Grid="16,29,9,21" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgGradeIcon" source="ui_arena_grade_WordGradepic8_png" scaleX="0.7" scaleY="0.7" verticalCenter="0" left="6"/>
+		<e:Image id="imgGradeName" source="ui_arena_grade_WordsDailyGrade9_png" left="98" top="20"/>
+		<e:Label id="labelJiFen" text="积分:2600分以上" textColor="0x000000" size="18" left="110" bottom="28"/>
+		<e:Image source="ui_mail_LayerMailSecondeSel_png" x="250" width="375" height="85" verticalCenter="0" scale9Grid="6,10,38,62"/>
+		<e:List id="listAward" width="370" height="80" right="14" verticalCenter="2.5">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+</e:Skin>

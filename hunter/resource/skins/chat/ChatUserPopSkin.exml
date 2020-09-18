@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatUserPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="closeWindow" width="960" height="640" alpha="0" source="ui_mainui_BgMaoboli_png"/>
+	<e:Group id="groupAdaptBoard" x="250" y="100">
+		<e:Image id="imgBG" width="410" height="360" source="ui_instance_LayerInstance_png" scale9Grid="11,11,73,73" horizontalCenter="-0.5" verticalCenter="10"/>
+		<e:Image source="ui_instance_BoardTopTip_png" scaleX="1.26" scale9Grid="40,3,140,22" horizontalCenter="-0.5" top="0"/>
+		<e:Image source="ui_chat_OrnPop_png" horizontalCenter="58.5" verticalCenter="14"/>
+		<e:Group left="2" top="32">
+		<e:Image id="imgBoard" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon" source="ui_huntericon_IconKuluoluo_png" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Label id="labelPlayerName" text="名字不翻译" size="18" verticalAlign="middle" textAlign="left" fontFamily="Helvetica" horizontalCenter="-29" verticalCenter="-134"/>
+		<e:Label text="称号：" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" horizontalCenter="-47" verticalCenter="-107"/>
+		<e:Label id="labelTitleName" text="东方不败" size="18" verticalAlign="middle" textAlign="left" fontFamily="Helvetica" horizontalCenter="15" verticalCenter="-107"/>
+		<e:Label text="公会：" fontFamily="Helvetica" size="18" verticalAlign="middle" textAlign="left" horizontalCenter="-47" verticalCenter="-81"/>
+		<e:Label id="labelLeagueName" text="天下第一" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" horizontalCenter="15" verticalCenter="-81"/>
+		<e:Label id="labelServerName" text="安卓66服" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" textColor="0x00F900" y="47" right="36"/>
+		<e:Group id="groupLeagueInfo" horizontalCenter="136.5" verticalCenter="-77.5">
+			<e:Label id="labelLeagueInfo" text="查看" x="34" y="2" size="18"/>
+			<e:Label id="labelLeagueInfoLine" text="____" x="32" y="4" size="18"/>
+			<e:Image id="imgLeagueInfo" source="ui_chat_IconUnionInfo_png" x="0" y="0" scaleX="0.9" scaleY="0.9" scale9Grid="3,3,24,24"/>
+		</e:Group>
+		<e:Image source="ui_chat_OrnLine_png" horizontalCenter="-1" verticalCenter="-49"/>
+		<e:Button id="btnPrivate" label="" horizontalCenter="-104" verticalCenter="-10.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_chat_ButtonPrivateChatNor_png" source.down="ui_chat_ButtonPrivateChatSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btnAdd" label="" horizontalCenter="88" verticalCenter="-10.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_chat_ButtonAddFriendNor_png" source.down="ui_chat_ButtonAddFriendSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btnOnePk" label="" horizontalCenter="-104" verticalCenter="46.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_chat_ButtonOnePkNor_png" source.down="ui_chat_ButtonOnePkSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnThreePk" label="" horizontalCenter="88" verticalCenter="46.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_chat_ButtonThreePkNor_png" source.down="ui_chat_ButtonThreePkSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnCheck" label="" horizontalCenter="-104" verticalCenter="103.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_chat_ButtonViewInfoNor_png" source.down="ui_chat_ButtonViewInfoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnJoin" label="" horizontalCenter="88" verticalCenter="103.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_chat_ButtonAddUnionNor_png" source.down="ui_chat_ButtonAddUnionSel_png" source.disabled="ui_chat_ButtonAddUnionDis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btnHide" label="" horizontalCenter="-104" verticalCenter="161.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_chat_ButtonHideNor_png" source.down="ui_chat_ButtonHideSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnShow" label="" horizontalCenter="-104" verticalCenter="161.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_chat_ButtonShowNor_png" source.down="ui_chat_ButtonShowSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

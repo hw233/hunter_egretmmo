@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_DesPropSkin" width="395" height="255" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" x="0" y="0">
+		<e:Image source="ui_common_BoardChangeAchievementsA_png" x="0" y="0" width="395" height="255" scale9Grid="61,53,30,21"/>
+		<e:Group id="groupItem" width="95" height="93" left="25" top="17">
+			<e:Image id="imageFrame" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_frame_FrameHunterRed1_png"/>
+			<e:Image id="imageIcon" source="ui_exchange_IconFuritType1_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="labelNum" width="40" height="20" x="44.5" y="64" font="ItemNum_fnt" text="99" textAlign="right"/>
+			<e:Image id="imgpifu" source="ui_acitivity_serverseven_sign_png" x="67" y="7" scaleX="0.6" scaleY="0.6"/>
+		</e:Group>
+		<e:Label id="labelName" text="物品名称" x="144" y="24" size="18" width="240" textAlign="left" textColor="0xeaead2"/>
+		<e:Label id="labelType" text="物品类型" size="18" width="240" textAlign="left" textColor="0xeaead2" left="144" top="51"/>
+		<e:Label id="labelConst" text="拥有          件" x="144" y="80" size="18" textColor="0xeaead2"/>
+		<e:Label id="labelOwn" text="0" size="18" textColor="0x0fbadd" width="54" textAlign="center" horizontalCenter="6.5" verticalCenter="-37.5"/>
+		<e:Image source="ui_common_BoardChangeAchievementsB_png" y="124" width="365" height="115" horizontalCenter="0" scale9Grid="8,8,53,54"/>
+		<e:Label id="labelInfo" text="物品描述啦啦啦啦啦啦一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十" y="133" size="16" width="335" horizontalCenter="0" textColor="0xf3e1af" lineSpacing="3" anchorOffsetY="0" height="107"/>
+		<e:Label id="labelNumId" text="18" x="45" y="50" size="18" textColor="0x0a0303"/>
+	</e:Group>
+</e:Skin>

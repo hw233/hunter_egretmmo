@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AonePayDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="560" height="423" horizontalCenter="0" verticalCenter="0" anchorOffsetY="0">
+		<e:Rect width="560" height="423" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xFFFFFF" fillAlpha="0.9" horizontalCenter="0" verticalCenter="0" ellipseWidth="10" ellipseHeight="10" x="0" y="0" scaleX="1" scaleY="1" strokeColor="0xFFFFFF" strokeAlpha="0"/>
+		<e:Rect width="520" height="1" y="85" horizontalCenter="0" fillColor="0x565859" fillAlpha="0.1" x="50" scaleX="1" scaleY="1" strokeAlpha="0.3"/>
+		<e:Rect width="520" height="1" y="180" horizontalCenter="0" fillColor="0x565859" fillAlpha="0.1" x="40" scaleX="1" scaleY="1" strokeAlpha="0.3"/>
+		<e:Rect width="520" height="1" y="213" horizontalCenter="0" fillColor="0x565859" fillAlpha="0.1" x="30" scaleX="1" scaleY="1" strokeAlpha="0.3"/>
+		<e:Rect width="520" height="1" y="272" fillColor="0x565859" horizontalCenter="0" fillAlpha="0.1" x="30" scaleX="1" scaleY="1" strokeAlpha="0.3" strokeColor="0xaaa9a9"/>
+		<e:Rect width="520" height="1" y="332" fillColor="0x565859" horizontalCenter="0" fillAlpha="0.1" x="30" scaleX="1" scaleY="1"/>
+		<e:Rect id="rect_OK" width="520" height="50" y="354.84" fillColor="0x3CAE34" ellipseWidth="8" ellipseHeight="8" scaleX="1" scaleY="1" strokeAlpha="0" anchorOffsetY="0" horizontalCenter="0" anchorOffsetX="0"/>
+		<e:Rect id="rect_rate" width="70" height="2" x="446" y="162" fillColor="0xf90702"/>
+		<e:Label text="确认支付方式" y="187" anchorOffsetX="0" width="190" fontFamily="SimHei" size="20" scaleX="1" scaleY="1" textAlign="left" horizontalCenter="-145" textColor="0x706a6a"/>
+		<e:Label text="商品信息" y="63" anchorOffsetX="0" width="190" fontFamily="SimHei" size="20" scaleX="1" scaleY="1" textAlign="left" x="40" textColor="0x706a6a"/>
+		<e:Label text="支付中心" y="15" anchorOffsetX="0" width="190" fontFamily="SimHei" size="30" scaleX="1" scaleY="1" textAlign="center" horizontalCenter="0" textColor="0x000000"/>
+		<e:Label id="lb_zfb" text="支付宝支付" y="234" anchorOffsetX="0" width="190" fontFamily="SimHei" size="25" scaleX="1" scaleY="1" textAlign="left" textColor="0x000000" x="107"/>
+		<e:Label id="lb_wx" text="微信支付" y="294" anchorOffsetX="0" width="190" fontFamily="SimHei" size="25" scaleX="1" scaleY="1" textAlign="left" textColor="0x000000" x="107"/>
+		<e:Label id="lb_btn_text" text="立即购买 30元" y="369.34" size="25" fontFamily="SimHei" scaleX="1" scaleY="1" horizontalCenter="0" touchEnabled="false"/>>
+		<e:Label id="lb_product_name" text="648元商品" x="50" y="117.5" anchorOffsetX="0" width="236" fontFamily="SimHei" size="25" anchorOffsetY="0" height="27" textAlign="left" textColor="0x000000" verticalAlign="middle"/>
+		<e:Label id="lb_real_cost" text="12222.84元" x="310" y="111" anchorOffsetX="0" width="205" fontFamily="SimHei" size="35" anchorOffsetY="0" height="40" textAlign="right" textColor="0xff8533" bold="true" verticalAlign="middle"/>
+		<e:Label id="lb_price" text="8元" x="401" y="151" anchorOffsetX="0" width="108" fontFamily="SimHei" size="25" anchorOffsetY="0" height="22" textAlign="right" verticalAlign="middle" textColor="0xa3a09e"/>
+		<e:Label id="lb_rate" text="5.5折" x="330" y="152" anchorOffsetX="0" width="108" fontFamily="SimHei" size="22" anchorOffsetY="0" height="22" textAlign="right" verticalAlign="middle" textColor="0xf90500" bold="true"/>
+		<e:Image id="img_close" source="aone_delete_png" width="60" height="60" scaleX="1" scaleY="1" right="-6" top="-7"/>
+		<e:Image id="img_icon_zfb" source="aone_za_zwp_icon_png" x="50" y="222" anchorOffsetX="0" width="45" anchorOffsetY="0" height="45"/>
+		<e:Image id="img_icon_wx" source="aone_za_wp_icon_png" x="52" y="284" width="40" height="40"/>
+		<e:Image id="img_alipay" source="aone_aggregate_radiobutton_choice_png" x="485" y="229" width="30" height="30"/>
+		<e:Image id="img_wxpay" source="aone_aggregate_radiobutton_normal_png" x="485" y="289" width="30" height="30"/>
+		<e:Rect id="rect_zfb" width="518" height="56" x="16" y="216" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+		<e:Rect id="rect_wx" width="518" height="56" x="16" y="278" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+	</e:Group>
+</e:Skin>

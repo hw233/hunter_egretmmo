@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_InstanceEliteDropInfoItemSkin" width="66" height="66" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupRes" width="66" height="66" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" x="0" y="0" width="66" height="66"/>
+		<e:Image id="imgIcon" source="hero_icon_head_wj_bisiji_png" x="-0.67" y="-1.33" width="67.67" height="67.99" anchorOffsetY="0" anchorOffsetX="0"/>
+		<e:BitmapLabel id="labelNum" width="58.27" height="19.05" x="18.56" y="41.72" font="ItemNumWords_fnt" text="123" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" textAlign="right" scaleX="0.8" scaleY="0.8"/>
+		<e:Group id="groupStar" width="48.97" height="14" x="11.66" y="0.52" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+
+</e:Skin>

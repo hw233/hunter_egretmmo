@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_DesRelicSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="520" height="420" horizontalCenter="0" verticalCenter="10">
+		<e:Image source="ui_hunter_BoardCardPopSeconde_png" horizontalCenter="0" width="520" height="420" verticalCenter="0"/>
+		<e:Group width="490" height="300" horizontalCenter="4" bottom="20">
+			<e:Image source="ui_hunter_LayerSeconde_png" scale9Grid="50,33,8,7" width="100%" height="100%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Scroller width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+				<e:List id="listViewAward">
+					<e:layout>
+						<e:TileLayout verticalGap="0" requestedColumnCount="4" horizontalGap="-10"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Label text="宝箱内可能开出如下道具" size="20" horizontalCenter="4" textColor="0x000000" top="65" bold="true"/>
+		<e:Image source="ui_card_BoardCardPopTop_png" horizontalCenter="4" anchorOffsetX="0" scaleX="1.49" top="5"/>
+		<e:Image source="ui_daily_ButtonViewAward_png" horizontalCenter="4" top="11"/>
+		<e:Button id="buttonClose" label="" right="-15" top="-3">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterUpStarAttributeItemSkin" width="380" height="28" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" top="0" right="0" bottom="0">
+		<e:Label id="labelName" text="物理攻击" verticalCenter="0" height="20" size="16" textColor="0xeaead2" verticalAlign="middle" left="30"/>
+		<e:Label id="labelValue" text="+0000000" width="115" verticalCenter="0" height="20" size="16" textColor="0xEAEAD2" verticalAlign="middle" left="120"/>
+		<e:Image source="ui_common_IconArrow_png" verticalCenter="0" horizontalCenter="55" scaleX="0.75" scaleY="0.75"/>
+		<e:Label id="labelValueRight" text="+00000000" verticalCenter="0" height="20" size="16" verticalAlign="middle" textColor="0x00e500" right="0" textAlign="left" left="295"/>
+	</e:Group>
+</e:Skin>

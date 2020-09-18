@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaLadderSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="imgbg" scaleY="1" scaleX="1" source="ui_arena_bg_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image left="0" top="0" source="ui_arena_title_png"/>
+
+	<e:Button id="btnClose" label="" left="0" top="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_acitivity_novicenew_fanhui_png" source.down="ui_acitivity_novicenew_fanhui_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+
+
+	<e:Group right="200" anchorOffsetX="0" top="7">
+		<e:Image source="ui_hunter_BoardRecources_png" left="0" right="10" scale9Grid="14,3,85,19" verticalCenter="0"/>
+		<e:Button id="btnDiamond" label="" verticalCenter="0" x="137">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="jewel" source="ui_currencyicon_IconGemstone_png" verticalCenter="0" x="-10"/>
+		<e:Label id="labelDiamondNumber" text="666" size="20" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="center" verticalCenter="0" width="113" x="18" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Group anchorOffsetY="0" anchorOffsetX="0" width="943.67" horizontalCenter="0" height="572" verticalCenter="26">
+		<e:Group anchorOffsetX="0" top="12" horizontalCenter="-0.33499999999997954">
+			<e:Rect width="900" height="320" horizontalCenter="0" verticalCenter="0" alpha="0.7"/>
+
+
+
+			<e:Scroller id="scroll" width="894" height="310" x="3" y="2" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" scrollPolicyV="off">
+				<e:List id="listRival" anchorOffsetY="0" height="302" anchorOffsetX="0" width="886" scrollH="1500">
+					<e:layout>
+						<e:HorizontalLayout verticalAlign="bottom" gap="0"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group top="331" right="22.66999999999996" anchorOffsetX="0" anchorOffsetY="0" width="401">
+			<e:Image source="ui_arena_cishudi_png" x="3" scaleX="1" scaleY="1" verticalCenter="0"/>
+
+
+
+
+			<e:Button id="btnChange" label="换对手" verticalCenter="0" right="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_novicenew_btn2-1_png" source.down="ui_acitivity_novicenew_btn2-2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="24" textColor="0x000000"/>
+					</e:Skin>
+				</e:skinName>
+
+
+			</e:Button>
+
+
+			<e:Button id="btnBuy" label="买次数" verticalCenter="0" right="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_novicenew_btn1-1_png" source.down="ui_acitivity_novicenew_btn1-2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="24" textColor="0x000000"/>
+					</e:Skin>
+				</e:skinName>
+
+
+			</e:Button>
+			<e:Image id="imgConSume" source="ui_currencyicon_IconGemstone_png" x="196" verticalCenter="0"/>
+			<e:Label id="labelConsume" text="100" x="228" size="20" verticalCenter="0"/>
+			<e:Label text="剩余比赛次数：" x="27" size="20" verticalCenter="0.5" textColor="0xffffff"/>
+			<e:Label id="labelSurplusNumber" text="3/3" x="160" size="20" verticalCenter="0.5" textColor="0xffd607"/>
+		</e:Group>
+		<e:Group bottom="15" left="37" width="483" height="270.01" scaleX="0.8" scaleY="0.8" anchorOffsetY="0">
+
+
+			<e:Group id="groupRanking" x="0" y="1.66" anchorOffsetX="0">
+				<e:Image source="ui_arena_paimingdi_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:BitmapLabel id="labelMyRank" text="第3名" verticalAlign="center" letterSpacing="1" x="170.5" verticalCenter="0" font="arena2_fnt" scaleX="1.2" scaleY="1.2"/>
+			</e:Group>
+			<e:Image x="3" y="101.33" source="ui_arena_jianglidi_png"/>
+			<e:Group left="145" scaleX="0.85" scaleY="0.85" bottom="119.00999999999999">
+				<e:Image id="imgFrame1" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgIcon1" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="label1" text="1234" size="22" right="5" bottom="10" stroke="1"/>
+			</e:Group>
+			<e:Group left="224" scaleX="0.85" scaleY="0.85" bottom="119.00999999999999">
+				<e:Image source="ui_frame_FrameHunterAsh_png" id="imgFrame2" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="hero_icon_head_wj_dongba_png" id="imgIcon2" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="label2" text="1234" size="22" right="5" bottom="10" stroke="1"/>
+			</e:Group>
+			<e:Group left="301" scaleX="0.85" scaleY="0.85" bottom="119.00999999999999" height="92.94117647058823">
+				<e:Image id="imgFrame3" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgIcon3" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="label3" text="1234" size="22" right="5" bottom="10" stroke="1"/>
+			</e:Group>
+			<e:Group left="380" scaleX="0.85" scaleY="0.85" bottom="119.00999999999999">
+				<e:Image id="imgFrame4" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgIcon4" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="label4" text="1234" size="22" right="5" bottom="10" stroke="1"/>
+			</e:Group>
+			<e:Button id="btnShop" label="" y="167.67" x="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_gongneng1_png" source.down="ui_arena_gongneng1-2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+			</e:Button>
+			<e:Button id="btnRank" label="" x="125.25" y="167.67">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_gongneng2_png" source.down="ui_arena_gongneng2-2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+			</e:Button>
+			<e:Button id="btnReport" label="" y="167.67" x="245.25">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_gongneng3_png" source.down="ui_arena_gongneng3-2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+			</e:Button>
+			<e:Button id="btnAward" label="" x="370" y="167.67">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_gongneng4_png" source.down="ui_arena_gongneng4-2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+			</e:Button>
+			<e:Image id="imgTipShop" source="ui_currencyicon_IconRed_png" x="67" y="175.67"/>
+			<e:Image id="imgTipReport" source="ui_currencyicon_IconRed_png" x="313.5" y="171.67"/>
+		</e:Group>
+		<e:Group right="20" bottom="10" scaleX="0.8" scaleY="0.8" width="589" height="220">
+			<e:Image width="575" height="220" scale9Grid="40,31,14,32" horizontalCenter="0" verticalCenter="0" source="ui_arena_diban_png"/>
+
+
+
+			<e:Image horizontalCenter="-192.5" top="-9" source="ui_arena_fangshouzhenrong_png"/>
+
+
+			<e:Button id="btnFormat" label="" verticalCenter="10" right="26">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_tiaozhengzhenrong_png" source.down="ui_arena_tiaozhengzhenrong_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:List id="listSupport" width="400" height="90" top="44" left="35" scaleX="0.9" scaleY="0.9">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="justify" gap="25" paddingLeft="10"/>
+				</e:layout>
+			</e:List>
+			<e:List id="listGeneral" width="400" left="34" bottom="11" height="100" scaleX="0.9" scaleY="0.9">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="justify"/>
+				</e:layout>
+			</e:List>
+
+		</e:Group>
+	</e:Group>
+	<e:Button id="btnLeft" label="" top="200" left="25">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_arena_qiehuan_png" source.down="ui_arena_qiehuan_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="btnRight" label="" scaleX="-1" right="25" top="200">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_arena_qiehuan_png" source.down="ui_arena_qiehuan_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterBreakSkillDialogItemSkin" width="490" height="106" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image source="ui_hunter_break_BoardSkillChosefloor_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group width="95" height="93" verticalCenter="0" left="15">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" verticalCenter="0" y="0" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Image id="imgIcon" source="skill_icon_bisiji02_png" scaleX="1" scaleY="1" horizontalCenter="1" verticalCenter="-2"/>
+			<e:Label id="labelLevel" text="123" size="16" right="10" bottom="10" verticalAlign="bottom" textAlign="right" width="60"/>
+		</e:Group>
+		<e:Group width="109" height="80" verticalCenter="0" right="10">
+			<e:Button id="btnUsing" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_break_ButtonNewUseNor_png" source.down="ui_hunter_break_ButtonNewUseSel_png" source.disabled="ui_hunter_break_ButtonNewUseDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgUsing" source="ui_hunter_break_WordsUsing_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Button id="btnUpLevel" label="" scaleX="1" scaleY="1" bottom="0" horizontalCenter="0" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_break_ButtonLevelUpNor_png" source.down="ui_hunter_break_ButtonLevelUpSel_png" source.disabled="ui_hunter_break_ButtonLevelUpDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Label id="labelName" text="一阶技能不翻译" width="126" size="16" textColor="0x00d2ff" top="15" left="125"/>
+		<e:Label id="labelDescribe" text="一阶技能不翻译一阶技能不翻译一阶技能不翻译一阶技能不翻译一阶技能不翻译一阶技能不翻译一阶技能不翻译" size="14" textColor="0x00D2FF" bottom="10" anchorOffsetX="0" verticalAlign="top" textAlign="left" left="125" right="125" top="36" lineSpacing="5"/>
+	</e:Group>
+</e:Skin>

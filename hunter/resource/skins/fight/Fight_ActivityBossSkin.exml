@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Fight_ActivityBossSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupHit" width="960" height="640" horizontalCenter="0" verticalCenter="0" touchThrough="true">
+		<e:Image source="ui_activity_boss_WordsHitNumber_png" horizontalCenter="0" top="110"/>
+		<e:BitmapLabel id="labelHit" height="40" font="WordsShangHai_fnt" horizontalCenter="60" top="123" anchorOffsetX="0" anchorOffsetY="0" text="999999" width="208" textAlign="center" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

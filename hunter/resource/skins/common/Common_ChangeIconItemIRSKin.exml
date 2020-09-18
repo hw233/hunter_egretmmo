@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_ChangeIconItemIRSKin" width="110" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgBG" source="ui_common_BoardImage_png" horizontalCenter="0" verticalCenter="0"/>
+
+	<e:Image id="imgFrame" source="ui_frame_FrameImage_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="imgIcon" horizontalCenter="-0.5" verticalCenter="1.5" scaleX="1" scaleY="1" source="hero_icon_head_wj_kubi_png"/>
+	<e:Image id="imgUse" source="ui_common_WordsUse_png" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterStorageExceedSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="445" height="246" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" left="0" right="0" top="0" bottom="0" scale9Grid="144,61,151,56"/>
+		<e:Image id="imgMaxOwn" source="ui_hunter_WordsHunterSoulNumTip_png" horizontalCenter="0" top="30"/>
+		<e:Image id="imgMaxStorage" source="ui_hunter_WordsHunterStorageNumTip_png" horizontalCenter="0" top="30"/>
+		<e:Group width="380" height="100" horizontalCenter="0" verticalCenter="0">
+			<e:Image source="ui_hunter_BoardSellHunterInfo_png" left="0" top="0" right="0" bottom="0" scale9Grid="28,7,174,46"/>
+			<e:Label id="labelNumber" text="已选择猎人： 12位" x="40" textColor="0x000000" size="18" height="25" width="200" verticalAlign="middle" textAlign="left" top="20" fontFamily="Helvetica"/>
+			<e:Label id="labelBig" text="仓库大小: 1000" x="40" textColor="0x000000" size="18" height="25" width="200" verticalAlign="middle" textAlign="left" bottom="20" fontFamily="Helvetica"/>
+		</e:Group>
+		<e:Button id="btnConfirm" label="" horizontalCenter="0" bottom="10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_ButtonChangeImageOkNor_png" source.down="ui_wonderland_ButtonChangeImageOkSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WonderLand_FormateSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerHeroBg_png" horizontalCenter="0" verticalCenter="12" height="100%" x="-192" y="0" scaleX="1" scaleY="1" width="100%"/>
+		<e:Image source="ui_hunter_OrnTop_png" scaleX="1" scaleY="1" top="0" width="100%" horizontalCenter="0"/>
+		<e:Image source="ui_wonderland_WordsBattleFast_png" top="-4" left="122"/>
+		<e:Group id="groupLeft" horizontalCenter="-284" verticalCenter="11.5">
+			<e:Image source="ui_instance_LayerInstance_png" width="312" height="490" scale9Grid="10,9,75,76" horizontalCenter="0" verticalCenter="20.5"/>
+			<e:Image source="ui_instance_BoardTopTip_png" width="312" horizontalCenter="-2" verticalCenter="-230.5"/>
+			<e:Image source="ui_instance_IconPoint_png" horizontalCenter="-137" verticalCenter="-230.5"/>
+			<e:Image source="ui_instance_IconPoint_png" horizontalCenter="138" verticalCenter="-230.5"/>
+			<e:Image source="ui_wonderland_IconBoardTip_png" horizontalCenter="-1" verticalCenter="-226.5"/>
+			<e:Image source="ui_wonderland_BoardChangeImage_png" scale9Grid="9,9,271,383" horizontalCenter="-0.5" verticalCenter="-11.5"/>
+			<e:Image source="ui_wonderland_OrnHunterImage_png" horizontalCenter="-3" verticalCenter="117"/>
+			<e:Group id="groupAddPet" width="287" height="320" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="-51.5" x="14"/>
+			<e:Group id="groupHaloBack" width="287" height="320" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="-51.5" x="14"/>
+			<e:Group id="groupAddHero" width="287" height="320" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="-51.5" x="14"/>
+			<e:Group id="groupHaloFront" width="287" height="320" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="-51.5" x="14"/>
+
+			<e:Image source="ui_wonderland_WordsPlayerImage_png" horizontalCenter="0" verticalCenter="-248"/>
+			<e:Button id="btnChangeHunter" label="" verticalCenter="226" horizontalCenter="4">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_wonderland_kuafu_ButtonChangeHunterNor_png" source.down="ui_wonderland_kuafu_ButtonChangeHunterSel_png" source.disabled="ui_wonderland_kuafu_ButtonChangeHunterSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnChangerPet" label="" horizontalCenter="-75" verticalCenter="226" visible="false">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_wonderland_kuafu_ButtonChangePetNor_png" source.down="ui_wonderland_kuafu_ButtonChangePetSel_png" source.disabled="ui_wonderland_kuafu_ButtonChangePetSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="groupImage" width="287" height="320.67" anchorOffsetY="0" horizontalCenter="-0.5" verticalCenter="-51"/>
+			<e:Image source="ui_common_BoardPowerTeam_png" horizontalCenter="1" verticalCenter="-192"/>
+			<e:Image source="ui_common_WordsPowerBig4_png" scaleX="0.8" scaleY="0.8" horizontalCenter="-83" verticalCenter="-191.5"/>
+			<e:Label id="labelPlayerPower" text="1231231" height="34" verticalAlign="middle" textAlign="center" size="22" textColor="0xffeb00" horizontalCenter="27" verticalCenter="-190.5" anchorOffsetX="0" width="102" anchorOffsetY="0"/>
+			<e:BitmapLabel id="labelTextHeroPowerNum" width="247.68" height="20" horizontalCenter="-15" verticalCenter="-140.5" text="9999999" font="ItemNum_fnt" anchorOffsetX="0" textAlign="right" verticalAlign="middle" visible="false"/>
+			<e:Group horizontalCenter="0" verticalCenter="159">
+				<e:Image source="ui_wonderland_BoardBurFastBattle_png" horizontalCenter="0" verticalCenter="0" width="208"/>
+				<e:Image id="imgHpBar" source="ui_wonderland_BurFastBattle_png" scale9Grid="11,3,182,19" x="0" verticalCenter="0" width="208"/>
+				<e:Image id="imgHpBarMask" source="ui_wonderland_BoardBurFastBattle_png" verticalCenter="0" x="0" width="208" scale9Grid="8,3,186,19"/>
+
+
+				<e:Label id="labelHp" text="血量 : 1111/1111" size="18" anchorOffsetX="0" textAlign="center" verticalAlign="middle" horizontalCenter="0.5" verticalCenter="-0.5"/>
+			</e:Group>
+			<e:Group id="groupBlood" width="208" height="25" horizontalCenter="-5" verticalCenter="159"/>
+			<e:Button id="btnPetHelp" label="" horizontalCenter="109" verticalCenter="-191.5" width="64" height="30">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_common_ButtonInfoNor_png" source.down="ui_common_ButtonInfoSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="groupRight" horizontalCenter="175.5" width="505" height="538" verticalCenter="9">
+			<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="505" height="520" scale9Grid="13,20,289,215" horizontalCenter="0" verticalCenter="9"/>
+			<e:Image source="ui_hunter_LayerSeconde_png" width="485" height="410" scale9Grid="6,5,110,74" horizontalCenter="0" verticalCenter="-18"/>
+			<e:Scroller id="scrollerHero" height="350" scaleX="1" scaleY="1" width="445" horizontalCenter="0" verticalCenter="-30">
+				<e:List id="listHero" anchorOffsetY="0" width="100%" height="100%">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="4"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Image source="ui_wonderland_IconBoardTipB_png" scaleX="-1" horizontalCenter="-49" verticalCenter="-229"/>
+			<e:Image source="ui_wonderland_IconBoardTipB_png" scaleX="1" horizontalCenter="50" verticalCenter="-229"/>
+			<e:Image source="ui_wonderland_WordsUplineHunter_png" horizontalCenter="0" verticalCenter="-251.5"/>
+			<e:Group width="90" height="90" x="14" y="49">
+				<e:Image id="imgLeftUp" source="ui_wonderland_IconJiaobiao_png" y="-10" x="-10" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group width="90" height="90" x="402" y="49">
+				<e:Image id="imgRightUp" source="ui_wonderland_IconJiaobiao_png" scaleX="1" x="10" y="-10" scaleY="1" rotation="90" anchorOffsetX="0" anchorOffsetY="90"/>
+			</e:Group>
+			<e:Group width="90" height="90" x="14" y="337">
+				<e:Image id="imgLeftDown" source="ui_wonderland_IconJiaobiao_png" scaleY="1" x="-10" y="10" scaleX="1" anchorOffsetY="0" rotation="270" anchorOffsetX="90"/>
+			</e:Group>
+			<e:Group width="90" height="90" x="403" y="337">
+				<e:Image id="imgRightDown" source="ui_wonderland_IconJiaobiao_png" scaleX="1" x="10" y="10" scaleY="1" rotation="180" anchorOffsetX="90" anchorOffsetY="90"/>
+			</e:Group>
+			<e:Label id="labelTips" text="战斗力最高的前十一名武将可出战" textColor="0x000000" size="16" anchorOffsetX="0" width="476.67" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="172"/>
+			<e:Button id="btnAuto" label="" horizontalCenter="-103" verticalCenter="227">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_wonderland_ButtonAKeyArrayNor_png" source.down="ui_wonderland_ButtonAKeyArraySel_png" source.disabled="ui_wonderland_ButtonAKeyArrayDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnOk" label="" horizontalCenter="94" verticalCenter="227">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_wonderland_ButtnAdjustmentNor_png" source.down="ui_wonderland_ButtnAdjustmentSel_png" source.disabled="ui_wonderland_ButtnAdjustmentSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Button id="btnClose" label="" scaleX="1" top="-8" left="-24" width="153">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png" source.disabled="ui_hunter_ButtonReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+	</e:Group>
+</e:Skin>

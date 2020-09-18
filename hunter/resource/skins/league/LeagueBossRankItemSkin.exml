@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueBossRankItemSkin" width="450" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_pet_OrnLine_png" horizontalCenter="0" bottom="0" width="440"/>
+	<e:Label id="lbRank" text="1" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" textColor="0x000000" verticalCenter="0" height="24" horizontalCenter="-171.5" width="60"/>
+	<e:Label id="lbName" text="使劲感激大象" size="18" fontFamily="Helvetica" verticalCenter="0" verticalAlign="middle" textAlign="center" horizontalCenter="-20" textColor="0x000000" height="24" width="185"/>
+	<e:Label id="lbNum" text="1131351" textColor="0x000000" fontFamily="Helvetica" size="18" verticalCenter="0" textAlign="center" verticalAlign="middle" height="24" horizontalCenter="150.5" width="124"/>
+</e:Skin>

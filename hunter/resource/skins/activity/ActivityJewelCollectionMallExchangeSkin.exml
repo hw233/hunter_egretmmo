@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityJewelCollectionMallExchangeSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="7.5" verticalCenter="2.5">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" y="30.44" width="340" height="410" scale9Grid="55,30,240,186" x="0"/>
+		<e:Image source="ui_card_OrnCardPopDown_png" x="49" y="304.45"/>
+		<e:Image source="ui_mall_BoardSellMax_png" y="52.7" width="310" height="120" x="15"/>
+		<e:Group id="groupMain" x="29.02" y="69.64" width="95" height="93">
+			<e:Image id="imageFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageIcon" source="hero_icon_head_wj_huizhang_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="labelTextNum" width="77.33" height="22.67" anchorOffsetX="0" anchorOffsetY="0" text="1" font="ItemNumWords_fnt" textAlign="right" right="11" bottom="11"/>
+		</e:Group>
+		<e:Label id="labelTextName" text="天使的自动笔记" x="130.99" y="79.31" size="18" textColor="0x582800"/>
+		<e:Label id="labelTextType" text="拥有" x="131.67" y="106.61" size="18" textColor="0x582800"/>
+		<e:Label id="labelTextOwn" text="拥有" x="132.35" y="135.24" size="18" textColor="0x582800"/>
+		<e:Button id="buttonBuy" label="" y="362.01" x="97.33">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_random_ButtonOkChangeNor_png" source.down="ui_acitivity_random_ButtonOkChangeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_mall_BoardSellMax_png" x="13.71" y="182.93" width="310" height="140"/>
+		<e:Image source="ui_card_BoardCurrency_png" x="41" y="237.65" width="257" height="36"/>
+		<e:Button id="buttonSub" label="" x="42.01" y="237.65">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedReduceNor_png" source.down="ui_bag_ButtonBagSelectedReduceSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonAdd" label="" x="164.32" y="237.35">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedAddNor_png" source.down="ui_bag_ButtonBagSelectedAddSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonMax" label="" x="220.71" y="238">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedMaxNor_png" source.down="ui_bag_ButtonBagSelectedMaxSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="labelTextCount" text="999" x="86.34" y="241.31" anchorOffsetX="0" width="76.67" verticalAlign="middle" textAlign="center" size="22" anchorOffsetY="0" height="31.33" textColor="0x582800" fontFamily="Arial"/>
+		<e:Label text="共计花费：" x="43.66" y="288.31" size="18" textColor="0x582800"/>
+		<e:Label id="labelTextCost2" text="123积分" x="125.67" y="287.3" textColor="0x582800" size="18" anchorOffsetX="0" width="104.33" anchorOffsetY="0" height="20.67" textAlign="left" verticalAlign="middle"/>
+		<e:Label text="请选择兑换道具：" x="43" y="205.29" anchorOffsetX="0" width="226" anchorOffsetY="0" height="24.67" size="18" textColor="0x582800" fontFamily="SimSun"/>
+		<e:Button id="buttonClose" label="" x="264.69" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

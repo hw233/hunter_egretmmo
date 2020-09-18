@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Mail_SysItemSkin" width="675" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16abed6c36f"/>
+	<e:Group id="groupItem" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgBG" source="ui_mail_LayerMailSeconde_png" width="675" height="100" scale9Grid="16,35,14,15" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgLogo" source="ui_mail_IconMail_png" verticalCenter="0" left="23"/>
+		<e:Label id="lbTitle" text="一个安静的漂流瓶" textColor="0xFF0000" size="18" top="26" left="127"/>
+		<e:Label id="lbFrom" text="来自：系统" size="18" textColor="0x000000" left="127" bottom="28"/>
+		<e:Label id="lbTime" text="1个小时前" verticalCenter="18" horizontalCenter="38" textAlign="left" textColor="0x000000" size="18"/>
+		<e:Image id="imgRead" verticalCenter="-12.5" x="339" source="ui_mail_WordsMailNoRead_png"/>
+		<e:Image id="imgGet" source="ui_mail_WordsMailNoGet_png" verticalCenter="0" right="70"/>
+	</e:Group>
+</e:Skin>

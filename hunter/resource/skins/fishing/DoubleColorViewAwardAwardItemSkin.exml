@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DoubleColorViewAwardAwardItemSkin" width="76" height="75" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" x="0" y="0"/>
+		<e:Image id="imgIcon" source="ui_exchange_IconFuritType1_png" scaleX="0.8" scaleY="0.8" x="0" y="0"/>
+		<e:BitmapLabel id="lbNameID" width="40" height="34" font="BattleSkillCDNum_fnt" text="12" textAlign="center" verticalAlign="center" x="18" y="20"/>
+		<e:BitmapLabel id="lbNum" width="80" height="23" font="ItemNumWords_fnt" text="500" horizontalCenter="1" verticalCenter="-22.5" scaleX="0.7" scaleY="0.7" textAlign="right" verticalAlign="center"/>
+	</e:Group>
+</e:Skin>

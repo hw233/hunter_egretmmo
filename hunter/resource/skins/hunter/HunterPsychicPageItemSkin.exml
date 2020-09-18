@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterPsychicPageItemSkin" width="90" height="33" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" top="0" right="0" bottom="0">
+		<e:Button id="btnLevel" label="" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_psychic_ButtonPlanSelectNor_png" source.down="ui_hunter_psychic_ButtonPlanSelectSel_png" source.disabled="ui_hunter_psychic_ButtonPlanSelectDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgPlan" source="ui_hunter_psychic_WordsPlan1_png" verticalCenter="0" left="8"/>
+		<e:Image id="imgLock" source="ui_currencyicon_IconLock_png" verticalCenter="0" right="-3" scaleX="0.8" scaleY="0.8" rotation="23"/>
+	</e:Group>
+</e:Skin>

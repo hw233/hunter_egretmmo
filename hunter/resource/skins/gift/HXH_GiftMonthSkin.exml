@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_GiftMonthSkin" width="355" height="425" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" anchorOffsetY="0" height="425" top="0">
+		<e:Image source="ui_instance_BoardSearchTeam_png" width="355" height="415" scale9Grid="8,7,50,47" y="9" x="0"/>
+		<e:Image id="imageTip" source="ui_acitivity_mouthgift_WordsTipLuxury_png" y="-5" horizontalCenter="0.5"/>
+		<e:Group horizontalCenter="0.5" verticalCenter="-54.5" width="344" height="228">
+			<e:Image id="imageGiftType" source="ui_acitivity_mouthgift_BoardGiftLuxury_png" y="0" x="0"/>
+			<e:Image id="imageBuyTypeBoard" source="ui_mall_icon_big_xinshoubig2_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_acitivity_mouthgift_BoardTipAward_png" y="198" x="3"/>
+			<e:Image source="ui_acitivity_mouthgift_BoardTipAward_png" y="167" x="3"/>
+			<e:Image id="imageicon1" source="ui_acitivity_mouthgift_IconLuxury_png" left="0" top="0"/>
+			<e:Image id="imageicon2" source="ui_acitivity_mouthgift_IconLuxury_png" scaleX="-1" right="0" top="0"/>
+			<e:Image id="imageicon3" source="ui_acitivity_mouthgift_IconLuxury_png" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+			<e:Image id="imageicon4" source="ui_acitivity_mouthgift_IconLuxury_png" scaleX="1" scaleY="-1" left="0" bottom="0"/>
+			<e:Image id="imageBuyType" source="ui_acitivity_mouthgift_WordsGiftLimit_png" left="-1" top="1"/>
+			<e:Label id="labelBuyAward" text="购买后可一次性获得如下物品：" x="13" y="199" anchorOffsetX="0" width="318" anchorOffsetY="0" height="28" size="16" verticalAlign="middle" textAlign="center"/>
+			<e:Label id="labelCurrentType" text="公元前654年-公元前46554年" x="19" y="167" anchorOffsetX="0" width="305" anchorOffsetY="0" height="27" textAlign="center" verticalAlign="middle" size="16"/>
+			<e:Image id="imageRMB" source="ui_acitivity_mouthgift_WordsGiftAwardValue_png" x="201" y="6"/>
+			<e:Image id="imageToken" source="ui_acitivity_mouthgift_WordsGiftAwardValue1_png" x="202" y="7"/>
+			<e:BitmapLabel id="labelNumValue" width="72" height="23" x="249" y="42" anchorOffsetX="0" anchorOffsetY="0" text="123" font="WoddsGoldTime_fnt"/>
+		</e:Group>
+		<e:Group y="268" horizontalCenter="0">
+			<e:Image source="ui_hunter_LayerSeconde_png" y="0" width="345" scale9Grid="15,10,92,65" x="0"/>
+			<e:Group id="groupMain" width="260" height="75" horizontalCenter="0.5" verticalCenter="0">
+				<e:Scroller width="100%" height="100%" x="0" y="0">
+				<e:List id="listBuyAward">
+					<e:layout>
+						<e:TileLayout requestedRowCount="1" orientation="rows" horizontalGap="0" paddingTop="5"/>
+					</e:layout>
+				</e:List>
+				</e:Scroller>
+				<e:Image id="imageRight" source="ui_hunter_ButtonHunterLeftNor_png" width="31" x="266" y="6" scaleX="1" scaleY="1"/>
+				<e:Image id="imageLeft" source="ui_hunter_ButtonHunterLeftNor_png" scaleX="-1" x="-5" y="7" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="buttonGiftGet" label="" y="351" horizontalCenter="0" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mall_gift_ButtonGiftGetNor_png" source.down="ui_mall_gift_ButtonGiftGetSel_png" source.disabled="ui_mall_gift_ButtonGiftGetDisB_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonGiftGo" label="" y="350" horizontalCenter="0" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mall_gift_ButtonGiftGoNor_png" source.down="ui_mall_gift_ButtonGiftGoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonGiftBuy" label="" y="359" horizontalCenter="0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mall_gift_ButtonGiftCommonNor_png" source.down="ui_mall_gift_ButtonGiftCommonSel_png" source.disabled="ui_mall_gift_ButtonGiftCommonDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:BitmapLabel id="labelGetNum" width="90" height="29" x="158" y="372" anchorOffsetX="0" anchorOffsetY="0" text="1" font="GiftValueNum_fnt" touchEnabled="false"/>
+		<e:Group width="55" height="55" x="108" y="357" touchThrough="true" touchEnabled="false" touchChildren="false">
+			<e:Image id="imageGestoneIcon" source="ui_mall_gift_IconMoneyB_png" touchEnabled="false" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Label id="labelNum" text="无此计费点" x="105" y="366" anchorOffsetX="0" width="146" anchorOffsetY="0" height="38" verticalAlign="middle" textAlign="center" size="22" fontFamily="SimHei" touchEnabled="false" visible="false"/>
+		<e:Image id="imageTypeTop" source="ui_acitivity_mouthgift_WordsGiftValueTip_png" x="61" y="337" touchEnabled="false"/>
+		<e:Image id="imageSoul" source="ui_acitivity_mouthgift_WordsGiftSoul_png" y="336" horizontalCenter="0" visible="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetDontGetSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" scaleX="0.9" scaleY="0.9" width="300">
+		<e:Group top="0" left="0">
+			<e:Image source="ui_pet_newpet_BoardPetListFloor_png" x="0" y="0" width="300" height="370" scale9Grid="31,52,190,53"/>
+			<e:Image source="ui_pet_WordsAddAtt_png" horizontalCenter="0" top="7"/>
+			<e:Image source="ui_pet_WordsGetAtt_png" x="53" y="44.02"/>
+			<e:Label id="labelCurrentAtt1" text="基础技：全体猎人战斗中基础防御增加1%" x="9.34" y="91.43" textColor="0xffff00" size="18" anchorOffsetY="0" height="70" anchorOffsetX="0" width="277.66" lineSpacing="2"/>
+			<e:Label id="labelNextAtt1" text="（此技能为1星属性，之后每提升1星提升一次加成属性）" x="11" y="138.64" size="16" anchorOffsetY="0" height="47.67" anchorOffsetX="0" width="279.33" lineSpacing="2"/>
+			<e:Label id="labelPetSkillName" text="念力技：辅助型猎人战斗中速度额外增加10%" x="10" y="194.97" size="18" textColor="0xffff00" anchorOffsetY="0" height="52" anchorOffsetX="0" width="280" lineSpacing="2"/>
+			<e:Label id="labelPetSkillCurrentAward" text="（此为1星属性，之后每提升1星提升一次加成属性）" x="7" y="240.09" size="16" anchorOffsetY="0" height="47" anchorOffsetX="0" width="276" lineSpacing="2"/>
+			<e:Image id="imgSpriteDontSumon" source="ui_pet_WordsDontGetPet_png" x="74.5" y="277.21"/>
+		</e:Group>
+		<e:Group top="375" left="1">
+			<e:Image source="ui_pet_newpet_BoardPetListFloor_png" x="0" y="0" width="300" height="195" scale9Grid="31,52,190,53"/>
+			<e:Image source="ui_pet_WordsGet_png" horizontalCenter="0" top="7"/>
+			<e:Group id="groupAnimate" verticalCenter="-15.5" horizontalCenter="-52.5">
+				<e:Image id="imgSpriteFrame" x="0" y="0" scaleX="0.7" scaleY="0.7" source="ui_frame_FrameHunterAsh_png"/>
+				<e:Image id="imgSpriteIcon" source="hero_icon_head_wj_dongba_png" x="0" y="0" scaleX="0.7" scaleY="0.7"/>
+				<e:Image id="imgSpriteMask" source="ui_frame_FrameHunterSPmask_png" x="0" y="0" scaleX="0.7" scaleY="0.7" visible="false"/>
+				<e:Button id="btnAddPetSoul" label="" x="26.51" y="5.59" scaleX="0.7" scaleY="0.7">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_ButtonCardAddNor_png" source.down="ui_hunter_ButtonCardAddSel_png" source.disabled="ui_hunter_ButtonCardAddNor_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Image source="ui_pet_WordsMaterialsNum_png" x="135.01" y="61.55"/>
+			<e:Label id="labelNeedFragment" text="30/90" x="135.01" y="89" size="18"/>
+			<e:Button id="btnAddFragment" label="" x="71.84" y="132" width="147" height="50">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_pet_ButtonSumonNor_png" source.down="ui_pet_ButtonSumonSel_png" source.disabled="ui_pet_ButtonSumonNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgSpriteTipAdd" source="ui_currencyicon_IconRed_png" x="197.34" y="125"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

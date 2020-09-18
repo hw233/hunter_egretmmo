@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DoubleColorViewEndSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group verticalCenter="0" horizontalCenter="0" width="100%" height="100%">
+		<e:Group id="groupCache" left="0" right="0" top="0" bottom="0" >
+			<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="885" height="580" scale9Grid="127,30,168,85" horizontalCenter="-7.5" verticalCenter="20.5" x="30" y="51" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="-8" verticalCenter="-281.5" x="320" y="10" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_doublecolor_WordsTipViewEnd_png" horizontalCenter="-7.5" verticalCenter="-286" x="417" y="20" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_hunter_LayerSeconde_png" width="870" height="500" scale9Grid="15,10,92,65" horizontalCenter="-8" verticalCenter="13.5" x="37" y="84" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_doublecolor_BoardListTip_png" width="870" height="45" scale9Grid="12,6,79,37" horizontalCenter="-8" verticalCenter="-228" x="37" y="70" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_doublecolor_WordsTipAwardViewInfo_png" horizontalCenter="-8" verticalCenter="284" x="106" y="592" scaleX="1" scaleY="1"/>
+			<e:Group horizontalCenter="-64.5" verticalCenter="-228" x="76" y="78" scaleX="1" scaleY="1">
+				<e:Image source="ui_doublecolor_WordsAwardDate_png" x="0" verticalCenter="0"/>
+				<e:Image source="ui_doublecolor_WordsAwardEnd_png" x="239.64" verticalCenter="0"/>
+				<e:Image source="ui_doublecolor_WordsAwardNum_png" x="582.3" verticalCenter="0"/>
+			</e:Group>
+		</e:Group>
+
+
+
+
+
+		<e:Button id="btnClose" label="" horizontalCenter="404" verticalCenter="-274">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<e:Scroller id="scroller" width="855" height="450" horizontalCenter="-7.5" verticalCenter="25.5">
+			<e:List id="lstRed">
+				<e:layout>
+					<e:VerticalLayout gap="1" horizontalAlign="left"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+
+	</e:Group>
+</e:Skin>

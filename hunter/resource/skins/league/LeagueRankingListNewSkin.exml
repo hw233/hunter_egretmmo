@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueRankingListNewSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="167ef587fef"/>
+	<e:Group width="960" height="640" anchorOffsetX="0" anchorOffsetY="0" y="0" horizontalCenter="0">
+		<e:Image y="82.33" width="795" height="501" anchorOffsetX="0" anchorOffsetY="0" source="ui_union_BoardJoinUnion_png" scale9Grid="31,121,143,37" x="83"/>
+		<e:Group y="56" anchorOffsetX="0" anchorOffsetY="0" width="304" x="328">
+			<e:Image source="ui_fishing_BoardFishingTopTip_png" anchorOffsetX="152" anchorOffsetY="29" scale9Grid="46,7,208,35" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image anchorOffsetX="55" horizontalCenter="0" verticalCenter="0" source="ui_union_rankinglist_WordsRankingList_png"/>
+		</e:Group>
+		<e:Group id="groupTitle" y="117.84" width="750" height="36" x="110">
+			<e:Image verticalCenter="0" source="ui_union_WordsUnionNo_png" horizontalCenter="-342"/>
+			<e:Image source="ui_union_WordsUnionName_png" verticalCenter="0" horizontalCenter="-235"/>
+			<e:Image source="ui_union_WordsUnionLevel_png" verticalCenter="0" horizontalCenter="-124"/>
+			<e:Image source="ui_union_WordsUnionNumber_png" verticalCenter="0" horizontalCenter="-32"/>
+			<e:Image source="ui_union_WordsUnionRank_png" verticalCenter="0" horizontalCenter="74"/>
+			<e:Image width="68" height="19" source="ui_union_WordsUnionZhanli_png" verticalCenter="0" horizontalCenter="193"/>
+			<e:Image source="ui_union_WordsUnionLeader_png" verticalCenter="0" horizontalCenter="308"/>
+		</e:Group>
+		<e:Group id="groupMyUnion" width="751" height="50" anchorOffsetX="0" y="515.5" x="110">
+			<e:Rect width="100%" height="100%" horizontalCenter="0" verticalCenter="0" fillColor="0xA09A9A" visible="false"/>
+			<e:Label id="lbLeagueNo" text="99" size="18" anchorOffsetY="0" verticalCenter="0" textAlign="center" anchorOffsetX="0" verticalAlign="middle" horizontalCenter="-337" textColor="0x000000" fontFamily="Helvetica" height="24" width="68"/>
+			<e:Label id="lbLeagueName" text="公会的名字" size="18" fontFamily="Helvetica" anchorOffsetY="0" verticalCenter="0" verticalAlign="middle" textAlign="center" height="23" width="139" horizontalCenter="-235" textColor="0xd37317"/>
+			<e:Label id="lbLeagueLevel" text="Lv99" size="18" textColor="0x000000" fontFamily="Helvetica" anchorOffsetY="0" verticalCenter="0" height="24" verticalAlign="middle" textAlign="center" width="84" horizontalCenter="-124"/>
+			<e:Label id="lbMemberNum" text="100/100" size="18" textColor="0x000000" fontFamily="Helvetica" anchorOffsetY="0" verticalCenter="0" height="23" verticalAlign="middle" textAlign="center" width="101" horizontalCenter="-32"/>
+			<e:Image id="imgStar" source="ui_union_battle_star43_png" anchorOffsetY="0" verticalCenter="0" horizontalCenter="74"/>
+			<e:Label id="lbLeaderStrength" text="99999万" size="18" verticalCenter="0" textColor="0x000000" width="124" height="23" verticalAlign="middle" textAlign="center" fontFamily="Helvetica" horizontalCenter="193"/>
+			<e:Label id="lbLeaderName" text="一二三四五六" size="18" verticalCenter="0" textColor="0x000000" width="136" height="23" verticalAlign="middle" textAlign="center" fontFamily="Helvetica" anchorOffsetX="0" horizontalCenter="308"/>
+			<e:Image width="719" height="2" source="ui_union_battle_rankLine_png" horizontalCenter="0" bottom="0" visible="false"/>
+		</e:Group>
+		<e:Scroller id="scrollerLeagueRanking" width="752" height="350" scrollPolicyH="off" scrollPolicyV="on" y="154.88" x="109">
+			<e:List id="lstLeagueRanking" width="100%" height="100%" x="-1.33" y="192">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="1"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbMyUnion" text="暂未加入公会" width="150" height="31" size="25" textColor="0x000000" x="410" y="527.5" visible="false"/>
+		<e:Group id="groupSort" x="784.68" y="597.84" width="140" height="169" anchorOffsetX="70" anchorOffsetY="169">
+			<e:Image width="142" height="150" source="ui_card_BordCardSort_png" horizontalCenter="0" anchorOffsetX="0" anchorOffsetY="75" top="0"/>
+			<e:Button id="btnUnionLevel" label="" y="9.99" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_rankinglist_ButtonUnionLevelNor_png" source.down="ui_union_rankinglist_ButtonUnionLevelSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnUnionRank" label="" y="51.65" horizontalCenter="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_rankinglist_ButtonUnionRankNor_png" source.down="ui_union_rankinglist_ButtonUnionRankSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnUnionStrength" label="" y="94.34" horizontalCenter="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_rankinglist_ButtonUnionZhanliNor_png" source.down="ui_union_rankinglist_ButtonUnionZhanliSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Button id="btnUnionSort" label="" x="714.69" y="563.51" touchChildren="true">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_rankinglist_ButtonUnionLevelSortNor_png" source.down="ui_union_rankinglist_ButtonUnionLevelSortSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:Button id="btnClose" label="" x="846.66" y="66.35" anchorOffsetX="45">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+					-->
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+	</e:Group>
+</e:Skin>

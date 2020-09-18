@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZorkBossMainPopItemSkin" width="435" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_wonderland_boss_BoardHitAward_png" x="0" y="0"/>
+	<e:Label id="lbRank" text="第2001名至100000名" size="18" fontFamily="Helvetica" width="96" left="30" anchorOffsetX="0" verticalAlign="middle" textAlign="center" verticalCenter="0"/>
+	<e:Scroller width="260" height="75" anchorOffsetY="0" horizontalCenter="49.5" verticalCenter="0.5" scrollPolicyH="off" scrollPolicyV="off">
+		<e:List id="lstItem">
+			<e:layout>
+				<e:TileLayout requestedRowCount="1" requestedColumnCount="3" horizontalGap="0" columnAlign="left"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image source="ui_wonderland_boss_IconArrow_png" verticalCenter="0" right="10"/>
+</e:Skin>

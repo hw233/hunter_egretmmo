@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleEnd_StastPopItemEnemySkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="332" height="108">
+	<e:Image x="0" y="22" source="ui_battleend_BoardEnemyHunter_png"/>
+	<e:Image source="ui_battleend_IconBloodAndHit_png" x="184" y="40"/>
+	<e:Group width="133" height="20" left="42" bottom="21">
+		<e:Image id="SpriteHurtBoard" source="ui_battleend_BoardBurHunter_png" x="0" y="0"/>
+		<e:Image id="SpriteHurt" source="ui_battleend_BurHunterBlood_png" x="0" y="0"/>
+		<e:Image id="SpriteHurtBar" width="133" height="20" scaleX="1" scaleY="1" verticalCenter="0" left="0" source="ui_hunter_collection_board1_png"/>
+		<e:Label id="LabelHurtNum" text="Label" size="16" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group width="133" height="20" left="42" top="40">
+		<e:Image id="SpriteRecoverBoard" source="ui_battleend_BoardBurHunter_png" x="0" y="0"/>
+		<e:Image id="SpriteRecover" x="0" y="0" source="ui_battleend_BurHunterHit_png"/>
+		<e:Image id="SpriteRecoverBar" width="133" height="20" scaleX="1" scaleY="1" left="0" verticalCenter="0" source="ui_hunter_collection_board1_png"/>
+		<e:Label id="LabelRecoverNum" text="Label" size="16" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group x="217" y="32" width="67" height="66">
+		<e:Image id="SpriteFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="SpriteHead" source="hero_head_help_wojin_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+		<e:BitmapLabel id="LabelLevel" height="20" top="5" font="ItemNumWords_fnt" text="123" scaleX="0.8" scaleY="0.8" left="7"/>
+		<e:Image id="SpriteStar" source="ui_hunter_evaluate_IconStar3_png" x="9" y="43"/>
+		<e:Group id="NodeStar" width="46.8" height="15.6" x="10.2" y="41.8" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image id="SpriteBestOpp" source="ui_battleend_WordsEnemyHighHunter_png" x="233" y="0"/>
+</e:Skin>

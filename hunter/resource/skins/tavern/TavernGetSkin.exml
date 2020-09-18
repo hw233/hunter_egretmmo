@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TavernGetSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" x="0" y="0">
+		<e:Image width="100%" height="100%" x="0" y="0" source="ui_common_mask_black_jpg" alpha="0.7"/>
+		<e:Group width="732" height="500" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" x="114" y="70" scaleX="1" scaleY="1">
+
+			<e:Group id="groupBackdrop" width="558" height="149" y="5" horizontalCenter="0">
+				<e:Image source="ui_wonderland_OrnUseFruit_png" x="0" y="0" scaleX="1" scaleY="1" visible="false"/>
+			</e:Group>
+			<e:Image id="imageCongratulations" source="ui_wonderland_WordsFruitAward_png" horizontalCenter="0" y="118" anchorOffsetX="176" anchorOffsetY="51"/>
+			<e:Image id="imageCongratulationsB" source="ui_wonderland_WordsFruitAward_png" y="118" scaleX="1" scaleY="1" anchorOffsetX="176" anchorOffsetY="51" horizontalCenter="0"/>
+			<e:Group id="groupMain" width="732" height="278" x="0" y="152">
+				<e:Image source="ui_wonderland_BoardUseFruitAward_png" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Group id="group1" width="95" height="115" x="265" verticalCenter="11.5">
+				<e:Image id="imageFrame" source="ui_frame_FrameHunterBule1_png" x="0" scaleX="1" scaleY="1" top="0"/>
+				<e:Image id="imageHunter" source="hero_icon_gw_anshazhe_png" x="0" y="0"/>
+				<e:Label id="labelHuntername" text="尼飞彼多" x="0" size="17" bottom="0" width="95" verticalAlign="justify" textAlign="center"/>
+				<e:Label text="1" x="70" y="63" size="17"/>
+				</e:Group>
+				<e:Group id="group3" width="95" height="115" horizontalCenter="0" verticalCenter="11.5">
+				<e:Group id="groupIntegrate3" width="95" height="93" x="0" y="0" touchThrough="true" touchEnabled="false" touchChildren="false">
+					<e:Image source="ui_frame_FrameHunterViolet1_png" horizontalCenter="0" scaleX="1" scaleY="1" top="0" x="0" y="0"/>
+					<e:Image source="ui_iconresources_jiuguanbi1_png" x="5" y="0"/>
+					<e:Label id="label10Integral" text="100" x="53" y="63" size="17"/>
+					<e:Image id="imageDouble3" source="ui_acitivity_WoridsTipActivityDouble_png" x="-10" y="-33"/>
+				</e:Group>
+				<e:Label text="酒馆积分" x="0" size="17" bottom="0" textAlign="center" width="95"/>
+				</e:Group>
+				<e:Group id="group2" width="95" height="115" x="372" verticalCenter="11.5">
+				<e:Group id="groupIntegrate2" width="95" height="93" x="0" y="0" touchThrough="true" touchEnabled="false" touchChildren="false">
+					<e:Image source="ui_frame_FrameHunterViolet1_png" x="0" scaleX="1" scaleY="1" top="0" y="0"/>
+					<e:Image source="ui_iconresources_jiuguanbi1_png" anchorOffsetX="0" width="85" x="5" y="0"/>
+					<e:Label id="labelIntegral" text="20" x="60" y="63" size="17" textAlign="center"/>
+					<e:Image id="imageDouble2" source="ui_acitivity_WoridsTipActivityDouble_png" x="-12" y="-32"/>
+				</e:Group>
+				<e:Label text="酒馆积分" x="0" size="17" textAlign="center" bottom="0" width="95"/>
+				</e:Group>
+			</e:Group>
+			<e:Rect id="rectOk" width="136.67" height="47.67" x="296" y="449.33" anchorOffsetX="0" anchorOffsetY="0"/>
+
+			<e:Button id="btnClose" label="" x="285" width="148" height="49" bottom="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_doublecolor_ButtonOkNor_png" source.down="ui_doublecolor_ButtonOkSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

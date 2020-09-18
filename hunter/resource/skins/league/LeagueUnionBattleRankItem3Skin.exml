@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueUnionBattleRankItem3Skin" width="702" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="702" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_union_battle_rankLine_png" width="690" horizontalCenter="0" bottom="-10"/>
+		<e:Label id="lbSeverName" text="服务器名" size="18" textColor="0x000000" fontFamily="Helvetica" verticalCenter="0" verticalAlign="middle" textAlign="center" horizontalCenter="-243" height="20" width="100"/>
+		<e:Label id="lbUnion1" text="第一公会名" size="18" textColor="0x000000" fontFamily="Helvetica" verticalCenter="0" verticalAlign="middle" textAlign="center" horizontalCenter="-100" width="200" height="20"/>
+		<e:Label id="lbUnion2" text="第二公会名" size="18" textColor="0x000000" fontFamily="Helvetica" verticalCenter="0" verticalAlign="middle" textAlign="center" horizontalCenter="72" width="200" height="20"/>
+		<e:Label id="lbUnion3" text="第三公会名" size="18" textColor="0x000000" fontFamily="Helvetica" verticalCenter="0" verticalAlign="middle" textAlign="center" horizontalCenter="240" width="200" height="20"/>
+	</e:Group>
+</e:Skin>

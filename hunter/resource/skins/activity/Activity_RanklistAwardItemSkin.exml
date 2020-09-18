@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_RanklistAwardItemSkin" width="57" height="56" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="57" height="56">
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon" source="ui_iconresources_zuanshi1_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0"/>
+		<e:BitmapLabel id="labelNum" width="75.33" height="22" text="x123" font="ItemNumWords_fnt" anchorOffsetX="0" scaleX="0.6" scaleY="0.6" anchorOffsetY="0" textAlign="right" horizontalCenter="0" verticalCenter="14"/>
+	</e:Group>
+</e:Skin>

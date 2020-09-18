@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StoryInstanceMallItemSkin" width="508" height="102" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_storyinstance_BoardMallItem_png" y="0" x="0"/>
+		<e:Group id="groupMain" x="6" y="4">
+			<e:Image id="imageFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageIcon" source="hero_icon_head_wj_kubi_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageLogo" source="ui_icon_PieceRelation_png" scaleX="0.9" scaleY="0.9" left="0" top="0"/>
+			<e:BitmapLabel id="labelNum" width="73" height="19" anchorOffsetX="0" anchorOffsetY="0" text="123" font="ItemNum_fnt" textAlign="right" right="9" bottom="10"/>
+		</e:Group>
+		<e:Label id="labelItemName" text="物品名称" x="126" y="19" anchorOffsetX="0" width="197" anchorOffsetY="0" height="33" textColor="0x000000" size="22" verticalAlign="middle" textAlign="left" fontFamily="SimHei"/>
+		<e:Label id="labelItemType" text="消耗品" x="127" y="59" textColor="0xe18000" size="18" anchorOffsetX="0" width="92" anchorOffsetY="0" height="20"/>
+		<e:Group x="342" y="0">
+			<e:Button id="buttonNormal" label="" x="0" y="46">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_storyinstance_ButtonBuyNor_png" source.down="ui_storyinstance_ButtonBuySel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Label id="labelBuyTimes" text="(1/3)" x="16" y="52.5" anchorOffsetX="0" width="66" textColor="0x744300" size="20" anchorOffsetY="0" height="27" textAlign="center" verticalAlign="middle" touchEnabled="false"/>
+			<e:Image source="ui_tavern_BoardTipNeed_png" x="8" y="8" scaleX="0.7" scaleY="0.6"/>
+			<e:Image id="imageResoure" source="ui_iconresources_yonghengxinnian1_png" x="19" y="0" scaleX="0.55" scaleY="0.55"/>
+			<e:Label id="labelResoureNum" text="1234" x="61" y="11" anchorOffsetX="0" width="85" anchorOffsetY="0" height="31" size="22" verticalAlign="middle" textAlign="left"/>
+		</e:Group>
+		<e:Group id="groupSoldOut" x="0" y="0">
+			<e:Image id="imageMask" source="ui_storyinstance_MaskMallItem_png" y="0" x="0"/>
+			<e:Image id="imageSoldOut" source="ui_storyinstance_WordsSoldOut_png" x="361" y="3"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

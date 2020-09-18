@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityNoviceHighNextSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgbg" source="ui_arena_LayerBg_png" horizontalCenter="0" verticalCenter="0" height="100%" width="100%"/>
+	<e:Group width="914" height="593" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_acitivity_novicecontinue_BoardFloor_png" x="0" y="0"/>
+		<e:Image id="imgNpc1" left="-96" top="105" source="hero_half_wj_maqi_png" scaleX="0.9" scaleY="0.9"/>
+		<e:Image id="imgNpc2" left="-32" top="105" scaleX="-0.9" scaleY="0.9" source="hero_half_wj_kubi_png"/>
+		<e:Image source="ui_acitivity_novicecontinue_WordsTipNpc_png" left="-15" top="72"/>
+		<e:Button id="btnClose" label="" right="55" top="-5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_acitivity_novicecontinue_ButtonCloseNor_png" source.down="ui_acitivity_novicecontinue_ButtonCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image id="imgTitle" source="ui_acitivity_novicehigh_WordsTitle1_png" x="610" y="61"/>
+		<e:Image source="ui_acitivity_novicecontinue_WordsTipInfo_png" x="261" y="99"/>
+		<e:Image source="ui_acitivity_novicecontinue_BoardItemFloor_png" x="261" y="224" width="570" height="260"/>
+		<e:Group x="261" y="495">
+		<e:Image source="ui_acitivity_novicenew_BoardExpFloor_png" width="570" height="48" scale9Grid="8,6,54,36" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		<e:Image source="ui_acitivity_novicecontinue_WordsTipGes_png" verticalCenter="0" left="11"/>
+		<e:Group verticalCenter="0" left="205" width="290" height="31">
+			<e:Image source="ui_acitivity_novicecontinue_BoardExpNull_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgBar" source="ui_acitivity_novicecontinue_BoardExpFull_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgBar1" source="ui_hunter_collection_board1_png" width="290" height="31" x="0" verticalCenter="0"/>
+			<e:BitmapLabel id="labelCount" width="276" height="23" anchorOffsetX="0" anchorOffsetY="0" font="ItemNumWords_fnt" text="123/345" textAlign="center" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		</e:Group>
+		<e:List id="listViewTag" y="156" width="566" height="74" x="264">
+		<e:layout>
+			<e:TileLayout requestedRowCount="1" horizontalGap="-15" paddingLeft="-15"/>
+		</e:layout>
+		</e:List>
+		<e:Scroller width="570" height="240" x="261" y="233">
+		<e:Group>
+			<e:List id="listViewItem" width="100%" height="100%"/>
+			<e:Label text="" width="1" height="241"/>
+		</e:Group>
+		</e:Scroller>
+		<e:Group width="112" height="104" anchorOffsetX="56" anchorOffsetY="51" right="48" bottom="14">
+		<e:Button id="btnGift" label="" anchorOffsetX="56" anchorOffsetY="52" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ui_acitivity_novicecontinue_ButtonAwardNor_png" source.down="ui_acitivity_novicecontinue_ButtonAwardSel_png" source.disabled="ui_acitivity_novicecontinue_ButtonAwardDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+		<e:Group horizontalCenter="-40" bottom="25">
+		<e:Label id="labelTime" text="距离活动结束还有　天　小时　分" size="18" verticalCenter="0" horizontalCenter="0"/>
+		<e:Label id="labelTime1" text="8" size="18" textColor="0xFFD002" left="142" anchorOffsetX="0" width="22" anchorOffsetY="0" height="18" textAlign="center" verticalCenter="0"/>
+		<e:Label id="labelTime2" text="23" size="18" textColor="0xFFD002" anchorOffsetX="0" width="33" anchorOffsetY="0" height="18" textAlign="center" verticalCenter="0" right="62"/>
+		<e:Label id="labelTime3" text="8" size="18" textColor="0xFFD002" anchorOffsetX="0" width="27" textAlign="center" verticalCenter="0" right="13"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

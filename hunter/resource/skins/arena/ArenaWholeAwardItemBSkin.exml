@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaWholeAwardItemBSkin" width="637" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_mail_LayerMailSeconde_png" width="637" height="105" scale9Grid="6,10,38,62" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group verticalCenter="0" right="13">
+		<e:Image source="ui_mail_LayerMailSecondeSel_png" width="440" height="90" scale9Grid="6,10,38,62" horizontalCenter="0" verticalCenter="0"/>
+		<e:Scroller width="435" height="80" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off" verticalCenter="1" horizontalCenter="0.5">
+		<e:List id="listAward" width="440" anchorOffsetY="0" y="0" x="0" horizontalCenter="0" height="85" anchorOffsetX="0" scaleX="1.1" scaleY="1.1" top="1">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="bottom"/>
+			</e:layout>
+
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:BitmapLabel id="labelRankNumber" width="171" height="22" font="ArenaRanking_fnt" text="第21-100名" anchorOffsetX="0" anchorOffsetY="0" left="10" textAlign="center" verticalCenter="0.5"/>
+</e:Skin>

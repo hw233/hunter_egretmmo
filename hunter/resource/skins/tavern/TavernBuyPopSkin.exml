@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupWhole" width="100%" height="100%" x="0" y="0">
+	</e:Group>
+	<e:Group width="305" height="405" horizontalCenter="0" verticalCenter="0" x="328" scaleX="1" scaleY="1" bottom="117">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="305" height="405" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_mall_BoardSellMax_png" height="113" y="33" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image source="ui_mall_BoardSellMax_png" x="16" y="150"/>
+		<e:Image source="ui_card_OrnCardPopDown_png" horizontalCenter="0" bottom="0"/>
+		<e:Image source="ui_card_BoardCurrency_png" y="268" height="36" horizontalCenter="0"/>
+		<e:Button id="btnSub" label="" width="38" x="28" y="268" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedReduceSel_png" source.down="ui_button_SellMinusSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btnAdd" label="" width="38" x="145" y="268" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedAddNor_png" source.down="ui_bag_ButtonBagSelectedAddSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btnMax" label="" x="200" y="268" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedMaxNor_png" source.down="ui_bag_ButtonBagSelectedMaxSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Label id="textCount" text="999" width="43" height="31" size="25" bottom="101" textColor="0x7c502f" y="270" scaleX="1" scaleY="1" anchorOffsetX="-16.72" anchorOffsetY="-7.75" textAlign="center" horizontalCenter="-46"/>
+		<e:Label text="共计花费:" size="20" textColor="0x7c502f" width="100" height="20" left="63" bottom="72" x="60" y="312" scaleX="1" scaleY="1" bold="true"/>
+		<e:Image id="spriteCost2" source="ui_iconresources_zuanshi3_png" x="136.5" y="295.5"/>
+		<e:Label id="textCost2" text="2000" width="55.6" height="20" size="20" textColor="0x7c502f" x="185" y="312" scaleX="1" scaleY="1"/>
+		<e:Button id="btnBuy" label="" scaleX="1" scaleY="1" horizontalCenter="0" bottom="13">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_mall_ButtonMallBuyNor_png" source.down="ui_mall_ButtonMallBuySel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Label id="textInfo" text="可以用来在酒馆中招募猎人，可能获得1个资质为B、A、S的猎人" size="16" width="256" height="93" textColor="0x7c502f" y="160" scaleX="1" scaleY="1" horizontalCenter="0" bold="true" lineSpacing="5"/>
+		<e:Group id="groupBeer" width="95" height="93" x="19" y="41">
+			<e:Image id="spriteFrame" source="ui_frame_FrameHunterAsh_png" width="95" height="93" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image id="spriteIcon" source="item_Recruit1_png" x="0" y="0"/>
+			<e:Image id="spriteLogo" source="ui_other_FramePieceS_png" anchorOffsetX="0" width="19" anchorOffsetY="0" height="18" x="10" y="10" scaleX="1" scaleY="1"/>
+			<e:Label id="textNum" text="1" size="20" width="20" height="20" x="73" y="60" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Label id="textOwn" text="拥有:" size="18" width="50" height="18" textColor="0x7c502f" left="116" bottom="295" x="115.5" y="91" scaleX="1" scaleY="1" bold="true"/>
+		<e:Label id="textName" text="冰爽啤酒" width="186" height="18" size="18" textColor="0x7c502f" left="116" x="115.5" y="66" scaleX="1" scaleY="1" bold="true"/>
+		<e:Label id="labelPossessBeelNum" text="1" x="166" y="93" anchorOffsetX="0" width="49" size="18" height="18" textColor="0x7c502f"/>
+	</e:Group>
+</e:Skin>

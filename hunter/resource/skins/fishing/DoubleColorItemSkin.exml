@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DoubleColorItemSkin" width="95" height="93" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="gorupAll" verticalCenter="0" horizontalCenter="0">
+		<e:Image id="imgBoard" source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="groupIcon" horizontalCenter="0" verticalCenter="0">
+			<e:Image id="imgIcon" source="ui_exchange_IconFuritType1_png" horizontalCenter="0" scaleX="1.1" scaleY="1.1" verticalCenter="-3"/>
+			<e:BitmapLabel id="lbNameID" width="40" height="34" font="BattleSkillCDNum_fnt" text="12" verticalAlign="center" textAlign="center" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image id="imgNode" source="ui_hunter_WordsCardUpStarNode_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgEnd" source="ui_doublecolor_IconBigon_png" x="40" y="46"/>
+		<e:Group id="groupDown" width="65" height="63" horizontalCenter="0" verticalCenter="0" x="15" y="15" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

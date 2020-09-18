@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityWeekMissionThreeSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgbg" source="ui_arena_LayerBg_png" horizontalCenter="0" verticalCenter="0" height="100%" width="100%"/>
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" source="ui_acitivity_weekmission_BoardFloor3_png"/>
+		<e:Image id="SpriteTitle" x="82" y="25" source="ui_acitivity_weekmission_WordsTitle3_png"/>
+		<e:Image id="SpriteNpc" scaleX="0.95" scaleY="0.95" right="-95" bottom="34" source="hero_half_wj_kaite_png"/>
+		<e:Image left="26" top="47" source="ui_acitivity_weekmission_IconAdorn31_png"/>
+		<e:Image left="307" top="0" source="ui_acitivity_weekmission_IconAdorn32_png"/>
+		<e:Image x="541" y="38" source="ui_acitivity_weekmission_IconAdorn33_png"/>
+		<e:Image left="50" bottom="33" source="ui_acitivity_weekmission_IconAdorn34_png"/>
+		<e:Image id="SpriteTitleGift" source="ui_acitivity_weekmission_WordsTitleGift_png" y="136" horizontalCenter="0"/>
+		<e:Group id="NodeFreeAward" x="213" y="121">
+			<e:Image source="ui_acitivity_weekmission_BoardFreeInfoFloor_png" x="0" y="17"/>
+			<e:Image source="ui_acitivity_weekmission_WordsEveryDay_png" x="34" y="37"/>
+			<e:Image x="105" y="25" source="ui_acitivity_weekmission_WordsFree3_png"/>
+			<e:Image x="259" y="0" source="ui_acitivity_weekmission_IconFreeAward3_png"/>
+			<e:Group x="282" y="49">
+				<e:Image source="ui_acitivity_weekmission_BoardAwardNumFloor_png" x="0" y="0"/>
+				<e:BitmapLabel id="LabelFreeAwardNum" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="-2" font="ItemNumWords_fnt" text="x123" textAlign="center"/>
+			</e:Group>
+			<e:Group x="415" y="15">
+				<e:Button id="ButtonGetFree" label="" x="0" y="6">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_weekmission_ButtonGetFreeNor_png" source.down="ui_acitivity_weekmission_ButtonGetFreeSel_png" source.disabled="ui_acitivity_weekmission_ButtonGetFreeDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Image id="SpriteFreeAwardTips" source="ui_currencyicon_IconRed_png" x="131" y="0"/>
+			</e:Group>
+		</e:Group>
+		<e:List id="TableViewTag" width="170" height="340" x="45" y="214" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="1"/>
+			</e:layout>
+		</e:List>
+		<e:Group x="205" y="209">
+		<e:Image source="ui_acitivity_weekmission_BoardListFloor_png" y="0" width="570" height="360" scale9Grid="13,12,85,74" x="0"/>
+		<e:Scroller width="570" height="340" x="3" y="7" scrollPolicyV="on">
+			<e:List id="TableViewItem">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		</e:Group>
+		<e:Button id="ButtonClose" label="" right="20" top="70">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_acitivity_biography_ButtonCloseNor_png" source.down="ui_acitivity_biography_ButtonCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Group horizontalCenter="0" bottom="3" x="334" y="619" scaleX="1" scaleY="1">
+		<e:Label id="labelTime" text="距离活动结束还有　天　小时　分" size="18" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="labelTime1" text="8" size="18" textColor="0xFFD002" left="145" anchorOffsetX="0" width="22" anchorOffsetY="0" height="18" textAlign="center" verticalCenter="0"/>
+		<e:Label id="labelTime2" text="23" size="18" textColor="0xFFD002" left="173" anchorOffsetX="0" width="33" anchorOffsetY="0" height="18" textAlign="center" verticalCenter="0"/>
+		<e:Label id="labelTime3" text="8" size="18" textColor="0xFFD002" left="231" anchorOffsetX="0" width="27" textAlign="center" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivitySpecialGetPowerSkin" width="720" height="550" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="ui_acitivity_special_power_diban_png" />
+		<e:Group y="286" horizontalCenter="0.5">
+			<e:Image id="imgFood1" x="0" source="ui_acitivity_special_getpower_Icon1_png" verticalCenter="0" />
+			<e:Image id="imgFood2" horizontalCenter="0" verticalCenter="0" source="ui_acitivity_special_getpower_Icon3_png" />
+			<e:Image id="imgFood3" x="368" verticalCenter="0" source="ui_acitivity_special_power_liaoli3_png" />
+		</e:Group>
+		<e:Group x="98" anchorOffsetY="0" bottom="20">
+			<e:Image horizontalCenter="0" source="ui_acitivity_special_power_biaoqian_png" top="0" />
+			<e:Label id="lbPower1" text="体力 +100" size="24" fontFamily="Helvetica" verticalAlign="middle" textAlign="center"
+			         y="4" textColor="0xe8db53" horizontalCenter="0" />
+			<e:Group y="32" left="0" right="0">
+				<e:Label text="午餐：" size="20" fontFamily="Microsoft YaHei" verticalAlign="middle" textAlign="left" x="10"
+				         textColor="0xffffff" verticalCenter="0" />
+				<e:Label id="lbTime1" text="12点~14点" size="20" fontFamily="Microsoft YaHei" verticalAlign="middle" textAlign="left"
+				         textColor="0x00fcff" x="65" verticalCenter="0" />
+			</e:Group>
+			<e:Image id="imgGet1" y="70" source="ui_acitivity_special_getpower_WordsGet_png" horizontalCenter="0" />
+			<e:Group y="53" horizontalCenter="0">
+				<e:Button id="btnGet1" label="领取" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ui_acitivity_special_btn1-1_png"
+							         source.down="ui_acitivity_special_btn1-2_png" source.disabled="ui_acitivity_special_btn1-3_png" />
+							<e:Label id="labelDisplay" verticalCenter="0" textAlign="center" fontFamily="Microsoft YaHei"
+							         textColor="0x000000" horizontalCenter="0.5" size="24" verticalAlign="middle" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+
+				<e:Button id="btnBuy1" label="补领" horizontalCenter="0" verticalCenter="0" x="201" y="0" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_acitivity_special_btn1-1_png" source.down="ui_acitivity_special_btn1-2_png"/>
+						<e:Label id="labelDisplay" verticalCenter="0" textColor="0x000000" size="22" right="40" bold="true"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:BitmapLabel id="lbNum1" text="20" font="ItemNumWords_fnt" verticalCenter="-3.5" left="48" x="248" y="17" scaleX="1" scaleY="1"/>
+				<e:Image id="imgZuan1" source="ui_iconresources_zuanshi3_png" verticalCenter="0" left="0" x="200" y="3" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="298" bottom="20">
+			<e:Image source="ui_acitivity_special_power_biaoqian_png" horizontalCenter="0" top="0" />
+			<e:Label text="体力 +100" id="lbPower2" size="24" fontFamily="Helvetica" verticalAlign="middle" textAlign="center"
+			         y="3" textColor="0xe8db53" horizontalCenter="0.5" />
+			<e:Group y="32" left="0" right="0">
+				<e:Label text="晚餐" size="20" fontFamily="Microsoft YaHei" verticalAlign="middle" textAlign="left" verticalCenter="0"
+				         x="10" y="10" textColor="0xffffff" />
+				<e:Label id="lbTime2" text="18点~20点" size="20" fontFamily="Microsoft YaHei" verticalAlign="middle" textAlign="left"
+				         textColor="0x00FCFF" verticalCenter="0" x="65" />
+			</e:Group>
+			<e:Image id="imgGet2" y="70" source="ui_acitivity_special_getpower_WordsGet_png" horizontalCenter="0.5" />
+			<e:Group y="53" horizontalCenter="0">
+				<e:Button id="btnGet2" label="领取" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0.5">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ui_acitivity_special_btn1-1_png"
+							         source.down="ui_acitivity_special_btn1-2_png" source.disabled="ui_acitivity_special_btn1-3_png" />
+							<e:Label id="labelDisplay" verticalCenter="0" textAlign="center" fontFamily="Microsoft YaHei"
+							         textColor="0x000000" horizontalCenter="0.5" size="24" verticalAlign="middle" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+
+				<e:Button id="btnBuy2" label="补领" horizontalCenter="0" verticalCenter="0" x="197" y="0" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_acitivity_special_btn1-1_png" source.down="ui_acitivity_special_btn1-2_png"/>
+						<e:Label id="labelDisplay" verticalCenter="0" textColor="0x000000" size="22" right="40" bold="true"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:BitmapLabel id="lbNum2" text="20" font="ItemNumWords_fnt" verticalCenter="-3.5" left="48" x="245" y="17" scaleX="1" scaleY="1"/>
+				<e:Image id="imgZuan2" source="ui_iconresources_zuanshi3_png" verticalCenter="0" left="0" x="197" y="3" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="495" bottom="20">
+			<e:Image source="ui_acitivity_special_power_biaoqian_png" horizontalCenter="0" top="0" />
+			<e:Label id="lbPower3" text="体力 +100" size="24" fontFamily="Helvetica" verticalAlign="middle" textAlign="center"
+			         textColor="0xe8db53" horizontalCenter="0" top="3" />
+			<e:Group y="32" left="0" right="0">
+				<e:Label text="宵夜：" size="20" fontFamily="Microsoft YaHei" verticalAlign="middle" textAlign="left"
+				         verticalCenter="0" y="10" textColor="0xffffff" x="10" />
+				<e:Label id="lbTime3" text="21点~24点" size="20" fontFamily="Microsoft YaHei" verticalAlign="middle" textAlign="left"
+				         textColor="0x00FCFF" verticalCenter="0" x="65" />
+			</e:Group>
+			<e:Image id="imgGet3" y="70" source="ui_acitivity_special_getpower_WordsGet_png" horizontalCenter="0" />
+			<e:Group y="53" horizontalCenter="0">
+				<e:Button id="btnGet3" label="领取" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ui_acitivity_special_btn1-1_png"
+							         source.down="ui_acitivity_special_btn1-2_png" source.disabled="ui_acitivity_special_btn1-3_png" />
+							<e:Label id="labelDisplay" verticalCenter="0" textAlign="center" fontFamily="Microsoft YaHei"
+							         textColor="0x000000" horizontalCenter="0.5" size="24" verticalAlign="middle" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btnBuy3" label="补领" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ui_acitivity_special_btn1-1_png"
+							         source.down="ui_acitivity_special_btn1-2_png" />
+							<e:Label id="labelDisplay" verticalCenter="0" textColor="0x000000" size="22" right="40" bold="true" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:BitmapLabel id="lbNum3" text="20" font="ItemNumWords_fnt"  verticalCenter="-3.5" left="48"/>
+				<e:Image id="imgZuan3" source="ui_iconresources_zuanshi3_png" verticalCenter="0" left="0"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

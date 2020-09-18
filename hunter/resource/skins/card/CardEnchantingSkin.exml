@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardEnchantingSkin" width="417" height="345" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="417" height="345" x="0" y="0">
+		<e:Group id="groupNode" width="415" height="232" x="0" y="12" anchorOffsetY="0">
+			<e:Image id="imageScale9Sprite" source="ui_hunter_LayerSeconde_png" x="1.55" y="-1.82" width="415" height="235" scale9Grid="15,10,92,65"/>
+			<e:Image source="ui_hunter_OrnPlates2_png" x="2.05" y="12.18"/>
+			<e:Label id="labelTTF" text="选择附魔材料" x="212.05" y="29.18" width="132" height="22" anchorOffsetX="66" anchorOffsetY="11" size="22" textColor="0x000000"/>
+			<e:Image source="ui_hunter_OrnLine_png" x="11.05" y="44.18" width="391"/>
+			<e:Scroller id="ListNeedMaterial" width="400" height="90" x="7.05" y="40.18">
+				<e:Group id="groupContainer">
+					<e:Group id="groupNode_1" width="400" height="90" x="0" y="1">
+						<e:Image id="imageSpriteFrame" source="ui_frame_FrameHunterAsh_png" x="44" y="48" width="94" height="92" scaleX="0.8" scaleY="0.8" anchorOffsetX="47" anchorOffsetY="46"/>
+						<e:Button id="buttonAddMaterial" label="" x="43" y="47" width="42" height="47" anchorOffsetX="21" anchorOffsetY="23.5">
+							<e:skinName>
+								<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="ui_hunter_ButtonCardAddNor_png" source.down="ui_hunter_ButtonCardAddSel_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+								</e:Skin>
+							</e:skinName>
+						</e:Button>
+						<e:Image id="imageSpriteIcon" source="hero_icon_wj_fulankelin_png" x="45" y="46" width="71" height="72" anchorOffsetX="35.5" anchorOffsetY="36" scaleX="0.5" scaleY="0.5"/>
+					</e:Group>
+				</e:Group>
+			</e:Scroller>
+			<e:Image source="ui_hunter_OrnLine_png" x="11.05" y="135.18" width="391"/>
+			<e:Label id="labelTTF1" text="附魔效果：" x="71.05" y="164.18" textColor="0x000000" size="22" width="110" anchorOffsetX="55" anchorOffsetY="11"/>
+			<e:Label id="labelCurrentAtt" text="速度+10不翻译）" x="78.38" y="191.18" textColor="0x000000" size="16" width="123.67" anchorOffsetX="61.83" anchorOffsetY="8" height="16" rotation="0.1"/>
+			<e:Label id="labelTTF2" text="&gt;" x="140.05" y="191.18" textColor="0x000000" size="16" width="9" anchorOffsetX="4.5" anchorOffsetY="8" height="16"/>
+			<e:Label id="labelNextAtt" text="提升2-8（不翻译）" x="225.72" y="191.18" size="16" width="146.33" anchorOffsetX="73.17" anchorOffsetY="8" height="16" textColor="0xff5e02"/>
+			<e:Image source="ui_hunter_OrnLine_png" x="11.05" y="206.18" width="391"/>
+			<e:Button id="btnStart" label="" x="204.05" y="281.18" width="176" height="81" anchorOffsetX="88" anchorOffsetY="40.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonStartNor_png" source.down="ui_hunter_ButtonStartSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="labelUpStarNum" text="1000000" x="184.05" y="285.18" size="18"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

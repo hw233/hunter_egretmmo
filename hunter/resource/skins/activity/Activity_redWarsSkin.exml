@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_redWarsSkin" width="660" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="660" height="500" x="0" y="0">
+		<e:Image source="ui_acitivity_redWars_bg1_png" verticalCenter="0" width="630" height="487" right="0"/>
+		<e:Image source="ui_acitivity_WordsTipActivityTime_png" horizontalCenter="70.5" verticalCenter="40.5"/>
+		<e:Image source="ui_acitivity_WordsTipActivityInfomation_png" horizontalCenter="70.5" verticalCenter="103.5"/>
+		<e:Image source="ui_acitivity_redWars_seven_png" verticalCenter="-59" horizontalCenter="132"/>
+		<e:Label id="labelTime" text="" size="16" horizontalCenter="166.5" verticalCenter="71" anchorOffsetX="0" width="276" verticalAlign="middle" textAlign="right" height="20" fontFamily="Helvetica"/>
+		<e:Label id="labelDes" text="" size="18" verticalCenter="173" anchorOffsetX="0" width="266.67" anchorOffsetY="0" height="90" horizontalCenter="171.5" fontFamily="Helvetica"/>
+	</e:Group>
+</e:Skin>

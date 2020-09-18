@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueWarPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupTeach" width="900" height="580" horizontalCenter="0" bottom="0"/>
+		<e:Image id="SpriteOrnTip" source="ui_wonderland_OrnPkEnd_png" x="331.5" y="-65" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="SpriteBoardTip" source="ui_wonderland_BoardPkSuccess_png" x="322" y="52" scaleX="1" scaleY="1" visible="false"/>
+		<e:Group id="groupRoot" top="100" horizontalCenter="0" x="480" y="100" scaleX="1" scaleY="1"/>
+		<e:Image id="SpriteResult" source="ui_wonderland_WordsPkSuccess_png" x="379" y="54" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="SpriteZhan" source="ui_mora_WordsVS_png" horizontalCenter="0" top="186" x="410" y="186" scaleX="1" scaleY="1"/>
+		<e:Image id="SpriteFire" source="ui_wonderland_OrnVS_png" y="189" scaleX="0.5" scaleY="0.5" horizontalCenter="0" x="417"/>
+		<e:Image source="ui_wonderland_IconEndStar_png" x="228" y="62" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_wonderland_IconEndStar_png" x="692" y="131" scaleX="0.8" scaleY="0.8"/>
+		<e:Image source="ui_wonderland_IconEndStar_png" x="635" y="167" scaleX="0.4" scaleY="0.4"/>
+		<e:Group id="NodeLeft" x="85" y="165" scaleX="1" scaleY="1">
+			<e:Image source="ui_wonderland_BoardMyTeam_png" x="304.5" y="36" scaleX="-1"/>
+			<e:Group x="103.5" y="84">
+			<e:Image source="ui_wonderland_BoardBurHunterBloodBig_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="SpriteLeftHpBar" source="ui_wonderland_BurHunterBloodBig_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="SpriteLeftHpBarbg" verticalCenter="0" y="10" left="0" width="177" height="22" source="card_034renyiceshizhiB_30_png"/>
+			<e:Label id="TextHpLeft" text="Label" size="18" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group x="24.5" y="39" width="76" height="75">
+			<e:Image source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="SpriteLeftHead" source="ui_huntericon_IconKuluoluo_png" scaleX="0.8" scaleY="0.8" horizontalCenter="2" verticalCenter="-1.5"/>
+			<e:BitmapLabel id="LabelLevelNumA" text="Lv123" font="ItemNumWords_fnt" right="5" bottom="10" height="20" width="62"/>
+			</e:Group>
+			<e:Label id="LabelLeftName" text="Lv100  天下无敌" x="122" y="56.8" size="18" height="24" width="178" fontFamily="Helvetica"/>
+			<e:Group x="0" y="0">
+			<e:Image source="ui_common_BoardPowerPop_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_common_WordsPowerSmall4_png" verticalCenter="0" left="11"/>
+			<e:Label id="LabelPlayerPowerLeft" text="1234566" textColor="0xffeb00" size="18" verticalCenter="0" left="120" height="24" textAlign="left" verticalAlign="middle" fontFamily="Helvetica" width="127"/>
+			</e:Group>
+			<e:Group id="groupPetLeft" x="-99" y="30" scaleX="1" scaleY="1">
+				<e:Image id="SpritePetFrameLeft" source="ui_wonderland_kuafu_BoardFrameBule_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="SpriteIconLeft" source="ui_pet_icon_IconPet7_png" verticalCenter="0" horizontalCenter="0"/>
+				<e:Group id="NodeStarLeft" width="90" height="16" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.6" scaleY="0.6" left="27" bottom="18"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="NodeRight" x="560" y="165" scaleX="1" scaleY="1">
+			<e:Image x="0" y="36" source="ui_wonderland_BoardEnemyTeam_png"/>
+			<e:Group x="23" y="84">
+			<e:Image source="ui_wonderland_BoardBurHunterBloodBig_png" horizontalCenter="0" verticalCenter="0" scaleX="-1"/>
+			<e:Image id="SpriteRightHpBar" source="ui_wonderland_BurHunterBloodBig_png" horizontalCenter="0" verticalCenter="0" scaleX="-1"/>
+				<e:Image id="SpriteRightHpBarbg" verticalCenter="0" scaleX="-1" right="0" width="177" height="22" source="card_034renyiceshizhiB_30_png"/>
+			<e:Label id="TextHpRight" text="Label" size="18" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group x="200" y="37" width="76" height="75">
+			<e:Image source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="SpriteRightHead" source="ui_huntericon_IconKuluoluo_png" scaleX="0.8" scaleY="0.8" horizontalCenter="2" verticalCenter="-1.5"/>
+			<e:BitmapLabel id="LabelLevelNumB" text="Lv123" font="ItemNumWords_fnt" right="5" bottom="12" height="20" width="62"/>
+			</e:Group>
+			<e:Label id="LabelRightName" text="Lv100  天下无敌" y="57.8" size="18" right="226" height="24" fontFamily="Helvetica" width="166" textAlign="right"/>
+			<e:Group x="50.5" y="0">
+			<e:Image source="ui_common_BoardPowerPop_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_common_WordsPowerSmall4_png" verticalCenter="0" left="11"/>
+			<e:Label id="LabelPlayerPowerRight" text="1234566" textColor="0xFFEB00" size="18" verticalCenter="0" left="120" height="24" textAlign="left" verticalAlign="middle" fontFamily="Helvetica" width="137"/>
+			</e:Group>
+			<e:Group id="groupPetRight" x="304" y="30" scaleX="1" scaleY="1">
+				<e:Image id="SpritePetFrameRight" source="ui_wonderland_kuafu_BoardFrameBule_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="SpriteIconRight" source="ui_pet_icon_IconPet7_png" verticalCenter="0" horizontalCenter="0" scaleX="-1"/>
+				<e:Group id="NodeStarRight" width="90" height="16" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.6" scaleY="0.6" left="27" bottom="18"/>
+			</e:Group>
+		</e:Group>
+		<e:Scroller width="480" height="350" x="106" y="287" scrollPolicyV="on" scaleX="1" scaleY="1" scrollPolicyH="off">
+			<e:List id="TableViewMine" height="500">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller width="480" height="350" x="479" y="287" scrollPolicyV="on" scaleX="1" scaleY="1" scrollPolicyH="off">
+			<e:List id="TableViewOpp" height="500">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group id="NodeAdd" y="388" horizontalCenter="0" x="480" scaleX="1" scaleY="1"/>
+		<e:Button id="ButtonBlood" label="" y="506" horizontalCenter="0" x="406" scaleX="1" scaleY="1" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_ButtnoViewBloodNor_png" source.down="ui_wonderland_ButtnoViewBloodSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="ButtonHurt" label="" y="506" horizontalCenter="0" x="406" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_ButtonWonderlandViewHurtNor_png" source.down="ui_wonderland_ButtonWonderlandViewHurtSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<e:Group id="ButtonSwitch" x="575.5" y="9" scaleX="1" scaleY="1" width="226" height="36">
+			<e:Image source="ui_wonderland_BoardDontViewUI_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_instance_BoardBigon_png" verticalCenter="0" left="2"/>
+			<e:Image id="SpriteHook0" source="ui_instance_IconBigon_png" verticalCenter="0" left="3"/>
+			<e:Label text="不在显示结算界面" anchorOffsetX="0" width="213" size="18" verticalCenter="0" left="39" fontFamily="Helvetica" height="24" textAlign="left" verticalAlign="middle"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="btnClose" label="" scaleX="1" scaleY="1" width="148" height="49" horizontalCenter="0" bottom="16">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_acitivity_wish_ButtonReturnNor_png" source.down="ui_acitivity_wish_ButtonReturnSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>

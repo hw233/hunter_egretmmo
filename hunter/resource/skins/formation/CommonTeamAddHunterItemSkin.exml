@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonTeamAddHunterItemSkin" width="48" height="47" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="48" height="47">
+		<e:Image id="imgHeroFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgHeroHead" source="hero_icon_head_wj_kuluoluo_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0"/>
+		<e:Button id="btnAddTeam" label="" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonTeamAddNor_png" source.down="ui_hunter_ButtonTeamAddSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

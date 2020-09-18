@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityDoubleMouthCardSkin" width="660" height="475" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group height="463" verticalCenter="6" horizontalCenter="21">
+		<e:Image source="ui_acitivity_LayerFist_png" x="0" y="0"/>
+		<e:Image source="ui_acitivity_WordsDoubleMouthCard_png" x="13" y="-39"/>
+		<e:Image source="ui_acitivity_LayerSecondeSmall_png" height="240" scale9Grid="74,5,445,30" x="13" bottom="0"/>
+		<e:Label text="活动时间：" size="16" verticalAlign="middle" textAlign="center" fontFamily="Helvetica" x="205" y="229"/>
+		<e:Label id="lbTime" text="2015.12.05至2015.12.31" size="16" verticalAlign="middle" textAlign="center" x="286" y="230"/>
+		<e:Label id="lbInfo" text="活动内容：活动期间，同时购买初级月卡和高级月卡，可以获得免费A级猎人自选礼包哦！" x="206" y="256" anchorOffsetX="0" width="386" anchorOffsetY="0" height="111" size="16" fontFamily="Helvetica" scrollV="1" lineSpacing="4"/>
+		<e:Image source="ui_acitivity_IconDoubleMouthCardNpc_png" x="-12" y="71"/>
+		<e:Group x="197" y="338">
+			<e:Image source="ui_acitivity_BoardMouthCardB_png" x="0" verticalCenter="0"/>
+			<e:Button id="btnMouthCardA" label="" width="124" height="131" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_ButtonMonthCardBuyANor_png" source.down="ui_acitivity_ButtonMonthCardBuyASel_png" source.disabled="ui_acitivity_ButtonMonthCardBuyADis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+		</e:Group>
+		<e:Group x="394" y="338">
+			<e:Image source="ui_acitivity_BoardMouthCardA_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Button id="btnMouthCardB" label="" width="124" height="131" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_ButtonMonthCardBuyBNor_png" source.down="ui_acitivity_ButtonMonthCardBuyBSel_png" source.disabled="ui_acitivity_ButtonMonthCardBuyBDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+		</e:Group>
+		<e:BitmapLabel id="lbOne" width="200" height="20" font="WordsActivityMonthCard_fnt" text="初级月卡:000元" textAlign="center" x="188" y="305"/>
+		<e:BitmapLabel id="lbMore" width="200" height="20" font="WordsActivityMonthCard_fnt" text="高级月卡:1111元" textAlign="center" x="392" y="305"/>
+		<e:Image source="ui_acitivity_OrnDoubleMouthCardItem_png" x="278" y="90"/>
+		<e:Button id="btnGetHunter" label="" scaleX="0.8" scaleY="0.8" horizontalCenter="225" y="179.5" rotation="0" anchorOffsetX="81.5" anchorOffsetY="71.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_ButtonDoubleMouthCardNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_acitivity_IconMonthCardC_png" x="228" y="72"/>
+		<e:Image source="ui_acitivity_IconMonthCardB_png" x="292" y="72"/>
+		<e:Image source="ui_acitivity_IconMonthCardA_png" x="360" y="72"/>
+		<e:Image id="imgGetHunterTip" source="ui_acitivity_WordsDoubleMouthCardGet_png" horizontalCenter="230" verticalCenter="-93"/>
+	</e:Group>
+</e:Skin>

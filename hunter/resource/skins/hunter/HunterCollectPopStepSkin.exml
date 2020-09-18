@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterCollectPopStepSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="960" height="640">
+	<e:Rect width="100%" height="100%" alpha="0.5"/>
+	<e:Group id="father" height="124" width="130" horizontalCenter="0" verticalCenter="0" anchorOffsetX="65" anchorOffsetY="62" scaleX="1.5" scaleY="1.5">
+		<e:Image id="imgFrame" source="ui_hunter_collection_NormalFrame1_png" horizontalCenter="0" top="0"/>
+		<e:Image id="imgIcon" horizontalCenter="0" top="13" source=""/>
+		<e:Image id="imgStarBackground" source="ui_hunter_collection_BoardStarFloor5_png" horizontalCenter="0" bottom="0"/>
+		<e:Group id="groupStepStar" width="101" height="24" scaleX="1" scaleY="1" bottom="0" horizontalCenter="0">
+		<e:Image id="imgStepStar" source="ui_hunter_collection_IconStar25_png" horizontalCenter="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="father0" height="124" width="130" horizontalCenter="0" verticalCenter="0" anchorOffsetX="65" anchorOffsetY="62" scaleX="1.5" scaleY="1.5">
+		<e:Image id="imgFrame0" source="ui_hunter_collection_NormalFrame1_png" horizontalCenter="0" top="0"/>
+		<e:Image id="imgIcon0" horizontalCenter="0" top="13" source=""/>
+		<e:Image id="imgStarBackground0" source="ui_hunter_collection_BoardStarFloor5_png" horizontalCenter="0" bottom="0"/>
+		<e:Group id="groupStepStar0" width="101" height="24" scaleX="1" scaleY="1" bottom="0" horizontalCenter="0">
+		<e:Image id="imgStepStar0" source="ui_hunter_collection_IconStar25_png" horizontalCenter="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="father1" height="124" width="130" horizontalCenter="0" verticalCenter="0" anchorOffsetX="65" anchorOffsetY="62" scaleX="1.5" scaleY="1.5">
+		<e:Image id="imgFrame1" source="ui_hunter_collection_NormalFrame1_png" horizontalCenter="0" top="0"/>
+		<e:Image id="imgIcon1" horizontalCenter="0" top="13" source=""/>
+		<e:Image id="imgStarBackground1" source="ui_hunter_collection_BoardStarFloor5_png" horizontalCenter="0" bottom="0"/>
+		<e:Group id="groupStepStar1" width="101" height="24" scaleX="1" scaleY="1" bottom="0" horizontalCenter="0">
+		<e:Image id="imgStepStar1" source="ui_hunter_collection_IconStar25_png" horizontalCenter="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="father2" height="124" width="130" horizontalCenter="0" verticalCenter="0" anchorOffsetX="65" anchorOffsetY="62" scaleX="1.5" scaleY="1.5">
+		<e:Image id="imgFrame2" source="ui_hunter_collection_NormalFrame1_png" horizontalCenter="0" top="0"/>
+		<e:Image id="imgIcon2" horizontalCenter="0" top="13" source=""/>
+		<e:Image id="imgStarBackground2" source="ui_hunter_collection_BoardStarFloor5_png" horizontalCenter="0" bottom="0"/>
+		<e:Group id="groupStepStar2" width="101" height="24" scaleX="1" scaleY="1" bottom="0" horizontalCenter="0">
+		<e:Image id="imgStepStar2" source="ui_hunter_collection_IconStar25_png" horizontalCenter="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

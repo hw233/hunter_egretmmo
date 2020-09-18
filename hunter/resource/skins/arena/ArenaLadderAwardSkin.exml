@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaLadderAwardSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0.5" verticalCenter="15" width="675" height="500">
+		<e:Group id="groupCache" width="675" x="0" height="500" y="0">
+			<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="675" height="500" scale9Grid="151,57,138,46" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fishing_BoardFishingTopTip_png" top="-35" horizontalCenter="0" x="186" y="-35" scaleX="1" scaleY="1"/>
+			<e:Image top="-23" horizontalCenter="0" source="ui_arena_WordsTitleAward_png" x="280" y="-23" scaleX="1" scaleY="1"/>
+			<e:Group horizontalCenter="0" top="26" x="-1.9999999999999716" y="26" scaleX="1" scaleY="1">
+				<e:Image source="ui_arena_BoardInterPrompt_png" scaleX="1.7" horizontalCenter="0" verticalCenter="0" scale9Grid="99,13,182,17"/>
+				<e:Label id="labelRushTime" text="(每日     结算奖励)" textColor="0xff0000" size="18" verticalCenter="0" right="70"/>
+				<e:Label id="labelRank" text="4999" verticalCenter="0" left="70" textColor="0xffd500" size="22"/>
+			</e:Group>
+			<e:Image source="ui_mail_LayerMailFirst_png" width="650" scale9Grid="31,43,26,24" horizontalCenter="0" bottom="12" height="415" x="13" y="73" scaleX="1" scaleY="1"/>
+		</e:Group>
+
+
+
+
+
+		<e:Button id="btnClose" label="" right="-14" top="-31">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonCloseNor_png" source.down="ui_union_ButtonCloseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller width="637" height="400" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" bottom="20">
+			<e:List id="listAward">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Wonderland_SelectedImageSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="925" height="415" horizontalCenter="0" verticalCenter="0" scale9Grid="13,21,295,214"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" horizontalCenter="-361" top="100"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="0" top="71"/>
+		<e:Button id="btnClose" label="" top="82" right="4">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image source="ui_hunter_LayerSeconde_png" width="900" height="315" horizontalCenter="0" verticalCenter="-26.5" scale9Grid="5,5,112,75"/>
+		<e:Scroller id="scrollerViewImage" width="900" height="315" horizontalCenter="0" verticalCenter="-26.5">
+		<e:List id="listViewImage">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Button id="btnOk" label="" horizontalCenter="0" bottom="123">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_wonderland_ButtonChangeImageOkNor_png" source.down="ui_wonderland_ButtonChangeImageOkSel_png" source.disabled="ui_wonderland_ButtonChangeImageOkSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image source="ui_wonderland_WordsChangeImage_png" horizontalCenter="0" top="82"/>
+	</e:Group>
+</e:Skin>

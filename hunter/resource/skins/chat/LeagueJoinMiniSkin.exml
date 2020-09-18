@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueJoinMiniSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="960" height="640">
+	<e:Group id="JoinGuild" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" x="0" y="30" height="460" anchorOffsetX="0" width="350" anchorOffsetY="0" scale9Grid="9,18,299,219"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" x="13" y="17"/>
+		<e:Image source="ui_union_MiniTop_png" x="5" y="46"/>
+		<e:Image source="ui_union_MiniWords_png" x="128" y="57"/>
+		<e:Button id="ButtonClose" label="" x="273" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group x="12" y="59">
+			<e:Image id="SpriteFrame" source="ui_frame_BoardUnionFrame_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="SpriteHead" source="league_icon_gonghuitouxiang1_png" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="107" y="114">
+			<e:Image source="ui_union_BoardUnionName_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="TextUnionName" text="帮会名字" size="20" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image id="SpriteUnionRank" source="ui_union_battle_star33_png" right="23" bottom="344"/>
+		<e:Group x="15" y="162">
+			<e:Image source="ui_union_BoardUnionInfomation_png" y="0" width="320" height="90" scale9Grid="8,7,50,42" x="0"/>
+			<e:Group x="5" y="5">
+			<e:Image source="ui_union_BoardUnionInfoOne_png" width="310" height="25" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_union_IconLevel_png" x="4" verticalCenter="0.5"/>
+			<e:Label id="UnionLevel" text="等级：" x="29" size="18" textColor="0x2e3a1e" bold="true" fontFamily="SimHei" verticalCenter="0"/>
+			<e:Label id="TextUnionLevel" text="33" x="81" size="18" textColor="0xaf320c" verticalCenter="0"/>
+			</e:Group>
+			<e:Group x="5" y="32">
+			<e:Image source="ui_union_BoardUnionInfoOne_png" width="310" height="25" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image x="5" verticalCenter="0.5" source="ui_union_IconNumber_png"/>
+			<e:Label id="UnionNumber" text="人数：" x="30" size="18" textColor="0x2E3A1E" bold="true" fontFamily="SimHei" verticalCenter="0.5"/>
+			<e:Label id="TextUnionNum" text="33" x="82" size="18" textColor="0xAF320C" verticalCenter="0.5"/>
+			</e:Group>
+			<e:Group x="5" y="59">
+			<e:Image source="ui_union_BoardUnionInfoOne_png" x="0" width="310" height="25" verticalCenter="0"/>
+			<e:Image x="5" verticalCenter="0" source="ui_union_IconLimit_png"/>
+			<e:Label id="UnionLimit" text="加入条件：" x="30" size="18" textColor="0x2E3A1E" bold="true" fontFamily="SimHei" verticalCenter="0"/>
+			<e:Label id="TextUnionLimit" text="33" x="115" size="18" textColor="0xAF320C" verticalCenter="0.5"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="14" y="264">
+			<e:Image source="ui_union_BoardAnnouncement_png" width="320" height="150" scale9Grid="11,7,68,45" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group horizontalCenter="0" top="0">
+			<e:Image source="ui_union_BoardNoticeTitle_png" width="320" height="35" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="SpriteSelect" source="ui_union_WordsNotice_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Label id="TextNotice" text="asfwe r hsardh fdh edhgerfgh df " y="38" anchorOffsetX="0" width="310" anchorOffsetY="0" height="108" horizontalCenter="0" size="18" textColor="0x42664d"/>
+			<e:Label id="UnionLeader" text="会长：" x="154" y="127" textColor="0x42664d" size="18" fontFamily="SimHei" bold="true"/>
+			<e:Label id="TextUnionLeader" text="一二三四五六" x="203" y="128" textColor="0x42664d" size="18" fontFamily="SimHei" bold="true"/>
+		</e:Group>
+		<e:Button id="ButtonApplication" label="" y="427" x="103">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonApplicationMiniNor_png" source.down="ui_union_ButtonApplicationMiniSel_png" source.disabled="ui_union_ButtonApplicationMiniDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Dialog_MainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupUI" width="100%" height="100%" touchEnabled="true" horizontalCenter="0" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Image width="100%" height="100%" source="ui_common_mask_black_jpg" horizontalCenter="0" verticalCenter="0" alpha="0.4"/>
+			<e:Group width="960" height="448" left="0" bottom="0">
+				<e:Group id="groupLeft" width="960" height="448" touchEnabled="false" x="0" y="0" scaleX="1" scaleY="1">
+					<e:Image id="imgBGL" anchorOffsetX="375" horizontalCenter="52" bottom="0" source="ui_dialog_BoardBigNew_png"/>
+					<e:Image id="imgLeftHand" source="hero_half_wj_huizhang_png" left="-64" bottom="-35"/>
+					<e:Group id="groupHeadLeft" width="404" height="447" anchorOffsetX="0" anchorOffsetY="0" left="0" bottom="0" x="0" y="1" scaleX="1" scaleY="1"/>
+					<e:Image id="imgNameL" source="ui_dialog_BoardName_png" left="57" bottom="0"/>
+					<e:Label id="labelNameL" text="NPC" size="20" height="34" textAlign="center" verticalAlign="middle" left="72" bottom="0" anchorOffsetX="0" width="198"/>
+					<e:Label id="lableContentL" text="建校费加上叫你金币赚的学费，你现在总共欠我一二三四五六七个金币" anchorOffsetX="0" width="438.58" anchorOffsetY="0" textColor="0x411a03" size="18" bold="true" lineSpacing="4" left="414" top="299" height="130"/>
+					<e:Group id="groupAniL" height="60" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" bottom="21" width="60" left="794"/>
+				</e:Group>
+			</e:Group>
+			<e:Group width="960" height="448" right="0" bottom="0">
+				<e:Group id="groupRight" width="960" height="448" x="2.66" touchEnabled="false" y="0" scaleX="1" scaleY="1">
+					<e:Image id="imgBGR" anchorOffsetX="375" bottom="0" y="236" scaleX="-1" scaleY="1" horizontalCenter="-15" source="ui_dialog_BoardBigNew_png"/>
+					<e:Image id="imgRightHand" source="hero_half_wj_jidou_png" right="-101" bottom="-35" scaleX="-1"/>
+					<e:Group id="groupHeadRight" height="447" anchorOffsetX="0" anchorOffsetY="0" bottom="0" right="8" width="404" x="556" y="1" scaleX="1" scaleY="1"/>
+					<e:Image id="imgNameR" source="ui_dialog_BoardName_png" bottom="0" right="16" width="248"/>
+					<e:Label id="labelNameR" text="NPC" size="20" height="34" textAlign="center" verticalAlign="middle" bottom="0" right="37" width="212" anchorOffsetX="0"/>
+					<e:Label id="lableContentR" text="建校费加上叫你金币赚的学费，你现在总共欠我一二三四五六七个金币" width="481.58" anchorOffsetY="0" size="18" bold="true" lineSpacing="4" right="335" top="300" height="130" verticalAlign="top" border="false" textColor="0x411a21"/>
+					<e:Group id="groupAniR" height="60" anchorOffsetX="0" anchorOffsetY="0" bottom="19" y="1" scaleX="1" scaleY="1" width="60" right="759"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="btnContinue" width="100%" height="448" horizontalCenter="0" bottom="0"/>
+			<e:Button id="btnSkip" label="" top="66" left="42" width="127">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_dialog_ButtonTiaoguoNor_png" source.down="ui_dialog_ButtonTiaoguoSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

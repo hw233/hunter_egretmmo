@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DebugDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_login_BoardXuanQuFloor_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="btnClose" label="" horizontalCenter="343" verticalCenter="-212">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_login_ButtonSecetedQuCloseNor_png" source.down="ui_login_ButtonSecetedQuCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnUpLevel" label="升满级" horizontalCenter="-172" verticalCenter="-40">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_login_ButtonQuSel_png" source.down="ui_login_ButtonQuNor_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnShare" label="分享" horizontalCenter="184" verticalCenter="-40">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_login_ButtonQuSel_png" source.down="ui_login_ButtonQuNor_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnFight" label="战斗" horizontalCenter="-172" verticalCenter="52">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_login_ButtonQuSel_png" source.down="ui_login_ButtonQuNor_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnPay" label="支付" horizontalCenter="184" verticalCenter="52">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_login_ButtonQuSel_png" source.down="ui_login_ButtonQuNor_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnClearCache" label="清除缓存数据" horizontalCenter="-172" verticalCenter="138">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_login_ButtonQuSel_png" source.down="ui_login_ButtonQuNor_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnRestart" label="重启游戏" horizontalCenter="184" verticalCenter="138">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_login_ButtonQuSel_png" source.down="ui_login_ButtonQuNor_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

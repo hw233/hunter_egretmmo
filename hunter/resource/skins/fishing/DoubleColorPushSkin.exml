@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DoubleColorPushSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_doublecolor_WordsTipBetInfo_png" y="117.37" horizontalCenter="0" visible="false"/>
+	<e:Group horizontalCenter="7" verticalCenter="-17">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="600" height="465" scale9Grid="116,30,175,91" verticalCenter="17.5" horizontalCenter="-7"/>
+		<e:Button id="btnClose" label="" right="0" top="3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="-7" top="0"/>
+		<e:Image source="ui_doublecolor_WordsTitle_png" horizontalCenter="-7" top="11"/>
+		<e:Image source="ui_doublecolor_BoardFloor1_png" scaleX="1.15" horizontalCenter="-7" top="83"/>
+		<e:Image source="ui_doublecolor_BoardListAward_png" width="560" height="105" scale9Grid="12,9,79,54" horizontalCenter="-7" verticalCenter="-83.5"/>
+		<e:Image source="ui_doublecolor_BoardFloor1_png" scaleX="1.15" horizontalCenter="-7" verticalCenter="23.5"/>
+		<e:Image source="ui_doublecolor_BoardListAward_png" width="560" height="105" scale9Grid="12,9,79,54" horizontalCenter="-7" verticalCenter="91.5"/>
+		<e:Scroller width="500" height="100" scrollPolicyH="off" scrollPolicyV="off" verticalCenter="-83" horizontalCenter="-7">
+			<e:List id="lstA">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" requestedColumnCount="5" columnWidth="90"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller width="500" height="100" scrollPolicyH="off" scrollPolicyV="off" verticalCenter="94" horizontalCenter="-7">
+			<e:List id="lstB">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" requestedColumnCount="5" columnWidth="95"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label text="昨日投注开奖结果" textColor="0xfefe00" size="18" fontFamily="Helvetica" horizontalCenter="-203" top="90"/>
+		<e:Label text="我的投注结果" size="18" fontFamily="Helvetica" horizontalCenter="-222" verticalCenter="23"/>
+		<e:Image source="ui_doublecolor_BoardFloor2_png" horizontalCenter="-7" bottom="34"/>
+		<e:Label id="lbMy" text="我的投注结果：未中奖" textColor="0xff3520" size="20" fontFamily="Helvetica" y="437" horizontalCenter="-7"/>
+	</e:Group>
+</e:Skin>

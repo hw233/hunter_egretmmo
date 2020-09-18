@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaWholeSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgbg" source="ui_arena_LayerBg_png" horizontalCenter="0" verticalCenter="0" height="100%" scaleX="1" scaleY="1" width="100%"/>
+	<e:Image source="ui_chat_OrnTop_png" height="40" horizontalCenter="0" top="0" scale9Grid="10,5,66,31" left="-90" right="-90"/>
+	<e:Button id="btnClose" label="" left="-23" top="-11">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image left="115" top="0" source="ui_arena_WordsTipArenaB_png"/>
+	<e:Button id="btnInfor" label="" left="318" top="5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_arena_ButtonRuleNor_png" source.down="ui_arena_ButtonRuleSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group height="25" top="7" right="180">
+		<e:Image source="ui_hunter_BoardRecources_png" x="2" y="0.5" scaleX="2"/>
+		<e:Label id="labelTimesTitle" text="挑战次数：" x="24" size="20" verticalCenter="0.5"/>
+		<e:Label id="labelTimes" text="113/133" x="114" size="20" verticalCenter="0.5"/>
+		<e:Button id="btnAddGemsTone" label="" right="-10" x="247" scaleX="1" scaleY="1" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+
+
+
+	<e:Image source="ui_arena_OrnInterBpardEnemyInfo_png" x="463.49" y="269" visible="false"/>
+
+
+	<e:Group horizontalCenter="0" width="925" height="550" verticalCenter="15">
+		<e:Group left="0" verticalCenter="6.5" width="350" height="537">
+			<e:Image source="ui_hunter_LayerCurrencyFirst_png" height="537" scale9Grid="120,55,182,169" width="350" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group top="-13" horizontalCenter="0">
+			<e:Image source="ui_arena_BoardInterCurrencyGrade_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgGrade" source="ui_arena_grade_WordsDailyGrade9_png" scaleX="1" scaleY="1" verticalCenter="0" right="18"/>
+			<e:Image source="ui_arena_WordsGradeCurrency_png" verticalCenter="0" left="15"/>
+			</e:Group>
+			<e:Group top="20" horizontalCenter="0" width="318" height="313">
+			<e:Image source="ui_hunter_LayerSeconde_png" width="318" height="313" scale9Grid="15,10,92,65" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_arena_OrnGrade_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Group width="0" height="0" horizontalCenter="0" top="73">
+					<e:Image id="iconLevel1" source="ui_arena_grade_WordGradepic1_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+			<e:Image id="iconLevel" horizontalCenter="0" top="-13" anchorOffsetX="73" anchorOffsetY="86" source="ui_arena_grade_WordGradepic1_png"/>
+			<e:Label id="labelJiFenNeed" text="在获取20积分可升至2段" size="20" horizontalCenter="0" verticalCenter="-5" textColor="0x0f8e20" bold="true"/>
+			<e:Group horizontalCenter="0" y="166" width="278">
+				<e:Image id="imgExpNull" source="ui_arena_BoardExpNull_png" y="0" height="32" x="0"/>
+				<e:Image id="imgExp" source="ui_arena_BoardExpFull_png" y="0" x="0"/>
+				<e:Image id="imgExpOne" source="ui_hunter_collection_board1_png" width="278" height="32"/>
+
+				<e:Label id="labelJiFen" text="当前积分：1800/2000" size="20" verticalCenter="0" horizontalCenter="0" textColor="0xffcf00"/>
+			</e:Group>
+			<e:Group horizontalCenter="0" bottom="79" height="27">
+				<e:Image source="ui_arena_BoardInterJifenRanking_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="ui_arena_WordsRankServer_png" left="30" verticalCenter="0"/>
+				<e:Label id="labelMyRankServer" text="2000名以外" size="22" left="148" verticalCenter="0" textAlign="left"/>
+			</e:Group>
+			<e:Group horizontalCenter="0" bottom="43">
+				<e:Image source="ui_arena_BoardInterJifenRanking_png" y="0" x="0"/>
+				<e:Image source="ui_arena_WordsRankWorld_png" verticalCenter="0" left="30"/>
+				<e:Label id="labelMyRank" text="2000名以外" size="22" left="148" verticalCenter="0" x="143" y="-97" scaleX="1" scaleY="1" textAlign="left"/>
+			</e:Group>
+			<e:Group horizontalCenter="0" bottom="8" height="27">
+				<e:Image source="ui_arena_BoardInterJifenRanking_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="ui_arena_WordsHonor_png" left="30" verticalCenter="0"/>
+				<e:Image source="ui_iconresources_rongyubi3_png" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+				<e:Label id="labelMyHonor" text="999999" size="20" verticalCenter="0" left="175"/>
+			</e:Group>
+			</e:Group>
+			<e:Image source="ui_daily_OrnInfo_png" x="29" y="333"/>
+			<e:Group bottom="18" left="20" right="20" top="346">
+			<e:Button id="btnTeam" label="" left="0" top="0" width="148" height="49">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_ButtonInterTeamNor_png" source.down="ui_arena_ButtonInterTeamSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnMall" label="" right="0" top="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_ButtonInterMallNor_png" source.down="ui_arena_ButtonInterMallSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgTips1" source="ui_currencyicon_IconRed_png" right="-10" top="-10"/>
+			<e:Button id="btnRankServer" label="" left="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_ButtonRankServerNewNor_png" source.down="ui_arena_ButtonRankServerNewSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnRank" label="" right="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_ButtonRankWorldNewNor_png" source.down="ui_arena_ButtonRankWorldNewSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnGetAward" label="" left="0" bottom="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_ButtonInterAwardNewNor_png" source.down="ui_arena_ButtonInterAwardNewSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnBattleView" label="" right="0" bottom="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_ButtonInterBattleNewNor_png" source.down="ui_arena_ButtonInterBattleNewSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgTips2" source="ui_currencyicon_IconRed_png" right="-10" bottom="35" height="24"/>
+			</e:Group>
+		</e:Group>
+		<e:Group width="80" height="110" right="45" bottom="5">
+			<e:Button id="btnSelectEnemy" label="" bottom="0" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_arena_ButtonChangePlayerNewNor_png" source.down="ui_arena_ButtonChangePlayerNewSel_png" source.disabled="ui_arena_ButtonChangePlayerNewDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Label id="labelChangeTime" text="Sample Text" size="18" horizontalCenter="0" top="0"/>
+		</e:Group>
+		<e:Group right="0" top="0">
+			<e:Image source="ui_arena_BoardSeasonFloor_png" horizontalCenter="0" top="0"/>
+			<e:Image source="ui_arena_WordsSeason_png" top="1" horizontalCenter="0.5"/>
+			<e:BitmapLabel id="labelSeasonNumber" width="60" height="20" text="555" font="SkyArenaLayerNum_fnt" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-10" top="6" textAlign="center"/>
+			<e:Label text="周一10点 至 周日22点" y="33" size="18" textColor="0x51f700" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group right="166" bottom="27">
+			<e:Group id="groupTai1" width="1" height="1" y="348.01" anchorOffsetX="0" anchorOffsetY="0" left="0"/>
+			<e:Group id="groupTai2" width="1" height="1" x="233" y="213.01" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Group id="groupHero0" width="10" height="10" x="4" y="284.67"/>
+			<e:Group id="groupHero1" width="10" height="10" x="212" y="131.67"/>
+			<e:Group id="groupHero2" width="10" height="10" x="13.01" y="0"/>
+		</e:Group>
+	</e:Group>
+
+
+</e:Skin>

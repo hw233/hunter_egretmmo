@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<e:Skin class="CCSprite" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupLayer" left="0" top="0" bottom="0" right="0">
+		<e:Image id="imgSprite" source="ui_hunter_LayerHeroBg_png" width="100%" height="100%" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgSprite_1" source="ui_chat_OrnTop_png" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="49" horizontalCenter="0" top="0" scale9Grid="36,17,6,8"/>
+		<e:Image id="imgSprite_2" source="ui_hunterpokedex_WordsTipHunterPokedex_png" x="113.36" y="8.5"/>
+
+		<e:Group right="180" top="14" >
+			<e:Image id="imgSprite_3" source="ui_hunterpokedex_WordsTipCollet_png" y="0" x="0"/>
+			<e:Label id="labelCardBur" text="11/12" y="2.63" size="20" textColor="0xffffff" x="56"/>
+		</e:Group>
+		<e:Group id="groupAdaptBoard" anchorOffsetX="0" anchorOffsetY="0" width="960" height="640" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="groupTeach1" width="600" height="474" anchorOffsetX="0" anchorOffsetY="0" left="332" bottom="28"/>
+			<e:Image id="imgScale9Sprite" source="ui_hunterpokedex_BoardBgFirst_png" anchorOffsetX="0" width="930" anchorOffsetY="0" height="500" left="13" bottom="15"/>
+			<e:Group id="CC_Sprite" x="23.91" y="70.83" anchorOffsetX="0" width="910" >
+				<e:Image id="imgSprite_1_1" source="ui_hunterpokedex_BoardListHunterType_png" x="0" y="4.63" anchorOffsetX="0" width="910" height="55"/>
+				<e:Button id="btnHunterGroup1" label="" x="1" y="-3">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunterpokedex_ButtonType1Nor_png" source.down="ui_hunterpokedex_ButtonType1Sel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgSpriteRedIcon1" source="ui_currencyicon_IconRed_png" x="129.91" y="11.66" width="20" height="20"/>
+				<e:Button id="btnHunterGroup2" label="" x="149.99" y="-3">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunterpokedex_ButtonType2Nor_png" source.down="ui_hunterpokedex_ButtonType2Sel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgSpriteRedIcon2" source="ui_currencyicon_IconRed_png" x="276.25" y="12.66" width="20" height="20"/>
+				<e:Button id="btnHunterGroup3" label="" x="299.94" y="-3">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunterpokedex_ButtonType3Nor_png" source.down="ui_hunterpokedex_ButtonType3Sel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgSpriteRedIcon3" source="ui_currencyicon_IconRed_png" x="425.91" y="12.66" width="20" height="20"/>
+				<e:Button id="btnHunterGroup4" label="" x="450.93" y="-3">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunterpokedex_ButtonType4Nor_png" source.down="ui_hunterpokedex_ButtonType4Sel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgSpriteRedIcon4" source="ui_currencyicon_IconRed_png" x="576.24" y="13.65" width="20" height="20"/>
+				<e:Button id="btnHunterGroup5" label="" x="600.23" y="-3">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunterpokedex_ButtonType5Nor_png" source.down="ui_hunterpokedex_ButtonType5Sel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgSpriteRedIcon5" source="ui_currencyicon_IconRed_png" x="723.53" y="11.65" width="20" height="20"/>
+				<e:Button id="btnHunterGroup6" label="" x="750.15" y="-3">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunterpokedex_ButtonType6Nor_png" source.down="ui_hunterpokedex_ButtonType6Sel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgSpriteRedIcon6" source="ui_currencyicon_IconRed_png" x="880.16" y="10.65" width="20" height="20"/>
+			</e:Group>
+			<e:Image id="imgGroup_CCSprite" source="ui_hunterpokedex_BoardBgSeconde_png" x="181.99" y="146.65" anchorOffsetX="0" width="522" anchorOffsetY="0" height="347"/>
+			<e:Image id="imgSpriteHunterDpt" source="ui_hunterpokedex_WordsType4_png" x="356.38" y="180.75" anchorOffsetX="0" width="143" anchorOffsetY="0" height="140"/>
+			<e:Group id="groupLayerHunter1" x="445.09" y="194.14"  visible="false">
+				<e:Image id="imgSprite_10071" source="hero_half_wj_bianshenbi_png" x="171.91" y="-48.14" scaleX="0.45" scaleY="0.45"/>
+			<e:Image id="imgSprite_10066" source="hero_half_wj_leishenqiya_png" x="-41.2" y="-37" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10018" source="hero_half_wj_xiba_png" x="244.76" y="-6.44" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10019" source="hero_half_wj_jienuo_png" x="306.84" y="136.92" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10033" source="hero_half_wj_xisuo_png" x="46.41" y="7.85" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10040" source="hero_half_wj_bisiji_png" x="-55.98" y="78.99" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.45" scaleY="0.45"/>
+			<e:Image id="imgSprite_10001" source="hero_half_wj_qiya_png" x="185.12" y="59.7" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.45" scaleY="0.45"/>
+			<e:Image id="imgSprite_10010" source="hero_half_wj_dongba_png" x="-136.62" y="156.06" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10027" source="hero_half_wj_shadasuo_png" x="64.32" y="134.59" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10011" source="hero_half_wj_feitan_png" x="6.33" y="168.67" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.33" scaleY="0.33"/>
+			<e:Image id="imgSprite_10057" source="hero_half_mogu_yixing_png" x="-92" y="80" anchorOffsetX="0" width="97" anchorOffsetY="0" height="83"/>
+			<e:Image id="imgSprite_10058" source="hero_half_mogu_erxing_png" x="-24.1" y="250.34" anchorOffsetX="0" width="110" anchorOffsetY="0" height="98" scaleX="0.8" scaleY="0.8"/>
+			<e:Image id="imgSprite_10045" source="hero_half_gw_anshazhe_png" x="250.28" y="164.17" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.35" scaleY="0.35"/>
+			<e:Image id="imgSprite_10023" source="hero_half_wj_maqi_png" x="146.53" y="134.44" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10059" source="hero_half_mogu_sanxing_png" x="351.55" y="238.18" anchorOffsetX="0" width="107" anchorOffsetY="0" height="94"/>
+			</e:Group>
+			<e:Group id="groupLayerHunter2" x="333.82" y="139.58" anchorOffsetX="0" width="581" anchorOffsetY="0" height="365"  visible="false">
+			<e:Image id="imgSprite_10061" source="hero_half_wj_molaowu_png" x="167" y="25" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.5" scaleY="0.5"/>
+				<e:Image id="imgSprite_10030" source="hero_half_wj_xiake_png" x="-67" y="40" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10025" source="hero_half_wj_miji_png" x="44.32" y="112.57" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10004" source="hero_half_wj_yiermi_png" x="251.03" y="75.73" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10051" source="hero_half_gw_zhapianfan_png" x="144.41" y="194" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10020" source="hero_half_wj_kete_png" x="236.82" y="189.1" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10042" source="hero_half_wj_hudie_png" x="578.39" y="203.64" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" rotation="359.96" scaleX="-0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10047" source="hero_half_gw_egun_png" x="-48.36" y="204" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10002" source="hero_half_wj_zhixi_png" x="335.92" y="263.67" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.25" scaleY="0.25"/>
+			<e:Image id="imgSprite_10052" source="hero_half_gw_zonghuofan_png" x="84.74" y="233.64" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.33" scaleY="0.33"/>
+			</e:Group>
+			<e:Group id="groupLayerHunter3" x="334.9" y="139.49" anchorOffsetX="0" width="582" anchorOffsetY="0" height="367"  visible="false">
+				<e:Image id="imgSprite_10073" source="hero_half_wj_yinda_png" x="-25" y="66" scaleX="0.45" scaleY="0.45"/>
+			<e:Image id="imgSprite_10037" source="hero_half_wj_leizha_png" x="101.98" y="80.21" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10013" source="hero_half_wj_fulankelin_png" x="290.07" y="41.03" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10006" source="hero_half_wj_saci_png" x="-57.6" y="201.33" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.38" scaleY="0.38"/>
+			<e:Image id="imgSprite_10063" source="hero_half_wj_nakulu_png" x="112.59" y="170.53" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.45" scaleY="0.45"/>
+			<e:Image id="imgSprite_10031" source="hero_half_wj_leiouli_png" x="18.32" y="169.52" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.45" scaleY="0.45"/>
+			<e:Image id="imgSprite_10022" source="hero_half_wj_libeiduo_png" x="275.71" y="119.67" anchorOffsetX="0" width="662" anchorOffsetY="0" height="601" scaleX="0.45" scaleY="0.45"/>
+			<e:Image id="imgSprite_10024" source="hero_half_wj_menqi_png" x="425.11" y="198.19" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.38" scaleY="0.38"/>
+			<e:Image id="imgSprite_10039" source="hero_half_wj_xuanlv_png" x="244.44" y="245.19" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.3" scaleY="0.3"/>
+			</e:Group>
+			<e:Group id="groupLayerHunter4" x="328.38" y="141.6" anchorOffsetX="0" width="595" anchorOffsetY="0" height="366"  visible="false">
+				<e:Image id="imgSprite_10072" source="hero_half_wj_palisitong_png" x="277.32" y="-4.1" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10068" source="hero_half_wj_sikai_png" x="83.13" y="65" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10041" source="hero_half_wj_ganshu_png" x="179.13" y="83.66" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10050" source="hero_half_gw_shuishou_png" x="317.87" y="92.66" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10016" source="hero_half_wj_boluoliefu_png" x="44" y="190.59" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10003" source="hero_half_wj_xiaodi_png" x="120.22" y="189.91" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10049" source="hero_half_gw_haozhu_png" x="594" y="198.9" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="-0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10005" source="hero_half_wj_kaite_png" x="283.18" y="189.39" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10034" source="hero_half_wj_kulapika_png" x="217.63" y="219.74" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.35" scaleY="0.35"/>
+			<e:Image id="imgSprite_10021" source="hero_half_wj_kubi_png" x="-54.99" y="190.77" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.4" scaleY="0.4"/>
+			</e:Group>
+			<e:Group id="groupLayerHunter5" x="336.75" y="143.76" anchorOffsetX="0" width="591" anchorOffsetY="0" height="363"  visible="false">
+			<e:Image id="imgSprite_10060" source="hero_half_wj_heijie_png" x="-77.04" y="14" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.55" scaleY="0.55"/>
+			<e:Image id="imgSprite_10043" source="hero_half_wj_renma_png" x="245.81" y="-3.69" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.55" scaleY="0.55"/>
+			<e:Image id="imgSprite_10035" source="hero_half_wj_huizhang_png" x="126.2" y="-1.38" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10007" source="hero_half_wj_wojin_png" x="41.06" y="74.87" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10028" source="hero_half_wj_xinchang_png" x="613.93" y="61.36" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="-0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10012" source="hero_half_wj_fenkesi_png" x="345.78" y="111.72" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10008" source="hero_half_wj_banzang_png" x="174.67" y="115.85" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgSprite_10014" source="hero_half_wj_huashidoulang_png" x="280.4" y="191.31" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10015" source="hero_half_wj_jidou_png" x="-31.57" y="190.37" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10032" source="hero_half_wj_xiaojie_png" x="90.21" y="226.74" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.32" scaleY="0.32"/>
+			<e:Image id="imgSprite_10046" source="hero_half_gw_chuanzhang_png" x="611.31" y="193.28" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="-0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10029" source="hero_half_wj_yungu_png" x="164.12" y="212.01" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.35" scaleY="0.35"/>
+			<e:Image id="imgSprite_10055" source="hero_half_wj_pangmu_png" x="99" y="192" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="-0.4" scaleY="0.4"/>
+			</e:Group>
+			<e:Group id="groupLayerHunter6" x="334.9" y="140" anchorOffsetX="0" width="596" anchorOffsetY="0" height="381" >
+				<e:Image id="imgSprite_10070" source="hero_half_wj_yihou_png" x="310" y="-1" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgSprite_10067" source="hero_half_wj_jin_png" x="182.98" y="46.16" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.36" scaleY="0.36"/>
+				<e:Image id="imgSprite_10064" source="hero_half_wj_meileiweng_png" x="392" y="38" scaleX="0.36" scaleY="0.36"/>
+			<e:Image id="imgSprite_10062" source="hero_half_wj_hongyan_png" x="54.03" y="92.02" anchorOffsetX="0" width="502" anchorOffsetY="0" height="387" scaleX="0.36" scaleY="0.36"/>
+			<e:Image id="imgSprite_10065" source="hero_half_wj_yalujia_png" x="-49.3" y="100.58" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.36" scaleY="0.36"/>
+			<e:Image id="imgSprite_10026" source="hero_half_wj_paike_png" x="283.67" y="138.84" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="-0.36" scaleY="0.36"/>
+			<e:Image id="imgSprite_10036" source="hero_half_wj_wang_png" x="479.11" y="71.84" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="-0.45" scaleY="0.45"/>
+			<e:Image id="imgSprite_10069" source="hero_half_wj_nanijia_png" x="182.42" y="135.15" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.41" scaleY="0.41"/>
+			<e:Image id="imgSprite_10038" source="hero_half_wj_niweng_png" x="574.4" y="133.58" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="-0.36" scaleY="0.36"/>
+			<e:Image id="imgSprite_10048" source="hero_half_gw_fuchouzhe_png" x="-17.28" y="193.26" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.41" scaleY="0.41"/>
+			<e:Image id="imgSprite_10054" source="hero_half_gw_jianxiguanjia_png" x="117.74" y="230.42" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.34" scaleY="0.34"/>
+			<e:Image id="imgSprite_10044" source="hero_half_wj_maonv_png" x="359.1" y="249.16" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="-0.3" scaleY="0.3"/>
+			<e:Image id="imgSprite_10053" source="hero_half_gw_guanjia_png" x="398.15" y="227.78" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.34" scaleY="0.34"/>
+			<e:Image id="imgSprite_10017" source="hero_half_wj_kuluoluo_png" x="267.71" y="211.47" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.36" scaleY="0.36"/>
+			<e:Image id="imgSprite_10056" source="hero_half_wj_xiaomai_png" x="-29.65" y="234.54" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.32" scaleY="0.32"/>
+			</e:Group>
+			<e:Group id="groupLayerWholeAttri" x="293.72" y="510.71" anchorOffsetY="0" height="85" anchorOffsetX="0" width="661.67" >
+			<e:Image id="imgCCSprite_1_2" source="ui_hunterpokedex_BoardAttTip_png" x="-24.82" y="14.28" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="42" scaleX="1.1"/>
+			<e:Label id="labelWholeAttri1" text="攻击+100%" x="173.78" y="28.03" size="18" textColor="0x00f900"/>
+			<e:Label id="labelWholeAttri2" text="攻击+100%" x="314.67" y="28.03" size="18" textColor="0x00f900"/>
+			<e:Label id="labelWholeAttri3" text="攻击+100%" x="441.83" y="28.03" size="18" textColor="0x00f900"/>
+			<e:Label id="labelTitle" text="累计加成：" x="74.67" y="28.03" size="18" bold="true" textColor="0xffffff"/>
+			<e:Label id="labelTips" text="激活的属性只对本系猎人有加成效果，且只在战斗中生效" x="91.32" y="67.52" size="18" fontFamily="FangSong" bold="true" textColor="0xffffff"/>
+			</e:Group>
+			<e:Group id="groupCardBag" x="147.2" y="532.85" anchorOffsetY="42" height="85.49" anchorOffsetX="117" visible="false">
+				<e:Image id="imgSel" source="ui_hunterpokedex_ButtonHunterListNor_png" x="0" y="-1.98" anchorOffsetX="0" width="237.67" anchorOffsetY="0" height="87.82"/>
+				<e:Image id="imgSpriteHunterBoard" source="ui_hunterpokedex_ButtonHunterListSel_png" x="0" y="1.05" anchorOffsetX="0" width="237.67" anchorOffsetY="0" height="87.82"/>
+				<e:Image id="imgSpriteHeroIcon" source="hero_role_maonv_png" x="60.8" y="11.58" anchorOffsetX="0" width="153.66" anchorOffsetY="0" height="43.13"/>
+				<e:Image id="imgSpriteHunterName" source="ui_huntername_HunterName1_png" x="35.28" y="43.31" anchorOffsetX="0" width="60.44" anchorOffsetY="0" height="29.66" rotation="9.43"/>
+				<e:Image id="imgSpriteHeroGrade" source="ui_tavern_IconGrade2_png" x="31.42" y="16.72" anchorOffsetX="0" width="19.1" anchorOffsetY="0" height="24.79"/>
+				<e:Label id="labelHeroAttri" text="攻击+99999" x="111" y="59.05" textColor="0x3af427" size="12"/>
+				<e:Image id="imgSpriteHunterAttType" source="ui_hunterpokedex_WordsHunterTip1_png" x="191.02" y="41.52" anchorOffsetX="0" width="34.53" anchorOffsetY="0" height="33.67"/>
+				<e:Image id="imgSpriteIconRed" source="ui_currencyicon_IconRed_png" x="203" y="10.65" anchorOffsetX="0" width="12.4" anchorOffsetY="0" height="12.4"/>
+			</e:Group>
+			<e:Button id="ButtonPlayInfo" label="" right="28" top="140" height="42" width="42" visible="false">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunterpokedex_ButtonPalyInfoNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnHelp" label="" scaleX="1" scaleY="1" right="28" top="140">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_help_ButtonHelpNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Scroller id="scorllertype" width="295" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyV="on" scrollPolicyH="off" height="450" scaleX="1" scaleY="1" left="36" bottom="50">
+				<e:List id="listType0"/>
+			</e:Scroller>
+			<e:Button id="btnArrow" label="" left="60" bottom="5" x="-24" y="482" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunterpokedex_ButtonHunterListDownNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Button id="btnClose" label="" left="-25" top="-10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

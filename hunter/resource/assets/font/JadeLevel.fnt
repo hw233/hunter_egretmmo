@@ -1,0 +1,13 @@
+{"file":"JadeLevel.png","frames":{
+"0":{"x":18,"y":0,"w":16,"h":21,"offX":-2,"offY":1,"sourceW":16,"sourceH":21},
+"1":{"x":153,"y":0,"w":11,"h":21,"offX":0,"offY":1,"sourceW":11,"sourceH":21},
+"2":{"x":35,"y":0,"w":16,"h":21,"offX":-2,"offY":1,"sourceW":16,"sourceH":21},
+"3":{"x":52,"y":0,"w":16,"h":21,"offX":-2,"offY":1,"sourceW":16,"sourceH":21},
+"4":{"x":0,"y":0,"w":17,"h":21,"offX":-3,"offY":1,"sourceW":17,"sourceH":21},
+"5":{"x":137,"y":0,"w":15,"h":21,"offX":-2,"offY":1,"sourceW":15,"sourceH":21},
+"6":{"x":69,"y":0,"w":16,"h":21,"offX":-2,"offY":1,"sourceW":16,"sourceH":21},
+"7":{"x":86,"y":0,"w":16,"h":21,"offX":-2,"offY":1,"sourceW":16,"sourceH":21},
+"8":{"x":103,"y":0,"w":16,"h":21,"offX":-2,"offY":1,"sourceW":16,"sourceH":21},
+"9":{"x":120,"y":0,"w":16,"h":21,"offX":-2,"offY":1,"sourceW":16,"sourceH":21},
+"l":{"x":165,"y":0,"w":8,"h":21,"offX":-1,"offY":1,"sourceW":8,"sourceH":21},
+"v":{"x":174,"y":0,"w":17,"h":17,"offX":-3,"offY":5,"sourceW":17,"sourceH":17}}}

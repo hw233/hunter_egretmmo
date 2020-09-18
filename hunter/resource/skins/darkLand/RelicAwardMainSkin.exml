@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RelicAwardMainSkin" width="760" height="460" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="760" height="460" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_BoardCardPopSeconde_png" scale9Grid="208,212,66,78" width="760" height="460" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group width="700" height="42" horizontalCenter="0" top="39">
+			<e:Image source="ui_darkland_relic_BoardDropDesFloor_png" horizontalCenter="0" scale9Grid="81,15,18,2" width="700" height="42" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Image id="imageDropDes" source="ui_darkland_relic_WordsDropDes1_png" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+
+		<e:Button id="buttonClose" label="" right="-15" top="-20">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="0" top="-30"/>
+		<e:Image id="imageTitle" source="ui_darkland_relic_WordsTitleAwardView1_png" horizontalCenter="0" top="-15"/>
+		<e:Group id="groupMain" width="720" height="340" horizontalCenter="5" bottom="27">
+			<e:Image source="ui_hunter_LayerSeconde_png" x="0" y="0" scale9Grid="45,33,9,7" width="100%" height="100%"/>
+			<e:Image source="ui_darkland_relic_Line1_png" horizontalCenter="0" top="112"/>
+			<e:Image source="ui_darkland_relic_Line1_png" horizontalCenter="0" bottom="112"/>
+			<e:Image source="ui_darkland_relic_Line2_png" left="145" top="6.5"/>
+			<e:Image source="ui_darkland_relic_Line2_png" left="145" top="118.5"/>
+			<e:Image source="ui_darkland_relic_Line2_png" left="145" bottom="6.5"/>
+			<e:Group width="710" height="100" horizontalCenter="0" top="6">
+			<e:Group width="320" height="100" verticalCenter="0" left="160">
+				<e:List id="listTableView1" width="320" height="100" x="0" y="0">
+				<e:layout>
+					<e:TileLayout orientation="rows" horizontalGap="18" paddingTop="5"/>
+				</e:layout>
+				</e:List>
+			</e:Group>
+			<e:Image source="ui_darkland_relic_WordsSucceedAward_png" verticalCenter="0" left="25"/>
+			<e:Label text="（可从通关宝箱中开出以上道具）" size="16" textColor="0x000000" left="475" verticalCenter="0"/>
+			</e:Group>
+			<e:Group width="710" height="100" horizontalCenter="0" verticalCenter="0">
+			<e:Image verticalCenter="0" left="25" source="ui_darkland_relic_WordsHurtAward_png"/>
+			<e:Label text="(根据最终伤害评级发放，评级越高，奖励越多)" size="18" textColor="0x000000" right="20" verticalCenter="0"/>
+			<e:Group id="groupOne" width="95" height="93" scaleX="0.7" scaleY="0.7" verticalCenter="0" left="160">
+				<e:Image source="ui_frame_FrameHunterViolet1_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="ui_iconresources_jingshi1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group id="groupTwo" width="95" height="93" scaleX="0.7" scaleY="0.7" verticalCenter="0" left="240">
+				<e:Image source="ui_frame_FrameHunterViolet1_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="ui_iconresources_jinbi1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			</e:Group>
+			<e:Group width="710" height="100" bottom="6" horizontalCenter="0">
+			<e:Group width="400" height="100" verticalCenter="0" left="160">
+				<e:List id="listTableView2" width="400" height="100" x="0" y="0">
+				<e:layout>
+					<e:TileLayout orientation="rows" horizontalGap="18" paddingTop="12"/>
+				</e:layout>
+				</e:List>
+			</e:Group>
+			<e:Image verticalCenter="0" left="25" source="ui_darkland_relic_WordsFirstKillAward_png"/>
+			</e:Group>
+		</e:Group>
+
+	</e:Group>
+</e:Skin>

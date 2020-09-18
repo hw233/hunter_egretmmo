@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivitySpecialLevelUpItemSkin" width="450" height="116" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupCache" left="0" right="0" top="0" bottom="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"
+		         source="ui_acitivity_special_list_png" />
+		<e:Image source="ui_acitivity_upgrade_biaoqian_png" left="0" top="0" />
+		<e:Group id="labelLevel" x="10" y="3">
+			<e:Label text="队伍" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" size="22" textColor="0x0A110E"
+			         x="0" y="2" />
+			<e:Label text="可领取" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" size="22" textColor="0x0A110E"
+			         x="102" y="2" />
+			<e:BitmapLabel id="lbPlayerLevel" width="60" x="47" y="0" anchorOffsetX="0" anchorOffsetY="0"
+			               text="40" textAlign="center" verticalAlign="middle"  font="acitivity_typeface_fnt"/>
+		</e:Group>
+		<e:Label id="lbGetTip" text="可领取" fontFamily="Microsoft YaHei" verticalAlign="middle" textAlign="center" size="24"
+		         verticalCenter="-44" horizontalCenter="-133" textColor="0x0ea030"  visible="false"/>
+		<e:Image top="4" horizontalCenter="50" source="ui_acitivity_upgrade_wenzi_png" />
+		<e:Group verticalCenter="18" x="245" y="10" scaleX="0.9" scaleY="0.9" width="72">
+			<e:Group horizontalCenter="0">
+				<e:Image id="imgMonthCardFrame" source="ui_frame_BoardUnionFrame_png" horizontalCenter="0" verticalCenter="0"
+				         scaleX="0.8" scaleY="0.8" />
+				<e:Image id="imgMonthCardIcon" horizontalCenter="0" verticalCenter="0" scaleX="0.8" scaleY="0.8" source="" />
+			</e:Group>
+			<e:BitmapLabel id="lbMonthCardNum" font="ItemNumWords_fnt" text="1" right="11" bottom="14" touchEnabled="false" />
+			<e:Image id="imgGetAward" source="ui_acitivity_WordsTipDayCharge_png" scaleX="1" scaleY="1" touchEnabled="false"
+			         horizontalCenter="0" verticalCenter="0" />
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupAnimation" scaleX="1" scaleY="1" touchEnabled="false" touchThrough="true" horizontalCenter="30.5"
+	         y="70" />
+	<e:Scroller width="228.89" height="70" x="4" y="39" anchorOffsetX="0" scrollPolicyV="off" scrollPolicyH="on">
+		<e:List id="lstAward" anchorOffsetX="0" width="193.33">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:List>
+	</e:Scroller>
+	<e:Group x="327" scaleX="0.9" scaleY="0.9" verticalCenter="0">
+		<e:Button id="btnMonthCard" horizontalCenter="0" verticalCenter="0" label="领取专享" width="130">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_special_btn2-2_png"
+					         source.down="ui_acitivity_special_btn2-1_png" source.disabled="ui_acitivity_special_btn2-3_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000" size="18" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnCardGetAward" label="普通领取" horizontalCenter="0" verticalCenter="0" width="130">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_special_btn3-1_png"
+					         source.down="ui_acitivity_special_btn3-2_png" source.disabled="ui_acitivity_special_btn2-3_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000" size="18" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Image id="imgMask" source="ui_acitivity_MaskSignAward_png" scale9Grid="8,12,55,75" horizontalCenter="0"
+	         verticalCenter="0" touchEnabled="false" width="100%" height="100%" />
+</e:Skin>

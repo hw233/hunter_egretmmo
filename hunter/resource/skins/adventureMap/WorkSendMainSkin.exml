@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorkSendMainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" x="0" y="0">
+		<e:Image source="ui_instance_search_bg_jpg" width="100%" height="100%" horizontalCenter="0" verticalCenter="0" scale9Grid="120,80,720,480"/>
+		<e:Image source="ui_instance_search_huizhang_png" horizontalCenter="-200.5" verticalCenter="0"/>
+		<e:Image source="ui_instance_search_titleSearch_png" left="0" top="0"/>
+		<e:Button id="btnClose" label="" left="0" top="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_instance_search_buttonReturnNor_png" source.down="ui_acitivity_biography_button_fanhuiSel_png" source.disabled="ui_acitivity_biography_button_fanhuiDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupTR" width="458" height="44" anchorOffsetY="0" anchorOffsetX="0" top="5" right="111">
+			<e:Group id="groupbtnAddGold" x="0" y="0" width="144" height="43">
+			<e:Image width="100" height="24" x="16" verticalCenter="0" source="ui_common_mask_black_jpg" alpha="0.5"/>
+			<e:Label id="lbGold" text="19.9万" x="21" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="90.5" textAlign="center" verticalAlign="middle" verticalCenter="0.5" height="18"/>
+			<e:Image source="ui_currencyicon_IconGold_png" x="-3" verticalCenter="0"/>
+			<e:Button id="btnAddGold" label="" x="104.5" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*" xmlns:zj="zj.*">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+			<e:Group id="groupbtnAddGemstone" x="161" y="0" width="130" height="42">
+			<e:Image width="100" height="24" x="8" source="ui_common_mask_black_jpg" alpha="0.5" verticalCenter="0"/>
+			<e:Label id="lbGemstone" text="30" x="22.52" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="81.33" textAlign="center" verticalAlign="middle" verticalCenter="0" height="18"/>
+			<e:Image id="jewel" source="ui_currencyicon_IconGemstone_png" x="-9" verticalCenter="0"/>
+			<e:Button id="btnAddGemstone" label="" x="97" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*" xmlns:zj="zj.*">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+			<e:Group id="groupbtnAddStrength" x="308" y="0" width="135" height="43">
+			<e:Image width="100" height="24" x="8.5" source="ui_common_mask_black_jpg" alpha="0.5" verticalCenter="0"/>
+			<e:Label id="lbStrength" text="110/102" x="13.5" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="91" verticalAlign="middle" textAlign="center" verticalCenter="0" height="19" anchorOffsetY="0"/>
+			<e:Image id="energy" source="ui_currencyicon_IconStrength_png" x="0" verticalCenter="0"/>
+			<e:Button id="btnAddStrength" label="" x="97.5" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*" xmlns:zj="zj.*">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+		</e:Group>
+		<e:Group horizontalCenter="168" verticalCenter="22">
+			<e:Image source="ui_instance_search_board_png" anchorOffsetY="0" height="548.66" scale9Grid="71,30,428,186" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_instance_search_boardNum_png" left="20" top="10"/>
+			<e:Image source="ui_wonderland_boss_BoardSKillBossHitEnemy_png" anchorOffsetX="0" width="530" anchorOffsetY="0" height="2" alpha="0.6" horizontalCenter="0" top="38"/>
+			<e:Label text="工作数量: " size="18" verticalAlign="middle" textAlign="left" left="33" top="11" textColor="0xffffff" anchorOffsetX="0" width="88" anchorOffsetY="0" height="24" strokeColor="0xffffff" fontFamily="Helvetica"/>
+			<e:Label id="labelWorkNum" text="8/8" size="18" verticalAlign="middle" textAlign="left" left="114" top="11" textColor="0xffffff" anchorOffsetY="0" height="24" width="71.33" fontFamily="Helvetica" anchorOffsetX="0"/>
+			<e:Label text="每日凌晨四点刷新" size="20" textColor="0xfd4d4d" bold="true" right="21" top="13" fontFamily="Helvetica"/>
+			<e:Label text="执照和VIP等级越高，可接取任务数量越多！" size="16" bottom="31" left="20" textColor="0x21314b" strokeColor="0x315e70" bold="true" fontFamily="Helvetica"/>
+			<e:Label id="labelEnd" text="今天的探索任务都已完成" horizontalCenter="0" verticalCenter="0" textColor="0x000000" visible="false"/>
+			<e:Scroller id="scrollerWork" width="530" height="430" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" y="45">
+				<e:List id="listWork">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Group id="groupFresh" right="19" verticalCenter="233">
+				<e:Button id="btnFresh" label="刷新" anchorOffsetX="0" x="0" y="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_instance_search_button3Nor_png" source.down="ui_instance_search_button3Sel_png" source.disabled="ui_instance_search_button3Dis_png"/>
+						<e:Label id="labelDisplay" verticalCenter="0" textColor="0x000000" size="24" textAlign="right" text="" verticalAlign="middle" anchorOffsetY="0" height="100%" anchorOffsetX="0" width="136.66" right="18" fontFamily="Helvetica"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image source="ui_currencyicon_IconGemstone_png" touchEnabled="false" left="13" verticalCenter="0"/>
+				<e:Label id="labelRefreshNum" text="10" x="40.52" y="5.67" size="24" anchorOffsetX="0" width="51.33" anchorOffsetY="0" height="41.16" textAlign="center" verticalAlign="middle" stroke="2" fontFamily="Helvetica" touchEnabled="false"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

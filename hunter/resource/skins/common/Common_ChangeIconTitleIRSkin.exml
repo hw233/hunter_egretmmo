@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_ChangeIconTitleIRSkin" width="620" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" width="620" height="60" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="100%" height="100%" fillColor="0xf7eaea" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<e:Group id="groupTexts" width="217" verticalCenter="-7" x="202">
+			<e:Image width="73" height="14" source="ui_union_OrnTipChange_png" verticalCenter="0" scaleX="-1" left="-23"/>
+			<e:Label id="lbTitle" text="普通公会头像" size="18" textColor="0x51613b" verticalAlign="middle" textAlign="center" horizontalCenter="0"/>
+			<e:Image width="73" height="14" source="ui_union_OrnTipChange_png" scaleX="1" verticalCenter="0" right="-23"/>
+		</e:Group>
+		<e:Label id="lbInfo" text="以下头像将在获得猎人后解锁" size="12" textColor="0x626b3b" verticalAlign="middle" textAlign="center" x="232" verticalCenter="17"/>
+	</e:Group>
+</e:Skin>

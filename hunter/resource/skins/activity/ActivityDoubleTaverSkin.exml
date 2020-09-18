@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityDoubleTaverSkin" width="660" height="474" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgAward" source="ui_acitivity_IconDoubleTaver_png" x="564.52" y="438" visible="false"/>
+	<e:Group anchorOffsetY="0" height="468" right="7" verticalCenter="0">
+		<e:Image source="ui_acitivity_LayerFist_png" x="0" y="0.64"/>
+		<e:Image source="ui_acitivity_WordsTipDoubleTaver_png" x="17" y="-39"/>
+		<e:Image source="ui_acitivity_LayerSecondeSmall_png" height="362" scale9Grid="74,5,445,30" x="13" y="88.64"/>
+		<e:Image source="ui_acitivity_OrnTipDoubleTaver_png" x="14.34" y="69.64"/>
+		<e:Image source="ui_acitivity_WordsTipActivityTime_png" x="280.32" y="99.98"/>
+		<e:Image source="ui_acitivity_WordsTipActivityInfomation_png" x="281.67" y="142.68"/>
+		<e:Label id="lbTime" text="活动时间：2015.12.15至2015.12.31" x="373.65" y="100.66" anchorOffsetX="0" width="222" anchorOffsetY="0" height="43" textColor="0x00f500" fontFamily="Helvetica" size="18" textAlign="left" verticalAlign="top" lineSpacing="5"/>
+		<e:Label id="lbInfo" text="活动内容：活动期间内，在酒馆中喝酒可获得双倍友情点，友情点可以做什么什么什么" x="284.72" y="169.32" textColor="0xfefb00" size="18" fontFamily="Helvetica" anchorOffsetX="0" width="302" anchorOffsetY="0" height="160" verticalAlign="top" textAlign="left" lineSpacing="5"/>
+		<e:Image source="ui_acitivity_WordsTipDoubleTaverFree_png" x="348.02" y="260.33"/>
+		<e:Group id="groupAnimal" width="65" height="54" anchorOffsetY="0" anchorOffsetX="0" right="101" bottom="73"/>
+		<e:Button id="btnGetPartnerPoint" label="" x="386.03" y="279.98" width="125" height="124">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_ButtonDoubleTaverNor_png" source.disabled="ui_acitivity_ButtonDoubleTaverSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnUsepartherPoint" label="" x="362.02" y="392.98" width="172" height="55">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_ButtonDoubleTaverUseNor_png" source.down="ui_acitivity_ButtonDoubleTaverUseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

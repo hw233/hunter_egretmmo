@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Relic_BigEndSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="100%" height="100%" source="ui_common_mask_black_jpg" alpha="0.3"/>
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="NodeBoard" horizontalCenter="0" verticalCenter="0" x="480" y="320" scaleX="1" scaleY="1"/>
+		<e:Group id="NodeAni" x="163" y="163" scaleX="1" scaleY="1"/>
+		<e:Group x="428" y="93" scaleX="1" anchorOffsetX="0" width="345" scaleY="1">
+			<e:Image source="ui_battleend_OrnTip_png" verticalCenter="0" right="0"/>
+			<e:Image source="ui_battleend_OrnTip_png" scaleX="-1" verticalCenter="0" left="0"/>
+			<e:Image source="ui_darkland_relic_WordsEndStarAward_png" verticalCenter="0" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group x="428" y="357" scaleX="1" anchorOffsetX="0" width="345" scaleY="1">
+			<e:Image source="ui_battleend_OrnTip_png" verticalCenter="0" right="0"/>
+			<e:Image source="ui_battleend_OrnTip_png" scaleX="-1" verticalCenter="0" left="0"/>
+			<e:Image verticalCenter="0" horizontalCenter="0" source="ui_darkland_relic_WordsEndHurtAward_png"/>
+		</e:Group>
+		<e:Image source="ui_darkland_relic_BoardEndBoxFloor_png" x="326.5" y="156" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_battleend_OrnLine_png" x="328" y="329" scaleX="1.2" scaleY="1"/>
+		<e:Image source="ui_darkland_relic_BoardEndAwardFloor_png" x="458" y="406" width="280" height="137" scale9Grid="44,27,59,75" scaleX="1" scaleY="1"/>
+		<e:Group id="NodeStar" x="176" y="210" scaleX="1" scaleY="1"/>
+		<e:Group id="NodeWin" x="176" y="308" scaleX="1" scaleY="1"/>
+		<e:Scroller width="600" height="182" x="322" y="147" scaleX="1" scaleY="1">
+			<e:List id="TableViewList" anchorOffsetY="0" height="202">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" horizontalGap="-25"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller width="240" height="96" x="478" y="429" scaleX="1" scaleY="1">
+			<e:List id="TableViewAward" x="14" y="12" anchorOffsetY="0" height="107">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" horizontalAlign="left" verticalAlign="bottom" paddingLeft="15" horizontalGap="20"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="ButtonOk" label="" x="527" y="550" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_common_ButtonComonCloseNor_png" source.down="ui_common_ButtonComonCloseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group x="54" y="474" scaleX="1" scaleY="1">
+			<e:Image source="ui_darkland_relic_BoardHurtNull_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="SpriteExpBar" source="ui_darkland_relic_BoardHurtFull_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="SpriteExpBarBg" verticalCenter="0" width="274" height="20" source="ui_acitivity_biography_BoardInfoFloor2_png" left="0"/>
+		</e:Group>
+		<e:Group x="96" y="423" scaleX="1" scaleY="1">
+			<e:Image source="ui_darkland_relic_BoardHurtNumFloor1_png" x="0" y="0"/>
+			<e:BitmapLabel id="TextExp" width="135" font="ItemNumWords_fnt" anchorOffsetX="0" anchorOffsetY="0" text="9999万" textAlign="center" verticalCenter="-1" horizontalCenter="0"/>
+		</e:Group>
+		<e:Label text="再造成　　　　　伤害可提升至" x="67" y="506" size="15" scaleX="1" scaleY="1"/>
+		<e:Image id="SpriteNextLevel" source="ui_darkland_relic_IconSS2_png" x="276" y="498" scaleX="1" scaleY="1"/>
+		<e:Label id="LableNextLevel" text="1231231" x="109" y="506" size="15" textColor="0xff9200" anchorOffsetX="0" width="77" anchorOffsetY="0" height="15" scaleX="1" scaleY="1" textAlign="center"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Daily_AwardPopItemSkin" height="135" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="130">
+	<e:Group width="100" height="135" y="0" horizontalCenter="0">
+		<e:Group id="groupHead" top="5" horizontalCenter="-0.5">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" x="0" y="4"/>
+			<e:Image id="imgIcon" source="item_FriendPillD_png" anchorOffsetY="0" height="101" x="0" y="0"/>
+			<e:BitmapLabel id="labelNum" width="83.17" height="20" text="1243" anchorOffsetX="0" font="ItemNumWords_fnt" textAlign="right" x="2.83" y="63"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="labelName" text="天使自动笔记-碎片" size="14" horizontalCenter="0" bottom="5" bold="true" textAlign="center" verticalAlign="middle" textColor="0x000000"/>
+</e:Skin>

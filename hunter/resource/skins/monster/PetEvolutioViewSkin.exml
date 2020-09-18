@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetEvolutioViewSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui">
+	<e:Group width="100%" height="100%" x="0" y="0">
+		<e:Group horizontalCenter="0" verticalCenter="0" x="-245" y="93" scaleX="1" scaleY="1">
+			<e:Image source="ui_pet_newpet_BoardEvolutionFloor1_png" width="920" height="400" scale9Grid="27,74,164,103" x="0" y="12.32"/>
+			<e:Image source="ui_fishing_BoardFishingTopTip_png" y="0" horizontalCenter="0"/>
+			<e:Button id="btnclose" label="" x="843.68" y="4.56">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png" source.disabled="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group y="73.7" x="14.6">
+			<e:Image source="ui_pet_newpet_BoardPetImageFloor_png" y="0" left="0"/>
+			<e:Image source="ui_pet_newpet_BoardPetNameFloor_png" x="29" y="9.12"/>
+			<e:Image id="imgSpriteNow0" source="ui_pet_newpet_WordsNowSelect_png" x="76" y="267.92"/>
+			<e:Label id="lableUnLock0" text="（1阶进化解锁）" size="22" textColor="0xFF2600" fontFamily="Microsoft YaHei" horizontalCenter="0" bottom="20"/>
+			<e:Image source="ui_pet_newpet_WordsForm1_png" x="76" y="10.64"/>
+			<e:Group id="groupNodePet0" width="200" height="200" x="28.32" y="53.34"/>
+			</e:Group>
+			<e:Group y="73.7" anchorOffsetX="0" width="260.67" x="330.96">
+			<e:Image source="ui_pet_newpet_BoardPetImageFloor_png" x="0" y="0"/>
+			<e:Image source="ui_pet_newpet_BoardPetNameFloor_png" x="29" y="8.64"/>
+			<e:Image id="imgSpriteNow1" source="ui_pet_newpet_WordsNowSelect_png" x="76" y="267.92"/>
+			<e:Label id="lableUnLock1" text="（3阶进化解锁）" size="22" textColor="0xFF2600" fontFamily="Microsoft YaHei" horizontalCenter="0" bottom="20"/>
+			<e:Image source="ui_pet_newpet_WordsForm2_png" x="80" y="11.12"/>
+			<e:Group id="groupNodePet1" width="200" height="200" x="28.56" y="54.78"/>
+			</e:Group>
+			<e:Group y="73.7" x="650.68">
+			<e:Image source="ui_pet_newpet_BoardPetImageFloor_png" x="0" y="0"/>
+			<e:Image source="ui_pet_newpet_BoardPetNameFloor_png" x="29.56" y="8.64"/>
+			<e:Image id="imgSpriteNow2" source="ui_pet_newpet_WordsNowSelect_png" x="76" y="267.92"/>
+			<e:Label id="lableUnLock2" text="（5阶进化解锁）" textColor="0xFF2600" size="22" fontFamily="Microsoft YaHei" horizontalCenter="0" bottom="20"/>
+			<e:Image source="ui_pet_newpet_WordsForm3_png" x="76" y="10.16"/>
+			<e:Group id="groupNodePet2" width="200" height="200" x="29.16" y="54.34"/>
+			</e:Group>
+			<e:Image source="ui_pet_newpet_IconArrow_png" x="276.96" y="192.84"/>
+			<e:Image source="ui_pet_newpet_IconArrow_png" x="596.64" y="192.84"/>
+			<e:Image source="ui_pet_newpet_WordsEvolutionView_png" y="10.44" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

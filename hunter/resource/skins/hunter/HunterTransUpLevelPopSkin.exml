@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterTransUpLevelPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupHunter1" x="229" y="169" anchorOffsetX="54" anchorOffsetY="52">
+		<e:Image id="imgBoard1" source="ui_storyinstance_transform_FrameTransform_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon1" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0" scaleX="0.8" scaleY="0.8"/>
+		<e:Image id="imgTransformLvNum1" source="ui_storyinstance_transform_0_png" bottom="10" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="groupHunter2" x="239" y="179" anchorOffsetX="54" anchorOffsetY="52">
+		<e:Image id="imgBoard2" source="ui_storyinstance_transform_FrameTransform_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon2" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0" scaleX="0.8" scaleY="0.8"/>
+		<e:Image id="imgTransformLvNum2" source="ui_storyinstance_transform_0_png" bottom="10" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="groupAni" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

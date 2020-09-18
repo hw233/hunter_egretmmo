@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaWholeEnemyItemItemSkin" width="93" height="93" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group>
+		<e:Image id="imgBoard" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgHead" horizontalCenter="0" verticalCenter="0" touchEnabled="false" source=""/>
+		<e:BitmapLabel id="labelLevel" width="50" height="19" textAlign="right" font="ItemNum_fnt" text="1" anchorOffsetX="0" anchorOffsetY="0" right="10" bottom="10" touchEnabled="false"/>
+		<e:Group id="groupStar" width="60" height="16" top="-3" horizontalCenter="1.5" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

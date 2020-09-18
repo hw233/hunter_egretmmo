@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityNoviceContinueSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgbg" source="ui_arena_LayerBg_png" horizontalCenter="0" verticalCenter="0" height="100%" width="100%"/>
+	<e:Group verticalCenter="0" horizontalCenter="0" width="960" height="603">
+		<e:Image x="80" y="23" source="ui_acitivity_novicehigh_BoardFloor_png"/>
+		<e:Image source="ui_acitivity_OrnBuffNpc_png" x="109" y="132"/>
+		<e:Image y="0" x="286" source="ui_acitivity_novicehigh_WordsTipNovice_png"/>
+		<e:Image x="299" y="101" source="ui_acitivity_novicehigh_WordsTipInfo_png"/>
+		<e:Image source="ui_acitivity_novicenew_BoardExpFloor_png" x="323" y="497" width="570" scale9Grid="8,6,54,36"/>
+		<e:Image source="ui_acitivity_novicecontinue_BoardItemFloor_png" x="323" y="230" width="570" height="260"/>
+		<e:List id="listViewTag" width="566" height="74" x="324" y="166" anchorOffsetX="0">
+		<e:layout>
+			<e:TileLayout requestedRowCount="1" horizontalGap="-15" paddingLeft="-15"/>
+		</e:layout>
+		</e:List>
+		<e:Image source="ui_acitivity_novice_WordsTipGes_png" x="336" y="506"/>
+		<e:Group x="492" y="503.5" width="210" height="36">
+		<e:Image source="ui_acitivity_novice_BoardBurGes_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgBar" source="ui_acitivity_novice_BorGes_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgBar1" source="ui_hunter_collection_board1_png" width="191" height="35" y="1" left="10"/>
+		<e:BitmapLabel id="labelCount" width="178" height="25" font="ItemNumWords_fnt" text="123/345" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Scroller width="570" height="247" x="322" y="236" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+		<e:List id="listViewItem" x="-2">
+			<e:layout>
+			<e:TileLayout requestedColumnCount="1" horizontalGap="0" paddingLeft="10"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Group width="112" height="104" x="803" y="532" anchorOffsetX="56" anchorOffsetY="52">
+		<e:Button id="btnGift" label="" anchorOffsetX="56" anchorOffsetY="52" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ui_acitivity_novicenew_ButtonAwardNor_png" source.down="ui_acitivity_novicenew_ButtonAwardSel_png" source.disabled="ui_acitivity_novicenew_ButtonAwardDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+		<e:Button id="btnClose" label="" x="838.5" y="45">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_acitivity_biography_ButtonCloseNor_png" source.down="ui_acitivity_biography_ButtonCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Group horizontalCenter="0" bottom="3">
+		<e:Label id="labelTime" text="距离活动结束还有　天　小时　分" size="18" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="labelTime1" text="8" size="18" textColor="0xFFD002" left="143" anchorOffsetX="0" width="22" anchorOffsetY="0" height="18" textAlign="center" verticalCenter="0"/>
+		<e:Label id="labelTime2" text="23" size="18" textColor="0xFFD002" left="174" anchorOffsetX="0" width="33" anchorOffsetY="0" height="18" textAlign="center" verticalCenter="0"/>
+		<e:Label id="labelTime3" text="8" size="18" textColor="0xFFD002" left="231" anchorOffsetX="0" width="27" textAlign="center" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="userSystem3Skin" width="630" height="350" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="13" width="400" horizontalCenter="0">
+		<e:Label id="labelName0" text="推送设置" textColor="0x51613B" size="20" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_union_OrnTipChange_png" scaleX="1" horizontalCenter="80" verticalCenter="0"/>
+		<e:Image source="ui_union_OrnTipChange_png" horizontalCenter="-80" scaleX="-1" verticalCenter="0"/>
+	</e:Group>
+	<e:Group left="15" width="561" top="45">
+		<e:Label id="label1" text="添加资源" textColor="0x51613B" size="20" verticalCenter="0" left="0"/>
+		<e:ToggleSwitch id="btn1" label="" verticalCenter="0" left="145">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ui_common_ButtonOpenOrCloseNor_png" source.down="ui_common_ButtonOpenOrCloseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:Label id="label2" text="添加道具" textColor="0x51613B" size="20" verticalCenter="0" left="290"/>
+		<e:ToggleSwitch id="btn2" label="" verticalCenter="0" left="455">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ui_common_ButtonOpenOrCloseNor_png" source.down="ui_common_ButtonOpenOrCloseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+	</e:Group>
+	<e:Group left="15" width="561" top="105">
+		<e:Label id="label3" text="君主升一级" textColor="0x51613B" size="20" verticalCenter="0" left="0"/>
+		<e:ToggleSwitch id="btn3" label="" verticalCenter="0" left="145">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_common_ButtonOpenOrCloseNor_png" source.down="ui_common_ButtonOpenOrCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleSwitch>
+		<e:Label id="label4" text="君主升满级" textColor="0x51613B" size="20" verticalCenter="0" left="290"/>
+		<e:ToggleSwitch id="btn4" label="" verticalCenter="0" left="455">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_common_ButtonOpenOrCloseNor_png" source.down="ui_common_ButtonOpenOrCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleSwitch>
+	</e:Group>
+	<e:Group left="15" width="561" top="165">
+		<e:Label id="label5" text="vip升1级" textColor="0x51613B" size="20" verticalCenter="0" left="0"/>
+		<e:ToggleSwitch id="btn5" label="" left="145" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_common_ButtonOpenOrCloseNor_png" source.down="ui_common_ButtonOpenOrCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleSwitch>
+		<e:Label id="label6" text="清空道具" textColor="0x51613B" size="20" verticalCenter="0" left="290"/>
+		<e:ToggleSwitch id="btn6" label="" verticalCenter="0" left="455">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_common_ButtonOpenOrCloseNor_png" source.down="ui_common_ButtonOpenOrCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleSwitch>
+	</e:Group>
+	<e:Group left="15" width="561" top="225">
+		<e:Label id="label7" text="加所有武将" textColor="0x51613B" size="20" verticalCenter="0" left="0"/>
+		<e:ToggleSwitch id="btn7" label="" left="145" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_common_ButtonOpenOrCloseNor_png" source.down="ui_common_ButtonOpenOrCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleSwitch>
+		<e:Label id="label8" text="升级1个武将60级" textColor="0x51613B" size="20" verticalCenter="0" left="290"/>
+		<e:ToggleSwitch id="btn8" label="" verticalCenter="0" left="455">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_common_ButtonOpenOrCloseNor_png" source.down="ui_common_ButtonOpenOrCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleSwitch>
+	</e:Group>
+	<e:Group left="15" width="561" top="285" x="10" y="10">
+		<e:Label id="label9" text="开启普通副本" textColor="0x51613B" size="20" verticalCenter="0" left="0"/>
+		<e:ToggleSwitch id="btn9" label="" verticalCenter="0" left="145">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_common_ButtonOpenOrCloseNor_png" source.down="ui_common_ButtonOpenOrCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleSwitch>
+		<e:Label id="label10" text="开启精英副本" textColor="0x51613B" size="20" verticalCenter="0" left="290"/>
+		<e:ToggleSwitch id="btn10" label="" verticalCenter="0" left="455">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_common_ButtonOpenOrCloseNor_png" source.down="ui_common_ButtonOpenOrCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleSwitch>
+	</e:Group>
+</e:Skin>

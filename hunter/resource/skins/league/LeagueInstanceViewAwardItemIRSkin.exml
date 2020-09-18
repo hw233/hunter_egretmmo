@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueInstanceViewAwardItemIRSkin" width="900" height="93" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="900" height="93" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="100%" height="100%" horizontalCenter="0" verticalCenter="0" fillColor="0xe0dede" visible="false"/>
+		<e:Image id="imgName" width="90" height="27" x="15" source="ui_union_instance_bossname_WordsBoss2_png" verticalCenter="0"/>
+		<e:Image width="4" height="93" source="ui_union_instance_OrnAwardLineA_png" verticalCenter="0" x="135"/>
+		<e:Scroller width="221" height="93" y="-0.63" x="151">
+		<e:List id="lstAward1" width="100%" height="100%" y="1">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Image width="4" height="93" source="ui_union_instance_OrnAwardLineA_png" verticalCenter="0" x="395" y="10"/>
+		<e:Scroller width="221" height="93" x="411" verticalCenter="0">
+		<e:List id="lstAward2" width="100%" height="100%" y="1">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Image width="4" height="93" source="ui_union_instance_OrnAwardLineA_png" verticalCenter="0" x="652" y="20"/>
+		<e:Scroller width="221" height="93" x="668" verticalCenter="0">
+		<e:List id="lstAward3" width="100%" height="100%" y="1">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Image width="885" height="2" source="ui_union_instance_OrnAwardLineB_png" bottom="0" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

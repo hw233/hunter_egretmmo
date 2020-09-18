@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueWarPopItemEnemySkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain1" x="0" bottom="0">
+		<e:Group id="groupMain" scaleX="1" scaleY="1" x="0" bottom="0">
+			<e:Image id="SpriteHurtBoard" source="ui_wonderland_BoardTeam_png" x="0" y="0"/>
+			<e:Group x="46" y="61" width="175" height="15">
+			<e:Image source="ui_wonderland_BoardBurHunterBloodSmall_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="SpriteHurt" source="ui_wonderland_BurHunterBloodSmall_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="SpriteHurtbg" verticalCenter="0" width="175" height="15" source="card_034renyiceshizhiB_30_png" y="-21" scaleX="1" scaleY="1" right="0"/>
+			</e:Group>
+			<e:Label id="LabelHurtNum" text="Lv 1" y="16" size="18" fontFamily="SimHei" anchorOffsetX="0" width="113" left="97" height="24"/>
+			<e:Image id="SpriteFrame" source="ui_frame_FrameHunterAsh_png" x="244" y="15" scaleX="0.7" scaleY="0.7"/>
+			<e:Image id="SpriteHead" source="hero_icon_head_wj_kuluoluo_png" x="244" y="16" scaleX="0.7" scaleY="0.7"/>
+			<e:Image id="SpriteBossTag" x="254.55" y="3.4" scaleX="0.7" scaleY="0.7" source="ui_wonderland_WordsHunterDie_png" rotation="31.09"/>
+			<e:Image source="ui_common_WordsPowerSmall2_png" x="50" y="33"/>
+			<e:Label id="LabelPlayerPower" text="Label" x="144" y="41" size="18" textColor="0xFFEB00" height="24" width="102" fontFamily="Helvetica"/>
+			<e:Image id="SpriteStar1" x="250" bottom="20" source="ui_license_IconHunterStarNor_png" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="SpriteStar2" x="260" bottom="20" scaleX="0.5" scaleY="0.5" source="ui_license_IconHunterStarNor_png"/>
+			<e:Image id="SpriteStar3" x="270" bottom="20" scaleX="0.5" scaleY="0.5" source="ui_license_IconHunterStarNor_png"/>
+			<e:Image id="SpriteStar4" x="280" bottom="20" scaleX="0.5" scaleY="0.5" source="ui_license_IconHunterStarNor_png"/>
+			<e:Image id="SpriteStar5" x="290" bottom="20" scaleX="0.5" scaleY="0.5" source="ui_license_IconHunterStarNor_png"/>
+			<e:Image id="SpriteStar6" x="300" bottom="20" scaleX="0.5" scaleY="0.5" source="ui_license_IconHunterStarNor_png"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

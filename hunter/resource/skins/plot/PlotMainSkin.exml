@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlotMainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_common_mask_black_jpg" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1" touchEnabled="false" alpha="0.75"/>
+	<e:Group id="groupPlot" horizontalCenter="0" verticalCenter="0" touchChildren="false" touchEnabled="false" scaleX="1.2" scaleY="1.2">
+	</e:Group>
+	<e:Group id="groupTouch" top="0" bottom="0" left="0" right="0" touchEnabled="true">
+	</e:Group>
+	<e:Button id="btnSkip" label="" top="20" left="20" width="127">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_dialog_ButtonTiaoguoNor_png" source.down="ui_dialog_ButtonTiaoguoSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

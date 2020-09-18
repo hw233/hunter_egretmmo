@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_Des" width="395" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="395" height="250" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_common_BoardChangeAchievementsA_png" x="0" y="0" scale9Grid="61,58,29,14" width="395" height="250"/>
+		<e:Group id="groupItem" width="98" height="101" anchorOffsetX="0" anchorOffsetY="0" left="26" bottom="140.5">
+			<e:Image id="imageFrame" source="ui_frame_FrameSkill_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageIcon" source="skill_icon_fulankelin02_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="groupStar" width="70" left="10" bottom="10" height="14.4"/>
+		</e:Group>
+		<e:Label id="labelName" text="寒冰乱舞" size="18" left="134" bottom="210"/>
+		<e:Image source="ui_common_BoardChangeAchievementsB_png" scale9Grid="24,25,17,13" width="365" height="115" left="14" horizontalCenter="-1" bottom="13"/>
+		<e:Label id="labelType" text="破月天赋能增加武将对暴击伤害的抵抗能力，同时提升武将造成的暴击伤害的效果。" width="335" height="100" left="28" bottom="20" size="18" textAlign="left" verticalAlign="top" lineSpacing="5" textColor="0xf3e1af"/>
+	</e:Group>
+</e:Skin>

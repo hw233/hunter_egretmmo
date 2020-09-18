@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishingAwardViewTypeItemSkin" width="161" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_fishing_BoardAwardinfo_png" x="0" y="0"/>
+		<e:Image id="imgFrame" source="ui_fishing_FrameAwardinfo_png" x="0" y="0"/>
+		<e:Image id="imgFish" source="ui_fishing_fish3_png" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.6" scaleY="0.6" x="36" y="0"/>
+		<e:Image id="imgTitle" source="ui_fishing_WordsFishingName4_png" y="108" scaleX="0.8" scaleY="0.8" x="40"/>
+	</e:Group>
+</e:Skin>

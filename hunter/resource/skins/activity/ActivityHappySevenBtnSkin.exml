@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityHappySevenBtnSkin" width="122" height="124" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<e:Group horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95">
+		<e:Image id="imgBoard" source="ui_acitivity_serverseven_fangkuai_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="labelDay" text="第1天" size="18" horizontalCenter="-0.5" top="0" anchorOffsetX="0" width="117" verticalAlign="middle" textAlign="center" anchorOffsetY="0" height="25" fontFamily="Helvetica" stroke="2" strokeColor="0x000000"/>
+		<zj:ActivityHappySevenAwardItem id="awardDay" xmlns:zj="zj.*" skinName="ActivityHappySevenAwardItemSkin" scaleX="1.4" horizontalCenter="0" verticalCenter="10" scaleY="1.4"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonGetPsychicGroupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgBG" source="ui_wonderland_BoardUseFruitAward_png" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgTitle" source="ui_psychic_WordsTitleGetNewGroup_png" y="174" horizontalCenter="0.5"/>
+		<e:List id="listViewProp" width="260" height="124" y="273" horizontalCenter="0">
+			<e:layout>
+				<e:TileLayout requestedRowCount="1"/>
+			</e:layout>
+		</e:List>
+		<e:Label id="labelClose" text="点击任何区域关闭" bottom="55" horizontalCenter="0" size="18"/>
+		<e:Group id="groupItem" height="150" y="254" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

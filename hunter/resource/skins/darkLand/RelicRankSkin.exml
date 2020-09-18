@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RelicRankSkin" width="670" height="490" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="670" height="490" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" x="0" y="0" scale9Grid="190,87,33,37" width="100%" height="100%"/>
+		<e:Image source="ui_mail_LayerMailFirst_png" scale9Grid="42,38,9,13" width="620" bottom="11" right="9" height="455"/>
+		<e:Image source="ui_darkland_relic_BoardLineSide_png" left="0" bottom="-13"/>
+		<e:Button id="buttonClose" label="" right="-15" top="-30">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="600" height="330" right="18" top="25">
+			<e:Scroller width="100%" height="100%" x="0" y="0">
+				<e:List id="listViewRank"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Group width="600" height="110" right="17" bottom="19">
+			<e:Image source="ui_arena_BoardDayRanking_png" width="600" height="110" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="groupMiRanking" anchorOffsetY="0" height="51.33" left="32" top="43">
+				<e:Image source="ui_arena_WordsMyRankingB_png" horizontalCenter="0" top="0"/>
+				<e:Label id="labelLevelRanking" text="99999" size="20" bottom="0" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group left="130" verticalCenter="0">
+				<e:Image id="imgFrame" source="ui_frame_FrameImage_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgIcon" source="hero_head_help_wojin_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Label id="LabelName" text="玩家名字" size="20" top="30" left="250"/>
+			<e:Label id="labelValue" text="Lv:100" left="250" bottom="30" size="20"/>
+			<e:Image id="imageHurt" source="ui_darkland_relic_IconBigA2_png" scaleX="0.5" scaleY="0.5" verticalCenter="0" right="50"/>
+		</e:Group>
+		<e:Button id="buttonWorld" label="" left="-87" top="33">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_darkland_relic_ButtonWorldRankNor_png" source.down="ui_darkland_relic_ButtonWorldRankSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imageWorld" source="ui_darkland_relic_ButtonWorldRankSel_png" top="33" left="-87"/>
+		<e:Button id="buttonServer" label="" left="-87" top="105">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_darkland_relic_ButtonServiceRankNor_png" source.down="ui_darkland_relic_ButtonServiceRankSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imageServer" top="105" left="-87" source="ui_darkland_relic_ButtonServiceRankSel_png"/>
+	</e:Group>
+</e:Skin>

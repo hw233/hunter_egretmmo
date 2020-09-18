@@ -1,0 +1,11 @@
+{"file":"FightCD.png","frames":{
+"0":{"x":25,"y":0,"w":22,"h":27,"offX":-3,"offY":2,"sourceW":22,"sourceH":27},
+"1":{"x":211,"y":0,"w":15,"h":27,"offX":-3,"offY":2,"sourceW":15,"sourceH":27},
+"2":{"x":73,"y":0,"w":21,"h":27,"offX":-2,"offY":2,"sourceW":21,"sourceH":27},
+"3":{"x":96,"y":0,"w":21,"h":27,"offX":-3,"offY":2,"sourceW":21,"sourceH":27},
+"4":{"x":0,"y":0,"w":23,"h":27,"offX":-3,"offY":2,"sourceW":23,"sourceH":27},
+"5":{"x":119,"y":0,"w":21,"h":27,"offX":-3,"offY":2,"sourceW":21,"sourceH":27},
+"6":{"x":142,"y":0,"w":21,"h":27,"offX":-2,"offY":2,"sourceW":21,"sourceH":27},
+"7":{"x":49,"y":0,"w":22,"h":27,"offX":-3,"offY":2,"sourceW":22,"sourceH":27},
+"8":{"x":165,"y":0,"w":21,"h":27,"offX":-2,"offY":2,"sourceW":21,"sourceH":27},
+"9":{"x":188,"y":0,"w":21,"h":27,"offX":-2,"offY":2,"sourceW":21,"sourceH":27}}}

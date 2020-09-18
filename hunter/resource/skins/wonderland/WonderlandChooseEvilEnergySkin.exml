@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WonderlandChooseEvilEnergySkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgFrame" source="ui_union_BoardInfoTip_png" x="0" y="0" width="470" height="155"/>
+	<e:Label id="label5" text="1.每杀死一名玩家获得1点罪恶值，罪恶值上限是100点。" y="10" size="18" fontFamily="SimHei" textColor="0xf3e1af" left="10"/>
+	<e:Label id="label2" text="2.罪恶值会影响玩家的复活时间以及抢夺和被抢夺果实的概率。" y="41" size="18" fontFamily="SimHei" textColor="0xF3E1AF" anchorOffsetX="0" width="444" left="10"/>
+	<e:Label id="label0" text="3.罪恶值会随时间自动减少，但不会减少到0以下。" y="92.5" size="18" fontFamily="SimHei" textColor="0xF3E1AF" anchorOffsetX="0" width="444" left="10"/>
+	<e:Label id="label1" text="4.花费钻石可快速清除罪恶值" y="125" size="18" fontFamily="SimHei" textColor="0xF3E1AF" anchorOffsetX="0" width="444" left="10"/>
+</e:Skin>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ManagerMain" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" anchorOffsetX="0" anchorOffsetY="0" height="640" horizontalCenter="0" verticalCenter="0" width="960">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="675" height="495" scaleY="1" scale9Grid="118,41,180,75" y="91" horizontalCenter="1.5"/>
+		<e:Group id="groupApplication" height="495" width="667" y="92" horizontalCenter="0">
+			<e:Label id="lbApplyCount" text="申请数量：1" x="26" y="35" size="20" textColor="0x000000" fontFamily="Helvetica" height="28" width="200"/>
+			<e:Label id="lbMemberCount" text="当前成员数量：1/30" x="445" y="35" size="20" textColor="0x47210a" fontFamily="Helvetica" height="28" width="220"/>
+			<e:Group y="68" height="345" width="640" horizontalCenter="0">
+			<e:Image width="100%" height="100%" source="ui_mail_LayerMailFirst_png" horizontalCenter="0" verticalCenter="0" scale9Grid="12,13,79,80"/>
+			<e:Scroller width="100%" height="335" anchorOffsetX="0" anchorOffsetY="0" scaleY="1" scrollPolicyH="off" scrollPolicyV="on" horizontalCenter="0" verticalCenter="4">
+				<e:List id="lstItem" width="100%" height="100%" x="1" y="1.41" scaleY="1"/>
+			</e:Scroller>
+			</e:Group>
+			<e:Button id="btnRefuseAll" label="" y="425" left="135">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonApplicationAllRefuseNor_png" source.down="ui_union_ButtonApplicationAllRefuseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnPassAll" label="" y="425" right="135">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonApplicationAllAgreeNor_png" source.down="ui_union_ButtonApplicationAllAgreeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="groupMsgSet" width="667" anchorOffsetX="0" height="527" anchorOffsetY="0" scaleX="1" scaleY="0.9" y="109" horizontalCenter="0" visible="false">
+
+			<e:Group x="13.5" y="50.72">
+			<e:Image source="ui_hunter_LayerSeconde_png" width="640" height="165" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="15,10,92,65" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group x="11" y="5.55" width="89" height="93">
+				<e:Image id="imgFrame" source="ui_frame_BoardUnionFrame_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgHead" width="89" height="93" source="league_icon_gonghuitouxiang3_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Button id="btnHead" label="" x="10" y="107.95" anchorOffsetX="0" anchorOffsetY="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonInfoChangeImageNor_png" source.down="ui_union_ButtonInfoChangeImageSel_png" source.disabled="ui_union_ButtonInfoChangeImageNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="lbName" text="帮会名：会叫的大小姐" x="116.5" y="22.05" size="20" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000"/>
+			<e:Button id="btnName" label="" x="340" y="12.05" anchorOffsetX="0" anchorOffsetY="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonInfoChangeNameNor_png" source.down="ui_union_ButtonInfoChangeNameSel_png" source.disabled="ui_union_ButtonInfoChangeNameNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group x="108.68" y="71.38" width="415" height="77">
+				<e:Image source="ui_union_BoardAnnouncementInfo_png" width="415" height="77" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="27,4,165,28" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="lbNotice" text="公告：会叫的大小姐会叫的大小姐会叫的大小姐会叫的大小姐会叫的大小姐会叫的大小姐会叫的大小姐会叫的大小姐会叫的大小姐会叫的大小姐" size="18" width="370" height="65" anchorOffsetX="0" anchorOffsetY="0" textColor="0xFEFFFF" horizontalCenter="0" verticalCenter="0" textAlign="left" lineSpacing="2" verticalAlign="top"/>
+			</e:Group>
+			<e:Button id="btnNotice" label="" x="533.03" y="81.5" anchorOffsetX="0" anchorOffsetY="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonInfoAnnouncementNor_png" source.down="ui_union_ButtonInfoAnnouncementSel_png" source.disabled="ui_union_ButtonInfoAnnouncementNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+
+			<e:Group y="285.31" horizontalCenter="0.5">
+			<e:Image source="ui_hunter_LayerSeconde_png" width="640" height="165" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="15,10,92,65" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group x="149.5" y="42.22" anchorOffsetX="140" anchorOffsetY="18" width="280" height="36">
+				<e:Image id="imgColor" fillMode="scale" source="ui_union_BoardAnnouncementInfo_png" width="280" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="27,4,165,28" horizontalCenter="1" verticalCenter="0"/>
+				<e:Button id="btnConditionLeft" label="" width="29" height="27" scaleX="-1" left="0" verticalCenter="0.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonJionLeagueArrowNor_png" source.down="ui_union_ButtonJionLeagueArrowSel_png" source.disabled="ui_union_ButtonJionLeagueArrowNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="btnConditionRight" label="" verticalCenter="0.5" right="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonJionLeagueArrowNor_png" source.down="ui_union_ButtonJionLeagueArrowSel_png" source.disabled="ui_union_ButtonJionLeagueArrowNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Label id="lbLimitCondition" text="需要通过评审才能加入" size="16" textColor="0xFEFFFF" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" textAlign="center" verticalAlign="middle" width="160" height="18" x="60"/>
+			</e:Group>
+			<e:Group x="439.52" y="42.22" anchorOffsetX="140" anchorOffsetY="18" scaleX="1" scaleY="1" width="223" height="36">
+				<e:Image id="imgColor1" source="ui_union_BoardAnnouncementInfo_png" width="219" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="27,4,165,28" horizontalCenter="-2" verticalCenter="1"/>
+				<e:Button id="btnLevelLeft" label="" scaleX="-1" left="0" verticalCenter="0.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonJionLeagueArrowNor_png" source.down="ui_union_ButtonJionLeagueArrowSel_png" source.disabled="ui_union_ButtonJionLeagueArrowNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="btnLevelRight" label="" right="5" verticalCenter="0.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonJionLeagueArrowNor_png" source.down="ui_union_ButtonJionLeagueArrowSel_png" source.disabled="ui_union_ButtonJionLeagueArrowNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Label id="lbLimitLevel" text="限制等级：120" size="16" textColor="0xFEFFFF" anchorOffsetX="60" anchorOffsetY="8" verticalCenter="0" width="121" height="18" verticalAlign="middle" textAlign="center" x="109"/>
+			</e:Group>
+			<e:Group x="262" y="115.6" width="515" height="77" anchorOffsetX="257.5" anchorOffsetY="38.5">
+				<e:Image source="ui_union_BoardAnnouncementInfo_png" width="515" height="77" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="27,4,165,28" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="lbIntroduce" text="宣传语：会叫的大小姐会叫的大小姐会叫的大小姐会叫的大小姐会叫的大小姐会叫的大小姐会叫的大小姐会叫的大小姐会叫的大小姐会叫的大小姐" size="18" width="410" height="60" anchorOffsetX="0" anchorOffsetY="0" textColor="0xFEFFFF" verticalCenter="0" left="10"/>
+			</e:Group>
+			<e:Button id="btnIntroduce" label="" x="526.99" y="96.32" anchorOffsetX="0" anchorOffsetY="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonInfoChangeSloganNor_png" source.down="ui_union_ButtonInfoChangeSloganSel_png" source.disabled="ui_union_ButtonInfoChangeSloganNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+			<e:Button id="btnSave" label="" y="462.79" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonInfoSaveNor_png" source.down="ui_union_ButtonInfoSaveSel_png" source.disabled="ui_union_ButtonInfoSaveNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group y="28.13" width="250" horizontalCenter="0.5">
+				<e:Image source="ui_wonderland_IconBoardTipB_png" y="0" right="22"/>
+				<e:Image source="ui_wonderland_IconBoardTipB_png" x="128" y="0" scaleX="-1" scaleY="1"/>
+				<e:Image source="ui_union_WordsUnionInfor_png" y="-21.30000000000001" anchorOffsetX="50" scaleX="1" scaleY="0.9" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group y="227.72" horizontalCenter="0">
+				<e:Image source="ui_union_WordsUnionInfor_png" y="0" anchorOffsetX="50" horizontalCenter="0"/>
+				<e:Image source="ui_wonderland_IconBoardTipB_png" x="94.52" y="24.28"/>
+				<e:Image source="ui_wonderland_IconBoardTipB_png" x="93.52" y="24.28" scaleX="-1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="btnMsgSet" label="" x="170" y="53">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonTypeUnionInfoNor_png" source.down="ui_union_ButtonTypeUnionInfoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnApplication" label="" x="277.38" y="53">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonTypeApplicationAddUnionNor_png" source.down="ui_union_ButtonTypeApplicationAddUnionSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnClose" label="" x="786.33" y="61.05" anchorOffsetX="45">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+					-->
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

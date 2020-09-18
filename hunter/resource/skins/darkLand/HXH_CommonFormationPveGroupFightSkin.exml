@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_CommonFormationPveGroupFightSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAllFather" width="960" height="640" horizontalCenter="0" verticalCenter="0">
+
+
+		<e:Group id="groupMain" horizontalCenter="0" width="916" height="618" bottom="12" anchorOffsetY="0">
+			<e:Group id="groupDown" horizontalCenter="0" bottom="2" width="916" anchorOffsetY="0">
+				<e:Image width="910" source="ui_instance_battle_diban2_png" horizontalCenter="0" verticalCenter="0" scale9Grid="100,40,621,85"/>
+
+
+				<e:Image horizontalCenter="0" source="ui_instance_battle_wenzi1_png" top="5"/>
+				<e:Scroller id="scroller" width="826.68" height="91.58" y="36" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+					<e:List id="listMyHero" width="843.68" height="88.58" anchorOffsetX="0" x="-33" y="0" anchorOffsetY="0">
+						<e:layout>
+							<e:HorizontalLayout verticalAlign="middle"/>
+						</e:layout>
+					</e:List>
+				</e:Scroller>
+
+				<e:Button id="buttonArrowLeft" label="" left="-40" y="50">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_instance_battle_jiantou2_png" source.down="ui_instance_battle_jiantou2_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+
+				</e:Button>
+				<e:Button id="buttonArrowRight" label="" y="47.33" right="-40" scaleX="-1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_instance_battle_jiantou2_png" source.down="ui_instance_battle_jiantou2_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+
+				</e:Button>
+				<e:Button id="buttonConfirmTeam" label="" right="11" top="-15" scaleX="0.8" scaleY="0.8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_ButtonConfirmTeamNor_png" source.down="ui_arena_ButtonConfirmTeamSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="groupUp" right="-11" top="50" height="402" width="721" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image width="709" height="337" scale9Grid="11,11,73,73" verticalCenter="25" source="ui_instance_battle_diban1_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+
+				<e:Image source="ui_groupfight_WordsTips_png" horizontalCenter="1" top="-82"/>
+				<e:Group id="groupAll" anchorOffsetY="0" anchorOffsetX="0" height="363" top="39" horizontalCenter="0">
+					<e:Group id="group4" width="177" height="364" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetY="0">
+						<e:Image source="ui_instance_battle_guanghuan1_png" y="293" scaleX="0.8" scaleY="0.8" horizontalCenter="-0.5" x="287"/>
+						<e:Image source="ui_instance_battle_guang1_png" y="114" scaleX="0.8" scaleY="0.8" horizontalCenter="0"/>
+						<e:Image id="imgDownFrame4" source="ui_frame_FrameHunterAsh_png" y="-30" scaleX="0.7" scaleY="0.7" horizontalCenter="0"/>
+						<e:Image id="imgUpLock4" source="ui_currencyicon_IconLock_png" y="-10.92" scaleX="0.7" scaleY="0.7" horizontalCenter="0"/>
+						<e:Image id="imgUpYuan4" source="ui_instance_WordIconYuan_png" y="-12.46" scaleX="1" scaleY="1" horizontalCenter="0"/>
+						<e:Group id="groupPos8" width="95" height="93" y="-26" scaleX="0.65" scaleY="0.65" horizontalCenter="0">
+						<e:Image id="imgUpIcon4" source="hero_icon_head_wj_maqi_png" y="-4.22" scaleX="1" scaleY="1" horizontalCenter="0"/>
+						<e:BitmapLabel id="imgUpNum4" width="40" height="20" x="14.03076923076923" y="53.38" font="ItemNum_fnt" text="123" scaleX="1.5384615384615383" scaleY="1.5384615384615383"/>
+						</e:Group>
+						<e:Image id="imgArrow4" y="25.9" scaleX="0.9" scaleY="0.9" horizontalCenter="0.5" source="ui_instance_battle_jiantou1_png"/>
+						<e:Image id="clearanceLock4" scaleX="0.8" scaleY="0.8" source="ui_instance_battle_wenzi2_png" bottom="100" horizontalCenter="0"/>
+						<e:Group id="groupPos4" width="177" height="211" y="97" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+						<e:Group id="grouphunter4" bottom="-12" horizontalCenter="0" x="89" y="279" scaleX="1" scaleY="1"/>
+						</e:Group>
+						<e:Image y="318" scaleX="1" scaleY="1" horizontalCenter="0.5" source="ui_instance_battle_weizhidi_png"/>
+						<e:Image id="imgPos4" y="336.5" scaleX="1" scaleY="1" horizontalCenter="0.5" source="ui_instance_battle_WordsWeizhi1_png"/>
+					</e:Group>
+					<e:Group id="group3" width="177" height="364" x="180" y="-35" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+						<e:Image source="ui_instance_battle_guanghuan1_png" y="291" scaleX="0.8" scaleY="0.8" horizontalCenter="-0.5" x="103"/>
+						<e:Image source="ui_instance_battle_guang1_png" y="112" scaleX="0.8" scaleY="0.8" horizontalCenter="-1.5" x="58"/>
+						<e:Image id="imgDownFrame7" source="ui_frame_FrameHunterAsh_png" y="-30" scaleX="0.7" scaleY="0.7" horizontalCenter="1"/>
+						<e:Image id="imgUpLock3" source="ui_currencyicon_IconLock_png" y="-10.92" scaleX="0.7" scaleY="0.7" horizontalCenter="0"/>
+						<e:Image id="imgUpYuan3" source="ui_instance_WordIconYuan_png" y="-12.46" scaleX="1" scaleY="1" horizontalCenter="0"/>
+						<e:Group id="groupPos7" width="95" height="93" y="-30" scaleX="0.65" scaleY="0.65" horizontalCenter="0.5">
+						<e:Image id="imgUpIcon3" source="hero_icon_head_wj_maqi_png" y="0.4" scaleX="1" scaleY="1" x="1.92"/>
+						<e:BitmapLabel id="imgUpNum3" width="40" height="20" x="14.03076923076923" y="59.53846153846153" font="ItemNum_fnt" text="123" scaleX="1.5384615384615383" scaleY="1.5384615384615383"/>
+						</e:Group>
+						<e:Image id="imgArrow3" y="23.9" scaleX="0.9" scaleY="0.9" horizontalCenter="0.5" source="ui_instance_battle_jiantou1_png"/>
+						<e:Image id="clearanceLock3" scaleX="0.8" scaleY="0.8" source="ui_instance_battle_wenzi2_png" bottom="100" horizontalCenter="0"/>
+						<e:Group id="groupPos3" width="177" height="211" y="97" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+						<e:Group id="grouphunter3" bottom="-12" horizontalCenter="0" x="-95" y="221" scaleX="1" scaleY="1"/>
+						</e:Group>
+						<e:Image y="317" scaleX="1" scaleY="1" source="ui_instance_battle_weizhidi_png" horizontalCenter="0.5"/>
+						<e:Image id="imgPos3" y="331.5" scaleX="1" scaleY="1" source="ui_instance_battle_WordsWeizhi1_png" horizontalCenter="0.5"/>
+					</e:Group>
+					<e:Group id="group2" width="177" height="364" x="360" y="0" scaleX="1" scaleY="1" anchorOffsetY="0">
+						<e:Image source="ui_instance_battle_guanghuan1_png" y="293" scaleX="0.8" scaleY="0.8" horizontalCenter="-0.5" x="-81"/>
+						<e:Image source="ui_instance_battle_guang1_png" y="114" scaleX="0.8" scaleY="0.8" horizontalCenter="-1.5" x="-126"/>
+						<e:Image id="imgDownFrame6" source="ui_frame_FrameHunterAsh_png" y="-30" scaleX="0.7" scaleY="0.7" horizontalCenter="1"/>
+						<e:Image id="imgUpLock2" source="ui_currencyicon_IconLock_png" y="-10.92" scaleX="0.7" scaleY="0.7" horizontalCenter="0"/>
+						<e:Image id="imgUpYuan2" source="ui_instance_WordIconYuan_png" y="-12.46" scaleX="1" scaleY="1" horizontalCenter="0"/>
+						<e:Group id="groupPos6" width="95" height="93" y="-29" scaleX="0.65" scaleY="0.65" x="58">
+						<e:Image id="imgUpIcon2" source="hero_icon_head_wj_maqi_png" y="0.4" scaleX="1" scaleY="1" x="1.92"/>
+						<e:BitmapLabel id="imgUpNum2" width="40" height="20" x="14.03076923076923" y="59.53846153846153" font="ItemNum_fnt" text="123" scaleX="1.5384615384615383" scaleY="1.5384615384615383"/>
+						</e:Group>
+						<e:Image id="imgArrow2" y="23.9" scaleX="0.9" scaleY="0.9" horizontalCenter="0.5" source="ui_instance_battle_jiantou1_png"/>
+						<e:Image id="clearanceLock2" scaleX="0.8" scaleY="0.8" source="ui_instance_battle_wenzi2_png" bottom="100" horizontalCenter="0" x="-176" y="180"/>
+						<e:Group id="groupPos2" width="177" height="209" y="97" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="0">
+						<e:Group id="grouphunter2" bottom="-12" horizontalCenter="0" x="89" y="279" scaleX="1" scaleY="1"/>
+						</e:Group>
+						<e:Image y="318" scaleX="1" scaleY="1" horizontalCenter="0.5" source="ui_instance_battle_weizhidi_png"/>
+						<e:Image id="imgPos2" y="334.5" scaleX="1" scaleY="1" horizontalCenter="0.5" source="ui_instance_battle_WordsWeizhi1_png"/>
+					</e:Group>
+					<e:Group id="group1" width="177" height="364" x="541" y="-35" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+						<e:Image source="ui_instance_battle_guanghuan1_png" y="293" scaleX="0.8" scaleY="0.8" horizontalCenter="-0.5" x="-269"/>
+						<e:Image source="ui_instance_battle_guang1_png" y="114" scaleX="0.8" scaleY="0.8" horizontalCenter="-1.5" x="-314"/>
+						<e:Image id="imgDownFrame5" source="ui_frame_FrameHunterAsh_png" y="-30" scaleX="0.7" scaleY="0.7" horizontalCenter="1"/>
+						<e:Image id="imgUpLock1" source="ui_currencyicon_IconLock_png" y="-10.92" scaleX="0.7" scaleY="0.7" horizontalCenter="0"/>
+						<e:Image id="imgUpYuan1" source="ui_instance_WordIconYuan_png" y="-12.46" scaleX="1" scaleY="1" horizontalCenter="0"/>
+						<e:Group id="groupPos5" width="95" height="93" y="-28" scaleX="0.65" scaleY="0.65" horizontalCenter="0.5">
+						<e:Image id="imgUpIcon1" y="-2.68" scaleX="1" scaleY="1" x="0.4" width="95" height="93" source="hero_icon_head_wj_maqi_png"/>
+						<e:BitmapLabel id="imgUpNum1" width="40" height="20" x="14.03076923076923" y="59.53846153846153" font="ItemNum_fnt" text="123" scaleX="1.5384615384615383" scaleY="1.5384615384615383"/>
+						</e:Group>
+						<e:Image id="imgArrow1" y="23.9" scaleX="0.9" scaleY="0.9" horizontalCenter="0.5" source="ui_instance_battle_jiantou1_png"/>
+						<e:Image id="clearanceLock1" scaleX="0.8" scaleY="0.8" source="ui_instance_battle_wenzi2_png" bottom="100" horizontalCenter="0" x="-270" y="250"/>
+						<e:Group id="groupPos1" width="177" height="208" y="97" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="0">
+						<e:Group id="grouphunter1" bottom="-12" horizontalCenter="0" x="-99" y="221" scaleX="1" scaleY="1"/>
+						</e:Group>
+						<e:Image y="319" scaleX="1" scaleY="1" horizontalCenter="0.5" source="ui_instance_battle_weizhidi_png"/>
+						<e:Image id="imgPos1" y="335.5" scaleX="1" scaleY="1" horizontalCenter="0.5" source="ui_instance_battle_WordsWeizhi1_png"/>
+					</e:Group>
+
+				</e:Group>
+			</e:Group>
+			<e:Group width="211" height="286" left="0" top="87">
+				<e:Button id="buttonTeam1" label="" x="0" y="0" scaleX="0.8" scaleY="0.8">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_groupfight_ButtonTeamNameNor_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image source="ui_groupfight_WordsTeam1_png" x="50.59" y="23.3" scaleX="0.8" scaleY="0.8" touchEnabled="false"/>
+				<e:Button id="buttonTeam2" label="" x="-0.64" y="94.03" scaleX="0.8" scaleY="0.8">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_groupfight_ButtonTeamNameNor_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image source="ui_groupfight_WordsTeam2_png" x="46.99" y="115.32" scaleX="0.8" scaleY="0.8" touchEnabled="false"/>
+				<e:Group id="groupSelect1" x="6.98" y="204.66">
+					<e:Button id="buttonSelect1" label="" x="3.72" y="3.67" width="170">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ui_hunter_psychic_BoardRefreshPropertyNameFloor_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</e:skinName>
+					</e:Button>
+					<e:Label text="主队设为助战队伍" x="25.72" y="7.34" size="18" touchEnabled="false"/>
+					<e:Image id="imageBigonBoard" source="ui_instance_BoardBigon_png" x="-4.56" y="0.66" scaleX="0.9" scaleY="0.9" touchEnabled="false"/>
+					<e:Image id="imageBigonName1" source="ui_instance_IconBigon_png" x="-3.55" y="0" scaleX="0.9" scaleY="0.9" touchEnabled="false"/>
+				</e:Group>
+				<e:Group id="groupSelect2" x="6.34" y="251.99">
+					<e:Button id="buttonSelect2" label="" x="5.05" y="3.67" width="170">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ui_hunter_psychic_BoardRefreshPropertyNameFloor_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</e:skinName>
+					</e:Button>
+					<e:Label text="二队设为助战队伍" x="25.91" y="7.14" size="18" touchEnabled="false"/>
+					<e:Image id="imageBigonBoard1" source="ui_instance_BoardBigon_png" x="-4.56" y="0.66" scaleX="0.9" scaleY="0.9" touchEnabled="false"/>
+					<e:Image id="imageBigonName2" source="ui_instance_IconBigon_png" x="-3.55" y="0" scaleX="0.9" scaleY="0.9" visible="false"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+
+	</e:Group>
+	<e:Group left="-22" top="-9">
+		<e:Button id="buttonclose" label="" x="0" y="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image source="ui_groupfight_WordsTitle_png" x="130" y="3.33"/>
+	</e:Group>
+</e:Skin>

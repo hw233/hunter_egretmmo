@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_BossItemSkin" width="300" height="23.5" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0" scaleX="0.75" scaleY="0.75">
+		<e:Image source="ui_acitivity_boss_BoardButton_png" y="0" x="0"/>
+		<e:Label id="lbText" text="999" size="18" textColor="0xffe593" fontFamily="Helvetica" verticalCenter="0" horizontalCenter="-161"/>
+		<e:Label id="lbName" text="你想叫我什么" textColor="0xffe593" fontFamily="Helvetica" size="18" verticalAlign="middle" textAlign="center" horizontalCenter="-17.5" verticalCenter="0"/>
+		<e:Label id="lbValue" text="9999999" size="18" textColor="0xffe593" verticalCenter="0" horizontalCenter="127"/>
+	</e:Group>
+</e:Skin>

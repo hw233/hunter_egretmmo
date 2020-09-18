@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BiographyHeroItemSkin" width="105" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image x="4" y="9" source="ui_frame_FrameHunterAsh_png"/>
+	<e:Image id="imgIcon" source="hero_icon_wz_weizhi_png" horizontalCenter="-1" verticalCenter="3" x="4" y="9"/>
+	<e:Image id="imgQuality" source="ui_hunter_evaluate_IconWrodsCard4_png" scaleX="0.45" scaleY="0.45" horizontalCenter="28.5" verticalCenter="24.5" x="65" y="61"/>
+
+	<e:Group id="groupAni" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="imgGet" source="ui_acitivity_biography_yihuode_png" horizontalCenter="-18" verticalCenter="-19"/>
+	<e:Image id="imgSel" source="ui_acitivity_biography_xuanzhong_png" scaleX="0.9" scaleY="0.9" horizontalCenter="0" verticalCenter="0"/>
+
+</e:Skin>

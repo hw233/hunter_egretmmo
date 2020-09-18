@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterTransformDetailsItemItemRightSkin" width="262" height="195" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imageBG" source="ui_storyinstance_transform_Columns2_png" x="0" y="0"/>
+		<e:Label id="labelPlayerDes" text="描述大进度表焦恩俊" x="12" y="140" anchorOffsetX="0" width="235" anchorOffsetY="0" height="52" size="15" textColor="0xecd1bc"/>
+		<e:Group x="76" y="16" width="108" height="104">
+			<e:Image id="imageIcon2" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageFrameTransform" source="ui_storyinstance_transform_FrameTransform_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageLvNum" source="ui_storyinstance_transform_0_png" horizontalCenter="0" bottom="3"/>
+		</e:Group>
+		<e:Group x="72" y="117">
+			<e:Image id="imageStar1" source="ui_hunter_evaluate_IconSingleStarNor_png" x="0" y="0" visible="false"/>
+			<e:Image source="ui_hunter_evaluate_IconSingleStarNor_png" x="25" y="0" id="imageStar2" visible="false"/>
+			<e:Image source="ui_hunter_evaluate_IconSingleStarNor_png" x="50" y="0" id="imageStar3" visible="false"/>
+			<e:Image source="ui_hunter_evaluate_IconSingleStarNor_png" x="75" y="0" id="imageStar4" visible="false"/>
+			<e:Image id="imageStar5" source="ui_hunter_evaluate_IconSingleStarNor_png" x="100" y="0" visible="false"/>
+		</e:Group>
+		<e:Label id="labelSkillName" text="雷霆一击" x="79" y="113" anchorOffsetX="0" width="104" anchorOffsetY="0" height="29" size="18" textAlign="center" verticalAlign="middle" textColor="0x782f00"/>
+	</e:Group>
+</e:Skin>

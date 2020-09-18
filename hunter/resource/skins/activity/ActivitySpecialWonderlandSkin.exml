@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivitySpecialWonderlandSkin" width="720" height="550" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="720" height="550">
+		<e:Image x="-50.62" bottom="-30" source="ui_acitivity_fund_lihui_png"/>
+		<e:Image source="ui_acitivity_diban_png" anchorOffsetX="0" width="483" anchorOffsetY="0" height="550" right="0" bottom="0" scale9Grid="61,69,369,419"/>
+		<e:Image y="5.34" x="251" source="ui_acitivity_fund_banner1_png"/>
+		<e:Group x="258" y="167">
+			<e:Image source="ui_acitivity_fangkuai_png" x="0" verticalCenter="0"/>
+			<e:Label text="40级以下且" size="18" fontFamily="Helvetica" verticalAlign="middle" anchorOffsetY="0" anchorOffsetX="0" textAlign="left" textColor="0x000000" x="19" verticalCenter="0"/>
+			<e:Label text="VIP3" size="18" fontFamily="Helvetica" verticalAlign="middle" anchorOffsetY="0" anchorOffsetX="0" textAlign="left" textColor="0xff0000" x="114" verticalCenter="0"/>
+			<e:Label text="可购买" size="18" fontFamily="Helvetica" verticalAlign="middle" anchorOffsetY="0" anchorOffsetX="0" textAlign="left" textColor="0x000000" x="156" verticalCenter="0"/>
+			<e:Image source="ui_acitivity_fangkuai_png" x="266" verticalCenter="0"/>
+			<e:Label id="lbCurrencyLevel" text="当前队伍等级：24" size="18" fontFamily="Helvetica" verticalAlign="middle" anchorOffsetY="0" anchorOffsetX="0" width="157.33" textAlign="left" textColor="0x000000" x="283.67" verticalCenter="0"/>
+		</e:Group>
+		<e:Scroller width="450" height="342.33" y="193.01" anchorOffsetX="0" anchorOffsetY="0" right="17">
+		<e:List id="lstAward" x="-10" y="-20" anchorOffsetX="0" width="450" anchorOffsetY="0" height="338.33"/>
+		</e:Scroller>
+		<e:Button id="btn" label="" x="495" y="78" width="215" height="51">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_fund_btn2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="花费" x="257" size="18" top="137"/>
+		<e:Label text="1000" x="297" size="18" top="137" textColor="0xefce3e"/>
+		<e:Label text="购买礼包，最高可返还" x="373" size="18" top="137" textColor="0xffffff"/>
+		<e:Label text="10000" x="557" size="18" top="137" textColor="0xEFCE3E" anchorOffsetX="0" width="69" textAlign="center"/>
+		<e:Image source="ui_iconresources_zuanshi3_png" x="326" y="118"/>
+		<e:Image source="ui_iconresources_zuanshi3_png" x="608" y="118" touchEnabled="false"/>
+		<e:Group id="groupHand" x="601" y="103" touchEnabled="false"/>
+	</e:Group>
+
+
+</e:Skin>

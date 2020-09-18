@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AdventureSkin18" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:zj="zj.*" states="up,down,disabled"  width="74" height="124">
+	<e:Image id="imgBuild" scaleX.down="1.06" scaleY.down="1.06" horizontalCenter="0" verticalCenter="0" source="adv_build_18_png"/>
+	<e:Image id="imgElite" x="-33" y="4" source="ui_instance_Board_Open_Title2_png"/>
+	<zj:AdventureTitle id="adventureTitle" skinName="AdventureTitleSkin" y="72" x="-43"/>
+	<e:Group id="touch" anchorOffsetY="0" anchorOffsetX="0" width="74" height="124" x="0" y="0"/>
+</e:Skin>

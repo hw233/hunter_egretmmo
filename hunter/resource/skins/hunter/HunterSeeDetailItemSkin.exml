@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterSeeDetailItemSkin" width="105" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupNode" x="0" y="0" height="105" width="105">
+		<e:Image id="imgSpriteFrame" source="ui_frame_FrameSkill_png" horizontalCenter="0" verticalCenter="0" scaleX="1" scaleY="1" width="88" height="88"/>
+		<e:Image id="imgSpriteicon" source="skill_icon_leishenqiya01_png" horizontalCenter="0.5" verticalCenter="0.5" scaleX="0.8" scaleY="0.8" width="95" height="93"/>
+		<e:Label id="labelNum" text="123" x="36" y="12.5" width="60" height="34"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterBreakPopDialogItemSkin" width="369" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0" scaleX="1">
+		<e:Group id="groupNo" left="0" top="0" right="0" bottom="0">
+			<e:Image source="ui_hunter_break_BoardBreakHunterItemNoFloor_png" scaleX="1" scaleY="0.7" left="0" right="0" top="0" bottom="0" scale9Grid="3,12,317,60"/>
+			<e:Label id="labelNoMet" text="当前无法满足要求的猎人" size="18" verticalAlign="middle" textAlign="left" top="16" left="80"/>
+			<e:Label id="labelMaterialsTip" text="需满足：60级； 4星； 二次觉醒" size="18" verticalAlign="middle" textAlign="left" bottom="15" left="80"/>
+		</e:Group>
+		<e:Group id="groupHave" left="0" right="0" top="0" bottom="0" width="370" visible="false">
+			<e:Image source="ui_hunter_break_BoardBreakHunterItemFloor_png" left="0" right="0" top="0" bottom="0" anchorOffsetX="0" scale9Grid="2,11,298,64" width="370"/>
+			<e:Label id="labelMaterialPower" text="需满足：60级； 4星； 二次觉醒" size="18" top="19" left="80"/>
+			<e:Label id="labelMaterialNumber" text="需满足：60级； 4星； 二次觉醒" size="18" bottom="14" left="80"/>
+			<e:Image id="imgBingoBoard" source="ui_hunter_break_ButtonBingoNor_png" verticalCenter="0" right="3"/>
+			<e:Image id="imgBingoSelect" source="ui_hunter_break_ButtonBingoSel_png" verticalCenter="0" right="3"/>
+		</e:Group>
+		<e:Group id="groupIcon" width="95" height="93" verticalCenter="2" left="0" scaleX="0.8" scaleY="0.8">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgIcon" source="hero_icon_head_wj_bianshenbi_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelNumber" text="99" width="40" height="23" verticalAlign="bottom" textAlign="left" size="20" left="13" bottom="13" visible="false"/>
+
+			<e:Group id="groupStar" width="50" height="20" top="2" horizontalCenter="-1.5"/>
+			<e:Image id="imgBreak" source="ui_hunter_break_IconBreakCorner1_png" x="2.5" y="39.4" scaleX="1" scaleY="1"/>
+			<e:Image id="imgGrade" source="ui_hunter_evaluate_IconWrodsCard3_png" scaleX="0.5" scaleY="0.5" right="6" bottom="7"/>
+		</e:Group>
+		<e:Image id="imgShadow" source="ui_frame_SpriteMake_png" width="370" height="90" horizontalCenter="0.5" verticalCenter="2" scale9Grid="13,10,70,71" fillMode="scale" anchorOffsetX="0" visible="false"/>
+		<e:Image id="imgLock" source="ui_currencyicon_IconLock_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	</e:Group>
+</e:Skin>

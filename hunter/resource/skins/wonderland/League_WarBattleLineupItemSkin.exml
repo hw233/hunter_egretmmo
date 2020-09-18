@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="League_WarBattleLineupItemSkin" width="105" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="105" height="105" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_mail_LayerMailSeconde_png" x="0" y="0" width="105" height="105" scale9Grid="5,5,40,71"/>
+		<e:Image id="imgBoard" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0.5" verticalCenter="-3.5" scaleX="0.8" scaleY="0.8"/>
+		<e:Group id="groupName" width="105" height="105" horizontalCenter="0" verticalCenter="0">
+			<e:Image id="imgHead" horizontalCenter="0.5" verticalCenter="-3.5" x="5" y="1" scaleX="0.8" scaleY="0.8" source=""/>
+			<e:Image id="imgType" source="ui_instance_WordsTipYuan_png" horizontalCenter="0" verticalCenter="81" visible="false"/>
+			<e:BitmapLabel id="labelLevel" width="72.5" height="16.5" x="24.5" y="62.18" font="ItemNum_fnt" anchorOffsetX="0" anchorOffsetY="0" text="123" textAlign="left" touchEnabled="false" scaleX="0.8" scaleY="0.8"/>
+			<e:Image id="imgStar1" source="ui_hunter_evaluate_IconStar4_png" scaleX="0.8" scaleY="0.8" x="23" y="64.68"/>
+			<e:Image id="imgBarHp" source="ui_wonderland_BurUplineHunterBlood_png" horizontalCenter="0" verticalCenter="40.5" visible="false"/>
+			<e:Group id="groupStar" width="60" height="16" horizontalCenter="0" top="13"/>
+			<e:Image id="imgDead" source="ui_wonderland_WordsBattleHunterDie_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgBreak" source="ui_hunter_break_IconBreakCorner1_png" x="21" y="46" scaleY="0.8" scaleX="0.8"/>
+			<e:Image id="imgGrade" source="ui_pet_IconBigPetGrade4_png" x="63" y="54" scaleX="0.4" scaleY="0.4"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

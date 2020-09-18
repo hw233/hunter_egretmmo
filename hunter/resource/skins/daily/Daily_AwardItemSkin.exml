@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Daily_AwardItemSkin" width="110" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="110" height="60" x="0" y="0">
+		<e:Group id="groupHead" left="0" verticalCenter="0">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" width="42" height="41" y="0.75" x="0.25"/>
+			<e:Image id="imgIcon" source="hero_icon_wj_kuluoluo_png" x="0.06" anchorOffsetX="0" width="42.95" y="0" anchorOffsetY="0" height="41.8"/>
+			<e:Group id="groupAnimate" width="37.2" height="37.6" x="3.35" y="0.75" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+			</e:Group>
+		</e:Group>
+		<e:Image id="imgLogo" source="ui_icon_PieceSoul_png" width="25" height="24" left="0" top="-1"/>
+		<e:Label id="labelNum" text="x123456" size="17" left="43" verticalCenter="0.5" textColor="0x351402"/>
+	</e:Group>
+</e:Skin>

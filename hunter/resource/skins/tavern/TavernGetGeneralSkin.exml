@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TavernGetGeneralSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" height="100%" x="0" y="0" fillAlpha="0.7"/>
+	<e:Group id="groupParent" width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Label id="labelCloseTheTip" text="点击任意区域关闭" horizontalCenter="0" size="18" bottom="20"/>
+	</e:Group>
+	<e:Group id="group1" width="735" height="515" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imageBg" source="ui_tavern_BoardGetHunter_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imageHunTypes" source="ui_tavern_WordsGetHunterType1_png" scaleX="1" scaleY="1" left="524" bottom="49"/>
+		<e:Image id="imageHun" source="hero_half_wj_menqi_png" anchorOffsetY="0" height="487" anchorOffsetX="0" width="502" left="-30" scaleX="0.8" scaleY="0.8" bottom="89"/>
+		<e:Label id="labelHunExplain" text="肥肉既然不能逗留，何不在减肥的时候，一边想瘦，一遍泪流" x="191" y="450" anchorOffsetX="0" width="424" anchorOffsetY="0" height="64" size="18" verticalAlign="justify" textAlign="center" textColor="0xd69f33" lineSpacing="5"/>
+		<e:Image id="imageHunName" source="ui_huntername_HunterName20012_png" x="330" y="45" anchorOffsetX="22.67" anchorOffsetY="-6.67" rotation="2.56"/>
+		<e:Image id="imageHunLevel" source="ui_pet_IconBigPetGrade4_png" x="605.5" y="-10"/>
+		<e:Image id="image1" source="ui_license_IconHunterStarNor_png" x="457" y="48" scaleX="0.7" scaleY="0.7" rotation="1.67"/>
+		<e:Image id="image2" source="ui_license_IconHunterStarNor_png" x="484" y="41" scaleX="0.7" scaleY="0.7"/>
+		<e:Image id="image3" source="ui_license_IconHunterStarNor_png" x="514" y="34" scaleX="0.7" scaleY="0.7"/>
+		<e:Image id="image4" source="ui_license_IconHunterStarNor_png" x="544" y="27" scaleX="0.7" scaleY="0.7"/>
+		<e:Group id="groupHunterAnimation" width="137" height="223" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="75" bottom="88" scaleX="0.8" scaleY="0.8"/>
+	</e:Group>
+</e:Skin>

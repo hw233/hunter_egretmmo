@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="licenseProgressInfoItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" width="275" height="179">
+		<e:Image id="imgMap" source="ui_license_OrnMapSmall1_png" x="0" y="0"/>
+		<e:Image id="imgName" source="ui_license_examination_WordsExaminationName1_png" x="0" y="0"/>
+		<e:Image id="imgTips" source="ui_currencyicon_IconRed_png" right="-10" top="-10"/>
+		<e:Group bottom="3" horizontalCenter="0">
+			<e:Image source="ui_license_BoardHunterLcenceAssessInfo_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelInfo" text="通过西索试炼1阶段（1/1）" size="16" fontFamily="SimHei" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image id="imgGetAward" source="ui_license_WordsLevelStarOk_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Button id="btnTransfer" label="" left="0" right="0" top="0" bottom="0" alpha="0.00001">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_license_OrnMapSmall1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnPlayer" label="" alpha="0.00001" left="0" right="0" top="0" bottom="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_license_OrnMapSmall1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupAward" width="80" height="96" anchorOffsetX="40" anchorOffsetY="48" x="219" y="106">
+			<e:Image source="ui_license_BoardHunterLcenceAssessAwrd_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgItemFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" bottom="0" horizontalCenter="0"/>
+			<e:Image id="imgItemIcon" source="ui_iconresources_zuanshi1_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" bottom="0"/>
+			<e:BitmapLabel id="labelItemNum" width="48" height="23" font="ItemNumWords_fnt" text="12" textAlign="right" anchorOffsetX="0" right="11" bottom="10"/>
+			<e:Image id="imgItemGet" source="ui_license_WordsGetAward_png" horizontalCenter="0" bottom="7" visible="false"/>
+			<e:Group id="groupAni" width="20" height="20" bottom="20" horizontalCenter="0"/>
+			<e:Button id="btnAward" label="" alpha="0.00001" scaleX="1" scaleY="1" left="0" right="0" width="2" top="0" bottom="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_license_OrnMapSmall1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnGetAward" label="" alpha="0.00001" left="0" right="0" top="0" bottom="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_license_OrnMapSmall1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:DataGroup id="GroupCartoon" width="0" height="0" anchorOffsetY="0" touchEnabled="true" horizontalCenter="0" verticalCenter="10"/>
+	</e:Group>
+</e:Skin>

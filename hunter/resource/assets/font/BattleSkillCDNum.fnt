@@ -1,0 +1,13 @@
+{"file":"BattleSkillCDNum.png","frames":{
+"0":{"x":56,"y":0,"w":18,"h":25,"offX":-2,"offY":2,"sourceW":18,"sourceH":25},
+"1":{"x":205,"y":0,"w":13,"h":24,"offX":0,"offY":3,"sourceW":13,"sourceH":24},
+"2":{"x":75,"y":0,"w":18,"h":25,"offX":-2,"offY":2,"sourceW":18,"sourceH":25},
+"3":{"x":94,"y":0,"w":18,"h":25,"offX":-2,"offY":2,"sourceW":18,"sourceH":25},
+"4":{"x":148,"y":0,"w":19,"h":24,"offX":-2,"offY":3,"sourceW":19,"sourceH":24},
+"5":{"x":168,"y":0,"w":18,"h":24,"offX":-2,"offY":3,"sourceW":18,"sourceH":24},
+"6":{"x":16,"y":0,"w":19,"h":25,"offX":-2,"offY":2,"sourceW":19,"sourceH":25},
+"7":{"x":187,"y":0,"w":17,"h":24,"offX":-2,"offY":3,"sourceW":17,"sourceH":24},
+"8":{"x":36,"y":0,"w":19,"h":25,"offX":-2,"offY":2,"sourceW":19,"sourceH":25},
+"9":{"x":113,"y":0,"w":18,"h":25,"offX":-2,"offY":2,"sourceW":18,"sourceH":25},
+"?":{"x":0,"y":0,"w":15,"h":26,"offX":-1,"offY":1,"sourceW":15,"sourceH":26},
+"？":{"x":132,"y":0,"w":15,"h":25,"offX":-1,"offY":2,"sourceW":15,"sourceH":25}}}

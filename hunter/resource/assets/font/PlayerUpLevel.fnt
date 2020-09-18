@@ -1,0 +1,11 @@
+{"file":"PlayerUpLevel.png","frames":{
+"0":{"x":26,"y":0,"w":24,"h":48,"offX":-1,"offY":-2,"sourceW":24,"sourceH":48},
+"1":{"x":223,"y":0,"w":17,"h":48,"offX":1,"offY":-2,"sourceW":17,"sourceH":48},
+"2":{"x":51,"y":0,"w":24,"h":48,"offX":-2,"offY":-2,"sourceW":24,"sourceH":48},
+"3":{"x":76,"y":0,"w":24,"h":48,"offX":-2,"offY":-2,"sourceW":24,"sourceH":48},
+"4":{"x":0,"y":0,"w":25,"h":48,"offX":-2,"offY":-2,"sourceW":25,"sourceH":48},
+"5":{"x":176,"y":0,"w":23,"h":48,"offX":-1,"offY":-2,"sourceW":23,"sourceH":48},
+"6":{"x":101,"y":0,"w":24,"h":48,"offX":-1,"offY":-2,"sourceW":24,"sourceH":48},
+"7":{"x":200,"y":0,"w":22,"h":48,"offX":-1,"offY":-2,"sourceW":22,"sourceH":48},
+"8":{"x":126,"y":0,"w":24,"h":48,"offX":-2,"offY":-2,"sourceW":24,"sourceH":48},
+"9":{"x":151,"y":0,"w":24,"h":48,"offX":-2,"offY":-2,"sourceW":24,"sourceH":48}}}

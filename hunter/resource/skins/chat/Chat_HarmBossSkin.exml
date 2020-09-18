@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="370" height="20" xmlns:e="http://ns.egret.com/eui" class="Chat_HarmBossSkin">
+	<e:Label id="tail" text="你好" anchorOffsetX="0" width="370" size="20" textAlign="left" anchorOffsetY="0" height="20" lineSpacing="5" y="0" verticalAlign="middle" textColor="0xffffff"/>
+</e:Skin>

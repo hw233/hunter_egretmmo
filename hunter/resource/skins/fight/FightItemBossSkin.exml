@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightItemBossSkin" width="524" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="Fight_ItemBoss" width="524" height="120" x="0" y="0">
+		<e:Image id="SpriteFrame" source="ui_battle_BoardBossInfo_png" y="0" right="2"/>
+		<e:Image id="SpriteHpPic2" source="ui_battle_BurBossBlood2_png" x="98" y="10"/>
+		<e:Image id="SpriteHpPic1" source="ui_battle_BurBossBlood3_png" x="98" y="10"/>
+		<e:Image id="SpriteHpBlack" source="ui_battle_BurBossBlood1_png" x="98" y="10"/>
+		<e:Image id="SpriteHpWhite" source="ui_battle_BurBossBloodWhite_png" x="96" y="10"/>
+		<e:Image id="SpriteRagePic" source="ui_battle_BurBossAngre_png" x="123" y="36" width="314" height="18"/>
+		<e:Group id="BarRageNode" width="314" height="18" x="123" y="36">
+		</e:Group>
+		<e:Image id="SpriteHead" source="hero_icon_head_wj_kubi_png" x="432" y="-2"/>
+		<e:Group id="HeadNode" width="95" height="93" x="432" y="-2" anchorOffsetX="1" anchorOffsetY="1"/>
+		<e:Label id="LabelName" text="我是大BOSS" x="295" y="55" size="18" fontFamily="Helvetica" height="23" verticalAlign="middle" textAlign="right" anchorOffsetX="0" width="140"/>
+		<e:BitmapLabel id="LabelHpNum" width="267.08" height="34" x="-118.37" y="8.8" text="X3000" anchorOffsetX="0" scaleX="0.8" scaleY="0.8" textAlign="right" font="FightNum_fnt"/>
+
+	</e:Group>
+</e:Skin>

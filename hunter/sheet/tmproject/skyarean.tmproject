@@ -1,0 +1,33 @@
+{
+    "files": [
+        "./../../image/ui/skyarean/ui_skyarean_list2.png",
+        "./../../image/ui/skyarean/ui_skyarean_list1.png",
+        "./../../image/ui/skyarean/ui_skyarean_jianglidi.png",
+        "./../../image/ui/skyarean/ui_skyarean_guize.png",
+        "./../../image/ui/skyarean/ui_skyarean_fanhui.png",
+        "./../../image/ui/skyarean/ui_skyarean_biaoti.png",
+        "./../../image/ui/skyarean/ui_skyarean_biaoqian3.png",
+        "./../../image/ui/skyarean/ui_skyarean_biaoqian2.png",
+        "./../../image/ui/skyarean/ui_skyarean_biaoqian1.png",
+        "./../../image/ui/skyarean/ui_skyarean_3rd.png",
+        "./../../image/ui/skyarean/ui_skyarean_2nd.png",
+        "./../../image/ui/skyarean/ui_skyarean_1st.png",
+        "./../../image/ui/skyarean/ui_skyarean_zhandou.png",
+        "./../../image/ui/skyarean/ui_skyarean_xianlu.png",
+        "./../../image/ui/skyarean/ui_skyarean_weishangbang.png",
+        "./../../image/ui/skyarean/ui_skyarean_touxiangkuang3.png",
+        "./../../image/ui/skyarean/ui_skyarean_touxiangkuang2.png",
+        "./../../image/ui/skyarean/ui_skyarean_touxiangkuang1.png",
+        "./../../image/ui/skyarean/ui_skyarean_touxiang.png",
+        "./../../image/ui/skyarean/ui_skyarean_paihangbang.png"
+    ],
+    "projectName": "skyarean",
+    "version": 5,
+    "options": {
+        "extend": 0,
+        "layoutMath": "0",
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1
+    }
+}

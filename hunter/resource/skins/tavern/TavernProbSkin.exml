@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Tavern" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group1" width="100%" height="100%" x="0" y="0">
+		<e:Label id="labelCloseTheTip" text="点击任意区域关闭" size="18" horizontalCenter="0" bottom="20"/>
+		<e:Group id="group2" width="652" height="463" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" top="160">
+		</e:Group>
+	</e:Group>
+	<e:Group width="652" height="315" anchorOffsetY="0" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0">
+		<e:Image source="ui_hunter_break_BoardBreakBigFloor_png" width="648" height="287.33" anchorOffsetY="0" bottom="0" horizontalCenter="-1" scale9Grid="57,29,342,39"/>
+		<e:Image source="ui_instance_BoardSearchTeam_png" anchorOffsetX="0" width="616" height="235" anchorOffsetY="0" bottom="12" scale9Grid="22,14,24,20" horizontalCenter="0"/>
+		<e:Image source="ui_instance_BoardTopTip_png" width="648" horizontalCenter="0" top="28" scale9Grid="40,9,247,8"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="0" top="2"/>
+		<e:Image source="ui_tavern_WordsTipRandom_png" y="11" horizontalCenter="0"/>
+		<e:Group id="sodaWater" width="602" height="49" x="26" y="74.67">
+		<e:Image source="ui_tavern_BoardTipRandom_png" x="0" y="0" scaleX="1" scaleY="1" scale9Grid="75,13,452,19"/>
+		<e:Image source="ui_tavern_WordsTipType4_png" x="5" y="4.5"/>
+		<e:Label id="labelSoda" text="C级猎人：80%" x="155" y="15.5" size="18" textColor="0xa7f409"/>
+		</e:Group>
+		<e:Group id="IceBeer" width="602" height="49" x="26" y="130">
+		<e:Image source="ui_tavern_BoardTipRandom_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_tavern_WordsTipType1_png" x="5" y="4.5"/>
+		<e:Label id="labelBeer" text="B级猎人：88.7%" x="155" y="15.5" size="18" textColor="0x09d2ef"/>
+		</e:Group>
+		<e:Group id="redWine" width="602" height="49" x="26" y="185">
+		<e:Image source="ui_tavern_BoardTipRandom_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_tavern_WordsTipType2_png" x="5" y="4.5"/>
+		<e:Label id="labelRedWine" text="A级猎人：90%" x="155" y="15.5" size="18" textColor="0xf209ae"/>
+		</e:Group>
+		<e:Group id="champagne" width="602" height="49" x="26" y="243">
+		<e:Image source="ui_tavern_BoardTipRandom_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_tavern_WordsTipType3_png" x="5" y="4.5"/>
+		<e:Label id="labelChampagne" text="S级猎人：100%" x="155" y="15.5" size="18" textColor="0xef8a0b"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

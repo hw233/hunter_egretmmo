@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueDonateItemSkin" width="209" height="257" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" scaleX="1" scaleY="1">
+		<e:Image source="ui_union_BoardConstructionInfo_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_union_OrnConstructionIcon_png" horizontalCenter="0.5" top="7"/>
+		<e:Image id="imgTypeName" source="ui_union_WordsConsturction1_png" y="16.54" horizontalCenter="0"/>
+		<e:Image id="imglcon" source="ui_union_IconConsturction1_png" y="48.53" horizontalCenter="0"/>
+		<e:Label text="消耗：" x="21.66" y="146" size="18" height="24" textAlign="left" verticalAlign="middle" fontFamily="Helvetica"/>
+		<e:Image id="imgCost" x="65.03" y="130.33" source="ui_iconresources_zuanshi3_png"/>
+		<e:Label id="lbCost" text="80000" x="118.66" y="148" size="18" textColor="0xfeffff" verticalAlign="middle" textAlign="left" fontFamily="Helvetica" height="24" width="85"/>
+		<e:Label text="获得：" x="21" y="181" size="18" textColor="0xfeffff" height="24" verticalAlign="middle" fontFamily="Helvetica" textAlign="left"/>
+		<e:Image source="ui_union_IconConstructionEXP_png" x="73.32" y="176.97" scaleX="0.5" scaleY="0.5"/>
+		<e:Label id="lbGetExp" text="2000" x="119" y="181" size="18" height="24" fontFamily="Helvetica" width="83" verticalAlign="middle"/>
+		<e:Image source="ui_iconresources_gonghuibi3_png" x="64.32" y="201.37"/>
+		<e:Label id="lbGetToken" text="2000" x="119" y="216.65" size="18" textColor="0xfeffff" height="24" textAlign="left" verticalAlign="middle" fontFamily="Helvetica" width="81"/>
+		<e:Image id="imgBoardFrame" source="ui_union_FrameConstructionInfo_png" x="0" y="0"/>
+
+	</e:Group>
+</e:Skin>

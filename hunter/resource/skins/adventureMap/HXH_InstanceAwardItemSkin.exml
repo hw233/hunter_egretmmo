@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_InstanceAwardItemSkin" width="66.5" height="65.1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" width="66.5" height="66.1" x="0" y="0">
+		<e:Image id="imgFrame" source="ui_other_FramePropA_png" width="66.5" height="65.1" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon" width="66.5" height="65.1" anchorOffsetX="0" anchorOffsetY="0" source="hero_icon_head_wj_bisiji_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="1.45"/>
+		<e:BitmapLabel id="labelTextNum" width="80.13" height="26.35" font="BattleSkillCDNum_fnt" text="22" anchorOffsetX="0" textAlign="right" scaleX="0.6" scaleY="0.6" anchorOffsetY="0" touchEnabled="false" horizontalCenter="0" verticalCenter="14.5"/>
+		<e:Group id="groupAnimate" width="66.5" height="65.1" x="0" y="0"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_InstanceSweepFiveItemSkin" width="500" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="500" height="160" x="0" y="0">
+		<e:Image source="ui_instance_BoardSweepInfo_png" scaleX="1" scaleY="1" height="105" scale9Grid="60,3,365,24" horizontalCenter="0" bottom="4"/>
+		<e:Image source="ui_instance_BoardSearchTip_png" anchorOffsetX="93" anchorOffsetY="15" top="11" horizontalCenter="0" width="185"/>
+		<e:Label id="labelTitle" text="第一次" size="20" horizontalCenter="0" top="17" textAlign="center"/>
+		<e:Group id="groupTableViewDrops" width="485" height="105" x="7" y="50" anchorOffsetY="0">
+			<e:Group width="70" height="70" x="3" y="34"/>
+			<e:Scroller id="scroller" width="485" height="105" x="0" y="0">
+				<e:List id="list">
+					<e:layout>
+						<e:HorizontalLayout verticalAlign="middle"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Label id="labelTextNone" text="很遗憾，没有掉落任何物品" x="140" y="43" size="18" textColor="0x000000"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

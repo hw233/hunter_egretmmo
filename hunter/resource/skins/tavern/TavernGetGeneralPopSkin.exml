@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TavernGetGeneralPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="834.67" height="226.66" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="164.5">
+		<e:Group id="group1" width="683" height="160" y="20" scaleX="1" scaleY="1" horizontalCenter="0.16500000000002046">
+			<e:Image source="ui_hunterpokedex_BordPop_png" horizontalCenter="0" y="0"/>
+			<e:Image id="image1" source="ui_hunterpokedex_WordsPopType3_png" verticalCenter="0" left="89"/>
+			<e:Image id="image2" source="ui_hunterpokedex_WordsPopTipOpen_png" x="273" y="22"/>
+			<e:Label id="labelHunExplain" text="操作系猎人攻击+10%" x="360" y="100" anchorOffsetX="0" width="250" size="20"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

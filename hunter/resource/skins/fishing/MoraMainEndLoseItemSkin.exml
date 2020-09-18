@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MoraMainEndLoseItemSkin" width="310" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" height="80" x="0" verticalCenter="0">
+		<e:Image source="ui_mora_BoardEnemyTeam_png" x="0" y="1.55"/>
+		<e:Group x="179" y="8">
+			<e:Image id="imageBoard" source="ui_frame_FrameHunterAsh_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageIcon" source="hero_icon_head_wj_jidou_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image id="imageWinOrLose" source="ui_mora_WordsWoraWin_png" x="107" y="15.55"/>
+		<e:Image source="ui_mora_BoardMoraIconSmall_png" x="19" y="0"/>
+		<e:Image id="imagePlayer" source="ui_mora_IconMoraSmall2_png" x="18" y="-1"/>
+	</e:Group>
+</e:Skin>

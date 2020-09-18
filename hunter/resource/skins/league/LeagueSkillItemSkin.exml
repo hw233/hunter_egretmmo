@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueSkillItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="247" height="59">
+	<e:Image source="ui_union_skill_bar_1_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="15" y="5">
+		<e:Image source="ui_union_skill_icon_baoji_1_png" horizontalCenter="0" verticalCenter="0" x="10" y="10"/>
+		<e:Image id="imgIcon" source="ui_union_skill_icon_baoji_1_png" horizontalCenter="0" verticalCenter="0" width="50" height="50"/>
+		<e:Image id="imgIconbg" source="ui_union_skill_icon_baoji_1_png" scaleX="0.88" scaleY="0.88" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="labelName" text="暴击伤害" x="73" size="22" verticalAlign="middle" verticalCenter="0.5"/>
+	<e:Label id="labelBonuses" text="+20%" x="168" anchorOffsetX="0" width="76" size="22" verticalCenter="0.5"/>
+</e:Skin>

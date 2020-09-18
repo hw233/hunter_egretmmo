@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_LetterSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group verticalCenter="0" horizontalCenter="0">
+		<e:Image y="0" source="ui_hunter_LayerCurrencyFirst_png" scale9Grid="55,30,335,186" width="600" height="410" horizontalCenter="0"/>
+		<e:Image x="5.03" y="-15.31" source="ui_hunter_OrnDontGetHunterTop_png"/>
+		<e:Image y="-38.66" source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="0"/>
+		<e:Image y="-27" source="ui_mail_SordsTipSendMail_png" horizontalCenter="0"/>
+		<e:Label text="标题：" x="33" y="41" fontFamily="Helvetica" size="18" textColor="0x000000"/>
+		<e:Image x="91" y="31" source="ui_union_BordInputLeagueName_png" scale9Grid="46,5,280,33" width="480"/>
+		<e:EditableText id="lbTitle" width="480" height="40" text="" x="91" y="32" textAlign="left" verticalAlign="middle" size="18" fontFamily="Helvetica"/>
+		<e:Label id="lbName" text="收件人：玩家名称" x="33" y="83" fontFamily="Helvetica" size="18" textColor="0x000000"/>
+		<e:Image y="109" source="ui_mail_LayerMailFirst_png" scale9Grid="12,13,79,80" width="575" height="235" horizontalCenter="0"/>
+		<e:EditableText id="lbContent" width="560" height="220" text="" y="117" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" horizontalCenter="0" multiline="true" lineSpacing="5"/>
+		<e:Button id="btnClose" label="" x="121.03" y="353">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_ButtonCancelResurrectionNor_png" source.down="ui_wonderland_ButtonCancelResurrectionSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnSend" label="" x="345" y="352">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mail_ButtonSendMailNor_png" source.down="ui_mail_ButtonSendMailSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_ViewHeroDetailItemSkin" width="90" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="90" height="90" horizontalCenter="0" verticalCenter="0" scaleX="0.85" scaleY="0.85">
+		<e:Image id="spriteFrame" source="ui_frame_FrameSkill_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="spriteIcon" source="skill_icon_fulankelin01_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="labelNum" text="1" size="20" width="60" left="10" bottom="10"/>
+		<e:Image id="spriteSel" source="ui_frame_FrameSkillSelected_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="spriteAwake" source="ui_frame_FrameSkillNor_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="spriteActivity" source="ui_hunter_WordsPartnerAcotivity_png" horizontalCenter="0" bottom="12"/>
+		<e:Image id="spriteIconAwaken" source="ui_hunter_evaluate_IconHunterAwakenLevel1_png" width="29" height="28" right="10" bottom="10"/>
+	</e:Group>
+</e:Skin>

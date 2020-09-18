@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="licenseMainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgbg" source="ui_hunter_LayerHeroBg_png" y="0" horizontalCenter="0" height="100%" scaleY="1" scaleX="1" width="100%"/>
+	<e:Image source="ui_chat_OrnTop_png" right="-10" scale9Grid="10,5,66,31" left="-10" top="0"/>
+	<e:Group id="groupMoney1" right="180">
+		<e:Image source="ui_union_instance_BoardBurInstanceBossBlood_png" scaleX="0.75" y="6" left="0" right="0"/>
+		<e:Image source="ui_currencyicon_IconGold_png" left="-6" verticalCenter="0.5"/>
+		<e:Label id="labelIntegrate" text="904023424" size="20" verticalCenter="0" right="43" left="30" textAlign="center" verticalAlign="middle"/>
+		<e:Button id="btnAddGold" label="" y="0" right="-11">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Button id="btnClose" label="" left="-24" top="-11" width="162" height="74">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="ui_license_WordsMainTip_png" left="122" top="-8"/>
+	<e:Group id="groupCommon" horizontalCenter="0" anchorOffsetY="0" height="583" verticalCenter="28.5">
+		<e:Group id="groupTeach1" x="0" y="0">
+			<e:Image source="ui_meteor_BoardBgSeconde_png" width="575" height="440" scale9Grid="15,14,94,89" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_meteor_BoardTip_png" scaleX="4.17" horizontalCenter="0" top="0" scale9Grid="60,4,61,28"/>
+			<e:Image source="ui_license_WordsTipHunterLicenseAssess_png" top="4" horizontalCenter="10"/>
+			<e:Image id="imgLevelAssess" source="ui_license_WordsLicenseTitleNum2_png" scaleX="0.8" scaleY="0.8" top="3" left="205"/>
+			<e:List id="listInfo" width="575" height="400" horizontalCenter="0" bottom="3">
+				<e:layout>
+					<e:TileLayout requestedRowCount="2" requestedColumnCount="2" paddingLeft="6" horizontalGap="13"/>
+				</e:layout>
+			</e:List>
+			<e:Group id="groupExamination" horizontalCenter="0" y="39" width="555" height="357">
+				<e:Image source="ui_license_OrnMapBig_png" x="0" y="0"/>
+				<e:Image source="hero_half_wj_huizhang_png" x="303.04" y="12.079999999999998" scaleX="-0.7" scaleY="0.7"/>
+				<e:Image source="ui_license_FramePopNpcTalk_png" x="233.67" y="12.08"/>
+				<e:Group id="groupNpcTalk1" x="250" y="26" width="280" height="296">
+					<e:Group id="groupTalk1" width="297.34" height="114" x="-14.34" y="-10" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0"/>
+					<e:Image source="ui_license_WordsTipNpcTalk1_png" x="0" y="0"/>
+					<e:BitmapLabel id="labelExaminationInfo1" width="20" height="20" x="111" y="50" font="WordsLisenceLevel_fnt" text="1" textAlign="center"/>
+					<e:Button id="btnHunterExamination" label="" x="108" y="241" width="172" height="55">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_license_ButtonHunterExaminationNor_png" source.down="ui_license_ButtonHunterExaminationSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+				</e:Group>
+				<e:Group id="groupNpcTalk2" x="250" y="26" width="280" height="296">
+					<e:Group id="groupTalk2" width="297.34" height="114" x="-16" y="-12" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0"/>
+					<e:Image x="0" y="13" source="ui_license_WordsTipNpcTalk2_png"/>
+					<e:BitmapLabel id="labelExaminationInfo2" width="20" height="20" x="215" y="16" font="WordsLisenceLevel_fnt" text="1" textAlign="center"/>
+					<e:Button id="btnGetLicence" label="" x="108" y="241" width="172" height="55">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_license_ButtonHunterGetLicenseLevelNor_png" source.down="ui_license_ButtonHunterGetLicenseLevelSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+				</e:Group>
+			</e:Group>
+			<e:Label id="labelLicenseTip" text="完成四项考核后需要进行猎人考试，通过考试即可获得猎人执照。" size="18" bottom="12" horizontalCenter="0" textColor="0x00fcff"/>
+		</e:Group>
+		<e:Group id="groupTeach2" x="580.99" y="0">
+			<e:Image source="ui_meteor_BoardBgSeconde_png" width="362" height="440" scale9Grid="15,14,94,89" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_meteor_BoardTip_png" scaleX="2.63" horizontalCenter="0" top="0" scale9Grid="58,4,63,28"/>
+			<e:Image top="4" horizontalCenter="15" x="-355.99" y="4" scaleX="1" scaleY="1" source="ui_license_WordsTipHunterLicenseAward_png"/>
+			<e:Image id="imgLevelAward" source="ui_license_WordsLicenseTitleNum2_png" scaleX="0.8" scaleY="0.8" top="3" y="3" left="104"/>
+			<e:Group x="15" y="40">
+			<e:Image source="ui_license_BoardExaminationLevelCard_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="groupStar" height="24" horizontalCenter="0" bottom="6"/>
+			<e:Image id="imgLicenseLevel" source="ui_license_IconExaminationLevelCard1_png" horizontalCenter="0" top="6"/>
+			<e:Label id="labelLicenseLevelInfo" text="Sample Text" size="16" textColor="0x000000" top="67" x="36"/>
+			</e:Group>
+			<e:Image source="ui_license_OrnHunterLicenseLevel_png" x="177" y="37"/>
+			<e:Image source="ui_license_IconHunterLicenseLevel_png" x="177" y="41"/>
+			<e:Image id="imgHunterTitle" source="ui_license_examination_WordsTitle1_png" x="208" y="86"/>
+			<e:List id="listStarAward" width="220" height="67" x="173" y="179" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" verticalAlign="top"/>
+				</e:layout>
+			</e:List>
+			<e:Group y="241" x="0">
+			<e:Image source="ui_meteor_BoardTip_png" scaleX="2.63" scale9Grid="58,4,63,28" x="0" y="0"/>
+			<e:Image x="124" y="4" scaleX="1" scaleY="1" source="ui_license_WordsTipHunterLicensePrerogative_png"/>
+			<e:Image id="imgLevelPrerogative" source="ui_license_WordsLicenseTitleNum2_png" scaleX="0.8" scaleY="0.8" y="3" x="104"/>
+			<e:Scroller width="350" height="160" y="38" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+				<e:List id="listHunterInfo"/>
+			</e:Scroller>
+			</e:Group>
+		</e:Group>
+		<e:List id="listAllHunter" width="847.37" height="166" x="2.99" bottom="-10" scaleX="0.95" anchorOffsetX="0">
+			<e:layout>
+				<e:TileLayout requestedRowCount="1" requestedColumnCount="7" rowAlign="justifyUsingGap" columnAlign="justifyUsingGap" horizontalGap="-45"/>
+			</e:layout>
+		</e:List>
+		<e:Button id="btnHight" label="" x="835" y="473" width="100" height="69" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_license_high_ButtonGoHighNor_png" source.down="ui_license_high_ButtonGoHighSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="groupHight" horizontalCenter="0" anchorOffsetY="0" height="583" verticalCenter="28.5" visible="false">
+		<e:Group id="groupTeach0" x="0" y="0">
+		<e:Image source="ui_meteor_BoardBgSeconde_png" width="575" height="440" scale9Grid="15,14,94,89" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image horizontalCenter="0" top="0" scale9Grid="60,4,61,28" source="ui_license_high_BoardTitleFloor1_png"/>
+		<e:Image top="4" horizontalCenter="10" source="ui_license_high_WordsTitle2_png"/>
+		<e:Image id="imgLevelAssessH" scaleX="0.8" scaleY="0.8" top="3" left="234" source="ui_license_WordsHighLicenseTitleNum1_png"/>
+		<e:List id="listInfoH" width="575" height="400" horizontalCenter="0" bottom="3">
+			<e:layout>
+			<e:TileLayout requestedRowCount="2" requestedColumnCount="2" paddingLeft="6" horizontalGap="13"/>
+			</e:layout>
+		</e:List>
+		<e:Group id="groupExaminationH" horizontalCenter="0" y="39" width="555" height="357">
+			<e:Image x="0" y="0" source="ui_license_high_BoardNpcFloor_png"/>
+			<e:Image x="303.04" y="12.079999999999998" scaleX="-0.7" scaleY="0.7" source="hero_half_wj_jin_png"/>
+			<e:Image x="233.67" y="12.08" source="ui_license_high_BoardPopFloor_png"/>
+			<e:Group id="groupNpcTalkH" x="250" y="26" width="280" height="296">
+			<e:Group id="groupTalk0" width="297.34" height="114" x="-14.34" y="-10" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0"/>
+			<e:Image x="0" y="0" source="ui_license_high_WordsInfo_png"/>
+			<e:BitmapLabel id="labelExaminationInfoH" width="20" height="20" x="90" y="50" font="WordsLisenceLevel_fnt" text="1" textAlign="center"/>
+			<e:Button id="btnHunterExaminationH" label="" x="108" y="241" width="172" height="55">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_license_ButtonHunterExaminationNor_png" source.down="ui_license_ButtonHunterExaminationSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+			<e:Group id="groupNpcTalk3" x="250" y="26" width="280" height="296">
+			<e:Group id="groupTalk3" width="297.34" height="114" x="-16" y="-12" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0"/>
+			<e:Image x="0" y="13" source="ui_license_high_WordsInfo2_png"/>
+			<e:BitmapLabel id="labelExaminationInfo2H" width="20" height="20" x="252" y="15" font="WordsLisenceLevel_fnt" text="1" textAlign="center"/>
+			<e:Button id="btnGetLicenceH" label="" x="108" y="241" width="172" height="55">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_license_ButtonHunterGetLicenseLevelNor_png" source.down="ui_license_ButtonHunterGetLicenseLevelSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+		</e:Group>
+		<e:Label id="labelLicenseTip0" text="完成四项考核后需要进行猎人考试，通过考试即可获得猎人执照。" size="18" bottom="12" horizontalCenter="0" textColor="0x00FCFF"/>
+		</e:Group>
+		<e:Group id="groupTeach3" x="580.99" y="0">
+		<e:Image source="ui_meteor_BoardBgSeconde_png" width="362" height="440" scale9Grid="15,14,94,89" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image horizontalCenter="0" top="0" scale9Grid="58,4,63,28" source="ui_license_high_BoardTitleFloor2_png"/>
+		<e:Image top="4" horizontalCenter="15" x="-355.99" y="4" scaleX="1" scaleY="1" source="ui_license_high_WordsTitle1_png"/>
+		<e:Image id="imgLevelAwardH" scaleX="0.8" scaleY="0.8" top="3" y="3" left="134" source="ui_license_WordsHighLicenseTitleNum1_png"/>
+		<e:Group x="15" y="40">
+			<e:Image source="ui_license_BoardExaminationLevelCard_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="groupStarH" height="24" horizontalCenter="0" bottom="6"/>
+			<e:Image id="imgLicenseLevelH" source="ui_license_IconExaminationLevelCard1_png" horizontalCenter="0" top="6"/>
+			<e:Label id="labelLicenseLevelInfoH" text="Sample Text" size="16" textColor="0x000000" top="67" x="36"/>
+		</e:Group>
+		<e:Image source="ui_license_OrnHunterLicenseLevel_png" x="177" y="37"/>
+		<e:Image x="177" y="41" source="ui_license_high_BoardMarkFloor_png"/>
+		<e:Image id="imgHunterTitleH" x="208" y="86" source="ui_license_examination_WordsTitle8_png"/>
+		<e:List id="listStarAwardH" width="220" height="67" x="173" y="179" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8">
+			<e:layout>
+			<e:TileLayout requestedRowCount="1" verticalAlign="top"/>
+			</e:layout>
+		</e:List>
+		<e:Group y="241" horizontalCenter="0">
+			<e:Image scale9Grid="58,4,63,28" y="0" source="ui_license_high_BoardTitleFloor3_png" horizontalCenter="0"/>
+			<e:Image y="4" scaleX="1" scaleY="1" source="ui_license_high_WordsTitle3_png" horizontalCenter="0"/>
+			<e:Image id="imgLevelPrerogativeH" scaleX="0.8" scaleY="0.8" y="3" x="113" source="ui_license_WordsHighLicenseTitleNum4_png"/>
+			<e:Scroller width="350" height="160" y="38" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:List id="listHunterInfoH"/>
+			</e:Scroller>
+		</e:Group>
+		</e:Group>
+		<e:List id="listAllHunterH" width="572.64" height="166" bottom="-10" scaleX="0.95" scaleY="0.95" anchorOffsetX="0" horizontalCenter="0">
+		<e:layout>
+			<e:TileLayout requestedRowCount="1" requestedColumnCount="7" rowAlign="justifyUsingGap" columnAlign="justifyUsingGap" horizontalGap="-35"/>
+		</e:layout>
+		</e:List>
+		<e:Button id="btnNorMal" label="" x="1" y="473" width="100" height="69" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_license_high_ButtonGoLowNor_png" source.down="ui_license_high_ButtonGoLowSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+
+	</e:Group>
+	<e:Button id="btnNone" label="" top="3" right="387" width="115" height="38" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_meteor_ButtonPlayerSkillNor_png" source.down="ui_meteor_ButtonPlayerSkillSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

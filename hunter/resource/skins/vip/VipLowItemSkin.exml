@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipLowItemSkin" width="360" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="31" y="3" >
+		<e:Image source="ui_vip_lowvip_IconRight_png" x="-22" y="0"/>
+		<e:Label id="lbInfo" text="包含二星ieren全部特权" size="18" fontFamily="SimHei" verticalAlign="middle" textAlign="left" x="24" y="8" lineSpacing="0"/>
+	</e:Group>
+</e:Skin>

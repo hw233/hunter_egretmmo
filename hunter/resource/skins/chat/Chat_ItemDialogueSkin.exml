@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="800" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" class="Chat_ItemDialogueSkin">
+	<e:Image source="ui_chat_IconChatInfoType2_png" visible="false"/>
+	<e:Image source="ui_chat_IconChatInfoType3_png" visible="false"/>
+	<e:Image source="ui_chat_IconChatInfoType4_png" visible="false"/>
+	<e:Image source="ui_chat_IconChatInfoType5_png" visible="false"/>
+	<e:Button id="ButtonCheck" label="" y="32">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_chat_IconChatInfoType1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="ButtonShow" label="" width="700" height="65" x="100" y="30"/>
+	<e:Image id="VariateLayer" x="100" y="30" scale9Grid="57,23,343,138" anchorOffsetX="0" width="700" anchorOffsetY="0" height="65" source=""/>
+	<e:Group id="LayerCommon" width="700" height="65" x="100" y="30" anchorOffsetY="0">
+		<e:Label id="TextName" text="玩家的名字" x="22" y="15" size="20"/>
+		<e:Label id="TextCommon" text="悄悄话哈哈哈哈哈哈哈哈哈" x="172" y="16" anchorOffsetX="0" width="526" size="20"/>
+		<e:Image source="ui_chat_IconSpeakB_png" x="144" y="19" scale9Grid="2,1,14,12"/>
+	</e:Group>
+	<e:Group id="LayerVip" width="200" height="200" x="35" y="137" visible="false"/>
+</e:Skin>

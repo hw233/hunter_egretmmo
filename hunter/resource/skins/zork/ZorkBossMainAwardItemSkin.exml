@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZorkBossMainAwardItemSkin" width="76" height="76" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon" source="hero_icon_head_wj_kete_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgLogo" source="ui_currencyicon_IconHunterFragment_png" scaleX="0.8" scaleY="0.8" left="7" top="5" visible="false"/>
+		<e:BitmapLabel id="lbNum" width="76" height="26" font="ItemNum_fnt" text="150000" textAlign="right" verticalAlign="bottom" anchorOffsetY="0" anchorOffsetX="0" scaleX="1.2" scaleY="1.2" bottom="10" right="21"/>
+		<e:Group id="groupAni" width="70" height="70" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

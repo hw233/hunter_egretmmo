@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityHappySevenDaySkin" width="556" height="516" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_acitivity_serverseven_BoardFloor_png" horizontalCenter="0" verticalCenter="0" scale9Grid="69,64,418,388"/>
+	<e:Group id="groupReward" y="84" horizontalCenter="0">
+		<e:Scroller id="scrollerViewDay" width="560" height="420" verticalCenter="0" horizontalCenter="0">
+			<e:List id="lstViewDay">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="groupGift" horizontalCenter="0" y="84">
+		<e:Scroller id="scrollerViewGift" width="560" height="420" verticalCenter="0" horizontalCenter="0">
+			<e:List id="lstViewGift">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group horizontalCenter="0" top="26" width="416" height="57">
+		<e:Button id="btnReward" label="" verticalCenter="0" horizontalCenter="-101">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_acitivity_serverseven_ButtonAwardNor_png" source.down="ui_acitivity_serverseven_ButtonAwardSel_png" source.disabled="ui_acitivity_serverseven_ButtonAwardSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btnGift" label="" verticalCenter="0" horizontalCenter="101">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_acitivity_serverseven_ButtonGiftNor_png" source.down="ui_acitivity_serverseven_ButtonGiftSel_png" source.disabled="ui_acitivity_serverseven_ButtonGiftSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image id="imgTip" x="384" y="-8" source="ui_currencyicon_IconRed_png"/>
+		<e:Image id="imgTip1" x="182" y="-8" source="ui_currencyicon_IconRed_png"/>
+	</e:Group>
+</e:Skin>

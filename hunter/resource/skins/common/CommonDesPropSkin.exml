@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonDesPropSkin" width="395" height="255" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" touchThrough="true" touchEnabled="false" left="0" top="0" bottom="0" right="0">
+		<e:Image width="395" height="255" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_common_BoardChangeAchievementsA_png" scale9Grid="54,50,42,28"/>
+		<e:Group id="groupMack" x="29.99" y="22.99" width="95" height="93">
+		<e:Image id="imgFrame" width="95" height="93" source="ui_frame_FrameHunterRed1_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgIcon" source="ui_exchange_IconFuritType1_png" horizontalCenter="0" verticalCenter="0"/>
+
+			<e:Label id="lbNum" text="99" size="18" width="46.44" verticalAlign="bottom" textAlign="right" right="12" bottom="10"/>
+			<e:Label id="lbNumID" text="18" x="20.98" y="28.33" size="18" verticalAlign="middle" textAlign="center" textColor="0x3a3434"/>
+			<e:Image id="imgpifu" source="ui_acitivity_serverseven_sign_png" x="66" y="8" scaleX="0.6" scaleY="0.6"/>
+		</e:Group>
+		<e:Label id="lbName" text="物品名称" size="16" textColor="0xeaead2" left="140" top="35"/>
+		<e:Label id="lbType" text="羁绊卡碎片" size="16" textColor="0xeaead2" left="140" top="60"/>
+		<e:Label text="拥有               件" height="18" size="16" anchorOffsetX="0" textColor="0xeaead2" left="140" top="85"/>
+		<e:Label id="lbOwn" text="999" width="86" height="18" size="16" verticalAlign="middle" textAlign="center" textColor="0x00ddff" left="162" top="85" anchorOffsetX="0"/>
+		<e:Image width="365" height="115" horizontalCenter="0" source="ui_common_BoardChangeAchievementsB_png" bottom="14" scale9Grid="30,28,6,9"/>
+		<e:Label id="lbInfo" text="" width="335" height="200" horizontalCenter="0.5" size="16" top="135" textColor="0xf3e1af"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardBreakSelectDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="465" height="540" horizontalCenter="0" verticalCenter="0" scale9Grid="101,30,273,92"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" width="445" height="444" horizontalCenter="0.5" verticalCenter="28" scale9Grid="17,10,90,65" anchorOffsetY="0"/>
+		<e:Image source="ui_instance_BoardTopTip_png" scaleX="1.42" horizontalCenter="0" verticalCenter="-262"/>
+		<e:Image source="ui_card_WordsBreakSelectTitle_png" horizontalCenter="0" verticalCenter="-261"/>
+		<e:Button id="btnClose" label="" horizontalCenter="202" verticalCenter="-263.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_hunter_BoardPopAwakenMeterialsTip_png" width="453" horizontalCenter="0.5" verticalCenter="-215.5"/>
+		<e:Label id="labelTip" text="突破材料为一定等级的同名卡" size="18" horizontalCenter="-44" width="330" textAlign="left" verticalCenter="-214"/>
+		<e:Label id="labelSelectedNum" text="已选择：4/1" size="16" width="140" textAlign="right" horizontalCenter="139" verticalCenter="-214"/>
+		<e:Button id="btnSelectedOk" label="" horizontalCenter="0" verticalCenter="270.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_instance_ButtonSureTeamNor_png" source.down="ui_instance_ButtonSureTeamSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="scroMetarials" width="419" height="420" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="22">
+			<e:List id="listMetarials">
+				<e:layout>
+					<e:TileLayout horizontalGap="0" verticalGap="0" requestedColumnCount="4"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueLogTitleItemSkin" width="610" height="34" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="0" x="5">
+		<e:Image source="ui_union_BoardUnionLogTimeBig_png" x="0" y="0"/>
+		<e:Label id="lbDate" text="2015-12-31" x="18" y="5" size="18" fontFamily="Helvetica" height="24" textAlign="left" verticalAlign="middle" width="109"/>
+	</e:Group>
+</e:Skin>

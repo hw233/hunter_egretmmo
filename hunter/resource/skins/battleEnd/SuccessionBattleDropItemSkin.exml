@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SuccessionBattleDropItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="95" height="96">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="SpriteWhite" source="ui_exchange_BoardAwardInfo_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="SpriteItemFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="SpriteItemIcon" source="item_FriendStone_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="SpriteNode" horizontalCenter="0" verticalCenter="0"/>
+		<e:BitmapLabel id="LabelNum" height="20" font="ItemNumWords_fnt" text="123" right="10" bottom="16"/>
+	</e:Group>
+</e:Skin>

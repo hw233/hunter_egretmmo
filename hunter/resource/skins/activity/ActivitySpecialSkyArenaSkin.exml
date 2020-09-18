@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivitySpecialSkyArenaSkin" width="600" height="467" xmlns:e="http://ns.egret.com/eui">
+	<e:Image horizontalCenter="0" verticalCenter="0" source="ui_acitivity_special_WordsSpecialSkyrenaTip_jpg"/>
+	<e:Group id="groupViewAward" y="251" x="141"/>
+	<e:Button id="btnGo" label="" x="117" y="368">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_acitivity_special_ButtonSpecalGoNor_png" source.down="ui_acitivity_special_ButtonSpecalGoSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

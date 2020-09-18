@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DoubleColorPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="7" verticalCenter="-15.5">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="705" height="465" scale9Grid="110,30,194,79" x="0" y="32"/>
+		<e:Button id="btnClose" label="" x="627.66" y="0.04">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" x="200" y="0"/>
+		<e:Image source="ui_doublecolor_WordsTipBet_png" x="298.95" y="11.66"/>
+		<e:Label text="投注不消耗果实，投注结果一旦确定将无法修改" size="24" textColor="0x000000" fontFamily="Helvetica" bold="true" y="67.4" x="95"/>
+		<e:Image source="ui_doublecolor_BoardListAward_png" y="187.4" width="675" height="105" scale9Grid="12,9,79,54" x="15"/>
+		<e:Image source="ui_doublecolor_BoardListAward_png" y="310.06" width="675" height="105" scale9Grid="12,9,79,54" x="15"/>
+		<e:Image source="ui_doublecolor_BoardRedFruit_png" x="25" y="199.75"/>
+		<e:Scroller width="500" height="100" x="172" y="190.77">
+			<e:List id="lstRed">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image source="ui_doublecolor_BoardBlueFruit_png" x="25" y="321.06"/>
+		<e:Scroller width="500" height="100" x="172" y="312.8">
+			<e:List id="lstBlue">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnOK" label="" x="522" y="432">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_doublecolor_ButtonOkNor_png" source.down="ui_doublecolor_ButtonOkSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnViewEnd" label="" x="344" y="432">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_doublecolor_ButtonRandomSelectedNor_png" source.down="ui_doublecolor_ButtonRandomSelectedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="groupTouzhu" verticalCenter="-124" anchorOffsetY="0" height="74" anchorOffsetX="0" width="560" horizontalCenter="0">
+		<e:Image source="ui_doublecolor_IconAdd_png" verticalCenter="0.5" horizontalCenter="-141.5"/>
+		<e:Group id="groupFruit0" width="0" height="0" horizontalCenter="-115" top="0"/>
+		<e:Group id="groupFruit1" width="0" height="0" horizontalCenter="-15" top="0"/>
+		<e:Group id="groupFruit2" width="0" height="0" horizontalCenter="85" top="0"/>
+		<e:Group id="groupFruit3" width="0" height="0" scaleX="1" scaleY="1" horizontalCenter="185" top="0"/>
+		<e:Group id="groupFruit4" width="0" height="0" scaleX="1" scaleY="1" horizontalCenter="-275" top="0"/>
+	</e:Group>
+</e:Skin>

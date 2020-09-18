@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WonderlandFastBattleItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="880" height="95">
+	<e:Group width="880" height="95" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_mail_LayerMailSeconde_png" x="0" y="0" width="785" height="95" scale9Grid="6,10,38,62" scaleX="1" scaleY="1"/>
+		<e:Group verticalCenter="0" right="175" x="619" y="6" scaleX="1" scaleY="1">
+			<e:Image source="ui_frame_FrameHunterAsh_png" scaleX="0.9" scaleY="0.9" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgRightHead" scaleX="0.9" scaleY="0.9" horizontalCenter="0" verticalCenter="0" source=""/>
+		</e:Group>
+		<e:Label id="labelRightName" text="Lv601414" textColor="0x000000" size="16" top="20" right="275" x="534" y="20" scaleX="1" scaleY="1"/>
+		<e:Image id="imgRightResult" source="ui_mail_IconLoseSmall_png" verticalCenter="0.5" width="66" right="105" x="709" y="14" scaleX="1" scaleY="1"/>
+		<e:Image id="imgGetOrLoseRight" source="ui_wonderland_WordsBattleLose_png" x="573.5" y="54" scaleX="1" scaleY="1"/>
+		<e:Group id="groupItemRight1" x="532" bottom="8" y="49" scaleX="1" scaleY="1">
+			<e:Image id="imgItemFrame2_1" source="ui_frame_FrameHunterAsh_png" x="0" y="0.1" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgItemIcon2_1" scaleX="0.4" scaleY="0.4" horizontalCenter="0" verticalCenter="0" source=""/>
+			<e:BitmapLabel id="labelItemRightNum2_1" width="28.4" height="13.6" x="13.6" y="20.3" anchorOffsetX="0" anchorOffsetY="0" font="ItemNum_fnt" text="12" textAlign="right" scaleX="0.7" scaleY="0.7"/>
+			<e:Label id="labelFruitNum2_1" text="Label" x="4" y="3.1" size="10" textColor="0x000000"/>
+		</e:Group>
+		<e:Group id="groupItemRight2" x="485.2" bottom="8" y="49" scaleX="1" scaleY="1">
+			<e:Image id="imgItemFrame2_2" source="ui_frame_FrameHunterAsh_png" x="0" y="0.1" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgItemIcon2_2" scaleX="0.4" scaleY="0.4" horizontalCenter="0" verticalCenter="0" source=""/>
+			<e:BitmapLabel id="labelItemRightNum2_2" width="28.4" height="13.6" x="13.6" y="20.3" anchorOffsetX="0" anchorOffsetY="0" font="ItemNum_fnt" text="12" textAlign="right" scaleX="0.7" scaleY="0.7"/>
+			<e:Label id="labelFruitNum2_2" text="Label" x="4" y="3.1" size="10" textColor="0x000000"/>
+		</e:Group>
+		<e:Group id="groupItemRight3" x="441.2" bottom="8" y="49" scaleX="1" scaleY="1">
+			<e:Image id="imgItemFrame2_3" source="ui_frame_FrameHunterAsh_png" x="0" y="0.1" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgItemIcon2_3" scaleX="0.4" scaleY="0.4" horizontalCenter="0" verticalCenter="0" source=""/>
+			<e:BitmapLabel id="labelItemRightNum2_3" width="28.4" height="13.6" x="13.6" y="20.3" anchorOffsetX="0" anchorOffsetY="0" font="ItemNum_fnt" text="12" textAlign="right" scaleX="0.7" scaleY="0.7"/>
+			<e:Label id="labelFruitNum2_3" text="Label" x="4" y="3.1" size="10" textColor="0x000000"/>
+		</e:Group>
+		<e:Image id="imgLeftResult" source="ui_mail_IconLoseSmall_png" verticalCenter="0.5" left="10" x="10" y="14" scaleX="1" scaleY="1"/>
+		<e:Group left="80" verticalCenter="0" x="80" y="6" scaleX="1" scaleY="1">
+			<e:Image source="ui_frame_FrameHunterAsh_png" scaleX="0.9" scaleY="0.9" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgLeftHead" scaleX="0.9" scaleY="0.9" horizontalCenter="0" verticalCenter="0" source=""/>
+		</e:Group>
+		<e:Label id="labelLeftName" text="Lv601414" textColor="0x000000" size="16" left="180" top="20" x="180" y="20" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_mora_WordsVS_png" scaleX="0.3" scaleY="0.3" bottom="15" horizontalCenter="-48" x="371" y="55"/>
+		<e:Image id="imgGetOrLoseLeft" source="ui_wonderland_WordsBattleGet_png" x="168" y="58" scaleX="1" scaleY="1"/>
+		<e:Group id="groupItemLeft3" x="308" bottom="8" y="49" scaleX="1" scaleY="1">
+			<e:Image id="imgItemFrame1_3" source="ui_frame_FrameHunterAsh_png" x="0" y="0.1" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgItemIcon1_3" scaleX="0.4" scaleY="0.4" horizontalCenter="0" verticalCenter="0" source=""/>
+			<e:BitmapLabel id="labelItemRightNum1_3" width="28.4" height="13.6" x="13.6" y="20.3" anchorOffsetX="0" anchorOffsetY="0" font="ItemNum_fnt" text="12" textAlign="right" scaleX="0.7" scaleY="0.7"/>
+			<e:Label id="labelFruitNum1_3" text="Label" x="4" y="3.1" size="10" textColor="0x000000"/>
+		</e:Group>
+		<e:Group id="groupItemLeft2" x="261.2" bottom="8" y="49" scaleX="1" scaleY="1">
+			<e:Image id="imgItemFrame1_2" source="ui_frame_FrameHunterAsh_png" x="0" y="0.1" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgItemIcon1_2" scaleX="0.4" scaleY="0.4" horizontalCenter="0" verticalCenter="0" source=""/>
+			<e:BitmapLabel id="labelItemRightNum1_2" width="28.4" height="13.6" x="13.6" y="20.3" anchorOffsetX="0" anchorOffsetY="0" font="ItemNum_fnt" text="12" textAlign="right" scaleX="0.7" scaleY="0.7"/>
+			<e:Label id="labelFruitNum1_2" text="Label" x="4" y="3.1" size="10" textColor="0x000000"/>
+		</e:Group>
+		<e:Group id="groupItemLeft1" x="217.2" bottom="8" y="49" scaleX="1" scaleY="1">
+			<e:Image id="imgItemFrame1_1" source="ui_frame_FrameHunterAsh_png" x="0" y="0.1" scaleX="0.4" scaleY="0.4"/>
+			<e:Image id="imgItemIcon1_1" scaleX="0.4" scaleY="0.4" horizontalCenter="0" verticalCenter="0" source=""/>
+			<e:BitmapLabel id="labelItemRightNum1_1" width="28.4" height="13.6" x="13.6" y="20.3" anchorOffsetX="0" anchorOffsetY="0" font="ItemNum_fnt" text="12" textAlign="right" scaleX="0.7" scaleY="0.7"/>
+			<e:Label id="labelFruitNum1_1" text="Label" x="4" y="3.1" size="10" textColor="0x000000"/>
+		</e:Group>
+		<e:Label id="labelName" text="小李飞刀" textColor="0x000000" size="16" fontFamily="SimHei" top="9" horizontalCenter="-47" x="361" y="9" scaleX="1" scaleY="1"/>
+		<e:Label id="labelTime" text="2019.7.11     11:12" textColor="0x000000" fontFamily="SimHei" size="16" top="30" horizontalCenter="-47" x="317" y="30" scaleX="1" scaleY="1"/>
+		<e:Button id="btnOpen" label="" right="0" verticalCenter="0" x="785" y="13" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_ButtonBattleViewNor_png" source.down="ui_wonderland_ButtonBattleViewSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StoryInstanceMainBuffSkin" width="100" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="4" verticalCenter="0" anchorOffsetX="0" width="115">
+		<e:Image id="imageBuff" source="ui_iconresources_yonghengxinnian1_png" x="0" y="0" scaleX="0.5" scaleY="0.5"/>
+		<e:Label id="labelBuffNum" text="+10000" x="40" y="12" size="18" textColor="0x008e00" anchorOffsetX="0" width="64" anchorOffsetY="0" height="22" verticalAlign="middle" textAlign="left"/>
+	</e:Group>
+</e:Skin>

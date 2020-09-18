@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AdventureTitleSkin" width="160" height="68" currentState="curr" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="lock,curr,pass" >
+	<e:Group width="160" x="0" height="68" y="0">
+		<e:Image source="ui_instance_BoardInstanceMapName_png" x="0" bottom="0" source.lock="ui_instance_BoardInstanceMapName1_png" y="32" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_instance_Board_Lock_Bg_png" y="0" x="4" includeIn="lock" scaleX="1" scaleY="1"/>
+		<e:Label id="lbLock" text="通关上一关卡" size="18" x="29" y="12" scaleX="1" scaleY="1" textColor="0xffffff" stroke="1" rotation="-2" includeIn="lock"/>
+		<e:Image id="imgLock" source="ui_instance_Board_Lock_png" x="0" y="-2" includeIn="lock" scaleX="1" scaleY="1"/>
+		<e:Image id="imgFlag" source="ui_instance_Board_Open_Title1_png" x="1" y="1" includeIn="curr" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label id="lbName" text="12.鲸鱼岛鲸鱼岛" size="18" textColor="0x000000" horizontalCenter="-2" bottom="8" x="12" y="42" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

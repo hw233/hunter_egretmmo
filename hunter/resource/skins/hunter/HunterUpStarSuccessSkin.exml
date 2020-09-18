@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterUpStarSuccessSkin" width="940" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="mainGroup" left="0" top="0" bottom="0" right="0">
+		<e:Image id="imgBg" source="ui_hunter_BackGroundHunter_png" left="0" right="0" top="0" bottom="0" scale9Grid="13,9,545,293"/>
+		<e:Label id="labelTip" text="点击任意区域关闭" width="160" height="25" size="18" horizontalCenter="0" textAlign="center" verticalAlign="middle" bottom="20"/>
+		<e:Group id="groupPower" width="220" height="29" anchorOffsetX="110" anchorOffsetY="14.5" left="-50" bottom="-40">
+			<e:Image source="ui_common_BoardUpPower_png" horizontalCenter="0" verticalCenter="0" x="-225" y="-175" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_common_WordsPowerBig2_png" verticalCenter="0" left="10"/>
+			<e:Label id="labelPlayerPower" text="9999" height="33" textAlign="left" verticalAlign="middle" verticalCenter="1" size="28" width="100" left="135" textColor="0xf9ff17"/>
+		</e:Group>
+		<e:Group id="groupAttributes" width="263" height="21" x="-300" y="919">
+			<e:Group id="groupAttribute1" width="263" height="21" scaleX="1" scaleY="1" anchorOffsetX="131.5" anchorOffsetY="10.5" x="131.5" y="10.5">
+				<e:Label text="暴击伤害" width="80" height="21" size="16" verticalCenter="0" name="labelName1" textAlign="left" verticalAlign="middle" left="0"/>
+				<e:Label text="+123%" width="70" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeCurrent1" left="80"/>
+				<e:Image verticalCenter="0" name="imgArrow1" source="ui_common_IconArrow_png" left="150"/>
+				<e:Label text="+123%" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeNext1" left="200" right="0"/>
+			</e:Group>
+			<e:Group id="groupAttribute2" width="263" height="21" scaleX="1" scaleY="1" anchorOffsetX="131.5" anchorOffsetY="10.5" x="131.5" y="10.5">
+				<e:Label text="暴击伤害" width="80" height="21" size="16" verticalCenter="0" name="labelName2" textAlign="left" verticalAlign="middle" left="0"/>
+				<e:Label text="+123%" width="70" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeCurrent2" left="80"/>
+				<e:Image verticalCenter="0" name="imgArrow1" source="ui_common_IconArrow_png" left="150"/>
+				<e:Label text="+123%" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeNext2" left="200" right="0"/>
+			</e:Group>
+			<e:Group id="groupAttribute3" width="263" height="21" scaleX="1" scaleY="1" anchorOffsetX="131.5" anchorOffsetY="10.5" x="131.5" y="10.5">
+				<e:Label text="暴击伤害" width="80" height="21" size="16" verticalCenter="0" name="labelName3" textAlign="left" verticalAlign="middle" left="0"/>
+				<e:Label text="+123%" width="70" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeCurrent3" left="80"/>
+				<e:Image verticalCenter="0" name="imgArrow1" source="ui_common_IconArrow_png" left="150"/>
+				<e:Label text="+123%" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeNext3" left="200" right="0"/>
+			</e:Group>
+			<e:Group id="groupAttribute4" width="263" height="21" scaleX="1" scaleY="1" anchorOffsetX="131.5" anchorOffsetY="10.5" x="131.5" y="10.5">
+				<e:Label text="暴击伤害" width="80" height="21" size="16" verticalCenter="0" name="labelName4" textAlign="left" verticalAlign="middle" left="0"/>
+				<e:Label text="+123%" width="70" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeCurrent4" left="80"/>
+				<e:Image verticalCenter="0" name="imgArrow1" source="ui_common_IconArrow_png" left="150"/>
+				<e:Label text="+123%" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeNext4" left="200" right="0"/>
+			</e:Group>
+			<e:Group id="groupAttribute5" width="263" height="21" scaleX="1" scaleY="1" anchorOffsetX="131.5" anchorOffsetY="10.5" x="141.5" y="20.5">
+				<e:Label text="暴击伤害" height="21" size="16" verticalCenter="0" name="labelName5" textAlign="left" verticalAlign="middle" left="0"/>
+				<e:Label text="+123%" width="70" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeCurrent5" left="80"/>
+				<e:Image verticalCenter="0" name="imgArrow1" source="ui_common_IconArrow_png" left="150"/>
+				<e:Label text="+123%" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeNext5" left="200" right="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupStar" width="184" height="58" anchorOffsetX="92" anchorOffsetY="29" x="-208" y="911"/>
+		<e:Group id="groupHunter" width="100" height="200" anchorOffsetX="50" anchorOffsetY="0" left="-300" bottom="-300"/>
+	</e:Group>
+</e:Skin>

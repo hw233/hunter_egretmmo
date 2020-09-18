@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupWhole" width="100%" height="100%" y="0" x="0">
+	</e:Group>
+	<e:Group horizontalCenter="36.5" anchorOffsetY="0" anchorOffsetX="0" width="471" height="474" touchThrough="true" touchChildren="false" touchEnabled="false" verticalCenter="23">
+		<e:Group id="groupMap" width="400" left="0" bottom="4" anchorOffsetX="0" anchorOffsetY="0" touchThrough="true" touchEnabled="false" touchChildren="false" height="419">
+			<e:Group id="groupImage" width="260" height="260" horizontalCenter="0" top="0"/>
+			<e:Group id="groupBackShadow" width="400" height="130" x="0" bottom="4">
+				<e:Image id="imgSpriteBackShadow" source="ui_common_BoardChangeAchievementsA_png" width="400" scale9Grid="61,57,27,17" x="0" bottom="4" y="0" scaleX="1" scaleY="1" visible="false"/>
+			</e:Group>
+			<e:Group top="280" horizontalCenter="0">
+				<e:Image id="imgSpriteBack" source="ui_wonderland_BoardPkSuccess_png" scaleY="0.7" scaleX="0.8" height="88.57142857142858" horizontalCenter="0" verticalCenter="0" visible="false"/>
+				<e:Label id="labelPetName" text="双鱼座" size="24" textColor="0xffffff" fontFamily="Microsoft YaHei" x="126" y="23" anchorOffsetY="12" anchorOffsetX="125.5" width="251" textAlign="center"/>
+			</e:Group>
+			<e:Group id="groupAttl" width="303" height="88" scaleX="1" anchorOffsetX="151.5" anchorOffsetY="25" horizontalCenter="0" top="345">
+				<e:Label id="labelAtt1" text="属性加成：全体猎人每天都不要翻" size="20" anchorOffsetX="0" width="303" anchorOffsetY="0" lineSpacing="2" textColor="0xffffff" fontFamily="Microsoft YaHei" height="88" x="0" y="0" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupAdviser" width="260" height="260" top="51" y="0" scaleX="1" scaleY="1" horizontalCenter="-35" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group x="310.5" y="189" top="37.5">
+			<e:Image id="imgSpriteIconBoard" source="ui_hunter_BoardGrad_png" x="0" y="0"/>
+			<e:Image id="imgSpriteIconGrade" source="ui_tavern_IconGrade5_png" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

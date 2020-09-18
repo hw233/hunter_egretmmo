@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WantedSecondMeteorlnstanceAwardSkin" width="76" height="75" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="76" height="75" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgSpriteBoard" source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" top="0" left="0"/>
+		<e:Image id="imgSpriteIcon" source="hero_icon_wj_kuluoluo_png" left="0" top="0" scaleX="0.8" scaleY="0.8"/>
+		<e:BitmapLabel id="LabelItemNum" width="53" height="24" font="ItemNumWords_fnt" text="1" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" right="-1" bottom="7"/>
+	</e:Group>
+</e:Skin>

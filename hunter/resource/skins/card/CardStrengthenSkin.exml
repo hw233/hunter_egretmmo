@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardStrengthenSkin" width="417" height="345" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="416.42" height="337.21" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="group" width="415" height="232" x="-4.08" y="3">
+			<e:Image id="imgScale9" source="ui_hunter_LayerSeconde_png" x="5.48" y="0.6" width="415" height="235" scale9Grid="15,10,92,65"/>
+			<e:Image id="img" source="ui_hunter_OrnPlates2_png" x="215.48" y="119.6" anchorOffsetX="207.5" anchorOffsetY="105"/>
+			<e:Label id="labelTTF" text="等级：" x="59.48" y="26.6" textColor="0x000000" size="18" anchorOffsetX="27.5" anchorOffsetY="9" verticalAlign="middle" textAlign="center"/>
+			<e:Label id="labelCurrentLevel" text="Lv16" x="158.1" y="26.6" size="18" anchorOffsetX="58.97" anchorOffsetY="9" width="123.83" height="18" verticalAlign="middle" textAlign="left" textColor="0xfc5d02"/>
+			<e:Image id="img1" source="ui_pet_IconArrow_png" x="244.49" y="26.6" anchorOffsetX="16.5" anchorOffsetY="10.5"/>
+			<e:Label id="labelNextLevel" text="Lv17" x="272.5" y="26.6" textColor="0xfc5d02" size="18" verticalAlign="middle" textAlign="left" width="133.5" height="18" anchorOffsetX="0" anchorOffsetY="9"/>
+			<e:Label id="labelTTF1" text="主属性：" x="66.15" y="55.26" textColor="0x000000" size="18" anchorOffsetX="35.5" anchorOffsetY="7.66" verticalAlign="middle" textAlign="center"/>
+			<e:Label id="labelCurrentAtt" text="攻击+20%" x="164.86" y="55.1" size="18" anchorOffsetX="67.06" anchorOffsetY="7" width="142.5" height="18" verticalAlign="middle" textAlign="left" textColor="0xfc5d02"/>
+			<e:Image id="img2" source="ui_pet_IconArrow_png" x="244.49" y="56.6" anchorOffsetX="16.5" anchorOffsetY="10.5"/>
+			<e:Label id="labelNextAtt" text="+20%" x="271.83" y="56.6" textColor="0xFC5D02" size="18" verticalAlign="middle" textAlign="left" width="135.17" height="18" anchorOffsetX="0" anchorOffsetY="9"/>
+			<e:Image id="img3" source="ui_pet_OrnLine_png" x="205.48" y="77.6" anchorOffsetX="179" anchorOffsetY="1" width="372"/>
+			<e:Scroller id="scrollerAttri" width="357.99" height="138" x="33.49" y="85.6" anchorOffsetY="0" anchorOffsetX="0">
+				<e:List id="listAttri" anchorOffsetY="0" height="138" anchorOffsetX="0" width="365.33">
+					<e:layout>
+						<e:TileLayout requestedColumnCount="1" paddingTop="5"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Group id="groupTeach" width="420" height="240" x="3.48" y="-2.4"/>
+		</e:Group>
+		<e:Group id="groupYinCang" width="407.94" height="91.27" x="8" y="242" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="groupUpStar" width="412" height="94.85" x="2" y="-3" anchorOffsetY="0" anchorOffsetX="0" visible="false">
+			<e:Image id="img4" source="ui_hunter_BoardUpAcitivity_png" x="118.01" y="47" anchorOffsetX="123.5" anchorOffsetY="32"/>
+			<e:Label id="labelYinCang" text="已强化至当前品质最大等级" x="-0.99" y="44" size="18" textColor="0xb70000" width="480" height="40" anchorOffsetY="20"/>
+			<e:Label id="labelYinCang1" text="升星可增加等级上限" x="-1.99" y="69" size="18" textColor="0xB70000" width="360" height="40" anchorOffsetY="20"/>
+			<e:Button id="btnGoUpStar" label="" x="334.01" y="48" anchorOffsetX="69.5" anchorOffsetY="40.5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonGoUpStarNor_png" source.down="ui_hunter_ButtonGoUpStarSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+			<e:Group id="groupBreak" width="416" height="106" x="0" y="-2" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image id="imageSprite5" source="ui_hunter_BoardUpAcitivity_png" x="120.5" y="46" anchorOffsetX="123.5" anchorOffsetY="32"/>
+			<e:Label id="labelYinCang2" text="已强化至当前品质最大等级" x="-1.5" y="43" size="18" textColor="0xB70000" width="480" height="40" anchorOffsetY="20"/>
+			<e:Label id="labelYinCang3" text="突破可增加等级上限" x="-0.5" y="68" size="18" textColor="0xB70000" width="360" height="40" anchorOffsetY="20"/>
+			<e:Button id="btnGoBreak" label="" x="336.5" y="48" width="139" height="81" anchorOffsetX="69.5" anchorOffsetY="40.5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonGoBreakNor_png" source.down="ui_hunter_ButtonGoBreakSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupUpLevel" width="404" height="95.81" x="14" y="243" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Button id="btnStrengthenUp" label="" x="101" y="44" anchorOffsetX="88" anchorOffsetY="40.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonStronthenNor_png" source.down="ui_hunter_ButtonStronthenSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="labelStrengthenNum" text="1000000" x="83" y="47" size="18" textAlign="left" touchEnabled="false"/>
+			<e:Button id="btnStrengthenFiveNum" label="" x="202" y="4">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonStronthenFiveNor_png" source.down="ui_hunter_ButtonStronthenFiveSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="labelStrengthenFiveNum" text="1000000" x="275" y="47" size="18" textAlign="left" touchEnabled="false"/>
+			<e:BitmapLabel id="bitmapStrengthenFiveTime" width="20" height="20" x="314" y="20" font="HunterStrengthNum_fnt" text="5" anchorOffsetX="10" anchorOffsetY="10" touchEnabled="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

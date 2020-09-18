@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_RandomPopItemSkin" width="95" height="95" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" width="95" height="93" x="0" y="1">
+		<e:Image id="imageFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imageIcon" source="hero_icon_head_wj_feitan_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:BitmapLabel id="labelTextNum" width="59" height="29" x="26" y="59" anchorOffsetX="0" anchorOffsetY="0" text="123" font="ItemNumWords_fnt" textAlign="right"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PackageMainTypeIRSkin" width="156" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Button id="btnTag" label="" scaleX="1" scaleY="1" anchorOffsetX="0" width="130" anchorOffsetY="0" height="56" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_bag_ButtonBagTypeNor_png" source.down="ui_bag_ButtonBagTypeSel_png" source.disabled="ui_bag_ButtonBagTypeDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgText" width="70" height="30" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" touchEnabled="false" source="ui_bag_WordsBagFurit_png"/>
+		<e:Image id="imgTip" width="24.55" height="24.55" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" top="-1" x="130.45" source="ui_currencyicon_IconRed_png"/>
+	</e:Group>
+</e:Skin>

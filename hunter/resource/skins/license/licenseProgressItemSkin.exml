@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="licenseProgressItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgBoard" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0" scaleX="0.7" scaleY="0.7"/>
+	<e:Image id="imgIcon" source="hero_icon_head_wj_kuluoluo_png" horizontalCenter="0" verticalCenter="0" scaleX="0.7" scaleY="0.7"/>
+	<e:BitmapLabel id="labelNum" text="x10万" scaleX="0.8" scaleY="0.8" font="ItemNumWords_fnt" right="7" bottom="8"/>
+	<e:Group id="groupIcon" width="95" height="93" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" scaleX="0.7" scaleY="0.7">
+	</e:Group>
+</e:Skin>

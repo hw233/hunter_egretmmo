@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueBossFightingIncertiveSkin" width="260" height="31" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_union_boss_BoardAddFightAtt_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="lbTitle" text="激励1：" size="18" verticalCenter="0.5" fontFamily="Helvetica" left="26" height="24" verticalAlign="middle" width="92"/>
+	<e:Label id="lbTip" text="全员物理攻击+30%" size="18" textColor="0xff6700" fontFamily="Helvetica" verticalCenter="0.5" height="24" verticalAlign="middle" textAlign="left" x="83" width="177"/>
+</e:Skin>

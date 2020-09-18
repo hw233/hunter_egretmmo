@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueUnionBattleHisRecordSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_union_battle_HisRecordBG_png" x="0" y="13"/>
+		<e:Button id="btnClose" label="" scaleX="-1" left="0" top="12">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_HisRecordClose1_png" source.down="ui_union_battle_HisRecordClose2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnBattleRecord" label="" x="75" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_HisRecordBattleRecord1_png" source.down="ui_union_battle_HisRecordBattleRecord2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnContributionRanking" label="" x="243" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_HisRecordContributionRank1_png" source.down="ui_union_battle_HisRecordContributionRank2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupRecord" y="64.01" x="22">
+			<e:Image source="ui_union_battle_HisRecordBattleResult_png" x="5.35" verticalCenter="-233.5"/>
+			<e:Image source="ui_union_battle_HisRecordEnemyUnion_png" x="158.69" verticalCenter="-233.5"/>
+			<e:Image source="ui_union_battle_bisaileixing_png" x="315.32" verticalCenter="-233.5"/>
+			<e:Image source="ui_union_battle_HisRecordBattleTime_png" x="475.99" verticalCenter="-233.5"/>
+			<e:Image source="ui_union_battle_HisRecordInfo_png" x="648.3" verticalCenter="-233.5"/>
+			<e:Scroller width="740" height="460" horizontalCenter="0" verticalCenter="17" x="-35" y="35.989999999999995" scaleX="1" scaleY="1" scrollPolicyH="off" scrollPolicyV="on">
+			<e:List id="lstView" y="-1.33"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="groupRanking" y="64" x="22" visible="false">
+			<e:Image source="ui_union_battle_HisRecordContributionRank_png" x="28" y="2.67"/>
+			<e:Image source="ui_union_battle_HisRecordMember_png" x="201.32" y="2.67"/>
+			<e:Image source="ui_union_battle_HisRecordThisAttackTimes_png" x="362.67" y="2.67"/>
+			<e:Image source="ui_union_battle_HisRecordThisContributionNumber_png" x="582.63" y="2.67"/>
+			<e:Scroller width="740" height="460" y="36.019999999999996" horizontalCenter="0" x="-51" scaleX="1" scaleY="1" scrollPolicyH="off" scrollPolicyV="on">
+			<e:List id="lstView1" x="1.33"/>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

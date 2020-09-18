@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TavernCommen" width="960" height="65" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" x="0" y="0">
+		<e:Image source="ui_common_BoardTipSys_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="labelHint" text="苏打水不足" horizontalCenter="0" verticalCenter="0" size="22" textColor="0xf40202"/>
+	</e:Group>
+</e:Skin>

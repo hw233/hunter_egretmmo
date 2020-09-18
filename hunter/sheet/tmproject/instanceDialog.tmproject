@@ -1,0 +1,38 @@
+{
+    "files": [
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_title_bg.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_tag1_sel.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_tag1_nor.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_tag0_sel.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_tag0_nor.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_star_gary.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_star.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_item_top_bg.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_item_title_bg1.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_item_title_bg0.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_item_complete.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_drop_bg.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_desc_bg.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_curr_icon.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_close.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_btn_icon_power.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_btn_gary.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_btn.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_box_bg.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_box_2_1.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_box_2_0.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_box_1_1.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_box_1_0.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_bottom_bg.png",
+        "./../../image/ui/instance/dialog/ui_instancenew_dialog_txt_bg.png"
+    ],
+    "projectName": "instanceDialog",
+    "version": 5,
+    "options": {
+        "extend": 0,
+        "layoutMath": "0",
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1
+    }
+}

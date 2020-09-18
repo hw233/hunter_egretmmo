@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_FirstChargeMainItemNewSkin" width="85" height="85" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" left="0" bottom="0" width="85" height="85">
+		<e:Image id="imageBoard" source="ui_mall_first_BoardFrame_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imageIcon" source="item_ExpPillD_png" horizontalCenter="0" verticalCenter="0" scaleX="0.8" scaleY="0.8"/>
+		<e:BitmapLabel id="labelNum" width="74" height="22" anchorOffsetX="0" anchorOffsetY="0" font="ItemNum_fnt" text="1231" textAlign="right" right="10" bottom="5"/>
+		<e:Group id="groupSence" width="85" height="85" x="0" y="0" touchThrough="true" touchEnabled="false" touchChildren="false"/>
+		<e:Image id="imgpifu" source="ui_acitivity_serverseven_sign_png" x="57" y="9" scaleX="0.6" scaleY="0.6"/>
+	</e:Group>
+</e:Skin>

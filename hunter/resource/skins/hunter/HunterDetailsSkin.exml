@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterDetailsSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" width="525" height="580" anchorOffsetX="0" anchorOffsetY="0" x="358" y="0">
+		<e:Image source="ui_hunter_LayerSelectedHero_png" height="248" top="10" left="0" right="0" scale9Grid="194,118,187,68"/>
+		<e:Image source="ui_hunter_OrnHunterSoulTop_png" left="160" top="26"/>
+		<e:Image source="ui_hunter_WordsRecruitedHunter_png" left="45" top="17"/>
+		<e:Group height="45" right="25" top="0" width="309">
+			<e:Image source="ui_common_BoardPowerArena_png" top="0" right="0" scaleX="1" scaleY="1" left="0" bottom="0" scale9Grid="54,12,148,22"/>
+			<e:Image source="ui_common_WordsPowerBig5_png" left="40" verticalCenter="0"/>
+			<e:Label id="labelPower" text="999999999" size="20" textColor="0xfefb00" verticalCenter="0" left="155" textAlign="left"/>
+			<e:Button id="btnHelp" label="" scaleX="1" scaleY="1" right="299" top="6" width="42" height="42">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_help_ButtonHelpNor_png" source.down="ui_help_ButtonHelpSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="groupAttribute" width="480" height="190" horizontalCenter="-6" top="55">
+			<e:Image source="ui_hunter_LayerSeconde_png" scaleX="1" scaleY="1" left="0" top="0" right="0" bottom="0" scale9Grid="18,13,94,56"/>
+			<e:Group height="38" left="0" right="0" top="0">
+				<e:Label text="生命" size="16" fontFamily="Helvetica" textColor="0x000000" scaleX="1" scaleY="1" verticalCenter="0" left="10" verticalAlign="middle"/>
+				<e:Image source="ui_hunter_IconArrow_png" verticalCenter="0" left="46"/>
+				<e:Label id="labelAttri1" text="220880" textColor="0x000000" size="16" fontFamily="Helvetica" name="labelAttri1" verticalCenter="0" left="75" verticalAlign="middle" textAlign="left" width="65"/>
+				<e:Label id="labelAttriAdd1" text="+ 999999" size="16" fontFamily="Helvetica" textColor="0x05720e" verticalCenter="0" left="140" verticalAlign="middle" name="labelAttriAdd1" textAlign="left"/>
+				<e:Label text="暴击概率" size="16" fontFamily="Helvetica" textColor="0x000000" verticalCenter="0" right="160" verticalAlign="middle"/>
+				<e:Image source="ui_hunter_IconArrow_png" verticalCenter="0" right="130"/>
+				<e:Label id="labelAttri5" text="100%" textColor="0x000000" size="16" fontFamily="Helvetica" name="labelAttri5" verticalCenter="0" verticalAlign="middle" textAlign="left" width="50" left="355"/>
+				<e:Label id="labelAttriAdd5" text="+100%" size="16" fontFamily="Helvetica" textColor="0x05720E" verticalCenter="0" verticalAlign="middle" name="labelAttriAdd5" width="55" left="405" textAlign="left"/>
+				<e:Image id="labelLine1" source="ui_hunter_OrnLine_png" scaleX="1.3" horizontalCenter="0" x="2" scaleY="1" bottom="0"/>
+			</e:Group>
+			<e:Group height="38" left="0" right="0" top="38">
+				<e:Label text="攻击" size="16" fontFamily="Helvetica" textColor="0x000000" scaleX="1" scaleY="1" verticalCenter="0" left="10" verticalAlign="middle"/>
+				<e:Image source="ui_hunter_IconArrow_png" verticalCenter="0" left="46"/>
+				<e:Label id="labelAttri2" text="99999" textColor="0x000000" size="16" fontFamily="Helvetica" name="labelAttri2" verticalCenter="0" left="75" verticalAlign="middle" textAlign="left" width="65"/>
+				<e:Label id="labelAttriAdd2" text="+ 999999" size="16" fontFamily="Helvetica" textColor="0x05720E" verticalCenter="0" left="140" verticalAlign="middle" name="labelAttriAdd2" textAlign="left"/>
+				<e:Label text="暴击伤害" size="16" fontFamily="Helvetica" textColor="0x000000" verticalCenter="0" right="160" verticalAlign="middle"/>
+				<e:Image source="ui_hunter_IconArrow_png" verticalCenter="0" right="130"/>
+				<e:Label id="labelAttri6" text="100%" textColor="0x000000" size="16" fontFamily="Helvetica" name="labelAttri6" verticalCenter="0" verticalAlign="middle" textAlign="left" width="50" left="355"/>
+				<e:Label id="labelAttriAdd6" text="+ 100%" size="16" fontFamily="Helvetica" textColor="0x05720E" verticalCenter="0" verticalAlign="middle" name="labelAttriAdd6" textAlign="left" width="55" left="405"/>
+				<e:Image id="labelLine2" source="ui_hunter_OrnLine_png" scaleX="1.3" horizontalCenter="0" x="2" scaleY="1" bottom="0"/>
+			</e:Group>
+			<e:Group height="38" left="0" right="0" top="76">
+				<e:Label text="防御" size="16" fontFamily="Helvetica" textColor="0x000000" scaleX="1" scaleY="1" verticalCenter="0" left="10" verticalAlign="middle"/>
+				<e:Image source="ui_hunter_IconArrow_png" verticalCenter="0" left="46"/>
+				<e:Label id="labelAttri3" text="99999" textColor="0x000000" size="16" fontFamily="Helvetica" name="labelAttri3" verticalCenter="0" left="75" verticalAlign="middle" textAlign="left" width="65"/>
+				<e:Label id="labelAttriAdd3" text="+ 999999" size="16" fontFamily="Helvetica" textColor="0x05720E" verticalCenter="0" left="140" verticalAlign="middle" name="labelAttriAdd3" textAlign="left"/>
+				<e:Label text="浮空格挡" size="16" fontFamily="Helvetica" textColor="0x000000" verticalCenter="0" right="160" verticalAlign="middle"/>
+				<e:Image source="ui_hunter_IconArrow_png" verticalCenter="0" right="130"/>
+				<e:Label id="labelAttri7" text="100%" textColor="0x000000" size="16" fontFamily="Helvetica" name="labelAttri7" verticalCenter="0" verticalAlign="middle" textAlign="left" width="50" left="355"/>
+				<e:Label id="labelAttriAdd7" text="+ 100%" size="16" fontFamily="Helvetica" textColor="0x05720E" verticalCenter="0" verticalAlign="middle" name="labelAttriAdd7" textAlign="left" left="405" width="55"/>
+				<e:Image id="labelLine3" source="ui_hunter_OrnLine_png" scaleX="1.3" horizontalCenter="0" x="2" scaleY="1" bottom="0"/>
+			</e:Group>
+			<e:Group height="38" left="0" right="0" top="114">
+				<e:Label text="速度" size="16" fontFamily="Helvetica" textColor="0x000000" scaleX="1" scaleY="1" verticalCenter="0" left="10" verticalAlign="middle"/>
+				<e:Image source="ui_hunter_IconArrow_png" verticalCenter="0" left="46"/>
+				<e:Label id="labelAttri4" text="99999" textColor="0x000000" size="16" fontFamily="Helvetica" name="labelAttri4" verticalCenter="0" left="75" verticalAlign="middle" textAlign="left" width="65"/>
+				<e:Label id="labelAttriAdd4" text="+ 999999" size="16" fontFamily="Helvetica" textColor="0x05720E" verticalCenter="0" left="140" verticalAlign="middle" name="labelAttriAdd4" textAlign="left"/>
+				<e:Label text="效果命中" size="16" fontFamily="Helvetica" textColor="0x000000" verticalCenter="0" right="160" verticalAlign="middle"/>
+				<e:Image source="ui_hunter_IconArrow_png" verticalCenter="0" right="130"/>
+				<e:Label id="labelAttri9" text="100%" textColor="0x000000" size="16" fontFamily="Helvetica" name="labelAttri9" verticalCenter="0" verticalAlign="middle" textAlign="left" width="50" left="355"/>
+				<e:Label id="labelAttriAdd9" text="+ 100%" size="16" fontFamily="Helvetica" textColor="0x05720E" verticalCenter="0" verticalAlign="middle" name="labelAttriAdd9" textAlign="left" width="55" left="405"/>
+				<e:Image id="labelLine4" source="ui_hunter_OrnLine_png" scaleX="1.3" horizontalCenter="0" x="2" scaleY="1" bottom="0"/>
+			</e:Group>
+			<e:Group height="38" left="0" right="0" top="152">
+				<e:Label text="暴击抵抗" size="16" fontFamily="Helvetica" textColor="0x000000" scaleX="1" scaleY="1" verticalCenter="0" left="10" verticalAlign="middle"/>
+				<e:Image source="ui_hunter_IconArrow_png" verticalCenter="0" left="75"/>
+				<e:Label id="labelAttri10" text="99999" textColor="0x000000" size="16" fontFamily="Helvetica" name="labelAttri10" verticalCenter="0" left="100" verticalAlign="middle" textAlign="left" width="65"/>
+				<e:Label id="labelAttriAdd10" text="+ 999999" size="16" fontFamily="Helvetica" textColor="0x05720E" verticalCenter="0" left="165" verticalAlign="middle" name="labelAttriAdd10" textAlign="left"/>
+				<e:Label text="效果抵抗" size="16" fontFamily="Helvetica" textColor="0x000000" verticalCenter="0" right="160" verticalAlign="middle"/>
+				<e:Image source="ui_hunter_IconArrow_png" verticalCenter="0" right="130"/>
+				<e:Label id="labelAttri8" text="100%" textColor="0x000000" size="16" fontFamily="Helvetica" name="labelAttri8" verticalCenter="0" verticalAlign="middle" textAlign="left" width="50" left="355"/>
+				<e:Label id="labelAttriAdd8" text="+ 100%" size="16" fontFamily="Helvetica" textColor="0x05720E" verticalCenter="0" verticalAlign="middle" name="labelAttriAdd8" textAlign="left" width="55" left="405"/>
+			</e:Group>
+		</e:Group>
+		<e:Group width="490" horizontalCenter="-5" top="255" bottom="6">
+			<e:Image source="ui_hunter_BoardNextOrderBig_png" scale9Grid="10,8,61,51" width="495" height="315" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_hunter_BoardNextOrder_png" left="10" top="5"/>
+			<e:Label id="labelTitleLevel" text="+6 中级猎人" size="18" textAlign="left" verticalAlign="middle" fontFamily="KaiTi" left="143" top="15" height="21"/>
+			<e:Group id="groupTeach" width="290" left="5" bottom="20" height="250">
+				<e:Group id="groupAttr1" width="134" height="147" name="groupAttr1" left="-5" top="-5">
+				<e:Button id="btnFate1" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" width="134" height="147">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_BoardFate1_png" source.down="ui_hunter_BoardFate1_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgFate1" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" name="spriteFate1" source="ui_hunter_FrameFateClick1_png" width="134" height="147"/>
+				<e:Image id="imgIcon1" scaleX="0.88" scaleY="0.88" verticalCenter="-15" horizontalCenter="0" source=""/>
+				<e:Image id="imgActive1" source="ui_hunter_WordsAcitivityOk_png" scaleX="0.8" scaleY="0.8" horizontalCenter="-2" bottom="15"/>
+				<e:Image id="imgRed1" source="ui_currencyicon_IconRed_png" right="16" top="11"/>
+					<e:Label id="labelFate1" text="999/25" size="18" fontFamily="Helvetica" height="23" verticalAlign="middle" textAlign="center" bottom="30" left="0" right="0"/>
+				</e:Group>
+				<e:Group id="groupAttr2" width="134" height="126" x="110" y="20" name="groupAttr2">
+				<e:Button id="btnFate2" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" width="134" height="126">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_BoardFate2_png" source.down="ui_hunter_BoardFate2_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgFate2" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_hunter_FrameFateClick2_png" width="134" height="126"/>
+				<e:Image id="imgIcon2" scaleX="0.88" scaleY="0.88" horizontalCenter="0" verticalCenter="-6" source=""/>
+				<e:Image id="imgActive2" source="ui_hunter_WordsAcitivityOk_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" bottom="5"/>
+				<e:Image id="imgRed2" source="ui_currencyicon_IconRed_png" right="12" top="19"/>
+					<e:Label id="labelFate2" text="999/25" size="18" fontFamily="Helvetica" height="23" verticalAlign="middle" textAlign="center" bottom="10" left="0" right="0"/>
+				</e:Group>
+				<e:Group id="groupAttr3" width="134" height="126" x="28" y="115" name="groupAttr3">
+				<e:Button id="btnFate3" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" width="134" height="126">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_BoardFate3_png" source.down="ui_hunter_BoardFate3_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgFate3" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_hunter_FrameFateClick3_png" width="134" height="126"/>
+				<e:Image id="imgIcon3" scaleX="0.88" scaleY="0.88" horizontalCenter="0" verticalCenter="-6" source=""/>
+				<e:Image id="imgActive3" source="ui_hunter_WordsAcitivityOk_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" bottom="5"/>
+				<e:Image id="imgRed3" source="ui_currencyicon_IconRed_png" right="12" top="19"/>
+					<e:Label id="labelFate3" text="999/25" size="18" fontFamily="Helvetica" height="23" verticalAlign="middle" textAlign="center" bottom="10" left="0" right="0"/>
+				</e:Group>
+				<e:Group id="groupAttr4" width="134" height="126" name="groupAttr4" y="140" x="145">
+				<e:Button id="btnFate4" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" width="134" height="126">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_BoardFate4_png" source.down="ui_hunter_BoardFate4_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgFate4" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_hunter_FrameFateClick4_png" width="134" height="126"/>
+				<e:Image id="imgIcon4" scaleX="0.9000000000000001" scaleY="0.88" horizontalCenter="0" verticalCenter="-5" source=""/>
+				<e:Image id="imgActive4" source="ui_hunter_WordsAcitivityOk_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" bottom="5"/>
+				<e:Image id="imgRed4" source="ui_currencyicon_IconRed_png" right="12" top="19"/>
+					<e:Label id="labelFate4" text="999/25" size="18" fontFamily="Helvetica" height="23" verticalAlign="middle" textAlign="center" bottom="10" left="0" right="0"/>
+				</e:Group>
+			</e:Group>
+			<e:Group width="194" height="292" right="5" bottom="15">
+				<e:Group width="194" height="104" horizontalCenter="0" top="0" anchorOffsetY="0">
+					<e:Image source="ui_hunter_BoardNextOrderSmall_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="93.5" x="0" y="0" anchorOffsetY="0" height="290.67"/>
+					<e:Label id="labelCourage" text="一阶勇气勋章" y="15.680000000000007" size="18" horizontalCenter="0" fontFamily="Helvetica" bold="true" x="37" scaleX="1" scaleY="1"/>
+					<e:Label id="labelAddAtt1" text="生命力 +1200" y="47.32000000000005" size="18" horizontalCenter="0" fontFamily="Helvetica" x="40" scaleX="1" scaleY="1"/>
+				</e:Group>
+				<e:Group width="172" height="56" horizontalCenter="0" top="137">
+					<e:Group id="groupActive" left="0" top="0" right="0" bottom="0">
+						<e:Button id="btnObtain" label="" scaleX="1" scaleY="1" width="172" height="56" horizontalCenter="0" verticalCenter="0" x="0" y="0">
+						<e:skinName>
+							<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ui_hunter_ButtonObtainBigNor_png" source.down="ui_hunter_ButtonObtainBigSel_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+						</e:skinName>
+						</e:Button>
+						<e:Button id="btnActive" label="" verticalCenter="0" horizontalCenter="0" width="172" height="56" enabled="true" x="0" y="0" scaleX="1" scaleY="1">
+						<e:skinName>
+							<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ui_hunter_ButtonActivationNor_png" source.down="ui_hunter_ButtonActivationSel_png" source.disabled="ui_hunter_ButtonActivationDis_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+						</e:skinName>
+						</e:Button>
+					</e:Group>
+					<e:Group id="groupLowLevel" width="160" height="55" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+						<e:Rect id="LayerMask" width="160" height="55" fillAlpha="0.8" horizontalCenter="0" verticalCenter="0" x="0" y="-106.68" scaleX="1" scaleY="1"/>
+						<e:Label id="labelLowLevel" text="18级可激活" horizontalCenter="0" verticalCenter="0" textColor="0xff260c" size="18" fontFamily="KaiTi"/>
+					</e:Group>
+				</e:Group>
+				<e:Group width="175" height="80" horizontalCenter="0" bottom="10">
+					<e:Group id="groupPromtion" scaleX="1" scaleY="1" x="-3" y="-2" width="180" height="85">
+						<e:Button id="btnPromtion" label="" scaleX="1" scaleY="1" verticalCenter="3.5" width="176" height="81" horizontalCenter="-4.5">
+						<e:skinName>
+							<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ui_hunter_ButtonHunterPromotionNor_png" source.down="ui_hunter_ButtonHunterPromotionSel_png" source.disabled="ui_hunter_ButtonHunterPromotionDis_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+						</e:skinName>
+						</e:Button>
+						<e:Label id="labelGold" text="1000000" size="18" fontFamily="Helvetica" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" left="62" bottom="17" width="85" touchEnabled="false"/>
+						<e:Image id="imgPromotionRed" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" right="-4" top="-4"/>
+					</e:Group>
+					<e:Button id="btnGoUpLevel" label="" scaleX="1" scaleY="1" horizontalCenter="0" x="1" verticalCenter="0" visible="false">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ui_hunter_ButtonDetailsGoUpNor_png" source.down="ui_hunter_ButtonDetailsGoUpSel_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</e:skinName>
+					</e:Button>
+				</e:Group>
+
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

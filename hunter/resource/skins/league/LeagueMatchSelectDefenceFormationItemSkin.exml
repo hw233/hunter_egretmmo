@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueMatchSelectDefenceFormatioItemSkin" width="240" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0">
+		<e:Button id="btnClickA" label="" x="0" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_LineupTextBG1_png" source.down="ui_union_battle_LineupTextBG2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller width="200" height="45" x="50" y="35" scaleX="0.9" scaleY="0.9">
+			<e:List id="lstFormateA" scaleX="0.9" scaleY="0.9" x="-0.99">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbName" text="王的小队" y="10" textColor="0x00fcff" size="20" fontFamily="Helvetica" verticalAlign="top" textAlign="center" horizontalCenter="0" height="24" width="150"/>
+		<e:BitmapLabel id="lbNumber" width="20" height="20" x="15" y="42" font="WoddsGoldAwardLogC_fnt" text="9"/>
+	</e:Group>
+</e:Skin>

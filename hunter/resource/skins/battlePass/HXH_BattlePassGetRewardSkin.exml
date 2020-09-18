@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_BattlePassGetRewardSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" id="groupTouch" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="ui_wonderland_WordsFruitAward_png" horizontalCenter="0" verticalCenter="-180"/>
+	<e:Image source="ui_wonderland_BoardUseFruitAward_png" height="300" horizontalCenter="0" verticalCenter="0" scale9Grid="66,31,601,224"/>
+	<e:Group horizontalCenter="0" verticalCenter="-76">
+		<e:Image source="ui_battlePass_LvUp_WordsUnlock_png" x="0" y="9"/>
+		<e:Image source="ui_battlePass_LvUp_WordsPassGift_png" x="185" y="9"/>
+		<e:BitmapLabel id="labelLevel" width="87" height="37" font="PlayerUpLevel_fnt" text="10" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="center" x="108" y="0"/>
+	</e:Group>
+	<e:Group id="groupCache" width="115" height="115" horizontalCenter="0" verticalCenter="21" x="423" y="279">
+		<e:Image id="imgNode" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.92" scaleY="0.92" horizontalCenter="0" verticalCenter="0" touchEnabled="false" source="ui_wonderland_IconFruitNode_png" x="0" y="0" width="126" height="126"/>
+		<e:Group id="groupItem" scaleX="1" anchorOffsetX="0" anchorOffsetY="0" scaleY="1" width="86" height="84" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgFrame" touchEnabled="false" source="ui_frame_FrameHunterAsh_png" horizontalCenter="-2" verticalCenter="2" scaleX="1.2" scaleY="1.2"/>
+		<e:Image id="imgIcon" scaleX="1.2" scaleY="1.2" touchEnabled="false" verticalCenter="2" horizontalCenter="-2" source=""/>
+		<e:BitmapLabel id="labelCount" width="83" height="21.33" textAlign="right" text="1" font="ItemNumWords_fnt" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-1" bottom="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="labelName" text="物品名称" size="16" horizontalCenter="0" verticalCenter="107"/>
+	<e:Button id="btnToGet" label="" horizontalCenter="0" verticalCenter="204">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_battlePass_LvUp_ButtonToGetNor_png" source.down="ui_battlePass_LvUp_ButtonToGetSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

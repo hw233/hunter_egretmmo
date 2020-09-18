@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityThemeGiftSkin" width="660" height="475" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group verticalCenter="0.5" right="13">
+		<e:Scroller id="scrollerInfo" width="620" height="300" y="156" x="0" scrollPolicyH="off" scrollPolicyV="on">
+			<e:List id="LstView">
+			</e:List>
+		</e:Scroller>
+		<e:Image source="ui_acitivity_BoardGiftTip_png"  x="0" y="0"/>
+		<e:Label text="活动时间：" textColor="0xfefdc0" size="18" fontFamily="Helvetica" bold="true" x="152" y="123"/>
+		<e:Label id="lbTimeOpen" text="2016-02-16  00:00" size="18" fontFamily="Helvetica" bold="true" textAlign="right" x="230" y="123" width="180" verticalAlign="middle"/>
+		<e:Label id="lbTimeClose" text="2016-03-21  00:00" size="18" fontFamily="Helvetica" bold="true" verticalAlign="middle" textAlign="left" x="439" y="123" width="180"/>
+		<e:Label text="至" size="18" fontFamily="Helvetica" bold="true" textColor="0xfefec0" x="414" y="123"/>
+	</e:Group>
+</e:Skin>

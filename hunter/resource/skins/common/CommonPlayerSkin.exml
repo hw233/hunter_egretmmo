@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonPlayerSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="925" height="535" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" left="0" top="0" right="0" bottom="0" scale9Grid="112,48,180,73"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" left="72" top="-13"/>
+		<e:Button id="btnClose" label="" top="-30" left="-12" scaleX="-1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="110" height="110" left="15" top="25">
+			<e:Image source="ui_frame_FrameImageB_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgFrame" source="ui_frame_FrameImage_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgIcon" source="hero_icon_head_wj_boluoliefu_png" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Label id="labelNameLevel" text="聪宝宝 Lv60" x="142" y="30" width="200" height="23" size="16" fontFamily="Helvetica" textColor="0x532e03" verticalAlign="middle" textAlign="left"/>
+		<e:Label id="labelTitle" text="称号：赏金猎人" x="142" y="55" width="200" height="23" size="16" fontFamily="Helvetica" textColor="0x532E03" verticalAlign="middle" textAlign="left"/>
+		<e:Label id="labelServer" text="区服：本服" y="30" width="200" height="23" size="16" fontFamily="Helvetica" textColor="0x532E03" verticalAlign="middle" textAlign="left" left="400"/>
+		<e:Label id="labelAlly" text="公会: QAQ" x="400" y="55" width="200" height="23" size="16" fontFamily="Helvetica" textColor="0x532E03" verticalAlign="middle" textAlign="left"/>
+		<e:Image id="imgAlly" source="ui_union_battle_star22_png" x="534" y="52"/>
+		<e:Group width="100" height="370" left="15" bottom="20">
+			<e:Image source="ui_common_BoardHunterIcon_png" left="0" top="0" right="0" bottom="0" scale9Grid="12,12,75,75"/>
+			<e:Scroller left="0" top="5" right="0" bottom="5">
+			<e:List id="listHero">
+				<e:layout>
+					<e:VerticalLayout gap="15" paddingTop="15" paddingBottom="2"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group height="440" right="10" bottom="10" width="780">
+			<e:Image source="ui_hunter_LayerSeconde_png" left="0" top="0" right="0" bottom="0" scale9Grid="15,10,92,65"/>
+			<e:Group width="375" top="0" left="0" bottom="0">
+			<e:Group width="231" height="29" horizontalCenter="0" top="1">
+				<e:Image source="ui_common_BoardInfoStar_png" horizontalCenter="0" verticalCenter="1" scaleY="-1"/>
+				<e:Image source="ui_common_WordsPowerSmall2_png" verticalCenter="0" left="20"/>
+				<e:Label id="labelPlayerPower" text="123456789" height="23" size="18" fontFamily="Helvetica" verticalCenter="0" left="113" right="10" verticalAlign="bottom" textAlign="left" textColor="0xffeb00"/>
+			</e:Group>
+			<e:Image source="ui_pet_OrnLayerSeconde_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group width="91" height="91" left="10" top="30" scaleX="0.9" scaleY="0.9">
+				<e:Image source="ui_hunter_BoardGrad_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgAptitude" source="ui_tavern_IconGrade3_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+				<e:Group width="198" height="66" bottom="59" horizontalCenter="0">
+					<e:Image source="ui_instance_OrnBossTaizi_png" horizontalCenter="0" verticalCenter="6"/>
+					<e:Image source="ui_common_BoardDetialsHunterInfo_png" horizontalCenter="0" bottom="0"/>
+					<e:Label id="labelName" text="金瓯 窗机猎人+3 Lv62" width="258" height="35" fontFamily="Helvetica" size="16" verticalAlign="middle" textAlign="center" horizontalCenter="0" bottom="0"/>
+				</e:Group>
+				<e:Group id="groupHero" width="200" height="200" verticalCenter="-12" scaleX="1.2" scaleY="1.2" horizontalCenter="0.5"/>
+
+
+			<e:Image source="ui_common_BoardInfoStar_png" bottom="14" left="48"/>
+			<e:Image id="imgJob" source="ui_hunter_evaluate_IconHunterType4_png" left="5" bottom="14"/>
+			<e:Group id="groupStar" width="140" height="25" bottom="15" left="95"/>
+			<e:Button id="btnInfo" label="" right="2" bottom="14">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_common_ButtonInfoNor_png" source.down="ui_common_ButtonInfoSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+			<e:Group width="405" right="0" top="0" bottom="0">
+			<e:Image source="ui_pet_LayerPetInfo_png" left="0" top="0" right="0" bottom="0" scale9Grid="13,12,80,73"/>
+				<e:Image source="ui_chat_OrnTop_png" left="0" right="0" scale9Grid="32,12,26,24" top="0" height="35"/>
+				<e:Image source="ui_chat_OrnTop_png" left="0" right="0" scale9Grid="32,12,26,24" top="0" bottom="0" alpha="0.7"/>
+				<e:Button id="btnCard" label="" left="0" top="-6">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_ButtonCardTipsSel_png" source.down="ui_hunter_ButtonCardTipsSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+
+
+				</e:Button>
+				<e:Scroller width="400" height="400" horizontalCenter="0" bottom="0">
+					<e:List id="listCard">
+						<e:layout>
+							<e:TileLayout horizontalGap="15" requestedColumnCount="3" verticalGap="15" paddingTop="10" paddingLeft="10"/>
+						</e:layout>
+					</e:List>
+				</e:Scroller>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

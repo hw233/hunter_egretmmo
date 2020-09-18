@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Dialog_SimpleSkin" width="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="640">
+	<e:Group id="groupUI" width="100%" height="100%" x="0" y="0" touchEnabled="false">
+		<e:Rect id="btnOk" width="960" height="640" x="0" y="0" fillAlpha="0"/>
+		<e:Group id="NodeBG" width="448" height="154" y="456.67" x="44" anchorOffsetY="0" anchorOffsetX="0" touchEnabled="false" touchChildren="false">
+			<e:Image left="0" y="-6" source="ui_dialog_BoardSmallNew_png" touchEnabled="false"/>
+			<e:Image source="ui_dialog_ImageNpcSmall_png" scaleX="0.9" scaleY="0.9" y="-39" x="-31" touchEnabled="false"/>
+			<e:Label id="labelContent" text="建校费加上叫你金币赚的学费，你现在总共欠我一二三四五六七个金币！" anchorOffsetX="0" width="266" anchorOffsetY="0" height="176" size="18" textColor="0x411a03" bold="true" lineSpacing="4" verticalAlign="top" top="10" x="167" touchEnabled="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

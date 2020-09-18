@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_DesResSkin" width="395" height="255" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="395" height="255" x="0" y="0">
+		<e:Image source="ui_common_BoardChangeAchievementsA_png" horizontalCenter="0" verticalCenter="0" width="395" height="255" scale9Grid="68,58,21,11"/>
+		<e:Group width="112" height="112" x="18" bottom="132">
+			<e:Image id="imageFrame" source="ui_other_FramePropD_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageIcon" source="buff_name_wu_png" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group width="200" height="112" x="142" bottom="132">
+			<e:Label id="labelName" text="演武币" x="0" bottom="73" size="18" textColor="0xeaead2"/>
+			<e:Label id="labelHide" text="数量：" x="1" size="18" bottom="47" textColor="0xeaead2"/>
+			<e:Label text="拥有：" x="2" bottom="21" size="18" textColor="0xeaead2"/>
+			<e:Label id="labelNum" text="123456" size="18" bottom="47" left="50" textColor="0xeaead2"/>
+			<e:Label id="labelHas" text="12345" size="18" bottom="21" left="50" textColor="0xeaead2"/>
+		</e:Group>
+		<e:Group width="365" height="115" left="14" bottom="13">
+			<e:Image source="ui_common_BoardChangeAchievementsB_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" width="100%" height="100%" scale9Grid="28,25,11,13"/>
+			<e:Label id="labelInfo" text="资源描述拉拉资源描述拉拉拉拉一二三四五六七八九十拉拉一二三四五六七八资源描述拉拉拉拉一二三四五六七八九十九十" width="340" height="100" horizontalCenter="0" size="18" verticalCenter="0" lineSpacing="5" verticalAlign="middle" textColor="0xf3e1af"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

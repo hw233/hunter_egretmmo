@@ -1,0 +1,64 @@
+{"mc":{
+	"main_ani_car":{
+		"frameRate":10,
+		"labels":[
+			{"name":"1","frame":1,"end":8}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"dianchesaoguang_00000_png",
+			"x":41,
+			"y":0
+			},
+			{
+			"res":"dianchesaoguang_00002_png",
+			"x":20,
+			"y":0
+			},
+			{
+			"res":"dianchesaoguang_00004_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"dianchesaoguang_00006_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"dianchesaoguang_00008_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"dianchesaoguang_00010_png",
+			"x":0,
+			"y":14
+			},
+			{
+			"res":"dianchesaoguang_00012_png",
+			"x":0,
+			"y":37
+			},
+			{
+			"res":"dianchesaoguang_00014_png",
+			"x":0,
+			"y":60
+			}
+			]
+}},
+	"res":{
+		"dianchesaoguang_00002_png":{"x":1,"y":207,"w":34,"h":37},
+		"dianchesaoguang_00014_png":{"x":37,"y":207,"w":23,"h":26},
+		"dianchesaoguang_00000_png":{"x":113,"y":1,"w":13,"h":14},
+		"dianchesaoguang_00012_png":{"x":1,"y":153,"w":48,"h":52},
+		"dianchesaoguang_00006_png":{"x":57,"y":1,"w":54,"h":82},
+		"dianchesaoguang_00008_png":{"x":1,"y":1,"w":54,"h":89},
+		"dianchesaoguang_00004_png":{"x":1,"y":92,"w":54,"h":59},
+		"dianchesaoguang_00010_png":{"x":57,"y":85,"w":54,"h":75}
+	}}

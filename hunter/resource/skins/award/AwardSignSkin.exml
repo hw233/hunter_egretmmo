@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwardSignSkin" width="740" height="550" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_acitivity_diban_png" y="1" scale9Grid="25,31,431,508" anchorOffsetX="0" anchorOffsetY="0" height="547" left="0" right="0"/>
+
+	<e:Scroller width="698" height="356" horizontalCenter="-2" verticalCenter="77" anchorOffsetY="0" anchorOffsetX="0">
+		<e:List id="lstViewDay" anchorOffsetX="0" width="675" anchorOffsetY="0" height="461">
+			<e:layout>
+				<e:TileLayout orientation="rows" horizontalAlign="center" verticalAlign="middle" requestedColumnCount="6" columnAlign="justifyUsingWidth" rowAlign="justifyUsingHeight" paddingTop="10" paddingBottom="10"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image source="ui_acitivity_signin_banner5_png" y="-55" horizontalCenter="0"/>
+	<e:Label text=" 每日签到领取丰厚奖励" size="20" anchorOffsetX="0" right="30" top="142"/>
+</e:Skin>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterAwakenSuccessSkin" width="960" height="940" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="mainGroup" left="0" top="0" bottom="0" right="0">
+		<e:Image id="imgBg" source="ui_hunter_BackGroundHunter_png" left="0" right="0" top="0" bottom="0" scale9Grid="13,9,545,293"/>
+		<e:Label id="labelTip" text="点击任意区域关闭" width="160" height="25" size="18" horizontalCenter="0" textAlign="center" verticalAlign="middle" bottom="20"/>
+		<e:Group id="groupPower" width="220" height="29" anchorOffsetX="110" anchorOffsetY="14.5" y="100" x="100">
+			<e:Image source="ui_common_BoardUpPower_png" horizontalCenter="0" verticalCenter="0" x="-225" y="-175" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_common_WordsPowerBig2_png" verticalCenter="0" left="10"/>
+			<e:Label id="labelPlayerPower" text="9999" height="33" textAlign="left" verticalAlign="middle" verticalCenter="1" size="28" width="100" left="135" textColor="0xf9ff17"/>
+		</e:Group>
+		<e:Group id="groupAttributes" width="263" height="21" x="-300" y="919">
+			<e:Group id="groupAttribute1" width="263" height="21" scaleX="1" scaleY="1" anchorOffsetX="131.5" anchorOffsetY="10.5" x="131.5" y="10.5">
+				<e:Label text="暴击伤害" width="80" height="21" size="16" verticalCenter="0" name="labelName1" textAlign="left" verticalAlign="middle" left="0"/>
+				<e:Label text="+123%" width="70" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeCurrent1" left="80"/>
+				<e:Image verticalCenter="0" name="imgArrow1" source="ui_common_IconArrow_png" left="150"/>
+				<e:Label text="+123%" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeNext1" left="200" right="0"/>
+			</e:Group>
+			<e:Group id="groupAttribute2" width="263" height="21" scaleX="1" scaleY="1" anchorOffsetX="131.5" anchorOffsetY="10.5" x="131.5" y="10.5">
+				<e:Label text="暴击伤害" width="80" height="21" size="16" verticalCenter="0" name="labelName2" textAlign="left" verticalAlign="middle" left="0"/>
+				<e:Label text="+123%" width="70" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeCurrent2" left="80"/>
+				<e:Image verticalCenter="0" name="imgArrow2" source="ui_common_IconArrow_png" left="150"/>
+				<e:Label text="+123%" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeNext2" left="200" right="0"/>
+			</e:Group>
+			<e:Group id="groupAttribute3" width="263" height="21" scaleX="1" scaleY="1" anchorOffsetX="131.5" anchorOffsetY="10.5" x="131.5" y="10.5">
+				<e:Label text="暴击伤害" width="80" height="21" size="16" verticalCenter="0" name="labelName3" textAlign="left" verticalAlign="middle" left="0"/>
+				<e:Label text="+123%" width="70" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeCurrent3" left="80"/>
+				<e:Image verticalCenter="0" name="imgArrow3" source="ui_common_IconArrow_png" left="150"/>
+				<e:Label text="+123%" height="23" size="16" verticalCenter="0" verticalAlign="middle" textAlign="left" name="labelAttributeNext3" left="200" right="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupStar" width="184" height="58" anchorOffsetX="85" anchorOffsetY="0" x="200" y="200"/>
+		<e:Group id="groupHunter" width="200" height="150" anchorOffsetX="100" anchorOffsetY="-20" x="100" y="0"/>
+		<e:Group id="groupSkill" scaleX="1" scaleY="1" x="100" y="439" anchorOffsetX="50" anchorOffsetY="25">
+				<e:Image id="imgFrame" x="0" y="0" scaleX="0.7" scaleY="0.7" source="ui_frame_FrameSkillAwaken5_png"/>
+				<e:Image id="imgIcon" source="skill_icon_break_icon_pojiafanshang_png" x="10.28" y="6" scaleX="0.7" scaleY="0.7"/>
+			<e:Label id="labelLevel" text="LV 1" size="14" bottom="2" fontFamily="Helvetica" right="10" height="20" verticalAlign="middle" textAlign="right" left="10" textColor="0xf5f5f5"/>
+		</e:Group>
+		<e:Label id="labelInfo" text="2135" x="364" y="588" width="150" height="29" verticalAlign="middle" textAlign="left" fontFamily="Helvetica" size="18" anchorOffsetX="50" textColor="0xffffff" anchorOffsetY="-10"/>
+	</e:Group>
+</e:Skin>

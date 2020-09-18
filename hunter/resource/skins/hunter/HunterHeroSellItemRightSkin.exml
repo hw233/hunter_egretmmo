@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterHeroSellItemRightSkin" width="100" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="mainGroup" width="100" height="100" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_BoardHunterSoulIcon_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="spriteFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="spriteIcon" source="hero_icon_wj_feitan_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="nodeStar" height="16" left="15" top="10" right="15"/>
+		<e:Group id="nodeBingo" width="100" height="100" x="0" y="0">
+		</e:Group>
+		<e:Label id="labelLevel" text="123" size="20" width="60" scaleX="1" scaleY="1" bottom="10" left="10"/>
+		<e:Image id="spriteBreak" source="ui_hunter_break_IconBreakCorner1_png" width="55" height="42" right="10" bottom="10" scale9Grid="62,19,14,13" visible="false"/>
+		<e:Image id="spriteGrade" source="ui_pet_IconBigPetGrade1_png" width="43" height="46" right="8" bottom="10" scaleX="0.5" scaleY="0.5"/>
+	</e:Group>
+</e:Skin>

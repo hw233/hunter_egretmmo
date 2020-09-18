@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailReportSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0.5" verticalCenter="15" width="675" height="528">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="675" height="528" scale9Grid="151,57,138,46" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_mail_LayerMailFirst_png" width="650" height="435" scale9Grid="31,43,26,24" top="24" horizontalCenter="0.5"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" top="-35" horizontalCenter="0"/>
+		<e:Image source="ui_wonderland_WordsBattleReport_png" top="-23" horizontalCenter="0"/>
+		<e:Button id="btnClose" label="" right="-14" top="-31">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_union_ButtonCloseNor_png" source.down="ui_union_ButtonCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Group horizontalCenter="0" top="33">
+			<e:Image source="ui_mail_LayerMailSeconde_png" width="640" height="50" scale9Grid="6,10,38,62" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelTitle" text="Label" size="18" textColor="0x6b3d17" left="90" verticalCenter="0"/>
+			<e:Image source="ui_mail_WordsBiaoti_png" left="15" verticalCenter="0"/>
+		</e:Group>
+		<e:Group horizontalCenter="0" top="88">
+			<e:Image source="ui_mail_LayerMailSeconde_png" width="640" height="50" scale9Grid="6,10,38,62" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_mail_WordsLaizi_png" left="15" verticalCenter="0"/>
+			<e:Label id="labelFrom" text="Label" left="90" verticalCenter="0" size="18" textColor="0x6b3d17"/>
+			<e:Label id="labelTime" text="2015-12-31   00:00" verticalCenter="0" size="18" textColor="0xc65b17" right="40"/>
+		</e:Group>
+		<e:Group x="18" y="147">
+			<e:Image source="ui_mail_LayerMailSeconde_png" width="640" height="285" scale9Grid="6,10,38,62" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_mail_WordsZhengwen_png" left="15" top="12"/>
+			<e:Image id="imgWin" source="ui_mail_IconLoseBig_png" right="11" bottom="11"/>
+			<e:Label id="labelContent" text="Label" height="100" size="18" textColor="0x6b3d17" left="84" right="26" top="14" width="530"/>
+			<e:Button id="btnViewEnemyTeam" label="" scaleX="0.8" scaleY="0.8" left="10" verticalCenter="30">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_ButtonViewEnemyTeamNor_png" source.down="ui_arena_ButtonViewEnemyTeamSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="groupHide" left="90" verticalCenter="24">
+				<e:Group id="groupOneTeam" anchorOffsetY="0" left="0" top="51">
+					<e:Image source="ui_mail_BoardTeam2_png" width="315" height="170" horizontalCenter="0" verticalCenter="0"/>
+					<e:List id="listSupport" width="305" height="160" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+						<e:layout>
+							<e:TileLayout requestedColumnCount="4"/>
+						</e:layout>
+					</e:List>
+				</e:Group>
+				<e:Group id="groupThreeTean" left="0" top="0">
+					<e:List id="listHunter" width="390" height="220" horizontalCenter="0" verticalCenter="0">
+						<e:layout>
+							<e:VerticalLayout gap="2"/>
+						</e:layout>
+					</e:List>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Button id="btnReplay" label="" bottom="10" left="15">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_arena_ButtonBattleReturnLookNor_png" source.down="ui_arena_ButtonBattleReturnLookSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnEnemy" label="" bottom="10" left="180">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_arena_ButtonBattleEnemyInfoNor_png" source.down="ui_arena_ButtonBattleEnemyInfoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnFoe" label="" bottom="10" left="348">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_arena_ButtonBattleAddBadFriendNor_png" source.down="ui_arena_ButtonBattleAddBadFriendSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnShare" label="" bottom="10" left="513">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_arena_ButtonBattleShareNor_png" source.down="ui_arena_ButtonBattleShareSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

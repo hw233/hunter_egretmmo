@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleEndStatsPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="BattleEnd_StatsPop" width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_instance_LayerInstance_png" scale9Grid="11,11,73,73" width="765" height="465" horizontalCenter="0.5" verticalCenter="30"/>
+		<e:Image source="ui_instance_BoardTopTip_png" scale9Grid="40,3,149,22" scaleX="1" horizontalCenter="-3.5" width="771" verticalCenter="-203" anchorOffsetX="0"/>
+		<e:Image source="ui_battleend_LayerHitNumBoard_png" scale9Grid="6,6,40,42" width="745" height="435" horizontalCenter="0" verticalCenter="35"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="0" verticalCenter="-215"/>
+		<e:Image source="ui_battleend_WordsHitNum_png" verticalCenter="-218" horizontalCenter="0"/>
+		<e:Button id="ButtonClose" label="" verticalCenter="-207.5" right="82">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png" source.disabled="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_battleend_WordsMyTeam_png" horizontalCenter="-177" verticalCenter="-158"/>
+		<e:Image source="ui_battleend_WordsEnemyTeam_png" horizontalCenter="177" verticalCenter="-158"/>
+		<e:Image source="ui_battleend_OrnBoardHitNum_png" horizontalCenter="0" verticalCenter="64"/>
+		<e:Scroller width="350" height="365" y="190" horizontalCenter="-180" scrollPolicyV="on">
+			<e:List id="TableViewMine" y="201.5" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-174"/>
+		</e:Scroller>
+
+
+
+
+
+		<e:Scroller width="350" height="360" y="190" horizontalCenter="180" scrollPolicyV="on">
+			<e:List id="TableViewOpp" y="201.5" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="180"/>
+		</e:Scroller>
+
+
+
+
+
+		<e:Image source="ui_mora_WordsVS_png" horizontalCenter="0.5" verticalCenter="-40"/>
+	</e:Group>
+</e:Skin>

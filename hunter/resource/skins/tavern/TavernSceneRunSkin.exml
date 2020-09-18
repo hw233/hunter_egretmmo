@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TavernSceneRunSkin" width="650" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image anchorOffsetX="0" width="650" anchorOffsetY="0" height="300" scale9Grid="8,5,54,37" x="0" y="0" source="ui_hunter_BoardCardPopSeconde_png"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" width="610" height="137" horizontalCenter="6" verticalCenter="3.5" scale9Grid="15,10,92,65" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group y="182" horizontalCenter="5">
+			<e:Image verticalCenter="0" scaleX="2.5" scale9Grid="11,1,189,12" width="200" source="ui_instance_battle_xuetiao1_png" horizontalCenter="0"/>
+			<e:Image id="imgSchedule0" verticalCenter="0" scaleX="2.5" scale9Grid="26,1,159,12" width="200" height="14" source="ui_instance_battle_xuetiao2_png" horizontalCenter="0"/>
+			<e:Image id="imgScheduleMask0" scaleX="2.5" width="200" height="14" source="ui_hunter_collection_board1_png" verticalCenter="0" scale9Grid="0,0,70,46" x="0"/>
+		</e:Group>
+		<e:Group id="group0" x="181" y="104" width="70" anchorOffsetX="35">
+			<e:Group y="0" width="67" height="66" horizontalCenter="0">
+			<e:Image id="imgRunFrame0" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgRunIcon0" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imglingqu0" touchEnabled="false" source="ui_acitivity_serverseven_canget_png" scaleX="0.7" scaleY="0.7" left="4" top="0"/>
+				<e:Label id="labelnum0" text="Label" size="16" right="7" bottom="8"/>
+			</e:Group>
+			<e:Label id="label0" text="Label" y="97" size="18" horizontalCenter="0" textColor="0x000000"/>
+			<e:Image source="ui_tavern_fengexina_png" scaleX="0.8" scaleY="0.8" top="65" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="group1" x="95" width="70" anchorOffsetX="35" y="104">
+			<e:Group y="0" width="67" height="66" horizontalCenter="0">
+			<e:Image id="imgRunFrame1" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgRunIcon1" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imglingqu1" touchEnabled="false" source="ui_acitivity_serverseven_canget_png" scaleX="0.7" scaleY="0.7" left="4" top="0"/>
+				<e:Label text="Label" size="16" right="7" bottom="8" id="labelnum1" x="106" y="42" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Label id="label1" text="Label" y="97" size="18" horizontalCenter="0" textColor="0x000000"/>
+			<e:Image source="ui_tavern_fengexina_png" scaleX="0.8" scaleY="0.8" top="65" horizontalCenter="0" x="114" y="65"/>
+		</e:Group>
+		<e:Group id="group2" x="94" width="70" anchorOffsetX="35" y="104">
+			<e:Group y="0" width="67" height="66" horizontalCenter="0">
+			<e:Image id="imgRunFrame2" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgRunIcon2" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imglingqu2" touchEnabled="false" source="ui_acitivity_serverseven_canget_png" scaleX="0.7" scaleY="0.7" left="4" top="0"/>
+				<e:Label text="Label" size="16" right="7" bottom="8" id="labelnum2" x="21" y="42" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Label id="label2" text="Label" y="97" size="18" horizontalCenter="0" textColor="0x000000"/>
+			<e:Image source="ui_tavern_fengexina_png" scaleX="0.8" scaleY="0.8" top="65" horizontalCenter="0" x="115" y="65"/>
+		</e:Group>
+		<e:Group id="group3" x="94" width="70" anchorOffsetX="35" y="104">
+			<e:Group y="0" width="67" height="66" horizontalCenter="0">
+			<e:Image id="imgRunFrame3" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgRunIcon3" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imglingqu3" touchEnabled="false" source="ui_acitivity_serverseven_canget_png" scaleX="0.7" scaleY="0.7" left="4" top="0"/>
+				<e:Label text="Label" size="16" right="7" bottom="8" id="labelnum3" x="21" y="91" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Label id="label3" text="Label" y="97" size="18" horizontalCenter="0" textColor="0x000000"/>
+			<e:Image source="ui_tavern_fengexina_png" scaleX="0.8" scaleY="0.8" top="65" horizontalCenter="0" x="115" y="65"/>
+		</e:Group>
+		<e:Group id="group4" x="94" width="70" anchorOffsetX="35" y="104">
+			<e:Group y="0" width="67" height="66" horizontalCenter="0">
+			<e:Image id="imgRunFrame4" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgRunIcon4" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imglingqu4" touchEnabled="false" source="ui_acitivity_serverseven_canget_png" scaleX="0.7" scaleY="0.7" left="4" top="0"/>
+				<e:Label text="Label" size="16" right="7" bottom="8" id="labelnum4" x="20" y="42" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Label id="label4" text="Label" y="97" size="18" horizontalCenter="0" textColor="0x000000"/>
+			<e:Image source="ui_tavern_fengexina_png" scaleX="0.8" scaleY="0.8" top="65" horizontalCenter="0" x="115" y="65"/>
+		</e:Group>
+		<e:Group id="group5" x="94" width="70" anchorOffsetX="35" y="104">
+			<e:Group y="0" width="67" height="66" horizontalCenter="0">
+			<e:Image id="imgRunFrame5" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgRunIcon5" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imglingqu5" touchEnabled="false" source="ui_acitivity_serverseven_canget_png" scaleX="0.7" scaleY="0.7" left="4" top="0"/>
+				<e:Label text="Label" size="16" right="7" bottom="8" id="labelnum5" x="20" y="42" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Label id="label5" text="Label" y="97" size="18" horizontalCenter="0" textColor="0x000000"/>
+			<e:Image source="ui_tavern_fengexina_png" scaleX="0.8" scaleY="0.8" top="65" horizontalCenter="0" x="115" y="65"/>
+		</e:Group>
+		<e:Group id="group6" x="94" width="70" anchorOffsetX="35" y="104">
+			<e:Group y="0" width="67" height="66" horizontalCenter="0">
+			<e:Image id="imgRunFrame6" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgRunIcon6" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imglingqu6" touchEnabled="false" source="ui_acitivity_serverseven_canget_png" scaleX="0.7" scaleY="0.7" left="4" top="0"/>
+				<e:Label text="Label" size="16" right="7" bottom="8" id="labelnum6" x="20" y="42" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Label id="label6" text="Label" y="97" size="18" horizontalCenter="0" textColor="0x000000"/>
+			<e:Image source="ui_tavern_fengexina_png" scaleX="0.8" scaleY="0.8" top="65" horizontalCenter="0" x="115" y="65"/>
+		</e:Group>
+		<e:Group id="group7" x="94" width="70" anchorOffsetX="35" y="104">
+			<e:Group y="0" width="67" height="66" horizontalCenter="0">
+			<e:Image id="imgRunFrame7" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgRunIcon7" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imglingqu7" touchEnabled="false" source="ui_acitivity_serverseven_canget_png" scaleX="0.7" scaleY="0.7" left="4" top="0"/>
+				<e:Label text="Label" size="16" right="7" bottom="8" id="labelnum7" x="20" y="42" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Label id="label7" text="Label" y="97" size="18" horizontalCenter="0" textColor="0x000000"/>
+			<e:Image source="ui_tavern_fengexina_png" scaleX="0.8" scaleY="0.8" top="65" horizontalCenter="0" x="115" y="65"/>
+		</e:Group>
+		<e:Group id="group8" x="94" width="70" anchorOffsetX="35" y="104">
+			<e:Group y="0" width="67" height="66" horizontalCenter="0">
+			<e:Image id="imgRunFrame8" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgRunIcon8" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imglingqu8" touchEnabled="false" source="ui_acitivity_serverseven_canget_png" scaleX="0.7" scaleY="0.7" left="4" top="0"/>
+				<e:Label text="Label" size="16" right="7" bottom="8" id="labelnum8" x="20" y="42" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Label id="label8" text="Label" y="97" size="18" horizontalCenter="0" textColor="0x000000"/>
+			<e:Image source="ui_tavern_fengexina_png" scaleX="0.8" scaleY="0.8" top="65" horizontalCenter="0" x="115" y="65"/>
+		</e:Group>
+		<e:Group id="group9" x="94" width="70" anchorOffsetX="35" y="104">
+			<e:Group y="0" width="67" height="66" horizontalCenter="0">
+			<e:Image id="imgRunFrame9" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgRunIcon9" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imglingqu9" touchEnabled="false" source="ui_acitivity_serverseven_canget_png" scaleX="0.7" scaleY="0.7" left="4" top="0"/>
+				<e:Label text="Label" size="16" right="7" bottom="8" id="labelnum9" x="20" y="42" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Label id="label9" text="Label" y="97" size="18" horizontalCenter="0" textColor="0x000000"/>
+			<e:Image source="ui_tavern_fengexina_png" scaleX="0.8" scaleY="0.8" top="65" horizontalCenter="0" x="115" y="65"/>
+		</e:Group>
+		<e:Group id="group10" x="94" width="70" anchorOffsetX="35" y="104">
+			<e:Group y="0" width="67" height="66" horizontalCenter="0">
+			<e:Image id="imgRunFrame10" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgRunIcon10" source="ui_frame_FrameHunterOrange1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imglingqu10" touchEnabled="false" source="ui_acitivity_serverseven_canget_png" scaleX="0.7" scaleY="0.7" left="4" top="0"/>
+				<e:Label text="Label" size="16" right="7" bottom="8" id="labelnum10" x="20" y="42" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Label id="label10" text="Label" y="97" size="18" horizontalCenter="0" textColor="0x000000"/>
+		</e:Group>
+		<e:Button id="btnClose" label="" y="231" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_daily_ButtonKnowNor_png" source.down="ui_daily_ButtonKnowSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="labeljindu" text="Label" x="47" y="58" textColor="0x000000" size="18"/>
+		<e:Image source="ui_card_BoardCardPopTop_png" scale9Grid="43,5,259,30" anchorOffsetX="0" top="0" left="15" right="2" x="17" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_daily_ButtonViewAward_png" horizontalCenter="0" top="6" x="276" y="6" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

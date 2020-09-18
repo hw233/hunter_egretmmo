@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueMatchMallMainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="52" y="46" verticalCenter="0" horizontalCenter="0">
+		<e:Image source="ui_union_battle_BoardFeatsMallFloor_png" x="0" y="0"/>
+		<e:Scroller id="scrollerInfo" width="790" height="350" y="99" scrollPolicyH="auto" scrollPolicyV="auto" anchorOffsetX="0" verticalCenter="0" horizontalCenter="0">
+			<e:List id="lstViewItem" x="182" y="220" width="790"  anchorOffsetX="0">
+				<e:layout>
+					<e:TileLayout  horizontalGap="10" verticalGap="-2"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbTimeTips" text="每半小时更新一次" y="487" size="20" fontFamily="Helvetica" textColor="0x5ce0da" width="219" textAlign="center" x="25.84" height="24"/>
+		<e:Label text="当前拥有：" y="487" size="20" fontFamily="Helvetica" textColor="0x5CE0DA" textAlign="center" x="602.61" height="24" width="100"/>
+		<e:Image id="imgCost" source="ui_iconresources_feats3_png" x="689.34" y="469.66"/>
+		<e:Label id="lbMoney" text="123546" y="487" size="20" fontFamily="Helvetica" textColor="0x5CE0DA" textAlign="left" x="745.33" height="24" width="100"/>
+		<e:Button id="btnClose" label="" y="12.34" scaleX="-1" left="7">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_close1_png" source.down="ui_union_battle_close2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

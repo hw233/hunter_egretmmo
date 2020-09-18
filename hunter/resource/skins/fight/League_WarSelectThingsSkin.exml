@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="League_WarSelectThingsSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="touchRect" width="100%" height="100%" x="0" y="0" fillAlpha="0"/>
+
+
+	<e:Group width="285" height="430" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgBackGround" source="ui_union_BoardPlayerInfo_png" anchorOffsetX="0" width="285" anchorOffsetY="0" height="430" y="0" x="0" scale9Grid="12,12,146,141"/>
+		<e:Image source="ui_common_WordsTipCommonSelectedType_png" horizontalCenter="0" top="17"/>
+		<e:Scroller width="240" height="346" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="21">
+			<e:List id="TableViewList">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

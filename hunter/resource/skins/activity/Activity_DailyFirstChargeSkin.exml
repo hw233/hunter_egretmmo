@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_DailyFirstChargeSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_acitivity_dailyFirstCharge_diban_png" horizontalCenter="55" verticalCenter="0"/>
+		<e:Image source="ui_acitivity_dailyFirstCharge_lihui_png" horizontalCenter="-197" verticalCenter="0"/>
+		<e:Image source="ui_acitivity_dailyFirstCharge_wenzi_png" horizontalCenter="128" verticalCenter="-112"/>
+		<e:Image source="ui_acitivity_dailyFirstCharge_wupindi_png" horizontalCenter="144" verticalCenter="84"/>
+		<e:Scroller id="scrollerAward" height="93" horizontalCenter="146" verticalCenter="84" anchorOffsetX="0" anchorOffsetY="0" width="0">
+			<e:List id="listAward" width="100%" height="100%">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnCharge" label="" horizontalCenter="139" verticalCenter="190">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_dailyFirstCharge_btnNor_png" source.down="ui_acitivity_dailyFirstCharge_btnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnGet" label="" horizontalCenter="139" verticalCenter="190" width="196" height="67" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_dailyFirstCharge_btnGetNor_png" source.down="ui_acitivity_dailyFirstCharge_btnGetSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnClose" label="" horizontalCenter="412" top="123">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_rankinglist_buttonCloseNor_png" source.down="ui_acitivity_rankinglist_buttonCloseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

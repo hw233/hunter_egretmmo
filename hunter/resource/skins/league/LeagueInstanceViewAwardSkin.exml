@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueInstanceViewAwardSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="960" height="640" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="945" height="535" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="121,39,181,70" y="76" horizontalCenter="0" x="8"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" y="95.8" width="915" height="490" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="15,10,92,65" horizontalCenter="0" x="23"/>
+		<e:Group y="30" anchorOffsetX="0" anchorOffsetY="0" width="304" horizontalCenter="0" x="329">
+			<e:Image source="ui_fishing_BoardFishingTopTip_png" x="152" y="35" anchorOffsetX="152" anchorOffsetY="29"/>
+			<e:Image x="152" y="18" anchorOffsetX="55" height="29" source="ui_union_instance_WordsViewAward_png"/>
+		</e:Group>
+		<e:Group y="108.14" horizontalCenter="0" x="33">
+			<e:Image source="ui_union_instance_BoardInstanceAwardView_png" y="31.92" width="895" height="60" anchorOffsetX="447.5" anchorOffsetY="30" scale9Grid="8,7,55,46" horizontalCenter="0"/>
+			<e:Image source="ui_union_instance_WordsBossTip_png" x="16.83" y="19.65"/>
+			<e:Image source="ui_union_instance_IconBox1_png" x="126.18" y="-6" scaleX="0.7" scaleY="0.7"/>
+			<e:Image source="ui_union_instance_IconBox2_png" x="378.45" y="-6" scaleX="0.7" scaleY="0.7"/>
+			<e:Image source="ui_union_instance_IconBox3_png" x="624.5" y="-6" scaleX="0.7" scaleY="0.7"/>
+			<e:Image source="ui_union_instance_WordsGradAward1_png" x="206.5" y="8.15"/>
+			<e:Image source="ui_union_instance_WordsGradAward2_png" x="464" y="7.68"/>
+			<e:Image source="ui_union_instance_WordsGradAward3_png" x="708.83" y="8.17"/>
+			<e:Label text="（BOSS损失30%血量）" x="185.2" y="34" size="16" textColor="0x000000" fontFamily="Helvetica" height="20" textAlign="left" verticalAlign="middle" width="200"/>
+			<e:Label text="（BOSS损失60%血量）" x="446.18" y="34" size="16" textColor="0x000000" fontFamily="Helvetica" height="20" verticalAlign="middle" width="200"/>
+			<e:Label text="（BOSS损失100%血量）" x="688.5" y="34" size="16" textColor="0x000000" fontFamily="Helvetica" height="20" verticalAlign="middle" width="200"/>
+		</e:Group>
+		<e:Scroller width="900" height="400" y="182.17" horizontalCenter="0" x="31" scaleY="0.97">
+			<e:List id="lstAward" width="100%" height="389" y="11" x="0" anchorOffsetY="0">
+				<e:layout>
+					<e:TileLayout verticalGap="18.5"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnClose" label="" anchorOffsetX="0" scaleX="-1" left="-4" top="45">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+					-->
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

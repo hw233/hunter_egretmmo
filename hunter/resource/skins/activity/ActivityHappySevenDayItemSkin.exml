@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityHappySevenDayItemSkin" width="531" height="112" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgSelect" source="ui_acitivity_serverseven_BoardAwardFloor_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="imgSelects" source="ui_acitivity_serverseven_BoardAwardFloorDis_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="btnGet" label="" x="354" y="41">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_daily_ButtonGetAwardNor_png" source.down="ui_daily_ButtonGetAwardSel_png" source.disabled="ui_daily_ButtonGetAwardDis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="imgDay" x="22" y="7" source="ui_acitivity_serverseven_WordsListLeft1_png"/>
+	<e:Image id="imgGet" x="394" y="41" source="ui_acitivity_WordsTipGet_png"/>
+	<e:Scroller width="370" height="75" x="9" y="38" scaleX="0.95" scaleY="0.95">
+		<e:List id="lstViewAward">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

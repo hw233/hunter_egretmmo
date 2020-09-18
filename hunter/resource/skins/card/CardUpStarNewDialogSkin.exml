@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardUpStarNewDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group" width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="img" source="ui_hunter_LayerHeroBg_png" x="0" y="0" width="100%" height="100%"/>
+		<e:Image id="img1" source="ui_license_BoardExaminationLevelCard_png" x="0" y="0" width="100%" height="40"/>
+		<e:Image id="img2" source="ui_card_WordsCardUpStar_png" x="103"/>
+
+		<e:Group id="groupAB" width="960" height="640" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="groupABRight" width="320" height="550" anchorOffsetX="160" anchorOffsetY="275" y="420" x="752">
+				<e:Group id="groupAni" width="240" height="160" x="154.06" y="-80.68">
+				</e:Group>
+				<e:Image id="img3" source="ui_card_LayerCardRight_png" x="-41.99" y="-73.91" height="563.33" anchorOffsetX="0" width="395.37" anchorOffsetY="0"/>
+				<e:Group id="groupAttInfo" width="355.15" height="167.58" x="-18.28" y="219.84" anchorOffsetX="0" anchorOffsetY="0"/>
+
+				<e:Button id="btnStar1" label="" x="17.21" y="138.68" width="65" height="65" anchorOffsetX="32.5" anchorOffsetY="32.5" visible="false"/>
+				<e:Button id="btnStar2" label="" x="84.85" y="138.68" width="65" height="65" anchorOffsetX="32.5" anchorOffsetY="32.5" visible="false"/>
+				<e:Button id="btnStar3" label="" x="152.85" y="138.68" width="65" height="65" anchorOffsetX="32.5" anchorOffsetY="32.5" visible="false"/>
+				<e:Button id="btnStar4" label="" x="221.51" y="138.68" width="65" height="65" anchorOffsetX="32.5" anchorOffsetY="32.5" visible="false"/>
+				<e:Button id="btnStar5" label="" x="289.32" y="138.68" width="65" height="65" anchorOffsetX="32.5" anchorOffsetY="32.5" visible="false"/>
+				<e:Image id="img4" source="ui_hunter_WordsHunterUpTip_png" x="46.23" y="68.72" width="232" height="19.200000000000003"/>
+				<e:Group id="groupStar" width="100" height="24" x="101.72" y="210.42"/>
+			</e:Group>
+			<e:Group id="groupFrame" width="193.94" height="152.13" x="878.19" y="-1.13" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image id="img5" source="ui_card_WordsTipCardChange_png" x="-64.36" y="122" width="113.60000000000001" height="72"/>
+			</e:Group>
+			<e:Group id="groupHeroInfo" width="224" height="150" x="746.43" y="14.12">
+				<e:Image id="imgEmpty" source="ui_hunter_IconHunterUpStrarNode_png" x="-15" y="142"/>
+				<e:Image id="imgFrame" width="71.74" height="73.25" x="-2.61" y="160.16" anchorOffsetX="32.15" anchorOffsetY="36.75"/>
+				<e:Image id="imgNode" width="25.6" height="25.6" x="-3.65" y="150.52" anchorOffsetX="12.5" anchorOffsetY="12.5"/>
+				<e:Image id="imgCardType" source="ui_hunter_evaluate_IconCardTypeOrn3_png" x="4.35" y="141.52" width="46.400000000000006" height="36.800000000000004" anchorOffsetX="23" anchorOffsetY="18"/>
+				<e:Image id="imgHead" source="card_014dongyuanzhijianB_20s_png" x="-6.02" y="158.53" width="74.26" height="75.6" anchorOffsetX="37.63" anchorOffsetY="38.01"/>
+				<e:BitmapLabel id="labelLevel" width="54.57" height="27.73" x="33.31" y="170.09" text="lv23" font="ItemNum_fnt" anchorOffsetY="9.46" scaleX="1" scaleY="1" anchorOffsetX="54" textAlign="right"/>
+				<e:Group id="groupMaterial" width="338" height="64" x="-170" y="239" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Group id="groupAdd1" width="65" height="65" x="-169.79" y="237.78"/>
+				<e:Group id="groupAdd2" width="65" height="65" x="-102.15" y="237.78"/>
+				<e:Group id="groupAdd3" width="65" height="65" x="-33.18" y="237.78"/>
+				<e:Group id="groupAdd4" width="65" height="65" x="35.18" y="237.78"/>
+				<e:Group id="groupAdd5" width="65" height="65" x="102.67" y="237.78"/>
+				<e:Group id="groupCurrencyStar" width="48" height="12.8" x="-31.69" y="172.52"/>
+			</e:Group>
+			<e:Group id="groupABLeft" width="413.63" height="564" anchorOffsetY="0" anchorOffsetX="0" y="71" x="120">
+				<e:Image id="imgScale9" source="ui_hunter_LayerCurrencyFirst_png" x="-3.24" y="-2" anchorOffsetY="0" height="563" anchorOffsetX="0" width="419.3" scale9Grid="66,30,338,186"/>
+				<e:Image id="img1Scale9" source="ui_hunter_LayerSeconde_png" x="1.09" y="22.38" anchorOffsetX="0" width="412.24" anchorOffsetY="0" height="526.95" scale9Grid="15,10,92,65"/>
+				<e:Group id="groupListHeroes" width="406.06" height="516.67" x="4.42" y="28.33" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group id="groupContainer" width="403.22" height="520.37" x="1.03" y="-3.4" anchorOffsetY="0" anchorOffsetX="0">
+						<e:Scroller id="scrollerHeroes" width="404.88" height="519.58" x="0.03" y="0.39" anchorOffsetY="0" anchorOffsetX="0">
+							<e:List id="listHeroes" anchorOffsetX="0" width="406.39" anchorOffsetY="0" height="518.25" x="0" y="-5.33">
+								<e:layout>
+									<e:TileLayout requestedColumnCount="4"/>
+								</e:layout>
+							</e:List>
+
+						</e:Scroller>
+					</e:Group>
+				</e:Group>
+				<e:Image id="img6" source="ui_hunter_BoardHunterSoulNum_png" x="131" y="-1.34" width="222" anchorOffsetX="111" anchorOffsetY="16" height="32"/>
+				<e:Label id="labelHunterTip" text="4星猎人：送上天" x="45" y="-8.86" size="16" textColor="0xffffff"/>
+			</e:Group>
+			<e:Group id="groupYinCang" width="114" height="158" x="3.4" y="440" scaleY="1">
+				<e:Button id="btnCCControlButton" label="Button" x="2" y="2.97" anchorOffsetX="0" width="112.18" anchorOffsetY="0" height="151.51"/>
+				<e:Image id="imageSprite7" source="ui_card_BoardUpStarNeed_png" x="2" y="1.82" anchorOffsetY="0" height="114.18" anchorOffsetX="0" width="109.94"/>
+				<e:Button id="btnCardTypeSort" label="" x="16" y="19" width="80" height="37">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_ButtonHunterSoulGradeNor_png" source.down="ui_hunter_ButtonHunterSoulGradeSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btnCardLevelSort" label="" x="16" y="60" width="80" height="37">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_ButtonHunterSoulLevelNor_png" source.down="ui_hunter_ButtonHunterSoulLevelSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Button id="btnCardSort" label="" x="374.87" y="52.72" anchorOffsetY="0" height="32.63" anchorOffsetX="0" width="70.06">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonHunterSoulShortNor_png" source.down="ui_hunter_ButtonHunterSoulShortSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="NodeCurrency" width="246" height="150" x="656.4" y="-109.06" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="btnClose" label="" x="56.97" y="27" width="160" height="78" anchorOffsetX="80" anchorOffsetY="38">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnAddStar" label="" width="140" height="64" anchorOffsetX="70" anchorOffsetY="32" horizontalCenter="263" verticalCenter="270">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonHunterSoulUpStarNor_png" source.down="ui_hunter_ButtonHunterSoulUpStarSel_png" source.disabled="ui_hunter_ButtonHunterSoulUpStarDis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="labelUpStarNum" text="12345678" size="15" touchEnabled="false" horizontalCenter="278" verticalCenter="280" width="66" height="16"/>
+	<e:Group right="156" top="0" x="541" y="-144" scaleX="1" scaleY="1" anchorOffsetX="0" width="184">
+		<e:Image source="ui_hunter_BoardRecources_png" x="2.66" y="9.66"/>
+		<e:Image source="ui_currencyicon_IconGold_png" x="0" y="6"/>
+		<e:Label id="labelGold" text="8287.2万" x="20.98" y="12.5" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="114" verticalAlign="middle" textAlign="center"/>
+		<e:Button id="btnAddGold" label="" x="128" y="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png" source.disabled="ui_hunter_ButtonAddResourcesNor_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

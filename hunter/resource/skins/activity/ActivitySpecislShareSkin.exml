@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivitySpecislShareSkin" width="600" height="485" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="600" height="485" horizontalCenter="0" verticalCenter="-5">
+		<e:Image source="ui_acitivity_special_WordsSpecalShare_png" verticalCenter="0" right="-19"/>
+		<e:Image id="imgTip" source="ui_acitivity_special_WordsSpecalShareTip_png" horizontalCenter="-131" verticalCenter="-169"/>
+		<e:Image source="ui_acitivity_special_WordsShareDescription_png" scaleX="0.9" scaleY="0.9" horizontalCenter="-88.5" verticalCenter="-98.5"/>
+		<e:Scroller width="600" height="310" horizontalCenter="-16" verticalCenter="91.5" scrollPolicyH="off" scrollPolicyV="on">
+			<e:List id="lstTableViewShare"/>
+		</e:Scroller>
+		<e:Button id="btnSubmit" label="" scaleX="0.9" scaleY="0.9" horizontalCenter="225" verticalCenter="-109">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_special_ButtonShareNor_png" source.down="ui_acitivity_special_ButtonShareSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

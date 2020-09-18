@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Friend_AddFriendSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="6.5" verticalCenter="-2" width="699" height="602">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" x="0" y="37" width="685" height="565" scale9Grid="128,30,163,186"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" x="16.5" y="23.5"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" x="190.5" y="0"/>
+		<e:Image source="ui_friend_WordsFriendAddTip_png" x="286" y="12"/>
+		<e:Button id="buttonClose" label="" x="608.19" y="6.18" width="90" height="55">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_friend_WordsFriendTipInputID_png" x="32.19" y="84.5"/>
+		<e:Image source="ui_union_BordInputLeagueName_png" x="143.45" y="74.49"/>
+		<e:Label id="labelTextID1" text="Label" x="154" y="75" anchorOffsetX="0" width="361" anchorOffsetY="0" height="40" textColor="0x411a03" size="18" verticalAlign="middle"/>
+		<e:Label id="labelTextID" text="" x="149.16" y="75.5" size="18" textColor="0x411a03" anchorOffsetX="0" width="358.33" anchorOffsetY="0" height="42" verticalAlign="middle"/>
+		<e:Button id="buttonSearchID" label="" x="537.19" y="77.17">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonSearchUnionNor_png" source.down="ui_union_ButtonSearchUnionSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_friend_WordsFriendInputName_png" x="30.5" y="129.82"/>
+		<e:Image source="ui_union_BordInputLeagueName_png" x="142.83" y="123.87"/>
+		<e:Label id="labelTextName1" text="" x="151.17" y="128.5" anchorOffsetX="0" width="358" anchorOffsetY="0" height="35.33" textColor="0x411A03" size="18" verticalAlign="middle"/>
+		<e:Label id="labelTextName" text="" x="150.17" y="127.5" anchorOffsetX="0" width="358" anchorOffsetY="0" height="35.33" textColor="0x411a03" size="18" verticalAlign="middle"/>
+		<e:Button id="buttonSearchName" label="" x="537.88" y="124.52">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonSearchUnionNor_png" source.down="ui_union_ButtonSearchUnionSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="labelFriendCnt" text="好友数量 ： 100/10" x="30.84" y="181.81" textColor="0x000000" size="20"/>
+		<e:Label id="labelApplyCnt" text="申请中：52/20" y="181.16" textColor="0x000000" size="20" x="249.5"/>
+		<e:Image source="ui_mail_LayerMailFirst_png" x="12.5" y="214.45" width="660" height="380" scale9Grid="12,13,79,80"/>
+		<e:Group width="641.33" height="361.33" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-7" bottom="19">
+			<e:Scroller width="100%" height="100%" x="0" y="0">
+			<e:List id="listTableView"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Button id="buttonMore" label="" x="542.5" y="171.2">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_friend_ButtonoFriendChangeNor_png" source.down="ui_friend_ButtonoFriendChangeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

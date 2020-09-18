@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="ButtonSkinSweep1" states="up,down,disabled" minHeight="20" minWidth="20"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0" scaleX.down="0.92" scaleY.down="0.92">
+		<e:Image width="100%" height="100%" alpha.disabled="0.5" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" source="ui_instancenew_dialog_btn_png"/>
+		<e:Image id="iconDisplay" scaleX="1" scaleY="1" horizontalCenter="-29" verticalCenter="-2" source="ui_instancenew_dialog_btn_icon_power_png"/>
+		<e:Label id="labelCount" size="20" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" horizontalCenter="-22" verticalCenter="2" text="5" textColor="0xffffff" stroke="1" strokeColor="0x1c1b1b"/>
+		<e:Label id="labelDisplay" size="20" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" horizontalCenter="29.5" verticalCenter="2" textColor="0x000000" text="战斗"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_HunterUserStrengthSkin" width="730" height="450" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="730" height="430" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_instance_LayerInstance_png" x="366" y="214" width="730" height="360" anchorOffsetX="365" anchorOffsetY="180" scale9Grid="12,13,70,69"/>
+		<e:Image source="ui_instance_BoardTopTip_png" x="366" y="46.44" width="730" anchorOffsetX="365" anchorOffsetY="14" scale9Grid="40,3,131,22"/>
+		<e:Image source="ui_instance_IconPoint_png" x="19" y="48" anchorOffsetX="8" anchorOffsetY="8"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" x="366" y="225" width="710" height="310" anchorOffsetX="355" anchorOffsetY="155" scale9Grid="15,10,92,65"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" anchorOffsetX="152" anchorOffsetY="29" top="1" horizontalCenter="1"/>
+		<e:Image source="ui_strength_WordsTipStrengthUp_png" anchorOffsetX="57" anchorOffsetY="14.5" top="13" horizontalCenter="1"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" anchorOffsetX="69" anchorOffsetY="14.5" top="30" left="18"/>
+		<e:Image source="ui_strength_BoardFloor_png" y="394" horizontalCenter="0" width="730" scale9Grid="40,3,73,24"/>
+		<e:Label text="每5分钟恢复1点体力，距全部恢复还有" x="187" y="400" anchorOffsetX="0" width="276" size="16" anchorOffsetY="0" height="19" textAlign="center" verticalAlign="middle"/>
+		<e:Label id="labelTime" text="00:00:00" x="464" y="402" size="16" textColor="0xff9200" anchorOffsetX="0" width="212" anchorOffsetY="0" height="18" verticalAlign="middle"/>
+		<e:Group id="groupListTableViewExpPill" width="700" height="300" verticalCenter="10" horizontalCenter="0">
+			<e:Group id="groupBuy" width="170" anchorOffsetX="85" anchorOffsetY="145" left="0" verticalCenter="1" height="290" visible="false">
+				<e:Image source="ui_strength_BoardBuy_png" x="0" y="0" anchorOffsetY="0" visible="false"/>
+				<e:Image source="ui_strength_BoardBuy_png" x="176.65" y="0" anchorOffsetY="0" visible="false"/>
+				<e:Image source="ui_strength_BoardBuy_png" x="353.3" y="0" anchorOffsetY="0" visible="false"/>
+				<e:Image source="ui_strength_BoardBuy_png" x="529.95" y="0" anchorOffsetY="0" visible="false"/>
+				<e:Label id="labelBuyStrengthNum" text="今日剩余次数" textColor="0xfefb00" size="16" width="96" top="9" horizontalCenter="1"/>
+				<e:Button id="btnBuyStrengthNum" label="" x="79" y="248" width="162" height="74" anchorOffsetX="81" anchorOffsetY="37">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_strength_ButtonBuyStrengthNor_png" source.down="ui_strength_ButtonBuyStrengthSel_png" source.disabled="ui_strength_ButtonBuyStrengthDis_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Group id="groupBuyStrengthen" x="23" y="232" touchEnabled="false">
+					<e:Image source="ui_iconresources_zuanshi3_png" x="0" y="0"/>
+					<e:BitmapLabel id="labelBuyNum" width="97.49" height="20" x="48" y="16" font="BattleSkillCDNum_fnt" text="8888" anchorOffsetX="0" scaleX="0.8" scaleY="0.8"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupUse" width="170" height="290" x="85" y="151" anchorOffsetX="85" anchorOffsetY="145" visible="false">
+				<e:Image source="ui_strength_BoardItem_png" x="84" y="144" anchorOffsetX="84.5" anchorOffsetY="143.5" scaleX="1" scaleY="1"/>
+				<e:Button id="btnAdd" label="" x="7" y="237">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_wonderland_ButtonFruitUseNor_png" source.down="ui_wonderland_ButtonFruitUseSel_png" source.disabled="ui_wonderland_ButtonFruitUseDis_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="groupItem" width="170" height="206" x="85" y="110" anchorOffsetX="85" anchorOffsetY="103" visible="false">
+				<e:Image id="imgName" source="ui_strength_BoardITip_png" x="85" y="148" anchorOffsetX="78.5" anchorOffsetY="14"/>
+				<e:Image id="imgExp" source="ui_strength_BoardITip_png" x="85" y="182" anchorOffsetX="78.5" anchorOffsetY="14"/>
+				<e:Label id="labelName" text="一品经验丹" x="44" y="140" size="16" textColor="0xfeffff"/>
+				<e:Label id="labelExp" text="EXP+1000" x="44" y="174" size="16" textColor="0xFEFFFF"/>
+				<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" x="85" y="88" width="94" height="92" anchorOffsetX="47" anchorOffsetY="46"/>
+				<e:Image id="imgIcon" source="hero_icon_head_wj_dongba_png" x="86" y="85" width="71" height="72" anchorOffsetX="35.5" anchorOffsetY="36"/>
+				<e:Image id="imgMask" source="ui_frame_SpriteMake_png" x="86" y="88" anchorOffsetX="47.5" anchorOffsetY="46.5"/>
+				<e:BitmapLabel width="36.8" height="20" x="92" y="98" font="ItemNum_fnt" text="12" anchorOffsetX="0"/>
+			</e:Group>
+			<e:Scroller id="scroller" width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off" x="1" y="0">
+				<e:List id="listStrength" width="422" height="295" x="-1" y="1">
+					<e:layout>
+						<e:TileLayout orientation="rows"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Button id="btnClose" label="" y="13" width="90" height="55" right="-14">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+
+
+	</e:Group>
+</e:Skin>

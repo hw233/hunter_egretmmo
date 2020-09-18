@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_ChangeIconSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="-50" verticalCenter="-22.5">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="700" height="470" scale9Grid="150,30,137,81" horizontalCenter="50" verticalCenter="22.5"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" horizontalCenter="-211" verticalCenter="-213"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="50" verticalCenter="-228.5"/>
+		<e:Image source="ui_common_WordsShape_png" horizontalCenter="50" verticalCenter="-231"/>
+		<e:Button id="btnClose" label="" horizontalCenter="370" verticalCenter="-220">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_common_BoardShape_png" horizontalCenter="-41" verticalCenter="48.5"/>
+		<e:Image source="ui_common_WordsPreview_png" right="35" top="73"/>
+		<e:Button id="btnHead" label="" horizontalCenter="-355" verticalCenter="-127.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_common_ButtonIconCloseNor_png" source.down="ui_common_ButtonIconOpenNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnFrame" label="" horizontalCenter="-355" verticalCenter="-49.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_common_ButtonFrameCloseNor_png" source.down="ui_common_ButtonFrameOpenSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupHead" horizontalCenter="48.5" verticalCenter="23" visible="false">
+			<e:Button id="btnHeadOK" label="" horizontalCenter="249.5" verticalCenter="180">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_common_ButtonShapeChangeNor_png" source.down="ui_common_ButtonShapeChangeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image source="ui_union_WordsImageChangeNew_png" horizontalCenter="-263.5" verticalCenter="-192"/>
+			<e:Label id="lbTipUser" text="此处选择的头像会改变您在贪婪之岛的形象" size="16" textColor="0x411a03" fontFamily="Helvetica" horizontalCenter="8.5" verticalCenter="-189.5"/>
+			<e:Image source="ui_common_BoardIconPreview_png" horizontalCenter="252.5" verticalCenter="-20.5"/>
+			<e:Group id="groupAni" width="0" height="0" horizontalCenter="252.5" verticalCenter="72.5"/>
+		</e:Group>
+		<e:Group id="groupFrame" horizontalCenter="51" verticalCenter="29.5">
+			<e:Image source="ui_common_WordsNewFrame_png" verticalCenter="-196" horizontalCenter="-269"/>
+			<e:Image source="ui_common_BoardFramePreview_png" horizontalCenter="251" verticalCenter="53"/>
+			<e:Label id="lbWordsFrameMessage" text="此处选择的头像会改变您在贪婪之岛的形象" size="16" textColor="0x411A03" fontFamily="Helvetica" anchorOffsetY="0" height="100" anchorOffsetX="0" width="150" lineSpacing="5" verticalAlign="top" textAlign="left" horizontalCenter="251" verticalCenter="47"/>
+			<e:Label id="lbWordsFrameTime" text="剩余时间：永久" size="16" textColor="0x411A03" fontFamily="Helvetica" anchorOffsetY="0" height="18" anchorOffsetX="0" width="150" lineSpacing="5" verticalAlign="middle" textAlign="center" horizontalCenter="251" verticalCenter="120"/>
+			<e:Label id="lbWordsFrameTitle" text="圣诞边框" size="20" textColor="0x000000" fontFamily="Helvetica" horizontalCenter="252" verticalCenter="-42"/>
+			<e:Group horizontalCenter="254" verticalCenter="-113">
+			<e:Image id="imgPlayerIcon" source="hero_icon_head_wj_miji_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgFrame" source="ui_frame_FrameImage_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Button id="btnFrameOK" label="" horizontalCenter="246" verticalCenter="177.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_common_ButtonShapeChangeNor_png" source.down="ui_common_ButtonShapeChangeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnGet" label="" horizontalCenter="248.5" verticalCenter="179">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonObtainBigNor_png" source.down="ui_hunter_ButtonObtainBigSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Scroller id="scrollerInfo" width="500" height="390" horizontalCenter="-41" scrollPolicyH="off" scrollPolicyV="on" y="111">
+			<e:List id="lstTableViewItem"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

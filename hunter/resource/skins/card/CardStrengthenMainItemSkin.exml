@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardStrengthenMainItemSkin" width="220" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="btnGetAward" width="220" height="50" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_card_enchant_BoardInfoFloor_png" horizontalCenter="15" verticalCenter="0"/>
+		<e:Image source="ui_instance_BoardBigon_png" verticalCenter="0" left="0"/>
+		<e:Image id="imgBigonName" source="ui_instance_IconBigon_png" left="0" verticalCenter="0"/>
+		<e:Label id="labelName" text="一阶技能不翻译一阶技能不翻译" x="34" y="3" anchorOffsetX="0" width="181.34" anchorOffsetY="0" height="42.67" textColor="0x000000" size="14" lineSpacing="4" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

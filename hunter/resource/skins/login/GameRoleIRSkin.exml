@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameRoleIRSkin" width="308" height="86" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="btnSelect" label="" horizontalCenter="0" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_login_ButtonQuInfoNor_png" source.down="ui_login_ButtonQuInfoSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="lbRoleName" text="佳妮特听南" x="99" size="18" fontFamily="Arial" anchorOffsetX="0" width="197.5" textAlign="right" verticalAlign="middle" touchEnabled="false" y="17"/>
+	<e:Label id="lbGroupName" text="100区 蜗趣之家" x="99" size="18" fontFamily="Arial" anchorOffsetX="0" width="197.5" textAlign="right" verticalAlign="middle" touchEnabled="false" y="51" textColor="0xeeeed2"/>
+	<e:Image source="ui_frame_FrameImageB_png" x="12.5" scaleX="0.8" scaleY="0.8" verticalCenter="-0.5"/>
+	<e:Image id="imgHeader" source="hero_icon_wj_kulapika_png" scaleX="0.8" scaleY="0.8" x="7" y="6"/>
+	<e:Image id="imgFrame" source="ui_frame_FrameImage_png" x="0.5" scaleX="0.8" scaleY="0.8" verticalCenter="0"/>
+	<e:Image id="imgVIP" source="ui_common_WordsVip4_png" x="91.5" y="7"/>
+	<e:BitmapLabel id="lbLevel" font="ItemNum_fnt" text="9" right="238" bottom="10" anchorOffsetX="0"/>
+</e:Skin>

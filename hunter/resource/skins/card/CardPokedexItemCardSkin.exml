@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardPokedexItemCardSkin" height="135" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="124">
+	<e:Group id="groupPokedexCard" height="100%" horizontalCenter="0" verticalCenter="0" width="100%" >
+		<e:Image id="imageCardBoard" source="ui_frame_framehalfcard1_png" height="135" y="0" width="124" x="0"/>
+		<e:Label id="labelNum" text="1036" size="12" textColor="0x000000" scaleX="1" scaleY="1" textAlign="center" width="30" x="8" y="8"/>
+		<e:Label id="labelName" text="神眼啊啊啊啊" size="12" textColor="0x000000" scaleX="1" scaleY="1" textAlign="center" width="75" x="41" y="8"/>
+		<e:Image id="imageCardPic" source="card_1036shenyan_png" anchorOffsetX="0" width="103" anchorOffsetY="0" height="62" scaleX="1" scaleY="1" x="11" y="27"/>
+		<e:Group id="groupLock" width="100%" height="100%" scaleX="1" scaleY="1" x="0" y="-1">
+			<e:Image id="imageShadow" source="ui_instance_BoardBossSkill_png" anchorOffsetX="0" anchorOffsetY="0" right="0" bottom="0" height="135" width="124"/>
+			<e:Image id="imageLock" source="ui_currencyicon_IconLock_png" x="47" y="50"/>
+		</e:Group>
+		<e:Group id="groupStar" width="100" height="21" scaleX="1" scaleY="1" left="7" bottom="10">
+		</e:Group>
+	</e:Group>
+</e:Skin>

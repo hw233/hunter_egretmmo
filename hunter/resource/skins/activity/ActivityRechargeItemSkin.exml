@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityRechargeItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" source="ui_acitivity_special_list_png"/>
+		<e:Image left="0" top="0" source="ui_acitivity_recharge_biaoqian_png"/>
+		<e:Group id="labelLevel" x="10" y="3">
+		<e:Label text="累计充值第" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" size="22" textColor="0x0A110E" x="0" y="2" bold="true"/>
+		<e:Label text="天" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" size="22" textColor="0x0A110E" x="166" y="2" bold="true"/>
+		<e:BitmapLabel id="lbPlayerday" width="60" x="113" y="0" anchorOffsetX="0" anchorOffsetY="0" text="40" textAlign="center" verticalAlign="middle" font="acitivity_typeface_fnt"/>
+		</e:Group>
+	</e:Group>
+	<e:Scroller height="70" anchorOffsetX="0" scrollPolicyV="off" scrollPolicyH="on" left="4" top="39" width="267">
+		<e:List id="lstAward" anchorOffsetX="0" width="169">
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnMonthCard" label="领取" width="130" right="20" verticalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_acitivity_special_btn2-2_png" source.down="ui_acitivity_special_btn2-1_png" source.disabled="ui_acitivity_special_btn2-3_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000" size="24"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="imgMask" source="ui_acitivity_MaskSignAward_png" scale9Grid="8,12,55,75" touchEnabled="false" width="100%" height="100%" anchorOffsetX="0" verticalCenter="0" horizontalCenter="0" visible="false"/>
+	<e:Image id="imgGet" source="ui_acitivity_WordsTipDayCharge_png" touchEnabled="false" verticalCenter="0" right="30"/>
+</e:Skin>

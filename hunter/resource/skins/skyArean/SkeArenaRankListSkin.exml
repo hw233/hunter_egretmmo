@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkeArenaRankListSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="451" height="70">
+	<e:Image source="ui_skyarean_list1_png" x="0" y="0"/>
+	<e:Image id="imgRank" source="ui_skyarean_1st_png" x="37" y="3"/>
+	<e:BitmapLabel id="labelTier" width="110" x="327" anchorOffsetX="0" anchorOffsetY="0" text="第300层" verticalCenter="0" textAlign="center" font="shuzi1_fnt"/>
+	<e:BitmapLabel id="labelRank" width="95" height="35" x="26" y="18" anchorOffsetX="0" anchorOffsetY="0" font="shuzi2_fnt" text="3456" textAlign="center"/>
+
+	<e:Group x="127" y="7">
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon" source="hero_icon_wj_paike_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="PlayerName" text="玩家" verticalAlign="middle" left="190" verticalCenter="0" size="24"/>
+
+</e:Skin>

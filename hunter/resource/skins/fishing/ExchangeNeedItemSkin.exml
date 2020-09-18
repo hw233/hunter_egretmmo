@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangeNeedItemSkin" width="175" height="115" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0">
+		<e:Image source="ui_exchange_BoardFruitName_png" x="0" y="79.7"/>
+		<e:Group x="5" y="82.7" anchorOffsetX="0" width="166" anchorOffsetY="0" height="24">
+			<e:Label id="labemName" text="1好果实" y="-2" anchorOffsetX="0" anchorOffsetY="0" height="25" size="16" textAlign="center" verticalAlign="middle" horizontalCenter="0" width="173"/>
+			<e:Label id="LabelPotatoNum" text="(3/3)" y="3" size="16" anchorOffsetX="0" anchorOffsetY="0" height="24" verticalAlign="middle" textAlign="center" horizontalCenter="27.5" visible="false"/>
+		</e:Group>
+		<e:Group id="groupMain" horizontalCenter="0.5" top="0">
+			<e:Image id="imageFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.9" scaleY="0.9" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageIcon" source="hero_icon_head_wj_libeiduo_png" scaleX="0.9" scaleY="0.9" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelNum" text="3" x="13.25" y="21.7" anchorOffsetX="0" width="25" anchorOffsetY="0" height="22" size="18" textColor="0x000000" verticalAlign="middle" textAlign="center"/>
+			<e:Image id="imageCD" source="ui_exchange_WordsExchangeCD_png" horizontalCenter="1" verticalCenter="3.5"/>
+			<e:Image id="imageBigon" source="ui_acitivity_IconSignGetAward_png" horizontalCenter="1" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

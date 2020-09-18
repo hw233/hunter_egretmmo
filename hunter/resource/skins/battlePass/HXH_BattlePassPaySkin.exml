@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_BattlePassPaySkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_battlePass_BoardMain_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="ui_hunter_OrnTop_png" horizontalCenter="0" top="0" width="100%"/>
+	<e:Image source="ui_battlePass_SpriteBattlePassTitle_png" left="106" top="-6"/>
+	<e:Image source="ui_battlePass_LvUp_BoardTop_png" horizontalCenter="0" verticalCenter="-96" x="212" y="96"/>
+	<e:Image source="ui_battlePass_LvUp_BoardBottom_png" scale9Grid="61,6,228,39" horizontalCenter="0" verticalCenter="125.5" x="305" y="420"/>
+	<e:Image source="ui_battlePass_IconHighPass_png" horizontalCenter="0" verticalCenter="-57" x="320" y="105"/>
+	<e:Group id="groupAni" horizontalCenter="0" verticalCenter="-61" x="480" y="259"/>
+	<e:Group id="groupRight" horizontalCenter="326" verticalCenter="-48">
+		<e:Image source="ui_battlePass_LvUp_BoardHigh_png" x="0" y="0"/>
+		<e:Image source="ui_battlePass_LvUp_SpriteHighPB_png" x="69" y="77"/>
+		<e:Image source="ui_battlePass_LvUp_SpriteHighPB_png" x="59" y="136.35" visible="false"/>
+		<e:Image source="ui_battlePass_LvUp_SpriteHighPB_png" x="52.28" y="191.91"/>
+		<e:Image source="ui_battlePass_LvUp_IconMsg_png" x="29" y="361"/>
+		<e:Label text="获得价值98元的10000点通行证经验" size="18" textColor="0xF4FDD5" fontFamily="Helvetica" anchorOffsetY="0" height="47" anchorOffsetX="0" width="167" lineSpacing="4" x="96" y="77"/>
+		<e:Label id="labelAward" text="通行证等级立即提升10级" size="18" textColor="0xF4FDD5" fontFamily="Helvetica" anchorOffsetY="0" anchorOffsetX="0" width="157.91" lineSpacing="4" y="119.68" x="96.61" height="53.64"/>
+		<e:Label text="专属头像框" size="18" textColor="0xF4FDD5" fontFamily="Helvetica" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="4" width="173" height="18" x="81.28" y="192.91"/>
+		<e:Label text="购买经验礼包获得" textColor="0xF4FDD5" size="18" width="150" x="59" y="362"/>
+		<e:Image id="imgFrame" x="87.04" y="221.66" width="110" height="110" source="ui_frame_FrameImagePass_png"/>
+	</e:Group>
+	<e:Group id="groupLeft" horizontalCenter="-326" verticalCenter="-48">
+		<e:Image source="ui_battlePass_LvUp_BoardLow_png" x="0" y="0"/>
+		<e:Image source="ui_battlePass_LvUp_SpriteLowPB_png" x="41" y="77"/>
+		<e:Image source="ui_battlePass_LvUp_SpriteLowPB_png" x="51" y="143"/>
+		<e:Image source="ui_battlePass_LvUp_IconMsg_png" x="84" y="361"/>
+		<e:Label text="激活高级通行证权限，领取高阶奖励" size="18" textColor="0xF4FDD5" fontFamily="Helvetica" width="156.33" height="57.4" x="68" y="77" anchorOffsetY="0" lineSpacing="2" anchorOffsetX="0"/>
+		<e:Label text="激活高级通行证经验任务" size="18" fontFamily="Helvetica" width="173" height="41" textColor="0xf4fdd5" x="78" y="144" lineSpacing="4"/>
+		<e:Label text="购买初级月卡" size="18" fontFamily="Helvetica" width="141" height="22" textColor="0xF4FDD5" x="95" y="287"/>
+		<e:Label text="购买高级月卡" size="18" fontFamily="Helvetica" width="141" height="22" textColor="0xF4FDD5" x="104" y="323"/>
+		<e:Label text="购买双月卡激活" textColor="0xf4fdd5" size="18" width="150" x="114" y="362"/>
+		<e:Image source="ui_instance_BoardBigon_png" x="66" y="284" scaleX="0.8" scaleY="0.8"/>
+		<e:Image id="imgMonthCardLow" source="ui_instance_IconBigon_png" x="66" y="284" scaleX="0.8" scaleY="0.8"/>
+		<e:Image source="ui_instance_BoardBigon_png" x="72" y="321" scaleX="0.8" scaleY="0.8"/>
+		<e:Image id="imgMonthCardHigh" source="ui_instance_IconBigon_png" x="72" y="321" scaleX="0.8" scaleY="0.8"/>
+	</e:Group>
+	<e:Button id="btnClose" label="" left="-24" top="-8">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:zj="zj.*">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnDetails" label="" left="247" top="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:zj="zj.*">
+			<e:Image width="100%" height="100%" source="ui_help_ButtonHelpNor_png" source.down="ui_help_ButtonHelpSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnUpLow" label="" horizontalCenter="-136" verticalCenter="240">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_battlePass_LvUp_ButtonUpLowNor_png" source.down="ui_battlePass_LvUp_ButtonUpLowSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnUpHigh" label="" horizontalCenter="136" verticalCenter="240">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_battlePass_LvUp_ButtonUpHighNor_png" source.down="ui_battlePass_LvUp_ButtonUpHighSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

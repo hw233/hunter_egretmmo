@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Daily_TaskItemSkin" width="750" height="124" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="750" height="124" x="0" y="0">
+		<e:Image source="ui_daily_BoardInfo_png" x="0" y="0" width="750" height="124" scale9Grid="11,13,68,79"/>
+		<e:Image source="ui_daily_OrnInfo_png" right="1" bottom="2"/>
+		<e:Label id="labelName" text="通关啦啦啦副本100次（20/100）" textColor="0x000000" size="18" left="16" top="10"/>
+		<e:Label id="labelInfo" text="不翻译不翻译不翻译不翻译不翻译不翻译不翻译" textColor="0x000000" size="18" left="16" top="38"/>
+		<e:Image source="ui_daily_BoardAward_png" width="740" scale9Grid="11,6,73,42" bottom="1" horizontalCenter="0"/>
+		<e:Image source="ui_daily_WordsAward_png" left="16" bottom="18"/>
+		<e:Scroller id="scrollerViewAward" width="330" height="60" left="73" bottom="2">
+			<e:List id="listViewAward"/>
+		</e:Scroller>
+		<e:Button id="btnGo" label="" right="28" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_daily_ButtonGoNor_png" source.down="ui_daily_ButtonGoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnGet" label="" right="28" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_daily_ButtonGetAwardNor_png" source.down="ui_daily_ButtonGetAwardSel_png" source.disabled="ui_daily_ButtonGetAwardDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Image id="imgDone" source="ui_daily_WordsLingquEnd_png" right="49" verticalCenter="0" visible="false"/>
+</e:Skin>

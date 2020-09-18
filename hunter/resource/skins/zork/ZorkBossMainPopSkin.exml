@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZorkBossMainPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" horizontalCenter="0" height="100%" verticalCenter="0">
+		<e:Image source="ui_wonderland_boss_LayerBgFirst_png" horizontalCenter="0" verticalCenter="-1" width="100%" height="100%"/>
+		<e:Image source="ui_hunter_OrnTop_png" y="0" horizontalCenter="0" width="100%" height="40"/>
+
+		<e:Group horizontalCenter="0" verticalCenter="24">
+			<e:Image id="imgBGSmall" source="ui_wonderland_boss_LayerBgSeconde_png" x="0" y="18"/>
+			<e:Image source="ui_instance_BoardButtonShadow_png" right="52" top="16" x="712" y="17" scaleX="1" scaleY="1"/>
+			<e:Button id="btnRule" label="" x="729" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_boss_ButtonBossInfoNor_png" source.down="ui_wonderland_boss_ButtonBossInfoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group id="groupAward" x="427" y="53">
+			<e:Image source="ui_wonderland_boss_WordsHitRankAward_png" horizontalCenter="0" verticalCenter="-79.5"/>
+			<e:Scroller width="440" height="285" horizontalCenter="0" verticalCenter="77.5">
+				<e:List id="lstAward" y="-1.33"/>
+			</e:Scroller>
+			<e:Image source="ui_wonderland_boss_WordsKillAward_png" horizontalCenter="0" top="0"/>
+			<e:Scroller width="440" height="100" horizontalCenter="0" top="26">
+				<e:List id="lstViewKillReward"/>
+			</e:Scroller>
+			</e:Group>
+			<e:Group id="groupRank" x="428" y="65">
+			<e:Image source="ui_wonderland_boss_BoardHitRank_png" width="442" height="486" scale9Grid="87,42,16,95" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgHitRank" source="ui_wonderland_boss_WordsHitRank_png" horizontalCenter="-2.5" top="0"/>
+			<e:Group horizontalCenter="-2.5" verticalCenter="-187">
+				<e:Image source="ui_wonderland_boss_BoardHitRankPlayer_png" x="0" verticalCenter="0"/>
+				<e:Label text="排名" x="16.350000000000023" size="18" fontFamily="Helvetica" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Label text="玩家名称" size="18" fontFamily="Helvetica" horizontalCenter="-43.5" verticalCenter="0"/>
+				<e:Label text="玩家伤害" y="18.32" size="18" right="62"/>
+			</e:Group>
+			<e:Scroller width="440" height="320" horizontalCenter="-1" bottom="57">
+				<e:List id="lstHit" width="440" height="320"/>
+			</e:Scroller>
+
+			</e:Group>
+			<e:Button id="btnEnter" label="" x="588" y="490">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_wonderland_boss_ButtonEnterBossNor_png" source.down="ui_wonderland_boss_ButtonEnterBossSel_png" source.disabled="ui_wonderland_boss_ButtonEnterBossDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+		</e:Group>
+
+
+		<e:Group right="0" top="2">
+			<e:Image source="ui_wonderland_boss_BoardBossTime_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="lbStarTime" text="活动将在22:22:22后开启" size="22" fontFamily="Helvetica" verticalCenter="0" horizontalCenter="0"/>
+		</e:Group>
+
+
+
+
+
+		<e:Group horizontalCenter="-221" verticalCenter="-17.5">
+			<e:Image source="ui_wonderland_boss_WordsBossTip_png" x="65" y="0"/>
+			<e:Image source="ui_wonderland_boss_OrnBoss1_png" x="0" y="93"/>
+			<e:Image source="ui_wonderland_boss_OrnBoss2_png" x="290" y="173"/>
+			<e:Image source="ui_wonderland_boss_BoardBossInfo_png" x="31" y="521"/>
+			<e:Image source="ui_wonderland_boss_WordsBossName1_png" x="79" y="545"/>
+			<e:Label id="lbLevel" text="LV45" size="18" textColor="0xfefb32" x="245" y="551"/>
+			<e:Group x="64" y="577">
+				<e:Image source="ui_wonderland_boss_BoardBurBossBlood_png" verticalCenter="0" horizontalCenter="-2"/>
+				<e:Image id="imgBlood" source="ui_wonderland_boss_BurBossBlood_png" verticalCenter="0" horizontalCenter="-2" width="276"/>
+				<e:Image id="imgExpBoart" source="ui_hunter_collection_board1_png" width="280" height="20" scale9Grid="8,5,54,37" verticalCenter="0" x="0"/>
+				<e:Label id="lbBloodPer" text="100%" size="15" fontFamily="Helvetica" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgKill" source="ui_wonderland_boss_WordsBossSkilling_png" x="65.65000000000003" y="-214.97" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="btnClose" label="" left="-22" top="-8">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+
+
+
+	</e:Group>
+</e:Skin>

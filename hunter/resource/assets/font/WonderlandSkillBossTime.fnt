@@ -1,0 +1,17 @@
+{"file":"WonderlandSkillBossTime.png","frames":{
+"0":{"x":249,"y":0,"w":25,"h":31,"offX":-4,"offY":1,"sourceW":25,"sourceH":31},
+"1":{"x":131,"y":38,"w":20,"h":30,"offX":-2,"offY":2,"sourceW":20,"sourceH":30},
+"2":{"x":0,"y":38,"w":25,"h":31,"offX":-4,"offY":1,"sourceW":25,"sourceH":31},
+"3":{"x":26,"y":38,"w":25,"h":31,"offX":-4,"offY":1,"sourceW":25,"sourceH":31},
+"4":{"x":78,"y":38,"w":26,"h":30,"offX":-4,"offY":2,"sourceW":26,"sourceH":30},
+"5":{"x":105,"y":38,"w":25,"h":30,"offX":-4,"offY":2,"sourceW":25,"sourceH":30},
+"6":{"x":195,"y":0,"w":26,"h":31,"offX":-4,"offY":1,"sourceW":26,"sourceH":31},
+"7":{"x":275,"y":0,"w":24,"h":30,"offX":-4,"offY":2,"sourceW":24,"sourceH":30},
+"8":{"x":222,"y":0,"w":26,"h":31,"offX":-4,"offY":1,"sourceW":26,"sourceH":31},
+"9":{"x":52,"y":38,"w":25,"h":31,"offX":-4,"offY":1,"sourceW":25,"sourceH":31},
+":":{"x":152,"y":38,"w":13,"h":24,"offX":-2,"offY":8,"sourceW":13,"sourceH":24},
+"倒":{"x":40,"y":0,"w":38,"h":37,"offX":-2,"offY":-2,"sourceW":38,"sourceH":37},
+"始":{"x":79,"y":0,"w":38,"h":37,"offX":-3,"offY":-2,"sourceW":38,"sourceH":37},
+"开":{"x":156,"y":0,"w":38,"h":36,"offX":-3,"offY":-1,"sourceW":38,"sourceH":36},
+"时":{"x":118,"y":0,"w":37,"h":37,"offX":-2,"offY":-2,"sourceW":37,"sourceH":37},
+"计":{"x":0,"y":0,"w":39,"h":37,"offX":-3,"offY":-2,"sourceW":39,"sourceH":37}}}

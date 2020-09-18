@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityXuyuanPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group39_40_41" width="0" height="0" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="groupMain" width="200" height="200" horizontalCenter="0" verticalCenter="-170"/>
+	<e:Scroller id="scrollerAni" width="960" horizontalCenter="0" scrollPolicyH="off" scrollPolicyV="off" anchorOffsetY="0" height="87.5%" verticalCenter="40">
+		<e:List id="lstItem">
+			<e:layout>
+				<e:TileLayout requestedRowCount="2" requestedColumnCount="5" columnWidth="192" rowHeight="200"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller id="scrollerAni0" width="960" horizontalCenter="0" scrollPolicyH="off" scrollPolicyV="off" anchorOffsetY="0" height="87.5%" verticalCenter="40">
+		<e:List id="lstItem0">
+		<e:layout>
+			<e:TileLayout requestedRowCount="2" requestedColumnCount="5" horizontalGap="6" columnWidth="192" rowHeight="200"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbCloseTip" text="点击任意区域跳过动画" y="578.97" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" horizontalCenter="0"/>
+	<e:Group id="groupButton" horizontalCenter="0.5" verticalCenter="262.5">
+		<e:Button id="btnReturn" label="" x="0" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_wish_ButtonReturnNor_png" source.down="ui_acitivity_wish_ButtonReturnSel_png" source.disabled="ui_acitivity_wish_ButtonReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupOther" x="184.33" y="0">
+			<e:Button id="btnMore" label="" x="33" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_wish_ButtonWish10sNor_png" source.down="ui_acitivity_wish_ButtonWish10sSel_png" source.disabled="ui_acitivity_wish_ButtonWish10sSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnOne" label="" x="33" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_wish_ButtonWish1sNor_png" source.down="ui_acitivity_wish_ButtonWish1sSel_png" source.disabled="ui_acitivity_wish_ButtonWish1sSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="imgFloor" source="ui_acitivity_wish_BoardCostFloor_png" x="0" y="64"/>
+			<e:Image id="imgCost" source="ui_iconresources_xuyuanpai3_png" x="45" y="55.69"/>
+			<e:BitmapLabel id="lbMore" width="27" height="23" x="104" y="73" font="ItemNumWords_fnt" text="10"/>
+			<e:Label id="lbFreeTime" text="本次免费" x="61" y="73.31" size="18" fontFamily="Helvetica"/>
+			<e:Image id="imgSale" source="ui_acitivity_wish_WordsSale9s_png" x="45.69" y="1.67"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupStar" horizontalCenter="-1" verticalCenter="165">
+		<e:Image source="ui_acitivity_random_BoardPopCore_png" y="0" horizontalCenter="0"/>
+		<e:BitmapLabel id="lbCore" width="60" height="34" font="WordsGiftRmbGes_fnt" text="123" verticalCenter="7" x="277"/>
+		<e:Image source="ui_acitivity_wish_IconStar_png" horizontalCenter="-33" verticalCenter="0"/>
+		<e:Label text="+" textColor="0xfefb00" size="24" fontFamily="Helvetica" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Button id="btnDown" label="" alpha="0" width="100%" height="100%" horizontalCenter="0" verticalCenter="0" touchEnabled="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_acitivity_random_BoardPopCore_png" source.down="ui_acitivity_random_BoardPopCore_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+
+</e:Skin>

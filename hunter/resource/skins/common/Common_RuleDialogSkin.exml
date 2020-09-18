@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonRuleSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="745" height="470" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="745" height="470" source="ui_instance_LayerInstance_png" horizontalCenter="0" verticalCenter="0" scale9Grid="11,11,73,73"/>
+		<e:Image width="720" height="425" source="ui_hunter_LayerSeconde_png" horizontalCenter="0" scale9Grid="15,10,92,65" y="36"/>
+		<e:Image width="327" height="28" source="ui_instance_BoardTopTip_png" scaleX="2.3" horizontalCenter="0" top="0" scale9Grid="202,3,64,22"/>
+		<e:Image width="138" height="29" source="ui_hunter_OrnDontGetHunterTop_png" left="27" top="-4" scale9Grid="17,3,104,23"/>
+		<e:Button id="btnClose" label="" right="-16" y="-20">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group y="43" horizontalCenter="0">
+			<e:Image width="720" height="38" source="ui_union_boss_BoartdTip_png" scale9Grid="7,4,44,30" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="100" height="27" source="ui_common_WordsRuleCommonTip_png" verticalCenter="0" horizontalCenter="0"/>
+		</e:Group>
+		<e:Scroller width="700" height="370" y="83" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" scrollPolicyH="off" bounces="false">
+			<e:Group id="groupView" width="100%" height="100%">
+				<e:Label id="lbRule" text="" textColor="0x411a03" size="18" lineSpacing="6" verticalAlign="top" textAlign="left" width="100%" y="0" x="0" fontFamily="Helvetica"/>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

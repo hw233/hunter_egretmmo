@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_TransSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="Common_Trans" width="100%" height="100%" x="0" y="0">
+		<e:Image id="SpriteBG" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:Group id="LayerBar" width="100%" height="15.6%" horizontalCenter="0" bottom="0">
+			<e:Image source="ui_login_BoardBurBg_png" width="100%" horizontalCenter="0" height="49" bottom="0"/>
+
+			<e:Image id="SpriteBar" source="ui_login_BurLoading_png" width="100%" scale9Grid="5,8,7,5" bottom="0" x="0"/>
+			<e:Group id="NodeBur" width="100%" height="22" horizontalCenter="0" bottom="0"/>
+			<e:Label id="LabelLoadingNum" text="正在加载..." fontFamily="Helvetica" size="18" bottom="22" horizontalCenter="0" textAlign="center" verticalAlign="middle"/>
+			<e:Image source="ui_other_BoardTextJ_png" y="1.33" horizontalCenter="0" width="900" scale9Grid="152,5,212,31"/>
+			<e:Label id="TextTip" text="这下敏酱满意了吧！这下敏酱满意了吧！这下敏酱满意了吧！这下敏酱满意了吧！" y="10.99" horizontalCenter="0" size="22" fontFamily="Helvetica" textAlign="center" verticalAlign="middle"/>
+		</e:Group>
+
+		<e:Image id="imgName" left="77" top="85"/>
+		<e:Group id="LoadingAniNode" width="960" height="640" x="0" y="0"/>
+	</e:Group>
+</e:Skin>

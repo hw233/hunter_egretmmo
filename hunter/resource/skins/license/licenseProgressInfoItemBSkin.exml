@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="licenseProgressInfoItemBSkin" height="24" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_license_IconPrerogativeInfo_png" left="0" verticalCenter="3"/>
+	<e:Label id="labelInfo" text="Label" size="14" width="250" left="30" verticalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WantedSecondMeteorlnstanceItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0">
+		<e:Group id="groupFloorA" x="0" y="0">
+			<e:Button id="btnInstance2" label="" x="0" y="0" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_meteor_new_list1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="btnInstance1" label="" x="0" y="0" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_meteor_new_listxuanzhong_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="btnInstance" label="" x="0" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_meteor_ButtonInstanceNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="groupFloorB">
+			<e:Button id="btnInstanceB2" label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_meteor_new_list1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="btnInstanceB1" label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_meteor_new_listxuanzhong_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="btnInstanceB" label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_meteor_ButtonInstanceNor2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Image id="imgLayerBoard" source="ui_meteor_new_level1_png" left="0" verticalCenter="0"/>
+		<e:BitmapLabel id="labelLayerBoard" x="9" y="26" anchorOffsetX="0" anchorOffsetY="0" font="Meteorstance_fnt" text="1" textAlign="center" width="78"/>
+
+		<e:Label id="labelName" text="名字不翻译内容" size="22" textColor="0xffff00" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgType" source="zhuangtai1_png" x="311" y="-4"/>
+		<e:Image id="imgBossIcon" source="ui_common_WordsTipBoss_png" x="8" y="-4" visible="false"/>
+	</e:Group>
+</e:Skin>

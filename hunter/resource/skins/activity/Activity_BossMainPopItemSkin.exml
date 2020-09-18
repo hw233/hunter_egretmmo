@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_BossMainPopItemSkin" width="435" height="92" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="435">
+		<e:Image source="ui_wonderland_boss_BoardHitAward_png" horizontalCenter="0" verticalCenter="0" scaleX="-1"/>
+		<e:Label id="lbRank" text="第2001名至10000名" size="18" fontFamily="Helvetica" width="96" height="46" lineSpacing="5" verticalAlign="middle" textAlign="center" left="16" verticalCenter="-2.5"/>
+		<e:Scroller id="scrollerReward" width="260" height="75" horizontalCenter="40.5" verticalCenter="0" scrollPolicyV="off">
+			<e:List id="lstViewReward">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" horizontalAlign="left"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image source="ui_wonderland_boss_IconArrow_png" right="13" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

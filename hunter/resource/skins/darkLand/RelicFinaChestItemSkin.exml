@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RelicFinaChestItemSkin" width="132" height="182" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="132" height="182" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgBg" source="ui_darkland_relic_BoardBoxAwardFloor_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Button id="buttonOpen" label="" horizontalCenter="0" bottom="13">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_darkland_relic_ButtonOpenNor_png" source.down="ui_darkland_relic_ButtonOpenSel_png" source.disabled="ui_darkland_relic_ButtonOpenDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonNotGet" label="" horizontalCenter="0" bottom="13">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_darkland_relic_ButtonDontGetNor_png" source.down="ui_darkland_relic_ButtonDontGetNor_png" source.disabled="ui_darkland_relic_ButtonDontGetNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupTreasure" width="117" anchorOffsetY="0" anchorOffsetX="0" top="8" horizontalCenter="0" height="118">
+		</e:Group>
+		<e:Image id="imageChestBox" source="ui_darkland_relic_IconBox1Nor_png" scaleX="1" scaleY="1" horizontalCenter="0" bottom="56" width="138" height="123"/>
+	</e:Group>
+</e:Skin>

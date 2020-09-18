@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DoubleColorPopItemTopSkin" width="95" height="93" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" width="95" height="93" horizontalCenter="-5" verticalCenter="0">
+		<e:Image id="imgBoard" source="ui_frame_FrameHunterAsh_png" horizontalCenter="5" verticalCenter="5"/>
+		<e:Group id="groupIcon" horizontalCenter="5" verticalCenter="5.5">
+			<e:Image id="imgIcon" source="ui_exchange_IconFuritType1_png" scaleX="1.1" scaleY="1.1" horizontalCenter="0" verticalCenter="-0.5"/>
+			<e:BitmapLabel id="lbNunID" width="40" height="34" font="BattleSkillCDNum_fnt" text="12" scaleX="0.8" scaleY="0.8" textAlign="center" verticalAlign="center" horizontalCenter="1.5" verticalCenter="0.5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

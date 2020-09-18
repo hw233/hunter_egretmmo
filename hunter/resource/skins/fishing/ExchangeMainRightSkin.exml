@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangeMainRightSkin" width="500" height="525" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group verticalCenter="0" horizontalCenter="0" height="525" width="500">
+		<e:Image source="ui_exchange_BoardExchange_png" x="0" y="14" scaleX="0.95" scaleY="0.95"/>
+		<e:Image id="imageBoard" source="ui_exchange_BoardNeedProp3_png" x="41.87" y="0"/>
+		<e:Group id="groupMidB" width="75" height="75" x="213.36" y="197" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label id="labelExchangeTime" text="20.20.20后再次兑换" y="494.6" anchorOffsetX="0" width="299" anchorOffsetY="0" height="22" size="16" textAlign="center" horizontalCenter="5.5"/>
+		<e:Button id="buttonExchange" label="" horizontalCenter="0.5" bottom="35" width="148" height="49">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_exchange_ButtonExchangePropNor_png" source.down="ui_exchange_ButtonExchangePropSel_png" source.disabled="ui_exchange_ButtonExchangePropDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="group2" width="70" height="70" x="217" y="25.49"/>
+		<e:Group id="group3" width="70" height="70" x="369.56" y="303.1"/>
+		<e:Group id="group1" width="70" height="70" x="61.44" y="298.54"/>
+	</e:Group>
+</e:Skin>

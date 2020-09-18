@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlotSkin1_3" width="700" height="375" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupBG" width="700" height="375" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="img_back_0" y="0" source="plot_1_3_0_png" x="0"/>
+		<e:Image id="img_back_1" source="plot_1_3_1_png" x="168"/>
+		<e:Image id="img_back_2" y="0" source="plot_1_3_2_png" x="369"/>
+		<e:Image id="img_back_3" source="plot_1_3_3_png" x="346" y="192"/>
+		<e:Image id="img_talk_0" y="217" x="-42" source="plot_chat_1_3_1_png"/>
+		<e:Image id="img_talk_1" y="240" x="187" source="plot_chat_1_3_2_png"/>
+		<e:Image id="img_talk_2" y="24" x="550" source="plot_chat_1_3_3_png"/>
+		<e:Image id="img_talk_3" y="208" x="383" source="plot_chat_1_3_4_png"/>
+	</e:Group>
+</e:Skin>

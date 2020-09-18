@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkyAreanMainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgBackBoard2" horizontalCenter="0" verticalCenter="0" height="100%" width="100%" source="ui_skyarean_bg_png"/>
+
+		<e:Group width="960" height="600" horizontalCenter="0" verticalCenter="20">
+			<e:Image source="ui_skyarean_paihangbang_png" verticalCenter="0" right="4"/>
+			<e:Scroller id="scrollerInfo" width="462" height="450" x="0" y="-39" scrollPolicyH="off" anchorOffsetX="0" anchorOffsetY="0">
+				<e:List id="liatLayer" width="420" height="380" y="-11" x="10">
+					<e:layout>
+						<e:VerticalLayout gap="0"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+
+			<e:Image source="ui_skyarean_list2_png" x="448" y="449"/>
+			<e:Button id="buttonChange" label="" x="98" y="532" width="184" height="56">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_skyarean_zhandou_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="ui_skyarean_jianglidi_png" x="12" y="419"/>
+			<e:Label text="排行" x="523" y="93" size="22" bold="true"/>
+			<e:Label text="角色名" x="671.5" y="93" size="22" bold="true"/>
+			<e:Label text="层数" x="841" y="93" size="22" bold="true"/>
+			<e:Label text="BOOS技能" x="13" y="422" anchorOffsetX="0" width="111" size="20" anchorOffsetY="0" height="29" verticalAlign="middle" textAlign="center"/>
+			<e:Label text="通关奖励" x="296" y="423" size="20" anchorOffsetX="0" width="97" anchorOffsetY="0" height="25" verticalAlign="middle" textAlign="center"/>
+			<e:BitmapLabel id="labelTier" width="144" height="34" x="133" y="420" anchorOffsetX="0" anchorOffsetY="0" font="shuzi1_fnt" text="第300层" textAlign="center" verticalAlign="middle"/>
+			<e:Image id="imgRank" source="ui_skyarean_weishangbang_png" x="509" y="487"/>
+			<e:BitmapLabel id="labelRank" width="77" height="34" x="504" y="480" anchorOffsetX="0" anchorOffsetY="0" font="shuzi2_fnt" text="2" textAlign="center" verticalAlign="middle"/>
+
+			<e:Group x="588.5" y="460.5">
+				<e:Image id="playerFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="playerIcon" source="hero_icon_head_gw_heiyiren_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Label id="playerName" text="玩家名字" x="671" y="472" size="20"/>
+			<e:BitmapLabel id="labelPlayerTier" width="112" height="28" x="669" y="501" anchorOffsetX="0" anchorOffsetY="0" text="第12层" font="shuzi1_fnt"/>
+			<e:Label text="每周一凌晨4点发放奖励" anchorOffsetX="0" size="16" textColor="0xd1c6c6" right="28" bottom="48"/>
+			<e:Label text="排名奖励" x="807" y="457" size="20"/>
+			<e:Group width="132" height="47" x="780" y="485" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Scroller height="58" y="0" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="on" scaleY="0.8" scaleX="0.8" horizontalCenter="0" maxWidth="165">
+					<e:List id="listRankingAward">
+					<e:layout>
+						<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+					</e:layout>
+					</e:List>
+				</e:Scroller>
+			</e:Group>
+
+			<e:Scroller id="scrollerPassAward" width="201" height="60" x="218" y="462" anchorOffsetY="0" anchorOffsetX="0" scaleY="0.8" scaleX="0.8" scrollPolicyH="on">
+				<e:List id="listPassAward" anchorOffsetY="0" height="53.5">
+					<e:layout>
+						<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="5"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Scroller width="160" height="51" x="32" y="460" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="on">
+				<e:List id="listBossSkill">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="5"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Scroller width="460" height="312" x="473" y="121" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyV="on">
+				<e:List id="listRanking">
+					<e:layout>
+						<e:VerticalLayout paddingLeft="6"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Label id="labelaward" text="暂无奖励" x="808" y="492" size="20"/>
+
+
+
+
+		</e:Group>
+
+
+
+		<e:Group width="174" height="40" top="0" right="132">
+			<e:Image source="ui_hunter_BoardRecources_png" y="7" x="25"/>
+
+			<e:Image id="energy" source="ui_currencyicon_IconStrength_png" x="15" verticalCenter="0"/>
+			<e:Image source="ui_hunter_BoardRecources_png" verticalCenter="0" left="16" visible="false"/>
+			<e:Label id="labelGemstone" text="9999999" width="105" size="20" verticalCenter="0" textAlign="center" height="26" anchorOffsetX="0" verticalAlign="middle" anchorOffsetY="0" x="24"/>
+			<e:Button id="buttonAdd" label="" x="129" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Button id="btnRule" label="" right="313" top="3" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_skyarean_guize_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_skyarean_biaoti_png" left="0" top="0"/>
+		<e:Button id="btnClose" label="" left="0" top="0" width="68" height="70">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_skyarean_fanhui_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+	</e:Group>
+</e:Skin>

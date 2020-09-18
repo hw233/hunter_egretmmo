@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="322" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" class="HXH_ChatItemSkin">
+
+
+
+
+
+
+
+	<e:Label id="tail" text="" anchorOffsetX="0" size="20" textAlign="left" anchorOffsetY="0" textColor="0x4fbf59" lineSpacing="2" verticalAlign="top" left="0" right="0" top="0" bottom="0" width="322"/>
+</e:Skin>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueHomeSenceSkin" width="1541" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16754d99525"/>
+
+
+
+
+
+
+	<e:Group id="groupAll" x="0" y="-12">
+		<e:Group id="groupHome" width="960" height="640" x="0" y="12">
+			<e:Group id="groupMain" width="960" x="0" height="640" verticalCenter="0">
+			<e:Image id="imgBackround" source="ui_union_LayerUnionBg_png" left="0" top="0" scaleX="1.54" scaleY="1.54"/>
+			<e:Group id="groupShop" x="203" y="186">
+				<e:Button id="btnShop" label="" x="68.5" y="36.5" anchorOffsetX="68.5" anchorOffsetY="36.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_BoardSysName_png" source.down="ui_union_BoardSysName_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="-97" y="19.930000000000035" width="200" height="300" scaleX="1" scaleY="1"/>
+				<e:Image x="25" y="24" source="ui_union_WordsSysName4_png"/>
+				<e:Button label="" x="-204" y="10.210000000000036" width="120" height="400" scaleX="1" scaleY="1"/>
+				<e:Image id="imgTip2" source="ui_currencyicon_IconRed_png" x="120" y="-5" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="groupInstance" x="439" y="213">
+				<e:Button id="btnInstance" label="" x="68.5" y="36.5" anchorOffsetX="68.5" anchorOffsetY="36.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_BoardSysName_png" source.down="ui_union_BoardSysName_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Image x="25" y="24" source="ui_union_WordsSysName5_png"/>
+				<e:Image id="imgTip4" source="ui_currencyicon_IconRed_png" x="120" y="-5"/>
+				<e:Button label="" x="-111.84000000000003" y="45.07000000000002" width="300" height="200" scaleX="1" scaleY="1"/>
+				<e:Button label="" x="16.00999999999999" y="43.73999999999998" width="200" height="200" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="groupUnionBattle" x="1070" y="86">
+				<e:Button id="btnUnionBattle" label="" x="68.5" y="36.5" anchorOffsetY="36.5" anchorOffsetX="68.5" scaleX="-1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_BoardSysName_png" source.down="ui_union_BoardSysName_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Image x="36" y="23" source="ui_union_WordsSysName6_png"/>
+				<e:Image id="imgTip6" source="ui_currencyicon_IconRed_png" x="-2" y="-5" scaleX="1" scaleY="1"/>
+				<e:Image id="imgLock" source="ui_currencyicon_IconLock_png" x="0" y="-5" scaleX="1" scaleY="1" visible="false"/>
+				<e:Button label="" x="121.98000000000025" y="44.989999999999995" width="300" height="170" scaleX="1" scaleY="1"/>
+				<e:Button label="" x="68.5" y="60.699999999999974" width="260" height="80" scaleX="1" scaleY="1"/>
+			</e:Group>
+				<e:Group id="groupSkill" x="882" y="186">
+					<e:Button id="btnSkill" label="" x="68.5" y="36.5" anchorOffsetY="36.5" anchorOffsetX="68.5">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_union_BoardSysName_png" source.down="ui_union_BoardSysName_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Image x="17" y="21" source="ui_union_WordsSysName7_png"/>
+					<e:Image id="imgTip0" source="ui_currencyicon_IconRed_png" x="111" y="-3" scaleX="1" scaleY="1" visible="false"/>
+					<e:Image id="imgLock0" source="ui_currencyicon_IconLock_png" x="0" y="-5" scaleX="1" scaleY="1" visible="false"/>
+				</e:Group>
+			<e:Group id="groupAnimal" x="1298" y="224" anchorOffsetY="0" height="76">
+				<e:Button id="btnAnimal" label="" x="68.5" y="36.5" anchorOffsetX="68.5" anchorOffsetY="36.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_BoardSysName_png" source.down="ui_union_BoardSysName_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Image source="ui_union_WordsSysName1_png" x="25" y="24"/>
+				<e:Image id="imgTip5" source="ui_currencyicon_IconRed_png" x="120" y="-7" scaleX="1" scaleY="1"/>
+				<e:Button label="" x="-52.84000000000003" y="126.44999999999999" width="100" height="250" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="groupManager" x="1051" y="236">
+				<e:Button id="btnManager" label="" x="68.5" y="36.5" anchorOffsetX="68.5" anchorOffsetY="36.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_BoardSysName_png" source.down="ui_union_BoardSysName_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Image x="25" y="24" source="ui_union_WordsSysName2_png"/>
+				<e:Image id="imgTip3" source="ui_currencyicon_IconRed_png" x="120" y="-5" scaleX="1" scaleY="1"/>
+				<e:Button label="" x="-92.99999999999977" y="62.00999999999999" width="260" height="180" scaleX="1" scaleY="1"/>
+				<e:Button label="" x="-92.99999999999977" y="208.43" width="260" height="80" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="groupDonate" scaleX="1" scaleY="1" x="687" y="204">
+				<e:Button id="btnDonate" label="" x="68.5" y="36.5" anchorOffsetX="68.5" anchorOffsetY="36.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_BoardSysName_png" source.down="ui_union_BoardSysName_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Image source="ui_union_WordsSysName3_png" x="25" y="24"/>
+				<e:Image id="imgTip1" source="ui_currencyicon_IconRed_png" x="120" y="-5" scaleX="1" scaleY="1"/>
+				<e:Button label="" x="1.1368683772161603e-13" y="56.84" width="50" height="200" scaleX="1" scaleY="1"/>
+				<e:Button label="" x="-7.99" y="74.84" width="120" height="180" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Label id="lbNotice" text="每消耗6点体力，可贡献一点活跃度" width="280" size="18" fontFamily="Helvetica" textColor="0x448086" verticalAlign="top" textAlign="left" height="120" x="354" y="115" touchEnabled="false"/>
+			</e:Group>
+
+		</e:Group>
+
+
+
+	</e:Group>
+
+	<e:Group id="groupLeftTop" height="87" top="0" left="0">
+		<e:Image source="ui_union_BoardLayerInfo_png" scaleX="1" scaleY="1" width="269" height="87" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="lbLeagueName" text="帮会名6个字" y="8" size="16" fontFamily="Helvetica" textColor="0xe2e2ed" left="100" verticalAlign="middle" textAlign="left" height="20" width="166"/>
+		<e:Label id="lbMemberNum" text="在线： 20/40人" y="33.01" size="16" textColor="0x00ecda" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" left="100" height="20" width="165"/>
+		<e:Label text="活跃度：" y="59.69" size="16" fontFamily="Helvetica" textColor="0x00ecda" verticalAlign="middle" textAlign="left" left="100" height="20" width="64"/>
+		<e:Label id="lbLiveNum" text="1000/1000" x="162" y="59.69" size="16" fontFamily="Helvetica" textColor="0x00ecda" verticalAlign="middle" textAlign="left" height="20" width="106"/>
+		<e:Image id="imgLeagueIcon" source="skill_icon_kuluoluo04_png" width="89" height="93" scaleX="1" scaleY="1" left="-4" top="-4"/>
+
+		<e:Group left="2" bottom="2">
+			<e:Image width="30" height="30" source="ui_mainui_BoardPlayerLevel_png" verticalCenter="0" horizontalCenter="0"/>
+			<e:Label id="lbLevel" text="99" width="31" height="24" size="18" verticalAlign="middle" textAlign="center" verticalCenter="0" horizontalCenter="0" fontFamily="Helvetica"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="btnChat" label="" left="0" bottom="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_mainui_ButtonChatNor_png" source.down="ui_mainui_ButtonChatSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="messageHistoryChat" width="370" height="170" bottom="0" left="0" visible="false">
+		<e:Rect width="370" height="170" fillAlpha="0.5" strokeColor="0x98A5AA" ellipseWidth="10" ellipseHeight="10" strokeWeight="2"/>
+		<e:List id="simpleChat" width="370" height="170" x="0" y="0" scaleX="1" scaleY="1">
+		<e:layout>
+			<e:VerticalLayout gap="5" paddingTop="05"/>
+		</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Group width="101" height="97" bottom="0" right="241">
+		<e:Button id="btnRecruit" label="" anchorOffsetX="50.5" anchorOffsetY="48.5" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_union_ButtonRecruitNor_png" source.down="ui_union_ButtonRecruitSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group width="101" height="97" right="135" bottom="0">
+		<e:Button id="btnSetNotice" label="" anchorOffsetY="48.5" anchorOffsetX="50.5" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_union_ButtonSetNoticeNor_png" source.down="ui_union_ButtonSetNoticeSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Button id="btnClose" label="" right="0" bottom="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_instance_ButtonInstanceReturnNor_png" source.down="ui_instance_ButtonInstanceReturnSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+</e:Skin>

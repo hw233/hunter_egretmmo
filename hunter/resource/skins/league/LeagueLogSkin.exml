@@ -1,0 +1,33 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<e:Skin class="LeagueLogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="960" height="640" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="670" height="540" anchorOffsetX="335" anchorOffsetY="270" scale9Grid="121,39,181,70" horizontalCenter="0" y="348"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" x="164" y="65" scale9Grid="17,3,104,23"/>
+
+
+		<e:Group y="32" anchorOffsetX="0" anchorOffsetY="0" width="304" horizontalCenter="0" height="65">
+			<e:Image source="ui_fishing_BoardFishingTopTip_png" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image id="imgTop" anchorOffsetX="0" horizontalCenter="0" source="ui_union_WordsTipUnionLog_png" y="16"/>
+		</e:Group>
+		<e:Group y="105" horizontalCenter="0">
+			<e:Image source="ui_hunter_LayerSeconde_png" width="640" height="490" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="15,10,92,65" verticalCenter="0" horizontalCenter="0"/>
+			<e:Scroller width="640" height="470" anchorOffsetX="0" scaleX="1" scaleY="1" scrollPolicyH="off" scrollPolicyV="on" horizontalCenter="0" verticalCenter="0">
+				<e:List id="lstItem" width="100%" height="100%" x="-1.33" y="1.33">
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Button id="btnClose" label="" x="785.35" y="46.65" anchorOffsetX="45">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+					-->
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GiftTimeSkin" width="290" height="433" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAni" horizontalCenter="0" top="32"/>
+	<e:Image source="ui_mall_gift_BoardGiftTime_png" bottom="0" scale9Grid="27,38,168,233" y="-18" width="290" height="403" horizontalCenter="0"/>
+	<e:Image source="ui_mall_gift_OrnGiftTime_png" horizontalCenter="0" bottom="0" x="1" y="328"/>
+	<e:Image id="imgGiftType" y="48" horizontalCenter="0" anchorOffsetX="0" x="0" source="ui_mall_gift_BoardGiftTimeTop_png"/>
+	<e:Image source="ui_mall_gift_BoardGiftTimeTip_png" y="-8" horizontalCenter="0" x="-2"/>
+	<e:BitmapLabel id="lbNameType" y="15" text="成长礼包C" font="WordsGiftName_fnt" horizontalCenter="0"/>
+	<e:Image id="imgBuyTypeBoard" y="50.5" horizontalCenter="1.5" x="56" source="ui_mall_icon_big_xinshoubig2_png"/>
+	<e:Image id="imgBuyType" x="-6.5" y="64.5" source="ui_mall_gift_WordsGiftRmbType1_png"/>
+	<e:Group id="groupGiftDay" x="169" y="133" visible="false">
+		<e:Label id="lbDay" text="剩余时间：两天" size="16" bold="true" fontFamily="Helvetica" verticalAlign="middle" textColor="0x000000" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+
+	<e:Label id="lbBuyAward" text="首次领取可一次性获得以下物品：" y="156.5" size="16" textColor="0x050000" bold="true" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" x="14"/>
+	<e:Group y="177" horizontalCenter="0">
+		<e:Image source="ui_mall_gift_BoardGiftTimeAward_png" width="270" height="80" scale9Grid="26,7,158,46" horizontalCenter="0" verticalCenter="0"/>
+		<e:Scroller width="260" height="70" verticalCenter="0" horizontalCenter="0">
+			<e:List id="lstBuyAward" y="-2">
+			<e:layout>
+				<e:HorizontalLayout gap="2" paddingTop="5" paddingLeft="8"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Image y="258.5" source="ui_mall_gift_BoardGiftTimeGemstone_png" horizontalCenter="0.5"/>
+	<e:Label id="lbDayAward" text="之后15天还可每天领取" size="16" bold="true" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" x="14" rotation="-7" y="299" textColor="0xfeffff"/>
+	<e:Image id="imgCoinType" y="264.5" x="168" source="ui_iconresources_zuanshi3_png" scaleX="0.7" scaleY="0.7"/>
+	<e:Label id="lbDayAwardNum" text="1000" size="16" bold="true" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" x="202" y="274" textColor="0xfeffff" rotation="-7"/>
+	<e:Image y="313.5" x="22" source="ui_mall_gift_WordsGiftTimeAllGet_png" rotation="-3"/>
+	<e:Image id="imgGiftAward" y="252.5" x="105" source="ui_mall_IconGemstone2_png" scaleX="0.7" scaleY="0.7"/>
+	<e:BitmapLabel y="300" text="1000" font="WordsGiftName_fnt" horizontalCenter="88.5" rotation="-6" visible="false"/>
+	<e:Label id="lbGiftAwardNum" text="1000" x="194" y="297" rotation="352.34"/>
+	<e:Button id="btnGiftGet" label="" y="362" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_mall_gift_ButtonGiftGetNor_png" source.down="ui_mall_gift_ButtonGiftGetSel_png" source.disabled="ui_mall_gift_ButtonGiftGetDis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnGiftGo" label="" y="362" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_mall_gift_ButtonGiftGoNor_png" source.down="ui_mall_gift_ButtonGiftGoSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="groupBuy" width="172" height="55" horizontalCenter="0" bottom="15" x="59" y="372">
+		<e:Button id="btnGiftBuy" label="" x="0" y="0" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_mall_gift_ButtonGiftCommonNor_png" source.down="ui_mall_gift_ButtonGiftCommonSel_png" source.disabled="ui_mall_gift_ButtonGiftCommonDis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image id="imgGestoneIcon" source="ui_iconresources_zuanshi3_png" touchEnabled="false" horizontalCenter="-28.5" verticalCenter="0"/>
+		<e:BitmapLabel text="¥1000" font="GiftValueNum_fnt" y="16" x="75" visible="false"/>
+		<e:Label id="lbGetNum" text="¥1000" size="30" bold="true" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" textColor="0xFEFFFF" verticalCenter="0" touchEnabled="false" left="75"/>
+		<e:Image id="imgType" x="-31" y="-20" source="ui_mall_gift_WordsGiftRmbType2_png" touchEnabled="false" visible="false"/>
+
+	</e:Group>
+	<e:Group id="groupType" x="28" y="344" touchThrough="true" touchEnabled="false">
+		<e:Image id="imgTypeTop" source="ui_mall_gift_WordsGiftTimeTypeTip1_png" touchEnabled="false" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

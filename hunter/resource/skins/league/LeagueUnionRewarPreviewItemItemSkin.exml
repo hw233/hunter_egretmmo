@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueUnionRewarPreviewItemItemSkin" width="70" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" anchorOffsetX="0" width="70" height="70" verticalCenter="5" horizontalCenter="0">
+		<e:Image id="imgBoard" width="95" height="93" source="ui_frame_FrameHunterAsh_png" verticalCenter="0" horizontalCenter="0" scaleX="0.7" scaleY="0.7"/>
+		<e:Image id="imgIcon" width="88" height="87" verticalCenter="0" horizontalCenter="0" scaleX="0.7" scaleY="0.7" source=""/>
+		<e:BitmapLabel id="lbNum" width="100" height="20" text="1" font="ItemNumWords_fnt" scaleX="0.6" scaleY="0.6" textAlign="right" right="8" bottom="11"/>
+		<e:Button id="btnAll" label="" x="0" y="-3" width="70" height="70"/>
+	</e:Group>
+</e:Skin>

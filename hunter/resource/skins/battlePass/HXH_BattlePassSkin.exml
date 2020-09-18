@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_BattlePassSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:zj="zj.*">
+	<e:Image source="ui_battlePass_BoardMain_png" horizontalCenter="0" x="-192" scaleX="1" scaleY="1" verticalCenter="2"/>
+	<e:Image source="ui_hunter_OrnTop_png" horizontalCenter="0" top="0" width="100%"/>
+	<e:Image source="ui_battlePass_SpriteBattlePassTitle_png" left="106" top="-6"/>
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_storyinstance_transform_HunterInfoBG1_png" horizontalCenter="0" height="580" bottom="2"/>
+		<e:Image source="ui_battlePass_BoardLeft_png" left="12" verticalCenter="32"/>
+		<e:Button id="btnCheck" label="" left="10" verticalCenter="-94">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_battlePass_ButtonGiftMainNor_png" source.down="ui_battlePass_ButtonGiftMainSel_png" source.disabled="ui_battlePass_ButtonGiftMainSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btnExpUp" label="" left="10" verticalCenter="-10">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_battlePass_ButtonExpUpNor_png" source.down="ui_battlePass_ButtonExpUpSel_png" source.disabled="ui_battlePass_ButtonExpUpSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image id="imgTip1" source="ui_currencyicon_IconRed_png" left="125" verticalCenter="-118"/>
+		<e:Image id="imgTip2" source="ui_currencyicon_IconRed_png" left="125" verticalCenter="-34"/>
+		<e:Group id="groupBtnItem" x="24" y="347.65" scaleX="1" scaleY="1">
+		<e:Button id="btnTaskDaily" label="" scaleX="1" scaleY="1" x="0" y="4">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_battlePass_ButtonMissionDailyNor_png" source.down="ui_battlePass_ButtonMissionDailySel_png" source.disabled="ui_battlePass_ButtonMissionDailySel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="btnTaskWeek" label="" scaleX="1" scaleY="1" x="0" y="64">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_battlePass_ButtonMissionWeekNor_png" source.down="ui_battlePass_ButtonMissionWeekSel_png" source.disabled="ui_battlePass_ButtonMissionWeekSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="btnTaskMonth" label="" scaleX="1" scaleY="1" x="0" y="124">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_battlePass_ButtonMissionMonthNor_png" source.down="ui_battlePass_ButtonMissionMonthSel_png" source.disabled="ui_battlePass_ButtonMissionMonthSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Image id="imgTip3" source="ui_currencyicon_IconRed_png" x="95.33" y="-1.33" visible="false"/>
+		<e:Image id="imgTip4" source="ui_currencyicon_IconRed_png" x="95.33" y="59.67" visible="false"/>
+		<e:Image id="imgTip5" source="ui_currencyicon_IconRed_png" x="95.33" y="120.67" visible="false"/>
+		</e:Group>
+		<e:Group id="groupViewAdd" horizontalCenter="70" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="32"/>
+	</e:Group>
+	<e:Button id="btnClose" label="" left="-24" top="-8">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnDetails" label="" left="247" top="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_help_ButtonHelpNor_png" source.down="ui_help_ButtonHelpSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

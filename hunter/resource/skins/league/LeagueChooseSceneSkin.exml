@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueChooseSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="100%" height="100%" source="ui_union_LayerBeforeJoin_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image width="100%" height="40" source="ui_hunter_OrnTop_png" horizontalCenter="0" top="0" scaleX="1"/>
+	<e:Group horizontalCenter="0" verticalCenter="0" width="960" height="640" alpha="1">
+		<e:Button id="btnJoin" label="" width="319" height="380" scaleX="1" scaleY="1" verticalCenter="0" left="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonJoinUnionNor_png" source.down="ui_union_ButtonJoinUnionSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnBuild" label="" width="319" height="380" scaleX="1" scaleY="1" x="322" y="130">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonBuildUnionNor_png" source.down="ui_union_ButtonBuildUnionSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnRankingList" label="" width="319" height="380" scaleX="1" scaleY="1" verticalCenter="0" right="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonUnionRankingListNor_png" source.down="ui_union_ButtonUnionRankingListSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group y="0" right="150" height="42" anchorOffsetX="0" width="169.66">
+		<e:Rect width="100" height="24" x="24" fillAlpha="0.5" verticalCenter="0"/>
+		<e:Label id="lbGemstone" text="30" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="100" textAlign="center" verticalAlign="middle" verticalCenter="0" x="24" height="24" textColor="0xffffff"/>
+		<e:Image source="ui_currencyicon_IconGemstone_png" verticalCenter="0" left="0"/>
+		<e:Button id="btnAddGemstone" label="" right="0" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Button id="btnClose" label="" left="-22" top="-9">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image width="140" height="60" source="ui_union_WordsTipUnionChoose_png" top="0" x="116"/>
+</e:Skin>

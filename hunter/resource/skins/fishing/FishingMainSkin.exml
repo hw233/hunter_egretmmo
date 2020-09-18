@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishingMainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="8" verticalCenter="-15">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="805" height="460" scale9Grid="117,30,146,89" x="0" y="31.31"/>
+		<e:Image source="ui_hunter_BoardSkillClick_png" width="215" height="420" scale9Grid="13,13,84,84" x="13" y="58.31"/>
+		<e:Image source="ui_fishing_BoardViewAward_png" x="11.65" y="359.62"/>
+		<e:Image source="ui_fishing_IconFishing_png" x="22.33" y="78.95"/>
+		<e:Label text="今天剩余垂钓次数" x="36.34" y="419.97" size="20" fontFamily="Helvetica" bold="true"/>
+		<e:Label id="lbLeft" text="3/3" x="103.66" y="448.31" size="20" fontFamily="Helvetica"/>
+		<e:Button id="btnGift" label="" x="39" y="345.03">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_fishing_ButtonFishingAwardInfoNor_png" source.down="ui_fishing_ButtonFishingAwardInfoSel_png" source.disabled="ui_fishing_ButtonFishingAwardInfoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group x="250" y="1.67">
+			<e:Image source="ui_fishing_BoardFishingTopTip_png" y="0" x="0"/>
+			<e:Image source="ui_fishing_WordsFishingTip_png" horizontalCenter="0.5" verticalCenter="-3.5"/>
+		</e:Group>
+		<e:Button id="btnClose" label="" width="90" height="55" anchorOffsetX="45" left="-12" anchorOffsetY="27.5" top="0" scaleX="-1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png" source.disabled="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_hunter_BoardSkillClick_png" width="560" height="420" scale9Grid="13,13,84,84" x="234" y="58.31"/>
+		<e:Image source="ui_hunter_OrnFlower_png" x="74" y="14.31"/>
+		<e:Scroller width="520" height="270" x="251" y="95.03" scrollPolicyH="off" scrollPolicyV="off">
+			<e:List id="lstView" y="-1.33">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" requestedColumnCount="3" columnWidth="166"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image source="ui_fishing_BoardCommon_png" x="244.35" y="365.66" width="540" height="105" scale9Grid="8,8,54,52"/>
+		<e:Group id="groupTeach" x="265.5" y="64.32" width="497" height="29">
+			<e:Image source="ui_fishing_BoardFishingTimeTip_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="lbTime" text="本次垂钓耗时18分钟" size="18" fontFamily="Helvetica" horizontalCenter="0" verticalCenter="0" bold="true" textColor="0xf4ffff"/>
+		</e:Group>
+		<e:Button id="btnPull" label="" x="416.37" y="377.68" width="177" height="82">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_fishing_ButtonFishingColletingNor_png" source.down="ui_fishing_ButtonFishingColletingSel_png" source.disabled="ui_fishing_ButtonFishingColletingDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupPush" x="245.03" y="375.31">
+			<e:Button id="btnPush" label="" x="350.38" y="2.37" width="177" height="82">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_fishing_ButtonFishingLowerLeverNor_png" source.down="ui_fishing_ButtonFishingLowerLeverSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnFreshPurple" label="" x="180.97" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_fishing_ButtonFishingAkeyRushNor_png" source.down="ui_fishing_ButtonFishingAkeyRushSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnFresh" label="" x="0" y="0" width="170" height="57">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_fishing_ButtonFishingRushFishNor_png" source.down="ui_fishing_ButtonFishingRushFishSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group x="191.97" y="59">
+				<e:Image source="ui_fishing_BoardFishingNum_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgGold" source="ui_currencyicon_IconGemstone_png" horizontalCenter="-26" verticalCenter="0"/>
+				<e:Label id="lbGold" text="1000" size="18" fontFamily="Helvetica" horizontalCenter="9.5" verticalCenter="2"/>
+			</e:Group>
+			<e:Group x="12.96" y="59">
+				<e:Image source="ui_fishing_BoardFishingNum_png" horizontalCenter="0" verticalCenter="-1"/>
+				<e:Image id="imgCopper" source="ui_currencyicon_IconGold_png" horizontalCenter="-31" verticalCenter="-0.5"/>
+				<e:Label id="lbCopper" text="10000" size="18" fontFamily="Helvetica" horizontalCenter="12.5" verticalCenter="1"/>
+				<e:Label id="lbFree" text="免费" size="18" fontFamily="Helvetica" horizontalCenter="8" verticalCenter="1"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WantedSecondStartItemSkin" width="48" height="47" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" width="48" height="47" x="0" y="0">
+		<e:Image id="imgFrame" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0" x="3" y="11" source="ui_frame_FrameHunterViolet1_png"/>
+		<e:Rect id="rectMask" width="75" height="74" scaleX="0.5" scaleY="0.5" horizontalCenter="0" bottom="7"/>
+		<e:Image id="imgIcon" scaleX="0.5" scaleY="0.5" width="81" height="82" horizontalCenter="0" verticalCenter="0" x="7" y="14" source=""/>
+		<e:BitmapLabel id="labelTextNum" width="38" height="16" text="1" font="ItemNumWords_fnt" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" scaleX="1" scaleY="1" right="-5" bottom="10" visible="false"/>
+	</e:Group>
+</e:Skin>

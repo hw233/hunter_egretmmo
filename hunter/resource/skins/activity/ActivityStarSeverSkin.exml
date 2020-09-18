@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityStarSeverSkin" width="680" height="486" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="654" anchorOffsetX="0" verticalCenter="0" right="-5">
+		<e:Image id="imgBG" source="ui_acitivity_LayerSeconde_png" height="310" scale9Grid="79,14,478,88" x="-4" y="176"/>
+		<e:Image id="imgTop" source="ui_acitivity_WordsTipRegister_png" y="0" x="-15"/>
+
+		<e:Image id="imgPop" source="ui_acitivity_OrnTipRegister_png" y="0" x="410"/>
+		<e:Image id="imgText0" source="ui_acitivity_WordsTipActivityTime_png" x="19" y="107"/>
+		<e:Image id="imgText1" source="ui_acitivity_WordsTipActivityInfomation_png" x="19" y="135"/>
+		<e:Label id="lbTimeOpen" text="2015-12-15 00:00" x="117" y="113" size="16" verticalAlign="middle" textAlign="center" fontFamily="Helvetica"/>
+		<e:Label id="lbTimeClose" text="2015-12-15 00:00" x="282" y="113" size="16" verticalAlign="middle" textAlign="center" fontFamily="Helvetica"/>
+		<e:Label text="至" x="254" y="113" size="16" fontFamily="Helvetica"/>
+		<e:Label id="lbInfo" text="活动期间登陆即可领取超值奖励！还不快来" x="119" y="140" anchorOffsetX="0" width="347" anchorOffsetY="0" height="137" size="16" fontFamily="Helvetica"/>
+		<e:Scroller id="scrollerInfo" width="610" height="280" scrollPolicyH="off" scrollPolicyV="on" right="35" verticalCenter="84">
+			<e:List id="lstView" y="2"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

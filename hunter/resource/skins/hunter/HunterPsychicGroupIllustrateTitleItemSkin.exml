@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterPsychicGroupIllustrateTitleItemSkin" width="638" height="31" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" top="0" right="0" bottom="0">
+		<e:Image source="ui_hunter_psychic_BoardExplainTitleFloor_png" left="0" top="0" right="0" bottom="0" scale9Grid="194,8,285,13"/>
+		<e:Label id="labelTitle" text="四件套组合：同时拥有任意四个相同前缀的念力时，激活组合效果。" left="20" right="20" top="0" bottom="0" textAlign="left" size="17" textColor="0xff9200" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

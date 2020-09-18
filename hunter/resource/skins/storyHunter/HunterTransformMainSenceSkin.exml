@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterTransformMainSenceSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Image source="ui_arena_LayerBg_png" width="100%" height="100%" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_hunter_OrnTop_png" width="100%" horizontalCenter="0" top="0"/>
+		<e:Image source="ui_storyinstance_WordsStory_png" x="116" y="-4"/>
+		<e:Button id="buttonClose" label="" x="-22" y="-10">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupTransform" verticalCenter="9" horizontalCenter="-241">
+			<e:Button id="buttonTransForm" label="" x="0" y="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_storyinstance_transform_StoryHunterBG1_png" source.down="ui_storyinstance_transform_StoryHunterBG2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image source="ui_storyinstance_transform_TitleLead1_png" x="114" y="0"/>
+			<e:Image source="ui_storyinstance_transform_View_png" x="293.5" y="428"/>
+			<e:Image id="imageTipTransform" source="ui_currencyicon_IconRed_png" x="392" y="412"/>
+		</e:Group>
+		<e:Group id="groupStory" verticalCenter="9.5" horizontalCenter="237">
+			<e:Button id="buttonStory" label="" x="0" y="40.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_storyinstance_transform_StoryingBG1_png" source.down="ui_storyinstance_transform_StoryingBG2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image source="ui_storyinstance_transform_View_png" x="50" y="428"/>
+			<e:Image id="imageTipStory" source="ui_currencyicon_IconRed_png" x="44" y="410"/>
+			<e:Image source="ui_storyinstance_transform_TitleStory1_png" x="118" y="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

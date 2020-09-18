@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="licenseExaminationSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="670" height="455" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_BoardCardPopSeconde_png" width="670" height="450" scale9Grid="178,245,165,87" horizontalCenter="0" top="5"/>
+		<e:Image id="imgSelCard" source="ui_hunter_OrnDontGetHunterTop_png" left="26" top="2"/>
+		<e:Button id="btnClose" label="" right="-13" top="-17">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_license_BoardExaminationPop_png" anchorOffsetX="0" width="645" height="407" top="31" left="18"/>
+		<e:Image source="ui_hunter_OrnPlates3_png" left="43" top="58"/>
+		<e:Image id="imgTitle" source="ui_license_WordsExamination_png" top="1" horizontalCenter="19"/>
+		<e:BitmapLabel id="labelStarNumber" font="WonderlandSkillBossTime_fnt" text="1" x="234" y="0"/>
+		<e:Image id="imgNpc" source="hero_half_wj_xiaojie_png" scaleX="0.6" scaleY="0.6" top="60" left="45"/>
+		<e:Group bottom="17" left="18">
+			<e:Image source="ui_license_BoardSuccessNeed_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_license_WordsSuccessNeed_png" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image source="ui_license_WordsExaminationInfo_png" right="102" top="43"/>
+		<e:Group top="72" right="25">
+			<e:Image source="ui_hunter_LayerSeconde_png" width="250" height="280" scale9Grid="15,10,92,65" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelExamination1" text="vv8 不翻译内容" textColor="0x000000" size="18" fontFamily="DFKai-SB" left="15" top="29"/>
+			<e:Label id="labelExamination2" text="Label" anchorOffsetX="0" width="222" anchorOffsetY="0" height="114" textColor="0x000000" left="15" top="52" size="18" fontFamily="DFKai-SB"/>
+			<e:Group bottom="80" horizontalCenter="0.5">
+			<e:Image source="ui_license_BoardExaminationSkill_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_license_WordsExaminationSkill_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Scroller width="200" height="60" x="30" y="208" anchorOffsetY="0">
+			<e:List id="listSkill">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Button id="btnStar" label="" right="56" bottom="30">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_license_ButtonStartExaminationNor_png" source.down="ui_license_ButtonStartExaminationSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonAnnouceSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" top="110" width="600" height="33" touchEnabled="false">
+		<e:Image source="ui_other_BoardTextL_png" width="600" scaleY="0.8" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		<e:Label id="labelDes" text="确定将其逐出公会吗" x="600" verticalCenter="0" size="18" touchEnabled="false"/>
+		<e:Image id="labelBg" width="550" scaleY="0.8" horizontalCenter="0" verticalCenter="0" height="41" source="ui_hunter_collection_board1_png" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

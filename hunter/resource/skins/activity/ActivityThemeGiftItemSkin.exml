@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityThemeGiftItemSkin" width="620" height="102" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="1" y="1">
+		<e:Image source="ui_acitivity_ButtonAwardListNor_png" x="0" y="0"/>
+		<e:Button id="btnGet" label="" x="431" y="23" width="172" height="55">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_ButtonVisitHunterGetNor_png" source.down="ui_acitivity_ButtonVisitHunterGetSel_png" source.disabled="ui_acitivity_ButtonVisitHunterGetDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgGet" source="ui_acitivity_WordsTipGift_png" x="464" y="24"/>
+		<e:Scroller width="300" height="60" x="66" y="33" scrollPolicyH="off" scrollPolicyV="off" anchorOffsetY="0">
+			<e:List id="lsstViewAward" anchorOffsetY="0" height="62" x="0" y="13">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbTitle" text="你必须要完成这些任务才可以" size="16" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" x="12" y="6"/>
+	</e:Group>
+</e:Skin>

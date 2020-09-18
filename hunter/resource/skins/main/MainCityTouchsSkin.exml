@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainCityTouchsSkin" width="3440" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:zj="zj.*">
+	<e:Group id="far2" width="3440" height="640" name="far2">
+		<e:Group x="0" y="0">
+			<e:Image scaleX="1" scaleY="1" source="map_98_far4_01_png" x="-310" y="-220"/>
+			<e:Image scaleX="1" scaleY="1" x="-300" y="-210" source="map_98_far4_02_png"/>
+			<e:Image scaleX="1" scaleY="1" x="-290" y="-200" source="map_98_far4_03_png"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="touchGroup62" width="367" height="147" x="1909" y="142" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" name="touchGroup6">
+			<zj:MainCityTouchTitle id="touchTitle62" x="64" y="-54" skinName="MainCityTouchTitleSkin"/>
+		</e:Group>
+		<e:Image id="imgCloud0" x="2024" y="112" scaleX="1" scaleY="1" source="main_ani_img_cloud1_png"/>
+		<e:Image id="imgCloud1" x="1552" y="37" scaleX="1" scaleY="1" source="main_ani_img_cloud2_png"/>
+		<e:Image id="imgCloud2" x="896" y="51" scaleX="1" scaleY="1" source="main_ani_img_cloud1_png"/>
+		<e:Image id="imgCloud3" x="671" y="112" scaleX="1" scaleY="1" source="main_ani_img_cloud3_png"/>
+		<e:Image id="imgCloud4" x="2249" y="74" scaleX="1" scaleY="1" source="main_ani_img_cloud4_png"/>
+		<e:Image id="imgCloud5" x="1346" y="27" scaleX="1" scaleY="1" source="main_ani_img_cloud3_png"/>
+		<e:Image id="imgCloud6" x="1104" y="53" scaleX="1" scaleY="1" source="main_ani_img_cloud4_png"/>
+		<e:Image id="imgCloud7" x="2657" y="82" scaleX="1" scaleY="1" source="main_ani_img_cloud1_png"/>
+		<e:Image id="imgCloud8" x="2978" y="62" scaleX="1" scaleY="1" source="main_ani_img_cloud3_png"/>
+		<e:Image id="imgCloud9" x="3237" y="149" scaleX="1" scaleY="1" source="main_ani_img_cloud4_png"/>
+		<e:Image id="imgCloud10" x="331" y="58" scaleX="1" scaleY="1" source="main_ani_img_cloud2_png"/>
+		<e:Image id="imgCloud11" x="3345" y="72" scaleX="1" scaleY="1" source="main_ani_img_cloud3_png"/>
+		<e:Image id="imgMove1" x="1197" y="144" scaleX="1" scaleY="1" source="main_ani_img_ft_2_png"/>
+		<e:Image id="imgMove2" x="2151" y="85" scaleX="1" scaleY="1" source="main_ani_img_ft_3_png"/>
+	</e:Group>
+	<e:Group id="far1" width="3440" height="640" name="far1">
+	</e:Group>
+	<e:Group id="far" width="3440" height="640" x="0" y="0" name="far">
+		<e:Group x="49" y="-1">
+			<e:Image x="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="map_98_far3_01_png" y="0"/>
+			<e:Image x="10" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" y="10" source="map_98_far3_02_png"/>
+			<e:Image x="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" y="20" source="map_98_far3_03_png"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="touchGroup7" width="326" height="115" x="481" y="179" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" name="touchGroup7">
+			<zj:MainCityTouchTitle id="touchTitle7" x="9" y="-29" skinName="MainCityTouchTitleSkin"/>
+		</e:Group>
+		<e:Group id="touchGroup5" width="75.45" height="274" x="1311" y="3" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" name="touchGroup5">
+			<zj:MainCityTouchTitle id="touchTitle5" x="68" y="99" skinName="MainCityTouchTitleSkin"/>
+		</e:Group>
+		<e:Group id="ani2" width="20" height="20" x="624" y="264"/>
+		<e:Group id="ani3" width="20" height="20" x="738" y="213"/>
+		<e:Group id="ani5" width="20" height="20" x="2070" y="238"/>
+		<e:Image id="imgMove0" x="1381" y="107" scaleX="1" scaleY="1" source="main_ani_img_ft_1_png" name="8"/>
+	</e:Group>
+	<e:Group id="mid2" width="3440" height="640" x="0" y="-0.8" name="mid2">
+		<e:Group x="19" y="0">
+			<e:Image x="10" y="9.49999999999999" anchorOffsetX="1451" anchorOffsetY="306.5" source="map_98_far2_01_png" scaleX="1" scaleY="1"/>
+			<e:Image x="20" y="19.49999999999999" anchorOffsetX="1451" anchorOffsetY="306.5" scaleX="1" scaleY="1" source="map_98_far2_02_png"/>
+			<e:Image x="30" y="29.49999999999999" anchorOffsetX="1451" anchorOffsetY="306.5" scaleX="1" scaleY="1" source="map_98_far2_03_png"/>
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="touchGroup1" width="140" height="304" x="1858" y="5" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" name="touchGroup1">
+			<zj:MainCityTouchTitle id="touchTitle1" x="114" y="99" skinName="MainCityTouchTitleSkin"/>
+		</e:Group>
+		<e:Group id="touchGroup2" width="230" height="110" x="2134.15" y="254.58" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" name="touchGroup2">
+			<zj:MainCityTouchTitle id="touchTitle2" x="226" y="-24" skinName="MainCityTouchTitleSkin"/>
+		</e:Group>
+		<e:Group id="ani6" width="57" height="47" x="2110" y="251" locked="true"/>
+		<e:Group id="ani4" width="57" height="47" x="2157" y="194" locked="true"/>
+		<e:Image id="imgStatic0" x="1383" source="main_ani_img_mask_png" y="213" locked="true"/>
+		<e:Image id="imgCar0" x="2236" y="440" source="main_ani_img_car0_png" scaleX="1" scaleY="1" anchorOffsetX="31.5" anchorOffsetY="26.5" name="40"/>
+		<e:Image id="imgCar1" x="1771" y="264" scaleX="0.2" scaleY="0.2" anchorOffsetX="38" anchorOffsetY="38" source="main_ani_img_car1_png" name="32"/>
+		<e:Image id="imgCar2" x="1416" y="346" scaleX="1" scaleY="1" anchorOffsetX="15" anchorOffsetY="14" source="main_ani_img_car2_png" name="26"/>
+		<e:Image id="imgCar3" x="1434" y="346" scaleX="0.7" scaleY="0.7" anchorOffsetX="17" anchorOffsetY="12" source="main_ani_img_car3_png" name="20"/>
+		<e:Image id="imgLight0" x="1141.12" y="73.34" source="main_ani_img_light_png" anchorOffsetX="134.5" anchorOffsetY="110.5" alpha="1" skewY="16" rotation="-10" height="311" name="8000,8000,1,1500"/>
+		<e:Image id="imgLight1" x="1486" y="106" source="main_ani_img_light_png" anchorOffsetX="134.5" anchorOffsetY="124.5" alpha="1" height="350" width="392" name="8000,8000,1,1500"/>
+		<e:Image id="imgLight2" x="2121.67" y="0" source="main_ani_img_light_png" anchorOffsetX="134.5" anchorOffsetY="110.5" alpha="1" skewY="30" rotation="-10" height="485" name="8000,8000,1,1500"/>
+	</e:Group>
+	<e:Group id="mid1" width="3440" height="640" name="mid1">
+		<e:Group width="200" height="200" x="972" y="213">
+			<e:Image x="882.5" y="143" source="map_98_far1_01_png" scaleX="1" scaleY="1"/>
+			<e:Image x="892.5" y="153" scaleX="1" scaleY="1" source="map_98_far1_02_png"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="touchGroup0" width="268" height="156" x="1062" y="235" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" name="touchGroup0">
+			<zj:MainCityTouchTitle id="touchTitle0" x="268" y="1" skinName="MainCityTouchTitleSkin"/>
+		</e:Group>
+		<e:Group id="ani14" width="272" height="73" x="1026" y="231"/>
+	</e:Group>
+	<e:Group id="group" width="3440" height="640" name="group">
+		<e:Group>
+			<e:Image y="10" source="map_98_group_01_png" x="10" scaleX="1" scaleY="1"/>
+			<e:Image y="20" x="20" scaleX="1" scaleY="1" source="map_98_group_02_png"/>
+			<e:Image y="30" x="30" scaleX="1" scaleY="1" source="map_98_group_03_png"/>
+			<e:Image y="40" x="40" scaleX="1" scaleY="1" source="map_98_group_04_png"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Image y="290" source="map_98_6_png" x="1813" anchorOffsetX="119" anchorOffsetY="137.5" scaleY="1" scaleX="1"/>
+		<e:Group id="touchGroup26" width="177.39" height="253.61" x="1730" y="175" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" name="touchGroup26">
+			<zj:MainCityTouchTitle id="touchTitle26" x="181" y="4" skinName="MainCityTouchTitleSkin"/>
+		</e:Group>
+		<e:Group id="touchGroup37" width="187" height="314" x="70" y="83" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" name="touchGroup37">
+			<zj:MainCityTouchTitle id="touchTitle37" x="205" y="9" skinName="MainCityTouchTitleSkin"/>
+		</e:Group>
+		<e:Group id="ani0" width="215" height="335" x="56" y="76" scaleX="1" scaleY="1">
+		</e:Group>
+		<e:Group id="ani1" width="54" height="89" x="3097" y="224"/>
+		<e:Group id="ani7" width="124" height="178" x="1746" y="179"/>
+		<e:Group id="ani9" width="101" height="60" x="504" y="0"/>
+		<e:Group id="ani10" width="75" height="43" x="1413" y="0"/>
+		<e:Group id="ani11" width="96" height="54" x="2432" y="0"/>
+		<e:Group id="ani12" width="97" height="59" x="2628" y="0"/>
+		<e:Group id="ani13" width="143" height="50" x="2076" y="269"/>
+		<e:Image id="imgFlash0" x="66" y="85" scaleX="1" scaleY="1" source="main_ani_img_door_lamp_png"/>
+		<e:Image id="imgFlash1" x="33" y="0" scaleX="1" scaleY="1" source="main_ani_img_door_title_png"/>
+		<e:Image id="imgFlash2" x="1766" y="151" scaleX="1" scaleY="1" source="main_ani_img_shop_led_0_png"/>
+		<e:Image id="imgFlash3" x="1868" y="214" scaleX="1" scaleY="1" source="main_ani_img_shop_led_1_png"/>
+		<e:Image id="imgFlash4" x="1782" y="376" scaleX="1" scaleY="1" source="main_ani_img_shop_dot0_png"/>
+		<e:Image id="imgFlash5" x="1807" y="376" scaleX="1" scaleY="1" source="main_ani_img_shop_dot1_png"/>
+	</e:Group>
+	<e:Group id="close" width="3440" height="640" y="0" x="0" name="close">
+		<e:Image source="map_98_3_png" left="0" bottom="0"/>
+		<e:Group id="ani8" width="182" height="110" x="109" y="476"/>
+		<e:Group id="banner" x="816" y="122" width="200" height="232"/>
+	</e:Group>
+</e:Skin>

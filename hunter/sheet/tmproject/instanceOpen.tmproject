@@ -1,0 +1,24 @@
+{
+    "files": [
+        "./../../image/ui/instance/ui_instance_Board_Open_Title1.png",
+        "./../../image/ui/instance/ui_instance_Board_Open_Icon2.png",
+        "./../../image/ui/instance/ui_instance_Board_Open_Icon1.png",
+        "./../../image/ui/instance/ui_instance_Board_Open_Font2.png",
+        "./../../image/ui/instance/ui_instance_Board_Open_Font1.png",
+        "./../../image/ui/instance/ui_instance_Board_Open_Font_Ani.png",
+        "./../../image/ui/instance/ui_instance_Board_Open_Ani2.png",
+        "./../../image/ui/instance/ui_instance_Board_Open_Ani1.png",
+        "./../../image/ui/instance/ui_instance_Board_Lock_Bg.png",
+        "./../../image/ui/instance/ui_instance_Board_Lock.png",
+        "./../../image/ui/instance/ui_instance_Board_Open_Title2.png"
+    ],
+    "projectName": "instanceOpen",
+    "version": 5,
+    "options": {
+        "extend": 0,
+        "layoutMath": "0",
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1
+    }
+}

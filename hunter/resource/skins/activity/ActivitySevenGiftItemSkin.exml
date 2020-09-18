@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivitySevenGiftItemSkin" width="531" height="112" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgSelect" source="ui_acitivity_serverseven_BoardGiftFloor_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="imgSelects" source="ui_acitivity_serverseven_BoardGiftFloorDis_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="btnGet" label="" x="355" y="48">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_mall_gift_ButtonGiftCommonNor_png" source.down="ui_mall_gift_ButtonGiftCommonSel_png" source.disabled="ui_mall_gift_ButtonGiftCommonDis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="imgDay" x="23" y="6" source="ui_acitivity_serverseven_WordsListLeft1_png"/>
+	<e:Label id="lbLimit" text="限购：1次" y="8" size="20" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" textColor="0x000000" horizontalCenter="0.5"/>
+	<e:Scroller width="370" height="75" x="9" y="40" scaleX="0.95" scaleY="0.95">
+		<e:List id="lstViewAward">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="groupPrice" x="379" y="47" touchChildren="false" touchEnabled="false" touchThrough="true">
+		<e:Image id="imgIcon" x="0" source="ui_iconresources_zuanshi3_png" verticalCenter="0"/>
+		<e:BitmapLabel id="lbToken" x="44" text="1000" font="GiftValueNum_fnt" y="13"/>
+	</e:Group>
+	<e:Group id="groupPrimer" x="369" y="7">
+		<e:Image source="ui_acitivity_serverseven_BoardPriceFloor_png" verticalCenter="0" horizontalCenter="0"/>
+		<e:Label id="lbPrimer" text="原价：2000" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" horizontalCenter="0.5" y="6"/>
+		<e:Image source="ui_acitivity_serverseven_BoardListLeft_png" horizontalCenter="0.5" y="6"/>
+	</e:Group>
+	<e:Image id="imgSale" x="329" y="22" source="ui_acitivity_serverseven_WordsSaleTips_png" touchEnabled="false"/>
+	<e:Image id="imgNoSell" x="412" y="61" source="ui_acitivity_serverseven_WordsNoSell_png" touchEnabled="false"/>
+	<e:Image id="imgGet" x="381" y="3" source="ui_acitivity_serverseven_WordsBuy_png" touchEnabled="false"/>
+	<e:Image id="imgStop" x="381" y="3" source="ui_acitivity_serverseven_WordsNone_png" touchEnabled="false"/>
+</e:Skin>

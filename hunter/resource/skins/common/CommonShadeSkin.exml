@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonShadeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="shade" width="960" height="640" horizontalCenter="0" verticalCenter="0" fillAlpha="0.01"/>
+</e:Skin>

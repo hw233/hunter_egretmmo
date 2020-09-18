@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityDoublGemstoneSkin" width="675" height="482" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group top="0" left="0">
+		<e:Image source="ui_acitivity_WordsTipGemstoneDouble_png" left="72" top="0"/>
+		<e:Image source="ui_acitivity_LayerSeconde_png" height="372" scale9Grid="79,14,478,88" left="38" top="109"/>
+		<e:Image source="ui_acitivity_OrnTipGemstoneDouble_png" left="0" top="88"/>
+		<e:Image source="ui_acitivity_WordsTipActivityTime_png" left="225" top="126"/>
+		<e:Label id="lbTime" text="2015.12.15至2015.12.31" size="18" height="23" verticalAlign="middle" textAlign="left" verticalCenter="-103" left="329"/>
+		<e:Image source="ui_acitivity_WordsTipActivityInfomation_png" top="158" left="225"/>
+		<e:Label id="lbInfo" text="活动内容：活动期间内，钻石商城内的美金商品首次购买均可获得双倍钻石" width="320" height="120" size="18" fontFamily="Helvetica" verticalAlign="top" textAlign="left" lineSpacing="6" top="161" left="329"/>
+		<e:Image id="imgOne" source="ui_acitivity_IconGemstonDouble_png" horizontalCenter="123.5" verticalCenter="87"/>
+		<e:Button id="btnBuyGemstone" label="" horizontalCenter="127.5" bottom="8">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_ButtonGoBuyNor_png" source.down="ui_acitivity_ButtonGoBuySel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_RanklistMainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16eaae4c13a"/>
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_acitivity_rankinglist_bg_png" verticalCenter="0" horizontalCenter="0"/>
+		<e:Image source="ui_acitivity_rankinglist_biaoti1_png" horizontalCenter="0" top="28"/>
+		<e:Image source="ui_acitivity_rankinglist_biaotou_png" horizontalCenter="158" top="98"/>
+		<e:Image id="imgTitle" horizontalCenter="0" top="34" source="ui_acitivity_rankinglist_title1_png"/>
+		<e:Image id="imgLeft" left="90" verticalCenter="-12" source="ui_acitivity_rankinglist_tupian1_png"/>
+		<e:Button id="btnClose" label="" horizontalCenter="438" top="38">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_rankinglist_buttonCloseNor_png" source.down="ui_acitivity_rankinglist_buttonCloseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnRule" label="" horizontalCenter="340" top="54">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_rankinglist_buttonRuleNor_png" source.down="ui_acitivity_rankinglist_buttonRuleSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="labelActivityDes" text="捍卫猎人的荣耀-最强猎人尼特罗强势归来" size="18" anchorOffsetX="0" width="172" left="188" verticalCenter="145" fontFamily="Helvetica" lineSpacing="4" verticalAlign="top" anchorOffsetY="0" height="52"/>
+		<e:Label id="labelActivityTime" text="2019/11/18 - 2019/11/18" size="16" anchorOffsetX="0" width="180" left="187" verticalCenter="184" fontFamily="Helvetica" lineSpacing="4" height="18"/>
+		<e:Label id="labelOwnNum" text="我的消耗数量: " size="18" anchorOffsetX="0" width="221" fontFamily="Helvetica" lineSpacing="4" bottom="90" left="121"/>
+		<e:Label id="labelOwnRank" text="我的排名: " size="18" anchorOffsetX="0" fontFamily="Helvetica" lineSpacing="4" bottom="90" right="49" width="188"/>
+		<e:Label text="排行" size="18" anchorOffsetX="0" fontFamily="Helvetica" lineSpacing="4" horizontalCenter="-19" top="98" height="30.67" width="173.92" anchorOffsetY="0" textAlign="center" verticalAlign="middle"/>
+		<e:Label text="玩家" size="18" anchorOffsetX="0" fontFamily="Helvetica" lineSpacing="4" horizontalCenter="158" top="98" height="30.67" width="173.92" anchorOffsetY="0" textAlign="center" verticalAlign="middle"/>
+		<e:Label id="labelTimes" text="消耗数量" size="18" anchorOffsetX="0" fontFamily="Helvetica" lineSpacing="4" horizontalCenter="335" top="98" height="30.67" width="173.92" anchorOffsetY="0" textAlign="center" verticalAlign="middle"/>
+		<e:Scroller id="scrollerRank" width="530" height="380" horizontalCenter="159" verticalCenter="6" anchorOffsetY="0">
+			<e:List id="listRank">
+				<e:layout>
+					<e:VerticalLayout gap="6"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

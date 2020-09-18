@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterPsychicRefreshSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_hunter_psychic_LayerRefreshBg_png" scaleY="1" scaleX="1" width="1344" height="640" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group top="0" bottom="0" left="0" right="0">
+	<e:Image source="ui_hunter_OrnTop_png" top="0" horizontalCenter="0" width="100%" scale9Grid="20,5,1104,30"/>
+    <e:Button id="btnClose" label="" left="-23" top="-8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+		<e:Image source="ui_hunter_psychic_WordsRefreshTitle_png" top="0" left="110"/>
+		<e:Group width="253" height="42" right="180" top="0">
+			<e:Image source="ui_hunter_psychic_BoardCornerFloor_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" scale9Grid="92,15,66,10"/>
+			<e:Image source="ui_hunter_psychic_WordsNowHave_png" verticalCenter="0" left="30"/>
+			<e:Image source="ui_hunter_psychic_BoardRefreshCostNumFloor_png" width="100" height="28" verticalCenter="0" left="125"/>
+			<e:Image source="ui_iconresources_nianliguo3_png" verticalCenter="0" left="125" scaleX="0.7" scaleY="0.7"/>
+			<e:Label id="labelOwnNumber" text="99999" width="73" height="22" size="18" verticalAlign="middle" textAlign="left" verticalCenter="0" left="160"/>
+			<e:Button id="btnAdd" label="" right="-10" top="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="groupRefresh" width="957" horizontalCenter="0" top="65" height="394">
+			<e:Image source="ui_hunter_psychic_LayerRefreshBgShadow_png" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Group id="groupRefreshBefore" width="393" height="393" verticalCenter="0" horizontalCenter="-282">
+				<e:Image source="ui_hunter_psychic_BoardPsychicFrameLow_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="ui_hunter_psychic_WordsTitleBefore_png" left="10" top="10"/>
+				<e:Image source="ui_hunter_psychic_WordsFa_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Group id="groupLeftPsychic1" width="120" height="120" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" top="15"/>
+				<e:Group id="groupLeftPsychic2" height="120" anchorOffsetX="0.5" anchorOffsetY="0.5" width="120" right="16" top="76"/>
+				<e:Group id="groupLeftPsychic3" width="120" height="120" anchorOffsetX="0.5" anchorOffsetY="0.5" right="16" bottom="77"/>
+				<e:Group id="groupLeftPsychic4" width="120" height="120" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" bottom="15"/>
+				<e:Group id="groupLeftPsychic5" width="120" height="120" anchorOffsetX="0.5" anchorOffsetY="0.5" left="17" bottom="77"/>
+				<e:Group id="groupLeftPsychic6" width="120" height="120" anchorOffsetX="0.5" anchorOffsetY="0.5" left="17" top="76"/>
+			</e:Group>
+			<e:Group id="groupRefreshAfter" width="393" height="393" verticalCenter="0" horizontalCenter="282">
+				<e:Image scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_hunter_psychic_BoardPsychicFrameHigh_png"/>
+				<e:Image left="10" top="10" source="ui_hunter_psychic_WordsTitleAfter_png"/>
+				<e:Image source="ui_hunter_psychic_WordsFa_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Group id="groupRightPsychic1" width="120" height="120" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" top="15"/>
+				<e:Group id="groupRightPsychic2" height="120" anchorOffsetX="0.5" anchorOffsetY="0.5" width="120" right="16" top="76"/>
+				<e:Group id="groupRightPsychic3" width="120" height="120" anchorOffsetX="0.5" anchorOffsetY="0.5" right="16" bottom="77"/>
+				<e:Group id="groupRightPsychic4" width="120" height="120" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" bottom="15"/>
+				<e:Group id="groupRightPsychic5" width="120" height="120" anchorOffsetX="0.5" anchorOffsetY="0.5" left="17" bottom="77"/>
+				<e:Group id="groupRightPsychic6" width="120" height="120" anchorOffsetX="0.5" anchorOffsetY="0.5" left="17" top="76"/>
+			</e:Group>
+			<e:Group id="groupPropertyChange" width="172" height="250" horizontalCenter="0" top="40">
+				<e:Image source="ui_hunter_psychic_BoardGroupNameFloor_png" horizontalCenter="0" top="0"/>
+				<e:Image horizontalCenter="0" top="-3" source="ui_hunter_psychic_WordsPropertChange_png"/>
+				<e:Image source="ui_hunter_psychic_BoardRefreshPropertyFloor_png" horizontalCenter="0" bottom="0"/>
+				<e:Scroller width="172" horizontalCenter="0" top="20" height="200">
+					<e:List id="listProperty" width="100%" height="100%">
+						<e:layout>
+							<e:VerticalLayout gap="7"/>
+						</e:layout>
+					</e:List>
+				</e:Scroller>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupChoose" width="200" height="116" horizontalCenter="0" top="343">
+			<e:Image source="ui_hunter_psychic_BoardRefreshArrow_png" scaleX="0.9" scaleY="0.9" left="0" top="0"/>
+			<e:Image source="ui_hunter_psychic_BoardRefreshArrow_png" scaleX="0.9" scaleY="0.9" right="0" top="0"/>
+			<e:Group id="groupShowName" width="100" height="36" left="0" top="40">
+				<e:Label id="labelShowName" text="显示名称" width="64" size="16" verticalAlign="middle" textAlign="left" left="0" height="30" verticalCenter="0"/>
+				<e:Image source="ui_instance_BoardBigon_png" verticalCenter="0" right="0"/>
+				<e:Image id="imgShowNameBigon" source="ui_instance_IconBigon_png" verticalCenter="0" right="0"/>
+			</e:Group>
+			<e:Group id="groupShowProperty" width="100" height="36" right="0" top="40">
+				<e:Label id="labelShowProperty" text="显示属性" width="64" size="16" verticalAlign="middle" textAlign="left" left="0" height="30" verticalCenter="0"/>
+				<e:Image source="ui_instance_BoardBigon_png" verticalCenter="0" right="0"/>
+				<e:Image id="imgShowPropertyBigon" source="ui_instance_IconBigon_png" verticalCenter="0" right="0"/>
+			</e:Group>
+			<e:Group id="groupShowAnimation" width="130" height="36" horizontalCenter="0" top="80">
+				<e:Label id="labelShowAnimation" text="显示修炼动画" width="100" size="16" verticalAlign="middle" textAlign="left" left="0" height="30" verticalCenter="0"/>
+				<e:Image source="ui_instance_BoardBigon_png" verticalCenter="0" right="0"/>
+				<e:Image id="imgShowAnimationBigon" source="ui_instance_IconBigon_png" verticalCenter="0" right="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupBefore" width="300" height="161" bottom="10" horizontalCenter="-270">
+			<e:Image source="ui_hunter_psychic_BoardRefreshCostFloor_png" scaleX="1" scaleY="1" left="0" top="0" right="0" bottom="0" scale9Grid="50,56,111,55"/>
+			<e:Image source="ui_hunter_psychic_BoardGroupNameFloor_png" scaleX="1" scaleY="1" horizontalCenter="0" top="5"/>
+			<e:Image source="ui_hunter_psychic_WordsGroupBefore_png" scaleX="1" scaleY="1" horizontalCenter="0" top="3" width="114" height="24"/>
+			<e:Image source="ui_hunter_psychic_BoardRefreshGroupFloor_png" width="288" horizontalCenter="0" top="32" height="124"/>
+			<e:Scroller width="288" top="32" horizontalCenter="0" height="124">
+				<e:List id="listPsychicBefore" x="2">
+					<e:layout>
+						<e:HorizontalLayout gap="0"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="groupSave" width="200" height="160" horizontalCenter="0" bottom="10">
+			<e:Image source="ui_hunter_psychic_BoardRefreshCostFloor_png" scaleX="1" scaleY="1" left="0" top="0" right="0" bottom="0" scale9Grid="50,56,111,55" x="-360" y="-1"/>
+			<e:Image source="ui_hunter_psychic_BoardGroupNameFloor_png" scaleX="1" scaleY="1" horizontalCenter="0" top="5" x="-302" y="4"/>
+			<e:Image source="ui_hunter_psychic_WordsChoose_png" horizontalCenter="0" top="3" height="24" width="114"/>
+			<e:Button id="btnSave" label="" horizontalCenter="0" top="40">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_plan_ButtonSaveNor_png" source.down="ui_arena_plan_ButtonSaveSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnCancel" label="" horizontalCenter="0" bottom="10">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_plan_ButtonCancelNor_png" source.down="ui_arena_plan_ButtonCancelSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="groupCost" width="200" height="160" horizontalCenter="0" bottom="10">
+			<e:Image source="ui_hunter_psychic_BoardRefreshCostFloor_png" scaleX="1" scaleY="1" left="0" top="0" right="0" bottom="0" scale9Grid="50,56,111,55" x="-360" y="-1"/>
+			<e:Image source="ui_hunter_psychic_BoardGroupNameFloor_png" scaleX="1" scaleY="1" horizontalCenter="0" top="5" x="-302" y="4"/>
+			<e:Image horizontalCenter="0" top="3" height="24" width="114" source="ui_hunter_psychic_WordsRefreshCost_png"/>
+			<e:Button id="btnRefresh" label="" horizontalCenter="0" bottom="5" scaleX="0.9" scaleY="0.9">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_psychic_ButtonRefreshNor_png" source.down="ui_hunter_psychic_ButtonRefreshSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group width="180" height="22" horizontalCenter="0" top="30">
+				<e:Image source="ui_hunter_psychic_BoardRefreshCostNumFloor_png" left="0" top="0" right="0" bottom="0" scale9Grid="64,8,76,8"/>
+				<e:Label text="基础消耗:" x="6" size="16" fontFamily="Helvetica" width="75" height="22" verticalCenter="0" textAlign="left" verticalAlign="middle"/>
+				<e:Image source="ui_iconresources_nianliguo3_png" verticalCenter="0" left="75" scaleX="0.7" scaleY="0.7"/>
+				<e:Label id="labelBaseCostNumber" text="9" size="16" fontFamily="Helvetica" height="22" verticalCenter="0" textAlign="left" left="115" right="0" verticalAlign="middle"/>
+			</e:Group>
+			<e:Group width="180" height="22" horizontalCenter="0" top="55">
+				<e:Image source="ui_hunter_psychic_BoardRefreshCostNumFloor_png" left="0" top="0" right="0" bottom="0" scale9Grid="64,8,76,8"/>
+				<e:Label text="锁定消耗:" x="6" size="16" fontFamily="Helvetica" width="75" height="22" verticalCenter="0" textAlign="left" verticalAlign="middle"/>
+				<e:Image source="ui_iconresources_nianliguo3_png" verticalCenter="0" left="75" scaleX="0.7" scaleY="0.7"/>
+				<e:Label id="labelLockCostNumber" text="99" size="16" fontFamily="Helvetica" height="22" verticalCenter="0" textAlign="left" left="115" right="0" verticalAlign="middle"/>
+			</e:Group>
+			<e:Group width="180" height="22" horizontalCenter="0" top="80">
+				<e:Image source="ui_hunter_psychic_BoardRefreshCostNumFloor_png" left="0" top="0" right="0" bottom="0" scale9Grid="64,8,76,8"/>
+				<e:Label text="总计消耗:" x="6" size="16" fontFamily="Helvetica" width="75" height="22" verticalCenter="0" textAlign="left" verticalAlign="middle"/>
+				<e:Image source="ui_iconresources_nianliguo3_png" verticalCenter="0" left="75" scaleX="0.7" scaleY="0.7"/>
+				<e:Label id="labelTotalCostNumber" text="999" size="16" fontFamily="Helvetica" height="22" verticalCenter="0" textAlign="left" left="115" right="0" verticalAlign="middle"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupAfter" width="300" height="161" bottom="10" horizontalCenter="270">
+			<e:Image source="ui_hunter_psychic_BoardRefreshCostFloor_png" scaleX="1" scaleY="1" left="0" top="0" right="0" bottom="0" scale9Grid="50,56,111,55"/>
+			<e:Image source="ui_hunter_psychic_BoardGroupNameFloor_png" scaleX="1" scaleY="1" horizontalCenter="0" top="5"/>
+			<e:Image scaleX="1" scaleY="1" horizontalCenter="0" top="3" width="114" height="24" source="ui_hunter_psychic_WordsGroupAfter_png"/>
+			<e:Image source="ui_hunter_psychic_BoardRefreshGroupFloor_png" width="288" horizontalCenter="0" top="32" height="124"/>
+			<e:Scroller width="288" height="124" top="32" horizontalCenter="0">
+			<e:List id="listPsychicAfter" x="1">
+				<e:layout>
+					<e:HorizontalLayout gap="0"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Button id="btnIllustrate" label="" right="10" top="50">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_psychic_ButtonGroupIllustratedNor_png" source.down="ui_hunter_psychic_ButtonGroupIllustratedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+    </e:Group>
+</e:Skin>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityXuyuanAwardItemSkin" width="700" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgFloor" source="ui_acitivity_wish_BoardSFloor_png" width="700" height="130" scale9Grid="13,11,78,72" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgPic" source="ui_acitivity_wish_IconS_png" left="14" verticalCenter="0"/>
+		<e:Scroller id="scrollerView" width="550" height="120" right="10" verticalCenter="0" scrollPolicyH="off" scrollPolicyV="off">
+			<e:List id="lstView">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="7" verticalGap="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

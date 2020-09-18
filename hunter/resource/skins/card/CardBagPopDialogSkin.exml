@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardBagPopDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupGetCard" width="960" height="640" horizontalCenter="0" verticalCenter="0">
+
+
+		<e:Group id="groupTeach" x="71" y="131">
+			<e:Group id="groupAniBack1" width="260" height="287" x="0" y="0" anchorOffsetY="0"/>
+			<e:Group id="groupCard1" width="260" height="350" x="0" y="0">
+				<e:Group id="groupCardAni1" width="100%" height="100%" x="0" y="0"/>
+				<e:Group id="groupCardContent1" width="214" height="100%" y="0" horizontalCenter="0">
+				<e:Image id="imageFrame1" source="ui_frame_FrameCard5_png" y="0" horizontalCenter="0"/>
+				<e:Label id="labelCardId1" text="13" x="22" y="22" size="20" textColor="0x070707" width="35" textAlign="center"/>
+				<e:Label id="labelCardName1" text="海岸线啊" x="79" y="22" size="18" textColor="0x070707"/>
+				<e:Image id="imageIcon1" source="card_054qiannianfengdieA_25_png" y="55" horizontalCenter="0"/>
+				<e:Image id="imageCardType1" source="ui_hunter_evaluate_IconCardType5_png" x="12" y="56"/>
+				<e:Label id="labelCardInfo1" text="这里的内容是什么只有亮哥知道，也不需要翻译了，翻译出来没用。" x="18" y="165" size="12" textColor="0x070707" width="180" anchorOffsetY="0" height="105"/>
+				<e:Image source="ui_cardbag_BoardStarLevel_png" y="288" horizontalCenter="0"/>
+				<e:Image source="ui_cardbag_WordsTipViewInfo_png" y="317" horizontalCenter="0"/>
+				<e:Label id="labelConstRarity1" text="稀有度：" x="30" y="291" size="24"/>
+				<e:Image id="imageGradeLevel1" source="ui_hunter_evaluate_IconWrodsCard5_png" x="118" y="283" width="42" height="41"/>
+				<e:Image source="ui_card_BoardCardStar_png" x="22" y="136"/>
+				<e:Group id="groupStar1" width="80" height="20" x="22" y="135"/>
+				<e:BitmapLabel id="labelLevel1" width="40" height="20" x="159" y="126" text="99" font="BattleSkillCDNum_fnt" textAlign="right"/>
+				</e:Group>
+				<e:Group id="groupCardAniFront1" width="100%" height="100%" x="0" y="0">
+				</e:Group>
+				<e:Image id="imageBack1" source="ui_frame_FrameCardBack_png" y="0" horizontalCenter="-1"/>
+			</e:Group>
+			<e:Group width="260" height="287" x="287" y="0" id="groupAniBack2" anchorOffsetY="0"/>
+			<e:Group id="groupCard2" width="260" height="350" x="287" y="0">
+				<e:Group id="groupCardAni2" width="100%" height="100%" x="0" y="0"/>
+				<e:Group id="groupCardContent2" width="214" height="100%" y="0" horizontalCenter="0" anchorOffsetY="0">
+				<e:Image id="imageFrame2" source="ui_frame_FrameCard5_png" y="0" horizontalCenter="0"/>
+				<e:Label id="labelCardInfo2" text="这里的内容是什么只有亮哥知道，也不需要翻译了，翻译出来没用。" x="18" y="166" size="12" textColor="0x070707" width="180" anchorOffsetY="0" height="103"/>
+				<e:Image id="imageIcon2" source="card_054qiannianfengdieA_25_png" y="55" horizontalCenter="0"/>
+				<e:BitmapLabel id="labelLevel2" width="40" height="20" x="159" y="126" text="99" font="BattleSkillCDNum_fnt" textAlign="right"/>
+				<e:Image source="ui_card_BoardCardStar_png" x="22" y="136"/>
+				<e:Group id="groupStar2" width="80" height="20" x="22" y="135"/>
+				<e:Image id="imageCardType2" source="ui_hunter_evaluate_IconCardType5_png" x="12" y="56"/>
+				<e:Label id="labelCardName2" text="海岸线啊" x="79" y="22" size="18" textColor="0x070707"/>
+				<e:Label id="labelCardId2" text="098" x="20" y="22" size="20" textColor="0x070707" width="35" textAlign="center"/>
+				<e:Image source="ui_cardbag_WordsTipViewInfo_png" y="317" horizontalCenter="0"/>
+				<e:Image source="ui_cardbag_BoardStarLevel_png" y="288" horizontalCenter="0"/>
+				<e:Image id="imageGradeLevel2" source="ui_hunter_evaluate_IconWrodsCard5_png" x="118" y="283" width="42" height="41"/>
+				<e:Label id="labelConstRarity2" text="稀有度：" x="31" y="291" size="24"/>
+				</e:Group>
+				<e:Group id="groupCardAniFront2" width="100%" height="100%" x="0" y="0"/>
+				<e:Image id="imageBack2" source="ui_frame_FrameCardBack_png" y="0" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group id="groupAniBack3" width="260" height="287" x="570" y="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<e:Group id="groupCard3" width="260" height="350" x="573" y="0">
+				<e:Group id="groupCardAni3" width="100%" height="100%" x="0" y="0"/>
+				<e:Group id="groupCardContent3" width="214" height="100%" y="0" horizontalCenter="0">
+				<e:Image id="imageFrame3" source="ui_frame_FrameCard5_png" y="0" horizontalCenter="0"/>
+				<e:Label id="labelCardInfo3" text="这里的内容是什么只有亮哥知道，也不需要翻译了，翻译出来没用。" x="18" y="166" size="12" textColor="0x070707" width="180" anchorOffsetY="0" height="103"/>
+				<e:Image id="imageIcon3" source="card_054qiannianfengdieA_25_png" y="55" horizontalCenter="0"/>
+				<e:BitmapLabel id="labelLevel3" width="40" height="20" x="159" y="126" text="99" font="BattleSkillCDNum_fnt" textAlign="right"/>
+				<e:Image source="ui_card_BoardCardStar_png" x="22" y="136"/>
+				<e:Group id="groupStar3" width="80" height="20" x="22" y="135"/>
+				<e:Image id="imageCardType3" source="ui_hunter_evaluate_IconCardType5_png" x="12" y="56"/>
+				<e:Label id="labelCardName3" text="海岸线啊" x="79" y="22" size="18" textColor="0x070707"/>
+				<e:Label id="labelCardId3" text="1" x="22" y="22" size="20" textColor="0x070707" width="35" textAlign="center"/>
+				<e:Image source="ui_cardbag_BoardStarLevel_png" y="288" horizontalCenter="0"/>
+				<e:Image id="imageGradeLevel3" source="ui_hunter_evaluate_IconWrodsCard5_png" x="118" y="282" width="42" height="41" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Label id="labelConstRarity3" text="稀有度：" x="31" y="291" size="24"/>
+				<e:Image source="ui_cardbag_WordsTipViewInfo_png" y="317" horizontalCenter="0"/>
+				</e:Group>
+				<e:Group id="groupCardAniFront3" width="100%" height="100%" x="0" y="0"/>
+				<e:Image id="imageBack3" source="ui_frame_FrameCardBack_png" y="0" horizontalCenter="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="btnGetCard" label="" y="519" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_cardbag_ButtonGetCardNor_png" source.down="ui_cardbag_ButtonGetCardSel_png" source.disabled="ui_cardbag_ButtonGetCardSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

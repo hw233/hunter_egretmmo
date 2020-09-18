@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityPotatoItemSkin" width="210" height="425" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="-1.5">
+		<e:Image source="ui_card_select_BoardItemFloor_png" scale9Grid="25,52,156,318" x="0" y="0"/>
+		<e:Image source="ui_card_select_BoardNameFloor_png" y="12" x="11"/>
+		<e:Label id="lbName" text="生命之树碎片" y="17" size="16" fontFamily="Helvetica" x="55"/>
+		<e:Group x="32" y="38">
+			<e:Image id="imgCardBoard" source="ui_frame_framehalfcard1_png" y="0" x="0"/>
+			<e:Label id="lbCardName" text="丰收之树的树" size="12" textColor="0x000000" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" width="80" horizontalCenter="16.5" top="7"/>
+			<e:Label id="lbNum" text="16" size="16" textColor="0x000000" fontFamily="Helvetica" width="40" verticalAlign="middle" textAlign="center" left="2" top="7"/>
+			<e:Group left="10" top="34">
+				<e:Image id="imgCard" source="card_000zhipeizhedezhufuSS_1s_png" scaleX="0.58" scaleY="0.58" left="0" top="0"/>
+				<e:Image id="imgCardType" source="ui_hunter_evaluate_IconCardType4_png" left="-2" top="-2"/>
+			</e:Group>
+			<e:BitmapLabel id="lbCardNum" width="60" height="20" x="73" y="94" font="ItemNum_fnt" text="123" visible="false"/>
+			<e:Image source="ui_card_select_IconChip_png" left="-37" top="62" x="-37" y="69" scaleX="1" scaleY="1"/>
+			<e:Group id="groupStar" width="80" height="20" x="47" y="118"/>
+		</e:Group>
+		<e:Label id="lbTips" text="（收集100枚可合成整卡）" y="192" size="16" textColor="0x009000" fontFamily="Helvetica" horizontalCenter="0.5"/>
+		<e:Image source="ui_card_select_BoardInfoFlloor_png" y="227" horizontalCenter="0"/>
+		<e:Image source="ui_card_select_WordsInfo_png" y="214" horizontalCenter="0"/>
+		<e:Label text="主属性：" x="20" y="243" size="14" textColor="0x000000" fontFamily="Helvetica"/>
+		<e:Label id="lbAttriMain" text="攻击+20%" x="77" y="243" size="14" fontFamily="Helvetica" textColor="0x000000" textAlign="center" verticalAlign="middle"/>
+		<e:Label id="lbAttriMainFull" text="攻击+20%" x="20" y="263" size="14" textColor="0x009000" fontFamily="Helvetica" width="150" textAlign="left" verticalAlign="middle"/>
+		<e:Image source="ui_card_select_LineProperty_png" y="282" horizontalCenter="0"/>
+		<e:Label text="副属性：" x="20" y="288" size="14" textColor="0x000000" fontFamily="Helvetica"/>
+		<e:Scroller id="scrollerAttribute" width="180" height="200" horizontalCenter="3" bottom="-89" scrollPolicyH="off" scrollPolicyV="on">
+			<e:List id="lstAttri" y="1">
+				<e:layout>
+					<e:TileLayout paddingBottom="0" paddingTop="3"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

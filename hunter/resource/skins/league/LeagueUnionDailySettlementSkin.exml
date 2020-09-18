@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="League" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_union_battle_SettlementBG_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgWinLogo" source="ui_union_battle_win_png" y="111" horizontalCenter="0"/>
+		<e:Image id="imgSegLogoLeft" source="ui_union_battle_segmentLogo1_1_png" x="69" y="124"/>
+		<e:Image id="imgSegLeft" source="ui_union_battle_segment1_1_png" x="85.32" y="188"/>
+		<e:Label id="lbNameLeft" text="公会名左" x="146" size="20" textColor="0x00beff" fontFamily="Helvetica" height="25" y="148" verticalAlign="middle" width="156"/>
+		<e:Label id="lbLeft" text="天梯分 1050 +24" x="146" y="186" size="18" fontFamily="Helvetica" height="24" width="167"/>
+		<e:Image id="imgSegLogoRight" source="ui_union_battle_segmentLogo1_1_png" x="629" y="124"/>
+		<e:Image id="imgSegRight" source="ui_union_battle_segment1_1_png" x="646.3" y="188"/>
+		<e:Label id="lbNameRight" text="公会名右" x="481" y="148" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" width="155"/>
+		<e:Label id="lbRight" text="天梯分 1050 +24" x="481" y="186" size="18" fontFamily="Helvetica" verticalAlign="middle" width="165"/>
+		<e:Label id="lbCon1" text="指挥艇生命" size="20" fontFamily="Helvetica" height="25" verticalAlign="middle" y="243" textColor="0x00beff" horizontalCenter="0" textAlign="center" width="150"/>
+		<e:Label id="lbCon1Left" text="1000" x="125.5" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="243" width="120" textAlign="center"/>
+		<e:Label id="lbCon1Right" text="1000" x="534.17" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="243" width="120" textAlign="center"/>
+		<e:Label id="lbCon2" text="护卫艇左生命" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" y="283" width="150" verticalAlign="middle" horizontalCenter="0" textAlign="center"/>
+		<e:Label id="lbCon2Left" text="1000" x="124.84" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="22.33" verticalAlign="middle" y="285.67" width="120" textAlign="center" anchorOffsetY="0"/>
+		<e:Label id="lbCon2Right" text="1000" x="533.34" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="283" width="120" textAlign="center"/>
+		<e:Label id="lbCon3" text="护卫艇右生命" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="323" width="120" textAlign="center" horizontalCenter="0"/>
+		<e:Label id="lbCon3Left" text="1000" x="124.2" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="323" width="120" textAlign="center"/>
+		<e:Label id="lbCon3Right" text="1000" x="533.34" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="323" width="120" textAlign="center"/>
+		<e:Label id="lbCon4" text="先锋艇左生命" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="363" width="150" textAlign="center" horizontalCenter="0"/>
+		<e:Label id="lbCon4Left" text="1000" x="124" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="363" width="120" textAlign="center"/>
+		<e:Label id="lbCon4Right" text="1000" x="533.34" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="363" width="120" textAlign="center"/>
+		<e:Label id="lbCon5" text="先锋艇右生命" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="403" width="150" horizontalCenter="0" textAlign="center"/>
+		<e:Label id="lbCon5Left" text="1000" x="124" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="403" width="120" textAlign="center"/>
+		<e:Label id="lbCon5Right" text="1000" x="533.34" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="403" width="120" textAlign="center"/>
+		<e:Label id="lbCon6" text="击败指挥艇防守队伍得分" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="404" width="120" textAlign="center" horizontalCenter="0" visible="false"/>
+		<e:Label id="lbCon6Left" text="1000" x="124" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="404" width="120" textAlign="center" visible="false"/>
+		<e:Label id="lbCon6Right" text="1000" x="533" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="404" width="120" textAlign="center" visible="false"/>
+		<e:Image source="ui_union_battle_SettlementInfoLine_png" y="443" x="60"/>
+		<e:Label id="lbTotal" text="剩余总生命" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="453" width="150" textAlign="center" horizontalCenter="0"/>
+		<e:Label id="lbScoreTotalLeft" text="1000" x="124" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="453" width="120" textAlign="center"/>
+		<e:Label id="lbScoreTotalRight" text="1000" x="536" size="20" textColor="0x00BEFF" fontFamily="Helvetica" height="25" verticalAlign="middle" y="453" width="120" textAlign="center"/>
+		<e:Button id="btnEnsure" label="" y="481.36" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_ensure1_png" source.down="ui_union_battle_ensure2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

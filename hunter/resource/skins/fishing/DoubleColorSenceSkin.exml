@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DoubleColorSenceSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" verticalCenter="0" horizontalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="790" height="525" scale9Grid="133,30,163,91" horizontalCenter="18.5" verticalCenter="44"/>
+		<e:Image source="ui_doublecolor_WordsBoard_png" horizontalCenter="-21" verticalCenter="17.5"/>
+		<e:Image source="ui_doublecolor_WordsTip_png" horizontalCenter="15" verticalCenter="-252"/>
+		<e:Label id="lbTime" text="投注时间：每日0点至21点55分" size="18" fontFamily="Helvetica" verticalCenter="-85.5" verticalAlign="middle" textAlign="left" width="300" horizontalCenter="100.5"/>
+		<e:Label id="lbOpenAwardTime" text="开奖时间：半夜三更" size="18" fontFamily="Helvetica" verticalCenter="-61.5" horizontalCenter="50.5" verticalAlign="middle" textAlign="left" width="200"/>
+		<e:Label id="lbInfo" text="投注要求：1枚任意红色果实+4枚任意蓝色果实" size="18" fontFamily="Helvetica" verticalCenter="-39.5" horizontalCenter="149.5" verticalAlign="middle" textAlign="left" width="400"/>
+		<e:Label text="今日开奖结果：" textColor="0xfefb00" size="22" fontFamily="Helvetica" verticalCenter="5.5" horizontalCenter="-5.5"/>
+		<e:Label id="lbOpenAwardDay" text="距离开奖时间：31213" textColor="0x00f900" size="18" fontFamily="Helvetica" verticalCenter="4.5" rotation="0.02" width="300" textAlign="left" horizontalCenter="212.5"/>
+		<e:Group id="groupTouzhu" verticalCenter="53.5" anchorOffsetY="0" height="74" horizontalCenter="118.5">
+			<e:Image source="ui_doublecolor_IconAdd_png" verticalCenter="0.5" horizontalCenter="-95.5"/>
+			<e:Group id="groupFruit2_1" width="0" height="0" top="0" horizontalCenter="-85"/>
+			<e:Group width="0" height="0" id="groupFruit2_2" horizontalCenter="5" top="0"/>
+			<e:Group width="0" height="0" id="groupFruit2_3" x="300" top="0"/>
+			<e:Group id="groupFruit2_4" width="0" height="0" scaleX="1" scaleY="1" x="390" top="0"/>
+			<e:Group id="groupFruit2_5" width="0" height="0" scaleX="1" scaleY="1" horizontalCenter="-205" top="0"/>
+		</e:Group>
+		<e:Button id="btnOK" label="" horizontalCenter="288" verticalCenter="267.5" width="169" height="56">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_doublecolor_ButtonBetNor_png" source.down="ui_doublecolor_ButtonBetSel_png" source.disabled="ui_doublecolor_ButtonBetDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_doublecolor_OrnTip_png" horizontalCenter="26.5" verticalCenter="-182.5"/>
+		<e:Label id="lbMy" text="我的投注结果：nsadaso" size="20" fontFamily="Helvetica" horizontalCenter="42.5" verticalCenter="117.5" width="250"/>
+		<e:Group id="groupMy" scaleX="1" scaleY="1" horizontalCenter="108.5" verticalCenter="168" anchorOffsetY="0" height="79">
+			<e:Image source="ui_doublecolor_IconAdd_png" verticalCenter="0" x="90"/>
+			<e:Group id="groupFruit1_1" width="0" height="0" top="0" horizontalCenter="-75"/>
+			<e:Group id="groupFruit1_2" width="0" height="0" top="0" horizontalCenter="15"/>
+			<e:Group id="groupFruit1_3" width="0" height="0" top="0" horizontalCenter="105"/>
+			<e:Group id="groupFruit1_4" width="0" height="0" scaleX="1" scaleY="1" top="0" horizontalCenter="195"/>
+			<e:Group id="groupFruit1_5" width="0" height="0" scaleX="1" scaleY="1" top="0" horizontalCenter="-195"/>
+		</e:Group>
+		<e:Button id="btnClose" label="" horizontalCenter="379.5" verticalCenter="-223">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnViewEnd" label="" horizontalCenter="-265" verticalCenter="271">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_doublecolor_ButtonViewEndNor_png" source.down="ui_doublecolor_ButtonViewEndSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnAwardView" label="" horizontalCenter="-85" verticalCenter="271" width="165" height="55">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_doublecolor_ButtonAwardViewNor_png" source.down="ui_doublecolor_ButtonAwardViewSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

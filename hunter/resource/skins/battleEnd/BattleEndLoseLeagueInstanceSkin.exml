@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleEndLoseLeagueInstanceSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="BattleEnd_LoseLeagueInstance" width="100%" height="100%" x="0" y="0">
+		<e:Group id="AdaptBoard" width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="NodeBoard" width="100%" height="100%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group width="515" height="567" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="154" verticalCenter="0">
+				<e:Button id="ButtonGoOn" label="" y="490.01" horizontalCenter="100.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_battleend_ButtonReturnNor_png" source.down="ui_battleend_ButtonReturnSel_png" source.disabled="ui_battleend_ButtonReturnNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="ButtonNextMob" label="" y="490.01" horizontalCenter="-105">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_battleend_ButtonAgainInstanceNor_png" source.down="ui_battleend_ButtonAgainInstanceSel_png" source.disabled="ui_battleend_ButtonAgainInstanceNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Image source="ui_battleend_OrnLine_png" y="309.33" horizontalCenter="0.5"/>
+				<e:Image source="ui_battleend_OrnTip_png" y="99" scaleX="-1" horizontalCenter="-133"/>
+				<e:Image source="ui_battleend_OrnTip_png" y="99" scaleX="1" horizontalCenter="133" x="10"/>
+				<e:Image source="ui_battleend_WordsWinUnionBossB_png" y="95" horizontalCenter="0"/>
+				<e:BitmapLabel width="400" height="31" y="136.41" font="LeagueBattleEnd_fnt" text="x1234567万X89.1%" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+				<e:Image source="ui_battleend_WordsGetAward_png" y="310" fillMode="scale" scaleX="1" scaleY="1" horizontalCenter="0" x="55"/>
+				<e:Image source="ui_battleend_OrnTip_png" y="313" scaleX="-1" horizontalCenter="-78" x="68" scaleY="1"/>
+				<e:Image source="ui_battleend_OrnTip_png" y="313" scaleX="1" horizontalCenter="78" x="139" scaleY="1"/>
+				<e:List id="TableViewDrops" width="450" height="110" y="347.41" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5" x="-121" scaleX="1" scaleY="1"/>
+
+
+
+
+			</e:Group>
+			<e:Group width="308" height="567" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="-257">
+				<e:Button id="ButtonDetail" label="" y="371.06" horizontalCenter="-8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_battleend_ButtonHitNumNor_png" source.down="ui_battleend_ButtonHitNumSel_png" source.disabled="ui_battleend_ButtonHitNumNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Group id="NodeStar" width="200" height="200" y="49.41" horizontalCenter="0"/>
+				<e:Group id="NodeWin" width="200" height="200" y="139.41" horizontalCenter="0"/>
+				<e:Image source="ui_battleend_BoardEndNameTime_png" y="452.64" horizontalCenter="0.5"/>
+				<e:Image id="SpriteWordName" source="ui_battleend_WordsInstanceName_png" x="51" y="453.97"/>
+				<e:Label id="LabelInstanceName" text="副本名称不翻译" x="142" y="457.95" fontFamily="Helvetica" size="18" textAlign="left" verticalAlign="middle"/>
+				<e:Image source="ui_battleend_BoardEndNameTime_png" y="490.64" horizontalCenter="0.5"/>
+				<e:Image id="SpriteWordTime" x="51" y="490.64" source="ui_battleend_WordsInstanceTime_png"/>
+				<e:Label id="LabelInstanceTime" text="通关时间不翻译" x="142" y="494.65" fontFamily="Helvetica" size="18" textAlign="left" verticalAlign="middle"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

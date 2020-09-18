@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterTransformSkillPopSkin" width="450" height="550" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16bff68e4a8"/>
+	<e:Group horizontalCenter="6.5" verticalCenter="0">
+		<e:Image source="ui_hunter_break_BoardBreakBigFloor_png" width="430" height="470" scale9Grid="57,13,342,83" x="0" y="41.96"/>
+		<e:Image source="ui_hunter_break_BoardBreakChoseHunterFloor_png" y="42.58" width="430" x="0"/>
+		<e:Image source="ui_card_BoardCardPopTop_png" y="8.95" width="430" x="0"/>
+		<e:Button id="buttonClose" label="" x="353" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_storyinstance_transform_WordsChooseHunter_png" x="8" y="13.67"/>
+		<e:Group width="379" height="363" x="27" y="52.64" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Scroller width="100%" height="100%" x="0" y="0">
+			<e:List id="listViewDrop" y="-2.67"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Button id="buttonUse" label="" y="439.97" x="141">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedOkUseNor_png" source.down="ui_bag_ButtonBagSelectedOkUseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imageNone" source="ui_hunter_break_WordsNoHunter_png" x="106" y="248.96"/>
+	</e:Group>
+</e:Skin>

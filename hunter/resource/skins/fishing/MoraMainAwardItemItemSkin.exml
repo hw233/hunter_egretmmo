@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MoraMainAwardItemItemSkin" width="50" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imageBoard" source="ui_frame_FrameHunterAsh_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imageIcon" source="hero_icon_head_wj_kete_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0"/>
+		<e:BitmapLabel id="labelTextNum" width="74" height="24" x="4" y="28" anchorOffsetX="0" anchorOffsetY="0" text="10000" font="ItemNumWords_fnt" scaleX="0.5" scaleY="0.5" textAlign="right"/>
+	</e:Group>
+</e:Skin>

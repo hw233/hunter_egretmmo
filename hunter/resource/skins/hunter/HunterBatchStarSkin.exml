@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterBatchStarSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_hunter_LayerHeroBg_png" horizontalCenter="0" verticalCenter="0" height="100%" scaleY="1" scaleX="1" width="100%"/>
+	<e:Image source="ui_hunter_OrnTop_png" top="0" left="-90" right="-90" scale9Grid="142,5,856,30"/>
+	<e:Group height="640" width="960" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupLeft" width="694" height="485" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_BoardHunterSoul_png" top="0" bottom="0" right="0" left="0"/>
+		<e:Image source="ui_hunter_OrnHunterSoulTop_png" top="10" left="300"/>
+		<e:Image source="ui_hunter_BoardHunterSoulNum_png" top="0" left="20"/>
+		<e:Label id="labelHunterTip" text="一键升星" x="50" y="10" width="224" textAlign="center" verticalAlign="middle" size="24" textColor="0xFF8C16" anchorOffsetX="0"/>
+		<e:Scroller id="scrollerHero" width="650" height="320" horizontalCenter="4" verticalCenter="-39" anchorOffsetY="0" anchorOffsetX="0">
+			<e:List id="listHeros" x="2" y="1">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="6" columnWidth="100" rowHeight="100" horizontalGap="5" verticalGap="5" paddingTop="10" paddingBottom="5"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+			<e:Image source="ui_mall_BoardMallRes_png" y="479" scaleX="1" scaleY="1" scale9Grid="73,4,440,31" left="0" right="0"/>
+			<e:Label text="A级品质及以下未参与过提升和未在阵容的猎人可参与一键升星" y="490" anchorOffsetX="0" width="651" textAlign="center" size="20" x="22"/>
+			<e:Group y="373" anchorOffsetY="0" height="81" left="0" right="0">
+				<e:Group id="groupBtn1" x="40" y="5">
+					<e:Image source="ui_hunter_evaluate_IconWrodsCard1_png" x="0" y="0"/>
+					<e:Image source="ui_hunter_break_ButtonBingoNor_png" scaleX="0.6" scaleY="0.6" x="92" y="24"/>
+					<e:Image id="imgvisible1" source="ui_hunter_break_ButtonBingoSel_png" scaleY="0.6" scaleX="0.6" x="92" y="24"/>
+				</e:Group>
+				<e:Group id="groupBtn2" x="180" y="5">
+					<e:Image source="ui_hunter_evaluate_IconWrodsCard2_png" x="0" y="0"/>
+					<e:Image source="ui_hunter_break_ButtonBingoNor_png" scaleX="0.6" scaleY="0.6" x="96" y="24"/>
+					<e:Image id="imgvisible2" source="ui_hunter_break_ButtonBingoSel_png" scaleY="0.6" scaleX="0.6" x="96" y="24"/>
+				</e:Group>
+				<e:Group id="groupBtn3" x="320" y="5">
+					<e:Image source="ui_hunter_evaluate_IconWrodsCard3_png" x="0" y="0"/>
+					<e:Image source="ui_hunter_break_ButtonBingoNor_png" scaleX="0.6" scaleY="0.6" x="84" y="24"/>
+					<e:Image id="imgvisible3" source="ui_hunter_break_ButtonBingoSel_png" scaleY="0.6" scaleX="0.6" x="84" y="24"/>
+				</e:Group>
+				<e:Group right="51" verticalCenter="0">
+					<e:Button id="btnAddStar" label="" width="176" height="81" x="0" y="0" scaleX="1" scaleY="1">
+						<e:skinName>
+							<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ui_hunter_ButtonConfirmUpStar1_png" source.down="ui_hunter_ButtonConfirmUpStar2_png" source.disabled="ui_hunter_ButtonConfirmUpStar3_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+						</e:skinName>
+					</e:Button>
+					<e:Label id="labelUpStarNumber" text="123" y="41" width="80" height="23" size="18" verticalAlign="middle" textAlign="center" touchEnabled="false" scaleX="1" scaleY="1" x="68"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupLeft1" width="694" height="485" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0" visible="false">
+			<e:Image source="ui_hunter_BoardHunterSoul_png" top="0" bottom="0" right="0" left="0"/>
+			<e:Image source="ui_hunter_OrnHunterSoulTop_png" top="10" left="300"/>
+			<e:Image source="ui_hunter_BoardHunterSoulNum_png" top="0" left="20"/>
+			<e:Label text="获得猎人列表" x="50" y="10" width="224" textAlign="center" verticalAlign="middle" size="24" textColor="0xFF8C16" anchorOffsetX="0"/>
+			<e:Scroller id="scrollerHero1" width="650" height="417" horizontalCenter="4" verticalCenter="10" anchorOffsetY="0" anchorOffsetX="0">
+			<e:List id="listHeros1" x="2" y="1" anchorOffsetY="0" height="326">
+				<e:layout>
+				<e:TileLayout requestedColumnCount="6" columnWidth="100" rowHeight="100" horizontalGap="5" verticalGap="5" paddingTop="10" paddingBottom="5"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+			<e:Button id="btnClose1" label="" x="617" y="-12">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+	<e:Image source="ui_hunter_WordsTipHunterUpStar_png" top="0" left="120"/>
+	<e:Group id="groupMoney" anchorOffsetX="0" anchorOffsetY="0" height="39" width="334" top="2" right="180">
+		<e:Group id="groupMoney1" left="0">
+		<e:Image source="ui_union_instance_BoardBurInstanceBossBlood_png" scaleX="0.75" y="6" left="0" right="0"/>
+		<e:Image id="gold" source="ui_currencyicon_IconGold_png" left="0" verticalCenter="0"/>
+		<e:Label id="labelIntegrate" text="904023424" size="20" verticalCenter="0" right="43" left="30" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei"/>
+		<e:Button id="btnAddGold" label="" y="0" right="-11">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+		<e:Group id="groupMoney2" y="-1" right="0">
+		<e:Image source="ui_union_instance_BoardBurInstanceBossBlood_png" y="8" scaleY="0.9" scaleX="0.7" left="0" right="0"/>
+		<e:Image id="jewel" source="ui_currencyicon_IconGemstone_png" left="-10" verticalCenter="0"/>
+		<e:Label id="labelToken" text="99999934" size="20" verticalAlign="middle" verticalCenter="0" left="15" right="35" textAlign="center" fontFamily="Microsoft YaHei"/>
+		<e:Button id="btnAdddiamond" label="" y="0" right="-13">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+	</e:Group>
+	<e:Button id="btnClose" label="" width="162" height="74" top="-8" left="-25">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png" source.disabled="ui_hunter_ButtonReturnNor_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZorkBossEndItemSkin" width="778" height="55" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="778" height="55">
+		<e:Image y="0" width="778" height="55" scale9Grid="10,6,63,43" x="0" source="ui_wonderland_boss_BoardEndSkillBossEnemy_png"/>
+		<e:Label id="labelRank" text="第1名" x="5" size="20" fontFamily="SimHei" anchorOffsetX="0" verticalCenter="0" width="96" anchorOffsetY="0" height="19" textAlign="center"/>
+		<e:Group x="171" y="4">
+		<e:Image id="imgHeroFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgHeroIcon" source="hero_icon_head_wj_kubi_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Label id="labelHeroMyAtk" text="Lv.60" x="232" verticalCenter="0" size="16"/>
+		<e:Label id="labelHeroName" text="千场后羿" x="301" verticalCenter="0.5" size="16" fontFamily="SimHei"/>
+		<e:Group x="475" y="17">
+		<e:Image source="ui_wonderland_boss_BoardBurEndBlood_png" x="0" y="0"/>
+		<e:Image id="imgPer" source="ui_wonderland_boss_BurEndBlood_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgPerBg" width="276" height="21" source="ui_hunter_collection_board1_png" scale9Grid="8,5,54,37" left="0" verticalCenter="0"/>
+		<e:Label id="labelPer" text="324.5万（66.66%）" size="16" textColor="0xFFDCFF" fontFamily="SimHei" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

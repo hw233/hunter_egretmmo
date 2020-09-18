@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_BattlePassAllRewardSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16e8bb93d63"/>
+	<e:Image source="ui_storyinstance_transform_HunterInfoBG1_png" width="880" height="580" horizontalCenter="0" verticalCenter="22"/>
+	<e:Image source="ui_battlePass_BoardGoodView_png" width="870" height="251" horizontalCenter="0" verticalCenter="-127.5"/>
+	<e:Image source="ui_battlePass_SpriteTitle_png" horizontalCenter="0" width="870" height="50" verticalCenter="-220"/>
+	<e:Image source="ui_battlePass_SpriteTitle_png" horizontalCenter="0" width="870" height="50" verticalCenter="-46"/>
+	<e:Image source="ui_battlePass_BoardGoodView_png" width="870" height="251" horizontalCenter="0" verticalCenter="104"/>
+	<e:Image source="ui_battlePass_SpriteTitleReward_png" horizontalCenter="0" top="0"/>
+	<e:Label text="通行证激活之后，可获得全部普通奖励及以下全部超级大奖" horizontalCenter="0" verticalCenter="-47" size="26" fontFamily="Helvetica" width="782" height="28" bold="true" anchorOffsetX="0" textAlign="center"/>
+	<e:Label text="通行证奖励" size="26" horizontalCenter="0.5" verticalCenter="-221" fontFamily="Helvetica" width="145" textAlign="center" bold="true"/>
+	<e:Label text="除此之外还可获得大量道具" size="15" textColor="0x84bec0" verticalCenter="208" horizontalCenter="0" fontFamily="Helvetica" bold="true"/>
+	<e:Scroller id="scrollerAwardTop" width="700" height="110" horizontalCenter="0" verticalCenter="-133">
+		<e:List id="listAwardTop">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="14"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller id="scrollerAwardBottom" width="700" height="200" horizontalCenter="0" verticalCenter="86">
+		<e:List id="listAwardBottom">
+			<e:layout>
+				<e:TileLayout horizontalGap="6" requestedColumnCount="6" columnWidth="110"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnLvUp" label="" horizontalCenter="0" verticalCenter="264">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_battlePass_ButtonPassUpNor_png" source.down="ui_battlePass_ButtonPassUpSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnClose" label="" top="21" horizontalCenter="410">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

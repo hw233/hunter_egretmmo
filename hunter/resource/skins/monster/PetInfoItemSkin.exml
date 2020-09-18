@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetInfoItemSkin" width="258" height="114" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="258" x="0" y="0">
+		<e:Button id="btnPetName" label="" x="0" y="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_pet_ButtonPetFrame1Nor_png" source.down="ui_pet_ButtonPetFrame1Sel_png" source.disabled="ui_pet_ButtonPetFrame1Nor_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image id="imgSpriteIcon" source="ui_pet_icon_IconPet4_png" x="12" y="15" touchEnabled="false"/>
+		<e:Group width="105" height="35" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="42.5" top="34" touchThrough="true" touchEnabled="false" touchChildren="false">
+			<e:Image id="imgSpriteName" source="ui_pet_icon_WordsPetName1_png" touchEnabled="false" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+
+		<e:Image id="imgSpriteNode" source="ui_pet_WordsTipNode_png" x="137.5" y="74" touchEnabled="false"/>
+		<e:Image id="imgSpriteFrame" source="ui_pet_FrameSelectedPet_png" x="1" y="0" touchEnabled="false"/>
+		<e:Image id="imgSpriteTip" source="ui_currencyicon_IconRed_png" x="83" y="15" touchEnabled="false"/>
+		<e:Image id="imgSpriteGrade" source="ui_pet_IconSmallPetGrade4_png" touchEnabled="false" right="7" top="5"/>
+		<e:Group id="groupNodeStar" width="90" height="16" x="140" anchorOffsetX="0" anchorOffsetY="0" bottom="21" scaleX="0.7" scaleY="0.7" touchThrough="true" touchEnabled="false" touchChildren="false"/>
+	</e:Group>
+	<e:Image id="imgSpriteIFrame" source="ui_frame_FrameHunterAsh_png" x="-142" y="21.5"/>
+	<e:Group id="groupNodeLevel" x="-124" y="57.5">
+		<e:Image id="imgSpriteLevel" source="ui_pet_WordsPetLevel_png" x="0" y="0"/>
+		<e:Label id="labelLevel" text="100" x="51" y="1.5" size="20"/>
+	</e:Group>
+</e:Skin>

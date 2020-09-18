@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_GiftMonthListSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imageBackGroud" source="ui_mainui_BgMaoboli_png" horizontalCenter="0" verticalCenter="0" height="100%" width="100%"/>
+	<e:Group horizontalCenter="8" verticalCenter="0">
+		<e:Group id="groupAni" width="100" height="100" y="-49.16" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-88"/>
+		<e:Image source="ui_instance_LayerInstance_png" width="735" height="475" scale9Grid="11,11,73,73" x="1" y="75.92"/>
+		<e:Image source="ui_instance_BoardTopTip_png" y="75.72" scaleX="2.25" scale9Grid="40,3,154,22" x="0"/>
+		<e:Button id="buttonClose" label="" x="661.04" y="57.59">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_acitivity_mouthgift_BoardTip_png" y="0" x="73"/>
+		<e:Image id="imageName" source="ui_acitivity_mouthgift_WordsTipCommon6_png" y="50.64" horizontalCenter="0.5"/>
+		<e:Image source="ui_instance_IconPoint_png" x="9.48" y="84.04"/>
+		<e:Group width="727.27" height="441.36" y="105" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-7.5">
+			<e:Scroller width="100%" height="100%" x="0" y="0">
+				<e:List id="listAddGift">
+					<e:layout>
+						<e:HorizontalLayout paddingTop="5"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Group id="groupMain" width="734" height="470" x="-0.9399999999999977" y="-28" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" touchThrough="true" touchEnabled="false" touchChildren="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

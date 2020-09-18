@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonOutExchangeDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="685" height="470" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" scaleX="1" scaleY="1" left="0" top="0" right="0" bottom="0"/>
+		<e:Image source="ui_common_WordsCommonGetTip_png" horizontalCenter="0" top="1"/>
+		<e:Button id="btnClose" label="" right="-15" top="-18">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="95" height="93" top="41" left="40">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgIcon" source="ui_huntericon_IconKuluoluo_png" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Label id="labelName" text="物品名称" width="140" height="25" verticalAlign="middle" textAlign="left" size="18" textColor="0x000000" left="150" top="60"/>
+		<e:Label id="labelOwn" text="拥有： 999" width="140" height="25" verticalAlign="middle" textAlign="left" size="18" textColor="0x000000" left="150" top="92"/>
+		<e:Group width="325" height="315" bottom="12" left="10">
+			<e:Image source="ui_mall_BoardSellMax_png" left="0" top="0" right="0" bottom="0" scale9Grid="98,59,62,15"/>
+			<e:Scroller left="10" right="10" top="10" bottom="10">
+				<e:Group>
+					<e:List id="listGet" scaleX="1" scaleY="1" right="0" top="0" bottom="0" left="0">
+						<e:layout>
+						<e:VerticalLayout gap="5"/>
+						</e:layout>
+					</e:List>
+					<e:Label text="" width="1" height="295.1"/>
+				</e:Group>
+
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="groupConvert" width="333" height="195" right="10" top="30">
+			<e:Image source="ui_mall_BoardSellMax_png" left="0" right="0" top="0" bottom="0" scale9Grid="34,14,210,85"/>
+			<e:Group width="95" height="93" top="25" left="20" x="-302" y="-5" scaleX="1" scaleY="1">
+			<e:Image id="imgCurrentFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgCurrentIcon" source="ui_huntericon_IconKuluoluo_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Label id="labelCurrentName" text="物品名称" width="120" height="25" verticalAlign="middle" textAlign="center" size="18" textColor="0x000000" left="6" top="120" anchorOffsetX="0"/>
+			<e:Label id="labelCurrentOwn" text="拥有： 999" width="95" height="25" verticalAlign="middle" textAlign="center" size="18" left="20" x="10" top="150" textColor="0x00a200"/>
+			<e:Label id="labelNextName" text="物品名称" height="25" verticalAlign="middle" textAlign="center" size="18" textColor="0x000000" top="120" anchorOffsetX="0" right="6" width="120"/>
+			<e:Label id="labelNextOwn" text="x1" height="25" verticalAlign="middle" textAlign="center" size="18" textColor="0x00A200" left="220" top="150" width="95"/>
+			<e:Image source="ui_common_WordsCommonExchange_png" y="49" horizontalCenter="0"/>
+			<e:Group height="93" scaleX="1" scaleY="1" width="95" top="25" right="20">
+			<e:Image id="imgNextFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgNextIcon" source="ui_huntericon_IconKuluoluo_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group width="333" height="145" right="10" top="235">
+			<e:Image source="ui_mall_BoardSellMax_png" left="0" right="0" top="1" bottom="-1" scale9Grid="34,14,210,85"/>
+			<e:Label text="请选择转化数量:" size="18" textColor="0x000000" fontFamily="Helvetica" width="160" height="25" left="40" top="40"/>
+			<e:Group width="260" height="37" left="40" top="80">
+				<e:Image source="ui_card_BoardCurrency_png" left="0" top="0" right="0" bottom="0" scale9Grid="69,12,76,13"/>
+				<e:Button id="btnSub" label="" left="0" verticalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedReduceNor_png" source.down="ui_bag_ButtonBagSelectedReduceSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:EditableText id="labelCount" width="70" height="37" text="999" left="40" verticalCenter="0" verticalAlign="middle" textAlign="center" size="18" textColor="0x000000" fontFamily="Helvetica"/>
+				<e:Button id="btnAdd" label="" x="114" verticalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedAddNor_png" source.down="ui_bag_ButtonBagSelectedAddSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btnMax" label="" verticalCenter="0" right="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedMaxNor_png" source.down="ui_bag_ButtonBagSelectedMaxSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+		</e:Group>
+		<e:Button id="btnExchange" label="" x="425" bottom="18">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_common_ButtonChangeNor_png" source.down="ui_common_ButtonChangeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardComposeSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="898" height="528" horizontalCenter="0.5%" verticalCenter="6%">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="884" height="523" scaleX="1" scaleY="1" horizontalCenter="-1" verticalCenter="-1.5" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="116,30,156,88"/>
+		<e:Image source="ui_card_compose_BoardMainFloor_png" scaleX="1" scaleY="1" width="865" height="495" bottom="15" horizontalCenter="0"/>
+		<e:Image source="ui_instance_BoardTopTip_png" x="8" y="0" scaleX="2.7" scale9Grid="40,9,142,10"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" left="30" top="-1"/>
+		<e:Group width="500" height="270" left="128" verticalCenter="-77.5" scaleX="0.85" scaleY="0.85">
+			<e:Group width="214" height="270" scaleX="1" scaleY="1" left="0" verticalCenter="0">
+				<e:Image id="imageCardFrame" source="ui_frame_FrameCard6_png" left="0" right="0" top="0" bottom="0"/>
+				<e:Group width="186" height="101" scaleX="1" scaleY="1" left="13" verticalCenter="-37">
+				<e:Image id="imageCardPic" source="card_096qianliyandesheA_12_png" left="0" right="0" top="0" bottom="0"/>
+				<e:Image id="imageCardType" source="ui_hunter_evaluate_IconCardType1_png" left="0" top="0"/>
+				<e:Group width="100" height="20" top="0" right="0">
+					<e:Image source="ui_exchange_BoardFruitName_png" left="0" right="0" top="0" bottom="0"/>
+					<e:Label id="labelRealConst" text="稀有度：" size="18" left="5" verticalCenter="0"/>
+					<e:Image id="imageRare" source="ui_hunter_evaluate_IconWrodsCard5_png" height="25" width="24" verticalCenter="0" left="70"/>
+				</e:Group>
+					<e:Image source="ui_card_BoardCardStar_png" left="6" right="93" top="78" bottom="2" scaleX="1" scaleY="1" width="20" height="18" anchorOffsetY="0" anchorOffsetX="0" rotation="359.83"/>
+				<e:Group id="groupStar" width="100" height="21" left="9" bottom="2">
+				</e:Group>
+					<e:BitmapLabel id="labelLevel" width="20" height="20" x="163" y="79" text="1" font="ItemNum_fnt" textAlign="right"/>
+				</e:Group>
+				<e:Label id="labelCardName" text="千里眼的蛇" size="18" horizontalCenter="25" top="20" textColor="0x000000" width="120"/>
+				<e:Label id="labelCardNum" text="09666" fontFamily="Arial" size="18" scaleX="1" scaleY="1" left="11" top="20" textColor="0x000000" width="55" textAlign="center"/>
+				<e:Label id="labelCardDes" text="开发人员忠告：这个里面的内容是读表，不需要翻译了。" size="12" textColor="0x000000" anchorOffsetY="0" height="75" anchorOffsetX="0" width="177" left="20" bottom="38" lineSpacing="4"/>
+			</e:Group>
+			<e:Group width="278" height="270" scaleX="1" scaleY="1" right="2" verticalCenter="0">
+				<e:Image source="ui_card_compose_BoardPropertyFloor_png" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" scale9Grid="34,32,210,196"/>
+				<e:Group id="groupFull" width="100%" height="100%" x="0" y="0">
+					<e:Label id="labelMainAttriConst" text="主属性：" size="18" left="20" top="10" x="20" y="10" scaleX="1" scaleY="1"/>
+					<e:Label id="labelMainAttribute" text="攻击+12%" size="18" left="90" top="10" x="90" y="10" scaleX="1" scaleY="1"/>
+					<e:Label id="labelMaxAttribute" text="（30级属性：+49.5%）" textColor="0x00f900" size="18" top="35" x="20" y="35" scaleX="1" scaleY="1"/>
+				</e:Group>
+				<e:Group id="groupAddAttri" width="100%" height="100%" x="0" y="0">
+					<e:Image source="ui_card_compose_LineProperty_png" scaleX="1" scaleY="1" horizontalCenter="0" top="60" x="9" y="60"/>
+					<e:Label id="labelDeputyAttriConst" text="副属性：" size="18" top="70" x="20"/>
+					<e:Scroller id="scrollerAttribute" width="230" height="160" left="20" bottom="20" anchorOffsetY="0">
+						<e:List id="listAttribute" anchorOffsetY="0" left="92" bottom="-150">
+							<e:layout>
+								<e:VerticalLayout paddingTop="4"/>
+							</e:layout>
+						</e:List>
+					</e:Scroller>
+				</e:Group>
+				<e:Group id="groupRandom" width="100%" height="100%" x="0" y="0">
+					<e:Label id="labelRandomCardDes" text="" x="20" y="63" size="22" width="240" height="187" anchorOffsetX="0" anchorOffsetY="0"/>
+					<e:Label id="labelRandomCost" text="" x="25" y="139" size="20" visible="false"/>
+					<e:Image id="imageCardGrade" width="20" height="20" x="25" y="177" visible="false"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Group width="100" height="100" right="100" top="60">
+			<e:Image id="imageBoard" source="ui_frame_FrameHunterSPRed_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageSmallCard" source="card_096qianliyandesheA_12s_png" anchorOffsetY="47.31" anchorOffsetX="66.12" horizontalCenter="2" verticalCenter="0.5" width="112" height="101.33"/>
+			<e:Group id="groupAnimate" width="95" height="93" x="3" y="4" touchEnabled="false"/>
+
+
+			<e:Group id="groupIcon" width="100%" height="100%" x="0" y="0">
+			</e:Group>
+			<e:Button id="btnAddCardChip" label="" width="40" height="45" right="5" top="5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonTeamAddNor_png" source.down="ui_hunter_ButtonTeamAddSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group width="220" height="25" right="35" verticalCenter="-60">
+			<e:Image source="ui_card_compose_WordsHave_png" left="0" verticalCenter="0"/>
+			<e:Image id="imageExpNull" source="ui_acitivity_jewel_BoardExpNull_png" width="158" height="25" verticalCenter="0" x="58"/>
+			<e:Image id="imageExpBar" source="ui_acitivity_jewel_BoardExpFull_png" x="58" scaleX="1" scaleY="1" height="25" width="158"/>
+			<e:Label id="labelCardChipNum" text="9/10" size="20" horizontalCenter="25" verticalCenter="0"/>
+		</e:Group>
+		<e:Button id="btnCompose" label="" right="60" verticalCenter="10">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_card_compose_ButtonComposeNor_png" source.down="ui_card_compose_ButtonComposeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="scrollerCardChip" width="710" height="150" horizontalCenter="5" bottom="30" anchorOffsetX="0">
+			<e:List id="listCardChip" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-7" bottom="0" width="697">
+				<e:layout>
+					<e:HorizontalLayout gap="0"/>
+				</e:layout>
+
+			</e:List>
+		</e:Scroller>
+		<e:Group id="groupSelectLeft" width="36" height="150" x="62" y="348" anchorOffsetX="0" anchorOffsetY="0">
+		</e:Group>
+		<e:Group id="groupSelectRight" width="36" height="150" x="811" y="348" anchorOffsetX="0"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_InstanceRankSkin" width="660" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="660" height="500" x="0" y="0">
+		<e:Image verticalCenter="0" width="630" height="487" right="0" source="ui_acitivity_BoardAcitivityShu_png"/>
+		<e:Image source="ui_acitivity_WordsTipActivityTime_png" horizontalCenter="-245.5" verticalCenter="-132.5"/>
+		<e:Image source="ui_acitivity_WordsTipActivityInfomation_png" horizontalCenter="61.5" verticalCenter="-48.5"/>
+		<e:Label id="labelTime" text="" size="18" horizontalCenter="-157" verticalCenter="-98" anchorOffsetX="0" width="276" verticalAlign="middle" textAlign="right" height="20" fontFamily="Helvetica"/>
+		<e:Label id="labelDes" text="" size="18" anchorOffsetX="0" width="299.67" anchorOffsetY="0" height="90" fontFamily="Helvetica" x="348" y="225" textColor="0xffffff"/>
+	</e:Group>
+</e:Skin>

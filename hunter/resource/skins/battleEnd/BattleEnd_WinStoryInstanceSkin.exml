@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleEnd_WinStoryInstanceSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="AdaptBoard" width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="NodeBoard" width="0" height="0" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_battleend_WordsGetAward_png" verticalCenter="44" horizontalCenter="200.5"/>
+		<e:Image source="ui_battleend_OrnTip_png" scaleX="-1" horizontalCenter="116.5" verticalCenter="43"/>
+		<e:Image source="ui_battleend_OrnTip_png" scaleX="1" horizontalCenter="285.5" verticalCenter="43"/>
+		<e:Image source="ui_battleend_OrnLine_png" horizontalCenter="200" verticalCenter="24"/>
+		<e:Image source="ui_battleend_WordGetExp_png" horizontalCenter="200" verticalCenter="-205"/>
+		<e:Image source="ui_battleend_OrnTip_png" scaleX="-1" horizontalCenter="116.5" verticalCenter="-205"/>
+		<e:Image source="ui_battleend_OrnTip_png" scaleX="1" horizontalCenter="285.5" verticalCenter="-205" x="10" y="10"/>
+		<e:Scroller width="450" height="110" horizontalCenter="200" verticalCenter="130">
+			<e:List id="TableViewDrops">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller width="450" height="180" horizontalCenter="200" verticalCenter="-94">
+			<e:List id="TableViewHeros">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="ButtonGoOn" label="" horizontalCenter="322" verticalCenter="260">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_wish_ButtonReturnNor_png" source.down="ui_acitivity_wish_ButtonReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="ButtonDetail" label="" verticalCenter="130.5" horizontalCenter="-250">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_battleend_ButtonHitNumNor_png" source.down="ui_battleend_ButtonHitNumSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="NodeStar" horizontalCenter="-237.5" verticalCenter="-160"/>
+		<e:Group id="NodeWin" horizontalCenter="-237.5" verticalCenter="-160"/>
+		<e:Group scaleX="1" scaleY="1" horizontalCenter="-241.5" verticalCenter="188.5">
+			<e:Image source="ui_battleend_BoardEndNameTime_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgWordName" verticalCenter="0" left="0" source="ui_battleend_WordsInstanceName_png"/>
+			<e:Label id="LabelInstanceName" text=" 通关时间" size="18" verticalCenter="0" left="98"/>
+		</e:Group>
+		<e:Group scaleX="1" scaleY="1" horizontalCenter="-241.5" verticalCenter="235.5">
+			<e:Image source="ui_battleend_BoardEndNameTime_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgWordTime" source="ui_battleend_WordsInstanceTime_png" verticalCenter="0" left="0"/>
+			<e:Label id="LabelInstanceTime" text=" 通关时间" size="18" verticalCenter="0" left="98"/>
+		</e:Group>
+		<e:Group id="groupMission1" horizontalCenter="-245" verticalCenter="6.5">
+			<e:Image source="ui_storyinstance_IconStarSmall_png" x="0" y="1"/>
+			<e:Image id="imgMission1" source="ui_storyinstance_ButtonSelectSel_png" x="193" y="0"/>
+			<e:Label id="labelMission1" text="上阵一名放出系猎人" x="28" y="2.5" size="16" textColor="0x00f900" anchorOffsetX="0" width="165" anchorOffsetY="0" height="18"/>
+		</e:Group>
+		<e:Group id="groupMission2" horizontalCenter="-245" verticalCenter="36.5">
+			<e:Image source="ui_storyinstance_IconStarSmall_png" x="0" y="1"/>
+			<e:Image id="imgMission2" source="ui_storyinstance_ButtonSelectSel_png" x="193" y="0"/>
+			<e:Label id="labelMission2" text="上阵一名放出系猎人" x="28" y="2.5" size="16" textColor="0x00F900" anchorOffsetX="0" width="165" anchorOffsetY="0" height="18"/>
+		</e:Group>
+		<e:Group id="groupMission3" horizontalCenter="-245" verticalCenter="66.5">
+			<e:Image source="ui_storyinstance_IconStarSmall_png" x="0" y="1"/>
+			<e:Image id="imgMission3" source="ui_storyinstance_ButtonSelectSel_png" x="193" y="0"/>
+			<e:Label id="labelMission3" text="上阵一名放出系猎人" x="28" y="2.5" size="16" textColor="0x00F900" anchorOffsetX="0" width="165" anchorOffsetY="0" height="18"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

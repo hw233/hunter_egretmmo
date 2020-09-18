@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_HotUpDateTipsSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupUI" width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_other_BoardTextL_png" scale9Grid="45,5,277,31" width="600" horizontalCenter="0" top="75" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Group id="stencil" width="600" height="41" horizontalCenter="0" top="75" x="180" y="75" scaleX="1" scaleY="1">
+		</e:Group>
+		<e:Label id="labelDes" text="系统：新的版本已经准备就绪，请你重启游戏后获得更新" horizontalCenter="0.5" top="75" size="16" anchorOffsetY="0" height="41" textAlign="center" verticalAlign="middle" textColor="0xff0000" bold="true" x="277" y="75" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorkSend_SelectHeroSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupTouch" width="100%" height="100%" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group horizontalCenter="0" verticalCenter="-117">
+			<e:Image source="ui_instance_search_board_png" scale9Grid="71,30,428,186" anchorOffsetY="0" x="0" y="0" height="300"/>
+			<e:Image source="ui_instance_search_boardMission_png" height="200" horizontalCenter="0" verticalCenter="-32"/>
+			<e:Image source="ui_instance_search_titleMission_png" horizontalCenter="0" top="-53" x="158" y="-18" scaleX="1" scaleY="1"/>
+			<e:Scroller id="scrollerHero" width="530" height="200" anchorOffsetY="0" horizontalCenter="0" verticalCenter="-32">
+				<e:List id="listHero">
+					<e:layout>
+						<e:TileLayout/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Group horizontalCenter="0" verticalCenter="105" width="396" height="60">
+				<e:Button id="btnType1" label="" left="0" verticalCenter="0" width="46" height="46">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_instance_search_type3_1_png" source.down="ui_instance_search_type3_2_png" source.disabled="ui_instance_search_type3_2_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btnType2" label="" left="70" verticalCenter="0" width="46" height="46">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_instance_search_type2_1_png" source.down="ui_instance_search_type2_2_png" source.disabled="ui_instance_search_type2_2_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btnType3" label="" verticalCenter="0" left="140" width="46" height="46">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_instance_search_type5_1_png" source.down="ui_instance_search_type5_2_png" source.disabled="ui_instance_search_type5_2_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btnType4" label="" verticalCenter="0" left="210" x="10" y="10" width="46" height="46">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_instance_search_type4_1_png" source.down="ui_instance_search_type4_2_png" source.disabled="ui_instance_search_type4_2_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btnType5" label="" verticalCenter="0" left="280" x="20" y="20" width="46" height="46">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_instance_search_type6_1_png" source.down="ui_instance_search_type6_2_png" source.disabled="ui_instance_search_type6_2_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btnType6" label="" verticalCenter="0" left="350" x="30" y="30" width="46" height="46">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_instance_search_type1_1_png" source.down="ui_instance_search_type1_2_png" source.disabled="ui_instance_search_type1_2_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgTypeSel" source="ui_instance_search_xuanzhong_png" x="23" anchorOffsetX="30" anchorOffsetY="30" touchEnabled="false" verticalCenter="0"/>
+			</e:Group>
+			<e:Label id="labelNone" text="暂无强化系猎人" anchorOffsetX="0" width="278" size="24" horizontalCenter="0" verticalCenter="-31" verticalAlign="middle" textAlign="center" textColor="0x00032b" strokeColor="0xffffff" stroke="1"/>
+		</e:Group>
+		<e:Group horizontalCenter="0" verticalCenter="162">
+			<e:Image source="ui_instance_search_board_png" anchorOffsetY="0" scale9Grid="71,30,428,186" x="0" y="0"/>
+			<e:Image source="ui_instance_search_boardMission_png" horizontalCenter="0" verticalCenter="-11"/>
+			<e:Image source="ui_instance_search_boardCondition_png" horizontalCenter="0" verticalCenter="-95"/>
+			<e:Image id="imgTip" source="ui_instance_search_tipClsoe_png" horizontalCenter="0" bottom="-29" x="201" y="215" scaleX="1" scaleY="1"/>
+			<e:Group horizontalCenter="0" verticalCenter="-11" x="119" y="71" scaleX="1" scaleY="1">
+				<e:Group id="groupHero1" y="0" x="0" height="100" width="100" visible="false">
+				<e:Image id="imgFrame1" horizontalCenter="-2" verticalCenter="0" source="ui_frame_FrameHunterAsh_png"/>
+				<e:Image id="imgIcon1" horizontalCenter="0" verticalCenter="0" source=""/>
+				</e:Group>
+				<e:Group id="groupHero2" y="0" x="0" height="100" width="100" visible="false">
+				<e:Image id="imgFrame2" horizontalCenter="-2" verticalCenter="0" source="ui_frame_FrameHunterAsh_png"/>
+				<e:Image id="imgIcon2" horizontalCenter="0" verticalCenter="0" source=""/>
+				</e:Group>
+				<e:Group id="groupHero3" y="0" x="0" height="100" width="100" visible="false">
+				<e:Image id="imgFrame3" horizontalCenter="-2" verticalCenter="0" source="ui_frame_FrameHunterAsh_png"/>
+				<e:Image id="imgIcon3" horizontalCenter="0" verticalCenter="0" source=""/>
+				</e:Group>
+				<e:Group id="groupHero4" y="0" x="0" height="100" width="100" visible="false">
+				<e:Image id="imgFrame4" horizontalCenter="-2" verticalCenter="0" source="ui_frame_FrameHunterAsh_png"/>
+				<e:Image id="imgIcon4" horizontalCenter="0" verticalCenter="0" source=""/>
+				</e:Group>
+			</e:Group>
+			<e:Group scaleX="0.7" scaleY="0.7" left="178" top="12">
+				<e:Image id="imgCondition1" source="ui_instance_search_star_star1_1_png" left="0" verticalCenter="0"/>
+				<e:Image id="imgCondition2" source="ui_instance_search_star_star1_1_png" left="55" verticalCenter="0"/>
+				<e:Image id="imgCondition3" source="ui_instance_search_star_star1_1_png" left="110" verticalCenter="0"/>
+				<e:Image id="imgCondition4" source="ui_instance_search_star_star1_1_png" left="165" verticalCenter="0"/>
+			</e:Group>
+			<e:Label text="达成条件" x="20" y="8" anchorOffsetY="0" height="40" anchorOffsetX="0" width="131.5" verticalAlign="middle" textAlign="center" size="22" fontFamily="Helvetica" stroke="1"/>
+			<e:Label id="labelTime" text="需要时间: 00:12:00" x="338" y="10" size="22" anchorOffsetY="0" height="38.33" anchorOffsetX="0" width="211.67" verticalAlign="middle" textAlign="center" fontFamily="Helvetica" strokeColor="0x000000" textColor="0xffffff"/>
+			<e:Button id="btnAkeyChoose" label="一键调遣" horizontalCenter="-125" verticalCenter="80">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_instance_search_button2Nor_png" source.down="ui_instance_search_button2Nor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="" textColor="0x000000" size="24" fontFamily="Helvetica" verticalAlign="middle" width="100%" height="100%" textAlign="center"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnStart" label="派出" horizontalCenter="125" verticalCenter="80">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_instance_search_button1Nor_png" source.down="ui_instance_search_button1Nor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000" size="24" fontFamily="Helvetica" verticalAlign="middle" textAlign="center"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

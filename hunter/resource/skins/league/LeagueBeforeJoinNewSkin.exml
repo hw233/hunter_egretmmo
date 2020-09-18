@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueBeforeJoinNewSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="960" height="640" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="795" height="501" anchorOffsetX="0" anchorOffsetY="0" source="ui_union_BoardJoinUnion_png" scale9Grid="31,121,143,37" y="83.5" x="83"/>
+		<e:Group y="55" anchorOffsetX="0" anchorOffsetY="0" width="304" x="328">
+			<e:Image source="ui_fishing_BoardFishingTopTip_png" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="46,7,208,35" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image anchorOffsetX="0" source="ui_union_WordsJoinUnion_png" horizontalCenter="0.5" y="12"/>
+		</e:Group>
+		<e:Group id="groupTitle" y="116.34" width="750" height="36" x="110">
+			<e:Image source="ui_union_WordsUnionName_png" verticalCenter="0" horizontalCenter="-301"/>
+			<e:Image source="ui_union_WordsUnionLevel_png" verticalCenter="0" horizontalCenter="-201"/>
+			<e:Image source="ui_union_WordsUnionNumber_png" verticalCenter="0" horizontalCenter="-112"/>
+			<e:Image source="ui_union_WordsUnionRank_png" verticalCenter="0" horizontalCenter="-6"/>
+			<e:Image source="ui_union_WordsUnionLeader_png" verticalCenter="0" horizontalCenter="110"/>
+			<e:Image source="ui_union_WordsUnionLimit_png" verticalCenter="0" horizontalCenter="224"/>
+		</e:Group>
+
+		<e:Scroller id="scrollerLeague" width="752" height="350" scrollPolicyH="off" scrollPolicyV="on" y="153.38" x="109">
+			<e:List id="lstLeague" width="100%" height="100%" x="-1.33" y="192">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="1"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group id="groupSearch" x="207.7" y="523.84" width="240" height="40">
+			<e:Image source="ui_union_WordsInputLeaguaName_png" x="-96.35" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Image source="ui_union_BordInputLeagueName_png" x="0" scale9Grid="46,5,280,33" width="240" height="40" verticalCenter="0"/>
+			<e:TextInput id="txtName" width="300" height="40" verticalCenter="0" left="0"/>
+			<e:Button id="btnSearchName" label="" x="244.63" y="-0.99" scaleX="0.9" scaleY="0.9">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonSearchUnionNor_png" source.down="ui_union_ButtonSearchUnionSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Button id="btnChange" label="" x="581.68" y="517.01">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonChangeNor_png" source.down="ui_union_ButtonChangeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnFast" label="" x="728.16" y="516.01">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonFastJoinLeagueNor_png" source.down="ui_union_ButtonFastJoinLeagueSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnClose" label="" x="844.66" y="67.35" anchorOffsetX="45">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+					-->
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

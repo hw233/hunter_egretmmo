@@ -1,0 +1,15 @@
+{"file":"WordsShangHai.png","frames":{
+" ":{"x":209,"y":52,"w":0,"h":0,"offX":0,"offY":40,"sourceW":0,"sourceH":0},
+".":{"x":192,"y":52,"w":15,"h":15,"offX":3,"offY":25,"sourceW":15,"sourceH":15},
+"0":{"x":35,"y":52,"w":31,"h":41,"offX":2,"offY":-1,"sourceW":31,"sourceH":41},
+"1":{"x":167,"y":52,"w":23,"h":40,"offX":4,"offY":0,"sourceW":23,"sourceH":40},
+"2":{"x":103,"y":2,"w":31,"h":41,"offX":1,"offY":-1,"sourceW":31,"sourceH":41},
+"3":{"x":136,"y":2,"w":31,"h":41,"offX":1,"offY":-1,"sourceW":31,"sourceH":41},
+"4":{"x":68,"y":52,"w":33,"h":40,"offX":1,"offY":0,"sourceW":33,"sourceH":40},
+"5":{"x":103,"y":52,"w":31,"h":40,"offX":1,"offY":0,"sourceW":31,"sourceH":40},
+"6":{"x":169,"y":2,"w":31,"h":41,"offX":2,"offY":-1,"sourceW":31,"sourceH":41},
+"7":{"x":136,"y":52,"w":29,"h":40,"offX":2,"offY":0,"sourceW":29,"sourceH":40},
+"8":{"x":202,"y":2,"w":31,"h":41,"offX":1,"offY":-1,"sourceW":31,"sourceH":41},
+"9":{"x":2,"y":52,"w":31,"h":41,"offX":1,"offY":-1,"sourceW":31,"sourceH":41},
+"万":{"x":53,"y":2,"w":48,"h":48,"offX":4,"offY":-5,"sourceW":48,"sourceH":48},
+"亿":{"x":2,"y":2,"w":49,"h":48,"offX":3,"offY":-4,"sourceW":49,"sourceH":48}}}

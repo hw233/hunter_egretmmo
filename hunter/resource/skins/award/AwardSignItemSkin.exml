@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwardSignItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="104" height="142">
+	<e:Group width="104" height="142">
+		<e:Button id="btnSign" label="" verticalCenter="0" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_signin_rili1_png" source.down="ui_acitivity_signin_rili1_png" source.disabled="ui_acitivity_signin_rili1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+		</e:Button>
+		<e:Group id="cacheGroup" horizontalCenter="0" y="2" touchChildren="false" touchEnabled="false" touchThrough="true" width="104" height="140">
+			<e:Group scaleX="0.8" scaleY="0.8" width="95" height="93" touchThrough="true" touchEnabled="true" touchChildren="true" y="56" horizontalCenter="0">
+				<e:Image id="imgOrn" source="ui_acitivity_signin_guang_png" horizontalCenter="0" verticalCenter="0" scaleX="1.2" scaleY="1.2" touchEnabled="false" visible="false"/>
+				<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="-2" verticalCenter="0"/>
+				<e:Image id="imgIcon" source="item_FriendPillC_png" horizontalCenter="-2" verticalCenter="0"/>
+			</e:Group>
+			<e:BitmapLabel id="lbNum" y="104" font="ItemNumWords_fnt" text="10000" anchorOffsetY="0" anchorOffsetX="0" right="22" touchEnabled="false" scaleX="0.78" scaleY="0.78"/>
+			<e:Label id="lbDay" text="第1天" size="20" fontFamily="Helvetica" touchEnabled="false" verticalAlign="bottom" textAlign="center" textColor="0x228935" top="10" horizontalCenter="0.5" bold="true"/>
+
+			<e:Image id="imgShadow" source="ui_acitivity_MaskSignAward_png" touchEnabled="false" scaleX="1" scaleY="1" width="104" height="140" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgHook" horizontalCenter="0.5" y="56" touchEnabled="false" x="12" scaleX="1" scaleY="1" source="ui_acitivity_signin_wancheng_png"/>
+		</e:Group>
+		<e:Group id="groupClip" horizontalCenter="0" touchEnabled="false" touchThrough="true" touchChildren="false" scaleX="0.6" scaleY="0.6" verticalCenter="9.5"/>
+
+
+
+
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_PetDesSkin" width="400" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_wonderland_kuafu_BoardSceneInfoFloor_png" width="400" height="200" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="labelTalent" text="撕咬：全体猎人增加10%攻击，防御增加撕咬：全体猎人增加10%攻击，防御增加" size="20" anchorOffsetX="0" width="371" anchorOffsetY="0" height="171" horizontalCenter="2.5" verticalCenter="2.5" textColor="0xfffc78" fontFamily="Microsoft YaHei" lineSpacing="2"/>
+	</e:Group>
+</e:Skin>

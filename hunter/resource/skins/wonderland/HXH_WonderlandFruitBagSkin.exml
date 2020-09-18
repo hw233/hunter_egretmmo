@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_WonderlandFruitBagSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="960" height="640" verticalCenter="0" horizontalCenter="0">
+		<e:Image source="ui_hunter_BoardCardPopSeconde_png" width="815" height="520" scale9Grid="21,33,316,471" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" top="56" right="660"/>
+		<e:Button id="btnCloseB" label="" top="39" scaleX="-1" left="71">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnWhole" label="" left="98" top="100">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_ButtonFruitWholeNor_png" source.down="ui_wonderland_ButtonFruitWholeSel_png" source.disabled="ui_wonderland_ButtonFruitWholeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnRed" label="" left="98" top="170">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_ButtonFruitRedNor_png" source.down="ui_wonderland_ButtonFruitRedSel_png" source.disabled="ui_wonderland_ButtonFruitRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnBlue" label="" left="98" top="240">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_ButtonFruitBlueNor_png" source.down="ui_wonderland_ButtonFruitBlueSel_png" source.disabled="ui_wonderland_ButtonFruitBlueSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnPurple" label="" left="98" top="310">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_ButtonFruitPurpleNor_png" source.down="ui_wonderland_ButtonFruitPurpleSel_png" source.disabled="ui_wonderland_ButtonFruitPurpleSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_instance_BoardSearchSeconde_png" width="635" height="325" scale9Grid="2,3,84,69" horizontalCenter="74.5" top="97"/>
+		<e:Scroller id="scrollerFruitBag" width="615" height="305" horizontalCenter="74.5" top="106">
+			<e:List id="listFruitBag" y="-1.52">
+				<e:layout>
+					<e:TileLayout requestedRowCount="3" requestedColumnCount="6" paddingTop="5"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image source="ui_instance_BoardSearchSeconde_png" width="635" scale9Grid="2,3,84,69" horizontalCenter="74.5" bottom="80" height="130"/>
+		<e:Group id="groupDown" width="635" height="130" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="74" bottom="80">
+			<e:Image id="imgBoard" source="ui_frame_FrameHunterAsh_png" left="7" verticalCenter="1.5"/>
+			<e:Image id="imgIcon" left="7" verticalCenter="1.5" source=""/>
+			<e:BitmapLabel id="labelFruitNum" width="75" height="23" x="17" y="24" font="ItemNumWords_fnt" text="12" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" verticalAlign="top" touchEnabled="false"/>
+			<e:Label id="labelFruitName" text="红果实（不翻译）" textColor="0x000000" size="18" left="110" verticalCenter="-13"/>
+			<e:Label text="出售单价：" textColor="0x000000" size="18" left="110" verticalCenter="15"/>
+			<e:Image source="ui_currencyicon_IconGold_png" left="196" verticalCenter="15.5"/>
+			<e:Label id="labelFruitValue" text="999999999" textColor="0x000000" size="18" left="227" verticalCenter="15"/>
+			<e:Image source="ui_instance_BoardStrengthNum_png" width="288" height="70" top="5" right="9" scale9Grid="4,4,124,32"/>
+			<e:Label id="labelFruitInfo" text="不翻译不翻译不翻译不翻译不翻译不翻译不翻译不翻译不翻译不翻译不翻译不翻译不翻译不翻译" x="346" y="10" anchorOffsetX="0" width="272" anchorOffsetY="0" height="61" size="15" textColor="0x532203" lineSpacing="4"/>
+			<e:Button id="btnSell" label="" bottom="1" right="157">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_wonderland_ButtonFruitSellNor_png" source.down="ui_wonderland_ButtonFruitSellSel_png" source.disabled="ui_wonderland_ButtonFruitSellDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnUse" label="" right="8" bottom="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_wonderland_ButtonFruitUseNor_png" source.down="ui_wonderland_ButtonFruitUseSel_png" source.disabled="ui_wonderland_ButtonFruitUseDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="labelNumID" text="18" size="18" textColor="0x000000" left="26" touchEnabled="false" verticalCenter="-9" textAlign="center"/>
+		</e:Group>
+		<e:Image id="imgNodeBag" source="ui_wonderland_WordsNodeBag_png" horizontalCenter="65.5" verticalCenter="169" visible="false"/>
+	</e:Group>
+</e:Skin>

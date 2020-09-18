@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardStrengthenMainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="700" height="440" horizontalCenter="0" verticalCenter="0">
+		<e:Group width="700" height="440" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="groupTeach" width="700" height="395" y="1.2199999999999989" horizontalCenter="1.5" anchorOffsetX="0" x="2" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_hunter_LayerCurrencyFirst_png" x="13.069999999999993" y="30.879999999999995" width="670" height="370" scale9Grid="100,30,188,91" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_card_BoardCardNum_png" x="558" y="420" anchorOffsetX="109.5" anchorOffsetY="19.5" scaleX="1.1" scaleY="1.1"/>
+			<e:Label text="拥有数量：" width="100" height="20" anchorOffsetX="50" anchorOffsetY="10" size="18" scaleX="1" scaleY="1" bottom="10" horizontalCenter="180"/>
+			<e:Image source="ui_iconresources_jinbi3_png" width="34.34" height="42.58" anchorOffsetX="17.16" anchorOffsetY="21.28" scaleX="1" scaleY="1" horizontalCenter="116" bottom="0"/>
+			<e:Label id="labelGoldNum" text="1111111" size="18" width="92.34" height="20" anchorOffsetY="10" anchorOffsetX="46.16" scaleX="1" scaleY="1" bottom="10" horizontalCenter="260"/>
+		</e:Group>
+		<e:Group id="groupStrengthen" width="700" height="440" horizontalCenter="0" verticalCenter="0">
+
+
+		<e:Image source="ui_hunter_OrnCardLine_png" x="136.07" y="84.23" anchorOffsetX="28.5" anchorOffsetY="29.5"/>
+		<e:Image id="imgFrame" source="ui_frame_FrameCard3_png" x="136.07" y="234.23" anchorOffsetX="107" anchorOffsetY="142.5"/>
+		<e:Image source="ui_hunter_OrnCardBracket_png" y="382.56" anchorOffsetX="40.5" anchorOffsetY="10" x="136.07"/>
+		<e:Label id="labelCardNum" text="15" x="68.07" y="122.23" width="41" height="18" anchorOffsetX="20" anchorOffsetY="9" verticalAlign="middle" textAlign="center" size="17" textColor="0x000000"/>
+		<e:Label id="labelCardName" text="混乱输入内容" x="163.07" y="122.23" width="108" height="18" anchorOffsetX="54" anchorOffsetY="9" verticalAlign="middle" textAlign="center" size="17" textColor="0x000000"/>
+		<e:Image id="imgCard" source="card_011huangjintianchengB_30_png" x="137.07" y="198.23" anchorOffsetX="93" anchorOffsetY="50.5"/>
+		<e:Image id="imgCardType" source="ui_hunter_evaluate_IconCardType1_png" x="73.07" y="171.23" anchorOffsetX="29" anchorOffsetY="23"/>
+		<e:Label id="labelCardDetails" text="开发人员忠告：这个里面的内容是读表，不需要翻译了。" x="51.07" y="257.23" width="170" height="180" anchorOffsetY="0" textColor="0x000000" size="12" lineSpacing="4"/>
+		<e:Group id="groupNodeAdd" width="425" height="321.34" x="248.62" y="66.53" anchorOffsetY="0"/>
+		<e:Image source="ui_card_BoardCardStar_png" x="95.07" y="235.59" anchorOffsetX="46.5" anchorOffsetY="9"/>
+		<e:Group id="groupStar" width="94" height="16" x="58.55" y="226.38" scaleX="0.8" scaleY="0.8"/>
+		<e:BitmapLabel id="LabelLevel" width="28.04" height="26.66" x="206.49" y="242.72" anchorOffsetY="13.33" anchorOffsetX="14.02" font="ItemNum_fnt" text="12" scaleX="1.3" scaleY="1.3" textAlign="right"/>
+
+
+
+
+
+
+		</e:Group>
+		<e:Group id="groupEnchant" width="700" height="440" x="0" y="0" visible="false">
+			<e:Image source="ui_card_enchant_WordsTitle1_png" horizontalCenter="-205.5" verticalCenter="-151"/>
+			<e:Image source="ui_card_enchant_BoardLeftFloor_png" horizontalCenter="-205.5" verticalCenter="12.5"/>
+			<e:Image source="ui_card_enchant_BoardRightFloor_png" horizontalCenter="120" verticalCenter="-33" scale9Grid="9,8,388,200"/>
+			<e:Image source="ui_card_enchant_WordsTitle2_png" horizontalCenter="120" verticalCenter="-150.5"/>
+			<e:Scroller width="230" height="300" horizontalCenter="-205" verticalCenter="13">
+				<e:List id="listAttri">
+					<e:layout>
+						<e:VerticalLayout paddingTop="5"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Group id="groupHide" width="406" height="216" horizontalCenter="120" verticalCenter="-33">
+				<e:Image source="ui_card_enchant_BoardLine_png" horizontalCenter="0" verticalCenter="-33"/>
+				<e:Image source="ui_card_enchant_BoardRightInfoFloor_png" horizontalCenter="0" verticalCenter="-87"/>
+				<e:Image source="ui_card_enchant_BoardViewFloor_png" horizontalCenter="-100" verticalCenter="-55"/>
+				<e:Image source="ui_card_enchant_BoardViewFloor_png" horizontalCenter="100" verticalCenter="-55"/>
+				<e:Image source="ui_card_enchant_IconArrow_png" verticalCenter="-55" horizontalCenter="0"/>
+				<e:Label id="labelDes" text="降低持有者2.5%受到的伤害" height="20" horizontalCenter="1" verticalCenter="-87" anchorOffsetX="0" width="338" size="16" textAlign="center" verticalAlign="middle" textColor="0x000000"/>
+				<e:Label id="labelArea" text="(增幅8%~25%)" height="23" horizontalCenter="100.5" verticalCenter="-54.5" anchorOffsetX="0" width="141" size="18" textAlign="center" verticalAlign="middle" textColor="0x000000"/>
+				<e:Label id="labelNow" text="(增幅8%~25%)" height="23" horizontalCenter="-99.5" verticalCenter="-54.5" anchorOffsetX="0" width="141" size="18" textAlign="center" verticalAlign="middle" textColor="0x000000"/>
+				<e:Label text="请选择一种注入方式" textColor="0x000000" size="16" horizontalCenter="0" verticalCenter="-18"/>
+				<e:Scroller width="353" height="106" horizontalCenter="0" verticalCenter="51" anchorOffsetX="0">
+					<e:List id="listGoods" anchorOffsetX="0" width="348" x="-8" y="0">
+						<e:layout>
+							<e:HorizontalLayout/>
+						</e:layout>
+					</e:List>
+				</e:Scroller>
+			</e:Group>
+			<e:Button id="btnUp" label="" horizontalCenter="120" verticalCenter="126">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_enchant_ButtonEnchantNor_png" source.down="ui_card_enchant_ButtonEnchantSel_png" source.disabled="ui_card_enchant_ButtonEnchantDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Label id="labelCost" text="1" y="349" anchorOffsetX="0" anchorOffsetY="0" size="20" textAlign="center" verticalAlign="middle" touchEnabled="false" width="90" x="439"/>
+			<e:Image id="imgCanNot" source="ui_card_enchant_WordsCanNot_png" horizontalCenter="118" verticalCenter="-34"/>
+		</e:Group>
+		<e:Button id="btnStrengthen" label="" left="33" top="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_card_enchant_ButtonTypeStrengthenNor_png" source.down="ui_card_enchant_ButtonTypeStrengthenSel_png" source.disabled="ui_card_enchant_ButtonTypeStrengthenSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="btnEnchant" label="" left="174" top="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_card_enchant_ButtonTypeEnchantNor_png" source.down="ui_card_enchant_ButtonTypeEnchantSel_png" source.disabled="ui_card_enchant_ButtonTypeEnchantSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="btnClose" label="" x="654.51" y="27.77" width="90" height="55" anchorOffsetX="45" anchorOffsetY="27.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

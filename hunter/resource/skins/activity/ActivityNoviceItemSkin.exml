@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityNoviceItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgFloor" horizontalCenter="0" verticalCenter="0" source="ui_acitivity_novicenew_list_png" width="565"/>
+	<e:Label id="labelTitle" text="收集3名猎人（0/3）" textColor="0x000000" size="18" left="12" fontFamily="SimHei" top="7"/>
+	<e:Scroller width="265" height="85" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" verticalCenter="16.5" left="7">
+		<e:List id="listViewAward" anchorOffsetX="0" x="-31.67" y="0">
+			<e:layout>
+				<e:TileLayout requestedRowCount="1" verticalAlign="contentJustify"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image id="imgGet" source="ui_acitivity_novicenew_WordsTipKelingqu2_png" verticalCenter="12.5" right="35"/>
+	<e:Button id="btnGet" label="领取" right="18" enabled="true" verticalCenter="11.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_acitivity_novicenew_btn1-1_png" source.down="ui_acitivity_novicenew_btn1-2_png" source.disabled="ui_acitivity_novicenew_btn3_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000" size="24"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+	<e:Button id="btnGet1" label="前往" right="18" verticalCenter="11.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_acitivity_novicenew_btn2-1_png" source.down="ui_acitivity_novicenew_btn2-2_png" source.disabled="ui_acitivity_novicenew_btn3_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000" size="24"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+
+</e:Skin>

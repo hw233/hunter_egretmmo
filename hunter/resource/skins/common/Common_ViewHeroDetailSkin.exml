@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_ViewHeroDetailSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="mainNode" width="870" height="490" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="backdrop" source="ui_hunter_LayerCurrencyFirst_png" left="0" top="0" bottom="0" scale9Grid="103,58,187,66" width="870"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" x="74" y="-13"/>
+		<e:Button id="btnClose" label="" scaleX="-1" left="-12" top="-31">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Group id="rightNode" width="430" height="440" right="10" bottom="10">
+			<e:Image source="ui_arena_WordsTipCard_png" horizontalCenter="0" top="-25"/>
+			<e:Image source="ui_pet_LayerPetInfo_png" width="420" height="440" horizontalCenter="0" verticalCenter="0" scale9Grid="13,12,80,73"/>
+			<e:Scroller width="400" height="432" horizontalCenter="0" verticalCenter="0">
+				<e:List id="cardList" left="0" top="0" width="100%" height="100%" anchorOffsetX="0">
+					<e:layout>
+						<e:TileLayout requestedColumnCount="3" verticalGap="3" paddingRight="0" columnWidth="130" rowHeight="140" horizontalGap="5" paddingLeft="0" paddingTop="3" paddingBottom="3"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="nodeLeft" width="410" height="440" left="10" verticalCenter="10">
+			<e:Image source="ui_arena_BoardPlayerInfo_png" horizontalCenter="0" top="0"/>
+			<e:Label id="labelName" text="黄忠" width="340" height="33" size="20" verticalAlign="middle" textAlign="center" horizontalCenter="0" top="0"/>
+			<e:Image source="ui_arena_BoardPlayerInfo_png" horizontalCenter="0" top="40"/>
+			<e:Label id="labelPower" text="Label" width="340" height="33" size="20" verticalAlign="middle" textAlign="center" horizontalCenter="0" top="40" textColor="0xeafa1d"/>
+			<e:Group id="middleNode" width="415" height="220" horizontalCenter="0" top="80">
+			<e:Image source="ui_hunter_LayerSeconde_png" width="415" height="220" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0" scale9Grid="15,10,92,65"/>
+			<e:Label text="生命：9999" y="0" height="44" verticalAlign="middle" textAlign="left" size="16" left="20" anchorOffsetX="0" width="119" name="labelCurrentAttribute1" textColor="0x000000"/>
+			<e:Label text="+999" y="0" height="44" verticalAlign="middle" textAlign="left" width="85" size="16" name="labelNextAttribute1" left="140" textColor="0x609500" anchorOffsetX="0"/>
+			<e:Label text="生命：9999" y="0" height="44" verticalAlign="middle" textAlign="left" width="124" size="16" anchorOffsetX="0" horizontalCenter="79.5" name="labelCurrentAttribute6" textColor="0x000000"/>
+			<e:Label text="+999" y="0" height="44" verticalAlign="middle" textAlign="left" width="60" size="16" name="labelNextAttribute6" right="10" textColor="0x609500" anchorOffsetX="0"/>
+			<e:Image id="labelLine1" source="ui_hunter_OrnLine_png" y="44" left="10" right="10"/>
+			<e:Label text="生命：9999" y="44" height="44" verticalAlign="middle" textAlign="left" width="120" size="16" left="20" anchorOffsetX="0" name="labelCurrentAttribute2" textColor="0x000000"/>
+			<e:Label text="+999" y="44" height="44" verticalAlign="middle" textAlign="left" width="85" size="16" name="labelNextAttribute2" left="140" textColor="0x5e9500"/>
+			<e:Label text="生命：9999" y="44" height="44" verticalAlign="middle" textAlign="left" width="100" size="16" anchorOffsetX="0" horizontalCenter="67" x="10" name="labelCurrentAttribute7" textColor="0x000000"/>
+			<e:Label text="+999" y="44" height="44" verticalAlign="middle" textAlign="left" width="60" size="16" name="labelNextAttribute7" right="10" textColor="0x609500"/>
+			<e:Image id="labelLine2" source="ui_hunter_OrnLine_png" y="88" left="10" right="10"/>
+			<e:Label text="生命：9999" y="88" height="44" verticalAlign="middle" textAlign="left" width="119" size="16" left="20" anchorOffsetX="0" name="labelCurrentAttribute3" textColor="0x000000"/>
+			<e:Label text="+999" y="88" height="44" verticalAlign="middle" textAlign="left" width="85" size="16" name="labelNextAttribute3" left="140" textColor="0x609500"/>
+			<e:Label text="生命：9999" y="88" height="44" verticalAlign="middle" textAlign="left" width="100" size="16" anchorOffsetX="0" horizontalCenter="67" x="10" name="labelCurrentAttribute8" textColor="0x000000"/>
+			<e:Label text="+999" y="88" height="44" verticalAlign="middle" textAlign="left" width="60" size="16" name="labelNextAttribute8" right="10" textColor="0x609500"/>
+			<e:Image id="labelLine3" source="ui_hunter_OrnLine_png" y="132" left="10" right="10"/>
+			<e:Label text="生命：9999" y="132" height="44" verticalAlign="middle" textAlign="left" width="120" size="16" left="20" anchorOffsetX="0" name="labelCurrentAttribute4" textColor="0x000000"/>
+			<e:Label text="+999" y="132" height="44" verticalAlign="middle" textAlign="left" width="85" size="16" name="labelNextAttribute4" left="140" textColor="0x609500"/>
+			<e:Label text="生命：9999" y="132" height="44" verticalAlign="middle" textAlign="left" width="100" size="16" anchorOffsetX="0" horizontalCenter="67" x="20" name="labelCurrentAttribute9" textColor="0x000000"/>
+			<e:Label text="+999" y="132" height="44" verticalAlign="middle" textAlign="left" width="60" size="16" name="labelNextAttribute9" right="10" textColor="0x609500"/>
+			<e:Image id="labelLine4" source="ui_hunter_OrnLine_png" y="176" left="10" right="10"/>
+			<e:Label text="生命：9999" y="176" height="44" verticalAlign="middle" textAlign="left" width="117" size="16" left="20" anchorOffsetX="0" name="labelCurrentAttribute5" textColor="0x000000"/>
+			<e:Label text="+999" y="176" height="44" verticalAlign="middle" textAlign="left" width="85" size="16" name="labelNextAttribute5" left="140" textColor="0x609500"/>
+			<e:Label text="生命：9999" y="176" height="44" verticalAlign="middle" textAlign="left" width="100" size="16" anchorOffsetX="0" horizontalCenter="67" x="30" name="labelCurrentAttribute10" textColor="0x000000"/>
+			<e:Label text="+999" y="176" height="44" verticalAlign="middle" textAlign="left" width="60" size="16" name="labelNextAttribute10" right="10" textColor="0x609500"/>
+			</e:Group>
+			<e:Image source="ui_hunter_WordsDontGetHunterSkill_png" scaleX="1" scaleY="1" horizontalCenter="0" bottom="105"/>
+			<e:Image source="ui_hunter_BoardDontGetHunter_png" scaleX="0.82" scaleY="0.8" bottom="5" scale9Grid="39,28,409,53" left="0" right="0"/>
+			<e:Scroller width="380" height="100" horizontalCenter="0" bottom="5">
+			<e:List id="hunterList" left="0" right="0" top="0" bottom="0">
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" paddingBottom="0" paddingTop="5" paddingLeft="10" gap="0"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

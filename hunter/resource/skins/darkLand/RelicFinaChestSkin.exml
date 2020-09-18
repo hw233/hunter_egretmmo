@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RelicFinaChestSkin" width="770" height="310" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="770" height="312" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_BoardCardPopSeconde_png" scale9Grid="239,210,38,62" width="770" height="312" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_card_BoardCardPopTop_png" scale9Grid="5,5,337,30" width="755" top="-5" right="0"/>
+		<e:Image source="ui_darkland_relic_BoardTitleFloorRed_png" horizontalCenter="0" top="-20"/>
+		<e:Button id="buttonClose" label="" right="-15" top="-11">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_darkland_relic_WordsTitleBox_png" horizontalCenter="0" top="-5"/>
+		<e:Group width="720" height="238.5" scaleX="1" scaleY="1" right="20" bottom="13">
+			<e:Group width="530" height="30" horizontalCenter="0" top="0">
+				<e:Image source="ui_darkland_relic_IconZhuangShi_png" verticalCenter="0" left="0"/>
+				<e:Image source="ui_darkland_relic_IconZhuangShi_png" right="0" rotation="181.24" verticalCenter="0"/>
+				<e:Label text="当日结算宝箱将在次日凌晨4点消失，请及时开启！" size="18" horizontalCenter="0" textColor="0x000000" verticalCenter="0"/>
+			</e:Group>
+			<e:Group width="720" height="211.5" horizontalCenter="0" bottom="0">
+				<e:List id="listTableView" width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+					<e:layout>
+						<e:TileLayout orientation="rows" horizontalGap="6" paddingLeft="18"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

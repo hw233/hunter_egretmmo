@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityNoviceSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgbg" horizontalCenter="0" verticalCenter="0" height="100%" width="100%" source="ui_acitivity_novicenew_bg_png"/>
+	<e:Image source="ui_acitivity_novicenew_lihui_png" bottom="0" horizontalCenter="-238"/>
+	<e:Image source="ui_acitivity_novicenew_qieyedi_png" x="1" y="-1"/>
+	<e:Image source="ui_acitivity_novicenew_title_png" left="0" top="0"/>
+	<e:Button id="btnClose" label="" left="0" top="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_acitivity_novicenew_fanhui_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:List id="listbtn" width="193" height="554" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="ActivityNoviceBtnItmSkin" left="0" top="87">
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+
+	</e:List>
+	<e:Group y="56" horizontalCenter="215.5" width="509" height="564">
+		<e:Image source="ui_acitivity_novicenew_diban_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_acitivity_novicenew_banner_png" top="5" horizontalCenter="0"/>
+		<e:Label text="累计完成相应的任务数量即可开启大奖" size="16" top="140" left="20"/>
+		<e:Label id="labelTime" text="结束时间：天：：" size="16" top="140" left="300"/>
+
+
+
+
+
+		<e:List id="listViewTag" width="475" height="36" horizontalCenter="0" top="165">
+			<e:layout>
+				<e:TileLayout requestedRowCount="1" horizontalGap="3" horizontalAlign="justify" paddingLeft="0"/>
+			</e:layout>
+		</e:List>
+
+
+
+		<e:Scroller width="570" height="400.72" y="207" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.85" scaleY="0.85" scrollPolicyV="on" horizontalCenter="0">
+			<e:List id="listViewItem" x="6.67" anchorOffsetY="0" height="381.89" y="1.11">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+
+			</e:List>
+		</e:Scroller>
+		<e:Group x="230.59" y="102.08" width="239">
+			<e:Image source="ui_acitivity_novicenew_jindu2_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgBar" scale9Grid="9,3,593,19" source="ui_acitivity_novicenew_jindu1_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgBarMask" source="ui_acitivity_novicenew_jindu2_png" verticalCenter="0" width="239" scaleX="1" x="0"/>
+			<e:Image source="ui_acitivity_novicenew_jindudi_png" x="17.41" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Image id="imgbg1" source="ui_acitivity_novicenew_jindudi2_png" x="15.97" y="-0.02"/>
+			<e:Label id="labelTag1" text="10" size="12" anchorOffsetX="0" width="30" textAlign="center" x="12.97" verticalCenter="0" textColor="0x8e5f09"/>
+			<e:Image source="ui_acitivity_novicenew_jindudi_png" x="65.21" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Image id="imgbg2" source="ui_acitivity_novicenew_jindudi2_png" x="62.63" verticalCenter="0"/>
+			<e:Label id="labelTag2" text="30" size="12" anchorOffsetX="0" width="30" textAlign="center" x="62.74" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Image source="ui_acitivity_novicenew_jindudi_png" x="136.41" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Image id="imgbg3" source="ui_acitivity_novicenew_jindudi2_png" x="137.3" verticalCenter="0" y="10"/>
+			<e:Label id="labelTag3" text="60" size="12" anchorOffsetX="0" width="30" textAlign="center" x="133.87" verticalCenter="0"/>
+			<e:Image source="ui_acitivity_novicenew_jindudi_png" x="228.01" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Image id="imgbg4" source="ui_acitivity_novicenew_jindudi2_png" x="226.62" verticalCenter="0" y="20"/>
+			<e:Label id="labelTag4" text="100" size="12" anchorOffsetX="0" width="30" textAlign="center" x="223.71" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="groupLight1" y="55" width="50" height="50" horizontalCenter="4.5">
+			<e:Image id="imgBg1" source="ui_acitivity_novicenew_guang_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_frame_FrameHunterGold1_png" width="100%" height="100%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="GoodsIcon1" source="ui_iconresources_zuanshi3_png" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+			<e:Image id="imgGet1" scaleX="0.6" scaleY="0.6" touchEnabled="false" source="ui_acitivity_serverseven_get_png" left="6" top="3"/>
+			<e:Label id="labelCont1" text="Label" size="12" right="5" bottom="8"/>
+		</e:Group>
+		<e:Group id="groupLight2" x="284.31" y="55" width="50" height="50">
+			<e:Image id="imgBg2" source="ui_acitivity_novicenew_guang_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_frame_FrameHunterGold1_png" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+			<e:Image id="GoodsIcon2" source="ui_iconresources_zuanshi3_png" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+			<e:Image id="imgGet2" scaleX="0.6" scaleY="0.6" touchEnabled="false" source="ui_acitivity_serverseven_get_png" top="3" left="6"/>
+			<e:Label text="Label" size="12" right="5" bottom="8" id="labelCont2" x="-36.309999999999945" y="30" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="groupLight3" x="356.24" y="55" width="50" height="50">
+			<e:Image id="imgBg3" source="ui_acitivity_novicenew_guang_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_frame_FrameHunterGold1_png" horizontalCenter="0" verticalCenter="0" height="100%" width="100%"/>
+			<e:Image id="GoodsIcon3" source="ui_iconresources_zuanshi3_png" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+			<e:Image id="imgGet3" scaleX="0.6" scaleY="0.6" touchEnabled="false" source="ui_acitivity_serverseven_get_png" left="6" top="3"/>
+			<e:Label text="Label" size="12" right="5" bottom="8" id="labelCont3" x="-108.24000000000001" y="30" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="groupLight4" y="55" x="432.85" width="50" height="50">
+			<e:Image id="imgBg4" source="ui_acitivity_novicenew_guang_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_frame_FrameHunterGold1_png" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+			<e:Image id="GoodsIcon4" source="ui_iconresources_zuanshi3_png" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+			<e:Image id="imgGet4" scaleX="0.6" scaleY="0.6" touchEnabled="false" source="ui_acitivity_serverseven_get_png" top="3" left="6"/>
+			<e:Label id="labelCont4" text="Label" size="12" right="5" bottom="8" x="-184.85000000000002" y="30" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Label text="Label" x="181" y="106" size="16" visible="false"/>
+		<e:Image source="ui_acitivity_novicenew_jindudi2_png" x="204.37" y="101"/>
+		<e:Image id="imglabelBg" source="ui_acitivity_novicenew_jindudi3_png" x="198.33" y="100.31"/>
+		<e:Label id="labeljindu" text="100" x="202.03" y="107.67" textColor="0x8e5308" size="12" anchorOffsetX="0" width="27.67" textAlign="center"/>
+		<e:Image id="imgyiwancheng" source="ui_acitivity_novicenew_yiwancheng_png" x="195.96" y="84"/>
+
+
+
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

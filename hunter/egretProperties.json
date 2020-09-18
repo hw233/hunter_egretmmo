@@ -1,0 +1,65 @@
+{
+  "engineVersion": "5.2.29",
+  "compilerVersion": "5.2.29",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "dragonBones"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "jszip",
+      "path": "./libs/jszip"
+    },
+    {
+      "name": "md5",
+      "path": "./libs/md5"
+    },
+    {
+      "name": "zlib",
+      "path": "./libs/zlib"
+    },
+    {
+      "name": "message",
+      "path": "./libs/message"
+    },
+    {
+        "name": "tiled",
+        "path": "./libs/tiled"
+    }
+  ],
+  "targets": {
+    "android": {
+      "appname": "热血猎人",
+      "packagename": "com.zj.hunterh5.android"
+    },
+    "ios": {
+      "appname": "热血猎人",
+      "packagename": "com.zj.hunterh5.ios",
+      "hybrid": false
+    }
+  }
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivitySpecialMainSceneSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="tween">
+			<tween:TweenItem target="{imgName}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object y="{39.69}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object y="{43.69}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image width="100%" height="100%" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source="ui_acitivity_special_bg_png"/>
+	<e:Group id="groupTR" width="458" height="44" anchorOffsetY="0" anchorOffsetX="0" top="5" right="111">
+		<e:Image source="ui_mainui_BoardCurrency_png" x="0" verticalCenter="0" width="100%" visible="false"/>
+		<e:Group id="groupbtnAddGold" x="0" y="0" width="144" height="43">
+		<e:Image width="100" height="24" x="16" verticalCenter="0" source="ui_common_mask_black_jpg" alpha="0.5"/>
+		<e:Label id="lbGold" text="19.9万" x="21" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="90.5" textAlign="center" verticalAlign="middle" verticalCenter="0.5" height="18"/>
+		<e:Image source="ui_currencyicon_IconGold_png" x="-3" verticalCenter="0"/>
+		<e:Button id="btnAddGold" label="" x="104.5" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:zj="zj.*">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgFlagGold" source="ui_currencyicon_IconRed_png" x="130.5" touchEnabled="true" y="0"/>
+		</e:Group>
+		<e:Group id="groupbtnAddGemstone" x="161" y="0" width="130" height="42">
+		<e:Image width="100" height="24" x="8" source="ui_common_mask_black_jpg" alpha="0.5" verticalCenter="0"/>
+		<e:Label id="lbGemstone" text="30" x="22.52" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="81.33" textAlign="center" verticalAlign="middle" verticalCenter="0" height="18"/>
+		<e:Image id="jewel" source="ui_currencyicon_IconGemstone_png" x="-9" verticalCenter="0"/>
+		<e:Button id="btnAddGemstone" label="" x="97" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:zj="zj.*">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgFlagGemstone" source="ui_currencyicon_IconRed_png" x="125" touchEnabled="false" y="0"/>
+		</e:Group>
+		<e:Group id="groupbtnAddStrength" x="308" y="0" width="135" height="43">
+		<e:Image width="100" height="24" x="8.5" source="ui_common_mask_black_jpg" alpha="0.5" verticalCenter="0"/>
+		<e:Label id="lbStrength" text="110/102" x="13.5" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="91" verticalAlign="middle" textAlign="center" verticalCenter="0" height="19" anchorOffsetY="0"/>
+		<e:Image id="energy" source="ui_currencyicon_IconStrength_png" x="0" verticalCenter="0"/>
+		<e:Button id="btnAddStrength" label="" x="97.5" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:zj="zj.*">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgFlagStrength" source="ui_currencyicon_IconRed_png" x="126.5" touchEnabled="false" y="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupRight" anchorOffsetX="0" width="720" anchorOffsetY="0" height="550" horizontalCenter="102" verticalCenter="20"/>
+	<e:Image source="ui_acitivity_special_qieyedi_png" left="0" top="0" bottom="0"/>
+
+	<e:Scroller width="180" height="421" scrollPolicyV="on" left="0" anchorOffsetX="0" verticalCenter="1.5" anchorOffsetY="0">
+		<e:List id="lstViewType" anchorOffsetX="0" width="206" useVirtualLayout="true" anchorOffsetY="0" height="463">
+			<e:layout>
+				<e:VerticalLayout gap="10"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image source="ui_acitivity_special_title_png" left="0" top="0"/>
+	<e:Button id="btnClose" label="" left="0" top="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_skyarean_fanhui_png" source.down="ui_acitivity_biography_button_fanhuiSel_png" source.disabled="ui_acitivity_biography_button_fanhuiDis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+
+</e:Skin>

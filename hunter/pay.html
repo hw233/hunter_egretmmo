@@ -1,0 +1,167 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+        html,
+        body,
+        div,
+        p,
+        span,
+        h4 {
+            padding: 0;
+            margin: 0;
+        }
+        html,
+        body,
+        .wrapper {
+            height: 100%;
+            overflow: hidden;
+        }
+        .wrapper {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .dialog {
+            width: 3.06rem;
+            background-color: #fff;
+            border-radius: 0.06rem;
+            padding-top: 0.24rem;
+            margin: 1rem auto 0;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .dialog h4 {
+            font-size: 0.16rem;
+            line-height: 0.22rem;
+            font-weight: normal;
+            color: #333;
+            margin-bottom: 0.14rem;
+        }
+        .dialog p {
+            line-height: 0.2rem;
+            font-size: 0.14rem;
+            color: #666;
+
+        }
+        .dialog .button {
+            margin-top: 0.25rem;
+            display: flex;
+            font-size: 0.16rem;
+            color: #333;
+            line-height: 0.5rem;
+            border-top: 0.01rem solid #c8c8c8;
+        }
+        .dialog .button span {
+            flex: 1;
+            border-right: 0.01rem solid #c8c8c8;
+        }
+        .dialog .button span:last-child {
+            border-right: none;
+        }
+        .dialog .button span.confirm {
+            color: #1A89FA;
+        }
+    </style>
+</head>
+<body>
+    <div class='wrapper' id="div">
+        <div class='dialog'>
+            <h4>支付确认</h4>
+            <p>请点击“去支付”，进入完成支付</p>
+            <p>如果您已支付或放弃支付，请点击“返回商户”</p>
+            <div class='button'>
+                <span class='cancel' style="color:#808080">返回商户</span>
+                <span class='confirm'>去支付</span>
+            </div>
+        </div>
+    </div>
+    <a id="payUrl" style="display: none" href=""></a>
+</body>
+<script>
+    var width = document.documentElement.clientWidth || document.body.clientWidth;
+    var height = document.documentElement.clientHeight || document.body.clientHeight;
+    document.documentElement.style.fontSize = Math.min(width, height) / 4 + 'px';
+
+    var pay_data = null;
+    var data = null;
+    var initData = function () {
+        var url = window.location.search;
+        if (url.indexOf("?") != -1) {
+            if (url.indexOf("pay_data=") != -1) {
+                pay_data = url.split("pay_data=")[1];
+            }
+            var str = url.substr(1);
+            var strs = str.split("&");
+            data = {};
+            for (var i = 0; i < strs.length; i++) {
+                var temp = strs[i].split("=");
+                if(temp[0] && temp[1]){
+                    data[temp[0]] = temp[1];
+                }
+            }
+        }
+    }
+    initData();
+    if (data) {
+        if ("0" == data.step) {
+            var cancelDom = document.querySelector('.cancel');
+            var confirmDom = document.querySelector('.confirm');
+            cancelDom.onclick = function () {
+                location.href = data.back;
+            }
+            var time = 3;
+            var isJump = false;
+            var setText = function(count){
+                if(count > 0){
+                    confirmDom.innerHTML = "去支付 " + count + "s";
+                } else {
+                    confirmDom.innerHTML = "去支付";
+                }
+            }
+            var doPay = function () {
+                isJump = true;
+                setText(0);
+                if (data) {
+                    if ("13" == data.channel) {
+                        document.getElementById("payUrl").href = data.jump + "?channel=13&step=1&pay_data=" + pay_data;
+                        document.getElementById("payUrl").click();
+                        return;
+                    } else if (pay_data) {
+                        document.getElementById("payUrl").href = data.jump + "?channel=12&step=1&pay_data=" + pay_data;
+                        document.getElementById("payUrl").click();
+                        return;
+                    }
+                }
+                alert("参数错误");
+            }
+            confirmDom.onclick = function () {
+                doPay();
+            }
+            var checkJump = function(){
+                if(!isJump){
+                    if(time > 0){
+                        setText(time);
+                        time--;
+                        setTimeout(function () {
+                            checkJump();
+                        }, 1000);
+                    } else {
+                        doPay();
+                    }
+                }
+            }
+            checkJump();
+        } else {
+            document.getElementById("div").style.display = "none";
+            if ("13" == data.channel) {
+                location.href = decodeURI(pay_data);
+            } else {
+                document.documentElement.innerHTML = decodeURI(pay_data);
+                document.forms[0].submit();
+            }
+        }
+    }
+</script>
+</html>

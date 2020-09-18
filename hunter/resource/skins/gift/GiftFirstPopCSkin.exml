@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GiftFirstPopCSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" width="100%" height="100%" x="0" y="0">
+	</e:Group>
+	<e:Group width="300" height="470" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_mall_gift_BoardGiftTime_png" x="0" width="300" height="470" bottom="0" scale9Grid="27,38,168,233"/>
+		<e:Image source="ui_mall_gift_OrnGiftTime_png" horizontalCenter="0" bottom="3"/>
+		<e:Image id="imageSprite_1" source="ui_mall_gift_BoardSelectedBg_png" y="19" horizontalCenter="0" anchorOffsetX="0" width="290"/>
+		<e:Image source="ui_mall_gift_BoardGiftTimeTip_png" y="-37" horizontalCenter="0.5"/>
+		<e:Image id="imageInfolcon" source="ui_mall_icon_putongpijiu_png" y="29.5" horizontalCenter="1"/>
+		<e:Image source="ui_mall_gift_BoardSelectedNum_png" y="210" width="308" horizontalCenter="0"/>
+		<e:Label id="labelCanBuy" text="限制购买" y="216" size="18" horizontalCenter="0" textColor="0x81f207"/>
+		<e:Label id="labelEndTime" text="购买可一次性获得以下物品" y="256" size="18" textColor="0x050000" horizontalCenter="0.5" bold="true"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" x="5" y="288" width="290"/>
+		<e:Scroller width="290" height="85" x="5" y="289">
+			<e:List id="listItem" y="-2">
+				<e:layout>
+					<e:HorizontalLayout paddingTop="5" paddingLeft="8" horizontalAlign="center" verticalAlign="middle" gap="6"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image id="imageLimit" source="ui_mall_gift_WordsSelectedTip1_png" x="14.5" y="40.5"/>
+		<e:Group id="groupMain" width="290" height="85" x="6" y="289" touchThrough="true" touchEnabled="false" touchChildren="false"/>
+		<e:Group width="290" height="85" x="5" y="305" visible="false">
+			<e:Group width="63.6" height="64.2" x="15" y="6">
+				<e:Image source="ui_wonderland_IconFruitNode_png" x="0" y="0" scaleX="0.6" scaleY="0.6"/>
+			<e:Image id="imageFrame1" source="ui_frame_FrameHunterOrange1_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageIcon1" source="item_Recruit1_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelNum1" text="10" x="34" y="37" size="18"/>
+			</e:Group>
+			<e:Group width="63.6" height="64.2" y="6" x="82">
+				<e:Image source="ui_wonderland_IconFruitNode_png" y="0" scaleX="0.6" scaleY="0.6"/>
+			<e:Image id="imageFrame2" source="ui_frame_FrameHunterViolet1_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageIcon2" source="item_Recruit1_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelNum2" text="3" x="43" y="37" size="18"/>
+			</e:Group>
+			<e:Group width="63.6" height="64.2" x="149" y="6">
+				<e:Image source="ui_wonderland_IconFruitNode_png" x="0" y="0" scaleX="0.6" scaleY="0.6"/>
+			<e:Image id="imageFrame3" source="ui_frame_FrameHunterViolet1_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageIcon3" source="ui_iconresources_jinbi1_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelNum3" text="30000" x="5" y="37" size="18"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupButBuy" width="172" height="55" horizontalCenter="0" bottom="25">
+			<e:Button id="buttonGet_2" label="" x="0" y="0" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mall_gift_ButtonGiftCommonNor_png" source.down="ui_mall_gift_ButtonGiftCommonSel_png" source.disabled="ui_mall_gift_ButtonGiftCommonDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="labelValue_2" text="1800" x="72" size="22" strokeColor="0x594525" stroke="2" touchEnabled="false" verticalCenter="0.5" fontFamily="Helvetica" verticalAlign="middle" textAlign="left"/>
+			<e:Image id="imageEight" source="ui_tavern_WoridsTipSale_png" x="-6" y="-10"/>
+			<e:Image id="imageIcon" source="ui_iconresources_zuanshi3_png" touchEnabled="false" horizontalCenter="-34.5" verticalCenter="0"/>
+		</e:Group>
+		<e:Label id="labelTipname" text="啤酒礼包" y="-9.32" size="23" horizontalCenter="3" strokeColor="0x000000" stroke="2" fontFamily="SimHei"/>
+
+	</e:Group>
+	<e:Label id="labelCloseTheTip" text="点击任意区域关闭" size="20" horizontalCenter="0" bottom="50" fontFamily="Arial" textColor="0xffffff"/>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterPsychicGroupIllustrateItemSkin" width="638" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" top="0" right="0" bottom="0">
+		<e:Image source="ui_hunter_psychic_BoardExplainFloor_png" left="0" top="0" right="0" bottom="0" scale9Grid="12,15,78,91"/>
+        <e:Group width="92" height="92" top="5" left="20">
+			<e:Image source="ui_hunter_psychic_BoardRefreshGroupFrame_png" horizontalCenter="0" verticalCenter="0" scale9Grid="21,23,56,36"/>
+			<e:Image id="imgIcon" source="ui_hunter_psychic_WordsKong_png" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group width="92" height="24" bottom="5" left="20">
+			<e:Image source="ui_hunter_psychic_BoardRefreshGroupNameFloor_png" horizontalCenter="0" verticalCenter="0" scale9Grid="20,8,46,9"/>
+			<e:Label id="labelName" text="黑寡妇" size="16" fontFamily="Helvetica" width="82" height="20" horizontalCenter="0" verticalCenter="0" verticalAlign="middle" textAlign="center"/>
+		</e:Group>
+		<e:Image source="ui_hunter_psychic_WordsEffectTwo_png" left="130" top="18"/>
+		<e:Label id="labelGroup" text="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊" size="16" fontFamily="Helvetica" left="240" right="20" anchorOffsetY="0" height="39" verticalAlign="top" textAlign="left" top="22"/>
+		<e:Image source="ui_hunter_psychic_LayerLineLong_png" verticalCenter="0" right="20" left="140"/>
+		<e:Image source="ui_hunter_psychic_WordsContain_png" left="130" bottom="22"/>
+		<e:Label id="labelIncludes" text="攻击、生命、命中、抵抗、暴击、爆伤" size="16" fontFamily="Helvetica" left="220" right="20" anchorOffsetY="0" height="21" verticalAlign="middle" textAlign="left" bottom="22"/>
+	</e:Group>
+</e:Skin>

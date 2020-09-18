@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="userMainSenseSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgbg" source="ui_arena_LayerBg_png" horizontalCenter="0" verticalCenter="0" height="100%" width="100%"/>
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupMain" width="960" height="640" scaleX="1" scaleY="1" left="0" top="0">
+			<e:Group x="140" y="105" width="680" height="430">
+			<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="680" height="430" x="0" y="0" scale9Grid="150,30,131,91"/>
+			<e:Image source="ui_hunter_LayerSeconde_png" y="26" width="660" height="325" scale9Grid="15,10,92,65" x="10"/>
+			<e:Image source="ui_hunter_OrnDontGetHunterTop_png" left="22" top="-13"/>
+			<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="0" top="-37"/>
+			<e:Image source="ui_common_WordsPlayerInfo_png" horizontalCenter="0" top="-25"/>
+			<e:Button id="btnClose" label="" right="-14" top="-30">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="left" left="14" top="37">
+				<e:Group y="0" horizontalCenter="0">
+				<e:Image source="ui_frame_FrameImageB_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgFrame" source="ui_frame_FrameImage_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgHead" horizontalCenter="-1.5" verticalCenter="2.5" source=""/>
+				</e:Group>
+				<e:Group id="groupLicense" y="118" horizontalCenter="0">
+				<e:Image id="boardTitle" source="ui_mainui_BoardHunterLicenseLevel_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgTitle" source="ui_license_examination_WordsTitle4_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group y="154" horizontalCenter="0">
+				<e:Image source="ui_common_BoardPowerUse_png" verticalCenter="0" horizontalCenter="0"/>
+				<e:Image source="ui_common_WordsPowerSmall5_png" left="3" verticalCenter="0"/>
+				<e:Label id="labelPlayerPower" text="123456" size="20" textColor="0xffcf00" verticalCenter="0" left="69"/>
+				</e:Group>
+				<e:Button id="btnVip" label="" y="197" horizontalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_common_ButtonVipPowerViewNor_png" source.down="ui_common_ButtonVipPowerViewSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="btnChangeHead" label="" y="254" horizontalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_common_ButtonIamgeChangeNor_png" source.down="ui_common_ButtonIamgeChangeSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="rightTop" right="17" top="35">
+				<e:Image source="ui_pet_LayerPetInfo_png" width="495" height="175" scale9Grid="13,12,80,73" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelUserName" text="名称：可爱的" textColor="0x000000" size="20" bold="true" fontFamily="SimHei" top="15" left="22"/>
+				<e:Label id="labelUserId" text="ID：123456789" textColor="0x000000" size="20" bold="true" fontFamily="SimHei" left="22" top="45"/>
+				<e:Label id="labelUserLevel" text="等级：100" textColor="0x000000" size="20" bold="true" fontFamily="SimHei" left="22" top="75"/>
+				<e:Image source="ui_union_IconConstructionEXP_png" scaleX="0.8" scaleY="0.8" left="22" bottom="19"/>
+				<e:Group bottom="26" left="90">
+				<e:Image source="ui_hunter_BoardBurHunterLevelExp_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgExpBar" source="ui_hunter_BurHunterLevelExp_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgExpBarBg" verticalCenter="0" left="0" source="ui_hunter_collection_board1_png" width="393" height="22"/>
+				<e:Label id="labelExp" text="123423434534" size="20" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelMax" text="已满级" size="20" horizontalCenter="0" verticalCenter="0" bold="true"/>
+				</e:Group>
+				<e:Button id="btnChangeName" label="" right="14" top="8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_common_ButtonNameChangeNor_png" source.down="ui_common_ButtonNameChangeSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group top="216" right="17">
+				<e:Image source="ui_pet_LayerPetInfo_png" width="495" height="125" scale9Grid="13,12,80,73" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelTitle1" text="主称号：我是千场后羿" x="23" y="17.5" textColor="0x000000" size="18" fontFamily="SimHei"/>
+				<e:Label id="labelEffext1" text="描述：物理攻击+9999，物理吸血+20%" x="24" y="43" textColor="0xff0000" fontFamily="SimHei" size="16" anchorOffsetX="0" width="459" anchorOffsetY="0" height="78"/>
+			</e:Group>
+			<e:Button id="btnReLogin" label="" left="20" bottom="15">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_common_ButtonEnterLoginNor_png" source.down="ui_common_ButtonEnterLoginSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnSystem" label="" horizontalCenter="-85" bottom="15">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_common_ButtonSysNor_png" source.down="ui_common_ButtonSysSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="bthKey" label="" horizontalCenter="85" bottom="15">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_common_ButtonAcitivityIDNor_png" source.down="ui_common_ButtonAcitivityIDSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnProtocol" label="" bottom="15" horizontalCenter="248">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_common_ButtonUseInfoNor_png" source.down="ui_common_ButtonUseInfoSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

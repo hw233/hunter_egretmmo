@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardComposeItemSkin" states="up,down" currentState="up" width="120" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+	<e:Group width="120" height="150" x="0" y="0">
+		<e:Image id="imageDown" includeIn="down" source="ui_card_compose_BoardCardSelFloor_png" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1" alpha="0.5" scale9Grid="19,19,88,116"/>
+		<e:Image includeIn="up" scaleX="1" scaleY="1" source="ui_card_compose_BoardCardFloor_png" left="0" right="0" top="0" bottom="0" scale9Grid="16,19,95,116" x="0" y="0"/>
+		<e:Group id="groupAll" width="120" height="95%" horizontalCenter="0" verticalCenter="0" x="0" y="4" scaleX="1" scaleY="1">
+			<e:Button id="btnSel" label="" horizontalCenter="0" verticalCenter="0" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_card_compose_BoardCardFloor_png" source.down="ui_card_compose_BoardCardSelFloor_png" source.disabled="ui_card_compose_BoardCardSelFloor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group width="100" height="100" scaleX="1" scaleY="1" top="9" horizontalCenter="0" touchEnabled="false">
+			<e:Image id="imageFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0" width="100" height="100" touchEnabled="false"/>
+			<e:Image source="ui_card_BoardCardGreen_png" scaleX="1" scaleY="1" horizontalCenter="-1.5" verticalCenter="-1" anchorOffsetY="0" height="74" touchEnabled="false"/>
+			<e:Image id="imageCardType" source="ui_hunter_evaluate_IconCardTypeOrn6_png" right="6" top="2" touchEnabled="false"/>
+			<e:Image id="imageCardPic" source="card_8885shenmijue_s_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="labelLevel" width="40" height="20" x="55" y="59" text="1" font="InstanceSweepNum_fnt" touchEnabled="false" textAlign="right"/>
+
+			<e:Group id="groupStar" width="100" height="21" left="-5" bottom="9"/>
+			<e:Group id="groupFullAni" width="100" height="100" x="0" touchEnabled="false"/>
+			</e:Group>
+
+			<e:Label id="labelCardName" text="支配者的祝福" size="14" scaleX="1" scaleY="1" horizontalCenter="3" bottom="21" fontFamily="Microsoft YaHei" touchEnabled="false"/>
+			<e:Group width="78" height="8" scaleX="1" scaleY="1" horizontalCenter="0" bottom="8" touchEnabled="false">
+			<e:Image id="imageExpNull" source="ui_acitivity_jewel_BoardExpNull_png" width="78" height="10" x="0" y="-1"/>
+			<e:Image id="imageExpBar" source="ui_card_compose_BoardExpFullFloor_png" x="0" y="-1" touchEnabled="false"/>
+			<e:Label id="labelCardChipNum" text="0/100" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" size="12" touchEnabled="false"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupAni" width="100%" height="100%" x="0" y="0"/>
+</e:Skin>

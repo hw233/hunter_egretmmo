@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TiledSceneAdventureSkin" width="2862" height="1600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:zj="zj.*">
+	<e:Group id="layerMap" width="2862" height="1600" x="0" y="0">
+		<e:Group left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Image x="72" y="76" source="map_adv_1_jpg"/>
+			<e:Image x="82" y="86" source="map_adv_2_jpg"/>
+			<e:Image x="92" y="96" source="map_adv_3_jpg"/>
+			<e:Image x="102" y="106" source="map_adv_4_jpg"/>
+			<e:Image x="112" y="116" source="map_adv_5_jpg"/>
+			<e:Image x="122" y="126" source="map_adv_6_jpg"/>
+			<e:layout>
+			<e:TileLayout horizontalGap="0" verticalGap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="groupSurface" left="0" right="0" top="0" bottom="0">
+			<e:Image id="imgWave0" x="213" y="608" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="225"/>
+			<e:Image id="imgWave1" x="278" y="954" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="135"/>
+			<e:Image id="imgWave2" x="576" y="1448" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="90"/>
+			<e:Image id="imgWave3" x="1440" y="1377" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="135"/>
+			<e:Image id="imgWave4" x="1391" y="1148" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="190"/>
+			<e:Image id="imgWave5" x="1207" y="883" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="0"/>
+			<e:Image id="imgWave6" x="689" y="239" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="240"/>
+			<e:Image id="imgWave7" x="1525" y="249" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="-90"/>
+			<e:Image id="imgWave8" x="1777" y="414" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="135"/>
+			<e:Image id="imgWave9" x="1954" y="661" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="180"/>
+			<e:Image id="imgWave10" x="1703" y="1031" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="-35"/>
+			<e:Image id="imgWave11" x="2029" y="994" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="180"/>
+			<e:Image id="imgWave12" x="2249" y="1408" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="105"/>
+			<e:Image id="imgWave13" x="2681" y="337" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="0"/>
+			<e:Image id="imgWave14" x="2681" y="493" scaleX="1" scaleY="1" source="advent_img_wave_png" anchorOffsetX="4" anchorOffsetY="85" rotation="63.84"/>
+		</e:Group>
+		<e:Group id="groupUnit" left="0" right="0" top="0" bottom="0" scaleX="1" scaleY="1">
+			<zj:Adventure id="adv1" skinName="AdventureSkin1" x="286" y="232" width="135" height="84"/>
+			<zj:Adventure id="adv2" scaleY="1" anchorOffsetX="0" anchorOffsetY="109" skinName="AdventureSkin2" y="578" width="166" height="178" x="289"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="93" id="adv3" y="862" skinName="AdventureSkin3" x="399" width="151" height="133"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="109" id="adv4" y="1279" skinName="AdventureSkin4" x="342" width="279" height="185"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="66" id="adv5" y="1144" skinName="AdventureSkin5" x="742" width="165" height="121"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="121" id="adv6" y="834" skinName="AdventureSkin6" x="890" width="129" height="166"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="112" id="adv7" y="598" skinName="AdventureSkin7" x="1050" width="133" height="147"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="93" id="adv8" skinName="AdventureSkin8" y="338" x="739" width="126" height="107"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="103" id="adv9" y="289" x="1424" skinName="AdventureSkin9" width="112" height="119"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="93" id="adv10" skinName="AdventureSkin10" y="828" x="1499" width="181" height="132"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="99" id="adv11" x="1389" skinName="AdventureSkin11" y="1084" width="157" height="151"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="139" id="adv12" x="1607" skinName="AdventureSkin12" y="1237" width="129" height="182"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="133" id="adv13" x="2015" skinName="AdventureSkin13" y="1195" width="75" height="148"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="96" id="adv14" x="2128" skinName="AdventureSkin14" y="859" width="127" height="137"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="77" id="adv15" x="2016" skinName="AdventureSkin15" y="610" width="134" height="113"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="130" id="adv16" x="1871" skinName="AdventureSkin16" y="284" width="170" height="154"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="84" id="adv17" x="2406" skinName="AdventureSkin17" y="319" width="123" height="115"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="98" id="adv18" x="2477" skinName="AdventureSkin18" y="645" width="74" height="124"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="95" id="adv19" x="2465" skinName="AdventureSkin19" y="829" width="117" height="144"/>
+			<zj:Adventure scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="235" id="adv20" skinName="AdventureSkin20" width="131" height="243" x="2378" y="1189"/>
+		</e:Group>
+		<e:Group id="groupTop" touchEnabled="false" touchChildren="false" left="0" right="0" top="0" bottom="0">
+			<e:Group width="131" height="243" x="2378" y="954" scaleX="1" scaleY="1" touchChildren="false" touchEnabled="false">
+				<e:Image id="imgFloat0" x="-103" y="-14" source="advent_img_worldTreeCloud_1_png"/>
+				<e:Image x="164" y="-5" id="imgFloat1" source="advent_img_worldTreeCloud_2_png"/>
+				<e:Image x="-123" y="84" id="imgFloat2" source="advent_img_worldTreeCloud_3_png"/>
+				<e:Image x="211" y="145" id="imgFloat3" source="advent_img_worldTreeCloud_4_png"/>
+				<e:Image x="130" y="217" id="imgFloat4" source="advent_img_worldTreeCloud_5_png"/>
+				<e:Image x="6" y="209" id="imgFloat5" source="advent_img_worldTreeCloud_6_png"/>
+				<e:Image x="-113" y="196" id="imgFloat6" source="advent_img_worldTreeCloud_7_png"/>
+				<e:Image x="-202" y="156" id="imgFloat7" source="advent_img_worldTreeCloud_8_png"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupSky" touchEnabled="false" touchChildren="false" left="0" right="0" top="0" bottom="0">
+			<e:Group id="cloud0" left="0" right="0" top="0" bottom="0">
+				<e:Image x="500" y="528" source="adv_cloud_1_png"/>
+				<e:Image x="510" y="538" source="adv_cloud_2_png"/>
+				<e:Image x="520" y="548" source="adv_cloud_3_png"/>
+				<e:Image x="530" y="558" source="adv_cloud_4_png"/>
+				<e:Image x="540" y="568" source="adv_cloud_5_png"/>
+				<e:Image x="550" y="578" source="adv_cloud_6_png"/>
+				<e:layout>
+					<e:TileLayout horizontalGap="0" verticalGap="0"/>
+				</e:layout>
+			</e:Group>
+			<e:Group id="cloud1" width="710" height="470">
+			</e:Group>
+			<e:Group id="cloud16" width="717.36" height="479.52" x="1629" y="-1.48" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image source="cloud_4_png" scaleX="1.2" scaleY="1.2"/>
+			</e:Group>
+			<e:Group id="cloud15" width="689.36" height="387.52" x="1693" y="318.52" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image scaleX="1.2" scaleY="1.1" source="cloud_3_png" rotation="10"/>
+			</e:Group>
+			<e:Group id="cloud14" width="689.36" height="457.22" x="1688" y="562.52" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image source="cloud_4_png"/>
+				<e:Image source="cloud_4_png" x="214" y="67"/>
+			</e:Group>
+			<e:Group id="cloud13" width="690" height="512" x="1620" y="954.52" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image source="cloud_4_png" y="-65" x="351"/>
+				<e:Image source="cloud_4_png" x="116" scaleY="-1" y="302"/>
+				<e:Image source="cloud_4_png" y="159" x="138"/>
+			</e:Group>
+			<e:Group id="cloud8" width="690" height="484.73" x="492.09" y="5.48" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image source="cloud_4_png" y="0" x="-5" scaleX="1.1" scaleY="1.1"/>
+			</e:Group>
+			<e:Group id="cloud7" width="690" height="484.73" x="526.36" y="303.66" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image source="cloud_4_png" y="0" x="-5" scaleX="1" scaleY="1"/>
+				<e:Image source="cloud_4_png" y="-36" x="287" scaleX="1" scaleY="1"/>
+				<e:Image y="267" x="471" source="cloud_1_png"/>
+			</e:Group>
+			<e:Group id="cloud6" width="690" height="484.73" x="646.36" y="576.66" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image source="cloud_4_png" y="0" x="-5" scaleX="1.2" scaleY="1.1"/>
+			</e:Group>
+			<e:Group id="cloud2" width="690" height="484.73" x="-24.64" y="409.66" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image scaleX="1.3" scaleY="1.3" x="-153" y="-61" source="cloud_1_png"/>
+				<e:Image source="cloud_1_png" scaleX="1.3" scaleY="1.3" x="463" y="-109"/>
+				<e:Image source="cloud_4_png" scaleX="1.3" scaleY="1.3"/>
+			</e:Group>
+			<e:Group id="cloud3" width="690" height="484.73" x="98.36" y="643.66" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image source="cloud_4_png" scaleX="1.2" scaleY="1.2"/>
+			</e:Group>
+			<e:Group id="cloud5" width="690" height="484.73" x="579.36" y="854.66" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image source="cloud_4_png" x="-28" scaleY="-1.2" y="694"/>
+				<e:Image source="cloud_4_png" y="-8" x="47"/>
+				<e:Image y="266.18" x="278" source="cloud_3_png"/>
+			</e:Group>
+			<e:Group id="cloud4" width="690" height="484.73" x="34.36" y="1023.66" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image x="-302" y="-213" source="cloud_4_png"/>
+				<e:Image source="cloud_4_png" x="-258" y="-143"/>
+				<e:Image source="cloud_4_png" x="119" y="14"/>
+				<e:Image source="cloud_4_png" x="-102" y="157"/>
+				<e:Image source="cloud_4_png" x="240" y="188"/>
+			</e:Group>
+			<e:Group id="cloud9" width="690" height="724.12" x="1010.27" y="9.03" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image y="0" x="-5" source="cloud_4_png" scaleX="1.2" scaleY="1.1"/>
+				<e:Image source="cloud_4_png" y="204" x="229" scaleX="1.1" scaleY="1.1"/>
+			</e:Group>
+			<e:Group id="cloud10" width="690" height="724.12" x="1309" y="444" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image y="0" x="0" source="cloud_1_png" scaleX="1.5" scaleY="1.5"/>
+				<e:Image source="cloud_1_png" y="142" x="-69"/>
+				<e:Image source="cloud_4_png" x="-157" y="203" scaleX="1.2"/>
+			</e:Group>
+			<e:Group id="cloud11" width="690" height="512" x="1160" y="916" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image source="cloud_4_png" y="0" x="0"/>
+				<e:Image source="cloud_4_png" y="0" x="228"/>
+			</e:Group>
+			<e:Group id="cloud12" width="690" height="512" x="1151" y="1170" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image source="cloud_4_png" y="-126" x="405"/>
+				<e:Image source="cloud_4_png" y="0" x="0"/>
+				<e:Image source="cloud_4_png" y="121" x="315" scaleX="1.2"/>
+			</e:Group>
+			<e:Group id="cloud17" width="689.36" height="507.52" x="2901" y="510.52" anchorOffsetX="0" anchorOffsetY="0" scaleY="-1.2" scaleX="-1.2" locked="true">
+				<e:Image x="28" y="-24" scaleX="1" scaleY="1" source="cloud_4_png"/>
+			</e:Group>
+			<e:Group id="cloud18" width="553" height="456" x="2244" y="433" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image x="28" y="-24" scaleX="1" scaleY="1" source="cloud_4_png"/>
+			</e:Group>
+			<e:Group id="cloud19" width="553" height="456" x="2302" y="670" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image x="28" y="-24" scaleX="1" scaleY="1" source="cloud_4_png"/>
+			</e:Group>
+			<e:Group id="cloud20" width="790" height="688" x="2072" y="912" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+				<e:Image scaleX="1" scaleY="1" source="cloud_4_png" x="276" y="-16"/>
+				<e:Image scaleX="1" scaleY="1" source="cloud_4_png" x="186" y="118"/>
+				<e:Image scaleX="1" scaleY="1" source="cloud_4_png" y="322" x="22"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Image id="topShadow" source="ui_common_mask_black_jpg" alpha="0" left="0" right="0" top="0" bottom="0"/>
+</e:Skin>

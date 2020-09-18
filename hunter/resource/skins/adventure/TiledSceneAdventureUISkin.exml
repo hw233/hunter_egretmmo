@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TiledSceneAdventureUISkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:zj="zj.*">
+	<e:Group id="groupLT" left="0" top="0" touchEnabled="false">
+		<e:Image source="ui_instance_WordsTipInstance_png" left="0" top="0" touchEnabled="false"/>
+		<e:Button id="btnCloseTop" horizontalCenter="-110" verticalCenter="-5.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_instance_ButtonInstanceReturn_png" source.down="ui_instance_ButtonInstanceReturn1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="groupTR" width="458" height="44" anchorOffsetY="0" anchorOffsetX="0" top="4"  right="0">
+		<e:Image source="ui_mainui_BoardCurrency_png" x="0" verticalCenter="0" width="100%" visible="false"/>
+		<e:Group id="groupbtnAddGold" x="0" y="0" width="144" height="43">
+			<e:Image width="100" height="24" x="16" verticalCenter="0" source="ui_common_mask_black_jpg" alpha="0.5"/>
+			<e:Label id="lbGold" text="19.9万" x="21" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="90.5" textAlign="center" verticalAlign="middle" verticalCenter="0.5" height="18"/>
+			<e:Image id="gold" source="ui_currencyicon_IconGold_png" x="-3" verticalCenter="0"/>
+			<e:Button id="btnAddGold" icon="ui_hunter_ButtonAddResourcesNor_png" label="" verticalCenter="0" skinName="ButtonSkin" horizontalCenter="51.5">
+			</e:Button>
+			<e:Image id="imgFlagGold" source="ui_currencyicon_IconRed_png" x="130.5" touchEnabled="false" y="0"/>
+		</e:Group>
+		<e:Group id="groupbtnAddGemstone" x="161" y="0" width="130" height="42">
+			<e:Image width="100" height="24" x="8" source="ui_common_mask_black_jpg" alpha="0.5" verticalCenter="0"/>
+			<e:Label id="lbGemstone" text="30" x="22.52" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="81.33" textAlign="center" verticalAlign="middle" verticalCenter="0" height="18"/>
+			<e:Image id="jewel" source="ui_currencyicon_IconGemstone_png" x="-9" verticalCenter="0"/>
+			<e:Button id="btnAddGemstone" icon="ui_hunter_ButtonAddResourcesNor_png" label="" verticalCenter="0" skinName="ButtonSkin" horizontalCenter="50.5">
+			</e:Button>
+			<e:Image id="imgFlagGemstone" source="ui_currencyicon_IconRed_png" x="125" touchEnabled="false" y="0"/>
+		</e:Group>
+		<e:Group id="groupbtnAddStrength" x="308" y="0" width="135" height="43">
+			<e:Image width="100" height="24" x="8.5" source="ui_common_mask_black_jpg" alpha="0.5" verticalCenter="0"/>
+			<e:Label id="lbStrength" text="110/102" x="13.5" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="91" verticalAlign="middle" textAlign="center" verticalCenter="0" height="19" anchorOffsetY="0"/>
+			<e:Image id="energy" source="ui_currencyicon_IconStrength_png" x="0" verticalCenter="0"/>
+			<e:Button id="btnAddStrength" icon="ui_hunter_ButtonAddResourcesNor_png" label="" verticalCenter="0" skinName="ButtonSkin" horizontalCenter="49">
+			</e:Button>
+			<e:Image id="imgFlagStrength" source="ui_currencyicon_IconRed_png" x="126.5" touchEnabled="false" y="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupBR" right="0" bottom="0" touchEnabled="false" height="110">
+		<e:Image anchorOffsetX="0" scale9Grid="54,5,201,36" right="0" bottom="0" x="-378" y="98" scaleY="0.8" source="ui_mainui_BoarFunctionIcon_png" scaleX="0.8" touchEnabled="false"/>
+		<e:Button id="btnHunter" label="" right="20" bottom="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mainui_ButtonMianHunterNor_png" source.down="ui_mainui_ButtonMianHunterSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnDaily" label="" right="116" bottom="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mainui_ButtonDailyNor_png" source.down="ui_mainui_ButtonDailySel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<zj:Bubble id="bubble" x="12" y="110" skinName="BubbleSkin"/>
+	<e:Button id="btnDropAwardBox" label="" anchorOffsetX="0" anchorOffsetY="0" left="0" bottom="100">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_instance_ButtonInstancePassAwardNor_png" source.down="ui_instance_ButtonInstancePassAwardSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnChat" label="" left="0" bottom="0" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_battle_ButtonChatNor_png" source.down="ui_battle_ButtonChatSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="messageHistoryChat" width="340" height="88" bottom="10" left="12">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ui_mainui_LayerChatSmall_png" scale9Grid="45,30,264,33"/>
+		<e:Scroller id="scrollBar" scaleX="1" scaleY="1" left="8" right="8" top="8" bottom="8">
+		<e:List id="simpleChat">
+			<e:layout>
+			<e:VerticalLayout paddingLeft="0" paddingRight="0" paddingTop="0" paddingBottom="0"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="dialogBG" touchEnabled="false" width="960" height="640" horizontalCenter="0" verticalCenter="0">
+	</e:Group>
+</e:Skin>

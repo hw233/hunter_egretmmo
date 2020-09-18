@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetUpStarSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" width="960" height="640" x="0" y="0">
+		<e:Group id="groupWhole" width="960" height="640" anchorOffsetX="480" anchorOffsetY="320" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="groupBackground" width="960" height="640" anchorOffsetX="480" anchorOffsetY="320" horizontalCenter="0" verticalCenter="0">
+			<e:Image id="imageBackground" source="ui_hunter_BackGroundHunter_png" width="570" height="320" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group id="groupHunterName" width="244" height="110" x="-80" anchorOffsetX="122" anchorOffsetY="0" y="640" scaleX="1" scaleY="1">
+			<e:Image source="ui_pet_BoardPetInfo_png" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image id="imgSpriteHunter" source="ui_pet_icon_WordsBigPetName7_png" bottom="0" right="0"/>
+			<e:Image id="imgSpriteHunterType" source="ui_pet_IconBigPetGrade4_png" bottom="3" left="3"/>
+			</e:Group>
+			<e:Group id="groupNodeStar" width="100" height="10" x="-180" y="640" scaleX="1" scaleY="1" anchorOffsetX="50" anchorOffsetY="0"/>
+			<e:Group id="groupNodeStar2" width="100" height="10" y="640" anchorOffsetY="0" scaleX="1" scaleY="1" anchorOffsetX="50" x="-180">
+				<e:Image id="imgPetType" source="ui_pet_newpet_WordsForm1_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="180.00000000000003" y="-14" anchorOffsetX="50" anchorOffsetY="14"/>
+			</e:Group>
+			<e:Group id="groupPetForm" width="100" height="28" anchorOffsetY="14" x="0" y="640" anchorOffsetX="50">
+			</e:Group>
+			<e:Label text="点击任意区域关闭" horizontalCenter="0" size="18" bottom="31" visible="false"/>
+		</e:Group>
+		<e:Group id="groupUpStar" width="364" height="368" x="632.84" top="148">
+			<e:Group id="groupProperty" width="364" anchorOffsetX="182" anchorOffsetY="184" height="368" scaleX="1" scaleY="1" left="0" top="0">
+				<e:Image source="ui_pet_WordsPopUpStar_png" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:Image source="ui_common_BoardUpPwerFirst_png" bottom="0" width="350" height="280" horizontalCenter="0" scale9Grid="43,14,260,84"/>
+				<e:Image source="ui_common_BoardUpPwerSeconde_png" bottom="16" horizontalCenter="0" width="336" height="226" scale9Grid="43,14,260,84"/>
+				<e:Image source="ui_meteor_BoardTip_png" horizontalCenter="0" scaleX="2.55" bottom="246"/>
+				<e:Image source="ui_pet_WordsAddAtt_png" horizontalCenter="0" bottom="252.5"/>
+				<e:Label id="labelAttName1" text="Label" x="28" width="310" height="90" bottom="135" size="18" textColor="0xffff00"/>
+				<e:Label id="labelAttCurrency1" text="Label" x="28" width="310" height="90" bottom="87" size="18" textColor="0xffff00"/>
+				<e:Label id="labelTip" text="Label" x="28" width="137" height="20" size="16" bottom="94"/>
+				<e:Label id="labelLock" text="Label" width="145" height="23" horizontalCenter="0" size="18" textAlign="center" bottom="38" textColor="0x31f700" visible="false"/>
+			</e:Group>
+			<e:Group id="groupEvolve" anchorOffsetX="182" width="364" scaleX="1" scaleY="1" left="0" top="0" height="264" anchorOffsetY="132" visible="false">
+				<e:Image source="ui_pet_newpet_WordsEvolutionSucceed_png" horizontalCenter="0" top="0"/>
+				<e:Image source="ui_common_BoardUpPwerFirst_png" width="350" height="150" horizontalCenter="0" verticalCenter="30" scale9Grid="43,14,260,84"/>
+				<e:Image source="ui_meteor_BoardTip_png" scaleX="2.55" horizontalCenter="0" verticalCenter="-34"/>
+				<e:Label id="labelTalent1" text="全体猎人攻击增加全体猎人人攻击增加" size="18" textColor="0xFFFF00" anchorOffsetY="0" height="81.43" anchorOffsetX="0" width="298" top="122" left="38" lineSpacing="3"/>
+				<e:Label id="labelTalent2" text="撕咬 全体猎人攻击增加10%" size="18" textColor="0xFFFF00" anchorOffsetY="0" height="83.15" anchorOffsetX="0" width="298" verticalCenter="90.5" left="38" lineSpacing="3"/>
+				<e:Image y="87" horizontalCenter="0.5" source="ui_pet_newpet_WordsTalentUnLock1_png"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupHunter" width="214" height="245" x="-80" y="730" anchorOffsetX="107" anchorOffsetY="122.5">
+		</e:Group>
+
+	</e:Group>
+</e:Skin>

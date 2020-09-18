@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RefreshDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="440" height="200" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="440" height="200" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xFFFFFF" horizontalCenter="0" verticalCenter="0" ellipseWidth="10" ellipseHeight="10" x="0" y="0" scaleX="1" scaleY="1" strokeColor="0xFFFFFF" strokeAlpha="0"/>
+		<e:Rect width="1" height="80" fillColor="0x565859" horizontalCenter="0" fillAlpha="0.3" x="30" scaleX="1" scaleY="1" bottom="0"/>
+		<e:Rect width="440" height="1" y="120" fillColor="0x565859" horizontalCenter="0" fillAlpha="0.3" x="40" scaleX="1" scaleY="1"/>
+		<e:Label text="不需要" anchorOffsetX="0" width="220" fontFamily="SimHei" size="28" scaleX="1" scaleY="1" textColor="0x8A8E8E" height="80" verticalAlign="middle" textAlign="center" left="0" bottom="0"/>
+		<e:Label text="是否要重新加载游戏？" anchorOffsetX="0" width="440" fontFamily="SimHei" size="25" scaleX="1" scaleY="1" textColor="0x8A8E8E" height="120" verticalAlign="middle" textAlign="center" horizontalCenter="0" top="1" anchorOffsetY="0"/>
+		<e:Label text="重新加载" anchorOffsetX="0" width="220" fontFamily="SimHei" size="28" scaleX="1" scaleY="1" height="80" verticalAlign="middle" textAlign="center" bottom="0" right="0" textColor="0x004aff"/>
+		<e:Rect id="rect_cancel" width="220" height="80" left="0" bottom="0" fillColor="0xffffff" fillAlpha="0"/>
+		<e:Rect id="rect_ok" width="220" height="80" bottom="0" right="0" fillColor="0xffffff" fillAlpha="0"/>
+	</e:Group>
+</e:Skin>

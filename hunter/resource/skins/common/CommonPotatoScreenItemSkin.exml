@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonPotatoScreenItemSkin" width="129" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:ToggleButton id="btnSwitch" label="" horizontalCenter="0" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_hunter_card_screen_ButtonItemNor_png" source.down="ui_hunter_card_screen_ButtonItemSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+</e:Skin>

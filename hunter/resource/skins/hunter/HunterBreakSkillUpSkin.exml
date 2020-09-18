@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterBreakSkillUpSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="490" height="470" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_break_BoardBreakBigFloor_png" left="0" right="0" top="0" bottom="0" scale9Grid="17,13,419,83"/>
+		<e:Image source="ui_hunter_break_BoardSkillFloor_png" left="6" right="6" top="40" bottom="6" scale9Grid="61,42,372,255"/>
+		<e:Image source="ui_card_BoardCardPopTop_png" left="0" right="0" top="0" scale9Grid="150,9,104,21"/>
+		<e:Image source="ui_hunter_break_WordsTitleSkillUp_png" horizontalCenter="0" top="6"/>
+		<e:Button id="btnClose" label="" right="-15" top="-8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png" source.disabled="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupTeach" width="450" height="150" horizontalCenter="0" top="40">
+			<e:Image source="ui_hunter_break_BoardSkillUpFloor_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" scale9Grid="143,6,160,134"/>
+			<e:Group id="groupLeft" width="95" height="93" x="50" verticalCenter="-5">
+				<e:Image id="imgFrameLeft" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgIconLeft" source="skill_icon_bisiji01_png" horizontalCenter="1" verticalCenter="-2"/>
+				<e:Label id="labelLevelLeft" text="123" size="14" fontFamily="Arial" width="40" height="20" textAlign="right" verticalAlign="middle" right="12" bottom="10"/>
+			</e:Group>
+			<e:Group id="groupMiddle" width="95" height="93" verticalCenter="-5" horizontalCenter="0">
+				<e:Image id="imgFrameMiddle" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgIconMiddle" source="skill_icon_bisiji01_png" horizontalCenter="1" verticalCenter="-2"/>
+				<e:Label id="labelLevelMiddle" text="123" size="14" fontFamily="Arial" width="40" height="20" textAlign="right" verticalAlign="middle" right="12" bottom="10"/>
+				<e:Image id="imgArrow" source="ui_hunter_IconSkillHunterArrow_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group id="groupRight" width="95" height="93" verticalCenter="-5" x="305">
+				<e:Image id="imgFrameRight" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgIconRight" source="skill_icon_bisiji01_png" horizontalCenter="1" verticalCenter="-2"/>
+				<e:Label id="labelLevelRight" text="123" size="14" fontFamily="Arial" width="40" height="20" textAlign="right" verticalAlign="middle" right="12" bottom="10"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupAttribute" width="440" height="170" y="190" horizontalCenter="0">
+			<e:Image source="ui_hunter_break_BoardBreakInfoFloor_png" scale9Grid="115,55,214,111" left="0" right="0" top="0" bottom="0"/>
+			<e:Image source="ui_hunter_break_WordsUpView_png" horizontalCenter="0" top="-5" scaleX="0.9" scaleY="0.9"/>
+			<e:Label id="labelPlayerInfo" text="攻击力+9999" width="410" height="100" horizontalCenter="0" top="48" size="17"/>
+		</e:Group>
+		<e:Group width="460" height="100" bottom="6" horizontalCenter="0">
+				<e:Image source="ui_hunter_BoardSkillDown_png" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" scale9Grid="121,27,230,25"/>
+			<e:Group id="groupUpLevel" left="0" right="0" top="0" bottom="0">
+				<e:Image source="ui_hunter_WordsSkillHunterTip_png" x="5" verticalCenter="0" y="37" scaleX="1" scaleY="1"/>
+				<e:Group id="groupMaterial" verticalCenter="2" x="60" height="90" width="95" y="7" scaleX="1" scaleY="1">
+				<e:Image id="imgFrameMaterials" source="ui_frame_FrameHunterAsh_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" top="0"/>
+				<e:Image id="imgIconMaterials" source="hero_icon_head_wj_feitan_png" scaleX="0.7" scaleY="0.7" width="95" height="93" horizontalCenter="0" top="0"/>
+				<e:Image id="imgAddMaterials" source="ui_hunter_IconSkillHunterMaterailsAdd_png" top="4" right="22"/>
+				<e:Image source="ui_hunter_BoardHunterStar_png" x="0" y="62.94" scaleX="1.5" scaleY="2"/>
+				<e:Label id="labelNumberMaterials" text="123456" size="20" anchorOffsetX="0" width="98" verticalAlign="middle" textAlign="center" horizontalCenter="0" height="25" bottom="0"/>
+				</e:Group>
+				<e:Image source="ui_hunter_IconSkillHunterAdd_png" x="155" verticalCenter="-10" y="32" scaleX="1" scaleY="1"/>
+				<e:Group id="groupSkill" verticalCenter="2" x="190" height="90" width="95" y="7" scaleX="1" scaleY="1">
+				<e:Image id="imgFrameSkillFragment" source="ui_frame_FrameHunterAsh_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" top="0"/>
+				<e:Image id="imgIconSkillFragment" source="hero_icon_head_wj_feitan_png" scaleX="0.7" scaleY="0.7" width="95" height="93" horizontalCenter="0" top="0"/>
+				<e:Image id="imgMakeSkillFragment" source="ui_frame_SpriteMake_png" width="95" height="93" scaleX="0.68" scaleY="0.68" horizontalCenter="0" top="0" scale9Grid="20,14,60,60"/>
+				<e:Image id="imgAddSkillFragment" source="ui_hunter_IconSkillHunterMaterailsAdd_png" top="4" right="22"/>
+					<e:Group id="groupBreakStar" width="50" height="16" top="0" horizontalCenter="5"/>
+					<e:Label id="labelBreakLevel" text="1" x="23" y="32" width="40" height="34" size="14" verticalAlign="middle" textAlign="left"/>
+					<e:Image id="imgBreakAwaken" source="ui_hunter_evaluate_IconWrodsCard2_png" x="55" y="38" scaleX="0.3" scaleY="0.3"/>
+				<e:Image source="ui_hunter_BoardHunterStar_png" x="0" y="62.94" scaleX="1.5" scaleY="2"/>
+				<e:Label id="labelNumberSkillFragment" text="123456" size="20" anchorOffsetX="0" width="98" verticalAlign="middle" textAlign="center" horizontalCenter="0" height="25" bottom="0"/>
+				</e:Group>
+				<e:Button id="btnFirstAwaken" label="" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="2" width="148" height="81" right="10" x="292" y="18" scaleX="1" scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_break_ButtonUpNor_png" source.down="ui_hunter_break_ButtonUpSel_png" source.disabled="ui_hunter_break_ButtonUpNor_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Label id="lableGoldNum" text="123456" anchorOffsetY="0" height="23" anchorOffsetX="0" width="90" size="20" verticalAlign="middle" verticalCenter="14" y="51" scaleX="1" scaleY="1" left="348"/>
+			</e:Group>
+				<e:Image id="spriteBreakMax" source="ui_hunter_break_WordsBreakMax_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

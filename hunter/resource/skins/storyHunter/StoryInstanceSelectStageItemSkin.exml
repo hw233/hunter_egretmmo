@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StoryInstanceSelectStageItemSkin" width="345" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="-1.5">
+		<e:Image source="ui_storyinstance_IconStarBig_png" x="15" y="11"/>
+		<e:Label id="labelInfo" text="获得20颗星星可获得" x="65" y="30" anchorOffsetX="0" width="190" size="20" anchorOffsetY="0" height="21" verticalAlign="bottom" textAlign="left"/>
+		<e:Label id="labelStarNum" text="X62" x="65" y="6.5" anchorOffsetX="0" width="175" anchorOffsetY="0" height="23" size="20" textColor="0x00e500" verticalAlign="bottom" textAlign="left"/>
+		<e:Group id="groupFirstAward" x="260.85" y="7.75">
+			<e:Image id="imageFrameFirstBlood" source="ui_frame_FrameHunterAsh_png" x="1.65" y="0" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imageIconFirstBlood" source="hero_icon_head_wj_dongba_png" x="1.65" y="0" scaleX="0.5" scaleY="0.5"/>
+			<e:BitmapLabel id="lebelFirstBlood" width="53.86" height="18.86" x="6.15" y="24.75" anchorOffsetX="0" anchorOffsetY="0" text="123" font="ItemNumWords_fnt" scaleX="0.7" scaleY="0.7" textAlign="right"/>
+			<e:Image id="imageGetFirstBlood" source="ui_storyinstance_WordsAvailable_png" x="-5.600000000000023" y="13.25" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image id="imageGet" source="ui_instance_WordsBoxGetAward_png" x="0" y="22.75" scaleX="0.7" scaleY="0.7"/>
+			<e:Group id="groupGiftAni" width="43" height="43" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image id="imageShadow" source="ui_storyinstance_MaskMissionItem_png" x="0" y="4.25" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

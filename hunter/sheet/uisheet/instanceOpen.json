@@ -1,0 +1,12 @@
+{"file":"instanceOpen.png","frames":{
+"ui_instance_Board_Open_Title2_png":{"x":428,"y":138,"w":73,"h":37,"offX":0,"offY":0,"sourceW":73,"sourceH":37},
+"ui_instance_Board_Lock_png":{"x":475,"y":1,"w":26,"h":32,"offX":0,"offY":0,"sourceW":26,"sourceH":32},
+"ui_instance_Board_Lock_Bg_png":{"x":323,"y":1,"w":150,"h":37,"offX":0,"offY":0,"sourceW":150,"sourceH":37},
+"ui_instance_Board_Open_Ani1_png":{"x":1,"y":119,"w":320,"h":116,"offX":0,"offY":0,"sourceW":320,"sourceH":116},
+"ui_instance_Board_Open_Ani2_png":{"x":1,"y":1,"w":320,"h":116,"offX":0,"offY":0,"sourceW":320,"sourceH":116},
+"ui_instance_Board_Open_Font_Ani_png":{"x":323,"y":208,"w":103,"h":33,"offX":0,"offY":0,"sourceW":103,"sourceH":33},
+"ui_instance_Board_Open_Font1_png":{"x":323,"y":173,"w":103,"h":33,"offX":0,"offY":0,"sourceW":103,"sourceH":33},
+"ui_instance_Board_Open_Font2_png":{"x":323,"y":138,"w":103,"h":33,"offX":0,"offY":0,"sourceW":103,"sourceH":33},
+"ui_instance_Board_Open_Icon1_png":{"x":390,"y":79,"w":63,"h":57,"offX":0,"offY":0,"sourceW":63,"sourceH":57},
+"ui_instance_Board_Open_Icon2_png":{"x":323,"y":40,"w":65,"h":64,"offX":0,"offY":0,"sourceW":65,"sourceH":64},
+"ui_instance_Board_Open_Title1_png":{"x":390,"y":40,"w":104,"h":37,"offX":0,"offY":0,"sourceW":104,"sourceH":37}}}

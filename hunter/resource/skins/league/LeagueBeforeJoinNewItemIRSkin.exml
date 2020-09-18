@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueBeforeJoinNewItemIRSkin" width="719" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="719" horizontalCenter="0" verticalCenter="0" height="50">
+		<e:Rect width="100%" height="100%" horizontalCenter="0" verticalCenter="0" fillColor="0xA09A9A" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="lbLeagueName" text="公会的名字" size="18" textColor="0xD37317" anchorOffsetY="0" verticalCenter="0" verticalAlign="middle" textAlign="center" height="23" width="118" horizontalCenter="-301" x="5" y="14" scaleX="1" scaleY="1" fontFamily="Helvetica"/>
+		<e:Label id="lbLeagueLevel" text="Lv99" size="18" textColor="0x000000" fontFamily="Helvetica" anchorOffsetY="0" verticalCenter="0" verticalAlign="middle" textAlign="center" height="23" horizontalCenter="-201" x="123" y="14" scaleX="1" scaleY="1" width="83"/>
+		<e:Label id="lbMemberNum" text="100/100" size="18" textColor="0x000000" fontFamily="Helvetica" anchorOffsetY="0" verticalCenter="0" height="23" verticalAlign="middle" textAlign="center" horizontalCenter="-112" x="204" y="14" scaleX="1" scaleY="1" width="98"/>
+		<e:Image id="imgStar" source="ui_union_battle_star43_png" anchorOffsetY="0" verticalCenter="0" horizontalCenter="-6" x="319" y="13" scaleX="1" scaleY="1"/>
+		<e:Group y="16" horizontalCenter="110">
+			<e:Label id="lbLeaderName" text="会长" size="18" textColor="0x000000" verticalAlign="middle" textAlign="center" fontFamily="Helvetica" x="0" y="0" scaleX="1" scaleY="1" width="101"/>
+			<e:Rect width="98%" height="0.5" y="21" horizontalCenter="0" strokeColor="0x000000"/>
+		</e:Group>
+		<e:Label id="lbLimit" text="限制20级以上" textColor="0x000000" size="16" fontFamily="Helvetica" anchorOffsetY="0" verticalCenter="0" height="23" textAlign="center" verticalAlign="middle" horizontalCenter="224" x="535" y="14" scaleX="1" scaleY="1" width="146"/>
+		<e:Button id="btnJoin" label="" anchorOffsetY="0" verticalCenter="0" right="0" x="652" y="9" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonApplicationNor_png" source.down="ui_union_ButtonApplicationSel_png" source.disabled="ui_union_ButtonApplicationDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Image width="719" height="2" source="ui_union_battle_rankLine_png" horizontalCenter="0" bottom="0" x="0" y="48" scaleX="1" scaleY="1"/>
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+
+
+
+
+
+
+
+
+
+</e:Skin>

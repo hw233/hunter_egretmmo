@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Friend_MyFriendPopSkin" width="240" height="450" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" x="119" y="228" anchorOffsetX="119" anchorOffsetY="228">
+		<e:Image id="imageBG" source="ui_union_BoardPlayerInfo_png" width="235" height="450" scale9Grid="72,66,41,32" x="0" y="0"/>
+		<e:Button id="buttonCheck" label="" y="16" x="52">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerViewInfoNor_png" source.down="ui_union_ButtonPlayerViewInfoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonPrivate" label="" y="78" x="52">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerPrivateChatNor_png" source.down="ui_union_ButtonPlayerPrivateChatSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonJoin" label="" y="140" x="52">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendInfoAddUnionNor_png" source.down="ui_friend_ButtonFriendInfoAddUnionSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonMail" label="" y="202" x="52">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendInfoSendMailNor_png" source.down="ui_friend_ButtonFriendInfoSendMailSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonDelete" label="" y="264" x="52">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendInfoDeleteNor_png" source.down="ui_friend_ButtonFriendInfoDeleteSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonOnePk" label="" y="326" x="52">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendOnePkNor_png" source.down="ui_friend_ButtonFriendOnePkSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonThreePk" label="" y="388" x="52">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendThreePkNor_png" source.down="ui_friend_ButtonFriendThreePkSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

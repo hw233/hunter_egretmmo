@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_FunOpenSkin" width="960" height=" 640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_acitivity_funopen_board_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="18"/>
+		<e:Image source="ui_acitivity_funopen_title_png" verticalCenter="-245" left="43"/>
+		<e:Scroller id="scrollerFunOpen" width="813" height="412" horizontalCenter="0" verticalCenter="20" x="71" y="114" anchorOffsetY="0" anchorOffsetX="0">
+			<e:List id="listFunOpen" anchorOffsetX="0" width="813" x="-13" y="0">
+			<e:layout>
+				<e:VerticalLayout gap="1"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnClose" label="" right="14" top="45" x="835" y="52">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_funopen_buttonCloseNor_png" source.down="ui_acitivity_funopen_buttonCloseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

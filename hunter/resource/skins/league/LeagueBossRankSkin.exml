@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueBossRankSkin" width="450" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="8" y="10">
+		<e:Image source="ui_hunter_LayerSeconde_png" width="435" height="230" scale9Grid="15,10,92,65" x="0" y="0"/>
+		<e:Image source="ui_union_boss_BoartdTip_png" width="435" scale9Grid="7,4,44,30" x="0" top="0"/>
+		<e:Group x="26" y="7">
+			<e:Image source="ui_union_boss_WordsHitRank_png" x="0" verticalCenter="0"/>
+			<e:Image source="ui_union_boss_WordsHitPlayer_png" horizontalCenter="-14.5" verticalCenter="0"/>
+			<e:Image source="ui_union_boss_WordsHitNum_png" x="288" verticalCenter="0"/>
+		</e:Group>
+		<e:Scroller width="435" height="180" y="45" horizontalCenter="0" scrollPolicyH="off" scrollPolicyV="on">
+			<e:List id="lstView"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

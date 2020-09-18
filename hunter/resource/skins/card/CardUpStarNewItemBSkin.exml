@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardUpStarNewItemBSkin" width="66" height="72" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="66" height="72" x="0" y="0" id="group">
+		<e:Image id="imgFrame" source="ui_card_BoardCardUpStarMeterials_png" x="-0.5" y="0" width="66" height="72"/>
+		<e:Image id="imgIconStar" source="ui_card_IconCardStar3_png" x="34" y="32" width="50" height="45" anchorOffsetX="25" anchorOffsetY="22.5" scaleX="0.8" scaleY="0.8"/>
+		<e:Image id="imgNode" source="ui_hunter_IconHunterUpStrarNode_png" x="33" y="35" anchorOffsetX="16" anchorOffsetY="16" scaleX="0.8" scaleY="0.8"/>
+		<e:Group id="groupIcon" width="65" height="67" y="0" x="0">
+		<e:Image id="imgFrame2" source="ui_frame_FrameHunterAsh_png" x="-4" y="0" width="71" height="72"/>
+		<e:Image id="imgCardType" source="ui_hunter_evaluate_IconCardTypeOrn3_png" x="40.5" y="20" anchorOffsetX="29" anchorOffsetY="23" scaleX="0.8" scaleY="0.8"/>
+		<e:Image id="imgIcon" source="card_009fengshouzhishuS_10s_png" x="36.82" y="43.58" width="73.02" height="87.01" anchorOffsetX="41.57" anchorOffsetY="49.82" rotation="360"/>
+		<e:Group id="groupClip" width="0" height="0" x="0" y="0"/>
+		<e:BitmapLabel id="labelLevel" width="36" height="20.5" x="29" y="39.5" font="ItemNum_fnt" text="12" anchorOffsetX="0" anchorOffsetY="0" textAlign="right"/>
+		<e:Group id="groupStar" width="60" height="20" x="1" y="46.5"/>
+		<e:Image id="imgGrade" source="ui_tavern_IconGrade4_png" x="5" y="4" width="16" height="24" scaleX="0.8" scaleY="0.8"/>
+		</e:Group>
+	</e:Group>
+	<e:Image id="imgLock" x="20" y="19" width="33.75" height="35" scaleX="0.8" scaleY="0.8" anchorOffsetX="0" source="ui_currencyicon_IconLock_png"/>
+</e:Skin>

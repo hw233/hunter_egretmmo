@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchWinPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_wonderland_BoardUseFruitAward_png" horizontalCenter="0" verticalCenter="0" x="114" y="181" scaleX="1" scaleY="1"/>
+		<e:Label id="TextClose" text="点击任意位置关闭" size="18" fontFamily="SimHei" horizontalCenter="0" bottom="64" x="408" y="558" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="SpriteGet" source="ui_union_battle_WordsTitleScoreUp_png" y="59" horizontalCenter="0" x="307" scaleX="1" scaleY="1"/>
+		<e:Group id="group1" left="345" top="217">
+			<e:Image source="ui_union_battle_WordsLoser_png" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Label id="Label1" text="击败对手" x="106" size="22" scaleX="1" scaleY="1" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="group2" left="345" top="251">
+			<e:Image source="ui_union_battle_WordsFly_png" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Label id="Label2" text="击败对手" x="105" size="22" scaleX="1" scaleY="1" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="group3" left="345" top="283">
+			<e:Image source="ui_union_battle_WordBattleLevel_png" x="-1" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Image id="SpriteStar1" source="ui_acitivity_novicecontinue_IconStarNor_png" x="98" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Image id="SpriteStar2" source="ui_acitivity_novicecontinue_IconStarNor_png" x="123" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Image id="SpriteStar3" source="ui_acitivity_novicecontinue_IconStarNor_png" x="148" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Label id="LabelOpen" text="(评分提升)" x="189" size="20" textColor="0x3af900" scaleX="1" scaleY="1" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="group4" left="345" top="321">
+			<e:Image source="ui_union_battle_WordsScoreAdd_png" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Label id="Label3" text="击败对手" x="105" size="22" scaleX="1" scaleY="1" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="group5" left="315" top="358">
+			<e:Image source="ui_union_battle_WordEnemyHp_png" x="9" y="0" scaleX="1" scaleY="1"/>
+			<e:Group x="0" y="35">
+				<e:Image source="ui_union_battle_BoardExpFloor_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="bg1" source="ui_union_battle_BoardExpFullFloor_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="bg1bg" width="320" height="26" source="ui_hunter_collection_board1_png" anchorOffsetX="0" left="6"/>
+				<e:Image id="bg2" source="ui_union_battle_BoardExpAddFloor_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="bg2bg" width="320" height="26" source="ui_hunter_collection_board1_png" anchorOffsetX="0" left="6"/>
+				<e:Label id="Label4" text="123" size="24" anchorOffsetX="0" width="188" textAlign="center" scaleX="1" scaleY="1" textColor="0xffffff" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="btnClose" label="" y="494" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_battleend_ButtonReturnNor_png" source.down="ui_battleend_ButtonReturnSel_png" source.disabled="ui_battleend_ButtonReturnNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

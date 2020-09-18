@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlotSkin3_2" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="700" height="375" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="img_back_0" source="plot_3_2_1_png" top="0" left="0"/>
+		<e:Image id="img_back_1" source="plot_3_2_2_png" x="211.32" top="0"/>
+		<e:Image id="img_back_2" source="plot_3_2_3_png" right="0" top="0"/>
+		<e:Image id="img_back_3" source="plot_3_2_4_png" bottom="0" left="0"/>
+		<e:Image id="img_back_4" source="plot_3_2_5_png" x="240.76" bottom="0"/>
+		<e:Image id="img_back_5" source="plot_3_2_6_png" bottom="0" right="0"/>
+		<e:Image id="img_talk_0" source="plot_chat_3_2_1_png" x="-71.27" y="95.22" scaleX="1.2" scaleY="1.2"/>
+		<e:Image id="img_talk_1" source="plot_chat_3_2_2_png" x="216.48" y="116.84" scaleX="1.2" scaleY="1.2"/>
+		<e:Image id="img_talk_2" source="plot_chat_3_2_3_png" x="531.77" y="117.24" scaleX="1.2" scaleY="1.2"/>
+		<e:Image id="img_talk_3" source="plot_chat_3_2_4_png" y="294.64" scaleX="1.2" scaleY="1.2" x="-7.6"/>
+		<e:Image id="img_talk_4" source="plot_chat_3_2_5_png" x="261.28" y="306.73" scaleX="1.2" scaleY="1.2"/>
+		<e:Image id="img_talk_5" source="plot_chat_3_2_6_png" x="568.38" y="308.12" scaleX="1.2" scaleY="1.2"/>
+	</e:Group>
+</e:Skin>

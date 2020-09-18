@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="userSystem2Skin" width="630" height="170" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="13" width="400" horizontalCenter="0">
+		<e:Label id="labelName" text="推送设置" textColor="0x51613B" size="20" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_union_OrnTipChange_png" scaleX="1" horizontalCenter="80" verticalCenter="0"/>
+		<e:Image source="ui_union_OrnTipChange_png" horizontalCenter="-80" scaleX="-1" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="label1" text="体力回满提醒" textColor="0x51613B" size="20" left="15" verticalCenter="0"/>
+	<e:ToggleSwitch id="btn1" label="" left="160" verticalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_common_ButtonOpenOrCloseNor_png" source.down="ui_common_ButtonOpenOrCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:ToggleSwitch>
+	<e:Label id="label5" text="活动开启提醒" textColor="0x51613B" size="20" left="15" bottom="22"/>
+	<e:ToggleSwitch id="btn5" label="" left="160" bottom="8">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_common_ButtonOpenOrCloseNor_png" source.down="ui_common_ButtonOpenOrCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:ToggleSwitch>
+	<e:Label id="label4" text="吃大餐领体力" textColor="0x51613B" size="20" left="305" verticalCenter="0"/>
+	<e:ToggleSwitch id="btn4" label="" left="470" verticalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_common_ButtonOpenOrCloseNor_png" source.down="ui_common_ButtonOpenOrCloseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:ToggleSwitch>
+</e:Skin>

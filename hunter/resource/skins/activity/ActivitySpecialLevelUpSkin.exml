@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivitySpecialLevelUpSkin" width="720" height="550" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="720" height="550">
+		<e:Image source="ui_acitivity_upgrade_lihui_png" x="-151.62" verticalCenter="0"/>
+		<e:Image source="ui_acitivity_diban_png" anchorOffsetX="0" width="483" anchorOffsetY="0" height="550" right="0" bottom="0" scale9Grid="61,69,369,419"/>
+		<e:Image y="5.34" source="ui_acitivity_upgrade_banner7_png" x="251"/>
+		<e:Image source="ui_acitivity_fangkuai_png" x="510" y="140.34"/>
+		<e:Label text="队伍达到一定等级即可领取" size="18" fontFamily="Helvetica" verticalAlign="middle" textColor="0xFCFCFC" top="134" anchorOffsetY="0" height="26.66" anchorOffsetX="0" width="257.67" textAlign="left" left="255"/>
+		<e:Label id="lbCurrencyLevel" text="当前队伍等级：24级" size="18" fontFamily="Helvetica" verticalAlign="middle" right="21" textColor="0xfcfcfc" top="134" anchorOffsetY="0" height="26.66" anchorOffsetX="0" width="168.33" textAlign="right"/>
+
+
+
+
+		<e:Scroller width="450" height="372.33" y="163.01" anchorOffsetX="0" anchorOffsetY="0" right="17">
+			<e:List id="lstAward" x="-10" y="-20" anchorOffsetX="0" width="450" anchorOffsetY="0" height="348.33"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

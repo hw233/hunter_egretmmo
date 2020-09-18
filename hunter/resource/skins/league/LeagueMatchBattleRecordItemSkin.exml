@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueMatchBattleRecordItemSkin" width="740" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_arena_OrnDayRankLine_png" horizontalCenter="0.5" bottom="5"/>
+	<e:Label id="lbFly" text="不翻译啊" textColor="0x000000" size="19" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" verticalCenter="-13.5" horizontalCenter="-18" width="107" height="23"/>
+	<e:Label id="lbTime" text="时间" size="18" fontFamily="Helvetica" verticalCenter="10" horizontalCenter="-18" verticalAlign="middle" textAlign="center" height="24" width="77"/>
+	<e:Label id="lbName1" text="最多六个汉仔" textColor="0x000000" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" verticalCenter="-4" horizontalCenter="-150" height="24" width="138"/>
+	<e:Label id="lbName2" text="最多六个汉仔" textColor="0x000000" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" verticalCenter="-5" horizontalCenter="127" height="24" width="130"/>
+	<e:Group x="98" verticalCenter="0.5">
+		<e:Image id="imgBoard1" source="ui_frame_FrameHunterAsh_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="-4"/>
+		<e:Image id="imgIcon1" source="hero_icon_head_wj_kete_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="-4"/>
+	</e:Group>
+	<e:Group horizontalCenter="217" verticalCenter="0.5">
+		<e:Image id="imgBoard2" source="ui_frame_FrameHunterAsh_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="-5"/>
+		<e:Image id="imgIcon2" source="hero_icon_head_wj_kete_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="-5"/>
+	</e:Group>
+	<e:Group x="11" y="-2" anchorOffsetX="0" width="64">
+		<e:Image id="imgWin1" width="64" height="64" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="groupStar1" width="60" height="30" anchorOffsetX="0" verticalCenter="15" horizontalCenter="2">
+			<e:Image id="imgStar1" width="20" height="20" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="groupStar2" width="60" height="30" x="4" y="32" scaleX="1" scaleY="1">
+			<e:Image id="imgStar2" width="20" height="20" scaleX="1" scaleY="1" verticalCenter="0" y="5" left="5"/>
+			<e:Image id="imgStar3" width="20" height="20" scaleX="1" scaleY="1" verticalCenter="0" y="5" right="5" x="32"/>
+		</e:Group>
+		<e:Group id="groupStar3" width="70" height="30" anchorOffsetX="0" x="-3" y="32" scaleX="1" scaleY="1">
+			<e:Image id="imgStar4" width="20" height="20" scaleX="1" scaleY="1" verticalCenter="0" y="5" left="0"/>
+			<e:Image id="imgStar5" width="20" height="20" scaleX="1" scaleY="1" verticalCenter="0" y="25" horizontalCenter="0"/>
+			<e:Image id="imgStar6" width="20" height="20" scaleX="1" scaleY="1" verticalCenter="0" y="15" right="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="-3" y="-2">
+		<e:Image id="imgWin2" width="64" height="64" x="649" y="0"/>
+		<e:Group id="groupStar4" width="60" height="30" anchorOffsetX="0" x="653" y="32">
+			<e:Image id="imgStar7" width="20" height="20" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="groupStar5" width="60" height="30" x="653" y="34" scaleX="1" scaleY="1">
+			<e:Image id="imgStar8" width="20" height="20" scaleX="1" scaleY="1" verticalCenter="0" y="5" left="5"/>
+			<e:Image id="imgStar9" width="20" height="20" scaleX="1" scaleY="1" verticalCenter="0" y="5" right="5" x="32"/>
+		</e:Group>
+		<e:Group id="groupStar6" width="70" height="30" anchorOffsetX="0" x="646" y="34" scaleX="1" scaleY="1">
+			<e:Image id="imgStar10" width="20" height="20" scaleX="1" scaleY="1" verticalCenter="0" y="5" left="0"/>
+			<e:Image id="imgStar11" width="20" height="20" scaleX="1" scaleY="1" verticalCenter="0" y="25" horizontalCenter="0"/>
+			<e:Image id="imgStar12" width="20" height="20" scaleX="1" scaleY="1" verticalCenter="0" y="15" right="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

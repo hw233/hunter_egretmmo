@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityAwardItemSkin" width="67" height="66" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupCache" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupItem" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgFrame" verticalCenter="0" horizontalCenter="0" source="ui_frame_FrameHunterAsh_png"/>
+		<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="0" source=""/>
+		</e:Group>
+		<e:Image id="imgLogo" left="0" top="0" scaleX="0.65" scaleY="0.65" source="ui_currencyicon_IconTavernType2_png"/>
+		<e:Label id="lbNumID" text="18" x="11" y="18" size="14" fontFamily="Helvetica" textColor="0x000000" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" visible="false"/>
+		<e:BitmapLabel id="lbNum" font="ItemNumWords_fnt" text="12.3万" scaleX="0.8" scaleY="0.8" right="7" bottom="12"/>
+	</e:Group>
+	<e:Group id="groupClip" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="2" width="63" height="62"/>
+
+</e:Skin>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Daily_MainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imageBackground" source="ui_mainui_BgMaoboli_png" horizontalCenter="0" verticalCenter="0" height="100%" width="100%"/>
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupCache1" x="-5" y="0">
+			<e:Image source="ui_hunter_BoardCardPopSeconde_png" width="960" height="615" scale9Grid="65,65,299,396" x="0" y="25"/>
+			<e:Image source="ui_fishing_BoardFishingTopTip_png" x="333" y="0"/>
+			<e:Image source="ui_daily_WordsTip_png" x="457" y="12"/>
+			<e:Image source="ui_hunter_OrnDontGetHunterTop_png" scaleX="-1" x="948" y="22"/>
+			<e:Image source="ui_hunter_LayerSeconde_png" width="765" scale9Grid="15,10,92,65" anchorOffsetY="0" height="554" x="186" y="55"/>
+			<e:Button id="btnClose" label="" scaleX="-1" width="90" x="87" y="5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:RadioButton id="btnTagLive111" label="" icon="ui_daily_WordsButtonDaily_png" x="31" y="75" width="141" height="66" visible="false">
+				<e:skinName>
+				<e:Skin states="up,down,upAndSelected,downAndSelected">
+					<e:Image width="100%" height="100%" source="ui_license_ButtonHunterStarOpneNor_png" source.upAndSelected="ui_license_ButtonHunterStarOpneSel_png" source.downAndSelected="ui_license_ButtonHunterStarOpneSel_png" source.down="ui_license_ButtonHunterStarOpneSel_png"/>
+					<e:Image id="iconDisplay" horizontalCenter="0" source="ui_daily_WordsButtonDaily_png" verticalCenter="-1"/>
+				</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="btnTagAchieve111" label="" icon="ui_daily_WordsButtonAchievments_png" x="31" y="165" width="141" height="66" visible="false">
+				<e:skinName>
+				<e:Skin states="up,down,upAndSelected,downAndSelected">
+					<e:Image width="100%" height="100%" source="ui_license_ButtonHunterStarOpneNor_png" source.upAndSelected="ui_license_ButtonHunterStarOpneSel_png" source.downAndSelected="ui_license_ButtonHunterStarOpneSel_png" source.down="ui_license_ButtonHunterStarOpneSel_png"/>
+					<e:Image id="iconDisplay" horizontalCenter="0" source="ui_daily_WordsButtonDaily_png" verticalCenter="-1"/>
+				</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="btnTagTask111" label="" x="31" y="255" visible="false">
+				<e:skinName>
+				<e:Skin states="up,down,upAndSelected,downAndSelected">
+					<e:Image width="100%" height="100%" source="ui_license_ButtonHunterStarOpneNor_png" source.upAndSelected="ui_license_ButtonHunterStarOpneSel_png" source.downAndSelected="ui_license_ButtonHunterStarOpneSel_png" source.down="ui_license_ButtonHunterStarOpneSel_png"/>
+					<e:Image id="iconDisplay" horizontalCenter="0" source="ui_daily_WordsButtonDaily_png" verticalCenter="-1"/>
+				</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:Image id="btnTagLive" touchEnabled="false" x="31" y="75" source="ui_license_ButtonHunterStarOpneSel_png"/>
+			<e:Image id="btnTagAchieve" source="ui_license_ButtonHunterStarOpneNor_png" touchEnabled="false" x="31" y="165"/>
+			<e:Image id="btnTagTask" source="ui_license_ButtonHunterStarOpneNor_png" touchEnabled="false" x="31" y="255" visible="false"/>
+
+
+			<e:Image id="imgNode1" source="ui_currencyicon_IconRed_png" width="24" x="150" y="75"/>
+			<e:Image id="imgNode3" source="ui_currencyicon_IconRed_png" width="24" x="150" y="165"/>
+			<e:Image id="imgNode2" source="ui_currencyicon_IconRed_png" width="24" x="150" y="255" visible="false"/>
+			<e:Image id="imgDaily" source="ui_daily_WordsButtonDaily_png" touchEnabled="false" x="81" y="93"/>
+			<e:Image id="imgAchieve" source="ui_daily_WordsButtonAchievments_png" touchEnabled="false" x="81" y="183"/>
+			<e:Image source="" touchEnabled="false" x="81" y="273" visible="false"/>
+		</e:Group>
+		<e:Group id="groupAdd" width="760" height="550" x="183" y="58" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="groupLive" width="760" height="550" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Group width="760" height="550" x="0" y="0" scaleX="1" scaleY="1">
+					<e:Group id="groupTop" width="760" height="170" top="0" horizontalCenter="0">
+						<e:Group id="groupCache2" x="8" y="10">
+							<e:Image source="ui_daily_BoardActivity_png" scale9Grid="93,20,558,120" x="0" y="0" scaleX="1" scaleY="1"/>
+							<e:Label id="labelCount" text="当前：125/125" size="18" x="24" y="17"/>
+							<e:Image source="ui_daily_IconActivity_png" x="24" y="50"/>
+							<e:Image source="ui_daily_WordsActivity_png" x="24" y="117"/>
+							<e:Image source="ui_daily_BoardBurAcitivity_png" x="108" y="102"/>
+							<e:Image id="imgBarMask" source="ui_daily_BoardBurAcitivity_png" x="108" y="102"/>
+							<e:Image id="imgBar" source="ui_daily_BurActivity_png" height="25" width="611" x="108" scale9Grid="9,3,593,19" y="102"/>
+							<e:Image source="ui_daily_OrnLineAcitivity_png" x="105" y="102"/>
+							<e:Label id="labelTag1" text="25" size="18" anchorOffsetX="0" width="60.33" textAlign="center" x="199" y="132"/>
+							<e:Label id="labelTag2" text="50" size="18" anchorOffsetX="0" width="60.33" textAlign="center" x="317" y="132"/>
+							<e:Label id="labelTag3" text="75" size="18" anchorOffsetX="0" width="60.33" textAlign="center" x="439" y="132"/>
+							<e:Label id="labelTag4" text="100" size="18" anchorOffsetX="0" width="60.33" textAlign="center" x="557" y="132"/>
+							<e:Label id="labelTag5" text="125" size="18" anchorOffsetX="0" width="60.33" textAlign="center" x="677" y="132"/>
+							<e:Image id="imgBag1" source="ui_daily_IconActvityAwardA_png" x="168" y="0"/>
+							<e:Image id="imgBag2" source="ui_daily_IconActvityAwardA_png" x="288" y="0"/>
+							<e:Image id="imgBag3" source="ui_daily_IconActvityAwardA_png" x="409" y="0"/>
+							<e:Image id="imgBag4" source="ui_daily_IconActvityAwardA_png" x="528" y="0"/>
+							<e:Image id="imgBag5" source="ui_daily_IconActvityAwardA_png" x="643" y="0"/>
+							<e:Image id="imgGet1" source="ui_instance_WordsBoxGetAward_png" x="184" y="49"/>
+							<e:Image id="imgGet2" source="ui_instance_WordsBoxGetAward_png" x="304" y="49"/>
+							<e:Image id="imgGet3" source="ui_instance_WordsBoxGetAward_png" x="424" y="49"/>
+							<e:Image id="imgGet4" source="ui_instance_WordsBoxGetAward_png" x="544" y="49"/>
+							<e:Image id="imgGet5" source="ui_instance_WordsBoxGetAward_png" x="664" y="49"/>
+							<e:Group id="btnGet1" width="85" height="80" x="177" y="12"/>
+							<e:Group id="btnGet2" width="85" height="80" x="297" y="12"/>
+							<e:Group id="btnGet3" width="85" height="80" x="416" y="12"/>
+							<e:Group id="btnGet4" width="85" height="80" x="536" y="12"/>
+							<e:Group id="btnGet5" width="85" height="80" x="656" y="12"/>
+						</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<e:Group id="groupLight1" width="100" height="100" left="176" top="10"/>
+						<e:Group id="groupLight2" width="100" height="100" left="296" top="10"/>
+						<e:Group id="groupLight3" width="100" height="100" left="416" top="10"/>
+						<e:Group id="groupLight4" width="100" height="100" left="536" top="10"/>
+						<e:Group id="groupLight5" width="100" height="100" left="656" top="10"/>
+
+
+
+
+
+
+
+
+
+
+					</e:Group>
+					<e:Group id="groupBottom" width="760" height="354.67" x="0" y="195" anchorOffsetY="0">
+					<e:Scroller id="scrollerViewLive" width="750" height="100%" horizontalCenter="0" verticalCenter="0">
+						<e:List id="listViewLive">
+							<e:layout>
+								<e:VerticalLayout gap="10"/>
+							</e:layout>
+						</e:List>
+					</e:Scroller>
+						<e:Group id="groupViewGirl" width="550" height="320" left="74" bottom="0" touchEnabled="false"/>
+					<e:Image id="imgDone" source="ui_daily_WordsActivityDialyEnd_png" horizontalCenter="0" verticalCenter="0"/>
+					</e:Group>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupAchieve" width="760" height="550" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Scroller id="scrollerViewAchieve" width="757.57" height="518.9" scaleX="1" scaleY="1" horizontalCenter="1" verticalCenter="-0.5" anchorOffsetY="0" anchorOffsetX="0">
+				<e:List id="listViewAchieve" anchorOffsetY="0" height="508.29">
+					<e:layout>
+						<e:VerticalLayout gap="10" horizontalAlign="center" paddingTop="2" paddingBottom="2"/>
+					</e:layout>
+				</e:List>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="groupTask" width="760" height="550" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+				<e:Scroller id="scrollerViewTask" width="750" height="100%" horizontalCenter="0" verticalCenter="0" x="5" y="0" scaleX="1" scaleY="1">
+					<e:List id="listViewTask"/>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="groupAddDialog" width="760" height="550" x="0" y="0" scaleX="1" scaleY="1" touchEnabled="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

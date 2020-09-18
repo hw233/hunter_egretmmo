@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaStarcraftHeroItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="LayerName" width="95" height="93" x="0" y="0" scaleX="0.5" scaleY="0.5">
+		<e:Image id="SpriteBoard" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="NodeVoid" width="95" height="93" horizontalCenter="0" verticalCenter="0">
+			<e:Image id="SpriteHead" horizontalCenter="0" verticalCenter="0" source=""/>
+			<e:BitmapLabel id="LabelLevel" font="ItemNum_fnt" text="1" left="17" top="7" scaleX="1.5" scaleY="1.5"/>
+			<e:Image id="SpriteStar1" source="ui_hunter_evaluate_IconStar1_png" x="12" y="65" scaleX="1.2" scaleY="1.2"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

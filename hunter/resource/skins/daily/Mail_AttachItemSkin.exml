@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Mail_AttachItemSkin" width="60" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" width="60" height="80" x="0" y="0">
+		<e:Group id="gropHead" horizontalCenter="-0.5" verticalCenter="-8.5">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" width="57" height="55" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgIcon" anchorOffsetY="0" height="55.49" anchorOffsetX="0" width="58.68" horizontalCenter="0" verticalCenter="0" source=""/>
+		</e:Group>
+		<e:Label id="labelNum" text="x20000" size="16" horizontalCenter="0.5" bottom="0" textAlign="center" textColor="0x280303"/>
+		<e:Group id="groupAnimate" width="49.87" height="49.6" x="4.4" y="4.8" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>

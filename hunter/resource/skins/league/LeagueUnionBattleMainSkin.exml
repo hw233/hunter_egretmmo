@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueUnionBattleMainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" verticalCenter="0" horizontalCenter="0">
+		<e:Image id="imgReady" source="ui_union_battle_BigBG_png" scale9Grid="829,222,64,142" left="0" y="-58" scaleX="1.54" scaleY="1.54"/>
+		<e:Image id="imgBattle" source="ui_union_battle_BigBG_png" right="0" y="-28" scaleX="1.54" scaleY="1.54"/>
+		<e:Image id="imgSphere" source="ui_union_battle_BattleAtmosphere_png" horizontalCenter="0" verticalCenter="5.5"/>
+		<e:Image source="ui_union_battle_UpperBox_png" anchorOffsetY="0" scaleX="1" scaleY="1" top="1" horizontalCenter="0" width="100%" scale9Grid="247,12,417,27"/>
+		<e:Image source="ui_union_battle_LowerBox_png" scaleX="1" scaleY="1" bottom="0" width="100%" horizontalCenter="0" scale9Grid="225,109,509,183"/>
+		<e:Group id="groupTopLeft" anchorOffsetX="0" top="0" width="100%" horizontalCenter="0">
+			<e:Button id="btnClose" label="" left="-22" top="-9" x="-143.03" y="-10.02" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image source="ui_union_battle_title_png" x="130" top="0"/>
+			<e:Group top="0" x="280">
+			<e:Image source="ui_union_battle_rankMatchBG_png" verticalCenter="0" horizontalCenter="0"/>
+			<e:Group x="412" verticalCenter="0">
+				<e:Image id="imgBookmark7" source="ui_union_battle_Bookmark_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="lbBookmark7" text="周日休息" size="16" textColor="0x69e5c9" width="40" height="40" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0" lineSpacing="3"/>
+			</e:Group>
+			<e:Group x="345" verticalCenter="0">
+				<e:Image id="imgBookmark6" source="ui_union_battle_Bookmark_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="lbBookmark6" text="周六\n排位战" size="16" textColor="0x69E5C9" width="48" height="40" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0" lineSpacing="3"/>
+			</e:Group>
+			<e:Group x="278" verticalCenter="0">
+				<e:Image id="imgBookmark5" source="ui_union_battle_Bookmark_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="lbBookmark5" text="周五\n排位战" size="16" textColor="0x69E5C9" horizontalCenter="0" verticalCenter="0" verticalAlign="middle" textAlign="center" lineSpacing="3"/>
+			</e:Group>
+			<e:Group x="211" verticalCenter="0">
+				<e:Image id="imgBookmark4" source="ui_union_battle_Bookmark_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="lbBookmark4" text="周四\n排位战" size="16" textColor="0x69E5C9" lineSpacing="3" width="48" height="40" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group x="144" verticalCenter="0">
+				<e:Image id="imgBookmark3" source="ui_union_battle_Bookmark_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="lbBookmark3" text="周三\n排位战" size="16" textColor="0x69E5C9" lineSpacing="3" width="48" height="40" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group x="77" verticalCenter="0">
+				<e:Image id="imgBookmark2" source="ui_union_battle_Bookmark_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="lbBookmark2" text="周二\n排位战" size="16" textColor="0x69E5C9" lineSpacing="3" width="48" height="40" verticalCenter="0" horizontalCenter="0" verticalAlign="middle" textAlign="center"/>
+			</e:Group>
+			<e:Group x="10" verticalCenter="0">
+				<e:Image id="imgBookmark1" source="ui_union_battle_Bookmark_png" verticalCenter="0" horizontalCenter="0"/>
+				<e:Label id="lbBookmark1" text="周一\n排位战" size="16" textColor="0x69E5C9" lineSpacing="3" width="48" height="40" horizontalCenter="0" verticalCenter="0" verticalAlign="middle" textAlign="center"/>
+			</e:Group>
+			</e:Group>
+			<e:Button id="btnLastSettlement" label="" y="70.67" scaleX="1" scaleY="1" left="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_lastSettlement1_png" source.down="ui_union_battle_lastSettlement2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="imgReadyState" source="ui_union_battle_WordsPrepare_png" x="113" y="129" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image id="imgBattleState" source="ui_union_battle_WordsFight_png" x="113" y="129" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image id="imgBattleEmpty" source="ui_union_battle_WordsNull_png" x="92.97" y="117.98" scaleX="0.9" scaleY="0.9"/>
+		</e:Group>
+		<e:Button id="btnPlayDes" label="" anchorOffsetX="164" anchorOffsetY="0" top="50" right="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_PlayDescription1_png" source.down="ui_union_battle_PlayDescription2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupBattleTimeDisplay" horizontalCenter="0" bottom="75">
+			<e:Image id="imgTimeDisplay" width="285" height="42" source="ui_union_battle_BattleTimeDisplayBG_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="lbStartCountingDown" text="即将开赛 20:20:55" width="245" height="25" size="20" fontFamily="Helvetica" textColor="0x5df2ff" verticalAlign="middle" horizontalCenter="0" verticalCenter="0" textAlign="center"/>
+		</e:Group>
+		<e:Group id="groupBattleSide" y="61.82" horizontalCenter="0">
+			<e:Image id="imgBattleSideBG" width="502" height="58" source="ui_union_battle_BattleSideBG_png" horizontalCenter="0" top="0"/>
+			<e:Image width="17" height="71" source="ui_union_battle_battleSideBGLeft_png" left="-16" top="0"/>
+			<e:Image width="17" height="71" source="ui_union_battle_battleSideBGRight_png" right="-16" top="0"/>
+			<e:Group x="22" y="33" width="153" height="22">
+				<e:Image width="129" height="18" source="ui_union_battle_ourScore_png" verticalCenter="0" x="0"/>
+				<e:Label id="lbBattleOurScore" text="2500" size="18" textColor="0x5ccaff" verticalAlign="middle" textAlign="left" verticalCenter="0" x="74" height="22" width="82"/>
+			</e:Group>
+			<e:Group x="351" y="33" width="148" height="22">
+				<e:Image width="129" height="18" source="ui_union_battle_enemyScore_png" verticalCenter="0" x="0"/>
+				<e:Label id="lbBattleEnemyScore" text="2500" x="77.18" size="18" verticalAlign="middle" textAlign="left" textColor="0xff6760" verticalCenter="0" width="70" height="22"/>
+			</e:Group>
+			<e:Group x="13.34" y="8">
+				<e:Image width="206" height="16" source="ui_union_battle_battleLoadingBarBG_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Group id="groupBattleOurLoadingBar" width="206" height="16" horizontalCenter="0" verticalCenter="0">
+					<e:Image id="imgBattleOurLoadingBar" width="206" height="16" source="ui_union_battle_battleLoadingBar_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+			</e:Group>
+			<e:Group x="280.21" y="8">
+				<e:Image width="206" height="16" source="ui_union_battle_battleLoadingBarBG_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Group id="groupBattleEnemyLoadingBar" width="206" height="16" horizontalCenter="0" verticalCenter="0">
+					<e:Image id="imgBattleEnemyLoadingBar" width="206" height="16" source="ui_union_battle_battleLoadingBar_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+			</e:Group>
+			<e:Image id="imgBattleStateLogo" width="62" height="39" source="ui_union_battle_ourWin_png" horizontalCenter="0" top="0"/>
+			<e:Image width="140" height="42" y="38" source="ui_union_battle_BattleAttackTimes_png" horizontalCenter="0"/>
+			<e:Label id="lbAtkTime" text="进攻次数：一" y="47" width="150" height="24" size="18" textColor="0x5cc7fc" verticalAlign="middle" textAlign="center" horizontalCenter="0" fontFamily="Helvetica"/>
+		</e:Group>
+		<e:Group id="groupAdaptBoard" anchorOffsetX="0" touchThrough="true" horizontalCenter="0" width="100%" height="100%" verticalCenter="0">
+			<e:Group id="groupUnionInfo" left="49" verticalCenter="23">
+			<e:Image id="imgUnionInfoBG" source="ui_union_battle_unionInfoBG_png" x="0" y="0"/>
+			<e:Image id="imgUnionInfoName" source="ui_union_battle_InfoPanelMyUnion_png" x="20" y="58"/>
+			<e:Image source="ui_union_battle_unionInfoTextBG_png" x="105" y="58"/>
+			<e:Label id="lbInfoUnionName" text="公会名字" x="107.35" y="57.01" size="18" verticalAlign="middle" fontFamily="Helvetica" width="130" height="30"/>
+			<e:Image id="imgUnionInfoServer" source="ui_union_battle_server_2_png" x="40" y="98"/>
+			<e:Image source="ui_union_battle_unionInfoTextBG_png" x="105" y="98"/>
+			<e:Label id="lbInfoServerName" text="服务器名称" x="108.68" y="97.01" size="18" width="130" height="30" verticalAlign="middle" fontFamily="Helvetica"/>
+			<e:Image id="imgUnionInfoSegment" source="ui_union_battle_Segment_3_png" x="58" y="138"/>
+			<e:Image source="ui_union_battle_unionInfoTextBG_png" x="105" y="138"/>
+			<e:Image id="imgInfoSegment" source="ui_union_battle_star43_png" x="114" y="138"/>
+			<e:Image id="imgUnionInfoScore" source="ui_union_battle_rankScore_3_png" x="20" y="178"/>
+			<e:Image source="ui_union_battle_unionInfoTextBG_png" x="105" y="178"/>
+			<e:Label id="lbInfoRankScore" text="天梯分数" x="107.35" y="177.01" size="18" width="130" height="30" verticalAlign="middle" fontFamily="Helvetica"/>
+			<e:Image id="imgUnionInfoRank" source="ui_union_battle_thisServiceRank4_png" x="20" y="218"/>
+			<e:Image source="ui_union_battle_unionInfoTextBG_png" x="105" y="218"/>
+			<e:Label id="lbInfoThisSerRank" text="本服排行" x="108.68" y="215.68" size="18" width="200" height="30" verticalAlign="middle" fontFamily="Helvetica" anchorOffsetX="0"/>
+			</e:Group>
+			<e:Group id="groupReady" width="629" height="432" right="51" verticalCenter="0">
+			<e:Image source="ui_union_battle_holographicInfoBG_png" x="0" y="0"/>
+			<e:Image source="ui_union_battle_InfoLine_png" x="364" y="72"/>
+			<e:Label id="lbDefendTeam" text="已布防队伍数：—" x="54.67" y="59.34" size="16" fontFamily="Helvetica" textColor="0x476aa7" height="20" verticalAlign="middle" textAlign="left" width="210"/>
+			<e:Label id="lbUnionTeamCount" text="公会总队伍数：—" x="56" y="64" size="16" textColor="0x476AA7" fontFamily="Helvetica" visible="false"/>
+			<e:Group id="groupBigAirship" x="158" y="172" width="122" height="173">
+				<e:Image id="imgAirship1" source="ui_union_battle_bigAirshipPic_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="ui_union_battle_AirshipPeople_png" x="48" y="42"/>
+				<e:Image source="ui_union_battle_AirshipPeopleBG_png" x="32" y="70"/>
+				<e:Label id="lbAirship1" text="5/10" size="16" verticalAlign="top" textAlign="center" horizontalCenter="0" y="74" width="56" height="20"/>
+			</e:Group>
+			<e:Group id="groupAirshipLeft" x="60" y="210" anchorOffsetX="0" width="90" height="166">
+				<e:Image id="imgAirship2" source="ui_union_battle_AirshipPic_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="ui_union_battle_AirshipPeople_png" x="28" y="40"/>
+				<e:Image source="ui_union_battle_AirshipPeopleBG_png" x="12" y="68"/>
+				<e:Label id="lbAirship2" text="5/10" y="72" size="16" verticalAlign="top" textAlign="center" horizontalCenter="0" width="56" height="20"/>
+				<e:Image source="ui_union_battle_AirshipInfo1_png" x="58" y="142" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="groupAirshipRight" x="288" y="210" anchorOffsetX="0" width="90" height="166">
+				<e:Image id="imgAirship3" source="ui_union_battle_AirshipPic_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="ui_union_battle_AirshipPeople_png" x="28" y="40"/>
+				<e:Image source="ui_union_battle_AirshipPeopleBG_png" x="12" y="68"/>
+				<e:Label id="lbAirship3" text="5/10" y="72" size="16" verticalAlign="top" textAlign="center" horizontalCenter="0" width="56" height="20"/>
+				<e:Image source="ui_union_battle_AirshipInfo2_png" x="-44" y="112" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="groupSmallAirshipLeft" x="92" y="106" width="64" height="102">
+				<e:Image id="imgAirship4" source="ui_union_battle_smallAirshipPic_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="ui_union_battle_AirshipPeople_png" x="18" y="20"/>
+				<e:Image source="ui_union_battle_AirshipPeopleBG_png" x="2" y="48"/>
+				<e:Label id="lbAirship4" text="5/10" y="52" size="16" verticalAlign="middle" textAlign="center" horizontalCenter="0" height="20" width="56"/>
+				<e:Image source="ui_union_battle_smallAirshipInfo1_png" x="-50" y="18" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="groupSmallAirshipRight" x="278" y="106" width="64" height="102">
+				<e:Image id="imgAirship5" source="ui_union_battle_smallAirshipPic_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="ui_union_battle_AirshipPeople_png" x="18" y="20"/>
+				<e:Image source="ui_union_battle_AirshipPeopleBG_png" x="2" y="48"/>
+				<e:Label id="lbAirship5" text="5/10" y="52" size="16" verticalAlign="top" textAlign="center" horizontalCenter="0" height="20" width="56"/>
+				<e:Image source="ui_union_battle_smallAirshipInfo2_png" x="-58" y="4"/>
+			</e:Group>
+			<e:Group id="groupInfoGray" x="408" y="110">
+				<e:Image source="ui_union_battle_InfoGrayBG_png" x="0" y="0"/>
+				<e:Label id="lbInfoName" text="名称：名字名字" x="14.96" y="20" size="18" height="24" width="175" fontFamily="Helvetica"/>
+				<e:Label id="lbInfoLevel" text="级别：旗舰（高）" x="14.96" y="60" size="18" height="24" width="160" fontFamily="Helvetica"/>
+				<e:Label id="lbInfoNumber" text="数量：1" x="14.96" y="100" size="18" height="24" width="159" fontFamily="Helvetica"/>
+				<e:Label id="lbInfoDefend" text="驻守：5/50" x="14.96" y="140" size="18" height="24" width="159" fontFamily="Helvetica"/>
+				<e:Button id="btnViewDetails" label="" x="81" y="196" anchorOffsetX="81" anchorOffsetY="40" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_battle_viewDetails1_png" source.down="ui_union_battle_viewDetails2_png" source.disabled="ui_union_battle_viewDetails1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="btnViewSet" label="" x="81" y="196" anchorOffsetX="81" anchorOffsetY="40">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_battle_viewSet1_png" source.down="ui_union_battle_viewSet2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			</e:Group>
+			<e:Group id="groupBattle" verticalCenter="0" right="16" visible="false">
+			<e:Group id="groupAirship1" x="160" y="51">
+				<e:Group id="groupSpine1" width="200" height="200" x="5" y="7" scaleX="1" scaleY="1">
+				<e:Image id="imgBattleAirship1" source="ui_union_battle_airshipPic3_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="-23" y="236">
+				<e:Image source="ui_union_battle_BattleAirship1_png" y="0" horizontalCenter="0"/>
+				<e:Group y="22" horizontalCenter="0">
+					<e:Image source="ui_union_battle_progressGreenBoard_png" verticalCenter="0" horizontalCenter="0"/>
+					<e:Image id="imgBattleLoadingBar1" source="ui_union_battle_progressGreen_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="lbGetStarNum1" text="3/15" size="18" verticalAlign="middle" textAlign="center" verticalCenter="0" horizontalCenter="0"/>
+				</e:Group>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupAirship2" x="-26" y="180">
+				<e:Group id="groupSpine2" x="-9" y="4" scaleX="1" scaleY="1">
+				<e:Image id="imgBattleAirship2" source="ui_union_battle_airshipPic7_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="-60" y="126">
+				<e:Image source="ui_union_battle_BattleAirship2_png" y="0" scaleX="1" scaleY="1" horizontalCenter="0"/>
+				<e:Group y="22" horizontalCenter="0">
+					<e:Image source="ui_union_battle_progressGreenBoard_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imgBattleLoadingBar2" source="ui_union_battle_progressGreen_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="lbGetStarNum2" text="3/15" size="18" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupAirship3" x="413" y="188">
+				<e:Group id="groupSpine3" x="5" y="18">
+				<e:Image id="imgBattleAirship3" source="ui_union_battle_airshipPic1_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="-57" y="149">
+				<e:Image source="ui_union_battle_BattleAirship3_png" y="0" scaleX="1" scaleY="1" horizontalCenter="0"/>
+				<e:Group y="20" horizontalCenter="0">
+					<e:Image source="ui_union_battle_progressGreenBoard_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imgBattleLoadingBar3" source="ui_union_battle_progressGreen_png" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+					<e:Label id="lbGetStarNum3" text="3/15" size="18" scaleX="1" scaleY="1" verticalAlign="middle" textAlign="center" verticalCenter="0" horizontalCenter="0"/>
+				</e:Group>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupAirship4" x="13" y="45">
+				<e:Group id="groupSpine4" x="26" y="-6" scaleX="1" scaleY="1">
+				<e:Image id="imgBattleAirship4" source="ui_union_battle_airshipPic9_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="-28" y="75">
+				<e:Image source="ui_union_battle_BattleAirship5_png" y="0" horizontalCenter="0"/>
+				<e:Group y="22" horizontalCenter="0">
+					<e:Image source="ui_union_battle_progressGreenBoard_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imgBattleLoadingBar4" source="ui_union_battle_progressGreen_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="lbGetStarNum4" text="3/15" size="18" verticalAlign="middle" textAlign="center" verticalCenter="0" horizontalCenter="0"/>
+				</e:Group>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupAirship5" x="399" y="20">
+				<e:Group id="groupSpine5" x="60" y="19" scaleX="1" scaleY="1">
+				<e:Image id="imgBattleAirship5" source="ui_union_battle_airshipPic5_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="8" y="94">
+				<e:Image source="ui_union_battle_BattleAirship4_png" y="0" horizontalCenter="0"/>
+				<e:Group y="22" horizontalCenter="0">
+					<e:Image source="ui_union_battle_progressGreenBoard_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imgBattleLoadingBar5" source="ui_union_battle_progressGreen_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="lbGetStarNum5" text="3/15" size="18" scaleX="1" scaleY="1" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				</e:Group>
+			</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupBottomMin" bottom="0" horizontalCenter="0">
+			<e:Group id="groupSetLineUp" x="0" y="12">
+			<e:Button id="btnSetLineUp" label="" x="73.5" y="31" anchorOffsetX="73.5" anchorOffsetY="25">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_battle_SettingLineup1_png" source.down="ui_union_battle_SettingLineup2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgTip1" width="20" height="20" x="131.35" y="0" source="ui_currencyicon_IconRed_png"/>
+			</e:Group>
+			<e:Button id="btnUnionRank" label="" x="223.5" y="43" anchorOffsetX="73.5" anchorOffsetY="25">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_unionRank1_png" source.down="ui_union_battle_unionRank2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnRewardPreview" label="" x="375.17" y="43" anchorOffsetX="73.5" anchorOffsetY="25">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_RewardPreview1_png" source.down="ui_union_battle_RewardPreview2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+
+			<e:Image id="imgRegistered" source="ui_union_battle_registered_png" x="466.35" y="0"/>
+			<e:Button id="btnBattleRecord" label="" x="524.85" y="43" anchorOffsetX="73.5" anchorOffsetY="25">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_BattleRecords1_png" source.down="ui_union_battle_BattleRecords2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnBattleSate" label="" x="72.5" y="43" anchorOffsetX="73.5" anchorOffsetY="25">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_UnionState1_png" source.down="ui_union_battle_UnionState2_png" source.disabled="ui_union_battle_UnionState1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+
+			<e:Group id="groupPop" x="-40.65" y="-86" scaleX="1" scaleY="1">
+			<e:Image source="ui_union_battle_pop_png" x="0" y="0"/>
+			<e:Label text="存在尚未配置完的防御队伍，请尽快布放！" x="20" y="12" width="160" height="70" size="17" textColor="0x000000" fontFamily="Helvetica" lineSpacing="4"/>
+			</e:Group>
+			<e:Group id="groupPop2" x="447.35" y="-102" anchorOffsetY="0" height="92" scaleX="1" scaleY="1">
+			<e:Image source="ui_union_battle_pop_png" x="0" y="0"/>
+			<e:Label text="报名后可以编辑防守阵容！" width="160" height="70" size="17" textColor="0x000000" fontFamily="Helvetica" left="22" top="20" lineSpacing="4"/>
+			</e:Group>
+			<e:Group id="groupSignUp" x="451.35" y="2" width="184" height="74">
+			<e:Button id="btnSignUP" label="" horizontalCenter="0" verticalCenter="0" anchorOffsetX="92" anchorOffsetY="37">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_battle_signUp1_png" source.down="ui_union_battle_signUp2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="lbSignUpConsume" text="活跃度 X2000" size="16" x="113.5" y="46.33" verticalAlign="middle" textAlign="left" fontFamily="Helvetica" anchorOffsetY="8" anchorOffsetX="49.5" height="20" width="118"/>
+			</e:Group>
+
+		</e:Group>
+		<e:Group id="groupBottomLeft" left="0" bottom="0" width="132" height="75">
+			<e:Button id="btnMall" label="" anchorOffsetX="1" anchorOffsetY="75" x="1" y="75">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_ButtonFeatsMallNor_png" source.down="ui_union_battle_ButtonFeatsMallNor.png_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="imgTip2" width="20" height="20" x="60.37" y="0" source="ui_currencyicon_IconRed_png"/>
+		</e:Group>
+		<e:Group id="groupBottomRight" right="0" bottom="0" width="132" height="80">
+			<e:Group id="groupMyFormation" x="0" y="5" width="132" height="75">
+			<e:Button id="btnMyFormation" label="" anchorOffsetX="132" anchorOffsetY="75" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_battle_UnionBattleMainMyFormation1_png" source.down="ui_union_battle_UnionBattleMainMyFormation2_png" source.disabled="ui_union_battle_UnionBattleMainMyFormation2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgTip3" width="20" height="20" x="36.37" y="0" source="ui_currencyicon_IconRed_png"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

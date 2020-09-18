@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeroDetailMainItemSkin" width="280" height="25" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="labelName" text="生命值:" height="25" size="18" fontFamily="Helvetica" width="90" left="0" verticalCenter="0" verticalAlign="middle" textAlign="left" textColor="0xffead2"/>
+	<e:Label id="labelValue" text="12345678" height="25" size="18" fontFamily="Helvetica" left="100" verticalCenter="0" verticalAlign="middle" textAlign="left" right="0" textColor="0xff9d00"/>
+</e:Skin>

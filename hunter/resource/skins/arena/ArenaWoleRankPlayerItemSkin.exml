@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaWoleRankPlayerItemSkin" width="740" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group height="70" width="740">
+		<e:Label id="labelRank" text="Label" verticalCenter="-5" left="12" textAlign="center" size="18" width="74"/>
+		<e:Label id="labelPlayerName" text="Label" verticalCenter="-5" anchorOffsetX="0" textAlign="center" size="18" width="140" left="92"/>
+		<e:Label id="labelQu" text="Label" verticalCenter="-5" textAlign="center" size="18" width="120" left="244"/>
+		<e:Label id="labelGrade" text="Label" verticalCenter="-5" textAlign="center" size="18" width="80" right="265"/>
+		<e:Label id="labelJiFen" text="Label" verticalCenter="-5" textAlign="center" size="18" width="80" right="135"/>
+		<e:Label id="labelChangehao" text="Label" verticalCenter="-5" textAlign="center" size="18" width="90" right="10"/>
+		<e:Image id="imgTitle" source="ui_arena_title_title2_png" scaleX="0.8" scaleY="0.8" right="0" verticalCenter="-5"/>
+		<e:Image source="ui_arena_OrnDayRankLine_png" bottom="10" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

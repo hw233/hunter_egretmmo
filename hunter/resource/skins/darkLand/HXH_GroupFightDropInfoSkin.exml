@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_GroupFightDropInfoSkin.exml" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="710" height="460" horizontalCenter="0" verticalCenter="37">
+		<e:Group id="groupCache" width="710" x="0" height="460" y="0">
+			<e:Image source="ui_instance_LayerInstance_png" width="705" height="465" scale9Grid="31,31,28,25" horizontalCenter="0" verticalCenter="0" x="3" y="-2" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_instance_BoardTopTip_png" scaleX="2.16" horizontalCenter="0" top="0" scale9Grid="71,14,106,5" x="1.9999999999999858" y="0" scaleY="1"/>
+			<e:Image source="ui_instance_BoardSearchTeam_png" width="690" height="415" scale9Grid="8,7,50,47" horizontalCenter="0" bottom="6" x="10" y="38.999999999999986" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="0" top="-23" x="203" y="-23.000000000000014" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_skyarean_WordsTipPowerAwardList_png" horizontalCenter="0" top="-12" x="298" y="-12" scaleX="1" scaleY="1"/>
+		</e:Group>
+
+
+
+
+
+		<e:Button id="buttonClose" label="" x="632.66" y="-18.32">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="scrollerRewards" width="680" height="398" y="50" scrollPolicyV="on" horizontalCenter="0">
+			<e:List id="listViewDrop" width="680" height="397">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="1"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+
+	</e:Group>
+</e:Skin>

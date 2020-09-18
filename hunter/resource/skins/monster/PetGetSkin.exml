@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetGetSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" scaleX="0.9" scaleY="0.9" top="0">
+		<e:Group x="0" y="0">
+			<e:Image source="ui_pet_newpet_BoardPetListFloor_png" x="0" y="0" width="300" height="370" scale9Grid="31,53,190,52"/>
+			<e:Image source="ui_pet_WordsAddAtt_png" horizontalCenter="0" top="7"/>
+			<e:Image source="ui_pet_WorddsCurrencyStarLevel_png" x="66.5" y="42.34"/>
+			<e:Label id="labelCurrentAtt1" text="基础技能：全体猎人战斗中防御力增加15%" x="14.33" y="82.71" size="18" textColor="0xffff00" anchorOffsetY="0" height="60.67" anchorOffsetX="0" width="275" lineSpacing="1"/>
+			<e:Label id="labelCurrentAtt2" text="念力技：辅助型猎人战斗中速度额外增加10%" x="13.66" y="129.66" size="18" textColor="0xffff00" anchorOffsetY="0" height="46" anchorOffsetX="0" width="278.33" lineSpacing="1"/>
+			<e:Label id="labelPetStrengthLevel" text="（再升1星可提升）" x="5.01" y="169.44" size="16" visible="false"/>
+			<e:Image source="ui_pet_WorddsNextStarLevel_png" x="65.67" y="211.43"/>
+			<e:Group x="9" y="229">
+				<e:Label id="labelCurrentAtt3" text="基础技能：全体猎人战斗中防御力增加16%" x="2.66" y="19.98" size="18" textColor="0xffff00" anchorOffsetY="0" height="48.67" anchorOffsetX="0" width="281.67" lineSpacing="1"/>
+				<e:Label id="labelCurrentAtt4" text="念力技：辅助型猎人战斗中速度额外增加10%" x="4.67" y="66.98" size="18" textColor="0xffff00" anchorOffsetY="0" height="46" anchorOffsetX="0" width="273" lineSpacing="1"/>
+				<e:Label id="labelPetSkillNextAward" text="（念力技提升）" x="0" y="108" size="16" visible="false"/>
+			</e:Group>
+			<e:Group right="2" top="147">
+				<e:Button id="btnGetAward" label="" x="3.76" y="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_pet_ButtonGetAwardNor_png" source.down="ui_pet_ButtonGetAwardSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgSpriteGetAward" source="ui_pet_WordsLingqu_png" x="0" y="2.33"/>
+			</e:Group>
+		</e:Group>
+		<e:Image id="imgSpritePetLevelMax" source="ui_hunter_WordsHunterLevelMax_png" x="68.17" y="245.17"/>
+		<e:Group width="300" height="195" left="0" top="375">
+			<e:Image source="ui_pet_newpet_BoardPetListFloor_png" x="0" width="300" height="195" scale9Grid="31,50,190,55" y="0" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_pet_WordsUpStar_png" horizontalCenter="0" top="7"/>
+			<e:Group id="groupPetUpLevel" x="54.5" bottom="0">
+
+				<e:Group id="groupAnimate" x="0" y="-5.55">
+					<e:Image id="imgSpriteBoard" source="ui_frame_FrameHunterSPAsh_png" x="0" y="0" scaleX="0.7" scaleY="0.7"/>
+					<e:Image id="imgSpriteIcon" source="hero_icon_head_wj_dongba_png" x="0" y="0" scaleX="0.7" scaleY="0.7"/>
+					<e:Button id="btnAddPetSoul" label="" x="31.73" y="3.33" scaleX="0.7" scaleY="0.7">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ui_hunter_ButtonCardAddNor_png" source.down="ui_hunter_ButtonCardAddSel_png" source.disabled="ui_hunter_ButtonCardAddNor_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</e:skinName>
+					</e:Button>
+				</e:Group>
+				<e:Image source="ui_pet_WordsMaterialsNum_png" x="73.5" y="5"/>
+				<e:Label id="labelNeedFragement" text="9/10" x="74.5" y="32.45" size="20"/>
+
+				<e:Button id="btnStrength" label="" x="7" y="65.1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonHunterSoulUpStarNor_png" source.down="ui_hunter_ButtonHunterSoulUpStarSel_png" source.disabled="ui_hunter_ButtonHunterSoulUpStarDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Image id="imgSpriteTipStrength" source="ui_currencyicon_IconRed_png" x="160.5" y="66"/>
+				<e:Label id="labelStrength" text="20000" x="79.06" y="109" size="20" touchEnabled="false"/>
+			</e:Group>
+			<e:Image id="imgSpritePetStarMax" source="ui_pet_WordsPetStarMaxTip_png" x="20" verticalCenter="15"/>
+		</e:Group>
+		<e:Label id="labelPetSkillName" text="钻石不翻译" x="-186.66666666666666" y="229.99999999999997" scaleX="1.111111111111111" scaleY="1.111111111111111" size="18" visible="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaWholeRankPlayerSelfItemSkin" width="740" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group height="70" width="740">
+		<e:Label id="labelSeveName" text="1区  h5_172" verticalCenter="-5" width="150" left="25" textAlign="center" size="18" textColor="0x000000"/>
+		<e:Label id="labelPlayerName1" text="Label" x="185" verticalCenter="-5" anchorOffsetX="0" width="180" textAlign="center" size="18" textColor="0xff0000"/>
+		<e:Label id="labelPlayerName2" text="Label" x="363" verticalCenter="-5" width="180" textAlign="center" size="18" textColor="0xfe950d"/>
+		<e:Label id="labelPlayerName3" text="Label" x="552" verticalCenter="-5" width="180" textAlign="center" size="18" textColor="0xfe22ec"/>
+		<e:Image source="ui_arena_OrnDayRankLine_png" bottom="10" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

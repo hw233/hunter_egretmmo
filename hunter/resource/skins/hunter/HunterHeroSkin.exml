@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterHeroSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="mainNode" width="400" height="580" y="26.67" x="506.33">
+		<e:Group id="nodeIcon" width="200" height="200" y="120" horizontalCenter="0">
+			<e:Image source="ui_hunter_OrnPlates3_png" scaleX="1" scaleY="1" verticalCenter="10" horizontalCenter="0"/>
+			<e:Image id="spriteHunterHalfDraw" scaleX="0.85" scaleY="0.85" x="-181" y="-204" source=""/>
+		</e:Group>
+		<e:Group id="nodeRecruit" width="312" height="136" y="313.87" horizontalCenter="0" visible="false">
+			<e:Image horizontalCenter="1" verticalCenter="22.5" source="ui_hunter_BoardHunterName_png"/>
+			<e:Image id="spriteHunterRecruitName" source="ui_huntername_HunterName12_png" y="60.38" horizontalCenter="12.5" rotation="13"/>
+			<e:Image source="ui_hunter_BoardHunterCurrencyStar_png" scaleX="1" scaleY="1" width="344" height="33" horizontalCenter="0" bottom="-38"/>
+			<e:Image source="ui_hunter_BoardHunterCurrencyStar_png" scaleX="1" scaleY="1" width="180" height="30" y="142" x="66" visible="false"/>
+			<e:Group id="gRecruitStar" height="30" width="180" horizontalCenter="0" y="142">
+			</e:Group>
+		</e:Group>
+		<e:Group width="91" height="91" y="25" scaleX="0.9" scaleY="0.9" left="32">
+			<e:Image source="ui_hunter_BoardGrad_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="spriteGrade" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_hunter_evaluate_IconWrodsCard4_png"/>
+		</e:Group>
+		<e:Group width="91" height="91" y="25" right="32" scaleX="0.9" scaleY="0.9">
+			<e:Image source="ui_hunter_BoardGrad_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="spriteType2" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_hunter_evaluate_IconHeroType1_png"/>
+
+		</e:Group>
+		<e:Button id="btnAvata" label="" y="125" left="27" width="93" height="94">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAvataNor_png" source.down="ui_hunter_ButtonAvataSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="nodeGet" width="312" height="136" y="313.87" horizontalCenter="0">
+			<e:Image source="ui_hunter_BoardHeroInfo_png" horizontalCenter="1" verticalCenter="0"/>
+			<e:Image id="spriteHunterName" source="ui_huntername_HunterName12_png" y="25.51" horizontalCenter="-35"/>
+			<e:Image id="spriteTitle" source="ui_hunter_title_Title18_png" x="108.74" y="58.23"/>
+			<e:Image id="spriteStar1" x="90.64" y="105.04" width="20" height="20" scaleX="0.9" scaleY="0.9" name="spriteStar1" source="ui_hunter_evaluate_IconCardBigStar_png"/>
+			<e:Image id="spriteStar2" x="109.64" y="103.44" width="20" height="20" scaleX="0.9" scaleY="0.9" name="spriteStar2" source="ui_hunter_evaluate_IconCardBigStar_png"/>
+			<e:Image id="spriteStar3" x="128.64" y="101.84" width="20" height="20" scaleX="0.9" scaleY="0.9" name="spriteStar3" source="ui_hunter_evaluate_IconCardBigStar_png"/>
+			<e:Image id="spriteStar4" source="ui_hunter_evaluate_IconCardBigStar_png" x="147.64" y="100.24" width="20" height="20" scaleX="0.9" scaleY="0.9" name="spriteStar4"/>
+			<e:Image id="spriteStar5" source="ui_hunter_evaluate_IconCardBigStar_png" x="166.64" y="98.64" width="20" height="20" scaleX="0.9" scaleY="0.9" name="spriteStar5"/>
+			<e:Image id="spriteStar6" source="ui_hunter_evaluate_IconCardBigStar_png" x="185.64" y="97.04" width="20" height="20" scaleX="0.9" scaleY="0.9" name="spriteStar6"/>
+			<e:Label id="labelLevel" text="50/50" x="257.23" y="92.64" textColor="0x000000" size="19" fontFamily="Helvetica" rotation="-5"/>
+		</e:Group>
+		<e:Image id="spriteType" source="ui_hunter_evaluate_IconHunterType5_png" x="45.4" y="362.6" scaleX="1" scaleY="1"/>
+		<e:Group id="nodeUnLock" width="358" height="120" anchorOffsetY="0" anchorOffsetX="0" bottom="0" horizontalCenter="0">
+			<e:Image source="ui_hunter_BoardUpStarLevel_png" x="-10.52" scaleX="0.95" scaleY="1" bottom="0"/>
+			<e:Button id="btnUpLevel" label="" bottom="10" right="90" width="119" height="47">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonUpLevelNor_png" source.down="ui_hunter_ButtonUpLevelSel_png" source.disabled="ui_hunter_ButtonUpLevelNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnUpStar" label="" left="10" bottom="10" width="119" height="47">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonUpStartNor_png" source.down="ui_hunter_ButtonUpStartSel_png" source.disabled="ui_hunter_ButtonUpStartNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnBreak" label="" x="10" y="63" width="119" height="47">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_break_ButtonBreakEntranceNor_png" source.down="ui_hunter_break_ButtonBreakEntranceSel_png" source.disabled="ui_hunter_break_ButtonBreakEntranceNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgBreakRedDot" source="ui_currencyicon_IconRed_png" y="65" left="110" visible="false"/>
+			<e:Image id="imgUpLevelRedDot" source="ui_currencyicon_IconRed_png" y="63" x="256" visible="false"/>
+			<e:Image source="ui_common_BoardPowerUseInfo_png" y="3" horizontalCenter="-23.5" scale9Grid="41,12,248,27" scaleX="0.98"/>
+			<e:Button id="btnPlayerSkill" label="" x="306.29" bottom="15" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mainui_ButtonStrategyNor_png" source.down="ui_mainui_ButtonStrategySel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgCommentRedDot" source="ui_currencyicon_IconRed_png" y="25.05" x="351.29" visible="false"/>
+			<e:Image source="ui_common_WordsPowerBig2_png" x="21" y="11"/>
+			<e:Label id="labelPlayerPower" text="123456789" x="147" y="11" size="25" textColor="0xffeb00" fontFamily="Helvetica" height="37" verticalAlign="middle" textAlign="left"/>
+		</e:Group>
+		<e:Group id="nodeLock" width="358" height="120" anchorOffsetY="0" anchorOffsetX="0" bottom="0" horizontalCenter="0" visible="false">
+			<e:Button id="btnViewFate" label="" bottom="12" left="10" width="172">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonViewFateNor_png" source.down="ui_hunter_ButtonViewFateSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnHaveHunter" label="" bottom="12" right="-10">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonObtainBigBNor_png" source.down="ui_hunter_ButtonObtainBigBSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="groupCallHunter" width="298" height="277" horizontalCenter="0" verticalCenter="-272.5">
+			</e:Group>
+		</e:Group>
+		<e:Group id="nodeSelectList" width="380" height="112" y="462" anchorOffsetY="0" horizontalCenter="0">
+			<e:Image source="ui_hunter_BoardSelectedHero_png" scaleX="1" scaleY="1" scale9Grid="9,14,60,90" width="380" height="112" horizontalCenter="0" verticalCenter="0"/>
+			<e:Scroller id="bottomScroller" width="340" height="100" horizontalCenter="0" verticalCenter="2">
+				<e:List id="listBottom" x="-246" y="15">
+					<e:layout>
+						<e:HorizontalLayout paddingTop="0" verticalAlign="middle" gap="0"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+
+			<e:Button id="btnRight" label="" verticalCenter="0" right="-13">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonHunterLeftNor_png" source.down="ui_hunter_ButtonHunterLeftSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnLeft" label="" rotation="180" verticalCenter="0" left="-13">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonHunterLeftNor_png" source.down="ui_hunter_ButtonHunterLeftSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Button id="btnHelp" label="" top="6" left="14" width="42" height="42">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_help_ButtonHelpNor_png" source.down="ui_help_ButtonHelpSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+
+</e:Skin>

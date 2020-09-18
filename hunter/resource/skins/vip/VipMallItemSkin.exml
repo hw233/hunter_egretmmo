@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipMallItemSkin" width="261" height="179" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="btnItem" label="" horizontalCenter="0" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_mall_ButtonGemstonBuyNor_png" source.down="ui_mall_ButtonGemstonBuySel_png" source.disabled="ui_mall_ButtonGemstonBuyDis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="imgIcon" source="ui_mall_IconGemstone3_png" horizontalCenter="0" scaleX="0.7" scaleY="0.7" y="14" touchEnabled="false"/>
+	<e:Group id="groupB" y="180" x="177" touchChildren="false" touchEnabled="false" touchThrough="true" visible="false">
+		<e:Label id="lbNameB" text="99999" x="-5" y="-163" fontFamily="Helvetica" verticalAlign="middle" size="16" textAlign="left"/>
+		<e:Image id="imgDiscount" x="-180" y="-184" source="ui_mall_WordsGmestoneFirstSend_png"/>
+		<e:Label id="lbDis" text="八折" x="-157" y="-147" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" size="14" rotation="-36"/>
+		<e:Image id="imgDouble" x="-170" y="-122" source="ui_mall_WordsGmstoneFirstDouble_png"/>
+	</e:Group>
+	<e:Group id="groupA" y="1" x="46" touchChildren="false" touchEnabled="false" touchThrough="true">
+		<e:Image id="imgType" x="-49" y="-1" source="ui_mall_WordsGmestoneFirstSendB_png"/>
+		<e:Group id="groupAB" x="-46" y="0">
+			<e:Image source="ui_mall_BoardBuyNum_png" verticalCenter="0" horizontalCenter="0"/>
+		<e:Label id="lbGetNum" text="3/2" fontFamily="Helvetica" verticalAlign="middle" size="16" verticalCenter="-2.5" horizontalCenter="-14" rotation="-34"/>
+		</e:Group>
+		<e:BitmapLabel id="lbEndNum" y="125" scaleX="1" scaleY="1" text="剩余数量：12344" font="WordsGiftAstrict_fnt" horizontalCenter="-21"/>
+		<e:Label id="lbEndNum_" text="剩余数量：12344" y="125" size="16" fontFamily="Helvetica" textColor="0xFEFFFF" verticalAlign="middle" textAlign="left" scaleX="1" scaleY="1" horizontalCenter="-21" bold="true"/>
+		<e:Image id="imgGestone" x="96" y="3" scaleX="0.7" scaleY="0.7" source="ui_iconresources_zuanshi3_png"/>
+		<e:Label id="lbNameA" text="99999" x="129" y="15" fontFamily="Helvetica" verticalAlign="middle" scaleX="1" scaleY="1" size="16" textAlign="left"/>
+		<e:Label id="lbValue" text="99999" x="129" y="15" fontFamily="Helvetica" verticalAlign="middle" scaleX="1" scaleY="1" textAlign="left" size="16"/>
+		<e:Image id="imgTips" x="187" y="-2" scaleX="1" scaleY="1" source="ui_currencyicon_IconRed_png"/>
+	</e:Group>
+	<e:BitmapLabel id="lbCostB" y="151" text="6480钻石" font="WordsGiftName_fnt" horizontalCenter="0" touchEnabled="false" letterSpacing="-5"/>
+	<e:Group id="groupC" verticalCenter="0" horizontalCenter="0" touchChildren="false" touchEnabled="false" touchThrough="true">
+		<e:Image id="imgShadow" source="ui_mall_WordsShadow_png" verticalCenter="0" horizontalCenter="0"/>
+		<e:Image id="imgBuy" source="ui_mall_WordsLingqu_png" horizontalCenter="0" y="33"/>
+	</e:Group>
+	<e:Label id="lbBuyRight" text="蓝星荣耀可购买" y="127" fontFamily="Helvetica" verticalAlign="middle" size="18" textAlign="center" textColor="0xff2600" horizontalCenter="0" bold="true" touchEnabled="false"/>
+</e:Skin>

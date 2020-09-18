@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityUplevelActivitySkin" width="660" height="475" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group verticalCenter="0.5" right="0">
+		<e:Image source="ui_acitivity_LayerSeconde_png" height="480" scale9Grid="79,14,478,88" x="0" y="0"/>
+		<e:Image source="ui_acitivity_LayerFistSmall_png" x="9" y="203"/>
+		<e:Image source="ui_acitivity_WordsAcitivitySeverUpLevel_png" x="36" y="19"/>
+		<e:Image source="ui_acitivity_BoardSeverLevelTask_png" y="110" x="37"/>
+		<e:Image source="ui_acitivity_OrnAcitivitySeverUpLevel_png" x="0" y="158"/>
+		<e:Scroller width="300" height="207" x="316" y="203" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off">
+			<e:List id="lstView" anchorOffsetY="0" height="210">
+				<e:layout>
+					<e:TileLayout requestedRowCount="3"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label text="活动时间：" x="70" y="122" textColor="0x7d1800" size="16" fontFamily="Helvetica"/>
+		<e:Label id="lbTime" text="2015.12.15至2015.12.31" x="143" y="123" textColor="0x7d1800" size="16" fontFamily="Helvetica" verticalAlign="middle" textAlign="center"/>
+		<e:Label text="活动内容：" x="70" y="144" textColor="0x7d1800" size="16" fontFamily="Helvetica"/>
+		<e:Label id="lbInfo" text="累计充值达到指定额度，即可领取奖励扫in带带你扫地那艘撒" x="144" y="144" anchorOffsetX="0" width="407" anchorOffsetY="0" height="68" size="16" textColor="0x7d1800" fontFamily="Helvetica" lineSpacing="4"/>
+		<e:Button id="btnInfo" label="" x="385" y="417">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_ButtonLevelAwardNor_png" source.down="ui_acitivity_ButtonLevelAwardSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lbNow" text="当前队伍等级：" x="319" y="450" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" visible="false"/>
+		<e:Label id="lbLevel" text="Lv   15" x="438" y="450" size="18" fontFamily="Helvetica" visible="false"/>
+	</e:Group>
+</e:Skin>

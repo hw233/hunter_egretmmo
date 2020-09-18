@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Daily_AchieveItemSkin" width="750" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" width="750" height="110" x="0" y="0">
+		<e:Image source="ui_daily_BoardInfo_png" x="0" y="0" width="750" height="110" scale9Grid="11,13,68,79"/>
+		<e:Image source="ui_daily_OrnInfo_png" bottom="2" height="110" x="335"/>
+		<e:Group id="groupFrame" width="750" height="110" x="0" y="0">
+		</e:Group>
+		<e:Group id="btnGet" width="280" height="99" right="6" bottom="2" anchorOffsetY="0">
+		</e:Group>
+		<e:Label id="labelName" text="老王的愤怒（10）" size="22" left="16" top="14" textColor="0x300202"/>
+		<e:Label id="labelContent" text="不翻译不翻译不翻译不翻译不翻译不翻译不翻译" size="20" left="16" top="48" textColor="0x300202"/>
+		<e:Image source="ui_daily_BoardBurAchievements_png" left="16" bottom="6"/>
+		<e:Image id="imgBarMask" source="ui_daily_BoardBurAchievements_png" left="16" bottom="6" width="422"/>
+		<e:Image id="imgBar" source="ui_daily_BurAchievements_png" left="16" bottom="6" scale9Grid="11,2,399,19"/>
+		<e:Rect id="rectMask" width="422" height="23" x="16" y="81"/>
+		<e:Label id="labelCount" text="12/100" size="18" left="200" bottom="8" textAlign="center"/>
+
+
+
+
+		<e:Group id="groupGet" x="464" y="-1.27" height="110">
+			<e:Image source="ui_daily_BoardAchievmentAward_png" scale9Grid="34,11,210,68" touchEnabled="false" alpha=".8" anchorOffsetY="0" height="99" x="0" y="8.27"/>
+			<e:Scroller id="scrollerViewAward" width="240" height="60" anchorOffsetX="0" right="21" verticalCenter="14">
+				<e:List id="listViewAward">
+				<e:layout>
+					<e:HorizontalLayout gap="0"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Image id="imgAward1" source="ui_daily_WordsAward_png" touchEnabled="false" x="114" y="9.27"/>
+			<e:Image id="imgDone" source="ui_daily_WordsAchievmentsAllEnd_png" x="27" y="51.27"/>
+			<e:Image id="imgGet" x="171.43" y="0" source="ui_daily_WordsLingqu_png" touchEnabled="false"/>
+			<e:Image id="imgScroMask" source="ui_daily_BoardInfo_png" width="256" height="60" scale9Grid="11,13,68,79" scaleX="1" scaleY="1" right="14" verticalCenter="14" anchorOffsetX="0"/>
+		</e:Group>
+		<e:Image id="imgMask" source="ui_daily_Mask_png" x="0" y="0" width="750" height="110" touchEnabled="false" visible="false"/>
+		<e:Label id="labelLevel" text="队伍达到多少级开启" size="20" textColor="0xFF0000" verticalCenter="-3" left="264"/>
+		<e:Image id="imgLock" source="ui_currencyicon_IconLock_png" verticalCenter="-2.5" left="224"/>
+	</e:Group>
+</e:Skin>

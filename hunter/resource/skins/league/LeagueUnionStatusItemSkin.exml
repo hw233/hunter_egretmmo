@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueUnionStatusItemSkin" width="712" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="162" verticalCenter="0.5">
+		<e:Image id="imgFrame" source="ui_frame_FrameImage0_png" x="0" scaleX="0.5" scaleY="0.5" y="0"/>
+		<e:Image id="imgPlayerIcon" source="hero_icon_head_wj_miji_png" x="6" scaleX="0.5" scaleY="0.5" verticalCenter="0"/>
+	</e:Group>
+	<e:Group x="193" verticalCenter="0">
+		<e:Label id="lbUnionName" text="默认工会名称" x="32" size="18" textColor="0x000000" verticalCenter="14" fontFamily="Helvetica" width="150" textAlign="left" verticalAlign="middle" height="24"/>
+		<e:Label id="lbAtkTime" text="剩余次数" x="204" size="18" textColor="0x020202" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" width="80" height="24" verticalCenter="14"/>
+		<e:Label id="lbContribution" text="贡献值" x="401" size="18" textColor="0x000000" fontFamily="Helvetica" width="60" textAlign="center" verticalAlign="middle" height="24" verticalCenter="14"/>
+		<e:Label id="ibRank" text="排名" x="-162" size="18" textColor="0x000000" fontFamily="Helvetica" width="40" textAlign="center" verticalAlign="middle" y="26" scaleX="1" scaleY="1" height="24"/>
+	</e:Group>
+	<e:Image source="ui_arena_OrnDayRankLine_png" horizontalCenter="0.5" bottom="5"/>
+</e:Skin>

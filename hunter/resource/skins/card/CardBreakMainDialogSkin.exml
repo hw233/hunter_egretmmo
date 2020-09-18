@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardBreakMainDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="700" height="440" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" y="32" width="670" height="370" horizontalCenter="0" scale9Grid="98,30,278,91"/>
+		<e:Image source="ui_hunter_OrnFlower_png" x="24" y="13"/>
+		<e:Button id="btnClose" label="" x="607.81" y="1.4">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_hunter_OrnCardLine_png" x="114.67" y="54"/>
+		<e:Image id="imageFrame" source="ui_frame_FrameCard3_png" x="32" y="94"/>
+		<e:Image source="ui_hunter_OrnCardBracket_png" x="102.65" y="370"/>
+		<e:Label id="labelCardNum" text="15" x="59" y="117" size="18" textColor="0x050404"/>
+		<e:Label id="labelCardName" text="卡片名称" x="108" y="117" size="18" textColor="0x020202"/>
+		<e:Image id="imageCard" source="card_011huangjintianchengB_30_png" x="47" y="151"/>
+		<e:Image id="imageCardType" source="ui_hunter_evaluate_IconCardType1_png" x="48" y="152"/>
+		<e:Label id="labelCardDetails" text="开发人员忠告：这个里面的内容是读表，不需要翻译了。" x="49" y="260" size="12" textColor="0x050404" width="180" lineSpacing="4"/>
+		<e:BitmapLabel id="labelLevel" width="40" height="20" x="198.66" y="233.99" text="123" font="ItemNum_fnt"/>
+		<e:Group width="413" height="319" x="248" y="68">
+			<e:Image source="ui_hunter_BoardSkillDown_png" scaleX="0.94" scaleY="1.3" bottom="-1" horizontalCenter="7"/>
+			<e:Image source="ui_card_BoardBreakInfoFloor_png" verticalCenter="-0.5" y="121" scaleX="1" scaleY="1" horizontalCenter="0.5"/>
+			<e:Image source="ui_card_BoardBreakIconFloor_png" top="0" y="0" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Group id="groupUse" width="100%" height="100%" y="0" x="0">
+			<e:Image source="ui_card_BoardBreakCardFloor_png" x="52" y="10"/>
+			<e:Image id="imageFrameBefore" source="ui_frame_FrameHunterAsh_png" x="54" y="13"/>
+			<e:Image id="imageCardTypeBefore" source="ui_hunter_evaluate_IconCardTypeOrn6_png" x="86" y="14"/>
+			<e:Image id="imageIconBefore" source="hero_icon_head_wj_dongba_png" x="49" y="8"/>
+			<e:Image source="ui_card_WordsBreakIcon_png" x="171" y="17"/>
+			<e:Image source="ui_card_BoardBreakCardFloor_png" x="264" y="10"/>
+			<e:Image id="imageFrameAfter" source="ui_frame_FrameHunterAsh_png" x="267" y="13"/>
+			<e:Image id="imageCardTypeAfter" source="ui_hunter_evaluate_IconCardTypeOrn6_png" x="299" y="14"/>
+			<e:Image id="imageIconAfter" source="hero_icon_head_wj_dongba_png" x="261" y="8"/>
+				<e:Group id="groupStarAfter" width="60" height="18" x="265" y="77"/>
+				<e:Group id="groupStarBefore" width="60" height="18" x="52" y="77"/>
+				<e:BitmapLabel id="labelLevelBefore" width="40" height="20" x="104" y="68" font="ItemNum_fnt" text="1" textAlign="right"/>
+			<e:BitmapLabel id="labelLevelAfter" width="40" height="20" x="317" y="68" font="ItemNum_fnt" text="12" textAlign="right"/>
+			<e:Label id="labelCurrentLevel" text="等级上限：Lv16" x="43" y="163" textColor="0x070606" size="18"/>
+				<e:Image source="ui_pet_IconArrow_png" x="281" y="161" scaleX="1" scaleY="1"/>
+				<e:Label id="labelNextLevel" text="Lv17" x="325" y="163" size="18" textColor="0xe86e1b"/>
+			<e:Group id="groupUseItem0" width="100%" height="106" x="0" bottom="0" y="222" scaleX="1" scaleY="1">
+				<e:Button id="btnBreak" label="" x="246" y="19">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonBreakNor1_png" source.down="ui_card_ButtonBreakSel1_png" source.disabled="ui_card_ButtonBreakSel1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Label id="labelBreakNum" text="1000000" x="317.56" y="62.48" size="18" touchEnabled="false"/>
+				<e:Image source="ui_hunter_WordsSkillHunterTip_png" x="7" verticalCenter="7.5"/>
+				<e:Group id="groupItem" width="70" height="80" x="66" y="15">
+					<e:Group id="groupMetarialDes" width="350" height="250" y="-256" horizontalCenter="0"/>
+				<e:Image id="imageFrameMeterials" source="ui_frame_FrameHunterAsh_png" y="-2" scaleX="0.7" scaleY="0.7" horizontalCenter="0"/>
+				<e:Image id="imageIconMeterials" source="hero_icon_head_wj_feitan_png" y="-4" scaleX="0.7" scaleY="0.7" x="2"/>
+				<e:Image id="imageAddMeterials" source="ui_hunter_IconSkillHunterMaterailsAdd_png" x="34" y="3"/>
+				<e:Image source="ui_hunter_BoardHunterStar_png" y="64" horizontalCenter="0.5" scaleX="1.4" scaleY="1.8"/>
+				<e:Label id="labelNumMeterials" text="9000/100" x="-16" y="65" size="20" width="100" textAlign="center" textColor="0x5dff00"/>
+					<e:Group id="groupMeterials" width="55" height="54" x="9" y="2" anchorOffsetX="0" anchorOffsetY="0"/>
+				</e:Group>
+				<e:Group id="groupCard" width="121" height="80" x="139" y="15" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image source="ui_hunter_IconSkillHunterAdd_png" x="-4" y="15"/>
+				<e:Image id="imageFrameCard" source="ui_frame_FrameHunterAsh_png" x="38" scaleX="0.7" scaleY="0.7" top="0"/>
+					<e:Image id="imageCardBreakType" source="ui_hunter_evaluate_IconCardTypeOrn6_png" x="55" y="0.17" scaleX="0.8" scaleY="0.8"/>
+
+				<e:Image id="imageIconCard" source="hero_icon_head_wj_feitan_png" x="29.33" scaleX="0.7" scaleY="0.7" top="-7" anchorOffsetX="0" width="121.12" anchorOffsetY="0" height="111.35"/>
+				<e:BitmapLabel id="labelLevelItemCard" width="40" height="20" x="71" y="6" text="99" font="GiftValueNum_fnt"/>
+				<e:Image id="imageShadow" source="ui_frame_SpriteMake_png" x="38.33" y="-0.67" scaleX="0.68" scaleY="0.68" anchorOffsetY="0" height="94.96" anchorOffsetX="0" width="98.92"/>
+				<e:Image id="imageAddCard" source="ui_hunter_IconSkillHunterMaterailsAdd_png" x="71.5" y="5" anchorOffsetX="0" width="25.61" anchorOffsetY="0" height="28.72"/>
+				<e:Image source="ui_hunter_BoardHunterStar_png" x="21" y="64" scaleX="1.4" scaleY="1.8"/>
+				<e:Label id="labelNumCard" text="9000/100" x="20" y="65" size="20" width="100" textAlign="center" textColor="0xf12200"/>
+					<e:Group id="groupItemCard" width="53" height="56" x="47" y="4" anchorOffsetX="0" anchorOffsetY="0">
+					</e:Group>
+				</e:Group>
+			</e:Group>
+			</e:Group>
+			<e:Group id="groupMax" width="100%" height="100%" y="0">
+			<e:Image source="ui_card_BoardBreakCardFloor_png" y="10" horizontalCenter="4.5"/>
+			<e:Image id="imageFrameMax" source="ui_frame_FrameHunterAsh_png" y="13" horizontalCenter="3"/>
+			<e:Image id="imageCardTypeMax" source="ui_hunter_evaluate_IconCardTypeOrn6_png" x="192" y="15"/>
+			<e:Image id="imageIconMax" source="hero_icon_head_wj_dongba_png" x="155" y="8"/>
+				<e:Group id="groupStarMax" width="60" height="18" x="159" y="78"/>
+			<e:BitmapLabel id="labelLevelMax" width="40" height="20" x="214" y="68" text="12" font="ItemNum_fnt" textAlign="right"/>
+			<e:Label id="labelMaxLevel" text="等级上限：Lv16" y="163" horizontalCenter="0.5" textColor="0x050303" size="18" width="200" textAlign="center"/>
+			<e:Image id="imageMax" source="ui_card_WordsCardBreakMax_png" y="241.35" horizontalCenter="0.5"/>
+			</e:Group>
+		</e:Group>
+		<e:Image source="ui_card_BoardCardStar_png" x="49" y="232" width="120"/>
+		<e:Group id="groupStar" width="90" height="16" x="50" y="229"/>
+
+		<e:Image source="ui_card_BoardCardNum_png" x="450.25" y="399" anchorOffsetX="0" width="232.75"/>
+		<e:Label id="labelGoldNum" text="拥有数量：999999" x="492.73" y="409.33" size="18" anchorOffsetX="0" width="186.34"/>
+		<e:Image source="ui_iconresources_jinbi3_png" x="459.41" y="400.18" anchorOffsetX="0" width="37.66" anchorOffsetY="0" height="37.66"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" y="-13" horizontalCenter="0"/>
+		<e:Image source="ui_card_WordsCardBreakTitle_png" y="-1" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

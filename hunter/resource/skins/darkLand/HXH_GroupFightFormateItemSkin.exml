@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_GroupFightFormateItemSkin" width="445" height="138" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_groupfight_BoardFriendFloor_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="labelHelpName" text="酷拉皮的队伍" size="18" left="30" top="7"/>
+	<e:Button id="buttonUse" label="" x="342" y="65">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_groupfight_ButtonUseNor_png" source.down="ui_groupfight_ButtonUseSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="buttonCancel" label="" x="342" y="65">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_groupfight_ButtonCancelNor_png" source.down="ui_groupfight_ButtonCancelSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="imageShadow" source="ui_groupfight_BoardShadow_png" x="0" y="0" visible="false"/>
+	<e:Group width="312" height="98" x="25" y="33" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Scroller width="100%" height="100%" x="0" y="0">
+		<e:List id="listHunter">
+			<e:layout>
+			<e:TileLayout requestedRowCount="1" orientation="rows" paddingTop="15"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

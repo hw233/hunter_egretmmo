@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DoubleColorViewEndItemSkin" width="855" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupCache" verticalCenter="0" horizontalCenter="0" >
+		<e:Image source="ui_doublecolor_BoardListAward_png" width="855" height="70" scale9Grid="12,9,79,54" x="0" y="2"/>
+		<e:Image source="ui_doublecolor_OrnLine_png" x="150" y="0"/>
+		<e:Label id="lbTIme" text="2017-02-11" textColor="0x000000" size="18" fontFamily="Helvetica" x="28" y="28"/>
+
+		<e:Group id="group1" x="250" y="6">
+			<e:Image id="imgIcon1" source="ui_doublecolor_IconBlue_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="lbFruit1" width="40" height="34" font="BattleSkillCDNum_fnt" text="12" scaleX="0.8" scaleY="0.8" textAlign="center" verticalAlign="center" horizontalCenter="0.5" verticalCenter="3.5"/>
+		</e:Group>
+		<e:Group x="301" id="group2" y="6">
+			<e:Image id="imgIcon2" source="ui_doublecolor_IconBlue_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="lbFruit2" width="40" height="34" font="BattleSkillCDNum_fnt" text="12" scaleX="0.8" scaleY="0.8" textAlign="center" verticalAlign="center" horizontalCenter="0.5" verticalCenter="3.5"/>
+		</e:Group>
+		<e:Group x="351" id="group3" y="6">
+			<e:Image id="imgIcon3" source="ui_doublecolor_IconBlue_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="lbFruit3" width="40" height="34" font="BattleSkillCDNum_fnt" text="12" scaleX="0.8" scaleY="0.8" textAlign="center" verticalAlign="center" horizontalCenter="0.5" verticalCenter="3.5"/>
+		</e:Group>
+		<e:Group x="402" id="group4" y="6">
+			<e:Image id="imgIcon4" source="ui_doublecolor_IconBlue_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="lbFruit4" width="40" height="34" font="BattleSkillCDNum_fnt" text="12" scaleX="0.8" scaleY="0.8" textAlign="center" verticalAlign="center" horizontalCenter="0.5" verticalCenter="3.5"/>
+		</e:Group>
+		<e:Group id="group5" x="168" y="6">
+			<e:Image id="imgIcon5" horizontalCenter="0" verticalCenter="0" source="ui_doublecolor_IconRed_png"/>
+			<e:BitmapLabel id="lbFruit5" width="40" height="34" font="BattleSkillCDNum_fnt" text="12" scaleX="0.8" scaleY="0.8" textAlign="center" verticalAlign="center" horizontalCenter="0.5" verticalCenter="3.5"/>
+		</e:Group>
+		<e:Image source="ui_doublecolor_IconAddSmall_png" x="228" y="27"/>
+		<e:Image source="ui_doublecolor_OrnLine_png" x="460" y="0"/>
+		<e:Image source="ui_doublecolor_WordsAwardRank1_png" x="466" y="22"/>
+		<e:Label id="lbAwardPlayer1" text="11人" x="550" size="18" textColor="0x000000" fontFamily="Helvetica" y="30"/>
+		<e:Image source="ui_doublecolor_WordsAwardRank2_png" x="596" y="22"/>
+		<e:Label text="11人" x="680" size="18" textColor="0x000000" fontFamily="Helvetica" id="lbAwardPlayer2" y="30"/>
+		<e:Image source="ui_doublecolor_WordsAwardRank3_png" x="731" y="22"/>
+		<e:Label id="lbAwardPlayer3" text="11人" x="810" size="18" textColor="0x000000" fontFamily="Helvetica" y="30"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_BattlePassAllRewardItemSkin" width="100" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100" height="100" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupCache" width="100" height="100" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgNode" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.92" scaleY="0.92" horizontalCenter="0" verticalCenter="0" touchEnabled="false" source="ui_wonderland_IconFruitNode_png" x="0" y="0"/>
+		<e:Group id="groupItem" scaleX="1" anchorOffsetX="0" anchorOffsetY="0" scaleY="1" width="86" height="84" horizontalCenter="0" verticalCenter="0">
+			<e:Image id="imgFrame" touchEnabled="false" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0" scaleX="0.9" scaleY="0.9"/>
+			<e:Image id="imgIcon" scaleX="0.9" scaleY="0.9" touchEnabled="false" verticalCenter="0" horizontalCenter="0" source=""/>
+			<e:BitmapLabel id="labelCount" width="77" height="24" x="0.5" y="51" textAlign="right" text="1" font="ItemNumWords_fnt"/>
+		</e:Group>
+		</e:Group>
+		<e:Group id="groupAni" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

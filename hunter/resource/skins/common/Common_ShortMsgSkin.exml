@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_ShortMsgSkin" width="1091" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" y="1">
+		<e:Image source="ui_chat_BoardGuangbo_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:BitmapLabel id="labelTextNum" width="172" height="38" text="+123" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="6.5" x="599" font="CommonNum_fnt"/>
+		<e:Image id="imageIcon" source="ui_icon_LivenessSmall_png" verticalCenter="0" x="430"/>
+		<e:Image id="imageDouble" source="ui_common_WordsDoubleB_png" x="415" y="0" visible="false"/>
+		<e:BitmapLabel id="labelTip" width="115" height="25" text="123" font="WoddsGoldAwardLogD_fnt" verticalCenter="0" anchorOffsetX="0" anchorOffsetY="0" left="303"/>
+	</e:Group>
+</e:Skin>

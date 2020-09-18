@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaWholePopSkin" width="350" height="350" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_common_BoardChangeAchievementsA_png" width="350" height="350" scale9Grid="17,16,108,98"/>
+	<e:Group anchorOffsetX="0" width="315" top="16" horizontalCenter="-0.5" height="94">
+		<e:Group verticalCenter="0" left="10">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" x="1" y="0"/>
+			<e:Image id="imgIcon" source="hero_icon_head_wj_dongba_png" x="0" y="1"/>
+		</e:Group>
+		<e:Group id="groupClip" width="91" height="84" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" left="10"/>
+		<e:Label id="labelName" text="无双战神称号" size="18" top="10" left="125"/>
+		<e:Label id="labelPlayer" text="玩家称号" size="18" left="125" verticalCenter="0"/>
+		<e:Label id="labelNumber" text="玩家称号" size="18" left="125" bottom="10"/>
+	</e:Group>
+	<e:Group verticalCenter="-10" horizontalCenter="0" width="325" height="93">
+		<e:Image source="ui_common_BoardChangeAchievementsB_png" width="325" height="90" scale9Grid="8,8,53,54" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgLogo" source="ui_arena_title_titleitem3_png" horizontalCenter="0" verticalCenter="0" scaleX="1.5" scaleY="1.5"/>
+	</e:Group>
+	<e:Group bottom="15" horizontalCenter="0" width="325" height="110">
+		<e:Image source="ui_common_BoardChangeAchievementsB_png" width="325" height="110" scale9Grid="8,8,53,54" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="labelInfo" text="Label" width="300" height="75" horizontalCenter="0.5" verticalCenter="12.5" size="18" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>

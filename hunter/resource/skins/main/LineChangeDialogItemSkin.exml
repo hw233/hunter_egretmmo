@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LineChangeDialogItemSkin" width="155" height="72" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgBG" source="ui_line_change_item_bg_nor_png" left="0" bottom="0" touchEnabled="false"/>
+	<e:Image id="imgDot" source="ui_line_dot_0_b_png" x="30" y="34" touchEnabled="false"/>
+	<e:Label id="lbLine" text="002线" x="72" y="37" size="18" textColor="0x000000" touchEnabled="false"/>
+	<e:Group id="groupSelf" width="57" height="34" x="104" y="-1" touchChildren="false" touchEnabled="false">
+		<e:Image source="ui_line_change_item_self_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label text="自己" x="12" y="6" size="17" textColor="0xffffff" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

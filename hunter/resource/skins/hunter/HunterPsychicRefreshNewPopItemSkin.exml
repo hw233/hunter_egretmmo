@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterPsychicRefreshNewPopItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="365" height="84">
+	<e:Group id="groupFrome" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupNo">
+			<e:Image source="ui_hunter_break_BoardBreakHunterItemNoFloor_png"/>
+			<e:Label id="labelNoMet" text="当前无满足需求的猎人" x="85" y="16" size="18"/>
+			<e:Label id="labelMeterialsTip" text="需满足：60级；4星；二次觉醒" x="85" y="52" size="18"/>
+		</e:Group>
+		<e:Group id="groupHave">
+			<e:Image source="ui_hunter_break_BoardBreakHunterItemFloor_png"/>
+			<e:Label id="labelMeterialsPower" text="当前无满足需求的猎人" x="90" y="17" size="18" scaleX="1" scaleY="1"/>
+			<e:Label id="labelMeterialsNum" text="当前无满足需求的猎人" x="91" y="52" size="18" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_hunter_break_ButtonBingoNor_png" x="310.5" verticalCenter="0"/>
+			<e:Image id="imgBigon" source="ui_hunter_break_ButtonBingoSel_png" x="311" y="22"/>
+			<e:Image id="btnClick" source="ui_hunter_break_BoardBreakHunterItemFloor_png" horizontalCenter="0" verticalCenter="0" alpha="0.0001"/>
+		</e:Group>
+		<e:Group scaleX="0.84" scaleY="0.84" verticalCenter="0" touchEnabled="false">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgIcon" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="labelItemNum" x="15.24" y="56" font="ItemNumWords_fnt" text="99"/>
+			<e:Image id="imgHeroGrade" source="ui_hunter_evaluate_IconWrodsCard3_png" x="53.57" y="48.38" scaleX="0.5" scaleY="0.5"/>
+			<e:Group id="groupStar" width="50" height="16" x="18.62" y="4.67"/>
+		</e:Group>
+		<e:Image id="imgShadow" source="ui_frame_SpriteMake_png" horizontalCenter="0" verticalCenter="0" width="374" height="90" scale9Grid="11,11,73,71" touchEnabled="false"/>
+		<e:Image id="imgLock" source="ui_currencyicon_IconLock_png" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

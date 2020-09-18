@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishingMainItemSkin" width="167" height="262" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_fishing_BoardFishing_png" x="0" y="0"/>
+		<e:Image id="imgBoard" source="ui_fishing_FrameFishing4_png" x="7" y="4"/>
+		<e:Image id="imgFish" source="ui_fishing_fish3_png" x="17" y="19"/>
+		<e:Label id="lbTime" text="耗时八分钟" y="232" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" x="45"/>
+		<e:Image id="imgLable" source="ui_fishing_WordsFishingName4_png" y="13" x="40"/>
+	</e:Group>
+</e:Skin>

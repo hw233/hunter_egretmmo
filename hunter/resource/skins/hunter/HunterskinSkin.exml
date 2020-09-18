@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterskinSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="772" height="570">
+		<e:Image source="ui_hunter_BoardCardPopSeconde_png" width="769" height="540" anchorOffsetX="0" scale9Grid="65,32,288,391" anchorOffsetY="0" horizontalCenter="0" y="30"/>
+		<e:Image id="imgSprite" source="ui_hunterpokedex_LayerSecond_png" y="59.32" horizontalCenter="6" anchorOffsetY="0" height="494" anchorOffsetX="0" width="741"/>
+		<e:Group id="groupLeft" x="79" y="73" anchorOffsetY="0" height="463" anchorOffsetX="0" width="339">
+			<e:Image source="ui_hunter_OrnPlates3_png" scaleX="1.2" scaleY="1.2" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="spriteHunterHalfDraw" scaleX="0.75" scaleY="0.75" bottom="90" horizontalCenter="0" source="hero_half_wj_niweng_png"/>
+			<e:Image source="ui_hunter_BoardHunterButtonShadow_png" y="2" horizontalCenter="0" scaleX="1.2"/>
+			<e:Label id="FashionName" text="罪恶都市 伊尔迷" y="5" size="20" horizontalCenter="0"/>
+			<e:Button id="btnLeft" label="" scaleX="-0.84" left="10" scaleY="0.84" rotation="-7" x="376.4" top="200">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonHunterLeftNor_png" source.down="ui_hunter_ButtonHunterLeftSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnRight" label="" right="10" scaleX="0.84" scaleY="0.84" rotation="5" x="589.9" top="200">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonHunterLeftNor_png" source.down="ui_hunter_ButtonHunterLeftSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="groupProgress0" y="378.6" scaleX="0.7" scaleY="0.7" horizontalCenter="0">
+				<e:Image source="ui_fashion_BoardPageFloor_png" verticalCenter="0" horizontalCenter="0"/>
+
+
+
+				<e:Group id="groupSellect" horizontalCenter="0" verticalCenter="0">
+					<e:Image id="img1" source="ui_fashion_IconPageNor_png" verticalCenter="0"/>
+					<e:Image id="img11" source="ui_fashion_IconPageSel_png" verticalCenter="0"/>
+					<e:Image id="img2" source="ui_fashion_IconPageNor_png" verticalCenter="0" x="23"/>
+					<e:Image id="img22" source="ui_fashion_IconPageSel_png" x="23" verticalCenter="0"/>
+					<e:Image id="img3" source="ui_fashion_IconPageNor_png" x="46" verticalCenter="0"/>
+
+
+				<e:Image id="img33" source="ui_fashion_IconPageSel_png" x="46" verticalCenter="0"/>
+					<e:Image id="img4" source="ui_fashion_IconPageNor_png" x="69" verticalCenter="0"/>
+					<e:Image id="img44" source="ui_fashion_IconPageSel_png" x="69" verticalCenter="0"/>
+					<e:Image id="img5" source="ui_fashion_IconPageNor_png" x="92" verticalCenter="0" y="10"/>
+					<e:Image id="img55" source="ui_fashion_IconPageSel_png" x="92" verticalCenter="0" y="10"/>
+				</e:Group>
+			</e:Group>
+			<e:Group y="426" scaleX="0.7" scaleY="0.7" anchorOffsetY="0" height="55" horizontalCenter="0">
+				<e:Button id="btnHaveHunter" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_ButtonObtainBigBNor_png" source.down="ui_hunter_ButtonObtainBigBSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btnUse" label="" horizontalCenter="-6" verticalCenter="1" width="172" height="55">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedOkUseNor_png" source.down="ui_bag_ButtonBagSelectedOkUseSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgUseing" source="ui_fashion_WordsUse_png" horizontalCenter="0" verticalCenter="-1.5" x="-28.571428571428612" y="-300" scaleX="0.8" scaleY="0.8"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupRight" x="467" y="71" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.7" scaleY="0.7" height="391.57">
+			<e:Image id="imgFloor" y="0" source="ui_fashion_BoardHunterFloor_png" horizontalCenter="0" scaleX="1.1" anchorOffsetX="0" width="352.7"/>
+			<e:Label text="动画预览" y="7" size="20" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" scaleX="1.43" scaleY="1.43" horizontalCenter="-0.5"/>
+			<e:Image y="326.72" source="ui_fashion_BoardHunterStandFloor_png" horizontalCenter="0"/>
+			<e:Group id="groupFashion" x="195" y="329.86"/>
+		</e:Group>
+		<e:Group x="468" y="353">
+			<e:Image source="ui_hunterpokedex_BoardHunterAtt_png" width="271" height="183" anchorOffsetY="0" anchorOffsetX="0" x="0" y="0"/>
+			<e:Image source="ui_pet_newpet_BoardEvolutionTitleFloor_png" y="6" horizontalCenter="0"/>
+			<e:Label text="属性加成" size="20" top="11" horizontalCenter="0.5" fontFamily="Helvetica" textAlign="center" verticalAlign="middle"/>
+			<e:Label id="labelSkill" text="无属性加成" size="20" top="68" fontFamily="Helvetica" textAlign="center" verticalAlign="middle" textColor="0x000000" horizontalCenter="0"/>
+			<e:Scroller id="scroll" height="190.2" width="388" x="0" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scaleX="0.7" scaleY="0.7" scrollPolicyV="on" y="45">
+				<e:List id="listAttribute" height="261.63" anchorOffsetX="0" width="289.43" anchorOffsetY="0"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Image y="0" source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="0"/>
+		<e:Image y="13" source="ui_fashion_WordsTitle_png" horizontalCenter="0"/>
+		<e:Button id="btnClose" label="" x="694" y="8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

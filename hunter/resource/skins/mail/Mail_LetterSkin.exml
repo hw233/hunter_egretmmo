@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Mail_LetterSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group verticalCenter="0" horizontalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" scale9Grid="55,30,335,186" width="680" height="525" horizontalCenter="0" y="40"/>
+		<e:Image horizontalCenter="0" y="68" source="ui_mail_LayerMailFirst_png" width="650" height="425" scale9Grid="20,18,63,55"/>
+		<e:Image y="-1" source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="0"/>
+		<e:Image y="12" horizontalCenter="0" source="ui_mail_WordsTipComeMail_png"/>
+		<e:Image y="26" horizontalCenter="-255" source="ui_hunter_OrnDontGetHunterTop_png"/>
+		<e:Button id="btnClose" label="" x="616" y="10.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Group y="77" horizontalCenter="0">
+			<e:Image y="0" width="640" height="50" source="ui_mail_LayerMailSeconde_png" scale9Grid="6,9,38,63" x="0"/>
+			<e:Image x="23" y="12" source="ui_mail_WordsBiaoti_png"/>
+			<e:Label id="lbTitle" text="邮件标题" x="99" y="17" verticalAlign="middle" textAlign="left" fontFamily="Helvetica" size="18" textColor="0x000000"/>
+			<e:Image y="56" width="640" height="50" source="ui_mail_LayerMailSeconde_png" scale9Grid="6,5,38,68" x="0"/>
+			<e:Image x="23" y="67" source="ui_mail_WordsLaizi_png"/>
+			<e:Label id="lbFrom" text="玩家名字" x="99" y="72" verticalAlign="middle" textAlign="left" fontFamily="Helvetica" size="18" textColor="0x000000"/>
+			<e:Label id="lbTime" text="20190517 00:00" y="72" verticalAlign="middle" textAlign="left" fontFamily="Helvetica" size="18" textColor="0xD43A00" right="12"/>
+			<e:Image y="111" width="640" height="285" source="ui_mail_LayerMailSeconde_png" scale9Grid="6,5,38,68" x="0"/>
+			<e:Image x="23" y="123" source="ui_mail_WordsZhengwen_png"/>
+			<e:Label id="lbContent" text="你好，明天！" x="99" y="129" verticalAlign="top" textAlign="left" fontFamily="Helvetica" size="18" textColor="0x411A03" width="530" height="205"/>
+		</e:Group>
+		<e:Group x="50" y="501">
+			<e:Button id="btnDetail" label="" x="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_arena_ButtonBattleEnemyInfoNor_png" source.down="ui_arena_ButtonBattleEnemyInfoSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnAddFriend" label="" x="157" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_chat_ButtonAddFriendNor_png" source.down="ui_chat_ButtonAddFriendSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnSetPrivate" label="" x="313" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_chat_ButtonPrivateChatNor_png" source.down="ui_chat_ButtonPrivateChatSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnReply" label="" x="470" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mail_ButtonSendMailBNor_png" source.down="ui_mail_ButtonSendMailBSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

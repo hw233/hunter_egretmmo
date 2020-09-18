@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterAwakenSelectDialogItemSkin" width="100" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" top="0" right="0" bottom="0" width="100" height="100">
+		<e:Image source="ui_hunter_BoardHunterSoulIcon_png" left="0" right="0" top="0" bottom="0"/>
+		<e:Button id="btnGet" label="" left="3" right="3" top="3" bottom="3" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAwakenMeterials1Nor_png" source.down="ui_hunter_ButtonAwakenMeterials1Sel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupAll" width="95" height="93" horizontalCenter="-1" verticalCenter="2">
+			<e:Image id="imgFrame" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_frame_FrameHunterOrange1_png"/>
+			<e:Image id="imgIcon" source="item_renou2_png" left="0" right="0" top="0" bottom="0"/>
+			<e:Group id="groupStar" width="60" height="18" left="15" top="3" visible="false"/>
+			<e:BitmapLabel id="labelLevel" width="40" height="20" text="12" font="ItemNum_fnt" left="14" bottom="6" visible="false"/>
+			<e:Image id="imgBingo" source="ui_hunter_IconBingoHunterSoulRed_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+			<e:Group id="groupLock" width="100%" height="100%" horizontalCenter="0" verticalCenter="0" visible="false">
+				<e:Image source="ui_frame_SpriteMake_png" width="88" height="84" verticalCenter="0" horizontalCenter="0"/>
+				<e:Image id="imgLock" source="ui_currencyicon_IconLock_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

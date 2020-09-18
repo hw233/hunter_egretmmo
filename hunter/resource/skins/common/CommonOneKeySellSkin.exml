@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonOneKeySellSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="550" height="280" x="0" y="28"/>
+		<e:Image source="ui_card_OrnCardPopDown_png" x="254" y="171"/>
+		<e:Image source="ui_wonderland_BoardTopTipBag_png" x="0" y="8" width="550" scale9Grid="239,5,319,30"/>
+		<e:Label id="LabelTips" text="是否全部使用以下物品？" textColor="0xfefb00" size="22" left="25" top="18" verticalAlign="middle" anchorOffsetY="0" anchorOffsetX="0" width="100%"/>
+		<e:Label id="labelFruitTips" text="仙果中获得的道具请到背包界面查看" textColor="0x000000" size="18" bold="true" fontFamily="SimHei" left="25" bottom="28" verticalAlign="middle" width="100%"/>
+		<e:Group id="groupRes" x="24" y="241.5" anchorOffsetX="0" width="321" visible="false">
+			<e:Label text="使用后共可获得：" textColor="0x000000" size="18" fontFamily="SimHei" bold="true" verticalCenter="0" left="0"/>
+			<e:Image id="imgCost" source="ui_iconresources_jinbi3_png" verticalCenter="0" left="137"/>
+			<e:Label id="labelCose" text="123123" textColor="0x000000" size="18" fontFamily="SimHei" bold="true" verticalCenter="0" left="197"/>
+		</e:Group>
+		<e:Button id="btnClose" label="" x="473" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnConfirm" label="" x="386" y="240">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_common_ButtonCommonOpenAllNor_png" source.down="ui_common_ButtonCommonOpenAllSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller width="500" height="170" y="65" anchorOffsetX="0" x="25" scrollPolicyH="on">
+			<e:List id="listViewItem" anchorOffsetY="0" height="195">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

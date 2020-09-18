@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueBossFightingSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_union_boss_layerBg_png" scaleX="1" horizontalCenter="0" verticalCenter="0" width="100%" height="100%"/>
+	<e:Image source="ui_hunter_OrnTop_png" scaleX="1.2" scale9Grid="142,5,856,30" horizontalCenter="0" top="0" width="100%"/>
+	<e:Group scaleX="1" scaleY="1" top="-10" left="-22">
+		<e:Button id="btnClose" label="" x="0" y="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image source="ui_union_boss_WordsBossTip_png" x="135" y="9"/>
+	</e:Group>
+	<e:Group horizontalCenter="0" verticalCenter="35.5">
+		<e:Image source="hero_half_wj_wang_png" x="447.01" y="85.31" scaleX="1" scaleY="1"/>
+		<e:Group id="groupJoin" x="0" y="0">
+			<e:Image source="ui_instance_LayerInstance_png" x="0" y="0" width="460" height="270" scale9Grid="11,11,73,73"/>
+			<e:Image source="ui_instance_BoardTopTip_png" x="0" y="0" scaleX="1.42" scale9Grid="40,3,159,22"/>
+			<e:Image source="ui_hunter_OrnDontGetHunterTop_png" x="18" y="-2.02"/>
+			<e:Group id="groupRank" width="452" height="234" x="3" y="28" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+		<e:Group x="0" y="289.36" width="460" height="270">
+			<e:Image source="ui_instance_LayerInstance_png" x="0" y="0" width="460" height="270" scale9Grid="11,11,73,73"/>
+			<e:Image source="ui_instance_BoardTopTip_png" y="0" scaleX="1.42" scale9Grid="40,3,159,22" x="0"/>
+			<e:Image source="ui_hunter_OrnDontGetHunterTop_png" x="24" y="-1.33"/>
+			<e:Image source="ui_hunter_LayerSeconde_png" width="435" height="225" scale9Grid="15,10,92,65" horizontalCenter="0.5" verticalCenter="13.5"/>
+			<e:Image source="ui_union_boss_BoartdTip_png" y="38.67" width="435" height="60" scale9Grid="7,4,44,30" horizontalCenter="0.5"/>
+			<e:Label text="购买激励可随机获得一个全体激励效果 每次战斗最多可叠加5个激励效果" size="18" textColor="0x000000" fontFamily="Helvetica" width="306" height="46" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="-65" lineSpacing="7"/>
+			<e:Button id="btnCopper" label="" x="97.03" y="110" scaleX="0.8" scaleY="0.8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_boss_IconFightA_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image source="ui_union_boss_WordsFightA_png" x="86" y="170"/>
+			<e:Image source="ui_iconresources_jinbi3_png" x="77.33" y="188.66"/>
+			<e:BitmapLabel id="lbCopperNum" width="120" height="34" x="97.35" y="207.97" font="ItemNum_fnt" text="12345" textAlign="center"/>
+			<e:Button id="btnGold" label="" x="262" y="110" scaleX="0.8" scaleY="0.8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_boss_IconFightB_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image source="ui_union_boss_WordsFightB_png" x="251.32" y="170"/>
+			<e:Image source="ui_currencyicon_IconGemstone_png" x="272.6" y="200.68"/>
+			<e:BitmapLabel id="lbGoldNum" width="120" height="34" x="264.64" y="206" font="ItemNum_fnt" text="12" textAlign="center" verticalAlign="center"/>
+		</e:Group>
+		<e:Group x="523.01" y="14">
+			<e:Image source="ui_instance_BoardBossSkill_png" x="27.629999999999995" y="0" width="300" height="125" scale9Grid="11,12,70,77" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_license_BoardStarTip_png" x="0" y="12.659999999999997" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_license_BoardStarTip_png" x="0" y="63.349999999999994" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_union_instance_WordsTipBossBlood_png" x="16.99000000000001" y="24.97999999999999" scaleX="1" scaleY="1"/>
+
+			<e:Group id="groupHP" x="138" y="23.31">
+				<e:Image source="ui_union_instance_BoardBurInstanceBossBlood_png" x="0" y="0" scale9Grid="21,3,129,23" scaleX="1" scaleY="1"/>
+				<e:Image id="imgHP" source="ui_union_instance_BurInstanceBossBlood_png" x="0" y="0" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:BitmapLabel id="lbNum" width="241" height="23" font="ItemNumWords_fnt" text="152.10万/152.10万" scaleX="0.83" scaleY="0.83" letterSpacing="0" anchorOffsetX="0" rotation="0.05" smoothing="true" textAlign="center" touchEnabled="false" y="26.98" horizontalCenter="62.5"/>
+			<e:Image source="ui_union_boss_WordsPormptEndTime_png" x="27" y="75.66999999999999" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_union_boss_BoardEndTime_png" x="135.62" y="75.98999999999998" scale9Grid="21,3,129,23" scaleX="1" scaleY="1"/>
+			<e:Label id="lbTime" text="00:10:00" x="164.69000000000005" y="78.67" size="20" textColor="0x1ad900" fontFamily="Helvetica" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" height="24" width="155"/>
+		</e:Group>
+		<e:Group x="558.71" y="462.68" width="300">
+			<e:Group y="0" horizontalCenter="0">
+			<e:Button id="btnFight" label="" x="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_instance_ButtonChangeNor_png" source.down="ui_instance_ButtonChangeSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="ui_instance_IconDao_png" x="17.7" verticalCenter="0" touchEnabled="false"/>
+			<e:Image source="ui_instance_IconDao_png" x="72.39" scaleX="-1" scaleY="1" verticalCenter="0" touchEnabled="false"/>
+			</e:Group>
+			<e:Image source="ui_pet_BoardPetName_png" y="69.94" scaleX="0.6" scaleY="0.6" scale9Grid="38,4,229,31" horizontalCenter="0"/>
+			<e:Label id="lbEndTime" text="剩余攻击次数：3/3" y="71.96" size="18" fontFamily="Helvetica" horizontalCenter="0.5" verticalAlign="middle" height="24" width="250" textAlign="center"/>
+		</e:Group>
+		<e:Scroller width="260" height="245" x="687.01" y="227.31" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="lstInspire" width="260" anchorOffsetY="0" height="245"/>
+		</e:Scroller>
+	</e:Group>
+
+</e:Skin>

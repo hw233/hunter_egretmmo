@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityXuyuanLiveSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="9.5" y="-15">
+		<e:Group id="groupCache" left="0" right="0" top="0" bottom="0">
+			<e:Image source="ui_instance_LayerInstance_png" width="730" height="565" scale9Grid="11,11,73,73" x="3" y="67.98" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_hunter_collection_board1_png" width="710" height="520" scale9Grid="8,5,54,37" x="13" y="101.98" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_BoardAwardExpFloor_png" width="700" height="350" scale9Grid="10,13,65,84" x="18" y="228.98" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_instance_BoardTopTip_png" y="70.29" width="327" height="28" scaleX="2.25" x="0" scaleY="1"/>
+			<e:Image source="ui_instance_IconPoint_png" x="8" y="76.29" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_random_WordsRandomExchangeTitle_png" y="0" x="155" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_BoardNowHaveFloor_png" x="18" y="587.97" scaleX="1.1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_WordsNowHave_png" x="24.319999999999993" y="592.31" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_IconStar_png" x="92.35" y="587.32" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="lbCore" width="79" height="23" x="121.36000000000001" y="587.98" font="ItemNumWords_fnt" text="9999" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_WordsTips_png" x="508.3299999999999" y="589.98" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_BoardAwardExpFloor_png" y="105.63" width="700" height="120" scale9Grid="10,13,65,84" x="18" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_BoardAllHaveFloor_png" x="17.340000000000003" y="77.94" scaleX="1.1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_WordsAllHave_png" x="41.670000000000016" y="80.65" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_IconStar_png" x="104.01999999999998" y="76.32" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="lbCount" width="73" height="23" x="127.69999999999999" y="78.98" font="ItemNumWords_fnt" text="9999" anchorOffsetX="0" rotation="0.19" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_WordsAwardExp_png" x="24.340000000000003" y="110.99" scaleX="1" scaleY="1"/>
+			<e:Group id="groupBar" x="43" y="183.01" scaleX="1" scaleY="1">
+				<e:Image source="ui_acitivity_wish_BoardAwardExpNull_png" y="0" x="0"/>
+				<e:Image id="imgBar" source="ui_acitivity_wish_BoardAwardExpFull_png" y="0" x="0" width="650" height="18"/>
+			</e:Group>
+			<e:BitmapLabel id="lbTag0" width="45" height="20" x="117" y="197.98" font="ItemNumWords_fnt" text="999" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="lbTag1" width="60" height="20" x="236" y="197.98" font="ItemNumWords_fnt" text="9999" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="lbTag2" width="60" height="20" x="365" y="197.98" font="ItemNumWords_fnt" text="9999" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="lbTag3" width="60" height="20" x="495" y="197.98" font="ItemNumWords_fnt" text="9999" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="lbTag4" width="60" height="20" x="625" y="197.98" font="ItemNumWords_fnt" text="9990" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_IconStar_png" x="158" y="194.98" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_IconStar_png" x="288" y="194.98" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_IconStar_png" x="418" y="194.98" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_IconStar_png" x="548" y="194.98" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_IconStar_png" x="678" y="194.98" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_IconPoint_png" x="156" y="177.98" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_IconPoint_png" x="276" y="177.98" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_IconPoint_png" x="406" y="177.98" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_IconPoint_png" x="546" y="177.98" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_acitivity_wish_IconPoint_png" x="676" y="177.98" scaleX="1" scaleY="1"/>
+		</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:Scroller width="700" height="350" y="228.98" horizontalCenter="-4.5">
+			<e:List id="lstViewTask" anchorOffsetX="0" width="100%" x="13.33" y="0">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="4" horizontalGap="3" verticalGap="10" columnWidth="172"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnClose" label="" x="658.33" y="51">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png" source.disabled="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupDown0" x="125" y="107.98">
+			<e:Image id="imgFrame0" source="ui_frame_FrameHunterAsh_png" x="0" y="0" scaleX="0.8" scaleY="0.8"/>
+			<e:Image id="imgBag0" source="item_ExpPillC_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="groupClip0" width="0" height="0" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="lbNum0" width="47" height="23" font="ItemNumWords_fnt" text="999" textAlign="right" right="6" bottom="9"/>
+			<e:Group id="groupLight0" width="0" height="0" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgGet0" source="ui_instance_WordsBoxGetAward_png" y="38" scaleX="0.8" scaleY="0.8" horizontalCenter="-0.5"/>
+		</e:Group>
+		<e:Group id="groupDown1" x="247.65" y="107.98">
+			<e:Image id="imgFrame1" source="ui_frame_FrameHunterAsh_png" x="0" y="0" scaleX="0.8" scaleY="0.8"/>
+			<e:Image id="imgBag1" source="item_ExpPillC_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0" x="20" y="20"/>
+			<e:Group id="groupClip1" width="0" height="0" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="lbNum1" width="47" height="23" font="ItemNumWords_fnt" text="999" textAlign="right" scaleX="1" scaleY="1" right="6" bottom="10"/>
+			<e:Group id="groupLight1" width="0" height="0" horizontalCenter="0" verticalCenter="0" x="120.35000000000008" y="227" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_instance_WordsBoxGetAward_png" y="38" scaleX="0.8000000000000002" scaleY="0.8000000000000002" horizontalCenter="-0.5" id="imgGet1" x="90.35000000000008"/>
+		</e:Group>
+		<e:Group id="groupDown2" x="368" y="107.98">
+			<e:Image id="imgFrame2" source="ui_frame_FrameHunterAsh_png" x="9.66" y="0" scaleX="0.8" scaleY="0.8"/>
+			<e:Image id="imgBag2" source="item_ExpPillC_png" scaleX="0.8000000000000002" scaleY="0.8000000000000002" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="groupClip2" width="0" height="0" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="lbNum2" width="47" height="23" font="ItemNumWords_fnt" text="999" textAlign="right" scaleX="1" scaleY="1" right="7" bottom="9"/>
+			<e:Group id="groupLight2" width="0" height="0" horizontalCenter="0" verticalCenter="0" x="0" y="227" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_instance_WordsBoxGetAward_png" y="38" scaleX="0.8000000000000002" scaleY="0.8000000000000002" horizontalCenter="-0.5" id="imgGet2" x="-30"/>
+		</e:Group>
+		<e:Group id="groupDown3" x="512.01" y="107.98" width="86" height="75">
+			<e:Image id="imgFrame3" source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgBag3" source="item_ExpPillC_png" scaleX="0.8000000000000002" scaleY="0.8000000000000002" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="groupClip3" width="0" height="0" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="lbNum3" width="47" height="23" font="ItemNumWords_fnt" text="999" textAlign="right" scaleX="1" scaleY="1" right="11" bottom="10"/>
+			<e:Group id="groupLight3" width="0" height="0" horizontalCenter="0" verticalCenter="0" x="-144.01" y="227" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_instance_WordsBoxGetAward_png" y="38" scaleX="0.8000000000000002" scaleY="0.8000000000000002" horizontalCenter="-0.5" id="imgGet3" x="-174.01"/>
+		</e:Group>
+		<e:Group id="groupDown4" x="644" y="107.98" width="86">
+			<e:Image id="imgFrame4" source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgBag4" source="item_ExpPillC_png" scaleX="0.8000000000000002" scaleY="0.8000000000000002" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="groupClip4" width="0" height="0" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="lbNum4" width="47" height="23" font="ItemNumWords_fnt" text="999" textAlign="right" scaleX="1" scaleY="1" right="12" bottom="9"/>
+			<e:Group id="groupLight4" width="0" height="0" horizontalCenter="0" verticalCenter="0" x="-276" y="227" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_instance_WordsBoxGetAward_png" y="38" scaleX="0.8000000000000002" scaleY="0.8000000000000002" horizontalCenter="-0.5" id="imgGet4" x="-306"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

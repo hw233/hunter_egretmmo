@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueBossSccessfulSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="100%" height="100%">
+		<e:Image source="ui_union_boss_WordsSkillSuccess_png" horizontalCenter="-0.5" verticalCenter="-232"/>
+		<e:Group horizontalCenter="0" verticalCenter="183.5">
+			<e:Image source="ui_union_boss_BoardSkillSuccess_png" width="350" scale9Grid="62,3,373,23" horizontalCenter="0" bottom="0"/>
+			<e:Label text="奖励会以邮件形式发送，请注意查收" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0" height="24" width="500"/>
+		</e:Group>
+		<e:Group horizontalCenter="0" verticalCenter="8.5">
+			<e:Image source="ui_instance_LayerInstance_png" width="460" height="270" scale9Grid="11,11,73,73" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_instance_BoardTopTip_png" scaleX="1.42" scale9Grid="40,3,158,22" horizontalCenter="0" top="0"/>
+			<e:Group id="groupAdd" width="450" height="250" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="11" horizontalCenter="0.5"/>
+		</e:Group>
+		<e:Button id="btnGo" label="" horizontalCenter="-100.5" verticalCenter="251">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_boss_ButtonSkillEndGoNor_png" source.down="ui_union_boss_ButtonSkillEndGoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnGoCele" label="" horizontalCenter="101" verticalCenter="251.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_boss_ButtonSkillEndSuccessNor_png" source.down="ui_union_boss_ButtonSkillEndSuccessSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group horizontalCenter="0" verticalCenter="-154">
+			<e:Image source="ui_union_boss_BoardSkillSuccess_png" scale9Grid="62,3,373,23" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="lbKillName" text="恭喜！帮会成员喜获一头大象发出致命一击，成功击杀BOSS" size="18" verticalAlign="middle" textAlign="center" fontFamily="Helvetica" horizontalCenter="0" verticalCenter="0" height="24" width="650"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

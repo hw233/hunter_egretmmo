@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterTransformDetailsItemSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Image source="ui_storyinstance_LayerBGMain_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_hunter_OrnTop_png" horizontalCenter="0" top="0"/>
+		<e:Image source="ui_storyinstance_transform_HXH_LeadOfStory_png" x="93.2" y="-4.31"/>
+		<e:Button id="buttonClose" label="" x="-24.76" y="-10.64">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group horizontalCenter="0" verticalCenter="24">
+			<e:Group x="0" y="0">
+				<e:Image source="ui_storyinstance_transform_HunterInfoBG1_png" x="0" y="0"/>
+				<e:Image source="ui_storyinstance_transform_HunterInfoLabel_png" x="14.22" y="24.36"/>
+				<e:Image source="ui_storyinstance_transform_Label2_png" x="299.11" y="32.36"/>
+				<e:Label id="labelDes" text="通过参加猎人故事收集主角的变身卡，可将对应猎人变身为主角形象。变身后主角不仅能力得到大幅提升，还讲领悟新的猪叫技能" x="335.56" y="43.75" anchorOffsetX="0" width="561.88" anchorOffsetY="0" height="55.76" size="18" lineSpacing="5"/>
+				<e:Image source="ui_storyinstance_transform_TitleHunterBG_png" x="24.16" y="26.61"/>
+				<e:Image id="imageHunterTransformName" source="ui_huntername_palisitong_png" x="106.12" y="13.28" rotation="14.37"/>
+			</e:Group>
+			<e:Group id="groupMain" x="16" y="127">
+				<e:Image id="imageFrameHunter" source="ui_storyinstance_transform_FrameHunter1_png" x="0" y="0"/>
+				<e:Image id="imageHunterIcon" source="hero_half_wj_hongyan_png" x="42.5" y="47.25" scaleX="0.5" scaleY="0.5"/>
+				<e:Image id="imageHunterBottom" source="ui_storyinstance_transform_FrameHunterBottom1_png" x="0" y="247"/>
+				<e:Image id="imageType1" source="ui_hunter_evaluate_IconHunterType2_png" x="48" y="283"/>
+				<e:Group x="10" y="34.25">
+				<e:Image source="ui_hunter_BoardGrad_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imageGrade" source="ui_tavern_IconGrade4_png" scaleX="0.88" scaleY="0.88" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Image id="imageType" source="ui_hunter_evaluate_IconHeroType1_png" x="21.56" y="159.6" scaleX="0.8" scaleY="0.8"/>
+				<e:Image id="imageHunterName" source="ui_huntername_HunterName44_png" x="136" y="278"/>
+			</e:Group>
+			<e:Group x="334.09" y="132.19">
+				<e:Image source="ui_storyinstance_transform_HunterInfoBG2_png" x="0" y="0"/>
+				<e:Image source="ui_storyinstance_transform_HunterInfoBG3_png" x="4" y="40.32"/>
+				<e:Image source="ui_storyinstance_transform_HunterInfoBG4_png" x="6.08" y="307.1" scaleX="0.52"/>
+				<e:Image source="ui_storyinstance_transform_HunterInfoBG4_png" x="318.94" y="307.1" scaleX="0.46"/>
+				<e:Image source="ui_storyinstance_transform_Transformup_png" y="10.08" horizontalCenter="0.5"/>
+				<e:Button id="buttonTransform" label="" x="491.37" y="339.64">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_storyinstance_transform_ButtonTransform1_png" source.down="ui_storyinstance_transform_ButtonTransform2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Group x="72.48" y="319.26">
+				<e:Image source="ui_hunter_BoardHunterStar_png" x="1.52" y="65.18" scaleX="1.5" scaleY="2"/>
+				<e:Label id="labelNumStoryBook" text="123456" x="0" y="64.26" anchorOffsetX="0" width="105.82" anchorOffsetY="0" height="28.48" size="20" textAlign="center" verticalAlign="middle"/>
+				<e:Group id="groupStoryBook" x="20.02" y="0">
+					<e:Image id="imageFrameStoryBook" source="ui_frame_FrameHunterAsh_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imageIconStoryBook" source="hero_icon_head_wj_feitan_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imageAddStoryBook" source="ui_hunter_IconSkillHunterMaterailsAdd_png" x="31.46" y="4.82"/>
+				</e:Group>
+				</e:Group>
+				<e:Group x="190.05" y="320.14">
+				<e:Image source="ui_hunter_BoardHunterStar_png" x="1.52" y="65.18" scaleX="1.5" scaleY="2"/>
+				<e:Label id="labelNumTransformCard" text="123456" x="0" y="64.26" anchorOffsetX="0" width="105.82" anchorOffsetY="0" height="28.48" size="20" textAlign="center" verticalAlign="middle"/>
+				<e:Group id="groupTransformCard" x="20.02" y="0">
+					<e:Image id="imageFrameTransformCard" source="ui_frame_FrameHunterAsh_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imageIconTransformCard" source="hero_icon_head_wj_feitan_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imageAddTransformCard" source="ui_hunter_IconSkillHunterMaterailsAdd_png" x="31.46" y="4.82"/>
+				</e:Group>
+				</e:Group>
+				<e:Group x="389.43" y="319.5">
+				<e:Image source="ui_hunter_BoardHunterStar_png" x="1.52" y="65.18" scaleX="1.5" scaleY="2"/>
+				<e:Label id="labelNumHunterMeterials" text="123456" x="0" y="64.26" anchorOffsetX="0" width="105.82" anchorOffsetY="0" height="28.48" size="20" textAlign="center" verticalAlign="middle"/>
+				<e:Group id="groupHunterMeterials" x="20.02" y="0">
+					<e:Image id="imageFrameHunterMeterials" source="ui_frame_FrameHunterAsh_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imageIconHunterMeterials" source="hero_icon_head_wj_feitan_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+					<e:Group id="groupStart" width="64" height="18" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0"/>
+					<e:Image id="imageAddHunterMeterials" source="ui_hunter_IconSkillHunterMaterailsAdd_png" x="31.46" y="4.82"/>
+					<e:Image id="imageTransLv" source="ui_hunter_evaluate_IconWrodsCard3_png" x="41.31" scaleX="0.3" scaleY="0.3" y="38"/>
+					<e:BitmapLabel id="labelLevel" width="42.28" height="20.62" x="10.67" y="45.41" scaleX="0.68" scaleY="0.68" text="12" font="ItemNum_fnt" anchorOffsetX="0" anchorOffsetY="0"/>
+				</e:Group>
+				</e:Group>
+				<e:Image source="ui_hunter_IconSkillHunterAdd_png" x="165.92" y="338.61"/>
+				<e:Image source="ui_storyinstance_transform_WordsCost_png" x="13" y="337.82"/>
+				<e:Image source="ui_storyinstance_transform_WordsSelect_png" x="326" y="333"/>
+				<e:Image source="ui_storyinstance_transform_Columns1_png" x="11" y="48"/>
+				<e:Label text="基础属性提生" x="44" y="51" anchorOffsetX="0" width="234" anchorOffsetY="0" height="35" size="22" textAlign="center" verticalAlign="middle"/>
+				<e:Label text="新增变身技" x="325" y="52" anchorOffsetX="0" width="247" anchorOffsetY="0" height="33" textAlign="center" verticalAlign="middle" size="22"/>
+				<e:Group width="307" height="208" x="9" y="91" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Scroller width="100%" height="100%" x="0" y="0">
+					<e:List id="listAttri1"/>
+				</e:Scroller>
+				</e:Group>
+				<e:Group width="267" height="208" x="320" y="91" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Scroller width="100%" height="100%" x="0" y="0">
+					<e:List id="listAttri2"/>
+				</e:Scroller>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

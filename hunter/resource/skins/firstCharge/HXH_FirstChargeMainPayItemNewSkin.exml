@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_FirstChargeMainPayItemNewSkin" width="130" height="65" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" bottom="0">
+		<e:Button id="buttonPay" label="" x="0" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mall_first_ButtonPayTipNor_png" source.down="ui_mall_first_ButtonPayTipSel_png" source.disabled="ui_mall_first_ButtonPayTipDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imagePay" x="0" y="0" touchEnabled="false" source="ui_mall_first_ButtonPayTipSel_png"/>
+		<e:Image id="imagePayNum" source="ui_mall_first_Words6Nor_png" x="41" y="16" touchEnabled="false"/>
+		<e:Image id="imageGet" source="ui_mall_first_WordsTipsGet_png" x="21" y="1" scaleX="0.8" scaleY="0.8" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

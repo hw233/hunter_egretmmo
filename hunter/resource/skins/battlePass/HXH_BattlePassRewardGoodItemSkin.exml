@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_BattlePassRewardGoodItemSkin" width="80" height="310" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="scrollerView" width="80" height="310" x="0" y="0">
+		<e:List id="listView" x="-100" y="7.67"/>
+	</e:Scroller>
+</e:Skin>

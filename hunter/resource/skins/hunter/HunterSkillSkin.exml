@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterSkillSkin" width="900" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" width="500" height="550" y="50" x="300">
+		<e:Image source="ui_hunter_LayerSelectedHero_png" left="0" right="0" top="0" bottom="0" scale9Grid="381,122,96,64"/>
+		<e:Image source="ui_hunter_WordsSkill_png" top="6" left="54"/>
+		<e:Scroller id="scrollerSkill" width="500" height="115" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" bottom="390" scaleX="1" scaleY="1">
+			<e:List id="listSkill" width="100%" height="100%">
+				<e:layout>
+					<e:HorizontalLayout paddingLeft="20" verticalAlign="middle" gap="0" paddingRight="0"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group id="groupTeach1" width="455" height="300" y="165" horizontalCenter="-5">
+			<e:Image source="ui_hunter_LayerSeconde_png" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" top="-3" right="0" bottom="3" scale9Grid="25,18,75,41"/>
+			<e:Button id="btnHelp" label="" width="42" height="42" right="10" top="10">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_help_ButtonHelpNor_png" source.down="ui_help_ButtonHelpSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group width="309" height="26" horizontalCenter="0" top="12">
+				<e:Image source="ui_hunter_BoardSkill_png" scaleX="1" scaleY="1" left="0" top="0" right="0" bottom="0"/>
+				<e:Label id="labelName" text="友谊守护盾" anchorOffsetX="0" anchorOffsetY="0" height="20" size="18" textAlign="center" verticalAlign="middle" verticalCenter="0" left="35" right="35"/>
+				<e:Label id="labelLevel" text="Lv1" height="20" anchorOffsetX="0" width="100" size="18" verticalCenter="0" verticalAlign="middle" textAlign="left" horizontalCenter="65.5" visible="false"/>
+			</e:Group>
+			<e:Label text="类型:" x="30" y="48" size="20" width="60" verticalAlign="top" textColor="0x000000" bold="true" fontFamily="SimHei"/>
+			<e:Label id="labelSkillType" text="主动技(不翻译)" x="84" y="48" size="20" textColor="0x000000" anchorOffsetX="0" width="150" verticalAlign="top" bold="true" fontFamily="SimHei"/>
+			<e:Image source="ui_hunter_OrnSkill_png" right="15" bottom="0"/>
+			<e:Label id="labelSkillInfo" text="小杰站在前方守护身后伙伴,小杰站小杰站在前方守护身后伙伴小杰站在前方守护身后伙伴,小杰站在前方守护身后伙伴,小杰站在前方守护身后伙伴在前方守护" anchorOffsetX="0" anchorOffsetY="0" size="16" top="73" verticalAlign="top" textAlign="left" height="52" left="30" right="20" fontFamily="SimHei" textColor="0x160303" bold="true"/>
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" right="0" bottom="21" left="30" top="129" scrollPolicyV="on">
+				<e:List id="listLevelInfo" x="1" height="150">
+					<e:layout>
+						<e:VerticalLayout gap="0" verticalAlign="middle" paddingTop="2" paddingBottom="2"/>
+					</e:layout>
+</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="groupTeach" width="456" bottom="8" horizontalCenter="-6" height="85">
+			<e:Image source="ui_hunter_BoardSkillDown_png" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" scale9Grid="190,38,78,24"/>
+			<e:Group id="groupUpLevel" left="0" top="-6" right="0" bottom="6">
+				<e:Button id="btnRefreshSkill" label="" width="60" height="57" scaleX="1" scaleY="1" verticalCenter="7" left="7">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_ButtonRushSkillNor_png" source.down="ui_hunter_ButtonRushSkillSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Group width="180" height="39" verticalCenter="7" left="80">
+					<e:Image source="ui_hunter_BoardSkillPoint_png" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+					<e:Image source="ui_currencyicon_IconSkill_png" scaleX="1" scaleY="1" verticalCenter="0.5" left="11"/>
+					<e:Label text="技能点:" width="80" height="25" size="19" verticalAlign="middle" textAlign="center" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="0" left="30"/>
+					<e:Label id="labelSkillPoint" text="3/6" anchorOffsetX="0" width="30" textColor="0x56db15" height="27" size="20" verticalCenter="0" x="107" verticalAlign="middle"/>
+					<e:Button id="btnAddSkillPoint" label="" width="35" height="38" scaleX="1" scaleY="1" verticalCenter="1.5" right="5">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddSkillPonitNor_png" source.down="ui_hunter_ButtonAddSkillPonitSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+				</e:Group>
+				<e:Group width="176" height="81" verticalCenter="0" right="10">
+					<e:Button id="btnUpLevel" label="" width="176" height="81" verticalCenter="7" y="0" scaleX="1" scaleY="1" horizontalCenter="0">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ui_hunter_ButtonSkillUpLevelNor_png" source.down="ui_hunter_ButtonSkillUpLevelSel_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</e:skinName>
+					</e:Button>
+					<e:Image source="ui_currencyicon_IconSkill_png" bottom="7" y="41" scaleX="1" scaleY="1" horizontalCenter="-5.5" touchEnabled="false"/>
+					<e:Label text="1" width="70" height="29" size="18" verticalAlign="middle" textAlign="left" anchorOffsetX="0" anchorOffsetY="0" bottom="6" horizontalCenter="50" touchEnabled="false"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupAwakenMax" left="0" top="0" right="0" bottom="0">
+				<e:Image id="imgAwakenSkillTip" source="ui_hunter_WordsSkillHunterAwakenLevelMax_png" verticalCenter="0" x="20"/>
+				<e:Button id="btnGoAwaken" label="" width="172" height="55" verticalCenter="0" right="20">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_ButtonSkillHunterGoAwakenNor_png" source.down="ui_hunter_ButtonSkillHunterGoAwakenSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+
+			<e:Group id="groupTransform" left="0" right="0" top="0" bottom="0">
+				<e:Button id="btnTransform" label="" x="280" verticalCenter="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_ButtonLevelUpNor_png" source.down="ui_hunter_ButtonLevelUpSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="imgConsume" source="ui_hunter_WordsSkillHunterTip_png" left="12" verticalCenter="0"/>
+				<e:Image id="imgTransFormMax" horizontalCenter="0" verticalCenter="0" source="ui_hunter_WordsHunterTransformMax_png"/>
+				<e:Group id="groupCost1" x="80" y="9.5" width="67" scaleX="0.8" scaleY="0.8">
+					<e:Image id="imgFrameMeterials" source="ui_frame_FrameHunterAsh_png" x="0" y="0" scaleX="0.7" scaleY="0.7"/>
+					<e:Image id="imgiconMeterials" source="ui_frame_FrameHunterAsh_png" x="0" y="0" scaleX="0.7" scaleY="0.7"/>
+					<e:Image id="imgAddSkillMeterials" source="ui_hunter_IconSkillHunterMaterailsAdd_png" x="31" y="6"/>
+					<e:Image source="ui_hunter_BoardHunterStar_png" y="63.75" scaleX="1.5" scaleY="2" horizontalCenter="0.5"/>
+					<e:Label id="labelNumMeterials" text="123/13" y="67" size="20" horizontalCenter="0.5"/>
+				</e:Group>
+				<e:Group id="groupCost2" x="201" y="9.5" width="67" scaleX="0.8" scaleY="0.8">
+					<e:Image id="imgAdd" source="ui_hunter_IconSkillHunterAdd_png" x="-66.25" y="18.125" scaleX="1.25" scaleY="1.25"/>
+					<e:Image id="imgFrameSkillFrag" source="ui_frame_FrameHunterAsh_png" x="0" y="0" scaleX="0.7" scaleY="0.7"/>
+					<e:Image id="imgIconSkillFrag" source="ui_frame_FrameHunterAsh_png" x="0" y="0" scaleX="0.7" scaleY="0.7"/>
+					<e:Image id="imgMakeSkillFragment" source="ui_frame_SpriteMake_png" x="-0.25" y="1" scaleX="0.68" scaleY="0.68"/>
+					<e:Image id="imgAddSkillFragMent" source="ui_hunter_IconSkillHunterMaterailsAdd_png" x="31" y="6"/>
+					<e:Image source="ui_hunter_BoardHunterStar_png" y="63.75" scaleX="1.5" scaleY="2" horizontalCenter="0.5"/>
+					<e:Label id="labelNumSkillFrag" text="123/13" y="67" size="20" horizontalCenter="0.5"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		
+	</e:Group>
+</e:Skin>

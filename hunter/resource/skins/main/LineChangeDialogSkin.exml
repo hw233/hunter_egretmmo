@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LineChangeDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="810" height="464">
+		<e:Image source="ui_line_change_bg_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="-32" y="14" locked="true"/>
+		<e:Button id="btnClose" icon="ui_instancenew_dialog_close_png" skinName="ButtonSkin" scaleX="1" scaleY="1" horizontalCenter="382.5" verticalCenter="-190" locked="true"/>
+		<e:Label text="当前线路：" x="58" y="70" size="18"/>
+		<e:Label id="lbLineMy" text="002线" x="148" y="70" size="18" textColor="0x3fff75"/>
+		<e:Group height="20" y="70" right="48" locked="true">
+			<e:Group height="20" x="-99" y="-2" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Image source="ui_line_dot_0_t_png" x="18" y="6"/>
+				<e:Label text="流畅" x="51" y="9" size="20"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group height="20" x="-89" y="8" anchorOffsetY="0">
+				<e:Image x="18" y="6" source="ui_line_dot_1_t_png"/>
+				<e:Label text="拥挤" x="51" y="9" size="20"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group height="20" x="-79" y="18" anchorOffsetY="0">
+				<e:Image x="18" y="6" source="ui_line_dot_2_t_png"/>
+				<e:Label text="已满" x="51" y="9" size="20"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:HorizontalLayout gap="25"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="groupList" width="670" height="270" x="78" y="122" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:TileLayout horizontalGap="16" verticalGap="20"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="groupLook" width="200" height="38" x="565" scaleX="1" scaleY="1" anchorOffsetX="0" y="412">
+			<e:Label text="其他玩家是否可见：" size="18" scaleX="1" scaleY="1" verticalCenter="3" left="0"/>
+			<e:Image source="ui_chat_Off_png" right="0" top="0"/>
+			<e:Image id="imgSelect" source="ui_chat_On_png" right="0" top="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

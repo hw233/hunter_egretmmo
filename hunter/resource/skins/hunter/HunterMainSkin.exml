@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterMainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_hunter_LayerHeroBg_png" horizontalCenter="0" verticalCenter="0" height="100%" width="100%"/>
+
+
+
+	<e:Group id="groupImg" left="-23" right="-180" top="-8" height="50" touchEnabled="true">
+		<e:Image source="ui_hunter_OrnTop_png" scale9Grid="20,5,1104,30" left="23" top="9" right="-23"/>
+		<e:Group id="groupMoney" anchorOffsetX="0" anchorOffsetY="0" height="39" width="334" top="9" right="360">
+			<e:Group id="groupMoney1" left="0">
+			<e:Image source="ui_union_instance_BoardBurInstanceBossBlood_png" scaleX="0.75" y="6" left="0" right="0"/>
+			<e:Image id="gold" source="ui_currencyicon_IconGold_png" left="0" verticalCenter="0"/>
+			<e:Label id="labelIntegrate" text="904023424" size="20" verticalCenter="0" right="43" left="30" textAlign="center" verticalAlign="middle"/>
+			<e:Button id="btnAddGold" label="" y="0" right="-11">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+			<e:Group id="groupMoney2" y="-1" right="0">
+			<e:Image source="ui_union_instance_BoardBurInstanceBossBlood_png" y="8" scaleY="0.9" scaleX="0.7" left="0" right="0"/>
+			<e:Image id="jewel" source="ui_currencyicon_IconGemstone_png" left="-10" verticalCenter="0"/>
+			<e:Label id="labelToken" text="99999934" size="20" verticalAlign="middle" verticalCenter="0" left="15" right="35" textAlign="center"/>
+			<e:Button id="btnAdddiamond" label="" y="0" right="-13">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+		</e:Group>
+		<e:Image source="ui_hunter_OrnHunterInfo_png" left="128" top="7"/>
+		<e:Button id="btnClose" label="" left="-1" top="-1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="gRightSideBar" width="79" height="568" anchorOffsetY="0" anchorOffsetX="79" top="11%" right="0" touchEnabled="true">
+		<e:Image source="ui_hunter_BoardButton_png" right="0" x="0" scaleX="1" scaleY="1" verticalCenter="0" touchEnabled="false"/>
+		<e:Group width="92" height="61" y="70" right="0">
+			<e:Button id="btnDetail" label="" scaleX="1" scaleY="1" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonMainDetailsNor_png" source.down="ui_hunter_ButtonMainDetailsNor_png" scaleX.down="1.1" scaleY.down="1.1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgDetailRedDot" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" left="10" top="5"/>
+		</e:Group>
+		<e:Image id="spriteDetail" width="92" height="104" y="47" anchorOffsetX="92" source="ui_hunter_WordsMainDetails_png" x="79" visible="false"/>
+		<e:Group width="92" height="61" y="150" right="0">
+			<e:Button id="btnSkill" label="" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonMainSkillNor_png" source.down="ui_hunter_ButtonMainSkillNor_png" scaleX.down="1.1" scaleY.down="1.1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgSkillRedDot" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" left="10" top="5" x="10" y="-75"/>
+			<e:Image id="imgLockSkill" source="ui_currencyicon_IconLock_png" left="4" top="0"/>
+		</e:Group>
+		<e:Image id="spriteSkill" width="92" height="104" y="127" anchorOffsetX="92" source="ui_hunter_WordsMainSkill_png" x="79" visible="false"/>
+		<e:Group id="groupCard" width="92" height="61" y="230" right="0">
+			<e:Button id="btnCard" label="" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonMainCardNor_png" source.down="ui_hunter_ButtonMainCardNor_png" scaleX.down="1.1" scaleY.down="1.1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgCardRedDot" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" left="10" top="5" x="10" y="-155.00000000000003"/>
+			<e:Image id="imgLockCard" source="ui_currencyicon_IconLock_png" left="4" top="0" x="4" y="-80.00000000000003" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Image id="spriteCard" width="92" height="104" y="207" anchorOffsetX="92" source="ui_hunter_WordsMainCard_png" x="79" visible="false"/>
+		<e:Group id="groupAwaken" width="92" height="61" y="310" right="0">
+			<e:Button id="btnAwaken" label="" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonMainAwakenNor_png" source.down="ui_hunter_ButtonMainAwakenNor_png" scaleX.down="1.1" scaleY.down="1.1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgAwakenRedDot" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" left="10" top="5" x="10" y="-235.00000000000006"/>
+			<e:Image id="imgLockAwaken" source="ui_currencyicon_IconLock_png" left="4" top="0" x="4" y="-160.00000000000006" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Image id="spriteAwaken" width="92" height="104" y="287" anchorOffsetX="92" source="ui_hunter_WordsMainAwaken_png" x="79" visible="false"/>
+		<e:Group id="groupCollect" width="92" height="61" y="390" right="0">
+			<e:Button id="btnCollection" label="" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonMainCollectNor_png" source.down="ui_hunter_ButtonMainCollectNor_png" scaleX.down="1.1" scaleY.down="1.1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgColectionRedDot" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" left="10" top="5" x="10" y="-315.00000000000006"/>
+			<e:Image id="imgLockCollection" source="ui_currencyicon_IconLock_png" left="4" top="0" x="4" y="-240.00000000000006" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Image id="spriteCollection" width="92" height="104" y="367" anchorOffsetX="92" x="79" source="ui_hunter_WordsMainCollect_png" visible="false"/>
+		<e:Group width="92" height="61" y="470" right="0">
+			<e:Button id="btnPsychic" label="" scaleX="1" scaleY="1" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_psychic_ButtonMainPsychicNor_png" source.down="ui_hunter_psychic_ButtonMainPsychicNor_png" scaleX.down="1.1" scaleY.down="1.1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgPsychicRedDot" source="ui_currencyicon_IconRed_png" scaleX="1" scaleY="1" left="10" top="5" x="10" y="-395"/>
+			<e:Image id="imgLockPsychic" source="ui_currencyicon_IconLock_png" left="4" top="0" x="4" y="-320" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Image id="spritePsychic" source="ui_hunter_psychic_ButtonMainPsychicSel_png" y="447" width="92" height="104" x="79" scaleX="1" scaleY="1" anchorOffsetX="92" visible="false"/>
+	</e:Group>
+	<e:Group id="gDetail" width="80" height="568" top="11%" right="0" anchorOffsetX="0" touchThrough="true">
+		<e:Image id="SpriteBack" source="ui_hunter_BoardFate_png" right="0" verticalCenter="0" touchEnabled="false"/>
+		<e:Group id="groupBtnMainDetail" width="92" height="104" x="-12" y="200">
+			<e:Button id="btnMainDetail" label="" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_WordsMainDetails_png" source.down="ui_hunter_WordsMainDetails_png" scaleX.down="1.1" scaleY.down="1.1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="spriteMainDetailRedDot" source="ui_currencyicon_IconRed_png" top="0" y="5.000000000000028" scaleX="1" scaleY="1" left="0"/>
+		</e:Group>
+		<e:Rect id="rectMask" width="92" height="568" x="-12" y="0" fillAlpha="0"/>
+	</e:Group>
+</e:Skin>

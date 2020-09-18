@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_HunterGiftItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgFrame" source="ui_frame_FrameHunterGreen1_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="imgIcon" scaleX="0.8" scaleY="0.8" source="hero_icon_wj_xinchang_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="labelCount" width="84.8" height="20" x="0" y="51.7" text="500000" anchorOffsetX="0" textAlign="right" scaleX="0.8" scaleY="0.8" size="19" stroke="2"/>
+	<e:Image id="imgpifu" source="ui_acitivity_serverseven_sign_png" x="51" scaleX="0.6" scaleY="0.6" y="6"/>
+</e:Skin>

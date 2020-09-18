@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DarkLandChooseSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_mainui_BoardCurrency_png" anchorOffsetX="0" right="0" top="0" width="527.33"/>
+	<e:Group right="180" top="0">
+		<e:Group x="0" y="0" width="160">
+		<e:Image source="ui_hunter_BoardRecources_png" horizontalCenter="-20" verticalCenter="0.5"/>
+		<e:Image source="ui_currencyicon_IconWonderland_png" x="0" y="4"/>
+		<e:Label id="labelPlant" text="10000" size="20" verticalCenter="0" horizontalCenter="-11" anchorOffsetX="0" width="82" textAlign="center" fontFamily="Microsoft YaHei"/>
+		<e:Button id="btnPlant" label="" x="104.34" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+		<e:Group y="0" width="160" x="167.06">
+		<e:Image source="ui_hunter_BoardRecources_png" horizontalCenter="-20" verticalCenter="0.5"/>
+		<e:Image x="0" source="ui_currencyicon_IconGemstone_png" verticalCenter="0"/>
+		<e:Label id="labelGold" text="100000" size="20" verticalCenter="0" horizontalCenter="-11" anchorOffsetX="0" width="82" textAlign="center" fontFamily="Microsoft YaHei"/>
+		<e:Button id="btnGold" label="" x="104.34" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupCurrency" width="63" height="45" x="419" y="16" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group left="0" top="0">
+		<e:Image source="ui_wonderland_BoardWonderlandPlayerInfo_png" x="0" y="0"/>
+		<e:Label id="labelLeagueName" text="千年后羿" x="96" y="9" size="18" textColor="0x1FD900" anchorOffsetX="0" width="145"/>
+		<e:Label id="leagueName" text="Label" x="90" y="50" anchorOffsetX="0" width="135" anchorOffsetY="0" height="23" size="18" verticalAlign="middle" textAlign="center"/>
+		<e:Image source="ui_common_BoardPowerMain_png" x="3" y="89"/>
+		<e:Image source="ui_common_WordsPowerSmall1_png" x="5" y="84"/>
+		<e:Label id="labelPlayerPower" text="Label" x="130" y="91" size="18" textColor="0xFFEB00" anchorOffsetX="0" width="95" anchorOffsetY="0" height="23" verticalAlign="middle" textAlign="left"/>
+		<e:Group x="-11" y="-12">
+		<e:Image id="imgHead" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:Image id="imgFrame" source="ui_frame_FrameImage0_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Button id="btnChange" label="" x="32" y="78" anchorOffsetX="18" anchorOffsetY="18">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_wonderland_IconWonderlandType11_png" source.down="ui_wonderland_IconWonderlandType11_png" source.disabled="ui_wonderland_IconWonderlandType11_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group x="62" y="59">
+		<e:Image source="ui_mainui_BoardPlayerLevel_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="labelLevel" text="99" size="16" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image id="imgBar" source="ui_wonderland_BurPlayerBlood_png" left="88" top="34"/>
+		<e:Image id="imgBarBg" width="152" height="13" left="88" top="34" source="ui_hunter_collection_board1_png"/>
+		<e:Group x="1" y="119" scaleX="1" scaleY="1">
+		<e:Button id="btnEvilClear" label="" x="0" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ui_wonderland_ButtonEvilClearNor_png" source.down="ui_wonderland_ButtonEvilClearSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnEvil" label="Button" x="1" y="0" height="30" anchorOffsetX="0" width="135"/>
+		<e:Label id="labelEvillValue" text="999" size="20" verticalAlign="middle" verticalCenter="0" left="80" touchEnabled="false"/>
+		</e:Group>
+		<e:Button id="btnAllRank" label="" left="0" top="154" height="33" width="211">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_kuafu_ButtonViewNor_png" source.down="ui_wonderland_kuafu_ButtonViewSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="labelMyRank" text="未上榜" x="81" y="161" size="18" touchEnabled="false"/>
+	</e:Group>
+	<e:Group width="76" right="0" bottom="260" height="76">
+		<e:Image id="imgButton3" source="ui_wonderland_BoardIocn_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Button id="btn1" label="">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_wonderland_IconSkillRunNor_png" source.down="ui_wonderland_IconSkillRun_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image id="imgBtn3" x="22" y="47" source="ui_wonderland_WordsSkillRun_png" touchEnabled="false"/>
+
+		<e:Image id="imgSml3" source="ui_currencyicon_IconGemstone_png" x="9" y="61" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Label id="labelBtn3" text="90" x="38" y="68.5" size="18" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Group x="35" y="-7" touchEnabled="false">
+		<e:Image id="imgSpeedCdBoard" source="ui_wonderland_FrameFayan_png" x="0" y="0" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Label id="labelSpeedCd" text="60s" size="16" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		</e:Group>
+		<e:Label id="labelSpeedFree" text="本次免费" x="7" y="68" size="16" fontFamily="SimHei" touchEnabled="false"/>
+	</e:Group>
+	<e:Group width="76" height="76" right="0" bottom="150" x="10" y="10">
+		<e:Image id="imgButton4" source="ui_wonderland_BoardIocn_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Button id="btn2" label="" horizontalCenter="0" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_wonderland_IconSkillAddBloodNor_png" source.down="ui_wonderland_IconSkillAddBlood_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image id="imgBtn4" source="ui_wonderland_WordsSkillAddBlood_png" x="22" y="41.5" touchEnabled="false"/>
+
+		<e:Image id="imgSml4" source="ui_currencyicon_IconGemstone_png" x="5.5" y="55" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Label id="labelBtn4" text="90" x="38" y="63" size="18" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Group x="35" y="-7" touchEnabled="false">
+		<e:Image id="imgBloodCdBoard" source="ui_wonderland_FrameFayan_png" x="0" y="0" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Label id="labelBloodCd" text="60s" size="16" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		</e:Group>
+		<e:Label id="labelBloodFree" text="本次免费" x="7" y="63" size="16" fontFamily="SimHei" touchEnabled="false"/>
+	</e:Group>
+	<e:Image source="ui_wonderland_BoardEnter_png" scaleX="1.3" anchorOffsetX="0" width="444.23" scale9Grid="54,5,201,36" right="0" bottom="0"/>
+	<e:Group right="158" bottom="11">
+		<e:Image source="ui_wonderland_BoardIocn_png" x="5" y="11" scaleX="0.8" scaleY="0.8"/>
+		<e:Button id="btnFruit" label="" x="0" y="0" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_wonderland_IconEnterFruitBagNor_png" source.down="ui_wonderland_IconEnterFruitBag_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image x="1" y="52" source="ui_wonderland_WordsEnterFruitBag_png"/>
+	</e:Group>
+	<e:Group right="249" bottom="11" x="10" y="10">
+		<e:Image source="ui_wonderland_BoardIocn_png" x="5" y="11" scaleX="0.8" scaleY="0.8"/>
+		<e:Button id="btnReport" label="" x="0" y="0" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_wonderland_IconEnterBattleNor_png" source.down="ui_wonderland_IconEnterBattle_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image source="ui_wonderland_WordsEnterBattle_png" x="1" y="52"/>
+	</e:Group>
+	<e:Group right="338" bottom="12" x="10" y="10">
+		<e:Image source="ui_wonderland_BoardIocn_png" x="5" y="11" scaleX="0.8" scaleY="0.8"/>
+		<e:Button id="btnTeam" label="" x="0" y="0" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_wonderland_IconEnterTeamNor_png" source.down="ui_wonderland_IconEnterTeam_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image x="1" y="52" source="ui_wonderland_WordsEnterTeam_png"/>
+	</e:Group>
+	<e:Group right="432" bottom="12" x="10" y="10">
+		<e:Image source="ui_wonderland_BoardIocn_png" x="5" y="11" scaleX="0.8" scaleY="0.8"/>
+		<e:Button id="btnRogue" label="" x="0" y="0" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_wonderland_IconEnterBagNor_png" source.down="ui_wonderland_IconEnterBag_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image x="1" y="52" source="ui_wonderland_WordseEnterBag_png"/>
+		<e:Group id="groupRogue" x="-8" y="-20">
+		<e:Image id="imgFruitNum" source="ui_wonderland_BoardNum_png" x="0" y="0"/>
+		<e:BitmapLabel id="labelFruitNum" font="ItemNumWords_fnt" text="11" horizontalCenter="-2" verticalCenter="-4"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="layerDie" width="455" height="280" top="153" horizontalCenter="0.5">
+		<e:Image source="ui_hunter_BoardCardPopSeconde_png" width="455" height="280" horizontalCenter="0" verticalCenter="0" scale9Grid="65,65,291,396"/>
+		<e:Image source="ui_hunter_BoardSkillClick_png" width="420" height="130" scale9Grid="13,13,84,84" horizontalCenter="3.5" verticalCenter="-41"/>
+		<e:Image source="ui_hunter_OrnFlower_png" x="25" y="-4"/>
+		<e:Button id="btnRevive" label="" bottom="48" horizontalCenter="3">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_wonderland_ButtonImmediatelyResurrectionNor_png" source.down="ui_wonderland_ButtonImmediatelyResurrectionSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btnCancel0" label="" x="73" y="183" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_wonderland_ButtonCancelResurrectionNor_png" source.down="ui_wonderland_ButtonCancelResurrectionSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Group id="groupDieCost" x="198" y="235">
+		<e:Image source="ui_currencyicon_IconGemstone_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="labelConsume" text="100" x="35" y="5" textColor="0x000000" size="18" fontFamily="SimHei" bold="true"/>
+		</e:Group>
+		<e:Label id="labelDieTips" text="你已经阵亡！倒计时结束后将在场景入口复活。" x="44" y="45" textColor="0x000000" fontFamily="SimHei" size="18"/>
+		<e:Label text=" （使用立即复活可在原地复活并获得3秒钟无敌效果，主动发起战斗后消失）" x="30" y="70" textColor="0x009192" anchorOffsetX="0" width="404" anchorOffsetY="0" height="88" size="18"/>
+		<e:Image source="ui_wonderland_IconTime_png" x="169" y="120"/>
+		<e:Label id="labelLeftTime" text="6秒" x="216" y="128" size="22" textColor="0x003F00"/>
+	</e:Group>
+	<e:Button id="btnClose" label="" right="0" bottom="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_instance_ButtonInstanceReturnNor_png" source.down="ui_instance_ButtonInstanceReturnSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group left="255" top="2">
+		<e:Image source="ui_wonderland_kuafu_BoardLineFloor_png" x="0" y="0"/>
+		<e:Label text="所在路线：" size="20" fontFamily="SimHei" bottom="10" left="10"/>
+		<e:Label id="labelSelectedChannel" text="123" size="20" bottom="10" left="100"/>
+		<e:Button id="btnSeeChannel" label="" right="10" bottom="6">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_kuafu_ButtonChangeLineNor_png" source.down="ui_wonderland_kuafu_ButtonChangeLineSel_png" source.disabled="ui_wonderland_kuafu_ButtonChangeLineDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="labelChangChannelTime" text="456" x="162" y="43" anchorOffsetX="0" width="62" anchorOffsetY="0" height="25" size="20" textAlign="center" verticalAlign="middle" textColor="0xff0000"/>
+		<e:Label text="所在场景：" size="20" fontFamily="SimHei" left="10" top="8" height="20"/>
+		<e:Label id="TextCity" text="港口一线" x="102" y="8" textColor="0x00f93d" size="20" fontFamily="SimHei"/>
+		<e:Button id="btnCity" label="" x="183" y="6" width="44">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_kuafu_ButtonDesNor_png" source.down="ui_wonderland_kuafu_ButtonDesSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="LayerChannelList" left="255" top="81" scaleY="0" visible="false">
+		<e:Image source="ui_wonderland_kuafu_BoardSelectLineMainFloor_png" x="0" y="0"/>
+		<e:Image source="ui_wonderland_kuafu_BoardSelectLineFloor_png" y="6" horizontalCenter="0"/>
+		<e:Label text="请选择线路" y="12" size="22" fontFamily="SimHei" horizontalCenter="0"/>
+		<e:Scroller width="230" height="240" y="43" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:List id="listChannel"/>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="groupCityServer" left="502" top="84" visible="false">
+		<e:Image source="ui_wonderland_kuafu_BoardSceneInfoFloor_png" horizontalCenter="0" verticalCenter="0" width="340" scale9Grid="48,49,147,109"/>
+		<e:Label text="场景内包含以下服务器玩家" left="15" top="15" textColor="0xed8d4a" size="18" fontFamily="SimHei"/>
+		<e:Scroller width="330" height="140" y="38" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:List id="TableViewCityServer">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="btnChat" label="" left="-14" bottom="-7">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_mainui_ButtonChatNor_png" source.down="ui_mainui_ButtonChatSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

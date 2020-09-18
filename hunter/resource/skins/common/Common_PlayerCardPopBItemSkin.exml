@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_PlayerCardPopBItemSkin" width="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAttri" width="100%" height="100%" x="0" y="0">
+		<e:Image id="imageAttri" source="ui_hunter_card_CardAttriBack_png" width="100%" height="100%" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+		<e:Label id="labelAttri" text="攻击+20%" width="100%" size="16" textColor="0x070606" x="0" scaleX="1" scaleY="1" height="100%" verticalCenter="0" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

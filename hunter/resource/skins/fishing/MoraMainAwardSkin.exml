@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MoraMainAwardSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="7.5" verticalCenter="2">
+		<e:Group id="groupCache" left="0" right="0" top="0" bottom="0" >
+			<e:Image source="ui_hunter_LayerCurrencyFirst_png" x="0" y="42.56000000000002" width="695" height="545" scale9Grid="55,30,240,68" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fishing_BoardFishingTopTip_png" x="195.5" y="0" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_mora_WordsViewAward_png" x="287.62" y="11.780000000000001" scaleX="1" scaleY="1"/>
+			<e:Label text="奖项" x="80.85" y="93" textColor="0x000000" size="20" fontFamily="SimHei" scaleX="1" scaleY="1"/>
+			<e:Label text="达成条件" x="227.86" y="93" textColor="0x000000" size="20" anchorOffsetY="0" height="20" fontFamily="SimHei" scaleX="1" scaleY="1"/>
+			<e:Label text="奖品" x="511.5" y="93" textColor="0x000000" size="20" anchorOffsetY="0" height="20" fontFamily="SimHei" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_hunter_BoardSkillClick_png" x="12.5" y="123.88" width="670" height="450" scale9Grid="13,13,84,84" scaleX="1" scaleY="1"/>
+		</e:Group>
+
+
+
+
+
+
+
+		<e:Button id="buttonClose" label="" x="618.52" y="13.36" width="90" height="55">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="666.67" height="448.48" x="15.5" y="127.26" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Scroller width="100%" height="100%" x="0" y="0">
+			<e:List id="listViewList" width="667" height="448"/>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

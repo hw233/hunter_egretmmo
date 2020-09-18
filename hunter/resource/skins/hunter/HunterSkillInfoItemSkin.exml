@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterSkillInfoItemSkin" width="425" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" top="0" right="0" bottom="0">
+		<e:Label id="labelLevel" text="Lv.66" size="14" width="40" verticalAlign="top" textAlign="left" left="0" textColor="0x000000" top="0" bottom="0" fontFamily="SimHei" bold="true"/>
+		<e:Label id="labelDes" text="造成1段攻击力350%的上海" size="13" verticalAlign="top" textAlign="left" left="40" right="0" textColor="0x000000" top="0" bottom="0" anchorOffsetX="0" fontFamily="SimHei" bold="true"/>
+	</e:Group>
+</e:Skin>

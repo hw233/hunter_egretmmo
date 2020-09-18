@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityXuyuanAwardItemBSkin" width="67" height="66" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupAnimal" scaleX="0.7" scaleY="0.7" x="0" y="0">
+			<e:Image id="imgFrame" verticalCenter="0" horizontalCenter="0" source="ui_frame_FrameHunterAsh_png"/>
+			<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="0" source=""/>
+		</e:Group>
+		<e:Group id="groupClip" scaleX="1" scaleY="1" width="63" height="62" x="2" y="4"/>
+	</e:Group>
+</e:Skin>

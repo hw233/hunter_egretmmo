@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaWholeHeadSkin" width="219" height="211" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAni" width="10" height="10" y="169" x="103">
+	</e:Group>
+	<e:Group id="groupHero" width="20" height="20" x="97" y="164">
+	</e:Group>
+	<e:Group id="groupHero0" width="20" height="20" x="97" y="164"/>
+	<e:Group id="groupPlayerInfo" width="200" height="200" x="9" y="6">
+		<e:Label id="labelPlayerName" text="Label" x="51" y="53" size="18"/>
+		<e:Label id="labelPlayerQu" text="Label" x="51" y="85" size="18"/>
+		<e:Label id="labelPlayerPower" text="Label" x="56" y="144" size="18"/>
+		<e:Image id="imgSkill" source="ui_arena_WordsSkill_png" x="18" y="80"/>
+	</e:Group>
+	<e:Image id="imgDead" width="20" height="20" x="81" y="113"/>
+	<e:Image source="ui_arena_BoardInterEnemyGrade_png" x="38" y="169"/>
+	<e:Label id="labelJiFen" text="八段   1000分" x="54" y="173" size="18" textColor="0xffaf00"/>
+</e:Skin>

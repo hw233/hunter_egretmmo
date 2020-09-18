@@ -1,0 +1,17 @@
+{"file":"SkyArenaLayerNum.png","frames":{
+" ":{"x":21,"y":92,"w":0,"h":0,"offX":0,"offY":22,"sourceW":0,"sourceH":0},
+"0":{"x":34,"y":34,"w":19,"h":24,"offX":1,"offY":-2,"sourceW":19,"sourceH":24},
+"1":{"x":3,"y":92,"w":15,"h":23,"offX":2,"offY":-1,"sourceW":15,"sourceH":23},
+"2":{"x":25,"y":65,"w":19,"h":24,"offX":1,"offY":-2,"sourceW":19,"sourceH":24},
+"3":{"x":56,"y":34,"w":19,"h":24,"offX":1,"offY":-2,"sourceW":19,"sourceH":24},
+"4":{"x":69,"y":65,"w":20,"h":23,"offX":0,"offY":-1,"sourceW":20,"sourceH":23},
+"5":{"x":47,"y":65,"w":19,"h":24,"offX":1,"offY":-2,"sourceW":19,"sourceH":24},
+"6":{"x":78,"y":34,"w":19,"h":24,"offX":1,"offY":-2,"sourceW":19,"sourceH":24},
+"7":{"x":92,"y":65,"w":18,"h":23,"offX":1,"offY":-1,"sourceW":18,"sourceH":23},
+"8":{"x":100,"y":34,"w":19,"h":24,"offX":1,"offY":-2,"sourceW":19,"sourceH":24},
+"9":{"x":3,"y":65,"w":19,"h":24,"offX":0,"offY":-2,"sourceW":19,"sourceH":24},
+"关":{"x":65,"y":3,"w":28,"h":28,"offX":2,"offY":-4,"sourceW":28,"sourceH":28},
+"层":{"x":3,"y":3,"w":28,"h":28,"offX":2,"offY":-4,"sourceW":28,"sourceH":28},
+"段":{"x":3,"y":34,"w":28,"h":28,"offX":2,"offY":-4,"sourceW":28,"sourceH":28},
+"第":{"x":34,"y":3,"w":28,"h":28,"offX":1,"offY":-4,"sourceW":28,"sourceH":28},
+"阶":{"x":96,"y":3,"w":28,"h":28,"offX":2,"offY":-4,"sourceW":28,"sourceH":28}}}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityMainItemSkin" width="245" height="92" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0">
+		<e:Button id="btnTag" label="" y="4" x="0" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_ButtonAcitivityTypeOperationNor_png" source.down="ui_acitivity_ButtonAcitivityTypeOperationSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgTag" source="ui_acitivity_ButtonAcitivityTypeOperationNor_png" x="0" y="4"/>
+		<e:Image id="imgTrue" source="ui_acitivity_ButtonAcitivityTypeOperationSel_png" x="0" y="4"/>
+		<e:Image id="imgIcon" source="ui_acitivity_WordsAcitivityTypeName1_png" y="11" x="66"/>
+		<e:Image id="imgLogo" source="ui_acitivity_WordsAcitivityType1_png" x="1" y="1"/>
+		<e:Label id="lbName" text="即将开服的活动" textColor="0xfefb00" size="18" fontFamily="Helvetica" y="17" horizontalCenter="7" width="180" verticalAlign="middle" textAlign="center"/>
+		<e:Label id="lbTime" text="关服结束此活动" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" y="57" width="180" horizontalCenter="7"/>
+		<e:Image id="imgTip" source="ui_currencyicon_IconRed_png" x="209" y="0"/>
+	</e:Group>
+</e:Skin>

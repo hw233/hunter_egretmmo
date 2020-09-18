@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PackageMainItemIRSkin" width="103" height="103" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="98" height="99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="3" y="2">
+		<e:Group id="groupCache" width="98" height="99" x="0" y="0">
+			<e:Image id="imgNode" width="106" height="107" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.92" scaleY="0.92" horizontalCenter="0" verticalCenter="0" touchEnabled="false" source="ui_wonderland_IconFruitNode_png" x="0" y="0"/>
+			<e:Group id="groupItem" scaleX="1" anchorOffsetX="0" anchorOffsetY="0" scaleY="1" width="86" height="84" x="6" y="8">
+				<e:Image id="imgFrame" scaleX="0.9" scaleY="0.9" touchEnabled="false" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgIcon" scaleX="0.9" scaleY="0.9" touchEnabled="false" verticalCenter="0" horizontalCenter="0" source=""/>
+
+				<e:Label id="lbNum" size="18" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" textColor="0x191818" text="99" width="58" verticalAlign="middle" textAlign="center" fontFamily="Helvetica" y="22" height="24" horizontalCenter="-20"/>
+				<e:BitmapLabel id="lbCount" width="77" height="24" x="-2" y="51" textAlign="right" text="1" font="ItemNumWords_fnt"/>
+			</e:Group>
+			<e:Image id="imgTips" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="73" y="1" touchEnabled="false" source="ui_currencyicon_IconRed_png"/>
+		</e:Group>
+
+
+
+		<e:Group id="groupAnimation" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

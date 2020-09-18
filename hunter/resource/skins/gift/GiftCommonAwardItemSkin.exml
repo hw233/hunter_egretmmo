@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GiftCommonAwardItemSkin" width="63.6" height="64.2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" width="63.6" height="64.2" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_wonderland_IconFruitNode_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imageFrame" source="ui_frame_FrameHunterOrange1_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imageIcon" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0" source=""/>
+
+		<e:BitmapLabel id="labelTextNum" y="35" anchorOffsetX="0" anchorOffsetY="0" text="0" textAlign="right" touchEnabled="false" right="8" font="ItemNumWords_fnt" scaleX="0.8" scaleY="0.8" letterSpacing="-2"/>
+		<e:Group id="groupAni" horizontalCenter="0" verticalCenter="0" x="32" y="32" scaleX="0.6" scaleY="0.6" touchEnabled="false" touchThrough="true"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishingEndItemSkin" width="150" height="235" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" anchorOffsetY="0" height="186" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupFish" anchorOffsetY="0" height="232" x="1" verticalCenter="0">
+			<e:Image id="imgLable" source="ui_fishing_WordsFishingName4_png" horizontalCenter="0" y="0"/>
+			<e:Image id="imgFish" width="146" height="232" x="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="groupItem" horizontalCenter="0" verticalCenter="0">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgClid" source="ui_huntericon_IconKuluoluo_png" horizontalCenter="3.5" verticalCenter="0"/>
+			<e:Image id="imgDouble" source="ui_fishing_WordsAwardDuble_png" x="13" y="15" scaleX="1" scaleY="1"/>
+			<e:Group id="groupBoard" y="112" scaleX="1" scaleY="1" horizontalCenter="0">
+				<e:Image id="imgLableBoard" source="ui_fishing_BoardFishingTimeTip_png" scaleX="0.25" verticalCenter="0" horizontalCenter="0"/>
+				<e:BitmapLabel id="lbNum" width="20" height="23" font="ItemNum_fnt" text="3" textAlign="center" horizontalCenter="39.5" verticalCenter="4"/>
+				<e:Label id="lbName" text="密闭气罐x" size="18" fontFamily="Helvetica" verticalCenter="0" horizontalCenter="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupAni" width="0" height="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

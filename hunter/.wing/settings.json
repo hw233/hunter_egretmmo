@@ -1,0 +1,9 @@
+{
+	"search.exclude": {
+		"**/bin-debug": true,
+		"**/bin-release": true
+	}
+,
+"fileheader.Author": "wangtao",
+"fileheader.LastModifiedBy": "wangtao"
+}

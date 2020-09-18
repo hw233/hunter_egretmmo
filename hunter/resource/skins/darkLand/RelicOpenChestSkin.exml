@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RelicOpenShestSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupEntirety" width="757" height="562" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_darkland_relic_BoardOpenBoxFloor_png" horizontalCenter="0" verticalCenter="-1"/>
+		<e:Group id="groupCard1" width="170" height="210" horizontalCenter="-180" bottom="292">
+			<e:Group id="groupAnim1" width="170" height="220" horizontalCenter="0" verticalCenter="5"/>
+			<e:Group id="groupItemContent1" width="156" height="190" horizontalCenter="0" verticalCenter="0">
+				<e:Image source="ui_darkland_relic_BoardCardFace_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:Group width="95" height="93" horizontalCenter="0" verticalCenter="0">
+					<e:Image id="imageItemFrame1" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imageItemIcon1" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:BitmapLabel id="labelItemNum1" text="3" font="ItemNum_fnt" bottom="12" right="7"/>
+				</e:Group>
+				<e:Image source="ui_darkland_relic_BoardCardInfoFloor_png" horizontalCenter="0" bottom="20"/>
+				<e:Label id="labelItemName1" text="物品名字" height="27" width="150" bottom="20" horizontalCenter="0" size="18" textAlign="center" verticalAlign="middle"/>
+			</e:Group>
+			<e:Group id="groupCardBack1" width="156" height="190" horizontalCenter="0" verticalCenter="0">
+				<e:Image id="imageBack_1" source="ui_darkland_relic_BoardCardBack_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Group id="groupCost1" width="122" height="27" bottom="20" horizontalCenter="0">
+					<e:Image source="ui_darkland_relic_BoardCardInfoFloor_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="labelCost1" text="20" size="20" horizontalCenter="16" verticalCenter="0" verticalAlign="middle" textAlign="center"/>
+					<e:Image source="ui_iconresources_zuanshi3_png" verticalCenter="0" horizontalCenter="-16"/>
+				</e:Group>
+				<e:Label id="labelFree1" text="免费" size="20" height="27" textAlign="center" verticalAlign="middle" horizontalCenter="0" bottom="20"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupCard2" width="170" height="210" bottom="292" horizontalCenter="0">
+			<e:Group id="groupAnim2" width="170" height="220" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="groupItemContent2" width="156" height="190" horizontalCenter="0" verticalCenter="0">
+				<e:Image source="ui_darkland_relic_BoardCardFace_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:Group width="95" height="93" horizontalCenter="0" verticalCenter="0">
+					<e:Image id="imageItemFrame2" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imageItemIcon2" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:BitmapLabel id="labelItemNum2" text="3" font="ItemNum_fnt" bottom="12" right="7"/>
+				</e:Group>
+				<e:Image source="ui_darkland_relic_BoardCardInfoFloor_png" horizontalCenter="0" bottom="20"/>
+				<e:Label id="labelItemName2" text="物品名字" height="27" width="150" bottom="20" horizontalCenter="0" size="18" textAlign="center" verticalAlign="middle"/>
+			</e:Group>
+			<e:Group id="groupCardBack2" width="156" height="190" horizontalCenter="0" verticalCenter="0">
+				<e:Image id="imageBack_2" source="ui_darkland_relic_BoardCardBack_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Group id="groupCost2" width="122" height="27" bottom="20" horizontalCenter="0">
+					<e:Image source="ui_darkland_relic_BoardCardInfoFloor_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="labelCost2" text="20" size="20" horizontalCenter="16" verticalCenter="0" verticalAlign="middle" textAlign="center"/>
+					<e:Image source="ui_iconresources_zuanshi3_png" verticalCenter="0" horizontalCenter="-16"/>
+				</e:Group>
+				<e:Label id="labelFree2" text="免费" size="20" height="27" textAlign="center" verticalAlign="middle" horizontalCenter="0" bottom="20"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupCard3" width="170" height="210" bottom="292" horizontalCenter="180">
+			<e:Group id="groupAnim3" width="170" height="220" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="-180" y="-5"/>
+			<e:Group id="groupItemContent3" width="156" height="190" horizontalCenter="0" verticalCenter="0">
+				<e:Image source="ui_darkland_relic_BoardCardFace_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:Group width="95" height="93" horizontalCenter="0" verticalCenter="0">
+					<e:Image id="imageItemFrame3" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imageItemIcon3" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:BitmapLabel id="labelItemNum3" text="3" font="ItemNum_fnt" bottom="12" right="7"/>
+				</e:Group>
+				<e:Image source="ui_darkland_relic_BoardCardInfoFloor_png" horizontalCenter="0" bottom="20"/>
+				<e:Label id="labelItemName3" text="物品名字" height="27" width="150" bottom="20" horizontalCenter="0" size="18" textAlign="center" verticalAlign="middle"/>
+			</e:Group>
+			<e:Group id="groupCardBack3" width="156" height="190" horizontalCenter="0" verticalCenter="0">
+				<e:Image id="imageBack_3" source="ui_darkland_relic_BoardCardBack_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Group id="groupCost3" width="122" height="27" bottom="20" horizontalCenter="0">
+					<e:Image source="ui_darkland_relic_BoardCardInfoFloor_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="labelCost3" text="20" size="20" horizontalCenter="16" verticalCenter="0" verticalAlign="middle" textAlign="center"/>
+					<e:Image source="ui_iconresources_zuanshi3_png" verticalCenter="0" horizontalCenter="-16"/>
+				</e:Group>
+				<e:Label id="labelFree3" text="免费" size="20" height="27" textAlign="center" verticalAlign="middle" horizontalCenter="0" bottom="20"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupCard4" width="170" height="210" horizontalCenter="-180" bottom="92">
+			<e:Group id="groupAnim4" width="170" height="220" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="360" y="-205"/>
+			<e:Group id="groupItemContent4" width="156" height="190" horizontalCenter="0" verticalCenter="0">
+				<e:Image source="ui_darkland_relic_BoardCardFace_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:Group width="95" height="93" horizontalCenter="0" verticalCenter="0">
+					<e:Image id="imageItemFrame4" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imageItemIcon4" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:BitmapLabel id="labelItemNum4" text="3" font="ItemNum_fnt" bottom="12" right="7"/>
+				</e:Group>
+				<e:Image source="ui_darkland_relic_BoardCardInfoFloor_png" horizontalCenter="0" bottom="20"/>
+				<e:Label id="labelItemName4" text="物品名字" height="27" width="150" bottom="20" horizontalCenter="0" size="18" textAlign="center" verticalAlign="middle"/>
+			</e:Group>
+			<e:Group id="groupCardBack4" width="156" height="190" horizontalCenter="0" verticalCenter="0">
+				<e:Image id="imageBack_4" source="ui_darkland_relic_BoardCardBack_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Group id="groupCost4" width="122" height="27" bottom="20" horizontalCenter="0">
+					<e:Image source="ui_darkland_relic_BoardCardInfoFloor_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="labelCost4" text="20" size="20" horizontalCenter="16" verticalCenter="0" verticalAlign="middle" textAlign="center"/>
+					<e:Image source="ui_iconresources_zuanshi3_png" verticalCenter="0" horizontalCenter="-16"/>
+				</e:Group>
+				<e:Label id="labelFree4" text="免费" size="20" height="27" textAlign="center" verticalAlign="middle" horizontalCenter="0" bottom="20"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupCard5" width="170" height="210" horizontalCenter="0" bottom="92">
+			<e:Group id="groupAnim5" width="170" height="220" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="-180" y="-5"/>
+			<e:Group id="groupItemContent5" width="156" height="190" horizontalCenter="0" verticalCenter="0">
+				<e:Image source="ui_darkland_relic_BoardCardFace_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:Group width="95" height="93" horizontalCenter="0" verticalCenter="0">
+					<e:Image id="imageItemFrame5" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imageItemIcon5" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:BitmapLabel id="labelItemNum5" text="3" font="ItemNum_fnt" bottom="12" right="7"/>
+				</e:Group>
+				<e:Image source="ui_darkland_relic_BoardCardInfoFloor_png" horizontalCenter="0" bottom="20"/>
+				<e:Label id="labelItemName5" text="物品名字" height="27" width="150" bottom="20" horizontalCenter="0" size="18" textAlign="center" verticalAlign="middle"/>
+			</e:Group>
+			<e:Group id="groupCardBack5" width="156" height="190" horizontalCenter="0" verticalCenter="0">
+				<e:Image id="imageBack_5" source="ui_darkland_relic_BoardCardBack_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Group id="groupCost5" width="122" height="27" bottom="20" horizontalCenter="0">
+					<e:Image source="ui_darkland_relic_BoardCardInfoFloor_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="labelCost5" text="20" size="20" horizontalCenter="16" verticalCenter="0" verticalAlign="middle" textAlign="center"/>
+					<e:Image source="ui_iconresources_zuanshi3_png" verticalCenter="0" horizontalCenter="-16"/>
+				</e:Group>
+				<e:Label id="labelFree5" text="免费" size="20" height="27" textAlign="center" verticalAlign="middle" horizontalCenter="0" bottom="20"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupCard6" width="170" height="210" horizontalCenter="180" bottom="92">
+			<e:Group id="groupAnim6" width="170" height="220" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="-180" y="-5"/>
+			<e:Group id="groupItemContent6" width="156" height="190" horizontalCenter="0" verticalCenter="0">
+				<e:Image source="ui_darkland_relic_BoardCardFace_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:Group width="95" height="93" horizontalCenter="0" verticalCenter="0">
+					<e:Image id="imageItemFrame6" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imageItemIcon6" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:BitmapLabel id="labelItemNum6" text="3" font="ItemNum_fnt" bottom="12" right="7"/>
+				</e:Group>
+				<e:Image source="ui_darkland_relic_BoardCardInfoFloor_png" horizontalCenter="0" bottom="20"/>
+				<e:Label id="labelItemName6" text="物品名字" height="27" width="150" bottom="20" horizontalCenter="0" size="18" textAlign="center" verticalAlign="middle"/>
+			</e:Group>
+			<e:Group id="groupCardBack6" width="156" height="190" horizontalCenter="0" verticalCenter="0">
+				<e:Image id="imageBack_6" source="ui_darkland_relic_BoardCardBack_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Group id="groupCost6" width="122" height="27" bottom="20" horizontalCenter="0">
+					<e:Image source="ui_darkland_relic_BoardCardInfoFloor_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="labelCost6" text="20" size="20" horizontalCenter="16" verticalCenter="0" verticalAlign="middle" textAlign="center"/>
+					<e:Image source="ui_iconresources_zuanshi3_png" verticalCenter="0" horizontalCenter="-16"/>
+				</e:Group>
+				<e:Label id="labelFree6" text="免费" size="20" height="27" textAlign="center" verticalAlign="middle" horizontalCenter="0" bottom="20"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="buttonShowAward" label="" bottom="7" right="17">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_darkland_relic_ButtonAwardView_png" source.down="ui_darkland_relic_ButtonAwardView_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="176" height="81" horizontalCenter="0" bottom="7">
+			<e:Button id="buttonAllOpen" label="" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_darkland_relic_ButtonSelectAllNor_png" source.down="ui_darkland_relic_ButtonSelectAllSel_png" source.disabled="ui_darkland_relic_ButtonSelectAllDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="labelCost" text="200" size="25" bottom="15" horizontalCenter="20" touchEnabled="false"/>
+		</e:Group>
+		<e:Image source="ui_darkland_relic_WordsFreeTimes_png" x="20" top="10"/>
+		<e:Image source="ui_darkland_relic_WordsMaxTimes_png" left="320" top="10"/>
+		<e:Label id="labelLastFreeTime" text="20" height="27" size="22" textAlign="center" verticalAlign="middle" top="8" left="195"/>
+		<e:Label id="labelMaxOpenTime" text="10" size="22" height="27" top="8" left="470"/>
+		<e:Button id="buttonClose" label="" right="-15" top="-8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Image id="imageRect" source="ui_darkland_relic_BoardOpenBoxFloor_png" x="0" y="0" width="100%" height="100%" alpha="0.001" visible="false"/>
+</e:Skin>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Daily_LiveItemVipSkin" width="750" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="750" height="100" x="0" y="0" anchorOffsetX="0">
+		<e:Image source="ui_daily_BoardInfo_png" x="0" y="0" width="750" height="100" scale9Grid="11,13,68,79"/>
+		<e:Image source="ui_daily_OrnInfo_png" right="2" verticalCenter="0"/>
+		<e:Label id="labelName" text="登陆即享VIP6每日福利" size="18" top="22" textColor="0x000000" left="108"/>
+		<e:Scroller id="scrollerAward" width="340" height="60" left="155" bottom="4">
+			<e:List id="listAward"/>
+		</e:Scroller>
+		<e:Group width="76" height="74" verticalCenter="0" left="18">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" left="0" verticalCenter="0" width="76" height="74" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image id="imgIcon" source="hero_icon_wj_kuluoluo_png" x="-0.5" anchorOffsetX="0" width="77.5" y="0" anchorOffsetY="0" height="74.5"/>
+		</e:Group>
+		<e:Label id="labelAward" text="奖励：" size="18" textColor="0x000000" bottom="20" left="112"/>
+		<e:Button id="btnGo" label="" right="16" verticalCenter="0.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_daily_ButtonGoNor_png" source.down="ui_daily_ButtonGoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnDone" label="" width="172" height="55" verticalCenter="0.5" right="16">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_daily_ButtonGetAwardNor_png" source.down="ui_daily_ButtonGetAwardSel_png" source.disabled="ui_daily_ButtonGetAwardDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgDone" source="ui_daily_WordsLingquEnd_png" right="49" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

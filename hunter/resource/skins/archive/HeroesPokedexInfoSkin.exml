@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CCLayer" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="rectBg" width="100%" height="100%" x="0" y="0" source="ui_common_mask_black_jpg" alpha="0.3"/>
+	<e:Group id="groupSum" width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupLayer" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="1" verticalCenter="1">
+			<e:Image id="imgScale9Sprite" source="ui_hunter_LayerCurrencyFirst_png" x="0" y="32" width="660" height="530" scale9Grid="106,37,267,160"/>
+			<e:Group id="groupNode" x="9" y="15.4">
+			<e:Image id="imgSprite" source="ui_hunterpokedex_LayerSecond_png" x="0" y="37.32"/>
+			<e:Image id="imgSprite_1" source="ui_hunter_OrnDontGetHunterTop_png" x="3" y="3.99"/>
+			<e:Image id="imgSprite_2" source="ui_hunterpokedex_WordsTipHunterInfo_png" x="236.88" y="-1.41"/>
+			<e:Image id="imgSprite_3" source="ui_hunterpokedex_OrnHunter_png" x="52" y="123.33"/>
+			<e:Image id="imgScale9Sprite_1" source="ui_hunterpokedex_BoardHunterAtt_png" x="387.88" y="39.84" width="250" height="432"/>
+			<e:Group id="groupSprite" x="418" y="63">
+				<e:Label id="labelTitle1" text="生命：" x="0" y="0" size="18" textColor="0x191919" bold="true"/>
+				<e:Image id="imgSprite_4" source="ui_hunter_IconArrow_png" y="0.65" horizontalCenter="-26"/>
+				<e:Label id="labelAttri1" text="999999" y="0.63" size="18" bold="true" textColor="0x191919" left="103" width="61"/>
+				<e:Label id="labelTitle2" text="攻击：" x="0" y="40.1" size="18" textColor="0x191919" bold="true"/>
+				<e:Image id="imgSprite_5" source="ui_hunter_IconArrow_png" y="40.1" horizontalCenter="-26"/>
+				<e:Label id="labelAttri2" text="100%" y="40.1" size="18" bold="true" textColor="0x191919" left="103" width="47"/>
+				<e:Label id="labelTitle3" text="防御：" x="0" y="80.1" size="18" textColor="0x191919" bold="true"/>
+				<e:Image id="imgSprite_6" source="ui_hunter_IconArrow_png" y="80.1" horizontalCenter="-26"/>
+				<e:Label id="labelAttri3" text="999999" y="80.1" size="18" bold="true" textColor="0x191919" left="103" width="61"/>
+				<e:Label id="labelTitle24" text="速度：" x="0" y="120.1" size="18" textColor="0x191919" bold="true"/>
+				<e:Image id="imgSprite_7" source="ui_hunter_IconArrow_png" y="120.1" horizontalCenter="-26"/>
+				<e:Label id="labelAttri24" text="100%" y="120.1" size="18" bold="true" textColor="0x191919" left="103" width="47"/>
+				<e:Label id="labelTitle9" text="暴击抵抗：" x="0" y="160.1" size="18" textColor="0x191919" bold="true"/>
+				<e:Image id="imgSprite_8" source="ui_hunter_IconArrow_png" x="93.61" y="160.1"/>
+				<e:Label id="labelAttri9" text="999999" x="132.3" y="160.1" size="18" bold="true" textColor="0x191919"/>
+				<e:Label id="labelTitle6" text="暴击概率：" x="0" y="200.1" size="18" textColor="0x191919" bold="true"/>
+				<e:Image id="imgSprite_9" source="ui_hunter_IconArrow_png" x="93.66" y="200.1"/>
+				<e:Label id="labelAttri6" text="100%" x="132.35" y="200.1" size="18" bold="true" textColor="0x191919"/>
+				<e:Label id="labelTitle8" text="暴击伤害：" x="0" y="240.1" size="18" textColor="0x191919" bold="true"/>
+				<e:Image id="imgSprite_10" source="ui_hunter_IconArrow_png" x="93.61" y="240.1"/>
+				<e:Label id="labelAttri8" text="999999" x="132.3" y="240.1" size="18" bold="true" textColor="0x191919"/>
+				<e:Label id="labelTitle23" text="浮空格挡：" x="0" y="280.1" size="18" textColor="0x191919" bold="true"/>
+				<e:Image id="imgSprite_11" source="ui_hunter_IconArrow_png" x="93.61" y="280.1"/>
+				<e:Label id="labelAttri23" text="100%" x="132.3" y="280.1" size="18" bold="true" textColor="0x191919"/>
+				<e:Label id="labelTitle4" text="效果命中：" x="0" y="320.1" size="18" textColor="0x191919" bold="true"/>
+				<e:Image id="imgSprite_12" source="ui_hunter_IconArrow_png" x="93.61" y="320.1"/>
+				<e:Label id="labelAttri4" text="999999" x="132.3" y="320.1" size="18" bold="true" textColor="0x191919"/>
+				<e:Label id="labelTitle5" text="效果抵抗：" x="0" y="360" size="18" textColor="0x191919" bold="true"/>
+				<e:Image id="imgSprite_13" source="ui_hunter_IconArrow_png" x="94.3" y="360"/>
+				<e:Label id="labelAttri5" text="100%" x="132.99" y="360" size="18" bold="true" textColor="0x191919"/>
+				<e:Image id="imgSprite_14" source="ui_pet_OrnLine_png" x="-4.740000000000009" y="28.03" anchorOffsetX="0" width="197.34" scaleX="1" scaleY="1"/>
+				<e:Image id="imgSprite_15" source="ui_pet_OrnLine_png" x="-4.740000000000009" y="108" anchorOffsetX="0" width="197.34" scaleX="1" scaleY="1"/>
+				<e:Image id="imgSprite_16" source="ui_pet_OrnLine_png" x="-4.740000000000009" y="147.99999999999997" anchorOffsetX="0" width="197.34" scaleX="1" scaleY="1"/>
+				<e:Image id="imgSprite_17" source="ui_pet_OrnLine_png" x="-4.740000000000009" y="187.99999999999997" anchorOffsetX="0" width="197.34" scaleX="1" scaleY="1"/>
+				<e:Image id="imgSprite_18" source="ui_pet_OrnLine_png" x="-4.740000000000009" y="68.03" anchorOffsetX="0" width="197.34" scaleX="1" scaleY="1"/>
+				<e:Image id="imgSprite_19" source="ui_pet_OrnLine_png" x="-4.740000000000009" y="227.99999999999997" anchorOffsetX="0" width="197.34" scaleX="1" scaleY="1"/>
+				<e:Image id="imgSprite_20" source="ui_pet_OrnLine_png" x="-4.740000000000009" y="268" anchorOffsetX="0" width="197.34" scaleX="1" scaleY="1"/>
+				<e:Image id="imgSprite_21" source="ui_pet_OrnLine_png" x="-4.740000000000009" y="308" anchorOffsetX="0" width="197.34" scaleX="1" scaleY="1"/>
+				<e:Image id="imgSprite_22" source="ui_pet_OrnLine_png" x="-4.740000000000009" y="348" anchorOffsetX="0" width="197.34" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Image id="imgSpriteHunterHalf" source="hero_half_wj_kubi_png" x="22.02" y="46.6" anchorOffsetX="0" width="502" anchorOffsetY="0" height="487" scaleX="0.7" scaleY="0.7"/>
+			<e:Image id="imgScale9Sprite_1_1" source="ui_hunterpokedex_BoardHunterSKill_png" x="4.89" y="355.1" width="375" height="170"/>
+			<e:Image id="imgSprite_24" source="ui_hunter_BoardHunterName_png" x="101" y="353.5"/>
+			<e:Label id="LabelHunterName" text="宙斯" x="203.95" y="376" size="18" visible="false"/>
+			<e:Label id="labelHunterInfo" text="加攻禁疗 前排输出" x="145.64" y="420.34" size="18" textColor="0xfeffff"/>
+			<e:Image id="imgSpriteHunterName" source="ui_huntername_HunterName2_png" x="171" y="352.19" rotation="14.87"/>
+			<e:Image id="imgCCSprite_23" source="ui_hunterpokedex_WordsTipHunterSkill_png" x="16" y="456.84"/>
+			<e:Group id="groupcontainer" x="87" y="440" anchorOffsetY="0" height="69" anchorOffsetX="0" width="280">
+				<e:List id="listHunterSkill" width="100%" height="100%" x="0" anchorOffsetY="0" anchorOffsetX="0" y="0" visible="false"/>
+				<e:Group id="groupNode1" width="69" height="69" x="1" y="2">
+				<e:Image id="imgSpriteFrame1" source="ui_frame_FrameSkill_png" width="88" height="88" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgSpriteIcon1" source="hero_icon_head_wj_dongba_png" anchorOffsetX="0" width="75" anchorOffsetY="0" height="75" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group id="groupNode2" width="69" height="69" x="73" y="2">
+				<e:Image id="imgSpriteFrame2" source="ui_frame_FrameSkill_png" width="88" height="88" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgSpriteIcon2" source="hero_icon_head_wj_dongba_png" anchorOffsetX="0" width="75" anchorOffsetY="0" height="75" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group id="groupNode3" width="69" height="69" x="143" y="2">
+				<e:Image id="imgSpriteFrame3" source="ui_frame_FrameSkill_png" width="88" height="88" horizontalCenter="0" verticalCenter="0" scaleY="0.7" scaleX="0.7"/>
+				<e:Image id="imgSpriteIcon3" source="hero_icon_head_wj_dongba_png" anchorOffsetX="0" width="75" anchorOffsetY="0" height="75" horizontalCenter="0" verticalCenter="0" scaleX="0.7" scaleY="0.7"/>
+				</e:Group>
+				<e:Group id="groupNode4" width="69" height="69" x="213" y="2">
+				<e:Image id="imgSpriteFrame4" source="ui_frame_FrameSkill_png" width="88" height="88" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgSpriteIcon4" source="hero_icon_head_wj_dongba_png" anchorOffsetX="0" width="75" anchorOffsetY="0" height="75" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+			</e:Group>
+			<e:Image id="imgSpriteHunterGrade" source="ui_tavern_IconGrade3_png" x="57" y="91.08"/>
+			<e:Image id="imgSpriteHunterAttType" source="ui_hunter_evaluate_IconHeroType2_png" x="274.56" y="91.08"/>
+			<e:Image id="imgSprite_25" source="ui_hunter_BoardGrad_png" x="40" y="82.98"/>
+			<e:Image id="imgSprite_26" source="ui_hunter_BoardGrad_png" x="259.52" y="82.98"/>
+			<e:Image id="imgSpriteHunterDpt" source="ui_hunter_evaluate_IconHunterType4_png" x="49.68" y="347.34"/>
+			</e:Group>
+			<e:Button id="btnClose" label="" x="585.88" y="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnViewComment" label="" x="510.54" y="497.36">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunterpokedex_ButtonViewInfoNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnHaveHunter" label="" x="378.54" y="497.36">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunterpokedex_ButtonHaveInfoNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkyAreanDropInfoItemAwardSkin" width="66.5" height="65.1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupSum" width="66.5" height="65.1" x="0" y="0">
+		<e:Image id="imageBoard" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0" scaleX="0.7" scaleY="0.7"/>
+		<e:Image id="imageIcon" source="hero_icon_head_wj_kuluoluo_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="rectMask" width="85" height="82" horizontalCenter="-0.75" verticalCenter="-1" source="ui_common_mask_black_jpg" scaleX="0.7" scaleY="0.7" visible="false"/>
+		<e:BitmapLabel id="labelAwardNum" text="1" font="ItemNumWords_fnt" scaleX="0.7" scaleY="0.8" bottom="10" right="8.5"/>
+
+
+	</e:Group>
+	<e:Group id="groupAnimas" width="66" height="66" horizontalCenter="0" verticalCenter="0" touchThrough="true" touchEnabled="false" touchChildren="false"/>
+</e:Skin>

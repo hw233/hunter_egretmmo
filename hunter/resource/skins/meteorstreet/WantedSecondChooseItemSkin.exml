@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WantedSecondChooseItemSkin" width="76" height="75" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" width="76" height="75" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0" scaleX="0.8" scaleY="0.8" x="9" y="-7"/>
+		<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="0" scaleX="0.8" scaleY="0.8" x="9" source=""/>
+		<e:BitmapLabel id="labelTextNum" width="110" height="16" font="ItemNumWords_fnt" text="x5" anchorOffsetX="0" textAlign="right" scaleX="0.7" scaleY="1" bottom="15" right="3"/>
+		<e:Image id="imgLogo" source="ui_currencyicon_IconTavernType1_png" scaleX="0.8" scaleY="0.8" left="4" top="-4" visible="false"/>
+		<e:Group id="groupStar" width="56" height="11.2" scaleX="1" scaleY="1" bottom="10" x="10"/>
+	</e:Group>
+</e:Skin>

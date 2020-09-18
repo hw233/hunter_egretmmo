@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainCityBannerSkin" width="200" height="232" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group" verticalCenter="0" x="0">
+		<e:Image id="banner0" horizontalCenter="0" verticalCenter="0" x="10" y="10" scaleX="1" scaleY="1" source="ui_main_activity_banner_0_png"/>
+		<e:Image id="banner1" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleY="1" source="ui_main_activity_banner_1_png"/>
+		<e:Image id="banner2" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_main_activity_banner_2_png"/>
+		<e:Image id="banner3" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="10" y="10" source="ui_main_activity_banner_3_png"/>
+		<e:layout>
+		<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="imgMask" scaleX="1" scaleY="1" width="200" height="232" x="0" y="0" touchEnabled="false" source="ui_common_mask_black_jpg"/>
+	<e:Group id="groupDot" horizontalCenter="0" bottom="0">
+		<e:Group id="dotg0" width="26" height="16" x="742" y="-203" scaleX="1" scaleY="1">
+			<e:Image id="dot0" source="ui_line_dot_1_t_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group width="26" height="16" x="752" y="-193" scaleX="1" scaleY="1" id="dotg1">
+			<e:Image id="dot1" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_line_dot_2_t_png"/>
+		</e:Group>
+		<e:Group width="26" height="16" x="762" y="-183" scaleX="1" scaleY="1" id="dotg2">
+			<e:Image id="dot2" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_line_dot_2_t_png"/>
+		</e:Group>
+		<e:Group width="26" height="16" x="772" y="-173" scaleX="1" scaleY="1" id="dotg3">
+			<e:Image id="dot3" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_line_dot_2_t_png"/>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

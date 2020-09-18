@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardSellPopDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="640" height="400" verticalCenter="0" horizontalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" y="29" width="635" height="374" horizontalCenter="0" scale9Grid="55,30,335,186"/>
+		<e:Image source="ui_card_BoardCardPopTop_png" y="12" width="640" horizontalCenter="5" scale9Grid="25,8,298,24"/>
+		<e:Image source="ui_card_WordsBulkSell_png" y="18" horizontalCenter="0"/>
+		<e:Image source="ui_card_OrnCardTop_png" y="43" horizontalCenter="0"/>
+		<e:Image source="ui_card_OrnCardPopDown_png" x="340" y="263"/>
+		<e:Image source="ui_card_BoardCardPopTopTip_png" y="65" width="600" horizontalCenter="0" scale9Grid="34,8,32,37"/>
+		<e:Image source="ui_card_WordPopTip_png" y="67" horizontalCenter="0.5"/>
+		<e:Button id="btnClose" label="" x="532.81" y="-7.08" anchorOffsetX="0" width="130" anchorOffsetY="0" height="71">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupBulkSell1" width="132" height="184" x="32" y="146">
+			<e:Button id="btnSellWholeStar1" label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardSelectedStarNor_png" source.down="ui_card_ButtonCardSelectedStarSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="ui_card_IconCardBulkSellStar1_png" y="13" horizontalCenter="0" x="16" scaleX="1" scaleY="1" touchEnabled="false"/>
+			<e:Label id="labelConstSell1" text="出售全部" y="130" size="20" textColor="0x070707" horizontalCenter="0" x="26" scaleX="1" scaleY="1" touchEnabled="false"/>
+			<e:Label id="labelConstStar1" text="1星卡片" y="155" size="20" textColor="0x050404" horizontalCenter="0" x="30" scaleX="1" scaleY="1" touchEnabled="false"/>
+			<e:Group id="groupCheck1" width="28" height="32" right="0" top="0" x="104" y="0" scaleX="1" scaleY="1" touchEnabled="false">
+				<e:Image source="ui_instance_BoardBigon_png" x="0" y="0" touchEnabled="false"/>
+				<e:Image source="ui_instance_IconBigon_png" x="0" y="0" touchEnabled="false"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupBulkSell2" width="132" height="184" x="179" y="146">
+			<e:Button id="btnSellWholeStar2" label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardSelectedStarNor_png" source.down="ui_card_ButtonCardSelectedStarSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="ui_card_IconCardBulkSellStar2_png" y="13" horizontalCenter="0" x="16" scaleX="1" scaleY="1" touchEnabled="false"/>
+			<e:Label id="labelConstSell2" text="出售全部" y="130" size="20" textColor="0x070707" horizontalCenter="0" x="26" scaleX="1" scaleY="1" touchEnabled="false"/>
+			<e:Label id="labelConstStar2" text="2星卡片" y="155" size="20" textColor="0x050404" horizontalCenter="0" x="30" scaleX="1" scaleY="1" touchEnabled="false"/>
+			<e:Group id="groupCheck2" width="28" height="32" y="0" right="0" x="104" scaleX="1" scaleY="1" touchEnabled="false">
+				<e:Image source="ui_instance_BoardBigon_png" x="0" y="0" touchEnabled="false"/>
+				<e:Image source="ui_instance_IconBigon_png" touchEnabled="false"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupBulkSell3" width="132" height="184" x="328" y="146">
+			<e:Button id="btnSellWholeStar3" label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardSelectedStarNor_png" source.down="ui_card_ButtonCardSelectedStarSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="ui_card_IconCardBulkSellStar3_png" y="13" horizontalCenter="0" touchEnabled="false"/>
+			<e:Label id="labelConstSell3" text="出售全部" y="130" size="20" textColor="0x070707" horizontalCenter="0" touchEnabled="false"/>
+			<e:Label id="labelConstStar3" text="3星卡片" y="155" textColor="0x070606" size="20" horizontalCenter="0" touchEnabled="false"/>
+			<e:Group id="groupCheck3" width="28" height="32" y="0" right="0" touchEnabled="false">
+				<e:Image source="ui_instance_BoardBigon_png" y="0" touchEnabled="false"/>
+				<e:Image source="ui_instance_IconBigon_png" x="0" y="0" touchEnabled="false"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupBulkSell4" width="132" height="184" x="477" y="146">
+			<e:Button id="btnSellWholeStar4" label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_card_ButtonCardSelectedStarNor_png" source.down="ui_card_ButtonCardSelectedStarSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="ui_card_IconCardBulkSellStar5_png" y="13" horizontalCenter="0" touchEnabled="false"/>
+			<e:Label id="labelConstSell4" text="出售全部" y="130" size="20" textColor="0x070707" horizontalCenter="0" touchEnabled="false"/>
+			<e:Label id="labelConstStar4" text="4星卡片" y="155" textColor="0x050404" size="20" horizontalCenter="0" touchEnabled="false"/>
+			<e:Group id="groupCheck4" width="28" height="32" y="0" right="0" touchEnabled="false">
+				<e:Image source="ui_instance_BoardBigon_png" y="0" touchEnabled="false"/>
+				<e:Image source="ui_instance_IconBigon_png" x="0" touchEnabled="false"/>
+			</e:Group>
+		</e:Group>
+		<e:Image source="ui_card_BoardCurrency_png" x="101" y="346"/>
+		<e:Label id="labelSellConst" text="出售获得：" x="113" y="355" size="20" textColor="0x070606"/>
+		<e:Label id="labelGetGold" text="9999" x="209" y="355" textColor="0x050404" size="20"/>
+		<e:Image source="ui_currencyicon_IconGold_png" x="278" y="350"/>
+		<e:Button id="btnBulkSell" label="" x="332" y="341">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_card_ButtonCardBulkSellPopNor_png" source.down="ui_card_ButtonCardBulkSellPopSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

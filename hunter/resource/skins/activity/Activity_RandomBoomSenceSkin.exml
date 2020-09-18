@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_RandomBoomSenceSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_acitivity_random_LayerBg_png" horizontalCenter="0" verticalCenter="0" height="100%"/>
+	<e:Group right="180" top="5" anchorOffsetX="0" width="153" anchorOffsetY="0" height="44">
+		<e:Image width="100" height="24" source="ui_common_mask_black_jpg" alpha="0.5" horizontalCenter="1.5" verticalCenter="0"/>
+		<e:Label id="lbGemstone" text="30" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="83.33" textAlign="center" verticalAlign="middle" horizontalCenter="-10" anchorOffsetY="0" height="20" verticalCenter="0"/>
+		<e:Image source="ui_currencyicon_IconGemstone_png" left="6" verticalCenter="0"/>
+		<e:Button id="btnAddGemstone" label="" x="93.02" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group horizontalCenter="0" verticalCenter="23.5">
+		<e:Image source="ui_acitivity_random_LayerBg1_png" x="0" y="0"/>
+	</e:Group>
+	<e:Image source="ui_acitivity_random_LayerBg2_png" horizontalCenter="0" bottom="0" x="-41" y="434" scaleX="1" scaleY="1"/>
+	<e:Image source="ui_acitivity_random_OrnLeftBig_png" x="0" y="0"/>
+	<e:Image source="ui_acitivity_random_OrnLeftSmall_png" left="0" top="155"/>
+	<e:Image source="ui_acitivity_random_OrnLeftSmall_png" scaleX="-1" right="0" top="154"/>
+	<e:Image source="ui_acitivity_random_OrnNpc_png" left="0" bottom="0" visible="false"/>
+	<e:Group width="960" height="589.33" anchorOffsetY="0" horizontalCenter="0" verticalCenter="25.5">
+		<e:Group scaleX="1" scaleY="1" horizontalCenter="174" verticalCenter="-8.16500000000002" width="485" height="355">
+		<e:Group id="groupAni" width="357.58" height="278.79" x="28.53" y="74.21" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="groupLight1" width="128.79" height="68.18" x="57.2" y="-11.26" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="groupLight2" width="100" height="71.21" x="340.27" y="-7.98" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group x="445.91" y="36.89" width="100" height="100">
+			<e:Group id="groupGift" width="100" height="100" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Image id="imageNew" source="ui_mall_IconNew_png" x="-6.65" y="-11.97" scaleX="0.5" scaleY="0.5"/>
+		</e:Group>
+		</e:Group>
+		<e:Group bottom="-0.6699999999999591" horizontalCenter="215">
+			<e:Button id="buttonOne" label="" x="1.48" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_random_ButtonRandomOncyNor_png" source.down="ui_acitivity_random_ButtonRandomOncySel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image source="ui_acitivity_random_BoardRandomGemstone_png" x="0" y="56.04"/>
+			<e:Image id="imageOne" source="ui_iconresources_wawabi3_png" x="35.88" y="52.96"/>
+			<e:Label id="labelOne" text="99" x="94.8" y="69.56" size="22" anchorOffsetX="0" width="137.21" anchorOffsetY="0" height="25" textColor="0xfff600"/>
+			<e:Label id="labelOneFree" text="本次免费" x="10.24" y="62" anchorOffsetX="0" width="175.52" anchorOffsetY="0" height="37.58" verticalAlign="middle" textAlign="center" size="24" textColor="0xfff600" fontFamily="SimHei" visible="false"/>
+			<e:Button id="buttonMore" label="" x="227.88" y="1.68">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_random_ButtonRandomTenNor_png" source.down="ui_acitivity_random_ButtonRandomTenSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image source="ui_acitivity_random_BoardRandomGemstone_png" x="225.17" y="58.44"/>
+			<e:Image source="ui_iconresources_wawabi3_png" x="253.48" y="52.32"/>
+			<e:Label id="labelMore" text="123" x="310.32" y="68.44" textColor="0xfff600" size="22" anchorOffsetX="0" width="111.61" anchorOffsetY="0" height="26"/>
+		</e:Group>
+		<e:Group width="970" height="89" scaleX="1" scaleY="1" horizontalCenter="0" top="3">
+			<e:Image source="ui_acitivity_random_BoardRandomTitle_png" y="0" scaleX="-1" horizontalCenter="0"/>
+			<e:Image id="imageTitle" source="ui_acitivity_random_WordsRandomTitle1_png" x="440.71" y="9.71"/>
+			<e:Label id="labelTextTime" text="2015年1月12日12：15至公元1015年3月6日12:30" x="439.33" y="50.37" size="18" anchorOffsetX="0" width="514.18" anchorOffsetY="0" height="27.61" verticalAlign="middle" textAlign="center"/>
+			<e:Button id="buttonClose" label="" x="29.03" y="-5.39" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group horizontalCenter="-269.5" verticalCenter="40.83499999999998">
+			<e:Image source="ui_acitivity_random_OrnAward_png" x="0" y="0.77"/>
+			<e:Image source="ui_acitivity_random_WordsTipViewAward_png" x="132.54" y="0"/>
+			<e:Group id="groupListMain" width="400" height="388.52" x="47.88" y="37.39" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.9" scaleY="0.9">
+			<e:Scroller width="100%" height="100%" x="0" y="0">
+				<e:List id="listTableView" anchorOffsetY="0" height="100%" x="0" y="40">
+				<e:layout>
+					<e:TileLayout orientation="rows" requestedRowCount="3" requestedColumnCount="3" horizontalGap="37" verticalGap="35"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			</e:Group>
+			<e:Group width="400" height="430" x="46.1" y="0.94" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.9" scaleY="0.9" visible="false">
+			<e:Scroller width="100%" height="100%" x="0" y="0">
+				<e:List id="listTableViewB">
+				<e:layout>
+					<e:TileLayout orientation="columns" requestedRowCount="3" requestedColumnCount="3"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			</e:Group>
+			<e:Image source="ui_acitivity_random_WordsTipCurrencyCore_png" x="56" y="424.29"/>
+			<e:BitmapLabel id="labelCore" width="120" height="27.58" x="170.92" y="427.81" text="1231" font="WordsGiftRmbGes_fnt" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Button id="buttonChangeItem" label="" x="241.04" y="412.09">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_random_ButtonExchangeAwardNor_png" source.down="ui_acitivity_random_ButtonExchangeAwardSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="imgRedTip" source="ui_currencyicon_IconRed_png" x="365" y="408"/>
+		</e:Group>
+		<e:Group id="groupRank" width="70" height="70" right="0" verticalCenter="5">
+			<e:Button id="btnRank" label="" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:zj="zj.*">
+				<e:Image width="100%" height="100%" source="ui_mainui_ButtonMainRankNor_png" source.down="ui_mainui_ButtonMainRankSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+	<e:Image id="imageRect" source="ui_acitivity_random_LayerBg_png" horizontalCenter="0" verticalCenter="0" height="100%" alpha="0.000001" visible="false"/>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AoneRegisterDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="440" height="350" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="440" height="350" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xFFFFFF" fillAlpha="0.9" horizontalCenter="0" verticalCenter="0" ellipseWidth="10" ellipseHeight="10" x="0" y="0" scaleX="1" scaleY="1" strokeColor="0xFFFFFF" strokeAlpha="0"/>
+		<e:Rect width="380" height="1" y="118" horizontalCenter="0" fillColor="0x565859" fillAlpha="0.3" x="30" scaleX="1" scaleY="1"/>
+		<e:Rect width="380" height="1" y="181" fillColor="0x565859" horizontalCenter="0" fillAlpha="0.3" x="30" scaleX="1" scaleY="1"/>
+		<e:Rect id="btnRegister" width="380" height="50" x="31" y="265" fillColor="0x3189EA" anchorOffsetX="0" anchorOffsetY="0" ellipseWidth="8" ellipseHeight="8" scaleX="1" scaleY="1" strokeAlpha="0"/>
+		<e:Rect width="380" height="1" y="244" fillColor="0x565859" horizontalCenter="0" fillAlpha="0.3" x="40" scaleX="1" scaleY="1"/>
+		<e:Image source="aone_account_png" x="50" y="75" width="40" height="40" scaleX="1" scaleY="1"/>
+		<e:Image source="aone_password_png" x="50" y="138" width="40" height="40" scaleX="1" scaleY="1"/>
+		<e:Image id="btnReturn" source="aone_delete_png" x="385.32000000000005" y="-6.639999999999986" width="60" height="60" scaleX="1" scaleY="1"/>
+		<e:Image source="aone_password_png" x="50" y="201" width="40" height="40" scaleX="1" scaleY="1"/>
+		<e:Label text="新账户注册" y="17.00999999999999" anchorOffsetX="0" width="146" textAlign="center" fontFamily="SimHei" size="28" horizontalCenter="0" x="147" scaleX="1" scaleY="1" textColor="0x8A8E8E"/>
+		<e:Label text="立即注册" y="279.99" textAlign="center" size="25" verticalAlign="middle" horizontalCenter="0" fontFamily="SimHei" x="195" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Label id="lbPromptAccount" text="请输入账号，6~18个字符，可使用字母、数字，需以字母开头" x="100" y="80" anchorOffsetX="0" width="308" fontFamily="SimHei" size="18" textColor="0xBEBEBE" anchorOffsetY="0" height="45"/>
+		<e:Label id="lbPromptPassword" text="请输入密码，6~16个字符，区分大小写 " x="100" y="143" anchorOffsetX="0" width="308" fontFamily="SimHei" size="18" textColor="0xBEBEBE" anchorOffsetY="0" height="45" verticalAlign="middle"/>
+		<e:Label id="lbPromptPassword2" text="再次输入密码" x="100" y="206" anchorOffsetX="0" width="308" fontFamily="SimHei" size="18" textColor="0xBEBEBE" anchorOffsetY="0" height="45" verticalAlign="middle"/>
+		<e:EditableText id="lbAccount" width="300" height="45" text="" x="100" anchorOffsetX="0" anchorOffsetY="0" y="84" textColor="0x000000" fontFamily="SimHei" size="30" verticalAlign="top" promptColor="0xbebebe"/>
+		<e:EditableText id="lbPassword" width="300" height="45" text="" x="100" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-7.5" displayAsPassword="true" textColor="0x000000" fontFamily="SimHei" size="30" verticalAlign="middle" promptColor="0xbebebe"/>
+		<e:EditableText id="lbPassword2" width="300" height="45" text="" x="100" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="55.5" displayAsPassword="true" textColor="0x000000" fontFamily="SimHei" size="30" verticalAlign="middle" promptColor="0xbebebe"/>
+	</e:Group>
+</e:Skin>

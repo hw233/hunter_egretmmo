@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterSkillAddDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="670" height="405" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" left="0" top="0" right="0" bottom="0" scale9Grid="120,63,164,63"/>
+		<e:Image source="ui_hunter_OrnFlower_png" top="-16" left="10"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="0" top="-40"/>
+		<e:Image source="ui_hunter_WordsSkillPopTipTop_png" horizontalCenter="0" top="-30"/>
+		<e:Button id="btnClose" label="" right="-15" top="-32">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png" source.disabled="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="645" height="255" horizontalCenter="0" top="25">
+			<e:Image source="ui_hunter_LayerSeconde_png" width="645" height="255" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" scale9Grid="15,10,92,65"/>
+			<e:Group width="620" height="36" horizontalCenter="0" top="10">
+				<e:Image source="ui_hunter_BoardSkillPopInfo_png" left="0" top="0" right="0" bottom="0" scale9Grid="8,4,54,28"/>
+				<e:Image source="ui_hunter_IconSkillPopInfo_png" verticalCenter="0" left="20"/>
+				<e:Label id="labelInfo1" text="猎人可以通过进阶猎人和使用技能卷轴获得技能点" verticalCenter="0" verticalAlign="middle" textAlign="left" size="18" height="30" left="60" right="20" textColor="0x000000" fontFamily="Helvetica"/>
+			</e:Group>
+			<e:Group width="620" height="36" horizontalCenter="0" top="51">
+				<e:Image source="ui_hunter_BoardSkillPopInfo_png" left="0" top="0" right="0" bottom="0" scale9Grid="8,4,54,28"/>
+				<e:Image source="ui_hunter_IconSkillPopInfo_png" verticalCenter="0" left="20"/>
+				<e:Label id="labelInfo2" text="" verticalCenter="0" verticalAlign="middle" textAlign="left" size="18" height="30" left="60" right="20" textColor="0x000000" fontFamily="Helvetica"/>
+			</e:Group>
+			<e:Group width="620" height="36" horizontalCenter="0" top="92">
+				<e:Image source="ui_hunter_BoardSkillPopInfo_png" left="0" top="0" right="0" bottom="0" scale9Grid="8,4,54,28"/>
+				<e:Image source="ui_hunter_IconSkillPopInfo_png" verticalCenter="0" left="20"/>
+				<e:Label id="labelInfo3" text="" verticalCenter="0" verticalAlign="middle" textAlign="left" size="18" height="30" left="60" right="20" textColor="0x000000" fontFamily="Helvetica"/>
+			</e:Group>
+			<e:Image source="ui_hunter_WordsSkillPopTip_png" horizontalCenter="0" top="135"/>
+			<e:Image source="ui_hunter_WordsSkillPopBook_png" left="30" top="175"/>
+			<e:Image source="ui_hunter_WordsSkillPopUpGrade_png" left="30" top="215"/>
+			<e:Group width="421" height="30" y="177" left="150">
+				<e:Image source="ui_hunter_BoardBurSkillPop_png" left="0" right="0" top="0" bottom="0" scale9Grid="94,10,244,12"/>
+				<e:Image id="imgChangeTime" source="ui_hunter_BurSkillPopHunter_png" left="0" top="0" bottom="0" scale9Grid="19,3,386,24" scaleX="1" right="0"/>
+				<e:Image id="imgChangeTimeMask" source="ui_hunter_BoardBurSkillPop_png" scale9Grid="94,10,244,12" width="121" scaleX="1" left="0" top="0" bottom="0"/>
+				<e:Label id="labelChangeTime" text="" left="0" right="0" top="0" bottom="0" size="16" verticalAlign="middle" textAlign="center"/>
+			</e:Group>
+			<e:Group width="421" height="30" left="150" top="217">
+				<e:Image source="ui_hunter_BoardBurSkillPop_png" left="0" right="0" top="0" bottom="0"/>
+				<e:Image id="imgChangeSkill" source="ui_hunter_BurSkillPopTime_png" left="0" top="0" bottom="0" scaleX="1" scale9Grid="19,3,383,24" right="0"/>
+				<e:Image id="imgChangeSkillMask" source="ui_hunter_BoardBurSkillPop_png" width="121" left="0" top="0" bottom="0"/>
+				<e:Label id="labelChangeSkill" text="" size="16" verticalAlign="middle" textAlign="center" left="0" top="0" right="0" bottom="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group width="645" height="105" horizontalCenter="0" bottom="15">
+			<e:Image left="0" top="0" right="0" bottom="0" scale9Grid="29,9,23,12" source="ui_hunter_BoardSkillPop_png"/>
+			<e:Image source="ui_hunter_WordsSkillPopUseBook_png" verticalCenter="0" left="20"/>
+			<e:Group width="95" height="93" verticalCenter="0" left="150">
+				<e:Image id="imgFrame" source="ui_frame_FrameSkill_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgIconSkill" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0" x="134.99999999999994" y="0" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Image source="ui_hunter_WodsSkillPopHaveBook_png" verticalCenter="0" horizontalCenter="0"/>
+			<e:Label id="labelOwn" text="10000" size="22" left="380" width="100" verticalAlign="bottom" textAlign="left" fontFamily="Helvetica" height="27" verticalCenter="0"/>
+			<e:Button id="btnChange" label="" verticalCenter="0" right="20">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonSkillPointChangeNor_png" source.down="ui_hunter_ButtonSkillPointChangeSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

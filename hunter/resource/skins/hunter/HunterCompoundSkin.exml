@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterCompoundSkin" width="900" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMax" horizontalCenter="0" verticalCenter="20" width="780">
+		<e:Image source="ui_hunter_BoardCardPopSeconde_png" width="780" height="565" scale9Grid="65,65,280,396" left="0" top="21"/>
+		<e:Button id="btnClose" label="" top="0" left="-3" scaleX="-1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="0" top="-4"/>
+		<e:Image source="ui_hunter_BoardCompoundTip_png" horizontalCenter="0.5" top="1"/>
+		<e:Group id="groupleft" left="25" top="50" width="320" height="520">
+		<e:Image source="ui_hunterpokedex_BoardHunterAtt_png" scale9Grid="31,50,186,302" left="0" top="0" right="0" bottom="0"/>
+			<e:Scroller width="310" height="512" horizontalCenter="0" verticalCenter="0">
+				<e:List id="listGetHero" height="100%" width="100%">
+					<e:layout>
+						<e:TileLayout requestedColumnCount="3" paddingLeft="0" paddingTop="0" horizontalGap="5" verticalGap="3" rowHeight="100" columnWidth="100" paddingBottom="1"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="groupRight" width="420" height="520" right="11" top="46">
+		<e:Image source="ui_hunter_BoardCompound_png" right="10" left="10" top="10" bottom="10" scale9Grid="4,62,30,378"/>
+		<e:Image source="ui_hunter_BoardCompoundFloorLight_png" y="52" horizontalCenter="0"/>
+		<e:Group id="groupLog" y="34" horizontalCenter="0" width="95" height="93">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" x="0" y="0" width="95" height="93"/>
+			<e:Image id="imgIcon" width="95" height="93" horizontalCenter="0" verticalCenter="0" source=""/>
+			<e:Group id="groupStar" height="16" y="3" scaleX="1" scaleY="1" left="14" width="40"/>
+			<e:BitmapLabel id="labelLevel" height="20" text="123" left="14" bottom="12" font="ItemNum_fnt"/>
+			<e:Image id="imgGrade" source="ui_pet_IconBigPetGrade1_png" width="43" height="46" scaleX="0.5" scaleY="0.5" x="66" y="61"/>
+		</e:Group>
+		<e:Group id="groupTeach3" width="400" height="90" y="122" horizontalCenter="0">
+			<e:List id="listMaterial" left="0" right="0" top="0" bottom="0">
+				<e:layout>
+					<e:HorizontalLayout paddingTop="5" horizontalAlign="contentJustify" gap="-7"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Group y="213" horizontalCenter="0">
+			<e:Image source="ui_hunter_BoardCompoundFloor_png" x="0" y="0" height="205"/>
+			<e:Image id="imgHunterType" source="ui_hunter_evaluate_IconSpriteHeroType1_png" x="62.5" y="1" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="imgHunterName" source="ui_huntername_HunterName44_png" x="105" y="-22" rotation="13.04"/>
+			<e:Group id="groupStart" width="140" height="25" x="228" y="4"/>
+			<e:Group id="groupInfo" width="390" height="60" x="0" y="35">
+			<e:Label text="生命" x="23" y="9" size="18"/>
+			<e:Image source="ui_hunter_BoardCompoundArrow_png" x="59" y="2" scaleX="1" scaleY="1"/>
+			<e:Label id="labelAtt1" text="123123" x="104" y="9" size="18" width="80" height="18" name="labelAtt1"/>
+			<e:Label text="攻击" x="201" y="8" size="18"/>
+			<e:Image source="ui_hunter_BoardCompoundArrow_png" x="238" y="1" scaleX="1" scaleY="1"/>
+			<e:Label id="labelAtt2" text="123123" x="284" y="8" size="18" width="80" name="labelAtt2"/>
+			<e:Label text="防御" x="23" y="39" size="18"/>
+			<e:Image source="ui_hunter_BoardCompoundArrow_png" x="59" y="32" scaleX="1" scaleY="1"/>
+			<e:Label id="labelAtt3" text="123123" x="104" y="39" size="18" width="80" height="18" name="labelAtt3"/>
+			<e:Label text="速度" x="201" y="38" size="18"/>
+			<e:Image source="ui_hunter_BoardCompoundArrow_png" x="238" y="31" scaleX="1" scaleY="1"/>
+			<e:Label id="labelAtt4" text="123123" x="284" y="38" size="18" width="80" name="labelAtt4"/>
+			<e:Group width="390" height="100" y="65" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+				<e:List id="listSkill" top="0" left="0" right="0" bottom="0" verticalCenter="0" horizontalCenter="0" height="90">
+					<e:layout>
+						<e:HorizontalLayout paddingLeft="13" paddingTop="13"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Button id="btnConpound" label="" x="108" y="422" width="176" height="81">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCompoundNor_png" source.down="ui_hunter_ButtonCompoundSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lableConpoundMoney" text="12345678" x="171" y="463" anchorOffsetY="0" height="23" width="90" size="18" textAlign="left" verticalAlign="middle" touchEnabled="false"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupMoney" anchorOffsetX="0" anchorOffsetY="0" height="39" width="334" top="2" right="180">
+		<e:Group id="groupMoney2" left="0">
+		<e:Image source="ui_union_instance_BoardBurInstanceBossBlood_png" scaleX="0.75" y="6" left="0" right="0"/>
+		<e:Image source="ui_currencyicon_IconGold_png" left="0" verticalCenter="0"/>
+		<e:Label id="labelIntegrate" text="904023424" size="20" verticalCenter="0" right="43" left="30" textAlign="center" verticalAlign="middle"/>
+		<e:Button id="btnAddGold" label="" y="0" right="-11">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+		<e:Group id="groupMoney1" y="-1" right="0">
+		<e:Image source="ui_union_instance_BoardBurInstanceBossBlood_png" y="8" scaleY="0.9" scaleX="0.7" left="0" right="0"/>
+		<e:Image source="ui_currencyicon_IconGemstone_png" left="-10" verticalCenter="0"/>
+		<e:Label id="labelToken" text="99999934" size="20" verticalAlign="middle" verticalCenter="0" left="15" right="35" textAlign="center"/>
+		<e:Button id="btnAdddiamond" label="" y="0" right="-13">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

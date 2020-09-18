@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueUnionRewardPreviewSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_union_battle_BoardAwardFloor_png" width="710" scale9Grid="176,231,310,201" horizontalCenter="0" verticalCenter="8"/>
+		<e:Button id="btnSegment" label="" left="43" top="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_ButtonScoreAwardNor_png" source.down="ui_union_battle_ButtonScoreAwardSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnRank" label="" horizontalCenter="-101.5" top="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_ButtonRankAwardNor_png" source.down="ui_union_battle_ButtonRankAwardSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnHegemony" label="" horizontalCenter="32.5" top="0" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_battle_ButtonBestAwardNor_png" source.down="ui_union_battle_ButtonBestAwardSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnClose" label="" right="5" top="6">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupSegment" horizontalCenter="0" verticalCenter="37.5">
+			<e:Image source="ui_union_battle_WordsTodayDuan_png" top="0" x="5"/>
+			<e:Image id="imgMysegment" source="ui_union_battle_segment2_2_png" verticalCenter="-232.5" x="105"/>
+			<e:Image source="ui_union_battle_WordsTodayScore_png" horizontalCenter="-47.5" top="0"/>
+			<e:BitmapLabel id="lbMyScore" width="80" height="34" font="WordsActivityMonthCard_fnt" text="9999" top="0" horizontalCenter="50.5"/>
+			<e:Scroller id="scrollerLins" width="640" height="390" scaleX="1" scaleY="1" horizontalCenter="0" scrollPolicyH="auto" scrollPolicyV="auto" verticalCenter="-7">
+			<e:List id="lstAward" x="12"/>
+			</e:Scroller>
+			<e:Label id="lbLins" text="每日23点结算" size="18" textColor="0x353535" fontFamily="Helvetica" scaleX="1" scaleY="1" width="200" textAlign="center" verticalAlign="middle" right="0" y="3" height="24"/>
+		</e:Group>
+		<e:Group id="groupRank" horizontalCenter="0" verticalCenter="9.5" width="639">
+			<e:Image source="ui_union_battle_WordsRank_png" top="0" x="5"/>
+			<e:BitmapLabel id="lbMyRank" width="70" height="34" font="ArenaRanking_fnt" text="第4名" top="1" x="158"/>
+			<e:Scroller id="scrollerLins0" width="640" height="390" scaleX="1" scaleY="1" horizontalCenter="0" x="-15" verticalCenter="19">
+			<e:List id="lstAward0" x="12"/>
+			</e:Scroller>
+			<e:Label id="lbLins0" text="每周六23点结算奖励" size="18" textColor="0x353535" fontFamily="Helvetica" scaleX="1" scaleY="1" top="3" height="24" width="165" x="476"/>
+		</e:Group>
+		<e:Group horizontalCenter="0" bottom="2">
+			<e:Image source="ui_vip_BoardKefuFloor_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="lbDes" text="获取条件：当日至少参加一次排位战斗" size="20" textColor="0xff9200" fontFamily="Helvetica" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" verticalAlign="middle" textAlign="center" height="24" width="500"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

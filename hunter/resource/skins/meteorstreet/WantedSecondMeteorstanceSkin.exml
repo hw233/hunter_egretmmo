@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WantedSecondMeteorstanceSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imageBackGroud" horizontalCenter="0" verticalCenter="0" height="100%" width="100%" source="ui_meteor_new_bg_png"/>
+		<e:Scroller width="346" height="734.43" left="0" top="90" anchorOffsetY="0" scaleX="0.7" scaleY="0.7" anchorOffsetX="0" scrollPolicyV="on" scrollPolicyH="off">
+			<e:List id="listSelectedBoss" height="209" x="2.86" y="1.43" anchorOffsetX="0" width="346">
+				<e:layout>
+					<e:VerticalLayout gap="20" paddingTop="10"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group horizontalCenter="-117" bottom="34">
+			<e:Image width="310" height="337" scaleX="1" scaleY="1.6" verticalCenter="0" source="ui_meteor_new_diban1_png" left="0"/>
+			<e:Image source="ui_meteor_new_biaoti1_png" x="8" y="1"/>
+			<e:Scroller id="scrollerInfo" width="450" height="606.25" scrollPolicyV="on" scrollPolicyH="off" anchorOffsetY="0" anchorOffsetX="0" x="2" y="52" scaleX="0.8" scaleY="0.8">
+			<e:List id="listBoss" anchorOffsetY="0" height="506.25" width="450"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="groupTeach1" height="628" width="525" scaleX="0.85" scaleY="0.85" bottom="34" horizontalCenter="293">
+			<e:Image source="ui_meteor_new_diban2_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageBackground" source="ui_meteor_new_moxing_png" x="45" y="62"/>
+			<e:Image source="ui_meteor_new_biaoti2_png" x="51" y="9"/>
+			<e:Group id="groupBackgroundAnimation1" width="114.67" height="136" x="70" y="128"/>
+			<e:Group id="groupBackgroundAnimation2" width="114.67" height="136" x="70" y="128"/>
+			<e:Group id="groupNPC" width="114.67" height="136" x="70" y="128"/>
+			<e:Group id="groupTalk" x="166" y="90" width="192" height="77">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="ui_meteor_new_qipao_png"/>
+			<e:Label id="labelTalk" text="我拥有很高的防御和恢复能力" x="21" y="6.54" size="14" anchorOffsetX="0" width="156" textAlign="left" textColor="0x070707" lineSpacing="3" fontFamily="Microsoft YaHei" anchorOffsetY="0"/>
+			</e:Group>
+			<e:Group id="groupNpc" width="114.67" height="136" x="70.33" y="127" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Button id="buttonPlan" label="" x="404" y="18" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_meteor_ButtonPlanNor_png" source.down="ui_meteor_ButtonPlanSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="imageBossType" source="ui_hunter_evaluate_IconHeroType3_png" x="403" y="71"/>
+			<e:Image id="imageBossTypeInfoA" y="147" x="317" source="ui_meteor_WordsName1_png"/>
+			<e:Image id="imageBossTypeInfoB" x="395" y="147" source="ui_meteor_WordsName10_png"/>
+			<e:Group id="groupRight" x="202.8" y="200" anchorOffsetY="0">
+			<e:Group id="groupChallengeBoss2" width="176" height="81" horizontalCenter="32" verticalCenter="0">
+				<e:Button id="buttonStrength" label="" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_meteor_ButtonChangeeStrengthNor_png" source.disabled="ui_meteor_ButtonChangeeStrengthDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Label id="labelStrength" text="首杀免费" y="42" size="20" width="83.33" textAlign="center" scaleX="1" scaleY="1" left="60" anchorOffsetX="0"/>
+			</e:Group>
+			<e:Group id="groupChallengeBoss1" horizontalCenter="40" verticalCenter="0">
+				<e:Button id="buttonElites" label="" height="55" x="0" scaleX="1" scaleY="1" y="18">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_meteor_new_tiaozhan_png" source.down="ui_meteor_new_tiaozhan_png" source.disabled="ui_meteor_new_tiaozhan_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Label text="剩余次数:" bold="true" size="16" x="9" y="0"/>
+				<e:Label id="labelStrengthNum" text="首杀不计次" x="82" size="18" y="0"/>
+			</e:Group>
+			<e:Group id="groupChallengeBoss3" horizontalCenter="0" verticalCenter="0" visible="false">
+				<e:Image source="ui_hunter_WordsSkillHunterTip_png" x="0" verticalCenter="0.5"/>
+				<e:Group width="95" height="93" scaleX="0.7" scaleY="0.7" x="61" top="3">
+				<e:Image id="imageFrameMeterials" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imageIconMeterials" horizontalCenter="0" verticalCenter="0" source=""/>
+				<e:Image id="imageAddSkillMeterials" source="ui_hunter_IconSkillHunterMaterailsAdd_png" y="10" right="14"/>
+				</e:Group>
+				<e:Image source="ui_hunter_BoardHunterStar_png" scaleX="1.5" scaleY="2" bottom="-3" x="43"/>
+				<e:Label id="labelNumMeterials" text="123456" width="103.5" height="24" size="20" bottom="-4" textAlign="center" verticalAlign="middle" x="44"/>
+				<e:Button id="buttonElitesA" label="" x="137" y="8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_meteor_ButtonFightNor_png" source.down="ui_meteor_ButtonFightSel_png" source.disabled="ui_meteor_ButtonFightDis_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Label id="labelElitesA" text="无18" x="183" size="20" anchorOffsetY="0" height="20" y="45"/>
+			</e:Group>
+			</e:Group>
+			<e:Image source="ui_meteor_WordsTipFirstAward_png" x="373" y="298"/>
+			<e:Image source="ui_meteorbiaoqian_png" x="45" y="298"/>
+			<e:Image source="ui_meteor_WordsTipBossAward_png" x="63" y="298"/>
+			<e:Group id="groupAnimate" width="76" height="75" x="384" y="334" scaleX="0.8" scaleY="0.8">
+			<e:Image id="imageFrameFirstBlood" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0" scaleX="0.8" scaleY="0.8"/>
+			<e:Image id="imageIconFirstBlood" horizontalCenter="0" verticalCenter="0" scaleX="0.8" scaleY="0.8" source=""/>
+			<e:Image id="imageGetFirstBlood" source="ui_mall_WordsLingqu_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="labelFirstBlood" bottom="15" right="0" text="x50" height="16" font="ItemNumWords_fnt" scaleX="0.7"/>
+			</e:Group>
+			<e:Group id="groupAward" width="280" height="75" x="50.36" y="334.08" scaleX="0.8" scaleY="0.8">
+			<e:Scroller id="scrollerRewards" width="100%" height="100%" x="0" y="0" scrollPolicyH="on" scrollPolicyV="off">
+				<e:List id="listBossAward" width="280" height="75">
+				<e:layout>
+					<e:TileLayout orientation="rows" requestedRowCount="1" horizontalAlign="center" verticalAlign="middle" rowAlign="justifyUsingGap"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			</e:Group>
+			<e:Image source="ui_meteorbiaoqian_png" x="44" y="404"/>
+			<e:Label id="lableBossName" text="首领特性" size="20" width="107" textAlign="center" x="51" y="408" anchorOffsetX="0" anchorOffsetY="0" height="23"/>
+			<e:Scroller id="scrollerBossSkill" y="438.36" anchorOffsetX="0" scrollPolicyH="on" scrollPolicyV="off" anchorOffsetY="0" height="63" maxWidth="422" width="282.18" horizontalCenter="0">
+			<e:List id="listBossSkill" anchorOffsetX="0" width="236.3">
+				<e:layout>
+				<e:TileLayout orientation="rows" requestedRowCount="1" horizontalGap="1" horizontalAlign="center" rowAlign="justifyUsingHeight" verticalAlign="middle"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+			<e:Image source="ui_meteorbiaoqian_png" x="44" y="506"/>
+			<e:Label text="推荐阵容" size="20" width="107" textAlign="center" x="51" y="510" anchorOffsetX="0" anchorOffsetY="0" height="23"/>
+			<e:Group width="294" height="70" bottom="16" horizontalCenter="0.5">
+			<e:List id="listSysTeam" width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+				<e:layout>
+				<e:TileLayout orientation="rows" horizontalGap="2"/>
+				</e:layout>
+			</e:List>
+			</e:Group>
+			<e:Group id="groupRightNew" width="331.2" height="8" right="94" top="413" touchEnabled="false" anchorOffsetY="0"/>
+			<e:Group id="groupFirstBlood" width="400" height="260" scaleX="1" scaleY="1" top="172" touchThrough="true" touchEnabled="false" touchChildren="false" y="-200.00000000000003" left="63"/>
+			<e:Group id="groupConsume" width="395" height="255" horizontalCenter="-2" top="282" touchThrough="true" touchEnabled="false" touchChildren="false"/>
+		</e:Group>
+
+
+		<e:Image top="0" source="ui_meteor_new_title_png" left="0"/>
+		<e:Button id="buttonReturn" label="" left="0" top="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_novicenew_fanhui_png" source.down="ui_acitivity_novicenew_fanhui_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+
+		<e:Group width="170" height="40" right="180" top="0">
+
+			<e:Image source="ui_hunter_BoardRecources_png" right="42" top="7.5"/>
+			<e:Image top="6" left="11" source="ui_currencyicon_IconGemstone_png"/>
+			<e:Label id="labelGold" text="90.0万" width="106" right="40" size="20" top="10" textAlign="center" anchorOffsetX="0"/>
+			<e:Button id="buttonAddGold" label="" right="15" top="4" width="42" height="32" x="132" y="4" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group width="170" height="40" right="342" top="0">
+
+			<e:Image source="ui_hunter_BoardRecources_png" right="42" top="7.5"/>
+			<e:Label id="labelGemstone" text="9086/169" width="135" top="9" size="20" textAlign="center" x="6" anchorOffsetX="0" anchorOffsetY="0" height="23" verticalAlign="middle"/>
+			<e:Button id="buttonAddpower" label="" right="14" top="4" width="42" height="32">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="ui_currencyicon_IconStrength_png" left="12" top="6"/>
+
+
+		</e:Group>
+	</e:Group>
+</e:Skin>

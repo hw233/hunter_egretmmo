@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetEvolutionSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1685fd390a3"/>
+	<e:Group width="100%" height="100%" x="0" y="0">
+		<e:Group horizontalCenter="0" verticalCenter="0" x="20" y="20" scaleX="1" scaleY="1" height="620">
+			<e:Image source="ui_pet_newpet_BoardEvolutionFloor1_png" width="920" height="600" scale9Grid="27,74,164,103" horizontalCenter="0" verticalCenter="9"/>
+			<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="0" top="5"/>
+			<e:Image source="ui_pet_newpet_WordsEvolution_png" horizontalCenter="0" top="17"/>
+			<e:Button id="btnclose" label="" right="-14" top="12">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png" source.disabled="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group width="890" horizontalCenter="0" top="79">
+			<e:Group y="0" left="0">
+				<e:Image source="ui_pet_newpet_BoardPetImageFloor_png" y="0" left="0"/>
+				<e:Image source="ui_pet_newpet_BoardPetNameFloor_png" horizontalCenter="0" top="9"/>
+				<e:Image id="imgSpriteNow1" source="ui_pet_newpet_WordsNowSelect_png" horizontalCenter="0" bottom="6"/>
+				<e:Label id="lableUnLock1" text="（1阶进化解锁）" size="22" textColor="0xff2600" fontFamily="Microsoft YaHei" horizontalCenter="0.5" bottom="16"/>
+				<e:Image source="ui_pet_newpet_WordsForm1_png" horizontalCenter="-2" top="11"/>
+				<e:Group id="groupNodePet1" width="200" height="200" horizontalCenter="0" verticalCenter="-8"/>
+			</e:Group>
+			<e:Group anchorOffsetX="0" width="260.67" y="0" horizontalCenter="0">
+				<e:Image source="ui_pet_newpet_BoardPetImageFloor_png" x="0" y="0"/>
+				<e:Image source="ui_pet_newpet_BoardPetNameFloor_png" horizontalCenter="-2.335000000000008" top="9"/>
+				<e:Image id="imgSpriteNow2" source="ui_pet_newpet_WordsNowSelect_png" horizontalCenter="-2.335000000000008" bottom="6"/>
+				<e:Label id="lableUnLock2" text="（3阶进化解锁）" size="22" textColor="0xff2600" fontFamily="Microsoft YaHei" horizontalCenter="-1.835000000000008" bottom="18"/>
+				<e:Image source="ui_pet_newpet_WordsForm2_png" horizontalCenter="-0.33500000000000796" top="11"/>
+				<e:Group id="groupNodePet2" width="200" height="200" horizontalCenter="-1.335000000000008" verticalCenter="-6"/>
+			</e:Group>
+			<e:Group y="0" right="0">
+				<e:Image source="ui_pet_newpet_BoardPetImageFloor_png" x="0" y="0"/>
+				<e:Image source="ui_pet_newpet_BoardPetNameFloor_png" horizontalCenter="1" top="9"/>
+				<e:Image id="imgSpriteNow3" source="ui_pet_newpet_WordsNowSelect_png" horizontalCenter="0" bottom="6"/>
+				<e:Label id="lableUnLock3" text="（5阶进化解锁）" textColor="0xff2600" size="22" fontFamily="Microsoft YaHei" horizontalCenter="0.5" bottom="16"/>
+				<e:Image source="ui_pet_newpet_WordsForm3_png" horizontalCenter="-2" top="10"/>
+				<e:Group id="groupNodePet3" width="200" height="200" horizontalCenter="1" verticalCenter="-7"/>
+			</e:Group>
+			<e:Image source="ui_pet_newpet_IconArrow_png" x="261.36" y="118.64"/>
+			<e:Image source="ui_pet_newpet_IconArrow_png" x="580.04" y="118.64"/>
+			</e:Group>
+			<e:Group horizontalCenter="0" bottom="0">
+			<e:Image source="ui_pet_newpet_BoardEvolutionInfoFloor_png" x="0" y="0" width="890" height="200" scale9Grid="15,15,94,94"/>
+			<e:Group y="5.12" horizontalCenter="0">
+				<e:Image source="ui_pet_newpet_BoardEvolutionTitleFloor_png" y="0" horizontalCenter="0"/>
+				<e:Label id="labelEvolutionNum" text="1阶进化" y="6.16" size="22" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group y="38.12" left="15">
+				<e:Image source="ui_pet_newpet_BoardEvolutionInfoFloor1_png" y="0" width="420" scale9Grid="17,50,108,68" left="0"/>
+				<e:Image source="ui_pet_newpet_WordsSkillUp_png" x="3.04" y="40.95" visible="false"/>
+				<e:Image source="ui_pet_newpet_WordsTalentUnLock_png" horizontalCenter="0.5" top="40"/>
+				<e:Image source="ui_pet_newpet_WordsEvolutionResult_png" horizontalCenter="0" top="5"/>
+				<e:Image id="imgSpriteArrow" source="ui_pet_IconArrow_png" x="104.48" y="90.52" visible="false"/>
+				<e:Label id="labelTalent" text="猎人攻击：猎人攻击猎人攻击猎人攻击猎人攻击猎人攻击猎人攻击" size="18" textColor="0x000000" anchorOffsetY="0" height="90.73" anchorOffsetX="0" width="398.43" top="65" left="12" lineSpacing="2" fontFamily="Microsoft YaHei"/>
+				<e:Label id="labelTalent2" text="猎人攻击猎人猎人攻击猎人攻击猎人攻击攻击猎人猎人攻击猎人攻击猎人攻击" size="18" textColor="0x000000" anchorOffsetY="0" height="58.91" anchorOffsetX="0" width="398.43" lineSpacing="2" fontFamily="Microsoft YaHei" left="12" top="107"/>
+			</e:Group>
+			<e:Group y="38.12" right="15">
+				<e:Image source="ui_pet_newpet_BoardEvolutionInfoFloor1_png" y="0" width="420" scale9Grid="17,50,108,80"/>
+				<e:Image source="ui_pet_newpet_WordsEvolutionCost_png" horizontalCenter="0" top="5"/>
+				<e:Group horizontalCenter="-81" bottom="11" width="90" height="90">
+				<e:Group horizontalCenter="0" verticalCenter="-11">
+					<e:Image id="imgSpriteFrameCost1" source="ui_frame_FrameHunterAsh_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imgSpriteIconCost1" source="hero_icon_head_wj_feitan_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+					<e:Button id="btnSpriteAddCost1" label="" right="16" top="1">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ui_hunter_IconSkillHunterMaterailsAdd_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</e:skinName>
+					</e:Button>
+				<e:Group bottom="0" horizontalCenter="0">
+					<e:Image source="ui_pet_newpet_BoardNumFloor_png" scaleX="1.2" horizontalCenter="-0.5" verticalCenter="0"/>
+					<e:Label id="labelNumCost1" text="123456" size="18" horizontalCenter="0.5" verticalCenter="0" textColor="0x1aa500"/>
+				</e:Group>
+				</e:Group>
+				<e:Image id="imgSpriteAdd" source="ui_hunter_IconSkillHunterAdd_png" x="93.52" y="68" visible="false"/>
+				<e:Group x="134.37" y="48.28" visible="false">
+				<e:Image id="imgSpriteFrameCost2" source="ui_frame_FrameHunterAsh_png" x="8.28" y="0" scaleX="0.7" scaleY="0.7"/>
+				<e:Image id="imgSpriteIconCost2" source="hero_icon_head_wj_feitan_png" x="8.84" y="0.72" scaleX="0.7" scaleY="0.7"/>
+				<e:Image id="imgSpriteAddCost2" source="ui_hunter_IconSkillHunterMaterailsAdd_png" x="43.32" y="1.04"/>
+				<e:Image source="ui_pet_newpet_BoardNumFloor_png" x="0" y="67.56" scaleX="1.2"/>
+				<e:Label id="labelNumCost2" text="123456" x="13.4" y="69.52" size="18"/>
+				</e:Group>
+				<e:Group right="12" bottom="14">
+				<e:Button id="btnEvolution" label="" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_pet_newpet_ButtonEvolutionNor_png" source.down="ui_pet_newpet_ButtonEvolutionSel_png" source.disabled="ui_pet_newpet_ButtonEvolutionNor_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Label id="labelNum" text="123456" x="75" y="45.72" size="16"/>
+					<e:Group id="groupLock" horizontalCenter="7" verticalCenter="-5">
+						<e:Label id="labelTTF1" text="宠物星级达到" y="2" textColor="0xff2600" size="20" fontFamily="Microsoft YaHei" horizontalCenter="0"/>
+						<e:Group id="groupNodePetStar" width="100" height="20.67" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+						<e:Label id="labelTTF2" text="可进化" y="49.34" textColor="0xff2600" size="20" fontFamily="Microsoft YaHei" horizontalCenter="0"/>
+					</e:Group>
+				</e:Group>
+			</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

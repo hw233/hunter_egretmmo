@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StoryInstanceMallSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imageBG" source="ui_storyinstance_LayerBGMain_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imageRole" source="ui_storyinstance_RoleKulapika_png" verticalCenter="0" horizontalCenter="-324"/>
+		<e:Group id="groupTalk" y="104.99" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-169">
+			<e:Image id="imageBoardTalk" source="ui_storyinstance_BoardTalkBubble_png" x="21" y="11"/>
+			<e:Label id="LabelTalk" text="我这里可都是好东西，别急，慢慢选~~" x="35" y="32" anchorOffsetX="0" width="187.64" anchorOffsetY="0" height="117.88" textColor="0x000000" size="18" lineSpacing="5"/>
+		</e:Group>
+		<e:Image source="ui_hunter_OrnTop_png" horizontalCenter="0" top="0" width="100%"/>
+		<e:Group left="-23" top="-9">
+			<e:Image source="ui_storyinstance_WordsStoryMall_png" x="120.91" y="8.68"/>
+			<e:Button id="buttonClose" label="" x="0" y="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group right="185" top="-1">
+			<e:Image source="ui_hunter_psychic_BoardRefreshCostNumFloor_png" x="13.63" y="13.96" width="100"/>
+			<e:Image id="imageIcon" source="ui_iconresources_yonghengxinnian1_png" x="0" y="0" scaleX="0.55" scaleY="0.55"/>
+			<e:Label id="labelHaveNum" text="123" x="43.96" y="14.97" anchorOffsetX="0" width="122" anchorOffsetY="0" height="24.67" size="22" verticalAlign="middle" textAlign="left"/>
+		</e:Group>
+		<e:Group verticalCenter="18" right="10">
+			<e:Image source="ui_storyinstance_BoardMallAllItem_png" x="0" y="0"/>
+			<e:Group width="525.33" height="537.33" x="6.67" y="33" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Scroller width="100%" height="100%" x="0" y="0">
+				<e:List id="listInstance"/>
+				</e:Scroller>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_ChangeIconNoneIRSkin" width="620" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lbTitle" text="帮会通用头像" size="18" fontFamily="Helvetica" textColor="0x7a481c" verticalAlign="middle" textAlign="center" verticalCenter="0" horizontalCenter="0"/>
+</e:Skin>

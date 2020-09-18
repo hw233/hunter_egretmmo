@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueBossCelebrateFoodSkin" width="370" height="450" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" anchorOffsetY="0" height="450">
+		<e:Image id="imgFood" source="ui_union_boss_OrnGoodFoodB_png" x="45" y="60.67"/>
+		<e:Image source="ui_union_boss_WordsStrengthAdd_png" y="0" x="104"/>
+		<e:Button id="btnGraEat" label="" y="329.36" x="101">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_boss_ButtonGoodFoodEatAddNor_png" source.down="ui_union_boss_ButtonGoodFoodEatAddSel_png" source.disabled="ui_union_boss_ButtonGoodFoodEatAddDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="btnAddFood" label="" y="329.36" x="101">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_boss_ButtonGoodFoodAddNor_png" source.down="ui_union_boss_ButtonGoodFoodAddSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnEat" label="" y="329.36" x="101">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_boss_ButtonGoodFoodEatNor_png" source.down="ui_union_boss_ButtonGoodFoodEatSel_png" source.disabled="ui_union_boss_ButtonGoodFoodEatDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Image id="imgGold" source="ui_currencyicon_IconGemstone_png" x="147.35" y="398.36"/>
+		<e:Label id="lbMoney" text="500" x="196.7" y="401" size="18" fontFamily="Helvetica" height="24" verticalAlign="middle" textAlign="left" width="164"/>
+		<e:Group x="0" y="294.02">
+			<e:Image id="imgBack" source="ui_union_boss_BoardSkillSuccess_png" width="370" scale9Grid="62,3,373,23" verticalCenter="0" horizontalCenter="0"/>
+			<e:Label id="lbAdd" text="帮中土豪  我就是有钱人  为大家加一道菜" fontFamily="Helvetica" size="18" textAlign="center" verticalCenter="0" verticalAlign="middle" horizontalCenter="0" height="24" width="366"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

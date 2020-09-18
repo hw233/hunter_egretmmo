@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkyAreanMainAwardItemSkin" width="57" height="55.8" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain">
+		<e:Image id="imageBoard" horizontalCenter="0" verticalCenter="0" x="158" y="31" scaleX="0.6" scaleY="0.6" source="ui_frame_FrameHunterOrange1_png"/>
+		<e:Image id="imageIcon" source="hero_icon_head_wj_kuluoluo_png" horizontalCenter="0" verticalCenter="0" scaleX="0.6" scaleY="0.6"/>
+		<e:BitmapLabel id="labelAwardNum" y="32" text="x100" font="ItemNumWords_fnt" scaleX="0.7" scaleY="0.75" right="4"/>
+	</e:Group>
+</e:Skin>

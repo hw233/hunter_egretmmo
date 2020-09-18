@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_DailyFirstChargeItemSkin" width="95" height="93" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="-1" verticalCenter="2"/>
+		<e:Image id="imgIcon" source="hero_icon_head_wj_kete_png" horizontalCenter="-1" verticalCenter="2"/>
+		<e:BitmapLabel id="labelNum" width="90.29" height="21.33" anchorOffsetX="0" anchorOffsetY="0" font="ItemNumWords_fnt" text="x1000" scaleX="0.9" scaleY="0.9" textAlign="right" verticalAlign="middle" horizontalCenter="-2" verticalCenter="27"/>
+	</e:Group>
+</e:Skin>

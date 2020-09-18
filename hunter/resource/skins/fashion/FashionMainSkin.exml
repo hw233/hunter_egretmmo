@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FashionMainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_BoardCardPopSeconde_png" width="780" height="560" scale9Grid="65,32,397,391" x="0" y="30"/>
+		<e:Group id="groupLeft" x="27" y="67">
+			<e:Image source="ui_hunterpokedex_BoardHunterAtt_png" width="320" height="500" horizontalCenter="0" verticalCenter="0"/>
+			<e:Scroller width="310" height="490" scrollPolicyH="off" scrollPolicyV="on" horizontalCenter="0" verticalCenter="0">
+				<e:List id="lstHeroes">
+					<e:layout>
+						<e:TileLayout orientation="rows" horizontalAlign="center" verticalAlign="middle" requestedColumnCount="3" rowAlign="justifyUsingHeight" columnAlign="justifyUsingWidth"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="groupRight" x="366" y="71">
+			<e:Image id="imgFloor" y="0" source="ui_fashion_BoardHunterFloor_png" horizontalCenter="0" scaleX="1.1"/>
+			<e:Label id="lbFashionName" text="罪恶都市 伊尔迷" y="7" size="20" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" horizontalCenter="0" height="24" width="300"/>
+			<e:Image y="281" source="ui_fashion_BoardHunterStandFloor_png" horizontalCenter="0"/>
+			<e:Group id="groupFashion" x="195" y="287"/>
+			<e:Group id="groupProgress" y="328" horizontalCenter="0">
+				<e:Image source="ui_fashion_BoardPageFloor_png" verticalCenter="0" horizontalCenter="0"/>
+				<e:Image source="ui_fashion_IconPageNor_png" x="72" y="16"/>
+				<e:Image source="ui_fashion_IconPageNor_png" x="100" y="16"/>
+				<e:Group id="groupSellect" verticalCenter="0" x="72" width="52" height="23">
+					<e:Image source="ui_fashion_IconPageSel_png" x="0" y="0"/>
+					<e:Image source="ui_fashion_IconPageSel_png" x="29" y="0"/>
+				</e:Group>
+
+
+
+
+			</e:Group>
+
+			<e:Button id="btnLeft" label="" y="128" scaleX="-1.2" left="5" scaleY="1.2" rotation="-7">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonHunterLeftNor_png" source.down="ui_hunter_ButtonHunterLeftSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnRight" label="" y="128" right="5" scaleX="1.2" scaleY="1.2" rotation="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonHunterLeftNor_png" source.down="ui_hunter_ButtonHunterLeftSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group y="394" horizontalCenter="0">
+			<e:Group id="groupBuy" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+				<e:Button id="btnBuy" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_fashion_ButtonBuyNor_png" source.down="ui_fashion_ButtonBuySel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Label id="lbBuyNum" text="123456789" x="73" y="44" size="18" verticalAlign="middle" textAlign="left" fontFamily="Helvetica"/>
+			</e:Group>
+			<e:Button id="btnUse" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_fashion_ButtonUseNor_png" source.down="ui_fashion_ButtonUseSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgUseing" source="ui_fashion_WordsUse_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="lbDes" text="获得猎人可解锁" size="24" textColor="0x000000" verticalAlign="middle" textAlign="center" fontFamily="Helvetica" horizontalCenter="0" verticalCenter="0" height="28" width="300"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="532" y="579" scaleX="1" scaleY="1">
+			<e:Image source="ui_mall_BoardCurrentGemstone_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="当前拥有：" size="20" verticalAlign="middle" textAlign="left" fontFamily="Helvetica" textColor="0xfefb00" verticalCenter="0" x="11" height="24" width="128"/>
+			<e:Image id="imgCost" x="98" source="ui_iconresources_fashionticket3_png" scaleX="0.8" scaleY="0.8" verticalCenter="0"/>
+			<e:Label id="lbToken" text="1234567" x="146" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" verticalCenter="0" height="24" width="96"/>
+		</e:Group>
+		<e:Image y="0" source="ui_fishing_BoardFishingTopTip_png" x="238"/>
+		<e:Image y="13" source="ui_fashion_WordsTitle_png" x="335"/>
+		<e:Button id="btnClose" label="" x="704" y="8">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

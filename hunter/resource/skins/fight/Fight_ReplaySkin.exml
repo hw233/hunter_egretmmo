@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Fight_ReplaySkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="LayerContend" width="200" height="104" x="375.58" y="21.65" anchorOffsetY="0">
+		<e:Group id="SpritFlag1" width="64" height="64" x="17.43" y="42.7" scaleX="0.5" scaleY="0.5"/>
+		<e:Group id="SpritWord1" width="64" height="64" x="18.43" y="32.7" scaleX="0.5" scaleY="0.5" rotation="-35"/>
+		<e:Group id="SpritFlag2" width="64" height="64" x="78.43" y="42.7" scaleX="0.5" scaleY="0.5"/>
+		<e:Group id="SpritWord2" width="64" height="64" x="79.43" y="32.7" scaleX="0.5" scaleY="0.5" rotation="-35"/>
+		<e:Group id="SpritFlag3" width="64" height="64" x="139.43" y="42.7" scaleX="0.5" scaleY="0.5"/>
+		<e:Group id="SpritWord3" width="64" height="64" x="140.43" y="32.7" scaleX="0.5" scaleY="0.5" rotation="-35"/>
+	</e:Group>
+	<e:Group id="Node_313" width="64" height="64" x="487.58" y="239.78" scaleX="0.5" scaleY="0.5"/>
+	<e:Group id="LayerReplayLeft" width="200" height="200" x="210" y="366"/>
+</e:Skin>

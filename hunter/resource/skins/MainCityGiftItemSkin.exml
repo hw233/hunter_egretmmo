@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainCityGiftItemSkin" width="90" height="122" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupItem" left="0" right="0" top="0" bottom="0">
+		<e:Image source="ui_mainui_button_frame_bg_png" horizontalCenter="0" y="0"/>
+		<e:Image source="ui_mainui_button_icon_frame_bg_png" horizontalCenter="0" verticalCenter="-16"/>
+		<e:Group id="groupAni" x="45" y="45"/>
+		<e:Group id="groupGift" scaleX="0.9" scaleY="0.9" x="45" y="45"/>
+		<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="-16" source="ui_mall_icon_button_chengkabutton_png" maxHeight="74" maxWidth="74"/>
+		<e:Image id="imgTip" source="ui_currencyicon_IconRed_png" right="6" top="6"/>
+		<e:Group touchChildren="false" touchEnabled="false" touchThrough="true" horizontalCenter="0" bottom="12">
+			<e:Image id="imgBoard" verticalCenter="0" source="ui_mainui_time_frame_png" left="0" right="0" scale9Grid="42,9,1,6"/>
+			<e:Label id="lbTime" text="剩余：1天" size="14" verticalAlign="middle" textAlign="center" fontFamily="Helvetica" textColor="0xffffff" height="14" verticalCenter="1" left="12" right="12"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

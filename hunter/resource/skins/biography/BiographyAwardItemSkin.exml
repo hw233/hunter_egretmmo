@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BiographyAwardItemSkin" width="85" height="82" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgFrame" horizontalCenter="0" verticalCenter="3" x="9" y="8" source="ui_frame_FrameHunterOrange1_png" scaleX="0.9" scaleY="0.9"/>
+	<e:Image id="imgIcon" source="item_ExpPillD_png" scaleX="0.9" scaleY="0.9" horizontalCenter="0" verticalCenter="0" x="7.4" y="4.8"/>
+	<e:BitmapLabel id="labelNum" width="76" height="17" font="ItemNum_fnt" text="123" anchorOffsetY="0" verticalAlign="right" textAlign="right" anchorOffsetX="0" horizontalCenter="-2.5" verticalCenter="26.5" x="10.6" y="53.6"/>
+	<e:Group id="groupAni" width="0" height="0" horizontalCenter="0" verticalCenter="0" scaleX="0.9" scaleY="0.9" x="43.4" y="40.8"/>
+
+
+</e:Skin>

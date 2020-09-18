@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueBossInfoAwardItemSkin" width="70" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetX="0" width="70" height="70" verticalCenter="5" horizontalCenter="0">
+		<e:Image id="imgBoard" width="95" height="93" source="ui_frame_FrameHunterAsh_png" verticalCenter="0" horizontalCenter="0" scaleX="0.7" scaleY="0.7"/>
+		<e:Image id="imgIcon" width="88" height="87" source="ui_huntericon_IconKuluoluo_png" verticalCenter="0" horizontalCenter="0" scaleX="0.7" scaleY="0.7"/>
+		<e:Group id="groupAdd" width="70" height="70" horizontalCenter="0" verticalCenter="0" x="0" y="-5" scaleX="1" scaleY="1"/>
+
+	</e:Group>
+</e:Skin>

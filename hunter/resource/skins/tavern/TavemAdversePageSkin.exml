@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TavemAdversePageSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Group width="100%" height="100%" x="0" y="0">
+		<e:Rect width="100%" height="100%" x="0" y="0" fillAlpha="0.7" visible="false"/>
+		<e:Group width="812" height="484" horizontalCenter="0" bottom="69" y="87" scaleX="1" scaleY="1">
+			<e:Image source="ui_tavern_BoardFloor_png" verticalCenter="0" horizontalCenter="0" x="40" y="56" scaleX="1" scaleY="1" width="812"/>
+			<e:Image source="ui_tavern_Words4_png" bottom="0" y="273" scaleX="1" scaleY="1" right="52"/>
+			<e:Image source="ui_tavern_Words3_png" bottom="0" x="52" y="273" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_tavern_Words2_png" y="75" scaleX="1" scaleY="1" right="52"/>
+			<e:Image source="ui_tavern_Words1_png" x="52" scaleX="1" scaleY="1" height="200" anchorOffsetY="0" bottom="209"/>
+			<e:Image source="ui_tavern_BoardTitleFloor_png" scaleX="1" scaleY="1" horizontalCenter="0" top="-41"/>
+			<e:Image source="ui_tavern_WordsTitleOpen_png" scaleX="1" scaleY="1" horizontalCenter="0" top="-30"/>
+			<e:Image source="ui_tavern_WordsTips_png" y="35" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Label id="labelGiftNum" text="剩余购买次数:2/2" size="16" x="432" y="252" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_tavern_BoardTimeFloor_png" horizontalCenter="0" top="492"/>
+			<e:Label id="labelTime" text="活动倒计时：1天12小时23分" size="22" textColor="0x0befe1" scaleX="1" scaleY="1" horizontalCenter="0" x="274" y="492"/>
+			<e:Button id="btnClose" label="" y="25" anchorOffsetX="50.17" anchorOffsetY="43.5" scaleX="1" scaleY="1" height="55" width="90" right="-15">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

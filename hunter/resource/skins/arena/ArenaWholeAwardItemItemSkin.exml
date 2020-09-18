@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaWholeAwardItemItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" scaleX="0.75" scaleY="0.75" width="95" height="93" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon" anchorOffsetX="0" width="86" anchorOffsetY="0" height="84" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:Image id="imgFrame1" source="ui_frame_FrameHunterSPAsh_png" visible="false"/>
+
+		<e:BitmapLabel id="labelNum" bottom="14" text="x1" anchorOffsetX="0" textAlign="right" anchorOffsetY="0" right="9" font="ItemNumWords_fnt"/>
+		<e:Group id="groupClip" width="95" height="93" horizontalCenter="0" verticalCenter="0">
+
+		</e:Group>
+		<e:Image id="imgLogo" source="ui_icon_PieceRelation_png" left="0" top="0"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonLevelUpSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" top="170">
+		<e:Image source="ui_wonderland_BoardUseFruitAward_png" x="0" y="0"/>
+		<e:Group y="77" anchorOffsetX="0" width="380" horizontalCenter="125">
+			<e:Label text="当前体力变化" size="20" verticalCenter="0" left="0"/>
+			<e:Label id="labelValue1" text="1000" size="20" verticalCenter="0" left="145"/>
+			<e:Image source="ui_common_IconArrow_png" verticalCenter="0" left="225"/>
+			<e:Label id="labelUp1" text="11100" size="20" verticalCenter="0" left="305" textColor="0x1bfcff"/>
+		</e:Group>
+		<e:Group y="162" anchorOffsetX="0" width="380" horizontalCenter="125">
+			<e:Label text="体力上限变化" size="20" verticalCenter="0" left="0"/>
+			<e:Label id="labelValue2" text="1000" size="20" verticalCenter="0" left="145"/>
+			<e:Image source="ui_common_IconArrow_png" verticalCenter="0" left="225"/>
+			<e:Label id="labelUp2" text="1110" verticalCenter="0" size="20" left="305" textColor="0x1bfcff"/>
+		</e:Group>
+	</e:Group>
+	<e:Group horizontalCenter="0" top="449" width="732">
+		<e:Image source="ui_common_BoardLevelOpenSys_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_common_WordsLevelOpenSys_png" verticalCenter="0.5" left="106"/>
+		<e:Group id="groupFunc1" left="303" verticalCenter="0.5">
+			<e:Group y="0" horizontalCenter="0">
+				<e:Image source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgFunc1" source="hero_icon_head_wj_jidou_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group y="86" horizontalCenter="0">
+				<e:Image source="ui_exchange_BoardFruitName_png" scaleX="0.7" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelFunc1" text="商店" horizontalCenter="0" verticalCenter="0" fontFamily="SimHei" textColor="0xebd076" size="18"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupFunc2" right="125" verticalCenter="0.5">
+			<e:Group y="0" horizontalCenter="0">
+			<e:Image source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgFunc2" source="hero_icon_head_wj_jidou_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group y="86" horizontalCenter="0">
+			<e:Image source="ui_exchange_BoardFruitName_png" scaleX="0.7" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelFunc2" text="装备锻造" horizontalCenter="0" verticalCenter="0" textColor="0xebd076" size="18"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Label id="labelClose" text="点击任意位置关闭" size="20" horizontalCenter="0" bottom="15"/>
+	<e:Group id="groupAdd" horizontalCenter="0" top="160"/>
+	<e:Group id="groupUp" horizontalCenter="0" y="134">
+		<e:Image source="ui_common_WordsTipUpLevel_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:BitmapLabel id="labelLevel" width="92" height="37" font="PlayerUpLevel_fnt" text="61" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalCenter="0" right="39"/>
+	</e:Group>
+	<e:Group id="groupAni" width="217" height="358" x="154" y="83" anchorOffsetY="0" anchorOffsetX="0"/>
+</e:Skin>

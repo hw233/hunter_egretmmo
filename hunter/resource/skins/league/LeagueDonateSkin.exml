@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Donate" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">-->-->
+	<e:Group anchorOffsetX="0" width="960" height="640" anchorOffsetY="0" horizontalCenter="0" verticalCenter="1">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="670" height="455" anchorOffsetY="0" scale9Grid="120,45,176,82" fillMode="scale" verticalCenter="34.5" horizontalCenter="0"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" x="161" y="116.3" scale9Grid="17,3,104,23"/>
+
+
+		<e:Group y="87.8" anchorOffsetX="0" width="323" anchorOffsetY="0" height="62" horizontalCenter="0.5">
+			<e:Group id="groupBackdrop" width="475.34" height="111.66" top="-77" anchorOffsetY="0" anchorOffsetX="0" y="-48.5" scaleX="1" scaleY="1" horizontalCenter="0">
+				<e:Image source="ui_wonderland_OrnUseFruit_png" horizontalCenter="0" top="0" scale9Grid="196,18,177,113" x="0" y="0" scaleX="1" scaleY="1" visible="false"/>
+			</e:Group>
+			<e:Image id="imgTop" source="ui_fishing_BoardFishingTopTip_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" y="2" scaleX="0" scaleY="0"/>
+			<e:Image id="imgDonate" source="ui_union_WordsTipConstruction_png" anchorOffsetX="0" width="110" anchorOffsetY="0" scaleX="0" scaleY="0" y="17" horizontalCenter="0"/>
+		</e:Group>
+
+
+		<e:Image source="ui_union_IconConstructionEXP_png" x="215" y="167.64" scale9Grid="10,7,61,49"/>
+		<e:Label id="lbTextLevel" text="帮会等级：99" x="303.36" y="168.65" width="300" height="25" textColor="0x568302" size="20" fontFamily="Helvetica" verticalAlign="middle" textAlign="left"/>
+		<e:Group id="groupExp" x="293.2" y="202.3">
+			<e:Image source="ui_union_BoardBurPlayerActivity_png" width="428" horizontalCenter="-1" verticalCenter="0"/>
+			<e:Image id="imgSpriteBarExp" source="ui_union_BurConstruction_png" width="422" scale9Grid="52,9,318,5" horizontalCenter="-2" verticalCenter="0" height="23"/>
+			<e:Image id="imgburBoart" source="ui_union_BoardBurPlayerActivity_png" width="428" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" visible="false"/>
+			<e:Label id="lbTextProgress" text="123/1234" size="18" horizontalCenter="0" verticalCenter="0" height="24" verticalAlign="middle" textAlign="center" fontFamily="Helvetica" width="260"/>
+		</e:Group>
+
+		<e:Group y="240.61" horizontalCenter="0">
+			<e:Image source="ui_hunter_LayerSeconde_png" width="640" height="275" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="15,10,92,65" horizontalCenter="0" verticalCenter="0"/>
+			<e:Scroller width="625" height="265" scrollPolicyH="off" scrollPolicyV="off" horizontalCenter="0" y="0">
+				<e:List id="lstDonateChoice" width="100%" height="100%">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" requestedColumnCount="3" verticalAlign="bottom" verticalGap="0" paddingTop="0" horizontalGap="0" rowAlign="top" columnAlign="left"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Label id="lbRightTip" text="剩余次数：2 / 2" x="630" y="543.3" size="18" textColor="0x000000" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" height="24" width="177"/>
+		<e:Button id="btnDonate" label="" y="525.13" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonConstructionNor_png" source.down="ui_union_ButtonConstructionSel_png" source.disabled="ui_union_ButtonConstructionDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnClose" label="" x="783" y="96.63" anchorOffsetX="45">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+					-->
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterBreakSkillDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group" width="510" height="440" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_break_BoardBreakBigFloor_png" bottom="0" scale9Grid="104,30,223,47" left="0" right="0" top="38"/>
+		<e:Image source="ui_card_BoardCardPopTop_png" left="0" right="0" top="0" scale9Grid="156,15,113,14" anchorOffsetX="0"/>
+		<e:Image id="imgTitle" source="ui_hunter_break_WordsSkillTitle1_png" horizontalCenter="0" top="6"/>
+		<e:Button id="btnClose" label="" top="-8" right="-15">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png" source.disabled="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="mainGroup" width="500" height="344" horizontalCenter="0" top="50">
+			<e:Image source="ui_pet_newpet_BoardSkillFloor_png" left="2.5" top="2.5" bottom="2.5" right="2.5" fillMode="scale" scale9Grid="26,28,30,0"/>
+			<e:Scroller width="490" height="340" horizontalCenter="0" verticalCenter="0">
+			<e:List id="listStarAward" width="100%" height="100%" y="0" itemRendererSkinName="HunterHeroItemSkin" x="0" scaleX="1" scaleY="1">
+				<e:layout>
+					<e:VerticalLayout paddingTop="6" paddingBottom="6" gap="5"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Label id="labelCondition" text="使用过程中可随时更换其他同阶突破技" width="437" height="40" bottom="3" verticalAlign="middle" textAlign="center" size="18" textColor="0xc6863a" fontFamily="Arial" anchorOffsetX="0" bold="true" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

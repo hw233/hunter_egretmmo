@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StoryInstanceAdventureSkin" width="450" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_instance_LayerInstance_png" x="16" y="20.5" width="430" height="565" scale9Grid="11,11,73,73"/>
+		<e:Image source="ui_instance_BoardTopTip_png" x="13" y="18.5" scaleX="1.33"/>
+		<e:Image source="ui_instance_OrnGreenLeafBig_png" x="0" y="20.5"/>
+		<e:Image source="ui_instance_OrnGreenLeafSmall_png" x="409" y="558"/>
+		<e:Image id="imgChapter1" source="ui_storyinstance_TitleInstancenifeibiduo_png" x="47.74" y="-0.32"/>
+		<e:Group width="419" height="527" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="4.5" verticalCenter="18.5">
+			<e:Scroller id="scrollerAdventure" width="419" anchorOffsetY="0" height="525" horizontalCenter="0" verticalCenter="0">
+				<e:List id="listInstance">
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

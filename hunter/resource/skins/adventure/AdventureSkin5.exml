@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AdventureSkin5" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:zj="zj.*" states="up,down,disabled"  width="165" height="121">
+	<e:Image id="imgBuild" scaleX.down="1.06" scaleY.down="1.06" horizontalCenter="0" verticalCenter="0" source="adv_build_5_png"/>
+	<e:Group id="ani0" x="79" y="23" name="advent_ani_volcano"/>
+	<e:Image id="imgElite" x="5" y="9" source="ui_instance_Board_Open_Title2_png"/>
+	<zj:AdventureTitle id="adventureTitle" skinName="AdventureTitleSkin" y="59" x="16"/>
+	<e:Group id="touch" height="121" width="165" y="0" x="0" anchorOffsetY="0" anchorOffsetX="0">
+	</e:Group>
+</e:Skin>

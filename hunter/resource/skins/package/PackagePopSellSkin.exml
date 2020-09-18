@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Group id="groupSell" width="340" height="405" horizontalCenter="0" verticalCenter="0" scaleX="1.1" scaleY="1.1">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="340" height="405" horizontalCenter="-3" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" scale9Grid="96,30,215,106"/>
+		<e:Group y="34" horizontalCenter="0">
+			<e:Group id="groupItem" x="26" width="95" height="93" verticalCenter="0">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" width="95" height="93" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgIcon" width="88" height="87" scaleX="1" scaleY="1" source="hero_icon_wj_kuluoluo_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group x="137" height="68" width="175" verticalCenter="0">
+			<e:Label id="lbName" text="物品名称" width="175" height="24" size="18" x="0" scaleX="1" scaleY="1" bold="true" fontFamily="Helvetica" textColor="0x000000" verticalAlign="middle" textAlign="left" y="-2"/>
+			<e:Label id="lbType" text="羁绊卡碎片" size="18" width="175" height="24" x="0" scaleX="1" scaleY="1" bold="true" verticalCenter="0" fontFamily="Helvetica" textColor="0x000000" verticalAlign="middle" textAlign="left"/>
+			<e:Label id="lbNum" text="拥有 999 件" width="175" height="24" size="18" x="0" scaleX="1" scaleY="1" bold="true" bottom="-2" textColor="0x000000" fontFamily="Helvetica" verticalAlign="middle" textAlign="left"/>
+			</e:Group>
+		</e:Group>
+		<e:Group y="150" width="305" height="160" horizontalCenter="0">
+			<e:Image source="ui_card_ButtonCardSelectedStarNor_png" width="305" height="160" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="选择出售数量：" size="20" width="261" height="24" y="17.18" scaleX="1" scaleY="1" bold="true" anchorOffsetX="0" anchorOffsetY="0" x="23" fontFamily="Helvetica" textColor="0x000000" verticalAlign="middle"/>
+			<e:Group x="20" y="50" width="260" height="39">
+			<e:Image source="ui_card_BoardCurrency_png" height="39" width="260" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="lbCount" text="999" width="132" height="31" size="18" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" x="16.39" textAlign="center" verticalAlign="middle" textColor="0x000000" verticalCenter="0" bold="true"/>
+			<e:Button id="btnSub" label="" width="38" scaleX="1" scaleY="1" left="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedReduceNor_png" source.down="ui_bag_ButtonBagSelectedReduceSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnAdd" label="" width="38" x="125" scaleX="1" scaleY="1" verticalCenter="0.5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedAddNor_png" source.down="ui_bag_ButtonBagSelectedAddSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnMax" label="" scaleX="1" scaleY="1" verticalCenter="0.5" right="2">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedMaxNor_png" source.down="ui_bag_ButtonBagSelectedMaxSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+
+			</e:Group>
+		</e:Group>
+		<e:Group x="39" y="261" height="39">
+			<e:Label text="预计收益：" size="20" width="123" height="24" x="0" scaleX="1" scaleY="1" bold="true" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" textColor="0x000000" fontFamily="Helvetica" verticalAlign="middle" textAlign="left"/>
+			<e:Image width="55" height="55" x="81.83" source="ui_iconresources_jinbi3_png" scaleX="0.9" scaleY="0.9" verticalCenter="0"/>
+			<e:Label id="lbIncome" text="123456" width="163" height="24" size="18" x="121" scaleX="1" scaleY="1" textColor="0x000000" verticalCenter="0.5" bold="true" fontFamily="Helvetica" verticalAlign="middle" textAlign="left"/>
+		</e:Group>
+		<e:Image width="70%" height="25%" anchorOffsetX="0" anchorOffsetY="0" right="9" bottom="22" source="ui_card_OrnCardPopDown_png" visible="false"/>
+		<e:Button id="btnSell" label="" y="340" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_bag_ButtonMaxSellNor_png" source.down="ui_bag_ButtonMaxSellSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<e:Button id="btnClose" label="" x="269" y="-27" anchorOffsetX="0" width="81" anchorOffsetY="0" height="51" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

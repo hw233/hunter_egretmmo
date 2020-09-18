@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityTimeRaseDaysItemSkin" width="122" height="63" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lbDays" text="第一天" y="132" size="16" fontFamily="Helvetica" horizontalCenter="0" visible="false"/>
+	<e:Group left="0" bottom="0">
+		<e:Button id="btnClick" label="" horizontalCenter="-6.5" verticalCenter="2.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_timerace_ButtonDaysNor_png" source.down="ui_acitivity_timerace_ButtonDaysSel_png" source.disabled="ui_acitivity_timerace_ButtonDaysDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgDays" source="ui_acitivity_timerace_WordsDay1Nor_png" horizontalCenter="-4.5" top="12"/>
+		<e:Label id="lbRaceNum" text="（完成20公里）" size="16" fontFamily="Helvetica" bottom="4" anchorOffsetY="0" height="30" anchorOffsetX="0" width="126" textAlign="center" verticalAlign="bottom" horizontalCenter="-4.5"/>
+		<e:Image id="imgClock" source="ui_currencyicon_IconLock_png" right="10" top="1"/>
+		<e:Image id="imgTip" source="ui_currencyicon_IconRed_png" right="16" top="6" visible="false"/>
+	</e:Group>
+</e:Skin>

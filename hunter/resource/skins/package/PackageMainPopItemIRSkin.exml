@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PackageMainPopItem" width="132" height="184" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" width="130" height="180" anchorOffsetX="75" anchorOffsetY="90" horizontalCenter="0" verticalCenter="0">
+		<e:Button id="btnItem" label="" width="132" height="184" scaleX="0.9" scaleY="0.9" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_card_ButtonCardSelectedStarNor_png" source.down="ui_card_ButtonCardSelectedStarSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupItem" y="25" horizontalCenter="0">
+			<e:Image id="imgFrame" width="95" height="93" source="ui_frame_FrameHunterAsh_png" touchEnabled="false" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgIcon" width="88" height="87" source="hero_icon_wj_kuluoluo_png" touchEnabled="true" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image id="imgLogo" anchorOffsetX="0" width="19" anchorOffsetY="0" height="18" left="20" bottom="141" x="23" y="39" scaleX="1" scaleY="1" source="ui_currencyicon_IconTavernType1_png" touchEnabled="false" visible="false"/>
+		<e:Label id="lbNum" text="x5" x="39.5" y="85" size="24" verticalAlign="top" textAlign="right" anchorOffsetX="0" width="63" scaleX="1" scaleY="1" touchEnabled="false" bold="true" height="28" fontFamily="Helvetica"/>
+		<e:Label id="lbName" text="**信物x10" y="100" size="16" width="110" height="80" anchorOffsetY="0" horizontalCenter="0" textAlign="center" textColor="0x070707" verticalAlign="middle" touchEnabled="false" fontFamily="Helvetica"/>
+	</e:Group>
+</e:Skin>

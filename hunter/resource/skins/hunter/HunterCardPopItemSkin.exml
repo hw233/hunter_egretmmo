@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterCardPopItemSkin" width="110" height="128" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image source="ui_card_BoardCardItem_png" left="0" top="0" right="0" bottom="0" scale9Grid="13,16,85,96"/>
+		<e:Image id="imgCardGet" source="ui_card_ButtonNodeCardTipGetNor_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="groupAnimation" width="93" height="92" y="10" x="9"/>
+
+		<e:Group id="groupAll" left="0" top="0" right="0" bottom="0">
+
+			<e:Image id="imgFrame" left="8" top="10" right="9" bottom="26" width="93" source="ui_frame_FrameHunterRed1_png"/>
+
+			<e:Image id="imgCardType" source="ui_hunter_evaluate_IconCardTypeOrn6_png" right="12" top="11"/>
+			<e:Image id="imgCard" source="card_047shuimianshaonvA_11s_png" horizontalCenter="0" top="5" width="104" height="106"/>
+			<e:Group id="groupStar" width="60" height="20" left="17" bottom="32"/>
+			<e:Label id="labelCardName" text="丰收之树" size="15" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" horizontalCenter="0" bottom="7" height="19" width="100" textColor="0x000000"/>
+			<e:Image id="imgHunterType" source="ui_card_BoardHunterName_png" horizontalCenter="0" bottom="5" locked="true" visible="false"/>
+			<e:Image id="imgNew" source="ui_card_WordsNew_png" left="10" top="5" visible="false"/>
+			<e:Image id="imgLock" source="ui_currencyicon_IconLock_png" top="8" left="13"/>
+			<e:Label id="labelLevel" text="1" width="40" size="18" textAlign="right" verticalAlign="middle" right="22" bottom="38" height="20"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

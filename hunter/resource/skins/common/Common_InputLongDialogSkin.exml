@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_InputLongDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0" anchorOffsetY="0" height="345" width="535">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="535" height="345" anchorOffsetY="0" fillMode="scale" scale9Grid="120,45,176,82" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" x="20" y="-12.35" scale9Grid="17,3,104,23"/>
+		<e:Image source="ui_union_OrnInputAnnouncement_png" x="321" y="17"/>
+		<e:Image id="imgTip" x="21" y="34" source="ui_union_WordsInputUnionAnnouncementB_png"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" width="505" height="210" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="15,10,92,65" y="67" horizontalCenter="0"/>
+		<e:Label id="lbContent" text="请输入内容（最长不可超过40个字）" y="77" width="480" height="190" textColor="0xb19782" size="20" horizontalCenter="0.5" visible="false"/>
+		<e:TextInput id="textContent" width="480" height="190" y="76" horizontalCenter="0.5"/>
+
+		<e:Group horizontalCenter="0.5" bottom="11">
+			<e:Button id="btnCancel" label="" y="0" x="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonCancelNor_png" source.down="ui_union_ButtonCancelSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="btnConfirm" label="" x="206" y="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonOkNor_png" source.down="ui_union_ButtonOkSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+
+
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityTimeRaceMissionItemSkin" width="840" height="82" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupContent" height="81" x="1" y="1">
+		<e:Group horizontalCenter="0" verticalCenter="0" height="81">
+			<e:Image source="ui_acitivity_timerace_BoardMissionFloor_png" scale9Grid="104,18,424,53" x="0" y="0"/>
+			<e:Label id="lbMissionDes" text="通关普通副本10次（10/10)" x="232" size="18" textColor="0x000000" fontFamily="Helvetica" y="31" anchorOffsetX="0" width="295" anchorOffsetY="0" height="27"/>
+
+			<e:Image source="ui_acitivity_timerace_WordsYiDong_png" x="85" y="29"/>
+			<e:Image source="ui_acitivity_timerace_WordsGongLi_png" x="162" y="29"/>
+			<e:Group x="542" y="5" width="340" height="73">
+				<e:Scroller width="340" height="73" x="0" y="0" anchorOffsetY="0">
+				<e:List id="listViewAward" anchorOffsetY="0" height="74" x="0" y="-2">
+					<e:layout>
+					<e:TileLayout paddingTop="0"/>
+					</e:layout>
+				</e:List>
+				</e:Scroller>
+			</e:Group>
+			<e:BitmapLabel id="lbRaceNum" width="34" height="24" x="129" y="28" font="ItemNumWords_fnt" text="99" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"/>
+			<e:Group id="groupIcon" x="4" y="5">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" x="0" scaleX="0.8" scaleY="0.8" y="0"/>
+			<e:Image id="imgIcon" horizontalCenter="1.5" verticalCenter="-2" source="ui_acitivity_timerace_IconRace_png"/>
+			</e:Group>
+			<e:Button id="btnGo" label="" x="649" y="13">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_special_ButtonSpecalGoNor_png" source.down="ui_acitivity_special_ButtonSpecalGoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnCharge" label="" x="649" y="13">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_daily_ButtonChargeNor_png" source.down="ui_daily_ButtonChargeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnReward" label="" x="644" y="12">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_daily_ButtonGetAwardNor_png" source.down="ui_daily_ButtonGetAwardSel_png" source.disabled="ui_daily_ButtonGetAwardDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="imageDone" source="ui_daily_WordsLingquEnd_png" x="677" y="1"/>
+			<e:Group id="groupMain" width="109" height="64" x="542" y="10" anchorOffsetX="0" anchorOffsetY="0" touchThrough="true" touchEnabled="false" touchChildren="false"/>
+		</e:Group>
+		<e:Group id="groupLock" horizontalCenter="-27" verticalCenter="0" touchThrough="true" touchChildren="false" touchEnabled="false">
+			<e:Image id="imgShadow" source="ui_daily_Mask_png" width="838" height="81" scale9Grid="11,13,68,79" y="0" horizontalCenter="1"/>
+			<e:Image id="imgLock" source="ui_currencyicon_IconLock_png" x="329" y="20"/>
+			<e:Label id="lbLevel" text="队伍达到多少级开启" x="369" y="29" textColor="0xff2600" size="20" fontFamily="Helvetica"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

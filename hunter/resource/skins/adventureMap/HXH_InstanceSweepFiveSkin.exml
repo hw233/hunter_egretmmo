@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_InstanceSweepFiveSkin" width="520" height="540" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="520" height="540" verticalCenter="0" horizontalCenter="0">
+		<e:Image source="ui_instance_LayerInstance_png" width="520" height="475" scale9Grid="12,13,71,70" verticalCenter="0.5" horizontalCenter="0"/>
+		<e:Image source="ui_instance_BoardSearch_png" width="505" height="385" scale9Grid="19,17,117,104" verticalCenter="1.5" horizontalCenter="-0.5"/>
+		<e:Image source="ui_instance_BoardTopTip_png" x="260" anchorOffsetY="14" anchorOffsetX="260.5" width="521" top="30"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" anchorOffsetX="152" anchorOffsetY="29" top="0" horizontalCenter="0"/>
+		<e:Image source="ui_wipe_WordsWipeTipFive_png" anchorOffsetX="57.5" anchorOffsetY="15" horizontalCenter="0.5" top="9"/>
+		<e:Image source="ui_instance_IconPoint_png" x="9" y="36"/>
+		<e:Image source="ui_instance_IconPoint_png" x="497" y="36"/>
+		<e:Image source="ui_instance_IconPoint_png" x="9" y="484"/>
+		<e:Image source="ui_instance_IconPoint_png" x="497" y="484"/>
+		<e:Group id="groupTableViewDrops" width="520" height="380" x="0" y="80">
+		</e:Group>
+		<e:Scroller id="scroller" width="500" height="375" x="10" y="82" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="list">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="labelTTF" text="正在扫荡中..." x="209" y="483" size="20"/>
+		<e:Button id="btnGet" label="" x="260" y="507" anchorOffsetX="84.5" anchorOffsetY="28">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wipe_ButtonWipeGetNor_png" source.down="ui_wipe_ButtonWipeGetSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

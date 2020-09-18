@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueLogContentItemSkin" width="530" height="57" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="23" y="4" anchorOffsetY="0" height="53">
+		<e:Image source="ui_union_BoardUnionLogTimeSmall_png" x="0" y="0" scale9Grid="10,9,61,10"/>
+		<e:Label id="lbTime" text="16:03" size="18" fontFamily="Helvetica" x="16" y="3" height="24" verticalAlign="middle" width="69"/>
+		<e:Label id="lbContent" text="老王帅气地做了一个托马斯全旋外加七百二十度转身然后" x="87" y="2" textColor="0x411a03" size="16" fontFamily="Helvetica" width="420" height="40" anchorOffsetY="0" verticalAlign="top"/>
+	</e:Group>
+</e:Skin>

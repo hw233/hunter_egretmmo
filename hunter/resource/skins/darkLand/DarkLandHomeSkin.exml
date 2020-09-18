@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DarkLandHomeSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+
+		<e:Image source="ui_common_BoardChangeAchievementsB_png" width="120%" height="200" horizontalCenter="0" bottom="0" scale9Grid="5,5,58,60"/>
+		<e:Group id="groupScene" width="960" height="640" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="groupTeach1" height="282" anchorOffsetY="0" anchorOffsetX="0" width="400" scaleX="1" scaleY="1" left="96" top="37"/>
+			<e:Image id="imageBackGroud" source="ui_darkland_LayerBg_jpg" horizontalCenter="0" verticalCenter="0" scaleX="1.54" scaleY="1.54"/>
+			<e:Image id="imageLine1" source="ui_darkland_LineTanSuo_png" anchorOffsetX="270" anchorOffsetY="231.5" left="46" top="-10"/>
+			<e:Image id="imageLine2" source="ui_darkland_LineDongXue_png" x="60" anchorOffsetX="161.5" anchorOffsetY="142" bottom="93"/>
+			<e:Image id="imageLine3" source="ui_darkland_LineSenLin_png" x="272" scaleX="1" scaleY="1" anchorOffsetX="261.5" anchorOffsetY="158.5" bottom="-12.5"/>
+			<e:Image id="imageLine4" source="ui_darkland_LineHuPan_png" anchorOffsetX="226" anchorOffsetY="157.5" bottom="98.5" x="805"/>
+			<e:Image id="imageLine5" source="ui_darkland_LineYingDi_png" x="663" anchorOffsetX="193" anchorOffsetY="126.5" bottom="275.5"/>
+			<e:Image id="imageLine6" source="ui_darkland_LineShangDian_png" x="624" anchorOffsetX="234.5" anchorOffsetY="147.5" bottom="13.5"/>
+			<e:Group id="groupZone1" width="158" height="109" x="399.9" anchorOffsetX="79" anchorOffsetY="54.5" bottom="440">
+				<e:Image id="imageBoardName1" source="ui_wonderland_ButtonBoardName_png" x="64.5" anchorOffsetX="79" anchorOffsetY="54.5" bottom="5"/>
+				<e:Image id="imageName1" source="ui_darkland_WordsTanSuo_png" horizontalCenter="0" verticalCenter="-8"/>
+				<e:Image id="imageLock1" source="ui_currencyicon_IconLock_png" x="1" y="19.5"/>
+				<e:Image source="ui_wonderland_WordsWonderlandType1_png" x="30" y="61" visible="false"/>
+				<e:Image id="imageTip1" source="ui_currencyicon_IconRed_png" x="119.5" y="0"/>
+			</e:Group>
+			<e:Group id="groupZone2" width="158" height="109" bottom="310" left="0">
+				<e:Image id="imageBoardName2" source="ui_wonderland_ButtonBoardNameSel_png" bottom="5" anchorOffsetX="79" anchorOffsetY="54.5" x="64.5"/>
+				<e:Image id="imageName2" source="ui_darkland_WordsDongXue_png" horizontalCenter="0" verticalCenter="-10"/>
+				<e:Image id="imageLock2" source="ui_currencyicon_IconLock_png" y="22" x="5"/>
+				<e:Image id="imageTip2" source="ui_currencyicon_IconRed_png" x="119.5" y="0"/>
+			</e:Group>
+			<e:Group id="groupZone3" width="158" height="109" bottom="210" left="285">
+				<e:Image id="imageBoardName3" source="ui_wonderland_ButtonBoardNameSel_png" x="64.5" bottom="5" anchorOffsetX="79" anchorOffsetY="54.5"/>
+				<e:Image id="imageName3" source="ui_darkland_WordsSenLin_png" horizontalCenter="0" verticalCenter="-10"/>
+				<e:Image id="imageLock3" source="ui_currencyicon_IconLock_png" left="2" top="18"/>
+				<e:Image id="imageTip3" source="ui_currencyicon_IconRed_png" x="119.5" y="0"/>
+			</e:Group>
+			<e:Group id="groupZone4" width="158" height="109" left="788" bottom="358">
+				<e:Image id="imageBoardName4" bottom="5" anchorOffsetX="79" anchorOffsetY="54.5" x="64.5" source="ui_wonderland_ButtonBoardNameSel_png"/>
+				<e:Image id="imageName4" source="ui_darkland_WordsHuPan_png" horizontalCenter="0" verticalCenter="-10"/>
+				<e:Image id="imageLock4" source="ui_currencyicon_IconLock_png" left="2" top="18"/>
+				<e:Image id="imageTip4" source="ui_currencyicon_IconRed_png" x="119.5" y="0"/>
+			</e:Group>
+			<e:Group id="groupZone5" width="158" height="109" bottom="470" left="605">
+				<e:Image id="imageBoardName5" source="ui_wonderland_ButtonBoardName_png" x="64.5" bottom="5" anchorOffsetX="79" anchorOffsetY="54.5"/>
+				<e:Image id="imageName5" source="ui_darkland_WordsYingDi_png" horizontalCenter="-10" verticalCenter="-5"/>
+				<e:Image id="imageType5" source="ui_wonderland_WordsWonderlandType1_png" horizontalCenter="0" verticalCenter="5" visible="false"/>
+				<e:Image id="imageLock5" source="ui_currencyicon_IconLock_png" top="18" left="2"/>
+				<e:Image id="imageTip5" source="ui_currencyicon_IconRed_png" x="119.5" y="0"/>
+				<e:BitmapLabel id="labelLevel5" x="32" y="53.83" text="40级开启" rotation="350.8" height="18" font="LevelOpenNum_fnt" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="groupZone6" width="158" height="109" bottom="230" left="585">
+				<e:Image id="imageBoardName6" source="ui_wonderland_ButtonBoardName_png" x="64.5" bottom="5" anchorOffsetX="79" anchorOffsetY="54.5"/>
+				<e:Image id="imageName6" source="ui_darkland_WordsShangDian_png" horizontalCenter="0" verticalCenter="-8"/>
+				<e:Image id="imageTip6" source="ui_currencyicon_IconRed_png" x="119.5" y="0"/>
+			</e:Group>
+			<e:Group id="groupClick1_1" width="160" height="300" x="290" anchorOffsetX="80" anchorOffsetY="150" bottom="319">
+			</e:Group>
+			<e:Group id="groupClick1_2" width="140" height="140" x="427" anchorOffsetX="70" anchorOffsetY="70" bottom="318"/>
+			<e:Group id="groupClick1_3" width="60" height="200" x="187" anchorOffsetX="30" anchorOffsetY="100" bottom="318"/>
+			<e:Group id="groupClick1_4" width="50" height="40" x="202" anchorOffsetX="25" anchorOffsetY="20" bottom="288"/>
+			<e:Group id="groupClick1_5" width="60" height="40" x="251" anchorOffsetX="30" anchorOffsetY="20" bottom="292"/>
+
+			<e:Group id="groupClick2_1" width="70" height="240" x="-40" anchorOffsetX="35" anchorOffsetY="120" bottom="119"/>
+			<e:Group id="groupClick2_2" width="160" height="130" x="70" anchorOffsetX="80" anchorOffsetY="65" bottom="201"/>
+			<e:Group id="groupClick2_3" width="100" height="90" x="44" anchorOffsetX="50" anchorOffsetY="45" bottom="118"/>
+			<e:Group id="groupClick2_4" width="40" height="120" x="160" anchorOffsetX="20" anchorOffsetY="60" bottom="201"/>
+			<e:Group id="groupClick2_5" width="40" height="40" x="110" anchorOffsetX="20" anchorOffsetY="20" bottom="167"/>
+			<e:Group id="groupClick3_1" width="300" height="180" x="293" anchorOffsetX="150" anchorOffsetY="90" bottom="8"/>
+			<e:Group id="groupClick3_2" width="140" height="100" x="329" anchorOffsetX="70" anchorOffsetY="50" bottom="186"/>
+			<e:Group id="groupClick3_3" width="120" height="80" x="90" anchorOffsetX="60" anchorOffsetY="40" bottom="28"/>
+			<e:Group id="groupClick3_4" width="70" height="130" x="470" anchorOffsetX="35" anchorOffsetY="65" bottom="10"/>
+			<e:Group id="groupClick3_5" width="50" height="90" x="233" anchorOffsetX="25" anchorOffsetY="45" bottom="186"/>
+			<e:Group id="groupClick6_1" width="200" height="260" x="618" anchorOffsetX="100" anchorOffsetY="130" bottom="30"/>
+			<e:Group id="groupClick6_2" width="130" height="80" x="780" anchorOffsetX="65" anchorOffsetY="40" bottom="67"/>
+			<e:Group id="groupClick6_3" width="60" height="60" x="742" anchorOffsetX="30" anchorOffsetY="30" bottom="145"/>
+			<e:Group id="groupClick6_4" width="90" height="90" x="482" anchorOffsetX="45" anchorOffsetY="45" bottom="193"/>
+			<e:Group id="groupClick6_5" width="50" height="50" x="499" anchorOffsetX="25" anchorOffsetY="25" bottom="149"/>
+			<e:Group id="groupClick5_1" width="300" height="60" x="637" anchorOffsetX="150" anchorOffsetY="30" bottom="433"/>
+			<e:Group id="groupClick5_2" width="230" height="20" x="652" anchorOffsetX="115" anchorOffsetY="10" bottom="494"/>
+			<e:Group id="groupClick5_3" width="80" height="130" x="551" anchorOffsetX="40" anchorOffsetY="65" bottom="307"/>
+			<e:Group id="groupClick5_4" width="140" height="80" x="661" anchorOffsetX="70" anchorOffsetY="40" bottom="355"/>
+			<e:Group id="groupClick5_5" width="50" height="40" x="749" anchorOffsetX="25" anchorOffsetY="20" bottom="397"/>
+			<e:Group id="groupClick4_1" width="170" height="200" x="824" anchorOffsetX="85" anchorOffsetY="100" bottom="197"/>
+			<e:Group id="groupClick4_2" width="40" height="130" x="929" anchorOffsetX="20" anchorOffsetY="65" bottom="241"/>
+			<e:Group id="groupClick4_3" width="30" height="70" x="994" anchorOffsetX="15" anchorOffsetY="35" bottom="276"/>
+			<e:Group id="groupClick4_4" width="30" height="30" x="799" anchorOffsetX="15" anchorOffsetY="15" bottom="173"/>
+			<e:Group id="groupClick4_5" width="30" height="100" x="963" anchorOffsetX="15" anchorOffsetY="50" bottom="259"/>
+		</e:Group>
+		<e:Group width="100%" height="40" horizontalCenter="0" y="0">
+			<e:Image source="ui_hunter_OrnTop_png" horizontalCenter="0" top="0" x="-317" y="-228" scaleX="1" scaleY="1" width="100%"/>
+			<e:Button id="buttonClose" label="" left="-25" top="-10">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="ui_darkland_WordsTitle_png" left="130" top="-8"/>
+		</e:Group>
+		<e:Group id="groupWhole" width="960" height="640" verticalCenter="0" anchorOffsetX="480" anchorOffsetY="320" touchEnabled="false" y="0" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Group width="438" height="100" anchorOffsetX="219" anchorOffsetY="50" bottom="0" right="0">
+			<e:Image source="ui_wonderland_BoardWelcome_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ui_darkland_WordsWelcome_png" verticalCenter="-3" left="20"/>
+			<e:Image source="hero_half_wj_maonv_png" scaleX="0.6" scaleY="0.6" bottom="-15" right="-25"/>
+		</e:Group>
+
+		<e:Group width="431.67" height="40" anchorOffsetX="0" right="180" x="526" scaleX="1" scaleY="1" top="0">
+			<e:Image source="ui_union_instance_BoardBurInstanceBossBlood_png" x="2.02" y="7" scaleY="0.9" scaleX="0.7"/>
+			<e:Image source="ui_union_instance_BoardBurInstanceBossBlood_png" x="156.39" y="5" scaleX="0.75"/>
+			<e:Label id="lbGold" text="52570" x="4.3" size="20" verticalCenter="-0.5" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="115.83" textAlign="center" verticalAlign="middle" y="312" scaleX="1" scaleY="1" anchorOffsetY="0" height="31.33"/>
+			<e:Label id="labelToken" text="99999" y="4.35" size="20" width="80" x="176.77" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="31.33"/>
+			<e:Image source="ui_currencyicon_IconGemstone_png" x="152.43" y="7"/>
+			<e:Button id="btnAddToken" label="" x="248.44" y="-1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="imgFlagToken" source="ui_currencyicon_IconRed_png" x="276.79" touchEnabled="false" top="0" y="10" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image source="ui_currencyicon_IconGold_png" x="-1.36" verticalCenter="0.5" y="306" scaleX="1" scaleY="1"/>
+			<e:Button id="btnAddGold" label="" x="95.12" verticalCenter="0" y="299" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgFlagGold" source="ui_currencyicon_IconRed_png" x="124.12" touchEnabled="false" top="0" y="0" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image y="6.33" scaleX="0.75" scaleY="1" x="307.38" source="ui_union_instance_BoardBurInstanceBossBlood_png"/>
+			<e:Image id="imageSpar" source="ui_iconresources_jingshi3_png" verticalCenter="0.5" left="297" x="-526" y="293" scaleX="1" scaleY="1"/>
+			<e:Label id="labelRElicCoin" text="999999" width="82" height="34.33" verticalCenter="1" size="20" verticalAlign="middle" textAlign="center" left="350" x="-476" y="308" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" anchorOffsetY="0" anchorOffsetX="0"/>
+		</e:Group>
+
+	</e:Group>
+</e:Skin>

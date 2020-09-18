@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailMainReportSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0.5" verticalCenter="15" width="675" height="528">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="675" height="528" scale9Grid="151,57,138,46" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_mail_LayerMailFirst_png" width="650" height="435" scale9Grid="31,43,26,24" top="24" horizontalCenter="0.5"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" top="-35" horizontalCenter="0"/>
+		<e:Image source="ui_wonderland_WordsBattleReport_png" top="-23" horizontalCenter="0"/>
+		<e:Button id="btnClose" label="" right="-14" top="-31">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonCloseNor_png" source.down="ui_union_ButtonCloseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="labelTips" text="暂时没有战报" horizontalCenter="0" verticalCenter="-50" size="20" textColor="0x70470b"/>
+		<e:Scroller width="630" height="380" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="32">
+			<e:List id="listView"/>
+		</e:Scroller>
+		<e:Group x="14" y="467" height="50" anchorOffsetX="0" width="648">
+			<e:Label id="labelTip" text="快速战斗结算界面显示" textColor="0x000000" size="18" verticalCenter="0" bold="true" left="0"/>
+			<e:Button id="btnTurn" label="" verticalCenter="0" left="192">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_wonderland_ButtonOpenOrCloseNor_png" source.down="ui_wonderland_ButtonOpenOrCloseSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label text="数量:" textColor="0x000000" size="18" bold="true" verticalCenter="0" horizontalCenter="78.5"/>
+			<e:Label id="labelCount" text="1" size="18" textColor="0x000000" verticalCenter="0" left="430"/>
+			<e:Button id="btnRead" label="" verticalCenter="0" right="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mail_ButtonAllReadNor_png" source.down="ui_mail_ButtonAllReadSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

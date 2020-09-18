@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterUpLevelSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="mainNode" width="765" height="426" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="765" height="426" x="0" y="0" source="ui_hunter_LayerCurrencyFirst_png" scale9Grid="55,30,241,186"/>
+		<e:Image width="304" height="58" source="ui_fishing_BoardFishingTopTip_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-4.5" top="-34"/>
+		<e:Image source="ui_hunter_WordsHunterUpLevelTip_png" top="-23" horizontalCenter="0"/>
+		<e:Image source="ui_hunter_OrnDontGetHunterTop_png" top="-13" left="25"/>
+		<e:Button id="btnClose" label="" x="688.37" y="-30.33" width="90" height="55">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png" source.disabled="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="gTop" width="730" height="165" horizontalCenter="0" top="29">
+			<e:Image source="ui_hunter_LayerSeconde_png" top="0" scaleX="1" scaleY="1" left="0" right="0" bottom="-8" anchorOffsetY="0" scale9Grid="15,10,92,65"/>
+
+			<e:Group id="head" x="15" y="37">
+				<e:Image id="spriteHeroFrame" source="ui_frame_FrameHunterAsh_png" top="0" bottom="0" left="0" right="0"/>
+				<e:Image id="spriteHeroHead" source="hero_icon_wj_fenkesi_png" left="0" right="0" top="0" bottom="0"/>
+			</e:Group>
+			<e:Label id="labelLevel" text="貂蝉 Lv99" x="125" y="54" width="276" height="24" size="22" verticalAlign="middle" textAlign="left" textColor="0x411a03" fontFamily="Arial" anchorOffsetX="0"/>
+
+
+
+
+			<e:Group x="115" y="90" width="396">
+				<e:Image id="spriteBarExpBgOne" source="ui_hunter_BoardBurHunterLevelExp_png" left="0" top="0" bottom="0" right="0" width="394" height="22"/>
+				<e:Image id="spriteExpBar" source="ui_hunter_BurHunterLevelExp_png" left="0" top="0" right="0" bottom="0" width="394" height="22"/>
+				<e:Image id="spriteBarExpBg" top="0" bottom="0" height="22" source="ui_hunter_collection_board1_png" width="394" scale9Grid="15,10,22,19" x="0"/>
+				<e:Label id="labelExpNum" text="123/1234" width="393" height="22" verticalAlign="middle" textAlign="center" size="20" horizontalCenter="1.5" verticalCenter="0"/>
+			</e:Group>
+
+			<e:Image id="spriteLevel" source="ui_hunter_WordsUpLevelTip_png" x="561.66" verticalCenter="0.5"/>
+			<e:Image id="spriteHunterLevelMax" source="ui_hunter_WordsHunterLevelMax_png" verticalCenter="10" right="25" scaleX="0.8" scaleY="0.8"/>
+			<e:Group x="530" y="22">
+				<e:Button id="btnLevel" label="" x="0" y="0" width="172" height="55" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_ButtonLevelUpNor_png" source.down="ui_hunter_ButtonLevelUpSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Group x="0" y="70">
+					<e:Button id="btnLevelX" label="" x="0" y="0" width="172" height="55">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_ButtonLevelUpXNor_png" source.down="ui_hunter_ButtonLevelUpXSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Label id="lableLevelNum" text="5" verticalAlign="middle" textAlign="center" touchEnabled="false" fontFamily="Arial" x="76" y="10"/>
+				</e:Group>
+			</e:Group>
+
+			<e:Group id="gInfo" width="200" height="80" x="508.01" y="17.67">
+				<e:Group id="gInfor" x="0" y="0">
+					<e:Image source="ui_hunter_FrameHunterUpGradeTip_png" scale9Grid="33,17,160,42" x="0" y="-3" anchorOffsetX="0" width="209"/>
+					<e:Label id="labelTip" text="Sample Text" verticalAlign="middle" size="18" top="10" left="15"/>
+				</e:Group>
+
+				<e:Button id="btnGoUpGrade" label="" x="23" y="74" width="172" height="55" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_ButtonGoHunterUpGradeNor_png" source.down="ui_hunter_ButtonGoHunterUpGradeSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="groupTeach" width="413.64" height="93.94" x="112.42" y="39.61" anchorOffsetY="0" anchorOffsetX="0"/>
+
+
+
+		</e:Group>
+		<e:Group id="gBottom" width="730" height="215" x="18" y="206">
+			<e:Image source="ui_hunter_LayerSeconde_png" scaleX="1" scaleY="1" right="0" left="0" top="0" bottom="0" scale9Grid="15,10,92,65"/>
+			<e:List id="listExpPill" left="15" top="10" right="15" bottom="10" itemRendererSkinName="CardBagSkin">
+				<e:layout>
+					<e:HorizontalLayout gap="30" horizontalAlign="contentJustify" paddingLeft="15" paddingRight="15"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+
+	</e:Group>
+</e:Skin>

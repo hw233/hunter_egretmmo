@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_InstanceFastSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:zj="zj.*">
+	<e:Group width="430" height="261" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" anchorOffsetY="205" anchorOffsetX="215">
+		<e:Image source="ui_instance_LayerInstance_png" scale9Grid="11,11,73,73" anchorOffsetX="0" width="430" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" bottom="0" top="10" locked="true"/>
+		<e:Image source="ui_instance_BoardTopTip_png" scaleX="1" anchorOffsetX="0" width="430" scaleY="1" horizontalCenter="-1" top="0" locked="true"/>
+		<e:Image touchEnabled="false" source="ui_instancenew_dialog_title_bg_png" x="-25" y="-25" locked="true"/>
+		<e:Image id="imgName" touchEnabled="false" y="-20" source="ui_instancenew_area_name_1_png" x="-18" locked="true"/>
+
+		<e:Button id="btnClose" icon="ui_instancenew_dialog_close_png" x="401.79" y="-21.31" scaleX="1" scaleY="1" skinName="ButtonSkin" locked="true">
+
+		</e:Button>
+		<e:Group id="groupBottom" height="128" width="417" scaleY="1" y="82" horizontalCenter="0">
+			<e:Image scaleX="1" scaleY="1" left="0" right="0" top="0" scale9Grid="51,13,309,80" source="ui_instancenew_dialog_bottom_bg_png"/>
+			<e:Group height="74" y="5" left="0" right="0">
+			<e:Image source="ui_instancenew_dialog_drop_bg_png" verticalCenter="0" horizontalCenter="-177.5"/>
+			<e:Label text="掉落" size="18" bold="true" scaleX="1" scaleY="1" horizontalCenter="-177.5" verticalCenter="2"/>
+			<e:Scroller id="scroller" width="140" height="70" x="64" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="0">
+				<e:List id="listDrag">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="0" paddingLeft="0"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Group id="groupFirst" height="74" y="0" width="140" x="214">
+				<e:Image source="ui_instancenew_dialog_drop_bg_png" verticalCenter="0" y="0" scaleX="1" scaleY="1" x="0"/>
+				<e:Label text="首杀" size="18" bold="true" verticalCenter="0" x="4" y="28" scaleX="1" scaleY="1"/>
+				<e:Group x="54" anchorOffsetX="0" anchorOffsetY="0" width="95" height="93" touchChildren="false" touchEnabled="true" scaleX="0.74" verticalCenter="2" y="8" scaleY="0.74">
+				<e:Image id="imgFrameFirst" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgIconFirst" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Group id="groupFirstBlood" horizontalCenter="0" verticalCenter="0"/>
+				<e:BitmapLabel id="labelFirstBlood" font="ItemNumWords_fnt" text="0" anchorOffsetX="0" textAlign="right" touchEnabled="false" right="5" bottom="6"/>
+				<e:Image id="imgGiftGet" horizontalCenter="2" verticalCenter="0" source="ui_instancenew_dialog_item_complete_png"/>
+				</e:Group>
+			</e:Group>
+			</e:Group>
+			<e:Button id="btnSweep5" label="扫荡5次" name="btnSweep5" skinName="ButtonSkinSweep" horizontalCenter="-135" verticalCenter="40"/>
+			<e:Button id="btnSweep" label="扫荡" name="btnSweep" horizontalCenter="0" skinName="ButtonSkinSweep" verticalCenter="40"/>
+			<e:Button id="btnDekaron" label="战斗" icon="ui_instancenew_dialog_btn_icon_power_png" name="btnDekaron" skinName="ButtonSkinSweep1" horizontalCenter="135" verticalCenter="40"/>
+		</e:Group>
+		<e:Group id="groupTop" height="46" touchChildren="false" touchEnabled="true" width="417" y="36" horizontalCenter="0">
+			<e:Image source="ui_instancenew_dialog_item_top_bg_png" left="0" right="0" top="0" bottom="0"/>
+			<e:Image id="imgCurrTitilBG" source="ui_instancenew_dialog_item_title_bg0_png" verticalCenter="0" horizontalCenter="-170"/>
+			<e:Image id="imgCurrIcon" verticalCenter="0" source="ui_instancenew_dialog_curr_icon_png"/>
+			<e:Label id="lbTitle" text="1-1" size="18" scaleX="1" scaleY="1" verticalCenter="2" x="26"/>
+			<e:Label id="lbName" text="xxx" x="74" size="18" scaleX="1" scaleY="1" verticalCenter="2" bold="true" textColor="0xFFFFFF"/>
+			<e:Image id="imgPassStar0" x="340" scaleX="1" scaleY="1" source="ui_instancenew_dialog_star_gary_png" verticalCenter="0"/>
+			<e:Image id="imgPassStar1" x="364" source="ui_instancenew_dialog_star_gary_png" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Image id="imgPassStar2" x="388" source="ui_instancenew_dialog_star_gary_png" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Group id="groupLeftTimes" x="216" width="103" height="28" verticalCenter="0">
+			<e:Image source="ui_instancenew_dialog_txt_bg_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelTimeNum" text="剩余：4/5" size="16" horizontalCenter="-8" verticalCenter="2" textColor="0x16FA5B"/>
+			<e:Button id="btnTimeAdd" label="" width="27" verticalCenter="0" height="27" x="89">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_instance_ButtonAdventureTimeNor_png" source.down="ui_instance_ButtonAdventureTimeSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+		</e:Group>
+
+		<e:Group right="10" bottom="6" width="176" height="39">
+			<e:Image source="ui_hunter_BoardSkillPoint_png" left="0" right="0" top="0" bottom="0"/>
+			<e:Button id="btnAdd" label="" verticalCenter="0" right="2">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonAddResourcesNor_png" source.down="ui_hunter_ButtonAddResourcesSel_png" source.disabled="ui_hunter_ButtonAddResourcesSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Image id="energy1" x="3.01" source="ui_currencyicon_IconStrength_png" anchorOffsetX="0" anchorOffsetY="0" scaleY="1.2" scaleX="1.2" verticalCenter="0"/>
+			<e:Label id="labelPowerNum" text="499/122" size="16" horizontalCenter="-9" anchorOffsetX="0" textAlign="center" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

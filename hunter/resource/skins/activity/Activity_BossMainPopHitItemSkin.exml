@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_BossMainPopHitItemSkin" width="455" height="62" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_acitivity_boss_BoardHitAwardPlayer_png" x="10" verticalCenter="0"/>
+		<e:Label id="lbRank" text="第20001名" x="3.97" size="18" fontFamily="Helvetica" verticalCenter="0" verticalAlign="middle" textAlign="center"/>
+		<e:Label id="lbServer" text="S??" x="113.67" size="18" fontFamily="Helvetica" verticalCenter="0"/>
+		<e:Label id="lbName" text="六个字的名字" size="18" fontFamily="Helvetica" verticalCenter="0" horizontalCenter="14"/>
+		<e:Label id="lbHit" text="900000(20%)" x="345.67" size="18" fontFamily="Helvetica" verticalCenter="0" verticalAlign="middle" textAlign="center"/>
+	</e:Group>
+</e:Skin>

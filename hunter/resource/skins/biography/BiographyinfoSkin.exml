@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BiographyinfoSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_acitivity_biography_BoardBiographyFloor_png" horizontalCenter="-7" verticalCenter="0"/>
+		<e:Button id="btnClose" label="" horizontalCenter="185" verticalCenter="-264.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<e:Group horizontalCenter="-159" verticalCenter="-183" width="98" height="102">
+			<e:Image source="ui_acitivity_biography_BoardFrame_png" x="0" y="6"/>
+			<e:Image id="imgHero" source="hero_icon_head_wj_kulapika_png" x="2" y="4"/>
+			<e:Image source="ui_acitivity_biography_BoardNameFloor_png" y="76" x="10"/>
+			<e:Image id="imgName" y="61" x="17" source="ui_huntername_HunterName17_png" rotation="13.95" scaleX="0.7" scaleY="0.7"/>
+			<e:Group x="3" y="5.32">
+			<e:Image source="ui_acitivity_biography_BoardQualityFloor_png" x="1" y="1"/>
+			<e:Image id="imgQuality" source="ui_hunter_evaluate_IconWrodsCard4_png" scaleX="0.45" scaleY="0.45" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Image source="ui_acitivity_biography_BoardInfoFloor1_png" horizontalCenter="44" verticalCenter="-209.5"/>
+		<e:Image source="ui_acitivity_biography_BoardInfoFloor2_png" horizontalCenter="44.5" verticalCenter="-148"/>
+		<e:Image id="imgSeries" source="ui_acitivity_biography_WordSeries1_png" horizontalCenter="-47.5" verticalCenter="-208.5"/>
+		<e:Image id="imgType" source="ui_acitivity_biography_WordType1_png" horizontalCenter="123" verticalCenter="-209"/>
+		<e:Image source="ui_license_WordsTipHunter_png" horizontalCenter="-40" verticalCenter="-160.5"/>
+		<e:Image id="imgType1" source="ui_license_huntertype_WordsHunterType27_png" scaleX="0.8" scaleY="0.8" horizontalCenter="62" verticalCenter="-162"/>
+		<e:Image id="imgType2" source="ui_license_huntertype_WordsHunterType27_png" scaleX="0.8" scaleY="0.8" horizontalCenter="142" verticalCenter="-162"/>
+		<e:Image id="imgType3" source="ui_license_huntertype_WordsHunterType27_png" scaleX="0.8" scaleY="0.8" horizontalCenter="62" verticalCenter="-137"/>
+		<e:Image id="imgType4" source="ui_license_huntertype_WordsHunterType27_png" scaleX="0.8" scaleY="0.8" horizontalCenter="142" verticalCenter="-137"/>
+		<e:Image source="ui_acitivity_biography_BoardSkillNameFloor_png" horizontalCenter="-150.5" verticalCenter="-77.5"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" width="420" height="110" scale9Grid="15,10,92,65" horizontalCenter="-6" verticalCenter="-6"/>
+		<e:Scroller width="410" height="95" scrollPolicyH="off" scrollPolicyV="off" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="2" verticalCenter="-4.5">
+			<e:List id="lstHunterSkill" anchorOffsetX="0" width="430" x="21" y="0">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image source="ui_acitivity_biography_BoardSkillNameFloor_png" horizontalCenter="-150.5" verticalCenter="76.5"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" width="420" height="170" scale9Grid="15,10,92,65" horizontalCenter="-6" verticalCenter="184"/>
+		<e:Label text="猎人技能" size="18" fontFamily="Helvetica" horizontalCenter="-158" verticalCenter="-78"/>
+		<e:Label text="猎人背景" size="18" fontFamily="Helvetica" scaleX="1" scaleY="1" horizontalCenter="-158" verticalCenter="78"/>
+		<e:Label id="lbStory" text="猎人故事" width="390" height="300" size="16" fontFamily="Helvetica" textColor="0x000000" scaleX="1" scaleY="1" lineSpacing="3" horizontalCenter="-8" verticalCenter="263"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,46 @@
+{"mc":{
+	"main_ani_shop":{
+		"frameRate":6,
+		"labels":[
+			{"name":"1","frame":1,"end":5}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"shangdiansaoguang_00000_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"shangdiansaoguang_00006_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"shangdiansaoguang_00012_png",
+			"x":0,
+			"y":2
+			},
+			{
+			"res":"shangdiansaoguang_00018_png",
+			"x":41,
+			"y":95
+			},
+			{
+			"res":"shangdiansaoguang_00023_png",
+			"x":118,
+			"y":172
+			}
+			]
+}},
+	"res":{
+		"shangdiansaoguang_00012_png":{"x":1,"y":1,"w":124,"h":176},
+		"shangdiansaoguang_00000_png":{"x":238,"y":1,"w":16,"h":16},
+		"shangdiansaoguang_00018_png":{"x":127,"y":112,"w":83,"h":83},
+		"shangdiansaoguang_00023_png":{"x":238,"y":19,"w":6,"h":6},
+		"shangdiansaoguang_00006_png":{"x":127,"y":1,"w":109,"h":109}
+	}}

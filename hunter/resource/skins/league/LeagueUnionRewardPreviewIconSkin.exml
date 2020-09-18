@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueUnionRewardPreviewIconSkin" width="84" height="82" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" hostComponent="0">
+	<e:Group x="0" y="0">
+		<e:Button label="" width="94" height="94" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.8" scaleY="0.8" scale9Grid="11,11,73,71" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon" source="hero_icon_head_wj_jidou_png" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgLogo" source="ui_icon_PieceRelation_png" x="0" y="0" scaleX="0.75" scaleY="0.75"/>
+		<e:BitmapLabel id="lbNum" width="40" height="23" x="60" y="60" font="ItemNumWords_fnt" text="66" scaleX="0.6" scaleY="0.6" anchorOffsetX="0" anchorOffsetY="0" letterSpacing="0"/>
+	</e:Group>
+</e:Skin>

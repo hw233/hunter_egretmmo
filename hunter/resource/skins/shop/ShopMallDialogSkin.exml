@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopMallDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imageBackground" source="ui_mainui_BgMaoboli_png" x="0" y="0" width="100%" height="100%"/>
+	<e:Group id="groupSum" horizontalCenter="0" verticalCenter="-2.5" width="878">
+		<e:Image id="imgCCScale9Sprite" source="ui_hunter_LayerCurrencyFirst_png" width="820" height="465" scale9Grid="111,43,255,173" x="29" y="80.54"/>
+		<e:Image id="imgCCSprite" source="ui_mall_OrnMallTop_png" x="0" y="60.69"/>
+		<e:Image id="imgCCScale9Sprite_1" source="ui_hunter_LayerSeconde_png" x="45" y="132.69" width="788" height="360" scale9Grid="15,10,92,65"/>
+		<e:Image id="CCSprite_1" source="ui_mall_OrnMallTopB_png" x="24.34" y="66.7"/>
+		<e:Group id="groupButtonType" width="725.21" height="99.22" x="42" y="0.39" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="listButtonType" width="100%" height="100%" x="0" y="0">
+				<e:layout>
+					<e:HorizontalLayout gap="-9"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Group id="groupltem" width="769.7" height="343.94" x="53" y="142.54" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group x="13" y="201.73" visible="false">
+			<e:Button id="buttonItem" label="" x="0" y="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mall_BoardMallItem_png" source.down="ui_mall_BoardMallItemSel_png" source.disabled="ui_mall_BoardMallItem_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgSpriteFrame" source="ui_frame_FrameHunterAsh_png" x="22.16" y="23.76"/>
+			<e:Image id="imgSpriteIcon" source="hero_icon_head_wj_kubi_png" x="22.16" y="23.76"/>
+			<e:Image id="imgSpriteLogo" source="ui_icon_PieceRelation_png" x="21.92" y="19.35"/>
+			<e:Label id="lableNum" text="1" x="94.42" y="84.47" size="20"/>
+			</e:Group>
+			<e:Scroller id="scrollerInfo" width="100%" height="100%" x="0" y="0" scrollPolicyH="auto" scrollPolicyV="auto">
+				<e:List id="listGoods" width="100%" height="100%">
+					<e:layout>
+						<e:TileLayout requestedColumnCount="2"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+
+		<e:Button id="btnSpriteType" label="" x="44.95" y="52.75" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mall_ButtonMallUnionNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgSpriteLock" source="ui_currencyicon_IconLock_png" x="58.52" y="45.88" scaleX="0.7" scaleY="0.7" visible="false"/>
+		<e:Group id="groupNodeRefresh" x="340.7" y="494.69">
+			<e:Image id="imgCCScale9Sprite1" source="ui_mall_BoardMallResTip_png" y="0" width="491" alpha="0.4" right="0"/>
+			<e:Label id="labelRefresh" text="距下次自动刷新还有：" x="7.3" y="12" size="20" textColor="0x532203" fontFamily="SimHei"/>
+			<e:Button id="btnFresh" label="" x="308.3" y="2" width="81" height="36">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mall_ButtonMallRushNor_png" source.down="ui_mall_ButtonMallRushSel_png" source.disabled="ui_mall_ButtonMallRushNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="imgSpriteRushGes" source="ui_currencyicon_IconGemstone_png" x="403.3" y="7.85"/>
+			<e:Label id="labelTime" text="12:15:66" y="12.85" size="20" textColor="0x532203" left="206"/>
+			<e:Label id="labelCost" text="90" x="438.3" y="10.85" size="22"/>
+		</e:Group>
+		<e:Group y="501.69" left="47">
+			<e:Image id="imgCCSprite_2" source="ui_mall_BoardMallTip_png" y="0" scaleX="0.5" horizontalCenter="0"/>
+			<e:Label id="labelTimeTips" text="每八小时更新一次" y="4.85" size="18" fontFamily="SimHei" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group top="546" horizontalCenter="0" height="39">
+			<e:Group id="groupTeach" width="231" height="27" bottom="6" horizontalCenter="133.5"/>
+			<e:Image id="imgCCSprite1" source="ui_mall_BoardMallRes_png" x="0" y="0"/>
+
+
+			<e:Group anchorOffsetX="0" width="240" anchorOffsetY="0" height="33" horizontalCenter="-104" bottom="0">
+				<e:Group width="30" height="30" left="91" verticalCenter="-0.5">
+					<e:Image id="imgSpriteCost" source="ui_currencyicon_IconGemstone_png" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Label id="labelTTF" text="当前拥有：" x="0" y="5" size="20" fontFamily="SimHei"/>
+				<e:Label id="labelToken" text="123456" x="126" y="5" size="20" fontFamily="Arial" anchorOffsetX="0" width="120" anchorOffsetY="0" height="23" textAlign="left" verticalAlign="middle"/>
+			</e:Group>
+
+
+			<e:Group verticalCenter="1" anchorOffsetX="0" width="251" anchorOffsetY="0" height="31" horizontalCenter="157.5">
+				<e:Group width="30" height="30" verticalCenter="-0.5" left="92">
+					<e:Image id="imgSpriteCost_1" source="ui_currencyicon_IconGold_png" verticalCenter="0" y="1" scaleX="1" scaleY="1" horizontalCenter="0"/>
+				</e:Group>
+				<e:Label id="labelTTF_1" text="当前拥有：" size="20" fontFamily="SimHei" verticalCenter="0" left="0"/>
+
+				<e:Label id="labelMoney" text="123456" size="20" verticalCenter="0.5" left="126" anchorOffsetX="0" width="110" anchorOffsetY="0" height="24" textAlign="left" verticalAlign="middle"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="btnClose" label="" y="46.54" right="50">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png" source.disabled="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

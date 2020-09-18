@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SaveAccountDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="box" width="540" height="340" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_acitivity_serverseven_BoardFloor_png" anchorOffsetY="0" height="100%" horizontalCenter="0" scale9Grid="69,129,402,323" verticalCenter="0" width="100%"/>
+		<e:Image scaleX="0.7" scaleY="0.7" horizontalCenter="0.5" anchorOffsetY="0" height="162.57" top="2" source="ui_login_OrnLogo_png"/>
+		<e:Image source="ui_chat_BoardChatMainFrame_png" scale9Grid="15,14,92,91" anchorOffsetX="0" width="408" anchorOffsetY="0" height="56" horizontalCenter="0" verticalCenter="-10"/>
+		<e:Image source="ui_chat_BoardChatMainFrame_png" scale9Grid="15,14,92,91" anchorOffsetX="0" width="408" anchorOffsetY="0" height="56" horizontalCenter="0" verticalCenter="59"/>
+
+
+		<e:Label text="账号：" fontFamily="Microsoft YaHei" textColor="0xffffff" size="22" x="169" verticalCenter="-10"/>
+		<e:Label text="密码：" fontFamily="Microsoft YaHei" textColor="0xffffff" size="22" x="169" verticalCenter="58"/>
+		<e:Label id="lbAccount" text="gt95212511" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="250" size="22" textColor="0xffffff" x="235" verticalCenter="-10"/>
+		<e:Label id="lbPassword" text="qqikvibe" fontFamily="Microsoft YaHei" x="235" width="250" textColor="0xffffff" size="22" verticalCenter="58"/>
+		<e:Label text="请保存好您的账号和密码！" anchorOffsetX="0" horizontalCenter="0" bottom="31" size="24" textColor="0xf41d09" fontFamily="Microsoft YaHei"/>
+		<e:Button id="btnSave" label="" bottom="-60" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_ButtonDoubleTaverUseNor_png" source.down="ui_acitivity_ButtonDoubleTaverUseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

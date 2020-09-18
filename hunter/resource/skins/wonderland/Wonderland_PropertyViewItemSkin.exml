@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Wonderland_PropertyViewItemSkin" width="311" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="311" height="30" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgFloor" source="ui_wonderland_kuafu_BoardPropertyItemFloor_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgFloor1" source="ui_wonderland_kuafu_BoardPropertyItemFloor1_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="labelTextServer" text="一服 正式服务" size="18" textColor="0x27340c" horizontalCenter="1" verticalCenter="0" anchorOffsetX="0" width="310.5" verticalAlign="middle" textAlign="center"/>
+	</e:Group>
+</e:Skin>

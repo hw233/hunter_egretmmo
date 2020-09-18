@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityChargeActivitySkin" width="660" height="537" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="0" right="9">
+		<e:Image source="ui_acitivity_WodsTipDayCharge_png" y="-20" x="23"/>
+		<e:Image source="ui_acitivity_LayerSeconde_png" width="630" height="290" scale9Grid="79,14,478,88" x="0" y="136"/>
+		<e:Image source="ui_acitivity_WordsTipActivityTime_png" x="42" y="150"/>
+		<e:Label id="lbTime" text="2015-12-15 20:59至2015-12-31 20:59" size="18" fontFamily="Helvetica" x="140" y="155"/>
+		<e:Label text="今日充值：" size="22" textColor="0x00f900" fontFamily="Helvetica" x="42" y="180"/>
+		<e:Label text="充值金额每日04:00重置" textColor="0xff2600" size="18" fontFamily="Helvetica" width="208" x="407" y="179"/>
+		<e:Label id="lbMoney" text="0/5元" size="22" textColor="0x00f900" fontFamily="Helvetica" x="145" y="180"/>
+		<e:Group id="groupBag1" x="9" y="214">
+			<e:Image source="ui_acitivity_BoardDayChargeAward_png" x="1" y="2"/>
+			<e:Image source="ui_acitivity_IconCharge4_png" x="18" y="62"/>
+			<e:Image id="imgGet1" source="ui_license_WordsGetAward_png" x="32" y="158"/>
+			<e:Image id="imgBag1" source="ui_acitivity_WordsTipDayCharge_png" x="14" y="75"/>
+			<e:Label text="第一天" x="35" y="34" size="22" fontFamily="Helvetica" bold="true"/>
+			<e:Image id="imgMask1" source="ui_acitivity_BoardDayChargeAwardMask_png" x="0" y="0"/>
+			<e:Button id="btnGet1" label="" width="134" height="206" left="1" top="2" visible="false"/>
+		</e:Group>
+		<e:Group id="groupBag2" x="132" y="215">
+			<e:Image source="ui_acitivity_BoardDayChargeAward_png" x="1" y="2"/>
+			<e:Image source="ui_acitivity_IconCharge4_png" x="18" y="61"/>
+			<e:Image id="imgGet2" source="ui_license_WordsGetAward_png" x="31.5" y="157"/>
+			<e:Image id="imgBag2" source="ui_acitivity_WordsTipDayCharge_png" x="15" y="74"/>
+			<e:Label text="第二天" x="34" y="33" size="22" fontFamily="Helvetica" bold="true"/>
+			<e:Image id="imgMask2" source="ui_acitivity_BoardDayChargeAwardMask_png" x="0" y="0"/>
+			<e:Button id="btnGet2" label="" x="1" y="2" width="134" height="206" visible="false"/>
+		</e:Group>
+		<e:Group id="groupBag3" x="253" y="215">
+			<e:Image source="ui_acitivity_BoardDayChargeAward_png" x="1" y="2"/>
+			<e:Image source="ui_acitivity_IconCharge4_png" x="18" y="61"/>
+			<e:Image id="imgGet3" source="ui_license_WordsGetAward_png" x="31" y="157"/>
+			<e:Image id="imgBag3" source="ui_acitivity_WordsTipDayCharge_png" x="14" y="74"/>
+			<e:Label text="第三天" x="37" y="33" size="22" fontFamily="Helvetica" bold="true"/>
+			<e:Image id="imgMask3" source="ui_acitivity_BoardDayChargeAwardMask_png" x="0" y="0"/>
+			<e:Button id="btnGet3" label="" x="1" y="2" width="134" height="206" visible="false"/>
+		</e:Group>
+		<e:Group id="groupBag4" x="375" y="216">
+			<e:Image source="ui_acitivity_BoardDayChargeAward_png" x="1" y="2"/>
+			<e:Image source="ui_acitivity_IconCharge4_png" x="19" y="60"/>
+			<e:Image id="imgGet4" source="ui_license_WordsGetAward_png" x="32" y="156"/>
+			<e:Image id="imgBag4" source="ui_acitivity_WordsTipDayCharge_png" x="14.5" y="73"/>
+			<e:Label text="第四天" x="35" y="32" size="22" fontFamily="Helvetica" bold="true"/>
+			<e:Image id="imgMask4" source="ui_acitivity_BoardDayChargeAwardMask_png" x="0" y="0"/>
+			<e:Button id="btnGet4" label="" x="1" y="2" width="134" height="206" visible="false"/>
+		</e:Group>
+		<e:Group id="groupBag5" x="497" y="215">
+			<e:Image source="ui_acitivity_BoardDayChargeAwardHigh_png" x="1" y="2"/>
+			<e:Image source="ui_acitivity_IconCharge5_png" horizontalCenter="0" verticalCenter="7.5"/>
+			<e:Image id="imgGet5" source="ui_license_WordsGetAward_png" x="31" y="157"/>
+			<e:Image id="imgBag5" source="ui_acitivity_WordsTipDayCharge_png" x="14" y="74"/>
+			<e:Label text="第五天" x="34" y="33" size="22" fontFamily="Helvetica" bold="true"/>
+			<e:Image id="imgMask5" source="ui_acitivity_BoardDayChargeAwardMask_png" x="2" y="0"/>
+			<e:Button id="btnGet5" label="" x="1" y="2" width="134" height="206" visible="false"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="btnGoCharge" label="" horizontalCenter="6" bottom="42">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_acitivity_ButtonDayChargeGoNor_png" source.down="ui_acitivity_ButtonDayChargeGoSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

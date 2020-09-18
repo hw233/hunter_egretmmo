@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AoneLoginDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="440" height="350" horizontalCenter="0" verticalCenter="0">
+		<e:Rect id="rect_bg" width="440" height="350" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xffffff" fillAlpha="0.9" horizontalCenter="0" verticalCenter="2" ellipseWidth="10" ellipseHeight="10" x="0" y="0" scaleX="1" scaleY="1" strokeColor="0xffffff" strokeAlpha="0"/>
+		<e:Rect width="380" height="1" y="118" horizontalCenter="0" fillColor="0x565859" fillAlpha="0.3" x="30" scaleX="1" scaleY="1"/>
+		<e:Rect width="380" height="1" y="183" fillColor="0x565859" horizontalCenter="0" fillAlpha="0.3" x="30" scaleX="1" scaleY="1"/>
+		<e:Rect id="btnAoneLogin" width="380" height="50" x="31" y="210" fillColor="0x3189ea" anchorOffsetX="0" anchorOffsetY="0" ellipseWidth="8" ellipseHeight="8" scaleX="1" scaleY="1" strokeAlpha="0"/>
+		<e:Rect id="btnRegisterAccount" width="180" height="50" y="273.68" fillColor="0xdd424a" ellipseWidth="8" ellipseHeight="8" scaleX="1" scaleY="1" strokeAlpha="0" horizontalCenter="100"/>
+		<e:Rect id="btnQuickLogin" width="180" height="50" y="273.68" fillColor="0x3cae34" ellipseWidth="8" ellipseHeight="8" scaleX="1" scaleY="1" strokeAlpha="0" horizontalCenter="-100"/>
+		<e:Image source="aone_account_png" x="50" y="75" width="40" height="40" scaleX="1" scaleY="1"/>
+		<e:Image source="aone_password_png" x="50" y="138" width="40" height="40" scaleX="1" scaleY="1"/>
+		<e:Image id="ButtonShrink" source="aone_delete_png" x="385.32000000000005" y="-6.639999999999986" width="60" height="60" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label text="账户登录" y="17.00999999999999" anchorOffsetX="0" width="146" textAlign="center" fontFamily="SimHei" size="28" horizontalCenter="0" x="147" scaleX="1" scaleY="1" textColor="0x8a8e8e"/>
+		<e:Label text="登录" y="224.99" textAlign="center" size="25" verticalAlign="middle" horizontalCenter="0" fontFamily="SimHei" x="195" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Label text="注册" y="287.34" horizontalCenter="100" size="25" fontFamily="SimHei" verticalAlign="middle" x="295" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Label text="快速进入" y="287.34" horizontalCenter="-97" size="25" fontFamily="SimHei" x="73" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Label id="lbPromptAccount" text="请输入账号" x="101.5" y="87" anchorOffsetX="0" width="195" fontFamily="SimHei" size="25" textColor="0xbebebe"/>
+		<e:Label id="lbPromptPassword" text="请输入密码" x="101.5" y="151" anchorOffsetX="0" width="195" fontFamily="SimHei" size="25" textColor="0xBEBEBE"/>
+		<e:EditableText id="lbAccount" width="300" height="30" text="" x="100" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-76" displayAsPassword="false" fontFamily="SimHei" size="25" textColor="0x000000"/>
+		<e:EditableText id="lbPassword" width="300" height="30" text="" x="100" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-11" displayAsPassword="true" fontFamily="SimHei" size="25" textColor="0x000000"/>
+		<e:Image id="img_list_open" source="aone_listopen_png" x="365" y="74.8" scaleX="0.5" scaleY="0.5"/>
+		<e:Image id="img_list_close" source="aone_listclose_png" x="365" y="75" scaleX="0.5" scaleY="0.5"/>
+		<e:Scroller width="380" height="200" x="30" y="120">
+			<e:List id="lst_accounts" width="380" height="200" x="0" y="0" anchorOffsetX="0" allowMultipleSelection="false"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

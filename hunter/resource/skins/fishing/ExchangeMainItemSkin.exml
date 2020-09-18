@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangeMainItemSkin" width="365" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button label="" x="0" y="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_exchange_BoardExchangeItemInfo_png" source.down="ui_exchange_BoardExchangeItemInfoSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="groupCache" x="0" y="0" touchEnabled="false">
+
+		<e:Image id="imageBg" source="ui_exchange_BoardExchangeItemInfoSel_png" x="0" y="0"/>
+		<e:Group id="groupMain" x="8" y="12" scaleX="0.9" scaleY="0.9" touchThrough="true" touchEnabled="false" touchChildren="false">
+			<e:Image id="imageBoard" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageIcon" source="hero_icon_head_wj_fenkesi_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageCD" source="ui_exchange_WordsExchangeCD_png" horizontalCenter="0.5" verticalCenter="-4"/>
+			<e:Image id="imageTips" source="ui_currencyicon_IconRed_png" x="64" y="3"/>
+		</e:Group>
+		<e:Group id="groupAll" width="95" height="93" x="8" y="12" scaleX="0.9" scaleY="0.9"/>
+		<e:Group x="110" y="11" touchThrough="true" touchEnabled="false" touchChildren="false">
+			<e:Label text="道具名称：" x="0" y="3" textColor="0x000000" size="18" fontFamily="SimHei"/>
+			<e:Label id="labelName" text="黄金卡包" x="85" y="0" anchorOffsetX="0" width="152" anchorOffsetY="0" height="24" textColor="0xa84400" size="18" textAlign="left" verticalAlign="middle" fontFamily="SimHei"/>
+			<e:Label id="labelTimeTip" text="每日兑换间隔：" x="0" y="33.85" textColor="0x000000" size="18" fontFamily="SimHei"/>
+			<e:Label text="收集进度：" x="0" y="65.7" textColor="0x000000" size="18" fontFamily="SimHei"/>
+			<e:Label id="labelTime" text="黄金卡包" x="121" y="30.85" anchorOffsetX="0" width="118" anchorOffsetY="0" height="24" textColor="0xA84400" size="18" textAlign="left" verticalAlign="middle" fontFamily="SimHei"/>
+			<e:Label id="labelBur" text="黄金卡包" x="87" y="62.7" anchorOffsetX="0" width="118" anchorOffsetY="0" height="24" textColor="0xA84400" size="18" textAlign="left" verticalAlign="middle" fontFamily="SimHei"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

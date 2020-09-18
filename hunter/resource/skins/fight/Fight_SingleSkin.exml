@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Fight_SingleSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="SpritFlag1" width="64" height="64" x="219" y="50" scaleX="0.5" scaleY="0.5"/>
+	<e:Group id="SpritWord1" width="64" height="64" x="220" y="40" scaleX="0.5" scaleY="0.5" rotation="-35"/>
+	<e:Group id="SpritFlag2" width="64" height="64" x="280" y="50" scaleX="0.5" scaleY="0.5"/>
+	<e:Group id="SpritWord2" width="64" height="64" x="281" y="40" scaleX="0.5" scaleY="0.5" rotation="-35"/>
+	<e:Group id="SpritFlag3" width="64" height="64" x="341" y="50" scaleX="0.5" scaleY="0.5"/>
+	<e:Group id="SpritWord3" width="64" height="64" x="342" y="40" scaleX="0.5" scaleY="0.5" rotation="-35"/>
+	<e:Group id="Node_313" width="64" height="64" x="464" y="299" scaleX="0.5" scaleY="0.5"/>
+</e:Skin>

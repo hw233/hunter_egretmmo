@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterCardReplaceDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="935" height="585" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupLeft" width="480" height="585" verticalCenter="0" y="0" scaleX="1" scaleY="1" left="0">
+			<e:Image left="0" top="0" bottom="0" right="0" source="ui_hunter_BoardCardPopSeconde_png" scale9Grid="216,190,110,89"/>
+			<e:Image source="ui_hunter_OrnDontGetHunterTop_png" top="-3" left="30"/>
+			<e:Button id="btnScreen" label="" right="20" top="-10" alpha="1" width="118" height="38">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_card_screen_ButtonScreenNor_png" source.down="ui_hunter_card_screen_ButtonScreenSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Scroller width="450" height="530" horizontalCenter="4" verticalCenter="7">
+			<e:List id="listCard">
+				<e:layout>
+					<e:TileLayout horizontalGap="0" verticalGap="0"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="groupRight" width="455" height="585" verticalCenter="10" y="0" scaleX="1" scaleY="1" right="0">
+			<e:Group id="groupEquipe" width="455" height="260" y="0" scaleX="1" scaleY="1" x="0">
+			<e:Image source="ui_hunter_BoardCardPopSeconde_png" left="0" top="0" right="0" bottom="0" scale9Grid="178,236,144,87"/>
+			<e:Button id="btnClose" label="" right="-15" top="-33">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group width="214" height="285" verticalCenter="3" scaleX="0.8" scaleY="0.8" left="20">
+				<e:Image id="imgEquipFrame" source="ui_frame_FrameCard4_png" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:Label id="labelEquipCardNumber" text="15" size="18" textColor="0x070707" scaleX="1" scaleY="1" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" width="45" height="30" left="15" top="15"/>
+				<e:Label id="labelEquipCardName" text="卡片名称" size="18" textColor="0x0a0a0a" scaleX="1" scaleY="1" height="30" top="15" verticalAlign="middle" textAlign="center" width="120" left="70"/>
+				<e:Image id="imgEquipCard" source="card_085tishenkaijiaS_8_png" scaleX="1" scaleY="1" horizontalCenter="0" top="56"/>
+				<e:Image id="imgEquipCardType" source="ui_hunter_evaluate_IconCardType5_png" scaleX="1" scaleY="1" left="15" top="56"/>
+				<e:Label id="labelEquipCardDetails" text="开发人员忠告：这个里面的内容是读表，不需要翻译了。" anchorOffsetX="0" width="179" anchorOffsetY="0" height="103" size="12" textColor="0x0a0a0a" lineSpacing="4" scaleX="1" scaleY="1" horizontalCenter="0" bottom="15"/>
+				<e:Image id="imgEquipLock" source="ui_currencyicon_IconLock_png" right="15" top="58" scaleX="0.8" scaleY="0.8"/>
+				<e:Label id="labelEquipLevel" text="99" size="18" width="30" height="20" verticalAlign="middle" textAlign="center" right="15" verticalCenter="0"/>
+				<e:Image source="ui_card_BoardCardStar_png" left="15" verticalCenter="0"/>
+				<e:Group id="groupEquipStar" width="60" height="20" left="20" verticalCenter="-1">
+				</e:Group>
+				<e:Image source="ui_hunter_WordsWear_png" horizontalCenter="0" bottom="25"/>
+			</e:Group>
+			<e:Group scaleX="1" scaleY="1" right="20" left="200" top="25" bottom="20">
+				<e:Image source="ui_hunter_LayerSeconde_png" scaleX="1" scaleY="1" left="0" top="0" right="0" bottom="0" scale9Grid="34,34,40,21"/>
+				<e:Label text="主属性:" size="15" textColor="0x000000" width="60" height="20" verticalAlign="middle" textAlign="left" left="10" top="5"/>
+				<e:Label id="labelEquipAttribute" text="攻击+20%" size="15" textColor="0x000000" height="20" verticalAlign="middle" textAlign="left" left="70" top="5" right="10"/>
+				<e:Image source="ui_hunter_OrnLine_png" left="13" right="13" top="30"/>
+				<e:Scroller left="10" right="10" bottom="10" top="40">
+				<e:List id="listEquipAttribute">
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+				</e:List>
+				</e:Scroller>
+			</e:Group>
+			</e:Group>
+			<e:Group id="groupReplace" width="455" height="260" y="260" scaleX="1" scaleY="1" x="0">
+			<e:Image source="ui_hunter_BoardCardPopSeconde_png" left="0" top="0" right="0" bottom="0" scale9Grid="162,192,186,76"/>
+			<e:Group width="214" height="285" verticalCenter="3" scaleX="0.8" scaleY="0.8" left="20">
+				<e:Image id="imgReplaceFrame" source="ui_frame_FrameCard4_png" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:Label id="labelReplaceCardNumber" text="15" size="18" textColor="0x070707" scaleX="1" scaleY="1" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" width="45" height="30" left="15" top="15"/>
+				<e:Label id="labelReplaceCardName" text="卡片名称" size="18" textColor="0x0A0A0A" scaleX="1" scaleY="1" height="30" top="15" verticalAlign="middle" textAlign="center" width="120" left="70"/>
+				<e:Image id="imgReplaceCard" source="card_085tishenkaijiaS_8_png" scaleX="1" scaleY="1" horizontalCenter="0" top="56"/>
+				<e:Image id="imgReplaceCardType" source="ui_hunter_evaluate_IconCardType5_png" scaleX="1" scaleY="1" left="15" top="56"/>
+				<e:Label id="labelReplaceCardDetails" text="开发人员忠告：这个里面的内容是读表，不需要翻译了。" anchorOffsetX="0" width="179" anchorOffsetY="0" height="103" size="12" textColor="0x0A0A0A" lineSpacing="4" scaleX="1" scaleY="1" horizontalCenter="0" bottom="15"/>
+				<e:Image id="imgReplaceLock" source="ui_currencyicon_IconLock_png" right="15" top="58" scaleX="0.8" scaleY="0.8"/>
+				<e:Label id="labelReplaceLevel" text="99" size="18" width="30" height="20" verticalAlign="middle" textAlign="center" right="15" verticalCenter="0"/>
+				<e:Image source="ui_card_BoardCardStar_png" verticalCenter="0" left="15"/>
+				<e:Group width="60" height="20" left="20" verticalCenter="-1" id="groupReplaceStar">
+				</e:Group>
+			</e:Group>
+			<e:Group scaleX="1" scaleY="1" right="20" left="200" top="25" bottom="20">
+				<e:Image source="ui_hunter_LayerSeconde_png" scaleX="1" scaleY="1" left="0" top="0" right="0" bottom="0" scale9Grid="34,34,40,21"/>
+				<e:Label text="主属性:" size="15" textColor="0x000000" width="60" height="20" verticalAlign="middle" textAlign="left" left="10" top="5"/>
+				<e:Label id="labelReplaceAttribute" text="攻击+20%" size="15" textColor="0x000000" height="20" verticalAlign="middle" textAlign="left" left="70" top="5" right="10"/>
+				<e:Image source="ui_hunter_OrnLine_png" left="13" right="13" top="30"/>
+				<e:Scroller left="10" right="10" bottom="10" top="40">
+				<e:List id="listReplaceAttribute">
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+				</e:List>
+				</e:Scroller>
+			</e:Group>
+			</e:Group>
+			<e:Group id="groupButton" width="455" height="65" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" y="500">
+			<e:Button id="btnReplace" label="" bottom="5" left="40">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonConfirmReplaceNor_png" source.down="ui_hunter_ButtonConfirmReplaceSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnCloseCard" label="" bottom="5" right="40">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseCardNor_png" source.down="ui_hunter_ButtonCloseCardSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

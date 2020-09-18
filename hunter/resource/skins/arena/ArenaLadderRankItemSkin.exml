@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaLadderRankItemSkin" width="600" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupCache" x="0" y="0" >
+		<e:Image source="ui_mail_LayerMailSeconde_png" width="600" height="100" scale9Grid="6,10,38,62" horizontalCenter="-3" verticalCenter="0"/>
+		<e:Label id="LabelName" text="玩家名字" size="20" top="25" left="250" textColor="0x000000"/>
+		<e:Label id="labelLevel" text="Lv:100" left="250" bottom="25" size="20" textColor="0x000000"/>
+		<e:BitmapLabel id="labelPlayerLayer" right="50" font="SkyArenaLayerNum_fnt" text="第2333层" verticalCenter="6"/>
+		<e:Group verticalCenter="0" left="30">
+			<e:Image id="imgBest" source="ui_arena_WordsRankingFirst_png" x="0" verticalCenter="0"/>
+			<e:BitmapLabel id="LabelFont" x="12" font="ArenaRanking_fnt" text="第1名" anchorOffsetX="0" width="99.5" rotation="358.73" verticalCenter="6"/>
+		</e:Group>
+		<e:Group left="130" verticalCenter="0" scaleX="0.9" scaleY="0.9">
+			<e:Image id="imgbg" source="ui_frame_FrameImageB_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgFrame" source="ui_frame_FrameImage_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="0" source=""/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

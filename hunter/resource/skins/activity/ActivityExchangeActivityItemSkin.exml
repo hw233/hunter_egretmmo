@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityExchangeActivityItemSkin" width="620" height="101" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0.5" verticalCenter="0">
+		<e:Image source="ui_acitivity_ButtonAwardListNor_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Button id="btnGet" label="" right="19" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_ButtonChangeNor_png" source.down="ui_acitivity_ButtonChangeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgGot" source="ui_acitivity_publicgift_IconSoldOut_png" right="21" verticalCenter="-0.5"/>
+		<e:Label text="限购：" size="18" fontFamily="Helvetica" top="5" left="91"/>
+		<e:Label id="lbLimit" text="1/10" size="18" fontFamily="Helvetica" left="147" top="5"/>
+		<e:Scroller width="440" height="70" left="0" verticalCenter="12.5">
+			<e:List id="lstView"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

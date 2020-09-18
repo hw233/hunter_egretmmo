@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishingEndSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+	<e:Group horizontalCenter="0" verticalCenter="39">
+		<e:Button id="btnDouble" label="" x="136" y="361">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_fishing_ButtonAwardDubleNor_png" source.down="ui_fishing_ButtonAwardDubleSel_png" source.disabled="ui_fishing_ButtonAwardDubleDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnGet" label="" x="444" y="361" width="165" height="55">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_fishing_ButtonFishingCollectNor_png" source.down="ui_fishing_ButtonFishingCollectSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller width="750" height="230" scrollPolicyH="off" scrollPolicyV="off" x="0" y="0">
+			<e:List id="lstAward">
+			<e:layout>
+				<e:TileLayout requestedRowCount="1" requestedColumnCount="3" columnWidth="230" paddingLeft="30" paddingRight="30"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group id="groupGold" x="151" y="429">
+			<e:Image source="ui_fishing_BoardFishingTimeTip_png" scaleX="0.3" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="lbGold" text="50" size="18" fontFamily="Helvetica" bold="true" horizontalCenter="16.5" verticalCenter="0.5"/>
+			<e:Image id="imgGold" source="ui_currencyicon_IconGemstone_png" horizontalCenter="-21" verticalCenter="0.5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_BattlePassGetHighSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" id="groupTouch" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="groupAni" horizontalCenter="0" verticalCenter="-210"/>
+	<e:Image source="ui_wonderland_BoardUseFruitAward_png" height="370" horizontalCenter="0" verticalCenter="0" scale9Grid="66,31,601,224"/>
+	<e:Image source="ui_battlePass_LvUp_WordsHighPassDone_png" horizontalCenter="0" verticalCenter="-208"/>
+	<e:Image source="ui_battlePass_IconHighPass_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="btnGet" label="" verticalCenter="245" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_battlePass_LvUp_ButtonGetHNor_png" source.down="ui_battlePass_LvUp_ButtonGetHSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

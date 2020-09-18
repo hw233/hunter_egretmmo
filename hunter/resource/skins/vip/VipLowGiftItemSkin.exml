@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipLowGiftItemSkin" width="630" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+
+
+	<e:Group id="groupImg" x="3" y="4">
+		<e:Image source="ui_vip_gift_BoardItem_png" x="0" y="0"/>
+		<e:Image id="imgDay" source="ui_mall_new_VIP12_png" x="12" y="19"/>
+		<e:Group id="groupGet" x="480" scaleX="0.8" scaleY="0.8" y="40">
+			<e:Button id="btnGet" label="" x="0" y="0" touchEnabled="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mall_gift_ButtonGiftCommonNor_png" source.down="ui_mall_gift_ButtonGiftCommonSel_png" source.disabled="ui_mall_gift_ButtonGiftCommonDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="imgIcon" source="ui_iconresources_zuanshi3_png" x="17.75" verticalCenter="0" touchEnabled="false"/>
+			<e:BitmapLabel id="lbToken" width="80" height="30" font="GiftValueNum_fnt" text="1000" touchEnabled="false" letterSpacing="-2" scaleX="1.25" scaleY="1.25" verticalCenter="1.5" horizontalCenter="27"/>
+		</e:Group>
+		<e:Image id="imgGet" source="ui_vip_gift_WordsBought_png" x="499.1" touchEnabled="false" y="34" visible="false"/>
+		<e:Image id="imgTips" source="ui_currencyicon_IconRed_png" x="593.6" y="37" touchEnabled="false"/>
+		<e:Group y="6" anchorOffsetX="0" anchorOffsetY="0" height="28" right="14">
+			<e:Label text="原价" textColor="0x000000" size="22" verticalAlign="middle" verticalCenter="0" left="-1"/>
+			<e:Image source="ui_iconresources_zuanshi3_png" verticalCenter="0" touchEnabled="false" y="34" scaleX="0.8" scaleY="0.8" left="32"/>
+			<e:Label id="labelyuanjia" text="23880" textColor="0x000000" size="20" verticalAlign="middle" verticalCenter="0" left="70" anchorOffsetX="0" textAlign="center"/>
+			<e:Image source="ui_acitivity_novicenew_xiexian_png" horizontalCenter="0" verticalCenter="0" width="100%"/>
+		</e:Group>
+		<e:Group width="470" height="110" x="147" scaleX="0.7" scaleY="0.7" verticalCenter="0">
+			<e:Scroller id="scroller" width="470" height="110" scrollPolicyH="on" scrollPolicyV="off" horizontalCenter="0" verticalCenter="0">
+				<e:List id="lstViewAward">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Image id="imgMask" source="ui_vip_gift_BoardItem_png" height="110" width="470" touchEnabled="false" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+
+
+</e:Skin>

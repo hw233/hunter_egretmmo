@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_HunterStrengMainAddItemSkin" width="170" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="170" height="100" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgFloor" source="ui_card_enchant_BoardFloorLow_png" horizontalCenter="0" verticalCenter="0" x="-8" y="14" scaleX="1" scaleY="1"/>
+		<e:Image id="imgMark" source="ui_card_enchant_WordsLow_png" left="10" top="10"/>
+		<e:Image id="imgSelect" source="ui_card_enchant_BoardFloorSelect_png" horizontalCenter="0" verticalCenter="-1"/>
+		<e:Image source="ui_card_enchant_BoardItemNumFloor_png" horizontalCenter="0" bottom="8"/>
+		<e:Image source="ui_instance_BoardBigon_png" right="11" verticalCenter="-8"/>
+		<e:Image id="imgBigonName" source="ui_instance_IconBigon_png" right="11" verticalCenter="-8"/>
+		<e:Group id="groupMeterials" x="52" y="8">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" width="66.5" height="65.1" x="0" y="0"/>
+			<e:Image id="imgIcon" source="item_ExpPillC_png" width="66.5" height="65.1" x="0" y="0"/>
+			<e:Image id="imgAddSkillMeterials" source="ui_hunter_IconSkillHunterMaterailsAdd_png" x="32" y="5"/>
+		</e:Group>
+		<e:Label id="labelName" text="99/99" x="50.67" y="77" size="16" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="69.66" anchorOffsetY="0" height="15.33"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="580" height="279" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" class="SuccessionBattlePopTipSkin">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image width="580" height="235" source="ui_hunter_LayerCurrencyFirst_png" scale9Grid="55,30,335,186" scaleX="1" scaleY="1" x="0" y="44"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" x="13" y="74" width="555" height="140" scale9Grid="15,10,92,65" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" width="304" scale9Grid="38,7,228,44" height="58" y="0" x="138"/>
+		<e:Image source="ui_battle_WordsPopSuccessionBattle_png" y="10" scale9Grid="14,3,85,23" horizontalCenter="0"/>
+		<e:Button id="ButtonGetAward" label="" y="221" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_wonderland_ButtonGetFruitOkSel_png" source.down="ui_wonderland_ButtonGetFruitOkSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="ButtonClose" label="" y="14" x="504">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="NodeOpenTip" x="116" y="99">
+			<e:Label id="LabelContent1" text="开启连续战斗后系统将自动进行最多10场战斗" y="0" textColor="0x000000" fontFamily="Helvetica" size="18" x="0"/>
+			<e:Label id="LabelContent2" text="遇到以下四种情况中任意一种，战斗托管结束" y="35" textColor="0x000000" fontFamily="Helvetica" size="18" x="0"/>
+			<e:Label id="LabelContent3" text="体力不足、挑战失败、战斗满10场、手动终止" y="70" fontFamily="Helvetica" size="18" x="0" textColor="0xff0000"/>
+		</e:Group>
+		<e:Group id="NodeCloseTip" x="144" y="133" visible="false">
+			<e:Label id="LabelCloseTip" text="当前处于连续战斗中，是否立即终止？" y="0" size="18" textColor="0x000000" fontFamily="Helvetica" x="0"/>
+		</e:Group>
+	</e:Group>
+
+
+</e:Skin>

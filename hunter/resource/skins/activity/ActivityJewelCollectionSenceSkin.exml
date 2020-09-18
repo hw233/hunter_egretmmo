@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityJewelCollectionSenceSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_mainui_BgMaoboli_png" horizontalCenter="0" verticalCenter="0" height="100%" width="100%"/>
+	<e:Group width="915" horizontalCenter="0.5" verticalCenter="35.5">
+		<e:Image source="ui_acitivity_LayerBg_png" x="0" y="47.82"/>
+		<e:Image source="ui_acitivity_OrnLineMain_png" x="30.56" y="53.26" scaleX="-1"/>
+		<e:Image source="ui_acitivity_OrnLineMain_png" x="888.41" y="53.01"/>
+		<e:Group id="groupAddBack" width="150" height="150" y="0" x="378"/>
+		<e:Image source="ui_acitivity_OrnLineTop_png" x="9.76" y="37.12" scaleX="1.05"/>
+		<e:Group id="groupTitle" x="223" y="-15.32">
+			<e:Image source="ui_acitivity_OrnTipMain_png" y="0" x="0"/>
+			<e:Group id="groupBgAni" width="100" height="100" y="13.68" x="185"/>
+			<e:Group id="groupAin" width="100" height="100" y="11.3" horizontalCenter="0.5"/>
+			<e:Group id="groupName" width="100" height="100" y="11.21" horizontalCenter="0.5"/>
+			<e:Image id="imageTop" source="ui_acitivity_jewel_WordsJewelCollection_png" y="38.48" horizontalCenter="5.5"/>
+		</e:Group>
+		<e:Button id="buttonClose" label="" x="833.7" y="22.64">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_acitivity_jewel_BoardAcitivityDesFloor_png" x="39.88" y="81.55"/>
+		<e:Image source="ui_acitivity_jewel_WordsAcitivityTime_png" x="67.16" y="95.84"/>
+		<e:Image source="ui_acitivity_jewel_WordsAcitivityDes_png" x="66.48" y="130.36"/>
+		<e:Label id="labelTime" text="活动时间" x="166.52" y="93.8" width="500" height="30" size="20" verticalAlign="middle" textAlign="left" textColor="0x00ff00"/>
+		<e:Label id="labelDes" text="活动内容" x="166.48" y="133.84" anchorOffsetX="0" width="500" anchorOffsetY="0" height="55.76" size="20"/>
+		<e:Image source="ui_acitivity_jewel_BoardMissionIconFloor_png" x="711.7" y="76.99"/>
+		<e:Label text="额外任务" x="720.04" y="78.76" size="15"/>
+		<e:Group width="100" height="100" x="752.12" y="96.61" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Button id="buttonMission" label="" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" scaleX.down="1.1" scaleY.down="1.1" source="ui_acitivity_jewel_IconMission_png" source.down="ui_acitivity_jewel_IconMission_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Image source="ui_acitivity_jewel_WordsMission_png" x="762.12" y="168.2"/>
+		<e:Image id="imageTipMission" source="ui_currencyicon_IconRed_png" x="822.64" y="98.28"/>
+		<e:Image source="ui_acitivity_jewel_BoardJewelGetWayTitleFloor_png" x="39.19" y="203.99"/>
+		<e:Image source="ui_acitivity_jewel_WordsJewelGetWay_png" y="208.97" x="395"/>
+		<e:Group x="42.41" y="465.11">
+			<e:Image source="ui_acitivity_jewel_BoardJewelHaveFloor_png" x="0.77" y="0"/>
+			<e:Image source="ui_acitivity_jewel_BoardJewelGetTodayFloor_png" x="0" y="0.61"/>
+			<e:Image source="ui_acitivity_jewel_WordsJewelGetToday_png" x="50.31" y="10.13"/>
+			<e:Image source="ui_acitivity_jewel_IconJewelBig_png" x="197.09" y="8.17"/>
+			<e:Image source="ui_acitivity_jewel_WordsJewelHave_png" x="460.43" y="27.65"/>
+			<e:Image source="ui_acitivity_jewel_IconJewelBig_png" x="578.58" y="24.69"/>
+			<e:Label id="labelHaveJewel" text="99999" x="606.47" y="23.65" size="24" anchorOffsetX="0" width="92.75" anchorOffsetY="0" height="33.09" verticalAlign="middle" textAlign="left"/>
+			<e:Button id="buttonMall" label="" x="675.57" y="16.93">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_random_ButtonExchangeNor_png" source.down="ui_acitivity_random_ButtonExchangeSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imageTipMall" source="ui_currencyicon_IconRed_png" x="805.11" y="8.13"/>
+			<e:Label id="labelDailyJewel" text="190/250" x="226.47" y="9.17" size="24" anchorOffsetX="0" width="126.39" anchorOffsetY="0" height="27.03" verticalAlign="middle" textAlign="left" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Label id="labelDailyJewelMax" text="提示：每日获得宝石上限200。" x="44" y="543.24" size="20" textColor="0xff9200"/>
+		<e:Image id="imageMissionPic1" source="ui_acitivity_jewel_BoardGetCardFloor_png" x="41.51" y="242.48"/>
+		<e:Image id="imageMissionName1" source="ui_acitivity_jewel_WordsGetCard_png" x="127.32" y="239.44"/>
+		<e:Image source="ui_acitivity_jewel_IconJewelSmall_png" x="260" y="383"/>
+		<e:Image source="ui_acitivity_jewel_IconJewelSmall_png" x="260" y="409"/>
+		<e:Image source="ui_acitivity_jewel_IconJewelSmall_png" x="260" y="435"/>
+		<e:Image id="imageMissionPic2" source="ui_acitivity_jewel_BoardCardUpStarFloor_png" y="243" x="323"/>
+		<e:Image id="imageMissionName2" source="ui_acitivity_jewel_WordsCardUpStar_png" x="409" y="242"/>
+		<e:Image source="ui_acitivity_jewel_IconJewelSmall_png" x="536" y="383"/>
+		<e:Image source="ui_acitivity_jewel_IconJewelSmall_png" x="536" y="409"/>
+		<e:Image source="ui_acitivity_jewel_IconJewelSmall_png" x="536" y="435"/>
+		<e:Image id="imageMissionPic3" source="ui_acitivity_jewel_BoardGetItemFloor_png" x="604" y="244"/>
+		<e:Image id="imageMissionName3" source="ui_acitivity_jewel_WordsGetItem_png" x="688" y="243"/>
+		<e:Image source="ui_acitivity_jewel_IconJewelSmall_png" x="814" y="396"/>
+		<e:Image source="ui_acitivity_jewel_IconJewelSmall_png" x="814" y="430"/>
+		<e:Label id="labelMission11" text="没获取一张1~3行卡片可得" x="48" y="385" size="16"/>
+		<e:Label id="labelMission21" text="没获取一张1~3行卡片可得" x="332" y="387" size="16"/>
+		<e:Label id="labelItemName1" text="倒在地包裹" x="668.62" y="399" size="16"/>
+		<e:Label id="labelItemName2" text="倒在地包裹" x="668.62" y="432" size="16"/>
+		<e:Label id="labelMission22" text="没获取一张1~3行卡片可得" x="332" y="412" size="16"/>
+		<e:Label id="labelMission23" text="没获取一张1~3行卡片可得" x="333" y="437" size="16"/>
+		<e:Label id="labelMission12" text="没获取一张1~3行卡片可得" x="48" y="411" size="16"/>
+		<e:Label id="labelMission13" text="没获取一张1~3行卡片可得" x="48" y="438" size="16"/>
+		<e:Label id="labelGetJewel11" text="x99" x="283" y="385" size="16"/>
+		<e:Label id="labelGetJewel21" text="x99" x="562" y="386" size="16"/>
+		<e:Label id="labelGetJewel22" text="x99" x="563" y="412" size="16"/>
+		<e:Label id="labelGetJewel23" text="x99" x="563" y="438" size="16"/>
+		<e:Label id="labelGetJewel31" text="x99" x="839.12" y="399" size="16"/>
+		<e:Label id="labelGetJewel32" text="x99" x="840.12" y="433" size="16"/>
+		<e:Label id="labelGetJewel12" text="x99" x="284" y="412" size="16"/>
+		<e:Label id="labelGetJewel13" text="x99" x="284" y="438" size="16"/>
+		<e:Group id="groupItem1" x="617.84" y="385.24" scaleX="0.4" scaleY="0.4">
+			<e:Image id="imageFrame1" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageclip1" source="hero_icon_head_wj_fenkesi_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="labelNum1" width="79" height="22" x="6.86" y="58.76" text="123" font="ItemNumWords_fnt" anchorOffsetX="0" anchorOffsetY="0" textAlign="right"/>
+		</e:Group>
+		<e:Group id="groupItem2" x="617.84" y="423.24" scaleX="0.4" scaleY="0.4">
+			<e:Image id="imageFrame2" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imageclip2" source="hero_icon_head_wj_fenkesi_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="labelNum2" width="79" height="22" x="6.86" y="58.76" text="123" font="ItemNumWords_fnt" anchorOffsetX="0" anchorOffsetY="0" textAlign="right"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_InstanceSweepFiveItemBSkin" width="500" height="75" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="500" height="75" x="0" y="0">
+		<e:Image source="ui_instance_BoardSweepInfo_png" x="250" y="52" anchorOffsetX="242.5" anchorOffsetY="15"/>
+		<e:Image source="ui_instance_BoardSearchTip_png" anchorOffsetX="93" anchorOffsetY="15" width="185" horizontalCenter="0" top="3"/>
+		<e:Label id="labelTitle" text="基础奖励" x="213" y="9" size="20"/>
+		<e:Label id="labelTTF" text="经验：" x="31" y="42" size="20" textColor="0x000000"/>
+		<e:Image id="imgExp" source="ui_currencyicon_IconHunterEXP_png" x="78" y="38"/>
+		<e:Label id="labelExp" text="0000" x="119" y="43" size="20" textColor="0x000000"/>
+	</e:Group>
+	<e:Label id="labelTTF1" text="金币：" x="255" y="42" size="20" textColor="0x000000"/>
+	<e:Image id="imgCopper" x="304" y="38" source="ui_currencyicon_IconGold_png"/>
+	<e:Label id="labelCopper" text="0000" x="343" y="43" size="20" textColor="0x000000"/>
+</e:Skin>

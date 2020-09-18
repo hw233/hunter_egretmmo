@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopBuyOneSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupWhole" width="100%" height="100%" x="0" y="0">
+	</e:Group>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgCCScale9Sprite" source="ui_hunter_LayerCurrencyFirst_png" width="305" height="405" scale9Grid="116,38,176,70" x="0" y="0"/>
+		<e:Image id="imgCCSprite" source="ui_card_OrnCardPopDown_png" x="7" y="268"/>
+		<e:Image id="imgCCScale9Sprite_1" source="ui_mall_BoardSellMax_png" x="12" y="152" width="280" height="125"/>
+		<e:Group x="12" top="22">
+			<e:Image id="imgCCScale9Sprite_2" source="ui_mall_BoardSellMax_png" x="0" y="0" width="280" height="125"/>
+
+
+
+			<e:Group width="95" height="93" verticalCenter="0" x="12">
+				<e:Image id="imgSpriteFrame" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgSpriteIcon" source="hero_icon_head_wj_dongba_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:BitmapLabel id="LabelNum" width="50" height="20" y="65" text="20" font="ItemNum_fnt" right="8" textAlign="right"/>
+				<e:Label id="LabelNum11" text="1" x="70.66" y="58.31" size="22" visible="false"/>
+				<e:Group id="groupAnimate" width="95" height="93" horizontalCenter="0" verticalCenter="0">
+				</e:Group>
+				<e:Image source="huizhang_5xinyang_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+			</e:Group>
+			<e:Image id="imgSpriteLogo" source="ui_icon_PieceTalent_png" x="13" y="15" scaleX="0.8" scaleY="0.8" visible="false"/>
+			<e:Label id="labelName" text="大大胖" x="114" y="39" size="18" textColor="0x582800" fontFamily="Arial" bold="true" anchorOffsetX="0" width="148" anchorOffsetY="0" height="20.67"/>
+			<e:Label id="labelOwn" text="拥有：999件" x="114" y="66" size="18" textColor="0x582800" fontFamily="Arial" bold="true" anchorOffsetX="0" width="158.67" anchorOffsetY="0" height="42"/>
+		</e:Group>
+		<e:Label id="labelInfo" text="集齐60个最召唤司马懿，yekeui用于武将升星。不翻译的内容" x="21.77" y="162.96" anchorOffsetY="0" height="226.33" anchorOffsetX="0" width="261.12" size="16" textColor="0x582800"/>
+		<e:Group bottom="22" x="59">
+			<e:Button id="btnBuy" label="" x="16.63" y="56.99">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mall_ButtonMallBuyNor_png" source.down="ui_mall_ButtonMallBuySel_png" source.disabled="ui_mall_ButtonMallBuyNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="labelTTF" text="售价：" x="0" y="17.32" textColor="0x582800" size="22" bold="true"/>
+			<e:Image id="imgSpriteCost" source="ui_icon_GoldSmall_png" x="53.99" y="0"/>
+			<e:Label id="labelCost" text="1234567" x="106.33" y="16.99" size="22" textColor="0x582800" fontFamily="Arial" bold="true"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

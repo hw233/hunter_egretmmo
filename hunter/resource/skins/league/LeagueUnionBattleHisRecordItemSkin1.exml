@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueUnionBattleHisRecordItemSkin1" width="740" height="64" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_union_battle_HisRecordBarBG_png" x="0" y="0" width="740" height="80" scaleY="0.8"/>
+	<e:Label id="ibRank" text="排名" size="20" textColor="0x000000" fontFamily="Helvetica" verticalCenter="0" width="74" textAlign="center" verticalAlign="middle" horizontalCenter="-300" height="24"/>
+	<e:Group x="143" verticalCenter="0">
+		<e:Image id="imgFrame" source="ui_frame_FrameImage0_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgPlayerIcon" source="hero_icon_head_wj_miji_png" scaleX="0.6" scaleY="0.6" verticalCenter="0" horizontalCenter="-2"/>
+	</e:Group>
+	<e:Group x="193" verticalCenter="0" width="546" height="24">
+		<e:Label id="lbUnionName" text="默认工会名称" size="20" textColor="0x000000" verticalCenter="0" fontFamily="Helvetica" width="161" textAlign="left" verticalAlign="middle" horizontalCenter="-176.5"/>
+		<e:Label id="lbAtkTime" text="进攻次数" size="20" textColor="0x020202" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" width="142" horizontalCenter="-29" height="24"/>
+		<e:Label id="lbContribution" text="贡献值" size="20" textColor="0x000000" fontFamily="Helvetica" width="165" verticalAlign="bottom" horizontalCenter="178" verticalCenter="0" height="24" textAlign="center"/>
+	</e:Group>
+</e:Skin>

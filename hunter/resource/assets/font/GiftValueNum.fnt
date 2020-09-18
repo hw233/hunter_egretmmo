@@ -1,0 +1,16 @@
+{"file":"GiftValueNum.png","frames":{
+" ":{"x":56,"y":60,"w":0,"h":0,"offX":0,"offY":25,"sourceW":0,"sourceH":0},
+"$":{"x":2,"y":2,"w":19,"h":30,"offX":1,"offY":-1,"sourceW":19,"sourceH":30},
+".":{"x":43,"y":60,"w":11,"h":11,"offX":2,"offY":14,"sourceW":11,"sourceH":11},
+"0":{"x":23,"y":34,"w":18,"h":24,"offX":1,"offY":1,"sourceW":18,"sourceH":24},
+"1":{"x":63,"y":34,"w":15,"h":24,"offX":1,"offY":1,"sourceW":15,"sourceH":24},
+"2":{"x":103,"y":34,"w":19,"h":23,"offX":1,"offY":2,"sourceW":19,"sourceH":23},
+"3":{"x":43,"y":34,"w":18,"h":24,"offX":1,"offY":1,"sourceW":18,"sourceH":24},
+"4":{"x":23,"y":2,"w":20,"h":24,"offX":0,"offY":1,"sourceW":20,"sourceH":24},
+"5":{"x":2,"y":60,"w":19,"h":23,"offX":1,"offY":2,"sourceW":19,"sourceH":23},
+"6":{"x":67,"y":2,"w":19,"h":24,"offX":1,"offY":1,"sourceW":19,"sourceH":24},
+"7":{"x":23,"y":60,"w":18,"h":23,"offX":2,"offY":2,"sourceW":18,"sourceH":23},
+"8":{"x":88,"y":2,"w":19,"h":24,"offX":1,"offY":1,"sourceW":19,"sourceH":24},
+"9":{"x":2,"y":34,"w":19,"h":24,"offX":1,"offY":1,"sourceW":19,"sourceH":24},
+"¥":{"x":45,"y":2,"w":20,"h":24,"offX":1,"offY":1,"sourceW":20,"sourceH":24},
+"₩":{"x":80,"y":34,"w":21,"h":23,"offX":0,"offY":2,"sourceW":21,"sourceH":23}}}

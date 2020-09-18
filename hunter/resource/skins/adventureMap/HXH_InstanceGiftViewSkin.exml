@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_InstanceGiftViewSkin" width="74" height="87" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" width="74" height="80" bottom="0" horizontalCenter="0">
+		<e:Image source="ui_instance_BoardPopFloor_png" bottom="0" horizontalCenter="0" width="74" anchorOffsetY="0" height="82"/>
+		<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.65" scaleY="0.65" verticalCenter="-5" horizontalCenter="0"/>
+		<e:Image id="imgIcon" source="hero_icon_head_wj_egun_png" scaleX="1" scaleY="1" anchorOffsetX="0" width="63.8" anchorOffsetY="0" height="62.2" horizontalCenter="0" verticalCenter="-5"/>
+		<e:Group id="groupClip" width="95" height="93" scaleX="0.65" scaleY="0.65" horizontalCenter="0" verticalCenter="-5"/>
+		<e:BitmapLabel id="labelAwardNum" width="60.29" height="20" font="ItemNumWords_fnt" text="123" anchorOffsetX="0" textAlign="right" scaleX="0.8" scaleY="0.8" touchEnabled="false" bottom="24" right="13"/>
+		<e:Label id="labelLayer" text="首通" size="18" horizontalCenter="0" top="-10" visible="false"/>
+		<e:Group id="groupAnimate" width="54.6" height="54.6" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" horizontalCenter="0.5" verticalCenter="-5.5"/>
+		<e:Group id="groupAni" width="84.54" height="84.39" scaleX="0.65" scaleY="0.65" horizontalCenter="0.5" verticalCenter="-6.5" touchEnabled="false" anchorOffsetY="0" anchorOffsetX="0">
+		</e:Group>
+		<e:Image id="imgGet" source="ui_instance_WordsBoxGetAward_png" scaleX="0.65" scaleY="0.65" bottom="20" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

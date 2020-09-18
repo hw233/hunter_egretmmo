@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_BattlePassMissionSkin" width="800" height="552" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_battlePass_BoardBottom_png" width="789" height="490" scale9Grid="7,6,573,354" verticalCenter="31" horizontalCenter="2.5"/>
+	<e:Image source="ui_battlePass_BoardMission_png" scale9Grid="8,7,773,60" top="0" horizontalCenter="2.5"/>
+	<e:Image id="imgTipPass" source="ui_battlePass_SpriteLow_png" left="9" top="0"/>
+	<e:Image source="ui_battlePass_WordsLv_png" left="212" top="23"/>
+	<e:Label id="labelRefresh" text="每天4点刷新" size="20" fontFamily="Helvetica" anchorOffsetX="0" width="170" verticalAlign="middle" textAlign="center" right="22" top="33"/>
+	<e:BitmapLabel id="labelLv" width="94" height="37" font="GoldNum_fnt" text="999" anchorOffsetX="0" anchorOffsetY="0" left="270" top="14"/>
+	<e:Scroller id="scrollerMission" width="765" height="442" anchorOffsetY="0" verticalCenter="40" horizontalCenter="2">
+		<e:List id="listMission" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="32">
+			<e:layout>
+				<e:VerticalLayout gap="6"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

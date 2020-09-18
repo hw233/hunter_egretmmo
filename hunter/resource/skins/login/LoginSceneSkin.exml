@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginSceneSkin" width="1344" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Group id="back_img" verticalCenter="0" horizontalCenter="0" height="640" width="1344">
+
+		<e:Image id="imgSky" horizontalCenter="0" top="0" x="10" y="10" source="ui_login_new_sky_jpg"/>
+
+		<e:Image id="imgCloud2" x="175" y="106" source="main_ani_img_cloud3_png" name="-68"/>
+		<e:Image id="imgCloud3" x="391" y="51" source="main_ani_img_cloud3_png" name="-68"/>
+		<e:Image id="imgCloud4" x="441" y="27" source="main_ani_img_cloud4_png" name="-60"/>
+		<e:Image id="imgCloud5" x="630" y="139" source="main_ani_img_cloud4_png" name="-60"/>
+		<e:Image id="imgCloud6" x="975" y="89" source="main_ani_img_cloud4_png" name="-60"/>
+		<e:Image id="imgCloud7" x="815" y="140" source="main_ani_img_cloud3_png" name="-68"/>
+		<e:Image id="imgCloud8" x="141" y="110" source="main_ani_img_cloud3_png" name="-68"/>
+		<e:Image id="imgCloud10" x="458" y="169" source="main_ani_img_cloud3_png" name="-68"/>
+
+		<e:Image id="imgCloud" horizontalCenter="0" top="0" x="40" y="40" source="ui_login_new_cloud_png" locked="true"/>
+		<e:Image id="imgCloud0" x="1040" y="149" source="main_ani_img_cloud1_png" minHeight="-72" locked="true"/>
+		<e:Image id="imgCloud1" x="175" y="204" source="main_ani_img_cloud2_png" name="-72" locked="true"/>
+		<e:Image id="imgCloud9" x="522" y="2" source="main_ani_img_cloud2_png" name="-72" locked="true"/>
+
+
+
+		<e:Image id="imgSun1" source="ui_login_new_sun_png" left="0" top="0" width="1185" height="640" locked="true"/>
+		<e:Image id="imgFt1" source="main_ani_img_ft_1_png" y="119" x="592" name="64" locked="true"/>
+		<e:Image id="imgFt2" y="198" x="265" source="main_ani_img_ft_2_png" name="-59" locked="true"/>
+		<e:Image id="imgFt3" y="178" x="972" source="main_ani_img_ft_3_png" name="-60" locked="true"/>
+
+
+
+		<e:Image id="imgCity" source="ui_login_new_bg1_png" horizontalCenter="0" bottom="0" locked="true"/>
+		<e:Image id="imgSun2" source="ui_login_ani_img_sun_png" bottom="270" left="4" locked="true"/>
+		<e:Group id="groupDove" left="0" right="0" top="0" bottom="0" name="320">
+			<e:Group id="groupWave" width="413" height="89" x="56" y="374"/>
+		</e:Group>
+		<e:Image id="imgMountain" source="ui_login_new_bg2_png" horizontalCenter="0" bottom="0" locked="true"/>
+		<e:Image id="imgRole" source="ui_login_new_role_png" horizontalCenter="0" bottom="0" locked="true"/>
+		<e:Group id="groupPetal" left="0" right="0" top="0" bottom="0" name="240" locked="true">
+		</e:Group>
+		<e:Image source="ui_login_new_frame_png" left="0" right="0" top="0" bottom="0" scale9Grid="329,218,468,204" locked="true"/>
+	</e:Group>
+
+	<e:Group id="groupAnimation" width="1280" height="100%" horizontalCenter="0" visible="false">
+	</e:Group>
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Button id="btnAccountManager" label="" left="30" y="138" x="30" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_login_ButtonIdManageNor_png" source.down="ui_login_ButtonIdManageSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnNotice" label="" left="30" y="42" x="30" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_login_ButtonNoticeNor_png" source.down="ui_login_ButtonNoticeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lbVersion" text="v1.5.0" x="2" y="2" fontFamily="Microsoft YaHei" size="20" height="24" anchorOffsetX="0" width="200" verticalAlign="middle" scaleX="1" scaleY="1"/>
+		<e:Group id="groupSelectServer" width="450" height="51" anchorOffsetY="0" anchorOffsetX="0" bottom="180" horizontalCenter="0" x="255" y="409" scaleX="1" scaleY="1">
+			<e:Rect width="100%" height="100%" x="0" y="0" ellipseWidth="20" ellipseHeight="20" fillAlpha="0.6"/>
+			<e:Button id="btnSelectServer" label="" verticalCenter="0" right="20" touchEnabled="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_login_ButtonChangeQuNor_png" source.down="ui_login_ButtonChangeQuSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Label id="lbGroupName" text="152区 螺旋尖刺" x="19.45" fontFamily="Microsoft YaHei" size="24" verticalCenter="0.5" textColor="0xffffff" textAlign="right" verticalAlign="middle" anchorOffsetX="0" width="269"/>
+		</e:Group>
+		<e:Group width="238" height="88" horizontalCenter="0" bottom="80" x="361" y="472" scaleX="1" scaleY="1">
+			<e:Button id="btnAuthAccount" label="" x="0" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_login_ButtonEnterGameNor_png" source.down="ui_login_ButtonEnterGameSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnEntryGame" label="" x="0" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_login_ButtonEnterGameNor_png" source.down="ui_login_ButtonEnterGameSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="img_spark" source="ui_login_Spark_png" x="0" verticalCenter="0" touchEnabled="false" mask="rect_spark_mask"/>
+			<e:Rect id="rect_spark_mask" width="216" height="65" x="9" y="13" touchEnabled="false" fillAlpha="1" visible="false"/>
+		</e:Group>
+		<e:Image id="logo" y="10" horizontalCenter="0" source="" x="480" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+	<e:Rect id="rectMask" left="-100" right="-100" top="-100" bottom="-100" visible="false"/>
+</e:Skin>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RelicMall_MainSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="820" height="475" horizontalCenter="0" verticalCenter="10.5">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="820" height="475" scale9Grid="203,109,40,32" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_card_BoardCardPopTop_png" width="820" horizontalCenter="0" top="-20" scale9Grid="185,10,156,22"/>
+		<e:Image source="ui_darkland_mall_IconZhuangShi1_png" top="-40" left="250"/>
+		<e:Image source="ui_darkland_mall_IconZhuangShi2_png" top="-43" right="245"/>
+		<e:Image source="ui_fishing_BoardFishingTopTip_png" horizontalCenter="0" top="-38"/>
+		<e:Image source="ui_darkland_mall_WordsTitle_png" horizontalCenter="0" top="-26"/>
+		<e:Image source="ui_darkland_mall_BoardInfoFloor_png" width="500" height="30" scale9Grid="67,3,8,20" horizontalCenter="0" top="25"/>
+		<e:Label text="每天4:00 12:00 20:00会自动刷新商品" width="342" size="20" height="30" horizontalCenter="0" top="25" verticalAlign="middle" textAlign="center"/>
+		<e:Button id="buttonClose" label="" top="-27" scaleX="-1" left="-13">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="788" height="360" horizontalCenter="0" top="57">
+			<e:Image source="ui_hunter_LayerSeconde_png" x="0" y="0" scale9Grid="50,34,9,10" width="100%" height="100%"/>
+			<e:Scroller width="100%" height="100%" y="0" x="0">
+				<e:List id="listInfo">
+					<e:layout>
+						<e:TileLayout orientation="columns" requestedColumnCount="2" paddingLeft="15" verticalGap="5" paddingRight="0" horizontalGap="20" paddingTop="5"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group width="570" height="42" right="16" bottom="10">
+			<e:Image x="0" y="0" width="100%" source="ui_mall_BoardMallResTip_png" alpha="0.4"/>
+			<e:Label id="labelRefresh" text="距下次自动刷新还有：" size="20" textColor="0x532203" verticalCenter="0" left="10"/>
+			<e:Button id="buttonFresh" label="" verticalCenter="0" right="190">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_mall_ButtonMallRushNor_png" source.down="ui_mall_ButtonMallRushSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imageRushGes" source="ui_iconresources_jingshi3_png" verticalCenter="0" right="140"/>
+			<e:Label id="labelTime" text="00:30:31" size="20" width="106" verticalCenter="0" left="200" textColor="0x532203"/>
+			<e:Label id="labelCost" text="999" verticalCenter="0" size="22" textColor="0x532203" left="422"/>
+			<e:Label id="labelRefreshTimes" text="(剩余:5次)" size="18" right="15" verticalCenter="0" textColor="0x006d00"/>
+		</e:Group>
+		<e:Group width="293" height="39" right="16" bottom="-43" scaleX="1">
+			<e:Image source="ui_mall_BoardMallRes_png" x="0" y="0" scaleX="0.5"/>
+			<e:Label text="当前拥有：" size="20" textColor="0xffffff" verticalCenter="0" left="40"/>
+			<e:Image id="imageCost" source="ui_iconresources_jingshi3_png" verticalCenter="0" left="115"/>
+			<e:Label id="labelToken" text="23456" size="18" verticalCenter="0" left="160"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleEndLoseGroupFightSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="BattleEnd_LoseGroupFight" width="100%" height="100%" x="0" y="0">
+		<e:Group id="AdaptBoard" width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="NodeBoard" width="100%" height="100%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group width="515" height="567" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="154" verticalCenter="0">
+				<e:Button id="ButtonGoOn" label="" y="476.01" horizontalCenter="100.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_battleend_ButtonReturnNor_png" source.down="ui_battleend_ButtonReturnSel_png" source.disabled="ui_battleend_ButtonReturnNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="ButtonNextMob" label="" y="476.01" horizontalCenter="-100">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_battleend_ButtonAgainInstanceNor_png" source.down="ui_battleend_ButtonAgainInstanceSel_png" source.disabled="ui_battleend_ButtonAgainInstanceNor_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Image source="ui_battleend_OrnLine_png" y="367.33" horizontalCenter="0"/>
+				<e:Image source="ui_battleend_WordsLoseTip_png" y="374" horizontalCenter="0"/>
+				<e:Image source="ui_groupfight_WordsResult_png" y="64" horizontalCenter="0.5"/>
+				<e:Group width="434" height="62" y="115" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+					<e:Image source="ui_groupfight_BoardEndFloor_png" verticalCenter="0" horizontalCenter="0"/>
+					<e:Image source="ui_groupfight_WordsFight1_png" x="15" y="-2"/>
+					<e:Label id="LabelTeamName1" text="酷拉皮卡队伍" x="145" size="22" fontFamily="Helvetica" verticalCenter="0"/>
+					<e:Image id="SpriteResult1" source="ui_groupfight_IconWin_png" x="360" verticalCenter="0"/>
+				</e:Group>
+				<e:Group width="434" height="62" y="189" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+					<e:Image source="ui_groupfight_BoardEndFloor_png" verticalCenter="0" horizontalCenter="0"/>
+					<e:Image x="15" y="-2" source="ui_groupfight_WordsFight2_png"/>
+					<e:Label id="LabelTeamName2" text="酷拉皮卡队伍" x="145" size="22" fontFamily="Helvetica" verticalCenter="0"/>
+					<e:Image id="SpriteResult2" source="ui_groupfight_IconWin_png" x="360" verticalCenter="0"/>
+				</e:Group>
+				<e:Group width="434" height="62" y="264" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+					<e:Image source="ui_groupfight_BoardEndFloor_png" verticalCenter="0" horizontalCenter="0"/>
+					<e:Image x="15" y="-2" source="ui_groupfight_WordsFight3_png"/>
+					<e:Label id="LabelTeamName3" text="酷拉皮卡队伍" x="145" size="22" fontFamily="Helvetica" verticalCenter="0"/>
+					<e:Image id="SpriteResult3" source="ui_groupfight_IconWin_png" x="360" verticalCenter="0"/>
+				</e:Group>
+			</e:Group>
+			<e:Group width="308" height="567" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="-257">
+				<e:Group id="NodeStar" width="200" height="200" y="49.41" horizontalCenter="0"/>
+				<e:Group id="NodeWin" width="200" height="200" y="139.41" horizontalCenter="0"/>
+				<e:Image source="ui_battleend_BoardEndNameTime_png" y="430.64" horizontalCenter="0.5"/>
+				<e:Image id="SpriteWordName" source="ui_battleend_WordsInstanceName_png" x="51" y="432.97"/>
+				<e:Label id="LabelInstanceName" text="副本名称不翻译" x="142" y="435.95" fontFamily="Helvetica" size="18" textAlign="left" verticalAlign="middle"/>
+				<e:Image source="ui_groupfight_BoardTipsFloorLose_png" y="344.5" horizontalCenter="0" scale9Grid="42,9,252,58"/>
+				<e:Label id="LabelTips" text="战胜条件：至少取得两场胜利" y="372" horizontalCenter="0" size="22" textColor="0xff2600" bold="true" verticalAlign="middle" textAlign="center"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

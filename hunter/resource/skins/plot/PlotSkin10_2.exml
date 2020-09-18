@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlotSkin10_2" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="700" height="375" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="img_back_0" source="plot_10_2_1_png" left="0" top="0"/>
+		<e:Image id="img_back_1" source="plot_10_2_2_png" y="121.67" left="0"/>
+		<e:Image id="img_back_2" source="plot_10_2_3_png" left="0" bottom="0"/>
+		<e:Image id="img_back_3" source="plot_10_2_4_png" right="0" top="0"/>
+		<e:Image id="img_back_4" source="plot_10_2_5_png" y="105.32" right="0"/>
+		<e:Image id="img_back_5" source="plot_10_2_6_png" right="0" bottom="0"/>
+		<e:Group id="img_talk_0" x="-15.66" y="0">
+			<e:Image source="plot_chat_10_2_1_png" x="0" y="58"/>
+			<e:Image source="plot_chat_10_2_8_png" x="205.66" y="0"/>
+		</e:Group>
+		<e:Group id="img_talk_1" x="-7.83" y="139">
+			<e:Image source="plot_chat_10_2_2_png" x="229.83" y="0"/>
+			<e:Image source="plot_chat_10_2_3_png" x="0" y="72.32"/>
+		</e:Group>
+		<e:Image id="img_talk_3" source="plot_chat_10_2_4_png" x="313" y="2.66"/>
+		<e:Group id="img_talk_4" x="429.5" y="138">
+			<e:Image source="plot_chat_10_2_5_png" x="0" y="52.17"/>
+			<e:Image source="plot_chat_10_2_6_png" x="191.5" y="0"/>
+		</e:Group>
+		<e:Image id="img_talk_5" source="plot_chat_10_2_7_png" x="565.67" y="305"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GiftLevelRMBItemSkin" width="350" height="57" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_mall_gift_BoardGiftTimeAward_png" scale9Grid="26,7,158,46" width="350" height="57" horizontalCenter="0" verticalCenter="0"/>
+	<e:Scroller width="230" height="80" verticalCenter="0.5" x="25" scaleX="0.7" scaleY="0.7">
+		<e:List id="lstRmbAward">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="lbRmbLevelGet" text="5级可领取" size="20" verticalAlign="middle" fontFamily="Helvetica" verticalCenter="0.5" textColor="0x4d2e03" horizontalCenter="90"/>
+</e:Skin>

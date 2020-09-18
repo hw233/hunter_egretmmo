@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardStrengthenMainPopSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupABRight" width="960" height="640" x="0" y="0">
+		<e:Group id="groupCard" width="214" height="285" verticalCenter="-63" horizontalCenter="-262" anchorOffsetX="107" anchorOffsetY="142.5">
+			<e:Image id="imgFrame" source="ui_frame_FrameCard3_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgCard" source="card_011huangjintianchengB_30_png" horizontalCenter="0" verticalCenter="-36"/>
+			<e:Image id="imgCardType" source="ui_hunter_evaluate_IconCardType1_png" horizontalCenter="-63" verticalCenter="-62.5"/>
+			<e:Label id="labelCardNum" text="15" textColor="0x000000" size="18" anchorOffsetY="0" height="37" anchorOffsetX="0" width="49" textAlign="center" verticalAlign="middle" horizontalCenter="-67.5" verticalCenter="-111"/>
+			<e:Label id="labelCardName" text="卡片" anchorOffsetX="0" width="134.8" anchorOffsetY="0" height="37.6" textColor="0x000000" size="18" textAlign="center" verticalAlign="middle" horizontalCenter="25.5" verticalCenter="-111.5"/>
+			<e:Label id="labelCardDetails" text="Label" anchorOffsetX="0" width="173.34" anchorOffsetY="0" height="98.67" size="12" textColor="0x000000" horizontalCenter="0.5" verticalCenter="73"/>
+			<e:BitmapLabel id="labelLevel" width="75.33" height="20" font="ItemNum_fnt" text="123" anchorOffsetX="0" horizontalCenter="51.5" verticalCenter="3.5" textAlign="right" verticalAlign="middle"/>
+			<e:Group id="groupStar" width="90" height="16" horizontalCenter="-43" verticalCenter="3"/>
+		</e:Group>
+		<e:Group width="432" height="117" horizontalCenter="201" verticalCenter="-27.5" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Label id="labelDes" text="持有者攻击属性百分比提升" size="20" textColor="0xffffff" horizontalCenter="0" top="15"/>
+			<e:Label id="labelAttri1" text="111%+2.11%" size="18" x="28.6" y="76" textAlign="right" anchorOffsetX="0"/>
+			<e:Label id="labelAttri2" text="3%+2.1" size="18" x="211" y="76" textAlign="left"/>
+			<e:Label id="labelAttri3" text="2.1" size="18" x="357" y="76" textAlign="left"/>
+			<e:Image id="imgAttri1" source="ui_hunter_IconSwakenArrowAtt_png" horizontalCenter="-61.5" verticalCenter="29.5"/>
+			<e:Image id="imgAttri2" source="ui_hunter_IconSwakenArrowAttGreen_png" horizontalCenter="118" verticalCenter="27.5"/>
+		</e:Group>
+		<e:Group id="groupBack" width="960" height="640" x="0" y="0"/>
+		<e:Group id="groupTmp" width="960" height="640" x="0" y="0"/>
+		<e:Label id="labelTips" text="念力注入效果未提升，系统将自动保留原效果" x="527" y="430" size="18"/>
+		<e:Label id="labelTips1" text="点击任意区域关闭" size="20" horizontalCenter="0" bottom="60"/>
+	</e:Group>
+</e:Skin>

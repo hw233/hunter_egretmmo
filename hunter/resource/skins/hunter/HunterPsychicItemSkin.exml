@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterPsychicItemSkin" width="115" height="115" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" width="115" height="115" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupAni" width="1" height="1" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_hunter_psychic_BoardPsychicFloor_png" horizontalCenter="0" x="5" scaleX="1" scaleY="1" verticalCenter="0"/>
+		<e:Group id="groupAnimation" width="74" height="85" horizontalCenter="0" verticalCenter="0">
+			<e:Image id="imgPsychicPicture" source="ui_hunter_psychic_WordsCao_png" verticalCenter="0" horizontalCenter="0" x="0" y="0" scaleX="1" scaleY="1" width="74" height="85" anchorOffsetX="37" anchorOffsetY="42.5"/>
+			<e:Image id="imgPsychicPicture1" source="ui_hunter_psychic_WordsCao_png" verticalCenter="0" horizontalCenter="0" x="10" y="10" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="groupLock" width="36" height="36" left="10" top="10" x="10" y="10" scaleX="1" scaleY="1">
+			<e:Image id="imgLevelFloor" width="36" height="36" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_hunter_psychic_new_BoardLevelFloor1_png"/>
+			<e:BitmapLabel id="labelLevelNum" font="ItemNumWords_fnt" text="9" horizontalCenter="0" verticalCenter="-2"/>
+
+
+		</e:Group>
+		<e:Group id="groupPsychicEffect" width="1" height="1" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group width="86" height="32" horizontalCenter="0" bottom="0" x="15" y="69" scaleX="1" scaleY="1">
+			<e:Group id="groupName" width="86" height="16" horizontalCenter="0" x="0" scaleX="1" scaleY="1" top="0">
+			<e:Image source="ui_hunter_psychic_BoardPsychicNameFloor_png" left="0" right="0" top="0" bottom="0"/>
+			<e:Label id="labelName" text="黑寡妇之牙" width="80" height="16" horizontalCenter="0" verticalCenter="0" size="12" verticalAlign="middle" textAlign="center"/>
+			</e:Group>
+			<e:Group id="groupProperty" width="86" height="16" bottom="0" horizontalCenter="0" x="0" y="23" scaleX="1" scaleY="1">
+			<e:Image source="ui_hunter_psychic_BoardPsychicNameFloor_png" left="0" right="0" top="0" bottom="0"/>
+			<e:Label id="labelProperty" text="生命+100%" width="80" height="16" horizontalCenter="0" verticalCenter="0" size="12" verticalAlign="middle" textAlign="center" x="3" y="-19" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+
+		<e:Group id="groupEffectOpen" width="1" height="1" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+
+	</e:Group>
+</e:Skin>

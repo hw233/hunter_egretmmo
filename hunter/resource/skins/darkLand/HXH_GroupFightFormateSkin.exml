@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_GroupFightFormateSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imageBg" source="ui_meteor_LayerFirst_png" horizontalCenter="0" verticalCenter="0" height="100%" width="100%"/>
+		<e:Image source="ui_hunter_OrnTop_png" horizontalCenter="0" top="0" scaleX="1.2"/>
+		<e:Group left="0" top="0" width="390">
+			<e:Button id="buttonClose" label="" left="-23" top="-10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image source="ui_groupfight_WordsTitle_png" left="99" top="-3"/>
+			<e:Image source="ui_groupfight_BoardLevelFloor_png" width="125" right="1" top="3"/>
+			<e:Label id="labelLevel" text="1阶段" y="6.29" size="18" anchorOffsetX="0" width="111" anchorOffsetY="0" height="27.33" verticalAlign="middle" textAlign="center" right="6"/>
+		</e:Group>
+		<e:Group horizontalCenter="20" verticalCenter="24">
+			<e:Group id="groupLeft" x="0" y="0">
+				<e:Image source="ui_meteor_BoardBg_png" width="460" height="550" scale9Grid="25,75,9,450" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="ui_meteor_BoardTip_png" width="430" horizontalCenter="0" top="11" scale9Grid="73,4,48,16"/>
+				<e:Image source="ui_groupfight_WordsMyTeam_png" horizontalCenter="0" top="17"/>
+				<e:Image source="ui_meteor_BoardTip_png" width="430" horizontalCenter="0" scale9Grid="74,10,47,10" top="346"/>
+				<e:Image source="ui_groupfight_WordsHelpTeam_png" horizontalCenter="0" top="352"/>
+				<e:Group id="groupTeam1" x="15" y="51.37">
+				<e:Image source="ui_meteor_BoardBgSeconde_png" y="0" width="430" height="140" scale9Grid="15,14,94,89" x="0"/>
+				<e:Image source="ui_groupfight_BoardTeamNameFloor_png" left="5" top="1"/>
+				<e:Image source="ui_groupfight_WordsMyTeam1_png" left="22" top="7"/>
+				<e:Group width="258" height="132" x="169" y="4" anchorOffsetY="0" anchorOffsetX="0">
+					<e:Scroller width="100%" height="100%" x="0" y="0">
+					<e:List id="listMy1" scaleX="0.8" scaleY="0.8">
+						<e:layout>
+						<e:TileLayout requestedRowCount="2" requestedColumnCount="4" paddingTop="5"/>
+						</e:layout>
+					</e:List>
+					</e:Scroller>
+				</e:Group>
+					<e:Group width="172" height="55" anchorOffsetY="0" anchorOffsetX="0" left="-4" bottom="5">
+						<e:Button id="buttonSet1" label="" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" scaleX.down="1.1" scaleY.down="1.1" source="ui_groupfight_ButtonSetNor_png" source.down="ui_groupfight_ButtonSetSel_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:Button>
+					</e:Group>
+				</e:Group>
+				<e:Group id="groupTeam2" x="15" y="198.67" width="430" height="140">
+				<e:Image source="ui_meteor_BoardBgSeconde_png" y="0" width="430" height="140" scale9Grid="15,14,94,89" x="0"/>
+				<e:Image source="ui_groupfight_BoardTeamNameFloor_png" top="1" left="5"/>
+				<e:Image source="ui_groupfight_WordsMyTeam2_png" x="22.99" y="8.32"/>
+				<e:Group width="256" height="130" x="169" y="5" anchorOffsetY="0" anchorOffsetX="0">
+					<e:Scroller width="100%" height="100%" x="0" y="0">
+					<e:List id="listMy2" scaleX="0.8" scaleY="0.8">
+						<e:layout>
+						<e:TileLayout requestedRowCount="2" requestedColumnCount="4" paddingTop="5"/>
+						</e:layout>
+					</e:List>
+					</e:Scroller>
+				</e:Group>
+					<e:Group width="172" height="55" left="-4" bottom="4">
+						<e:Button id="buttonSet2" label="" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" scaleX.down="1.1" scaleY.down="1.1" source="ui_groupfight_ButtonSetNor_png" source.down="ui_groupfight_ButtonSetSel_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:Button>
+					</e:Group>
+				</e:Group>
+				<e:Group id="groupTeam3" bottom="20" horizontalCenter="0" width="432" height="143">
+				<e:Image source="ui_meteor_BoardBgSeconde_png" width="430" height="140" scale9Grid="15,14,94,89" horizontalCenter="0" bottom="1"/>
+				<e:Image source="ui_groupfight_BoardTeamNameFloor_png" left="2" top="5" height="64"/>
+				<e:Label id="labelHelpName" text="库来卡其队伍" x="12.32" y="8.02" size="18" anchorOffsetX="0" width="129.33" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center"/>
+				<e:Group width="257" height="135" x="169" y="4" anchorOffsetY="0" anchorOffsetX="0">
+					<e:Scroller width="100%" height="100%" x="0" y="0">
+					<e:List id="listFri" scaleX="0.8" scaleY="0.8">
+						<e:layout>
+						<e:TileLayout requestedColumnCount="4" paddingTop="5" requestedRowCount="2" orientation="rows"/>
+						</e:layout>
+					</e:List>
+					</e:Scroller>
+				</e:Group>
+					<e:Group width="169" height="56" left="0" bottom="3">
+						<e:Button id="buttonSet3" label="" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-11" verticalCenter="0">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" scaleX.down="1.1" scaleY.down="1.1" source="ui_groupfight_ButtonChooseNor_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:Button>
+					</e:Group>
+				</e:Group>
+				<e:Group id="groupTeach2" width="456.06" height="336.36" x="2" y="4" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false"/>
+				<e:Group id="groupTeach3" width="450.01" height="210.61" x="1.81" y="341.39" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false"/>
+			</e:Group>
+			<e:Group id="groupTeach1" width="500" height="550" x="474" y="0">
+				<e:Group id="groupRightBoss" height="550" scaleX="1" scaleY="1" x="0" y="0">
+				<e:Image source="ui_meteor_BoardBg_png" y="-2.67" width="460" height="550" scale9Grid="24,75,15,450" horizontalCenter="0"/>
+				<e:Image source="ui_meteor_BoardTip_png" width="430" horizontalCenter="0" top="11" scale9Grid="66,4,55,17"/>
+				<e:Image source="ui_groupfight_WordsBossInfo_png" y="15.33" horizontalCenter="0.5"/>
+				<e:Group id="groupFightPos" horizontalCenter="0" bottom="10">
+					<e:Button id="buttonfight" label="" x="0" y="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" scaleX.down="1.1" scaleY.down="1.1" source="ui_instance_ButtonChangeNor_png" source.down="ui_instance_ButtonChangeSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Image id="imageFitghtOrnA" source="ui_instance_IconDao_png" x="20.65" y="0"/>
+					<e:Image id="imageFitghtOrnB" source="ui_instance_IconDao_png" x="75.94" y="0" scaleX="-1"/>
+				</e:Group>
+				<e:Group id="groupBoss1" x="10" y="48">
+					<e:Image source="ui_groupfight_BoardBossFloor_png" y="2.67" x="0"/>
+					<e:Label id="labelBossName1" text="残忍的西索" y="9.97" size="18" x="310"/>
+					<e:Image source="ui_groupfight_WordsFight1_png" x="15.67" y="0"/>
+					<e:Image id="imageBossIcon1" source="hero_role_heijie_png" x="8.66" y="29.02" scaleX="0.65" scaleY="0.65"/>
+					<e:Group id="groupBossSkill1" width="213" height="66" y="68.72" anchorOffsetY="0" anchorOffsetX="0" x="233">
+					<e:Scroller id="scrollerRewards0" width="100%" height="100%" x="0" y="0" anchorOffsetX="0">
+						<e:List id="listViewBossSkill1" width="100%" height="100%">
+						<e:layout>
+							<e:TileLayout requestedRowCount="1" orientation="rows" paddingTop="13" horizontalGap="3"/>
+						</e:layout>
+						</e:List>
+					</e:Scroller>
+					</e:Group>
+				</e:Group>
+				<e:Group x="10" y="190.69" id="groupBoss2">
+					<e:Image source="ui_groupfight_BoardBossFloor_png" y="2.67" x="0"/>
+					<e:Label text="残忍的西索" y="9.97" id="labelBossName2" size="18" x="310"/>
+					<e:Image x="15.67" y="0" source="ui_groupfight_WordsFight2_png"/>
+					<e:Image id="imageBossIcon2" source="hero_role_heijie_png" x="8.66" y="29.02" scaleX="0.65" scaleY="0.65"/>
+					<e:Group id="groupBossSkill2" width="212" height="66" x="233" y="68.72" anchorOffsetY="0" anchorOffsetX="0">
+					<e:Scroller id="scrollerRewards1" width="100%" height="100%" x="0" y="0">
+						<e:List id="listViewBossSkill2" width="100%" height="100%">
+						<e:layout>
+							<e:TileLayout orientation="rows" requestedRowCount="1" horizontalGap="3" paddingTop="13"/>
+						</e:layout>
+						</e:List>
+					</e:Scroller>
+					</e:Group>
+				</e:Group>
+				<e:Group x="10" y="332.38" id="groupBoss0">
+					<e:Image source="ui_groupfight_BoardBossFloor_png" y="2.67" x="0"/>
+					<e:Label id="labelBossName3" text="残忍的西索" y="9.97" size="18" x="310"/>
+					<e:Image x="15.67" y="0" source="ui_groupfight_WordsFight3_png"/>
+					<e:Image id="imageBossIcon3" source="hero_role_heijie_png" x="8.66" y="29.02" scaleX="0.65" scaleY="0.65"/>
+					<e:Group id="groupBossSkill3" width="213" height="66" x="233" y="68.72" anchorOffsetY="0" anchorOffsetX="0">
+					<e:Scroller id="scrollerRewards2" width="100%" height="100%" x="0" y="0">
+						<e:List id="listViewBossSkill3" anchorOffsetX="0" width="100%" height="100%">
+						<e:layout>
+							<e:TileLayout orientation="rows" requestedRowCount="1" horizontalGap="3" paddingTop="13" verticalGap="8"/>
+						</e:layout>
+						</e:List>
+					</e:Scroller>
+					</e:Group>
+				</e:Group>
+				<e:Group id="groupBossJN" width="449.33" height="548" x="10" y="-2" anchorOffsetX="0" anchorOffsetY="0" touchThrough="true" touchEnabled="false" touchChildren="false"/>
+				</e:Group>
+				<e:Group id="groupRightHelp" width="460" height="550" scaleX="1" scaleY="1" x="0" y="0" visible="false">
+				<e:Image source="ui_meteor_BoardBg_png" x="0" y="0" width="460" height="550" scale9Grid="24,75,8,450"/>
+				<e:Image source="ui_meteor_BoardTip_png" width="430" horizontalCenter="0" top="11"/>
+				<e:Image source="ui_groupfight_BoardButtonFloor_png" x="24.01" y="11.35" scaleX="0.6"/>
+				<e:Label id="labelTimes" text="剩余邀请次数:30/30" x="284.05" y="20.32" size="16"/>
+				<e:Button id="buttonFriendTeam" label="" x="51.68" y="4.38">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_groupfight_ButtonFriendTeamNor_png" source.down="ui_groupfight_ButtonFriendTeamNor_png" source.disabled="禁用状态资源名ui_groupfight_ButtonFriendTeamNor_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+
+				</e:Button>
+				<e:Group width="450" height="425" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="57">
+					<e:Scroller width="100%" height="100%" x="0" y="0">
+					<e:List id="listFriendTeam">
+						<e:layout>
+						<e:TileLayout orientation="columns" requestedColumnCount="1"/>
+						</e:layout>
+					</e:List>
+					</e:Scroller>
+				</e:Group>
+				<e:Label text="每名好友的队伍每天只能使用一次" y="504.36" textColor="0xff9200" size="18" horizontalCenter="0" fontFamily="Helvetica"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

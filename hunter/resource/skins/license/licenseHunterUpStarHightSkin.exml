@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="licenseHunterUpStarHightSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupgu" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="groupRight" anchorOffsetY="0" height="504" right="70" verticalCenter="0">
+		<e:Image source="ui_license_WordsPopTipUpStar_png" y="0"/>
+		<e:Image source="ui_meteor_BoardBgSeconde_png" width="362" height="445" scale9Grid="15,14,94,89" horizontalCenter="0" bottom="0"/>
+		<e:Image horizontalCenter="0" top="59" scale9Grid="58,4,63,28" source="ui_license_high_BoardTitleFloor2_png"/>
+		<e:Image top="63" y="4" scaleX="1" scaleY="1" source="ui_license_WordsPopTipUpStarAward_png" horizontalCenter="0.5"/>
+		<e:Image source="ui_meteor_BoardBgSeconde_png" x="16" y="98" width="335" height="225" scale9Grid="15,14,94,89"/>
+		<e:Image source="ui_license_OrnHunterLicenseLevel_png" y="96" horizontalCenter="0.5"/>
+		<e:Image y="100" horizontalCenter="0.5" source="ui_license_high_BoardMarkFloor_png"/>
+		<e:Image id="imgLicenceLevel" y="145" horizontalCenter="0" source="ui_license_examination_WordsTitle3_png"/>
+		<e:List id="listStarAward" width="250" height="80" y="238" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" horizontalCenter="0.5">
+			<e:layout>
+			<e:TileLayout requestedRowCount="1" verticalAlign="top"/>
+			</e:layout>
+		</e:List>
+		<e:Group x="0" y="329">
+			<e:Image scale9Grid="58,4,63,28" x="0" y="0" source="ui_license_high_BoardTitleFloor2_png"/>
+			<e:Image y="4" scaleX="1" scaleY="1" source="ui_license_WordsPopTipUpStarPrerogative_png" horizontalCenter="0.5"/>
+			<e:Scroller width="350" height="131" y="37" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5">
+			<e:List id="listHunterInfo" anchorOffsetY="0" height="152" x="0" y="-12"/>
+			</e:Scroller>
+		</e:Group>
+		</e:Group>
+		<e:Image id="imgLicense" source="ui_license_IconExaminationLevelCardBig_png" x="230" y="291" anchorOffsetX="107" anchorOffsetY="123"/>
+		<e:Group id="gropeTitle" x="232" y="128" rotation="359.86" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="gropeLicense" width="147" height="67" x="53" y="486" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Label id="labelLicenSeLevel" text="Label" x="33" y="18" textColor="0x000000" size="16"/>
+		</e:Group>
+		<e:Group id="groupStar" x="305.6" y="301"/>
+		<e:Group id="groupStar1" x="305" y="381" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label id="labelCloseTip" text="点击任意区域关闭" size="18" bottom="25" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

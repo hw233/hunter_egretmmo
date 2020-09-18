@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_InstanceOpenMap" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupOpenMap" width="960" height="640" x="0" y="0">
+		<e:Image source="ui_common_BoardInstanceOpenMap_png" horizontalCenter="0" bottom="34"/>
+		<e:Image source="ui_common_WordsTipInstanceOpen_png" horizontalCenter="-75.5" bottom="67"/>
+		<e:Image id="imgLicenseName" source="ui_common_WordsInstanceOpenName1_png" horizontalCenter="147.5" bottom="67"/>
+		<e:Image source="ui_common_OrnInstanceOpenMap_png" horizontalCenter="-302" bottom="43"/>
+	</e:Group>
+</e:Skin>

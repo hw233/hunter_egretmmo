@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GiftTimeNodeSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAddGift" horizontalCenter="0" verticalCenter="0" width="290" height="433"/>
+	<e:Label id="lbTipClose" text="点击任意区域关闭" size="18" fontFamily="Helvetica" verticalAlign="middle" textAlign="center" horizontalCenter="0" touchEnabled="false" bottom="33"/>
+</e:Skin>

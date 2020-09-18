@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_DesAwardSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="labelTip" text="点击任意位置关闭" anchorOffsetX="0" width="624" anchorOffsetY="0" height="49.7" textAlign="center" verticalAlign="middle" horizontalCenter="0" bottom="40" size="18" visible="false"/>
+	<e:Group horizontalCenter="0" verticalCenter="-18">
+		<e:Image source="ui_hunter_BoardCardPopSeconde_png" x="0" y="0" width="520" height="280" scale9Grid="65,65,250,396"/>
+		<e:Image source="ui_hunter_LayerSeconde_png" y="66.96" width="495" height="140" scale9Grid="15,10,92,65" x="17.48"/>
+		<e:Label text="包含奖励如下" y="30.77" anchorOffsetX="0" width="205.82" anchorOffsetY="0" height="40.61" horizontalCenter="0" textColor="0x000000" size="18" textAlign="center" verticalAlign="middle"/>
+		<e:Image source="ui_card_BoardCardPopTop_png" y="-6.19" scaleX="1.49" horizontalCenter="3.5"/>
+		<e:Image source="ui_daily_ButtonViewAward_png" y="2" horizontalCenter="0"/>
+		<e:Button id="buttonClose" label="" y="212.4" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_daily_ButtonKnowNor_png" source.down="ui_daily_ButtonKnowSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupMain" width="489.39" height="135" x="19" y="72" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Scroller width="100%" height="100%" x="0" y="0">
+				<e:List id="listViewAward">
+					<e:layout>
+						<e:TileLayout orientation="rows" requestedRowCount="1" paddingLeft="35"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

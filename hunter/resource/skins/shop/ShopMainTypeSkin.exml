@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopMainTypeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+
+
+	<e:Group id="groupMain" width="137" height="72">
+		<e:Button id="btnSpriteType" label="" x="0" y="23" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mall_ButtonMallUnionNor_png" source.down="ui_mall_ButtonMallUnionSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgSpriteType1" source="ui_mall_ButtonMallUnionSel_png" x="0" y="24"/>
+		<e:Image id="imgSpriteType" source="ui_mall_ButtonMallUnionNor_png" y="24" x="0"/>
+		<e:Image id="imgSpriteLock" source="ui_currencyicon_IconLock_png" x="11" y="24" scaleX="0.7" scaleY="0.7"/>
+		<e:Image id="imgSpriteTips" source="ui_currencyicon_IconRed_png" x="111" y="18" width="21" height="21"/>
+		<e:Image id="imgSpriteNew" source="ui_mall_IconNew_png" x="111" y="0" scaleX="0.7" scaleY="0.7"/>
+	</e:Group>
+</e:Skin>

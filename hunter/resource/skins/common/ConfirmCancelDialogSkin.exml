@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ConfirmCancelDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="648" height="293" verticalCenter="0" horizontalCenter="0">
+		<e:Image source="ui_common_BoardServerPopTip_png" x="0"/>
+		<e:Label id="labelNotice" text="确定将其退出公会吗？" size="20" textColor="0x070606" horizontalCenter="30" verticalCenter="-18" width="400" height="150" verticalAlign="middle" textAlign="center"/>
+		<e:Button id="btnConfirm" label="" y="227" horizontalCenter="119">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonOkNor_png" source.down="ui_union_ButtonOkSel_png" source.disabled="ui_union_ButtonOkSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnCancel" label="" y="227" horizontalCenter="-85">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonCancelNor_png" source.down="ui_union_ButtonCancelSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupAni" width="217" height="358" x="-80" y="-76" anchorOffsetY="0" anchorOffsetX="0"/>
+	</e:Group>
+</e:Skin>

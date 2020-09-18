@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_RandomLiveSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="2" verticalCenter="24">
+		<e:Image source="ui_instance_LayerInstance_png" y="0" width="730" height="565" scale9Grid="11,11,73,73" horizontalCenter="0"/>
+		<e:Image source="ui_instance_BoardTopTip_png" y="0" scaleX="2.25" scale9Grid="40,3,150,22" horizontalCenter="0"/>
+		<e:Image source="ui_instance_IconPoint_png" x="17.67" y="7.32"/>
+		<e:Image source="ui_acitivity_random_WordsRandomExchangeTitle_png" y="-69.65" horizontalCenter="0"/>
+		<e:Image source="ui_acitivity_random_BoardPlayerCore_png" x="13.36" y="17.36"/>
+		<e:Image source="ui_acitivity_random_WordsTipCurrencyCore_png" x="58.27" y="22.69"/>
+		<e:BitmapLabel id="labelCore" width="108" height="24" x="168" y="26.32" anchorOffsetX="0" anchorOffsetY="0" font="WordsGiftRmbGes_fnt" text="123"/>
+		<e:Image source="ui_instance_BoardSearchTeam_png" y="60" width="715" height="500" scale9Grid="8,7,50,47" horizontalCenter="0.5"/>
+		<e:Image source="ui_acitivity_random_WordsTipExchange_png" x="385.58" y="32.65"/>
+		<e:Group id="groupMain" width="715" height="500" y="60" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Scroller width="100%" height="100%" x="0" y="0">
+				<e:List id="listTableViewTask">
+					<e:layout>
+						<e:TileLayout orientation="rows" requestedRowCount="2" requestedColumnCount="4" paddingLeft="18" verticalGap="4" paddingTop="2"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Button id="buttonClose" label="" x="674.71" y="-18.64">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

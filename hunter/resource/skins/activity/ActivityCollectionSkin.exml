@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityCollectionSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgbg" source="ui_arena_LayerBg_png" horizontalCenter="0" verticalCenter="0" height="100%" width="100%"/>
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_acitivity_collection_bg_png" horizontalCenter="15" verticalCenter="0.5"/>
+		<e:Button id="btnClose" label="" x="8" y="61">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_collection_close1_png" source.down="ui_acitivity_collection_close2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnLookOver" label="" x="693" y="389">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_collection_Checkthereward_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_acitivity_collection_Successfullyadding_png" bottom="6" horizontalCenter="-59.5"/>
+		<e:Button id="btnLeaveFor" label="" right="63" bottom="6">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_collection_leavefor1_png" source.down="ui_acitivity_collection_leavefor2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnGet" label="" bottom="6" right="63" width="185">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_collection_get1_png" source.down="ui_acitivity_collection_get2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnCopy" label="" bottom="6" right="63" width="185">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_collection_copy1_png" source.down="ui_acitivity_collection_copy2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgAndroid" source="ui_acitivity_collection_anzhuo_png" x="86" y="125" visible="false"/>
+		<e:Image id="imgIOS1" source="ui_acitivity_collection_IOS1_png" x="87" y="125" visible="false"/>
+		<e:Image id="imgIOS2" source="ui_acitivity_collection_IOS2_png" x="98" y="131" visible="false"/>
+		<e:Image id="imgIOS3" x="98" y="131" source="ui_acitivity_collection_IOS3_png"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Formate_ItemAnimate" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupCache">
+		<e:Image scale9Grid="27,34,43,23" source="ui_instance_battle_diban2_png" width="711"/>
+
+		<e:Image top="3" y="4" scaleX="1" scaleY="1" source="ui_instance_battle_wenzi1_png" horizontalCenter="0"/>
+
+		<e:Button label="" y="38" rotation="0" left="-30" x="37">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_instance_battle_jiantou2_png" source.down="ui_instance_battle_jiantou2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button label="" y="37" right="-30" x="613" scaleX="-1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_instance_battle_jiantou2_png" source.down="ui_instance_battle_jiantou2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+	</e:Group>
+
+
+
+
+
+	<e:Scroller id="scroller" height="101" y="28" width="649" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:List id="listBottom">
+			<e:layout>
+				<e:HorizontalLayout gap="5" verticalAlign="middle"/>
+			</e:layout>
+
+		</e:List>
+	</e:Scroller>
+
+
+</e:Skin>

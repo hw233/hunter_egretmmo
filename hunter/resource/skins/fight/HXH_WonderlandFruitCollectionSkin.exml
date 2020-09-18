@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_WonderlandFruitCollectionSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui">
+
+
+	<e:Group width="100%" height="100%" horizontalCenter="0" bottom="0" touchEnabled="false" touchChildren="false">
+		<e:Image id="SpriteCollectBoard" source="ui_wonderland_BoardCollectionBur_png" horizontalCenter="0" bottom="50" x="340" y="569" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Image id="SpriteCollectBar" source="ui_wonderland_BurCollectionGreen_png" horizontalCenter="0" bottom="50" x="340" y="569" width="280" height="21" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Image id="SpriteCollectType" source="ui_wonderland_WordCollection_png" horizontalCenter="0" bottom="90" x="434" y="523" scaleX="1" scaleY="1" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

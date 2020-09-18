@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_FirstChargeMainNewSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imageBackGroud" source="ui_mainui_BgMaoboli_png" horizontalCenter="0" verticalCenter="0" height="100%" width="100%"/>
+	<e:Group horizontalCenter="-2" verticalCenter="7">
+		<e:Image source="ui_mall_first_BoardFloor_png" x="182.3" y="32.42"/>
+		<e:Image source="ui_mall_first_IconQiYa_png" y="93.78" x="0"/>
+		<e:Image id="imageTitle" source="ui_mall_first_WordsTitle1_png" x="188.68" y="0"/>
+		<e:Image id="imageTitleTip" source="ui_mall_first_WordsTitleSmall1_png" x="496.98" y="150.07"/>
+		<e:Group id="groupAdd" width="100" height="100" x="316.33" y="150.96"/>
+		<e:Button id="buttonClose" label="" x="828.35" y="43.98">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mall_first_ButtonCloseNor_png" source.down="ui_mall_first_ButtonCloseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="groupListItem" width="509" height="120" verticalCenter="55" right="33" anchorOffsetX="0">
+			<e:Scroller width="100%" height="100%" x="0" y="0">
+			<e:List id="listScrollView" anchorOffsetX="0" width="517">
+				<e:layout>
+					<e:HorizontalLayout gap="13"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group width="410" height="100" x="443.01" y="485.88">
+			<e:Scroller width="100%" height="100%" x="0" y="0">
+			<e:List id="listTableViewPay" y="2.67">
+				<e:layout>
+					<e:TileLayout orientation="rows" requestedRowCount="1"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Image source="ui_mall_first_BoardInfoFloor_png" x="503.67" y="434.33"/>
+		<e:Label id="labelTips" text="在充值1块钱就行了" x="506.35" y="434.65" size="20" anchorOffsetX="0" width="232" anchorOffsetY="0" height="26.67" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei"/>
+		<e:Button id="buttonReward" label="" x="739.7" y="421.34">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mall_first_ButtonGetNor_png" source.down="ui_mall_first_ButtonGetSel_png" source.disabled="ui_mall_first_ButtonGetDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonGo1" label="" x="739.01" y="421.31">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mall_first_ButtonPayNor_png" source.down="ui_mall_first_ButtonPaySel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonGo2" label="" x="739.04" y="422.35">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mall_first_ButtonCard1Nor_png" source.down="ui_mall_first_ButtonCard1Sel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buttonGo3" label="" x="738.03" y="422.36">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_mall_first_ButtonCard2Nor_png" source.down="ui_mall_first_ButtonCard2Sel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imageTips" source="ui_mall_first_WordsTips_png" x="823.37" y="394.31"/>
+		<e:Group id="groupTime" x="149.32" y="505.31">
+			<e:Image source="ui_tavern_BoardTimeFloorSmall_png" x="0" y="0" scaleX="1.2" scaleY="1.2"/>
+			<e:Label id="labelTime" text="首冲将在未来3小时之内结束" x="1.69" y="0.69" anchorOffsetX="0" width="221.67" anchorOffsetY="0" height="31.33" size="16" textColor="0xff2600" verticalAlign="middle" textAlign="center"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

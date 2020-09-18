@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonGetDialogItemIRSkin" width="94" height="123" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group height="123" horizontalCenter="0" verticalCenter="0" width="94">
+		<e:Group id="groupItem" width="95" height="93" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="0">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgIcon" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ui_exchange_IconFuritType1_png"/>
+			<e:Label id="lbPropID" text="1" size="18" fontFamily="Arial" textColor="0x353535" scaleX="1" scaleY="1" top="27" left="18" x="30" y="39" width="22" height="18" verticalAlign="middle" textAlign="center"/>
+
+			<e:BitmapLabel id="lbCount" y="60" right="9" text="3万" textAlign="right" font="ItemNumWords_fnt" scaleX="0.9" scaleY="0.9"/>
+			<e:Group id="groupAnimation" horizontalCenter="0" verticalCenter="-2" touchChildren="false" touchEnabled="false" touchThrough="true"/>
+
+		</e:Group>
+		<e:Label id="lbName" text="随机卡包" horizontalCenter="0" bottom="5" size="16" verticalAlign="middle" textAlign="center" textColor="0xfcf7f7" fontFamily="Helvetica"/>
+	</e:Group>
+</e:Skin>

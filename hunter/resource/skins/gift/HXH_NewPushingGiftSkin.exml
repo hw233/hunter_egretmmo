@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_NewPushingGiftSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgBackground" height="100%" source="ui_mainui_BgMaoboli_png" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" x="10" y="10" width="100%"/>
+	<e:Group id="groupMain" horizontalCenter="0" verticalCenter="-16">
+		<e:Image source="ui_mall_pushgift_BoardFloor_png" y="58.63" horizontalCenter="0"/>
+		<e:Image source="ui_mall_pushgift_LayerBg_png" y="103.61" horizontalCenter="0"/>
+		<e:Image id="imgInfoIcon" y="44.75" source="ui_mall_pushgift_BoardPic_png" horizontalCenter="18"/>
+		<e:Image y="0" source="ui_mall_pushgift_WordsTitle_png" horizontalCenter="0"/>
+		<e:Label id="lbCanBuy" text="剩余时间：5天5小时5分钟" fontFamily="Helvetica" verticalAlign="middle" size="22" textAlign="center" y="287.31" horizontalCenter="0"/>
+		<e:Button id="btnGet_2" label="" horizontalCenter="0" bottom="30">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_mall_pushgift_ButtonBuyNor_png" source.down="ui_mall_pushgift_ButtonBuySel_png" source.disabled="ui_mall_pushgift_ButtonBuyDis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:BitmapLabel id="lbValue_2" y="485.96" text="1000" font="GiftValueNum_fnt" horizontalCenter="21.5" touchEnabled="false"/>
+		<e:Image y="329.94" source="ui_mall_pushgift_BoardItemFloor_png" horizontalCenter="0"/>
+		<e:Image y="333.26" source="ui_mall_pushgift_WordsTips_png" horizontalCenter="0"/>
+		<e:Scroller id="scroller" width="550" height="83" y="362.26" scaleX="1.1" scaleY="1.1" horizontalCenter="0">
+		<e:List id="lstTableViewList">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Image id="imgIcon" source="ui_iconresources_zuanshi3_png" verticalCenter="216.5" horizontalCenter="-30.5" touchEnabled="false"/>
+		<e:Label id="lbSurplusTimes0" text="剩余次数：99" y="528.96" fontFamily="Helvetica" verticalAlign="middle" textAlign="left" size="20" right="88"/>
+		<e:Image source="ui_mall_pushgift_WordsAllValue_png" x="195.04" y="122.96"/>
+		<e:Image id="imageIcon1" source="ui_mall_gift_IconMoney_png" x="267.96" y="125.48"/>
+		<e:BitmapLabel id="labelValue1" width="123.03" height="35.15" x="284.8" y="121.47" text="1000" font="GiftValueNum_fnt" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="imageLimit1" source="ui_mall_gift_WordsGiftRmbType1_png" x="138.29" y="322.6"/>
+		<e:Image id="imageLimit" source="ui_mall_pushgift_WordsTipsTimes_png" x="-1.2" y="79.16" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Label text="点击任意区域关闭" fontFamily="Helvetica" textAlign="center" size="18" horizontalCenter="0" x="281" scaleX="1" scaleY="1" touchEnabled="false" bottom="22"/>
+</e:Skin>

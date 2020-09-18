@@ -1,0 +1,46 @@
+{"mc":{
+	"advent_ani_volcano":{
+		"frameRate":8,
+		"labels":[
+			{"name":"1","frame":1,"end":5}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"huoshanyanhu_00000_png",
+			"x":-18,
+			"y":-73
+			},
+			{
+			"res":"huoshanyanhu_00003_png",
+			"x":-18,
+			"y":-74
+			},
+			{
+			"res":"huoshanyanhu_00006_png",
+			"x":-18,
+			"y":-75
+			},
+			{
+			"res":"huoshanyanhu_00009_png",
+			"x":-18,
+			"y":-75
+			},
+			{
+			"res":"huoshanyanhu_00012_png",
+			"x":-18,
+			"y":-74
+			}
+			]
+}},
+	"res":{
+		"huoshanyanhu_00006_png":{"x":1,"y":72,"w":37,"h":70},
+		"huoshanyanhu_00000_png":{"x":80,"y":70,"w":38,"h":65},
+		"huoshanyanhu_00009_png":{"x":41,"y":1,"w":37,"h":70},
+		"huoshanyanhu_00012_png":{"x":80,"y":1,"w":37,"h":67},
+		"huoshanyanhu_00003_png":{"x":1,"y":1,"w":38,"h":69}
+	}}

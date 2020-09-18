@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleEndHeroItemUpgradeSkin" width="100" height="170.67" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="BattleEnd_HeroItemUpgrade" width="100" height="170" x="1">
+		<e:Group id="FadeLayer" width="100" height="170" x="0" y="0">
+			<e:Image id="SpriteFrame" source="ui_frame_FrameHunterAsh_png" y="41" horizontalCenter="-2.5"/>
+			<e:Image id="SpriteIcon" source="ui_huntericon_IconKuluoluo_png" y="41" horizontalCenter="0"/>
+
+			<e:BitmapLabel id="LabelLv" width="70" height="20" x="11" y="105" font="ItemNumWords_fnt" text="Lv123" scaleX="0.8" scaleY="0.8"/>
+			<e:Image id="SpriteBoard" source="ui_battleend_BoardBurHunterExp_png" y="152" horizontalCenter="0"/>
+			<e:Image id="SpriteExpBar" source="ui_battleend_BurHunterExp_png" y="152" left="6"/>
+			<e:Image id="SpriteExpBar1" y="152" width="84" height="15" left="8" anchorOffsetX="0" alpha="1" source="ui_common_mask_black_jpg"/>
+			<e:Label id="LabelAddExp" text="Exp+12345" y="134" size="18" textColor="0x00f900" textAlign="center" verticalAlign="middle" horizontalCenter="0"/>
+			<e:Group id="NodeLevelUp" width="100" height="29" y="6" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+				<e:Image source="ui_battleend_WordsUpLevel_png" x="14" y="6"/>
+				<e:Image source="ui_battleend_IconLevelUp_png" x="61" y="-3"/>
+			</e:Group>
+			<e:Image id="SpriteIconAwaken" source="ui_hunter_evaluate_IconHunterAwakenLevel5_png" x="58" y="94"/>
+			<e:Group id="SpriteStar" width="60" height="16" x="9" y="41">
+			</e:Group>
+			<e:Group id="NodeStar" height="16" left="19" top="44" width="50"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

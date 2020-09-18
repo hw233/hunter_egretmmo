@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MessageSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16b5f3ff4aa"/>
+	<e:Group id="groupMain" width="960" height="640" horizontalCenter="0" y="0">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="ui_common_BoardTipSys_png" horizontalCenter="0" verticalCenter="0" scale9Grid="86,8,516,49" width="960"/>
+		<e:Image id="imgIcon" verticalCenter="0" source="ui_iconresources_jinbi3_png" x="425" height="55" width="55"/>
+		<e:Label id="lbadd" text="+200" size="24" fontFamily="Helvetica" verticalAlign="middle" verticalCenter="2" textAlign="left" x="480" textColor="0xffffff"/>
+
+	</e:Group>
+</e:Skin>

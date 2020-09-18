@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityXuyuanLiveExchangeSkin" width="340" height="525" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group verticalCenter="5" horizontalCenter="7">
+		<e:Image source="ui_hunter_LayerCurrencyFirst_png" width="340" height="500" scale9Grid="143,30,113,87" horizontalCenter="-7" bottom="0"/>
+		<e:Image source="ui_card_OrnCardPopDown_png" x="45" y="374"/>
+		<e:Group x="15" y="33">
+			<e:Image source="ui_mall_BoardSellMax_png" y="0" width="310" height="120" scale9Grid="34,14,210,85" x="0"/>
+			<e:Group x="7" y="14">
+			<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" x="0" y="0"/>
+			<e:Image id="imgIcon" source="hero_icon_head_wj_huizhang_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="lbNum" width="40" height="23" x="48" y="59" font="ItemNumWords_fnt" text="123"/>
+			</e:Group>
+			<e:Label id="lbName" text="天使的资源笔记-什么玩" x="108" y="14" size="18" textColor="0x582800" fontFamily="Helvetica"/>
+			<e:Label id="lbType" text="拥有" x="108" verticalCenter="0" size="18" textColor="0x582800" fontFamily="Helvetica"/>
+			<e:Label id="lbOwn" text="拥有" x="108" verticalCenter="39" size="18" textColor="0x582800" fontFamily="Helvetica"/>
+		</e:Group>
+		<e:Button id="btnBuy" label="" y="448" x="96">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_acitivity_random_ButtonOkChangeNor_png" source.down="ui_acitivity_random_ButtonOkChangeSel_png" source.disabled="ui_acitivity_random_ButtonOkChangeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_mall_BoardSellMax_png" y="303" width="310" height="140" scale9Grid="34,14,210,85" x="15"/>
+		<e:Image source="ui_mall_BoardSellMax_png" width="310" height="140" scale9Grid="34,14,210,85" x="15" y="162"/>
+		<e:Group x="42" y="357">
+			<e:Image source="ui_card_BoardCurrency_png" width="257" height="36" scale9Grid="25,4,155,31" horizontalCenter="0" verticalCenter="0"/>
+			<e:Button id="btnSub" label="" verticalCenter="0" left="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedReduceNor_png" source.down="ui_bag_ButtonBagSelectedReduceSel_png" source.disabled="ui_bag_ButtonBagSelectedReduceSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnAdd" label="" verticalCenter="0" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedAddNor_png" source.down="ui_bag_ButtonBagSelectedAddSel_png" source.disabled="ui_bag_ButtonBagSelectedAddSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btnMax" label="" verticalCenter="0" right="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedMaxNor_png" source.down="ui_bag_ButtonBagSelectedMaxSel_png" source.disabled="ui_bag_ButtonBagSelectedMaxSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Label id="lbCount" text="9999" textColor="0x582800" fontFamily="Helvetica" size="22" verticalCenter="2" horizontalCenter="-54" textAlign="center" verticalAlign="middle"/>
+		</e:Group>
+		<e:Label text="共计花费：" x="42" y="409" size="18" textColor="0x582800" fontFamily="Helvetica"/>
+		<e:Label id="lbCost2" text="123积分" x="149" y="409" size="18" textColor="0x582800" fontFamily="Helvetica"/>
+		<e:Label text="请选择兑换数量" x="42" y="325" size="18" textColor="0x582800" fontFamily="Helvetica"/>
+		<e:Image source="ui_acitivity_wish_IconStar_png" x="120" y="403"/>
+		<e:Button id="btnClose" label="" x="264" y="-23">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png" source.disabled="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lbDes" text="天使的自动笔记-天使的自动笔记-天使的自动笔记-天使的自动笔记-天使的自动笔记" y="172" width="290" height="121" horizontalCenter="-8" textColor="0x582800" size="18" fontFamily="Helvetica" verticalAlign="top" textAlign="left" lineSpacing="3" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>

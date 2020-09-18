@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_DesPetTalentItemSkin" width="455" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="labelPropetyChange" text="攻击+10% ， 防御加101111" size="17" left="5" width="448" fontFamily="KaiTi_GB2312" lineSpacing="4" top="2"/>
+	<e:Rect id="rectLabel" width="460" height="17" x="3" y="0" fillAlpha="0.4" fillColor="0x3c3c3c"/>
+</e:Skin>

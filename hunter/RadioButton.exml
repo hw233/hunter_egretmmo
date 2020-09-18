@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RadioButton" states="up,down,upAndSelected,downAndSelected" currentState="up"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0"  width="100%" height="100%" source="ui_instancenew_dialog_item_title_bg0_png" source.down="ui_instancenew_dialog_item_title_bg1_png" source.downAndSelected="ui_instancenew_dialog_item_title_bg1_png"/>
+</e:Skin>

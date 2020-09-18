@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HXH_GroupFightMainItemSkin" width="152" height="46" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0">
+		<e:Button id="buttonLevel" label="" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_groupfight_ButtonLevelListNor_png" source.down="ui_groupfight_ButtonLevelListSel_png" source.disabled="ui_groupfight_ButtonLevelListDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:BitmapLabel id="labelLevel" width="109" height="30" anchorOffsetX="0" anchorOffsetY="0" font="SkyArenaLayerNum_fnt" text="55555" textAlign="center" right="7" verticalCenter="5" touchEnabled="false"/>
+		<e:Image id="imageLock" source="ui_hunter_psychic_IconRefreshLock_png" left="8" verticalCenter="0" touchEnabled="false"/>
+		<e:Image id="imageSelected" source="ui_frame_FrameSkillSelected_png" width="152" height="46" scale9Grid="11,11,70,70" x="0" y="0" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

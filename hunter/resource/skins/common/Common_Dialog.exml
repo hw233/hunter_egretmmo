@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_Dialog" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="ui_instance_BoardTopTip_png" y="15" scaleX="1.42" horizontalCenter="-1"/>
+	<e:Button id="btnClose" label="" x="390" y="-6" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

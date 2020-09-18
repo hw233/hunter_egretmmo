@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueMemberPopElderSkin" width="172" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" x="86" y="200" anchorOffsetY="200" height="400" width="172" anchorOffsetX="86" scaleX="1" scaleY="1">
+		<e:Image source="ui_union_BoardPlayerInfo_png" x="0" y="0" height="400" scale9Grid="66,57,48,44"/>
+		<e:Group x="86" y="200" anchorOffsetX="68.5" anchorOffsetY="189.5">
+			<e:Button id="btnCheck" label="" x="0" y="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerViewInfoNor_png" source.down="ui_union_ButtonPlayerViewInfoSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnFriend" label="" x="0" y="55">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerAddFriendNor_png" source.down="ui_union_ButtonPlayerAddFriendSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnMail" label="" x="0" y="110">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerSendEmailNor_png" source.down="ui_union_ButtonPlayerSendEmailSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnPrivate" label="" x="0" y="165">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerPrivateChatNor_png" source.down="ui_union_ButtonPlayerPrivateChatSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnKick" label="" x="0" y="220" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_union_ButtonPlayerKickedUnionNor_png" source.down="ui_union_ButtonPlayerKickedUnionSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnOnePk" label="" x="0" y="275">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendOnePkNor_png" source.down="ui_friend_ButtonFriendOnePkSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnThreePk" label="" x="0" y="330">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendThreePkNor_png" source.down="ui_friend_ButtonFriendThreePkSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaWholeEnemyItemSkin" width="637" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_mail_LayerMailSeconde_png" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="6,10,38,62" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="imgGradeName" source="ui_arena_WordsEnemyDefenseFirst_png" verticalCenter="0" left="30"/>
+	<e:Scroller width="464" height="105" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="0" right="3">
+		<e:List id="listViewEnemy" anchorOffsetX="0" width="418" x="20" y="0">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="15"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

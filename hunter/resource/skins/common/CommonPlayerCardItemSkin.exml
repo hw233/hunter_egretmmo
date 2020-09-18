@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonPlayerCardItemSkin" width="130" height="130" xmlns:e="http://ns.egret.com/eui">
+<e:Group left="0" top="0" right="0" bottom="0" width="130">
+		<e:Image source="ui_hunter_BoardCardMianA_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="groupUnLock" left="0" right="0" top="0" bottom="0">
+			<e:Group id="groupGetCard" left="0" right="0" top="0" bottom="0">
+				<e:Image id="imgCardBoard" source="ui_frame_framehalfcard1_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:Image id="imgCard" source="" verticalCenter="-9" anchorOffsetX="0" horizontalCenter="0" width="113.2" anchorOffsetY="0" height="60.8"/>
+				<e:Label id="labelNumber" text="12" height="16" width="31" size="16" top="4" textAlign="center" verticalAlign="middle" left="8" textColor="0x137c07" anchorOffsetX="0"/>
+				<e:Label id="labelName" text="丰州之树的树" height="16" right="10" width="79.6" size="12" top="4" textColor="0x1bbc0b" textAlign="center" verticalAlign="middle" anchorOffsetX="0"/>
+				<e:BitmapLabel id="labelLevel" width="60" height="20" font="ItemNum_fnt" text="1" right="12" bottom="44" textAlign="right" verticalAlign="center"/>
+				<e:Image id="imgCardType" source="ui_hunter_evaluate_IconCardType4_png" left="9" top="26"/>
+				<e:Group id="groupStar" width="60" bottom="36" height="20" left="12">
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupDontGet" left="0" top="0" right="0" bottom="0">
+				<e:Image id="imgTypeBig" source="ui_hunter_evaluate_IconCardTypeBig4_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupLock" left="0" right="0" top="0" bottom="0">
+			<e:Image id="imgTypeBigLock" source="ui_hunter_evaluate_IconCardTypeBig4_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgLock" source="ui_currencyicon_IconLock_png" verticalCenter="-15" horizontalCenter="0"/>
+			<e:Label id="labelLock" text="30级解锁" size="18" width="100" textColor="0xff0000" verticalAlign="middle" textAlign="center" horizontalCenter="0" bottom="30"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

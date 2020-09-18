@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeagueBuildUnionSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="960" height="640">
+		<e:Image width="583" height="253" source="ui_union_BoardBuildUnion_png" horizontalCenter="0" verticalCenter="0" x="189" y="194"/>
+		<e:Group horizontalCenter="0.5" y="279" x="221">
+			<e:Image width="146" height="25" x="0" y="8" source="ui_union_WordsInputLeagueNameB_png"/>
+			<e:Group x="160" y="0">
+			<e:Image width="360" height="43" source="ui_union_BordInputLeagueName_png" verticalCenter="0" horizontalCenter="0"/>
+			<e:Label text="长度不可超过六个字" width="180" height="25" size="20" textColor="0x411a03" left="6" verticalCenter="0" verticalAlign="middle" textAlign="left" visible="false"/>
+			<e:TextInput id="txtName" width="300" height="40" verticalCenter="0" left="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="btnConfirm" label="" y="355" horizontalCenter="0.5" x="407">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonCreatNor_png" source.down="ui_union_ButtonCreatSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group y="409" horizontalCenter="0.5" x="424">
+			<e:Image x="29" source="ui_currencyicon_IconGemstone_png" scaleX="0.8" scaleY="0.8" verticalCenter="0"/>
+			<e:Label id="lbProp" text="x20" x="61" size="18" fontFamily="Helvetica" textColor="0x000000" width="53" height="23" verticalAlign="middle" textAlign="left" verticalCenter="0"/>
+		</e:Group>
+		<e:Button id="btnClose" label="" width="90" height="55" x="697" y="187">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_union_ButtonCloseNor_png" source.down="ui_union_ButtonCloseSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image width="105" height="29" y="200" source="ui_union_WordsBuildUnion_png" horizontalCenter="0.5" x="429"/>
+	</e:Group>
+</e:Skin>

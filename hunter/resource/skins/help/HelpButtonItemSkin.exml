@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpButtonItemSkin" width="128" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="166ebe92355"/>
+	<e:Group id="groupBtnOne" width="128" height="40" anchorOffsetX="128" anchorOffsetY="38" horizontalCenter="0" verticalCenter="0">
+		<e:Button id="btnLevelOne" label="" horizontalCenter="0" verticalCenter="0.5" anchorOffsetX="64" anchorOffsetY="18">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_help_ButtonLevelOneNor_png" source.down="ui_help_ButtonLevelOneSel_png" source.disabled="ui_help_ButtonLevelOneSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Label id="labelLevelOne" text="猎人" horizontalCenter="0" verticalCenter="0" textColor="0x000000" touchEnabled="false" size="20" bold="true"/>
+	</e:Group>
+	<e:Group id="groupBtnTwo" width="128" height="40" anchorOffsetX="128" anchorOffsetY="39" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1">
+		<e:Button id="btnLevelTwo" label="" horizontalCenter="0" verticalCenter="0.5" enabled="true" anchorOffsetX="55" anchorOffsetY="17">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_help_ButtonLevelTwoNor_png" source.down="ui_help_ButtonLevelTwoSel_png" source.disabled="ui_help_ButtonLevelTwoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Label id="labelLevelTwo" text="猎人" textColor="0x000000" horizontalCenter="0" verticalCenter="0" touchEnabled="false" size="20" bold="true"/>
+	</e:Group>
+
+
+
+</e:Skin>

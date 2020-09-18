@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>猎人世界</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="full-screen" content="yes" />
+    <meta name="screen-orientation" content="landscape" />
+    <meta name="x5-orientation" content="landscape" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="application-name" content="猎人世界" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<link rel="apple-touch-icon-precomposed" sizes="128x128" href="favicon.ico" />
+    <style type="text/css">
+        html, body {
+            -ms-touch-action: none;
+            background: #000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+        ::-webkit-scrollbar{
+            display:none;
+        }
+		.container{  
+		   width:80%;
+		   border:1px solid #CD9603;  
+		   height:5px;  
+		   position:absolute;right:10%;left:10%;bottom:5px;
+		   text-align:center;
+		   vertical-align:middle;
+		}
+		#bar{  
+		   background:#FBBE1B;  
+		   float:left; 
+		   height:100%;  
+		   text-align:center;  
+		   line-height:150%; 
+		}  
+    </style>
+ 
+
+    <script type="text/javascript">
+        function onRefresh() {
+            window.location.reload(true);
+        }
+
+        function run() {
+            var bar = document.getElementById("bar");
+            var total = document.getElementById("total");
+            if (!bar || !total) return;
+            bar.style.width = parseInt(bar.style.width) + 1 + "%";
+            total.innerHTML = bar.style.width;
+            if (bar.style.width == "100%") {
+                return;
+            }
+            window.setTimeout(run, 100);
+        }
+        window.onload = function () {
+            run();
+        }  
+    </script>
+</head>
+
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="landscape"
+         data-scale-mode="fixedNarrow"
+         data-frame-rate="60"
+         data-content-width="960"
+         data-content-height="640"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+	
+    <div id="splash" style="left:0;top:0;right:0;bottom:0;position:absolute">
+        <img src="loading2.jpg" style="width:100%;margin:auto;top:0;;position:absolute;" />
+        <img src="refresh.png" style="margin:auto;top:10px;right:10px;position:absolute;width:45px;height:23px" onclick="onRefresh()"/>
+    </div>
+	
+	<div id="splash2" style="width:100%;position:absolute;right:0;left:0;bottom:50px;vertical-align:middle;text-align:center;">   
+        <span style="vertical-align:middle;font-size:13px;color:#FF0000">无法进入游戏请点击右上角</span>  
+        <span ><a style="vertical-align:middle;font-size:13px;color:#00FF40" href="javascript:onRefresh()">刷新</a></span>  
+        <span style="vertical-align:middle;font-size:13px;color:#FF0000">按钮</span>  
+    </div>
+    <div id="splash3" style="width:100%;position:absolute;right:0;left:0;bottom:20px;vertical-align:middle;text-align:center;">  
+        <img style="height:20px;vertical-align:middle;" src="wait.gif">  
+        <span style="vertical-align:middle;font-size:15px;color:#808080">首次加载需要10s左右，请耐心等待...</span>  
+    </div>
+    <div id="splash4">
+        <span id="total" style="display:none"></span>
+        <div class="container"> 
+        <div id="bar" style="width:0%;"></div> 	   
+        </div>
+    </div>
+	
+<script>
+    var add = function(){
+        console.log("add");
+        alert("add");
+    }
+    var loadScript = function (list, callback) {
+        var loaded = 0;
+        var loadNext = function () {
+            loadSingleScript(list[loaded], function () {
+                loaded++;
+                if (loaded >= list.length) {
+                    callback();
+                }
+                else {
+                    loadNext();
+                }
+            })
+        };
+        loadNext();
+    };
+
+    var loadSingleScript = function (src, callback) {
+        var s = document.createElement('script');
+        s.async = false;
+        s.src = src;
+        s.addEventListener('load', function () {
+            s.parentNode.removeChild(s);
+            s.removeEventListener('load', arguments.callee, false);
+            callback();
+        }, false);
+        document.body.appendChild(s);
+    };
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', './manifest.json', true);
+    xhr.addEventListener("load", function () {
+        var manifest = JSON.parse(xhr.response);
+        var list = manifest.initial.concat(manifest.game);
+        loadScript(list, function () {
+            /**
+             * {
+             * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
+             * "audioType": 0 //Use the audio type, 0: default, 2: web audio, 3: audio
+             * "antialias": //Whether the anti-aliasing is enabled in WebGL mode, true: on, false: off, defaults to false
+             * "calculateCanvasScaleFactor": //a function return canvas scale factor
+             * }
+             **/
+            egret.runEgret({ renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor:function(context) {
+                var backingStore = context.backingStorePixelRatio ||
+                    context.webkitBackingStorePixelRatio ||
+                    context.mozBackingStorePixelRatio ||
+                    context.msBackingStorePixelRatio ||
+                    context.oBackingStorePixelRatio ||
+                    context.backingStorePixelRatio || 1;
+                return (window.devicePixelRatio || 1) / backingStore;
+            }});
+        });
+    });
+    xhr.send(null);
+</script>
+</body>
+
+</html>

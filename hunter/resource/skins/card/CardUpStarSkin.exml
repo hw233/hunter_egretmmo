@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardUpStarSkin" width="352" height="185" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="352" height="185" x="0" y="0">
+		<e:Group id="groupNode" width="352" height="185" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Image id="imgScale9" source="ui_card_BoardCardUpStarAtt_png" x="-3.5" y="3" width="352" height="185"/>
+			<e:Image source="ui_card_WordsCardUpStarLevel_png" x="75.25" y="19.5" anchorOffsetX="42.56" anchorOffsetY="10.5" scaleX="0.8" scaleY="0.8" width="85.13"/>
+			<e:Group id="groupStar0" width="125" height="30" x="112.5" y="9" scaleX="0.8" scaleY="0.8"/>
+			<e:Group id="groupStar" width="125" height="30" x="122.5" y="8.5" scaleX="0.8" scaleY="0.8"/>
+			<e:Button id="btnHelp" label="" x="331" y="20" width="42" height="42" anchorOffsetX="21" anchorOffsetY="21" scaleX="0.8" scaleY="0.8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_help_ButtonHelpNor_png" source.down="ui_help_ButtonHelpSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="groupYincang" width="300" height="159.09" x="9" y="5.33" anchorOffsetY="0">
+				<e:Label id="labelTTF" text="星级：" x="24" y="58" size="14" width="120" height="40" anchorOffsetX="60" anchorOffsetY="20" verticalAlign="middle" textAlign="center" visible="false"/>
+				<e:Label id="labelCurrentLevelStar" text="2星（不翻译）" x="38" y="58" width="262" height="40" anchorOffsetY="20" size="14" verticalAlign="middle" visible="false"/>
+				<e:Label id="labelNextLevelStar" text="2星（不翻译）" x="237.5" y="58" width="262" height="40" anchorOffsetY="20" size="14" verticalAlign="middle" textColor="0x59fc0a" visible="false"/>
+				<e:Label id="labelTTF1" text="等级上限：" x="37" y="58" size="14" width="120" height="40" anchorOffsetX="60" anchorOffsetY="20" verticalAlign="middle" textAlign="center"/>
+				<e:Label id="labelCurrentLevelAtt" text="攻击+20%不翻译）" x="129" y="90" size="14" width="137" height="16" anchorOffsetX="60" anchorOffsetY="8" verticalAlign="middle" textAlign="left"/>
+				<e:Label id="labelNextAtt" text="2星（不翻译）" x="237.11" y="84" textColor="0x4eff00" size="14" verticalAlign="middle" textAlign="left"/>
+				<e:Label id="labelTTF2" text="副属性：" x="31" y="123" width="64" height="16" anchorOffsetX="32" anchorOffsetY="8" size="14" textAlign="center"/>
+				<e:Label id="labelTTF3" text="主属性：" x="31" y="90" width="64" height="16" anchorOffsetX="32" anchorOffsetY="8" size="14" textAlign="center"/>
+				<e:Label id="labelCurrentLevelAtt2" text="攻击20%不翻译）" x="71" y="59" size="14" width="137" anchorOffsetY="8" textAlign="left"/>
+				<e:Label id="labelNextAtt2" text="2星（不翻译）" x="237.11" y="51" textColor="0x4EFF00" size="14" verticalAlign="middle" textAlign="left"/>
+				<e:Label id="labelActivationAtt" text="死亡后立即 复活（不翻译的）" x="69" y="123" size="14" width="219" height="16" anchorOffsetY="8" textAlign="left"/>
+				<e:Image id="imageSprite" source="ui_pet_IconArrow_png" x="216.11" y="59.5" anchorOffsetX="16.5" anchorOffsetY="10.5"/>
+				<e:Image id="imageSprite1" source="ui_pet_IconArrow_png" x="216.11" y="90.5" anchorOffsetX="16.5" anchorOffsetY="10.5"/>
+				<e:Image id="imageSpriteAttType" source="ui_card_WordsTipActivity_png" x="304" y="157" anchorOffsetX="39" anchorOffsetY="19" scaleX="0.8" scaleY="0.8"/>
+			</e:Group>
+			<e:Image id="imgMax" source="ui_card_WordsCardUpStarLevelMax_png" x="62" y="86" scaleX="0.8" scaleY="0.8"/>
+			<e:Image id="imgUpStarAtt" source="ui_hunter_WordsTipUpStarAtt_png" x="177.5" y="99" anchorOffsetX="143" anchorOffsetY="37.5" scaleX="0.8" scaleY="0.8"/>
+		</e:Group>
+		<e:Group id="groupNodeUpStar" width="300" height="147" x="11" y="22" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>

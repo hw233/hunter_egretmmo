@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StoryInstanceAdventureItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupDown" y="104" height="193" scaleY="0" x="-3">
+			<e:Image id="imageBoardStageInfo" source="ui_storyinstance_BoardStageInfoNormal_png" x="8" y="9"/>
+			<e:Image id="imageIcon2" source="ui_instance_infoicon_IconInstanceInfomation_ac1_png" x="19" y="20"/>
+			<e:Button id="buttonDekaron" label="" x="239" y="123" scaleX="0.9" scaleY="0.9">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_meteor_ButtonChangeNor_png" source.down="ui_meteor_ButtonChangeSel_png" source.disabled="ui_meteor_ButtonChangeDis_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="imageFrameButton2" source="ui_instance_FrameInstance3_png" x="0" y="0" touchEnabled="false"/>
+			<e:Image source="ui_storyinstance_WordsMission_png" x="23" y="23"/>
+			<e:Image source="ui_storyinstance_IconStarSmall_png" x="189" y="24"/>
+			<e:Label id="labelMission1" text="通关副本" x="218" y="25" size="16" textColor="0x00f900" anchorOffsetX="0" width="149" anchorOffsetY="0" height="20" verticalAlign="middle" textAlign="left"/>
+			<e:Image id="imageMission1" source="ui_storyinstance_ButtonSelectSel_png" x="379" y="24"/>
+			<e:Image source="ui_storyinstance_IconStarSmall_png" x="189" y="49"/>
+			<e:Label id="labelMission2" text="上阵艺名放黜华西猎人" x="218" y="49" anchorOffsetX="0" width="161" anchorOffsetY="0" height="22" size="16" textAlign="left" verticalAlign="middle"/>
+			<e:Image id="imageMission2" source="ui_storyinstance_ButtonSelectNor_png" x="379" y="50"/>
+			<e:Image source="ui_storyinstance_IconStarSmall_png" x="189" y="74"/>
+			<e:Image id="imageMission3" source="ui_storyinstance_ButtonSelectNor_png" x="379" y="77"/>
+			<e:Label id="labelMission3" text="上阵两名放出系猎人" x="218" y="74" anchorOffsetX="0" width="160" anchorOffsetY="0" height="22" size="16" verticalAlign="middle"/>
+		</e:Group>
+		<e:Group id="groupUp" height="119" x="-4" y="0">
+			<e:Image id="imageBoardStage" source="ui_storyinstance_BoardStageNormal_png" x="5" y="6"/>
+			<e:Label id="labelName" text="之间的战争" x="14.5" y="10" anchorOffsetX="0" width="131" anchorOffsetY="0" height="21" size="16" textAlign="center" verticalAlign="middle"/>
+			<e:Image id="imageIcon1" source="ui_instance_infoicon_IconElite1_1_png" x="9.5" y="36"/>
+			<e:Group x="185.5" y="31">
+			<e:Image source="ui_storyinstance_BoardDropItem_png" x="0" y="0"/>
+			<e:Group width="125" height="50" x="3" y="26" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Scroller width="100%" height="100%" x="0" y="0">
+				<e:List id="listViewDrops">
+					<e:layout>
+						<e:HorizontalLayout paddingTop="2"/>
+					</e:layout>
+				</e:List>
+				</e:Scroller>
+			</e:Group>
+			</e:Group>
+			<e:Group id="groupLeftTimes" x="254.5" y="6" visible="false">
+			<e:Image source="ui_instance_BoardAdventureTime_png" x="0" y="3"/>
+			<e:Label text="剩余次数：" x="11" y="1" size="18" anchorOffsetX="0" width="90" anchorOffsetY="0" height="23" verticalAlign="middle"/>
+			<e:Label id="labelTimeNum" text="6" x="95" y="2" size="18" anchorOffsetX="0" width="41" anchorOffsetY="0" height="23" textAlign="left" verticalAlign="middle"/>
+			<e:Button id="buttonTimeAdd" label="" x="120" y="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_instance_ButtonAdventureTimeNor_png" source.down="ui_instance_ButtonAdventureTimeSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+			<e:Group id="groupFirstBloodAll" x="319.5" y="32">
+				<e:Image source="ui_storyinstance_BoardDropItemFirst_png" x="0" y="0"/>
+				<e:Group id="groupAll" x="25.5" y="27" anchorOffsetX="0" width="46">
+					<e:Image id="imageFrameFirstBlood" source="ui_frame_FrameHunterAsh_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imageIconFirstBlood" source="hero_icon_head_wj_dongba_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0"/>
+					<e:BitmapLabel id="labelFirstBlood" width="92.58" height="21.43" anchorOffsetX="0" anchorOffsetY="0" text="123" font="ItemNumWords_fnt" textAlign="right" scaleX="0.7" scaleY="0.7" right="2" bottom="6"/>
+					<e:Group id="groupFirstBlood" width="42" height="42" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imageGetFirstBlood" source="ui_mall_WordsLingqu_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+			</e:Group>
+			<e:Image id="imageMack" source="ui_instance_BoardMack_png" x="5.5" y="6" touchEnabled="false"/>
+			<e:Image id="imageFrameButton1" source="ui_instance_FrameInstance2_png" x="0" y="0" touchEnabled="false"/>
+			<e:Image id="imagePassStar" source="ui_instance_OrnInstanceGradeStar0_png" x="324.9" y="58.5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

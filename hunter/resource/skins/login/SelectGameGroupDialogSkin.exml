@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelectGameGroupDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupBox" width="850" height="511" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"
+	         verticalCenter="0">
+		<e:Button id="btnShowRoles" label="" x="0" y="75">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_login_ButtonYeNor_png" source.down="ui_login_ButtonYeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="最近登录" x="18" y="94" size="24" fontFamily="Arial" touchEnabled="false"/>
+		<e:Button id="btnRecommend" label="" x="0" y="141">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_login_ButtonYeNor_png" source.down="ui_login_ButtonYeSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="我的分区" x="16" y="159" size="24" fontFamily="Arial" touchEnabled="false"/>
+		<e:Scroller id="scrollerGameGroupSection" width="130" anchorOffsetY="0" height="300" y="210" x="0">
+			<e:viewport>
+			<e:List id="lstGameGroupSection" itemRendererSkinName="GameGroupSectionIRSkin" width="100%" anchorOffsetY="0" height="257" x="-110">
+				<e:layout>
+				<e:TileLayout orientation="rows" horizontalGap="0" verticalGap="0" requestedColumnCount="1"/>
+				</e:layout>
+			</e:List>
+			</e:viewport>
+		</e:Scroller>
+		<e:Image source="ui_login_BoardXuanQuFloor_png" y="0" right="20"/>
+		<e:Image source="ui_login_WordsSelectedTopTip_png" y="22"  right="582"/>
+		<e:Image source="ui_login_WordsServerType1_png" y="46"  right="322"/>
+		<e:Image source="ui_login_WordsServerType2_png" y="46"  right="249"/>
+		<e:Image source="ui_login_WordsServerType3_png" y="46"  right="177"/>
+		<e:Image source="ui_login_WordsServerType4_png" y="46"  right="106"/>
+		<e:Image source="ui_login_IconServerType4_png" y="48"  right="149"/>
+		<e:Image source="ui_login_IconServerType3_png" y="48"  right="220"/>
+		<e:Image source="ui_login_IconServerType2_png" y="48"  right="293"/>
+		<e:Image source="ui_login_IconServerType1_png" y="48"  right="365"/>
+		<e:Button id="btnOK" label="" top="21" right="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_login_ButtonSecetedQuCloseNor_png"
+					         source.down="ui_login_ButtonSecetedQuCloseSel_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="308" height="86" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" x="144" y="75">
+			<e:Button id="btnCurrSelect" label="" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_login_ButtonQuNor_png" source.down="ui_login_ButtonQuSel_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="imgCurrClose" source="ui_login_IconServerType4_png" left="33" verticalCenter="0.5" />
+			<e:Image id="imgCurrGood" source="ui_login_IconServerType3_png" left="33" verticalCenter="0.5" />
+			<e:Image id="imgCurrBusy" source="ui_login_IconServerType2_png" left="33" verticalCenter="0.5" />
+			<e:Image id="imgCurrFull" source="ui_login_IconServerType1_png" left="33" verticalCenter="0.5" touchEnabled="false" />
+			<e:Label id="lbCurrGroupName" text="100区 蜗趣之家" x="100" size="22" fontFamily="Arial" verticalCenter="0.5"
+			         anchorOffsetX="0" width="197.5" textAlign="left" verticalAlign="top" touchEnabled="false" />
+		</e:Group>
+		<e:Scroller id="scrollerGameGroup" width="670" anchorOffsetY="0" height="309" y="173" x="135" anchorOffsetX="0" scrollPolicyH="off">
+			<e:viewport>
+				<e:List id="lstGameGroup" itemRendererSkinName="GameGroupIRSkin" width="100%">
+					<e:layout>
+						<e:TileLayout orientation="rows" horizontalGap="0" verticalGap="0" requestedColumnCount="2" />
+					</e:layout>
+				</e:List>
+			</e:viewport>
+		</e:Scroller>
+		<e:Scroller id="scrollerGameRole" width="670" anchorOffsetY="0" height="309" y="173" x="135" scrollPolicyH="off">
+			<e:viewport>
+				<e:List id="lstGameRole" itemRendererSkinName="GameRoleIRSkin" width="100%">
+					<e:layout>
+						<e:TileLayout orientation="rows" horizontalGap="0" verticalGap="0" requestedColumnCount="2" />
+					</e:layout>
+				</e:List>
+			</e:viewport>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

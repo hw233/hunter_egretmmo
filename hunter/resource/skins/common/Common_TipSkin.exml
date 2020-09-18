@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_TipSkin" width="200" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" top="0" touchEnabled="false">
+		<e:Image id="imageBoard" source="ui_wonderland_BoardFruitName_png" x="0" verticalCenter="0" touchEnabled="false"/>
+		<e:Label id="labelTextAttri" text="物理攻击+123" x="8" anchorOffsetX="0" width="141" anchorOffsetY="0" height="22" textColor="0x00ff00" size="18" textAlign="center" verticalAlign="middle" verticalCenter="0" touchEnabled="false" visible="false"/>
+		<e:Image id="imageRes" source="ui_iconresources_jibanshi3_png" x="16" scaleX="0.8" scaleY="0.8" verticalCenter="0" touchEnabled="false"/>
+		<e:Label id="labelTextRes" text="+1234" x="65" size="18" textColor="0x00ff00" anchorOffsetX="0" width="116" anchorOffsetY="0" height="25" textAlign="left" verticalAlign="middle" verticalCenter="0" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

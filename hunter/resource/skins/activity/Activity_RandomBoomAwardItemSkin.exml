@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_RandomBoomAwardItemSkin" width="95" height="95" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imageBoard" source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imageIcon" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:Group id="groupMain" width="95" height="95" x="0" y="0">
+		</e:Group>
+		<e:BitmapLabel id="labelNum" width="69" height="28" text="1" font="ItemNumWords_fnt" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" right="11" bottom="8" touchEnabled="false"/>
+		<e:Image id="imageTip" scaleX="0.4" scaleY="0.4" left="13" top="8" touchEnabled="false" source=""/>
+		<e:Group id="groupMain1" width="95" height="95" x="0" y="0" touchThrough="true" touchEnabled="false" touchChildren="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterTransformChooseSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Image source="ui_storyinstance_LayerBGMain_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_hunter_OrnTop_png" horizontalCenter="0" top="0"/>
+		<e:Image id="imageTipChoose" source="ui_storyinstance_transform_HXH_LeadOfStory_png" x="112.03" y="1.64"/>
+		<e:Button id="buttonClose" label="" left="-23" top="-8">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonReturnNor_png" source.down="ui_hunter_ButtonReturnSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group horizontalCenter="0" verticalCenter="28">
+			<e:Image source="ui_storyinstance_transform_HunterInfoBG1_png" x="0" y="0"/>
+			<e:Image source="ui_storyinstance_transform_HunterInfoLabel_png" x="15.66" y="22.67"/>
+			<e:Image source="ui_storyinstance_transform_Label2_png" x="300.55" y="30.67"/>
+			<e:Label id="labelDes" text="通过参加猎人故事收集主角的变身卡，可将对应猎人变身为主角形象。变身后主角不仅能力得到大幅提升，还讲领悟新的猪叫技能" x="308" y="42.06" anchorOffsetX="0" width="561.88" anchorOffsetY="0" height="55.76" size="18" lineSpacing="5"/>
+			<e:Image source="ui_storyinstance_transform_TitleHunterBG_png" x="25.6" y="24.92"/>
+			<e:Image source="ui_storyinstance_transform_HXH_HunterIndex_png" x="108.04" y="34.48"/>
+			<e:Group width="924.25" height="425.76" x="13.45" y="121" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Scroller width="100%" height="432.06" x="0" y="0" anchorOffsetY="0">
+				<e:List id="listViewItem">
+					<e:layout>
+						<e:TileLayout orientation="rows" requestedRowCount="1" horizontalGap="2"/>
+					</e:layout>
+				</e:List>
+				</e:Scroller>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_OnlineGetAwardsItemSkin" width="100" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   >
+	<w:Config id="16e1ad47b70"/>
+	<e:Group id="groupAll" width="100" height="100" horizontalCenter="0" verticalCenter="0" scaleX="0.9" scaleY="0.9" touchChildren="false" touchEnabled="false">
+		<e:Image source="ui_acitivity_onlineReward_frameBack_png" x="0" y="0" width="100" height="100"/>
+		<e:Image id="imgFrame" horizontalCenter="-1" verticalCenter="2" source="ui_acitivity_onlineReward_frame_png"/>
+		<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="0" source="ui_iconresources_zuanshi1_png"/>
+		<e:Image id="imgCanGetAward" source="ui_acitivity_onlineReward_canGet_png" left="8" top="5"/>
+		<e:Image id="imgGetAwardEnd" source="ui_acitivity_onlineReward_haveGot_png" left="8" top="5"/>
+		<e:Label id="labelNum" text="x123" size="18" anchorOffsetX="0" width="74" textAlign="right" verticalAlign="bottom" horizontalCenter="-1" verticalCenter="28" stroke="2.5" strokeColor="0x000000"/>
+		<e:Image id="imgBalck" width="100" height="100" source="ui_instance_BoardBossSkill_png" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" touchEnabled="false" visible="false"/>
+	</e:Group>
+	<e:Group id="groupTouch" top="0" bottom="0" left="0" right="0" touchEnabled="true"/>
+
+</e:Skin>

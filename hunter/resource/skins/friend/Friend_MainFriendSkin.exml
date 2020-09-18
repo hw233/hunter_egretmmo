@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Friend_MainFriendSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imageBackground" source="ui_mainui_BgMaoboli_png" horizontalCenter="0" verticalCenter="0" height="100%" width="100%"/>
+	<e:Group id="groupShow" width="960" height="640" x="0" y="0">
+		<e:Group id="groupMain" width="700" height="602" scaleX="1" scaleY="1" horizontalCenter="8" verticalCenter="0">
+			<e:Image source="ui_hunter_LayerCurrencyFirst_png" x="0" y="41.72" width="685" height="560" scale9Grid="139,86,164,31"/>
+			<e:Image source="ui_friend_BoardFriendTip_png" x="0.26" y="24.89"/>
+			<e:Button id="buttonFriend" label="" x="10.99" y="4.2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendTipMyNor_png" source.down="ui_friend_ButtonFriendTipMySel_png" source.disabled="ui_friend_ButtonFriendTipMySel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="buttonEnemy" label="" x="138.09" y="3.3">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendTipEnemyNor_png" source.down="ui_friend_ButtonFriendTipEnemySel_png" source.disabled="ui_friend_ButtonFriendTipEnemySel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="buttonClose" label="" x="609.42" y="11.13" width="90" height="55">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image source="ui_mail_LayerMailFirst_png" x="15" y="101.42" width="655" height="380" scale9Grid="12,13,79,80"/>
+			<e:Label id="labelTextCnt" text="好友数量：10/10" y="72.6" textColor="0x000000" size="20" fontFamily="Helvetica" x="24.5"/>
+			<e:Label id="labelTextPower" text="尽力已领体力 : 10/10" y="71.6" textColor="0x000000" size="20" x="471.5"/>
+			<e:Button id="buttonAdd" label="" x="24.45" y="518" width="143" height="49">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendTypeAddNor_png" source.down="ui_friend_ButtonFriendTypeAddSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="buttonApply" label="" x="180.79" y="518">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendTypeAddLisNor_png" source.down="ui_friend_ButtonFriendTypeAddLisSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="buttonSend" label="" x="348.54" y="518">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendTypeAkeySendNor_png" source.down="ui_friend_ButtonFriendTypeAkeySendSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="buttonGet" label="" x="509.26" y="518">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_friend_ButtonFriendTypeAkeyGetNor_png" source.down="ui_friend_ButtonFriendTypeAkeyGetSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="imageTipApply" source="ui_currencyicon_IconRed_png" x="311.1" y="513.48" visible="false"/>
+			<e:Group width="643.94" height="362.12" x="20.5" y="109" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Scroller id="scrollerInfo" width="100%" height="100%" x="0" y="0">
+				<e:List id="listTableView">
+				<e:layout>
+					<e:TileLayout orientation="columns" requestedColumnCount="1" paddingLeft="1.5" verticalGap="0"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			</e:Group>
+			<e:Image id="imageNoFriend" source="ui_friend_WordsFriendNode_png" x="235.5" y="283"/>
+			<e:Image id="imageTipFriend" source="ui_currencyicon_IconRed_png" x="108.14" y="0" visible="false"/>
+			<e:Image id="imageTipGet" source="ui_currencyicon_IconRed_png" x="634.98" y="514.08" visible="false"/>
+			<e:Image id="imageRect" source="ui_mainui_BgMaoboli_png" horizontalCenter="0" verticalCenter="0" height="100%" alpha="0.001" visible="false"/>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

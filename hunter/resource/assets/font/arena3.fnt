@@ -1,0 +1,13 @@
+{"file":"arena3.png","frames":{
+"1":{"x":84,"y":28,"w":17,"h":26,"offX":4,"offY":0,"sourceW":25,"sourceH":26},
+"2":{"x":32,"y":31,"w":25,"h":26,"offX":0,"offY":0,"sourceW":25,"sourceH":26},
+"3":{"x":59,"y":31,"w":23,"h":26,"offX":1,"offY":0,"sourceW":25,"sourceH":26},
+"4":{"x":57,"y":59,"w":23,"h":26,"offX":1,"offY":0,"sourceW":25,"sourceH":26},
+"5":{"x":83,"y":0,"w":23,"h":26,"offX":1,"offY":0,"sourceW":25,"sourceH":26},
+"6":{"x":32,"y":59,"w":23,"h":26,"offX":1,"offY":0,"sourceW":25,"sourceH":26},
+"7":{"x":82,"y":59,"w":22,"h":26,"offX":1,"offY":0,"sourceW":25,"sourceH":26},
+"8":{"x":58,"y":0,"w":23,"h":26,"offX":1,"offY":0,"sourceW":25,"sourceH":26},
+"9":{"x":0,"y":62,"w":23,"h":26,"offX":1,"offY":0,"sourceW":25,"sourceH":26},
+"第":{"x":0,"y":0,"w":31,"h":29,"offX":0,"offY":0,"sourceW":31,"sourceH":29},
+"名":{"x":0,"y":31,"w":30,"h":29,"offX":1,"offY":0,"sourceW":31,"sourceH":29},
+"0":{"x":33,"y":0,"w":23,"h":26,"offX":1,"offY":0,"sourceW":25,"sourceH":26}}}

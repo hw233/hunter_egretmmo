@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterBreakPopDialogSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="430" height="510" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_break_BoardBreakBigFloor_png" height="470" left="0" right="0" bottom="0" scale9Grid="208,54,43,11"/>
+		<e:Image source="ui_card_BoardCardPopTop_png" left="0" right="0" top="11" scale9Grid="182,16,51,10"/>
+		<e:Image id="imgTitle" source="ui_hunter_break_WordsChoseHunter_png" left="10" top="18"/>
+		<e:Button id="btnClose" label="" top="2" right="-13" width="90" height="55">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png" source.disabled="ui_hunter_ButtonCloseRedNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="397" height="380" horizontalCenter="0" top="60">
+			<e:Image source="ui_hunter_break_BoardBreakChoseHunterFloor_png" scaleX="1" scaleY="1" left="0" top="0" right="0" bottom="0"/>
+			<e:Image id="imgNone" source="ui_hunter_break_WordsNoHunter_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Scroller width="370" height="366" horizontalCenter="0" verticalCenter="0" scrollPolicyV="on">
+				<e:List id="listHunter" width="370" height="366" y="0" itemRendererSkinName="HunterHeroItemSkin" x="0" scaleX="1" scaleY="1">
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Button id="btnConfirm" label="" horizontalCenter="0" bottom="10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_bag_ButtonBagSelectedOkUseNor_png" source.down="ui_bag_ButtonBagSelectedOkUseSel_png" source.disabled="ui_bag_ButtonBagSelectedOkUseNor_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

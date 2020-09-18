@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_OutPutItemSkin" width="305" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupAll" left="0" top="0" right="0" bottom="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ui_mail_LayerMailSeconde_png" scale9Grid="21,20,19,30"/>
+		<e:Group id="groupLayer1" width="95" height="93" verticalCenter="0" left="10">
+		<e:Image source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon1" source="ui_huntericon_IconKuluoluo_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="imgIconLock1" source="ui_currencyicon_IconLock_png" left="5" top="-1" x="5" y="-1" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="groupLayer2" width="95" height="93" verticalCenter="0" left="10">
+		<e:Image source="ui_frame_FrameHunterAsh_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIcon2" source="ui_huntericon_IconKuluoluo_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="imgIconLock2" source="ui_currencyicon_IconLock_png" left="5" top="-1"/>
+		</e:Group>
+		<e:Label id="labelName" text="演武商铺" size="16" textColor="0x000000" fontFamily="Helvetica" height="25" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" left="114" right="0" bottom="61"/>
+		<e:Label id="labelInfo" text="关卡越高，品质越高" size="15" fontFamily="Helvetica" height="25" textAlign="left" verticalAlign="bottom" bottom="14" left="114" right="0" width="-193" textColor="0x1c5a00"/>
+		<e:Image id="imgGo" source="ui_common_WordsCommonGet_png" verticalCenter="0" right="10"/>
+		<e:Label id="labelNotOpen" text="未开启" size="16" fontFamily="Helvetica" width="60" height="25" textAlign="center" verticalAlign="middle" textColor="0x777777" verticalCenter="0" right="20" visible="false"/>
+	</e:Group>
+</e:Skin>

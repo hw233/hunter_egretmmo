@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Chat_TimeSkin" width="630" height="58" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image fillMode="scale" source="ui_chat_time_bg_png" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" scale9Grid="7,2,46,16"/>
+		<e:Label id="lbTime" text="" fontFamily="SimHei" size="20" left="6" right="6" maxHeight="600" top="4" bottom="4" height="20"/>
+	</e:Group>
+</e:Skin>

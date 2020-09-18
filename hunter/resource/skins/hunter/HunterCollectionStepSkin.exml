@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HunterCollectionStepSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupMain" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_hunter_BoardCardPopSeconde_png" left="0" right="0" top="0" bottom="0" width="500" height="480" scale9Grid="225,229,33,49"/>
+		<e:Image source="ui_card_BoardCardPopTop_png" scaleX="1.43" top="0" horizontalCenter="4" scale9Grid="191,15,92,15"/>
+		<e:Image horizontalCenter="0" top="6" source="ui_hunter_collection_CollectUpStep_png"/>
+		<e:Button id="btnClose" label="" right="-14" top="-8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ui_hunter_ButtonCloseRedNor_png" source.down="ui_hunter_ButtonCloseRedSel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image horizontalCenter="4" top="40" source="ui_hunter_collection_BoardStepFloor_png" width="483" height="326" scale9Grid="8,7,51,47"/>
+		<e:Group id="groupTeach" height="148" top="39" horizontalCenter="4">
+			<e:Image source="ui_hunter_collection_BoardStepFloor1_png" scaleX="1.08" left="0" right="0" top="0" bottom="0"/>
+			<e:Image source="ui_hunter_IconSkillHunterArrow_png" horizontalCenter="0" verticalCenter="0" x="207" y="175" scaleX="1" scaleY="1"/>
+			<e:Group id="groupCollectLeft" height="107" scaleX="1" scaleY="1" width="122" left="30" top="15" anchorOffsetX="61">
+				<e:Image id="imgIconBackLeft" source="ui_hunter_collection_NormalFrame1_png" horizontalCenter="0" top="0"/>
+				<e:Image id="imgIconLeft" source="hero_icon_head_wj_dongba_png" verticalCenter="3" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group id="groupCollectCenter" height="107" scaleX="1" scaleY="1" width="122" anchorOffsetX="61" anchorOffsetY="53.5" horizontalCenter="0.5" top="15">
+				<e:Image id="imgIconBackCenter" source="ui_hunter_collection_NormalFrame1_png" horizontalCenter="0" top="0"/>
+				<e:Image id="imgIconCenter" source="hero_icon_head_wj_dongba_png" verticalCenter="3" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group id="groupCollectRight" height="107" scaleX="1" scaleY="1" width="122" anchorOffsetX="61" anchorOffsetY="53.5" x="396" y="68.5">
+				<e:Image id="imgIconBackRight" source="ui_hunter_collection_NormalFrame1_png" horizontalCenter="0" top="0"/>
+				<e:Image id="imgIconRight" source="hero_icon_head_wj_dongba_png" verticalCenter="3" horizontalCenter="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group horizontalCenter="3" verticalCenter="31" height="180" width="485">
+		<e:Image source="ui_hunter_collection_board1_png" left="0" right="0" top="0" bottom="0" scale9Grid="8,5,54,37"/>
+		<e:Image horizontalCenter="0" top="-14" source="ui_hunter_collection_WordsStepView_png"/>
+		<e:Group id="groupInfoUp" top="37" width="400" horizontalCenter="0">
+			<e:Image id="imgInfoIconUp" source="ui_hunter_collection_atk_png" left="0" verticalCenter="0"/>
+			<e:Label id="lableAttLeftUp" text="生命+99999" size="18" textColor="0x000000" left="56" verticalCenter="0"/>
+			<e:Image id="imgAttAddNextUp" source="ui_hunter_IconSwakenArrowAtt_png" horizontalCenter="0" verticalCenter="0" x="-17" y="-14" scaleX="1" scaleY="1"/>
+			<e:Label id="lableAttCenterUp" text="+99999" size="18" right="111" verticalCenter="0" textColor="0x000000"/>
+			<e:Image id="imgAttAddUp" source="ui_hunter_IconSwakenArrowAttGreen_png" verticalCenter="0" right="72"/>
+			<e:Label id="lableAttRightUp" text="+99999" size="18" verticalCenter="0" right="6" textColor="0x000000"/>
+			<e:Image id="imgStepStarBefore" source="ui_hunter_collection_IconStar24_png" verticalCenter="0" horizontalCenter="-80"/>
+			<e:Image id="imgStepStarAfter" source="ui_hunter_collection_IconStar24_png" verticalCenter="0" horizontalCenter="80"/>
+		</e:Group>
+		<e:Image source="ui_darkland_relic_Line1_png" width="387" height="2" scaleX="1.1" horizontalCenter="0" verticalCenter="3"/>
+		<e:Group id="groupInfoDown" horizontalCenter="0" width="400" bottom="30">
+			<e:Image id="imgSkillIcon" left="0" verticalCenter="0" source="ui_hunter_collection_def_png"/>
+			<e:Label id="lableAttLeftDown" text="生命+99999" size="18" textColor="0x000000" verticalCenter="0" left="56"/>
+			<e:Image id="imgAttAddNextDown" source="ui_hunter_IconSwakenArrowAtt_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="lableAttCenterDown" text="+99999" size="18" verticalCenter="0" right="111" textColor="0x000000"/>
+			<e:Image id="imgAttAddDown" source="ui_hunter_IconSwakenArrowAttGreen_png" verticalCenter="0" right="72"/>
+			<e:Label id="lableAttRightDown" text="+99999" size="18" verticalCenter="0" right="6" textColor="0x000000"/>
+		</e:Group>
+			<e:Group id="groupAttributeInfo" width="400" horizontalCenter="0" y="105">
+				<e:Group left="0" y="1">
+					<e:Image id="imgFrame" source="ui_frame_FrameHunterAsh_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image id="imgSkill" source="skill_icon_break_icon_huifutisheng_png" scaleX="0.5" scaleY="0.5" width="76" height="76" horizontalCenter="0" verticalCenter="-2.5"/>
+					<e:BitmapLabel id="lableSkillLevel" width="40" height="23" text="2" font="ItemNumWords_fnt" scaleX="0.7" scaleY="0.7" right="-16" bottom="6"/>
+				</e:Group>
+				<e:Label id="lableSkillName" text="攻击力+99999" size="18" textColor="0x000000" left="57" top="0"/>
+				<e:Scroller width="350" height="54" x="56" y="18">
+					<e:Group width="350" height="54">
+						<e:Label id="lablePlayerInfo" text="+99999" size="18" textColor="0x000000" width="350" x="0" y="0" scaleX="1" scaleY="1"/>
+					</e:Group>
+				</e:Scroller>
+			</e:Group>
+		</e:Group>
+		<e:Group horizontalCenter="5" bottom="11" width="484" height="107">
+		<e:Image source="ui_hunter_BoardSkillDown_png" scaleY="1.3" left="0" right="0" top="0" bottom="0" height="82" width="456" scaleX="1.06" scale9Grid="200,29,49,21"/>
+		<e:Group id="groupDownInfo" horizontalCenter="0" verticalCenter="0" width="428" height="90">
+			<e:Image source="ui_hunter_WordsSkillHunterTip_png" verticalCenter="0" left="-7"/>
+			<e:Group id="groupMaterialsLeft" height="90" width="95" scaleX="1" scaleY="1" verticalCenter="0" left="55">
+			<e:Image id="imgFrameMaterials" source="ui_frame_FrameHunterAsh_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" top="0"/>
+			<e:Image id="imgIconMaterials" source="hero_icon_head_wj_feitan_png" scaleX="0.6" scaleY="0.6" width="95" height="93" horizontalCenter="0" top="3"/>
+			<e:Image id="imgAddMaterials" source="ui_hunter_IconSkillHunterMaterailsAdd_png" top="2" right="22"/>
+			<e:Image source="ui_hunter_BoardHunterStar_png" scaleX="1.5" scaleY="2" bottom="-1" left="-3"/>
+			<e:Label id="labelNumberMaterials" text="123456" size="20" anchorOffsetX="0" width="100%" verticalAlign="middle" textAlign="center" horizontalCenter="0" height="25" bottom="0"/>
+			</e:Group>
+			<e:Image id="imgAdd" source="ui_hunter_IconSkillHunterAdd_png" scaleX="1" scaleY="1" horizontalCenter="-50" verticalCenter="-5"/>
+			<e:Group id="groupFragRight" height="90" width="95" scaleX="1" scaleY="1" horizontalCenter="12" verticalCenter="0">
+			<e:Image id="imgFrameSkillFrag" source="ui_frame_FrameHunterAsh_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0" top="0"/>
+			<e:Image id="imgIconSkillFrag" source="hero_icon_head_wj_feitan_png" scaleX="0.6" scaleY="0.6" width="95" height="93" horizontalCenter="0" top="3"/>
+			<e:Image id="imgAddSkillFrag" source="ui_hunter_IconSkillHunterMaterailsAdd_png" top="2" right="22"/>
+			<e:Image source="ui_hunter_BoardHunterStar_png" scaleX="1.5" scaleY="2" horizontalCenter="1" bottom="0"/>
+			<e:Label id="labelNumberSkillFrag" text="123456" size="20" anchorOffsetX="0" width="100%" verticalAlign="middle" textAlign="center" horizontalCenter="0" height="25" bottom="0"/>
+			</e:Group>
+			<e:Group verticalCenter="0" right="0">
+				<e:Button id="btnliftQuality" label="" anchorOffsetX="0" anchorOffsetY="0" width="146" height="81" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ui_hunter_CollectUpStepNor_png" source.down="ui_hunter_CollectUpStepSel_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Label id="lableGoldNumber" text="123456" anchorOffsetY="0" height="23" anchorOffsetX="0" width="88" size="20" scaleX="1" scaleY="1" verticalAlign="middle" horizontalCenter="16" bottom="15" textAlign="center" touchEnabled="false"/>
+			</e:Group>
+		</e:Group>
+			<e:Image id="imgPromoteMax" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" source="ui_hunter_collection_CollectStepMax_png" visible="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

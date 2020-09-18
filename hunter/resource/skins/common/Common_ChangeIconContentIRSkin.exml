@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Common_ChangeIconContentIRSkin" width="620" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller width="620" height="130" horizontalCenter="0" verticalCenter="0" scrollPolicyH="off" scrollPolicyV="off">
+		<e:List id="lstItem">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="17"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

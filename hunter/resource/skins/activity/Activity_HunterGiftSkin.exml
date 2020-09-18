@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_HunterGiftSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="groupMain" width="960" height="640" horizontalCenter="0" verticalCenter="0">
+			<e:Image horizontalCenter="31" verticalCenter="2" x="38" y="130" scaleX="1" scaleY="1" source="ui_acitivity_huntergift_diban_png"/>
+			<e:Image x="581" y="303.12" scaleX="1" scaleY="1" source="ui_acitivity_huntergift_wenzi_png"/>
+			<e:Image source="ui_acitivity_huntergift_time_png" x="630" y="169.12" scaleX="1" scaleY="1"/>
+			<e:Image x="24.62" y="40.45" scaleX="0.9" scaleY="0.9" source="ui_acitivity_huntergift_renwu_png"/>
+		</e:Group>
+		<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="groupKeel" width="0" height="0" x="498" y="454.78" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.9" scaleY="0.9"/>
+			<e:Label id="labeltime" text="8天" x="717" y="171.12" anchorOffsetX="0" width="156" size="18" textColor="0xff0000" bold="true" anchorOffsetY="0"/>
+			<e:Button id="btnBuy" label="" x="605" y="489.78">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_huntergift_btn_png" source.down="ui_acitivity_huntergift_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnClose" label="" x="837" y="132.78">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_huntergift_close_png" source.down="ui_acitivity_huntergift_close_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="ui_acitivity_huntergift_wupindi_png" x="590" y="329.78" anchorOffsetX="0" width="228"/>
+			<e:Scroller width="250.74" height="79.89" x="589" y="330.78" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.9" scaleY="0.9" scrollPolicyH="on" scrollPolicyV="off">
+				<e:List id="list" anchorOffsetY="0" height="167.29" anchorOffsetX="0" width="247.77">
+					<e:layout>
+						<e:TileLayout requestedRowCount="1" orientation="columns" paddingLeft="10" paddingTop="10"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Scroller width="250.74" height="79.89" x="589.67" y="404.81" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.9" scaleY="0.9" scrollPolicyH="on" scrollPolicyV="off">
+				<e:List id="list1" anchorOffsetY="0" height="176.18" anchorOffsetX="0" width="247.77">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" orientation="columns" paddingLeft="10" paddingTop="10"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

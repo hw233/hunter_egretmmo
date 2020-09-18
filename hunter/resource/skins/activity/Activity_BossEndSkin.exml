@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Activity_BossEndSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_acitivity_boss_BoardUseFruitAward_png" horizontalCenter="0" verticalCenter="36"/>
+		<e:Image id="imgWinLogo" source="ui_activity_boss_WordsFinish_png" horizontalCenter="0.5" verticalCenter="-175.5"/>
+		<e:Button id="btnReturn" label="" horizontalCenter="0" verticalCenter="171.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_activity_boss_ButtonEndGoNor_png" source.down="ui_activity_boss_ButtonEndGoSel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ui_activity_boss_WordsRank_png" horizontalCenter="-170" verticalCenter="-61"/>
+		<e:Image source="ui_activity_boss_WordsHitRank_png" horizontalCenter="97" verticalCenter="-55"/>
+		<e:Label id="lbRank" text="100名外" textColor="0xfefb00" size="27" verticalAlign="middle" textAlign="center" horizontalCenter="-141" verticalCenter="-59.5"/>
+		<e:Image source="ui_acitivity_boss_BoardHitAward_png" horizontalCenter="0.5" verticalCenter="42"/>
+		<e:Scroller width="440" height="80" horizontalCenter="0" verticalCenter="41">
+			<e:List id="lstHit"/>
+		</e:Scroller>
+		<e:Label id="lbPoints" text="99999999" textColor="0xff9200" size="24" fontFamily="Helvetica" horizontalCenter="174.5" verticalCenter="-55"/>
+		<e:Label text="奖励将在活动结束后发送到邮箱里" textColor="0xffb900" size="22" fontFamily="Helvetica" horizontalCenter="0" verticalCenter="112"/>
+	</e:Group>
+</e:Skin>

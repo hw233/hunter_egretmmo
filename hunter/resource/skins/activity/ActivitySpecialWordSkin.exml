@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivitySpecialWordSkin" width="720" height="550" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="720" height="550" x="0" y="0">
+		<e:Image source="ui_acitivity_monthcard_lihui_png" horizontalCenter="-316" verticalCenter="22"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:Group id="groupNormal" x="118" y="8">
+			<e:Image id="imgNormalMonthCard" source="ui_acitivity_monthcard_chuji_png" x="13" y="11"/>
+			<e:Image id="imgRenewNormal" source="xufei_png" x="13" y="207.5"/>
+			<e:Button id="btnGetNormal" label="领取" x="82" y="477">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_special_btn1-1_png" source.down="ui_acitivity_special_btn1-2_png" source.disabled="ui_acitivity_special_btn1-3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000" size="24"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnBuyNormal" label="购买" x="82" y="477">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_special_btn1-1_png" source.down="ui_acitivity_special_btn1-2_png" source.disabled="ui_acitivity_special_btn1-3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000" size="24"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="groupNormalTime" x="0" y="21">
+				<e:Image source="ui_acitivity_monthcard_biaoqian_png" x="0" y="0"/>
+				<e:Label id="labelNormalTime" text="剩余8956天" anchorOffsetX="0" width="119.33" anchorOffsetY="0" height="34.67" textAlign="center" verticalAlign="middle" textColor="0x8F0B06" size="18" fontFamily="Helvetica" x="4" y="1"/>
+			</e:Group>
+			<e:Label id="labelGetNormal" text="购买后立即获得" textColor="0x3F485D" size="24" bold="true" fontFamily="Helvetica" x="74" y="346" touchEnabled="false"/>
+			<e:Scroller id="scrollerNormalAward" anchorOffsetX="0" width="0" horizontalCenter="4" verticalCenter="155.5">
+				<e:List id="listNormalAward" x="-3.03" itemRendererSkinName="GiftCommonAwardItemSkin">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="groupSenior" x="416" y="8">
+			<e:Image id="imgSeniorMonthCard" source="ui_acitivity_monthcard_gaoji_png" x="13" y="11"/>
+			<e:Image id="imgRenewSenior" source="xufei_png" x="18" y="207.5"/>
+			<e:Button id="btnGetSenior" label="领取" x="72" y="477">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_special_btn1-1_png" source.down="ui_acitivity_special_btn1-2_png" source.disabled="ui_acitivity_special_btn1-3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000" size="24"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnBuytSenior" label="购买" x="72" y="477">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ui_acitivity_special_btn1-1_png" source.down="ui_acitivity_special_btn1-2_png" source.disabled="ui_acitivity_special_btn1-3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000" size="24"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="groupSeniorTime" x="0" y="21">
+				<e:Image source="ui_acitivity_monthcard_biaoqian_png" x="0" y="0"/>
+				<e:Label id="labelSeniorTime" text="剩余8956天" anchorOffsetX="0" width="119.33" anchorOffsetY="0" height="34.67" textAlign="center" verticalAlign="middle" textColor="0x8F0B06" size="18" fontFamily="Helvetica" x="4" y="1"/>
+			</e:Group>
+			<e:Label id="labelGetSenior" text="购买后立即获得" textColor="0x3F485D" size="24" bold="true" fontFamily="Helvetica" x="75" y="346" touchEnabled="false"/>
+			<e:Scroller id="scrollerSeniorAward" width="0" height="66" anchorOffsetX="0" horizontalCenter="5" verticalCenter="155">
+				<e:List id="listSeniorAward" x="-1">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+
+
+
+</e:Skin>
